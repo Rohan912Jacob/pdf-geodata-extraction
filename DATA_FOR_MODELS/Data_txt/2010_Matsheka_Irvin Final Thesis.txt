@@ -1,0 +1,683 @@
+
+--- Page 7 ---
+Abstract 
+Recent studies on the Sadiola open cast have indicated different metallogenic styles for the Sadiola gold 
+deposit.  The  Sadiola  open  cast  occurs  with  the  FE3  and  FE4  open  cast  within  the  Palaeoproterozoic 
+Kedougou-Kêniêba  Inlier  of  the  West  African  Craton.    The  Inlier  consists  of  Birimian  metasediments 
+which  were  metamorphosed  and  deformed  during  the  2.1  –  1.9 Ga  Eburnean  orogeny.    Metamorphism 
+reached  lower  greenschist  facies  as  indicated  by  the  chlorite-biotite-cordierite-calcite-dolomite  mineral 
+assemblages. The Sadiola deposit is hosted by the Kofi Formation which is currently undated. The Kofi 
+Formation is made up of Birimian-type sediments and they include greywacke, shale and graphitic shale 
+with conglomeratic interbeds, banded iron formations and carbonates. 
+The alteration types recorded in the host rocks are potassic, silicification, dolomitisation, chlorite-biotite 
+alteration,  calc-silicate  and  sulphidation.  The  common  sulphide  minerals  are  pyrite,  arsenopyrite  and 
+pyrrhotite  with minor  magnetite and sphalerite. The following paragenetic sequence is observed for the 
+ore  mineralogy:  pyrite  –  chalcopyrite  -  (+  sphalerite)  –  arsenopyrite. Gold is  paragenetically  associated 
+with pyrite and arsenopyrite. The rocks also show evidence of deformation through kinked biotite and the 
+development  of stylolites. Two metamorphic events are recorded at Sadiola: regional metamorphism to 
+greenschist facies and contact metamorphism to hornblende-hornfels facies.  
+Sadiola deposit is therefore classified as either an intrusion-related gold deposit or a thermal aureole gold 
+deposit,  which  are  all  subclasses  of  orogenic  gold  deposits.  Mineralisation  at  the  Sadiola  deposit  is 
+spatially and temporally associated with the tonalite-granodiorite plutons and tonalite dykes. The Sadiola 
+Fracture  Zone  served  as  the  fluid  conduit  and  mineralisation  occurs  along  the  inner  to  middle  contact 
+aureole. The ubiquitous occurrence of biotite marker in polished thin sections is interpreted as indicating 
+biotite isograd and marks the division between rocks that have been completely recrystallised at Sadiola 
+to rocks in which the primary bedding is still preserved.  
+vi
+
+--- Page 8 ---
+CHAPTER 1: Introduction 
+1.1  Preamble 
+The giant  Sadiola opencast gold mine is located  within  the Sadiola  goldfield in Mali  in the Kedougou-
+Kéniéba Inlier (KKI), which is part of the West African Craton (WAC). The goldfield also hosts the FE3 
+and  the  FE4  open  casts.  These  together  with  the  Sadiola  opencast  mine  are  mined  by  Société 
+d’Exploitation  des  Mines  d’Or  de  Sadiola  S.A  (SEMOS),  which  is  a  joint  venture  between  the 
+government  of  Mali,  IAMGOLD,  IFC  and  AngloGold  Ashanti.  Mining  in  the  Sadiola  opencast 
+commenced in 1996 and the opencast is currently reviewing its resources and reserves. 
+This research project concentrates primarily on the ore genesis of the Sadiola gold mine. Various deposit 
+styles  have  been  suggested  for  the  Sadiola  deposit  in  the  sub-classes  of  an  orogenic  type  deposit 
+(Goldfarb  et  al.,  2001).  Mineralisation  at  Sadiola  has  been  shown  to  have  a  temporal  and  a  spatial 
+relationship to the tonalite-granodiorite plutons and tonalite dykes. Sadiola is located in close proximity to 
+the  Alamoutala-Sekokoto-Kakadian  plutonic  system.  Mineralisation  has  shown  to  be  as  a  result  of  the 
+fluids and metamorphism associated with the intrusions (Hein and Tshibubudze, 2007b). Determining the 
+paragenesis,  investigation  of  the  mineralogical,  microstructural  and  alteration  events  will  assist  in 
+determining  gold  mineralisation,  and  is  considered  important  for  the  Sadiola  exploration  and  in-mine 
+development. 
+1.2  Location and Physiography 
+The  Sadiola  opencast  mine  is  located  within  the  Sadiola  village.  The  village  is  situated  in  the  south-
+western part of Mali at about 77km south of the regional capital, Kayes (Fig. 1) near the border of Mali 
+and  Senegal.  Mali  is  a  semitropical  to  arid  landlocked  country  which  is  part  of  the  West  African 
+Savannah-Sahel  region  (Fig.  1).  It  extends  over  1,  240,  278  square  kilometres  in  size.  Its  estimated 
+population was recorded at 12.5 million as at 2006 with an annual growth rate of 2.4%. French serves as 
+an official language with 80% of the population  speaking Bambara. The main religion is Muslim, with 
+Christian and other religions estimated at 10% of the population. 
+In 2006, the country’s GDP was estimated at $5.847 billion with an annual growth rate estimated at 5.1%.  
+The  country’s  GDP  puts  Mali  as  one  of  the  poorest  countries  in  the  world.  The  main  sectors  that 
+contribute largely to this GDP are mining, agriculture and livestock farming and Mali is currently the 3rd 
+largest  producer  of  gold  in  the  continent  after  the  Republic  of  South  Africa  and  Ghana.  Mining  is  a 
+growing industry in the country and gold mining accounts for approximately 80% of the mining activity. 
+Gold became the number one mining export in Mali with AngloGold Ashanti and Randgold being two of 
+the biggest mining houses in the country (US Department of States). 
+7
+
+--- Page 9 ---
+1.3  Aims and Objectives 
+The  main  aim  of  this  project  is  to  define  the  Sadiola  deposit  style  with  a  particular  interest  in  the 
+petrology, paragenesis, structure, mineralogy of the deposit and its genetic model. This will then be used 
+to  compare  the  model  with  other  gold  deposits  in  the  WAC.  The  key  features  that  will  help  in 
+classification include describing and characterising the mineralogical textures and their significance to ore 
+forming processes, the alteration systems and the mineral association.  
+Figure 1: Locality map of Mali (US Department of States). 
+8
+
+--- Page 10 ---
+CHAPTER 2: Methodology 
+Data Collection 
+This research comprised two important tasks: petrographical work and field work which were preceded 
+by  literature  review.  Field  work  was  completed  in  June  2009  and  involved  examining  drill-core  and 
+mapping  of  the  host  rocks.  Six  drill  cores  from  the  Sadiola  Deep  Sulphide  project  were  examined  and 
+these  include  SD022,  SD042,  SD048,  SD119,  SD129  and  SD782.  Samples  were  collected  in  2008  and 
+polished thin sections were prepared by SGS Laboratories in Booysens, Johannesburg.  
+Field  mapping  involved  mapping  of  the  West  High-Wall  of  the  main  pit  and  the  Helicopter  pit  at  the 
+southern  end  of  the  main  Sadiola  pit.  At  each  station  point  the  following  (if  present)  were  recorded: 
+lithology, bedding and cleavage orientation, faulting, folding, alteration and the distance from the station 
+point to the face wall. Station points were distanced at 10R intervals at which R is the approximated to be 
+1.02m. Stratigraphic facing was determined based on sedimentary features i.e. cross-bedding or turbidites. 
+The measured orientations (strike/dip/dip direction) were plotted on equal area stereonet projection using 
+the GeOrient© 9.4.0 software. 
+Six  diamond  drill  cores  were  examined  based  on  the  lithological  contacts.    From  this,  the  depth  of  the 
+drill  core  was  recorded,  as  well  as  alteration  and  mineralogy.  The  hole  size,  azimuth  and  dip  was 
+recorded. Pits maps were provided by SEMOS on site. 
+A petrographic study  was completed at University of the Witwatersrand. For each  thin section, mineral 
+assemblage, mineral textures, cross-cutting relationship and sulphide mineralogy were recorded. 
+9
+
+--- Page 11 ---
+CHAPTER 3: Regional Geology  
+3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier 
+The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately 
+1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. 
+The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin.  The 
+Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et 
+al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat 
+et al., 2000).  
+The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig. 2).The 
+WAC crops out in western Mali in what is known as the Kedougou-Kêniêba Inlier (Dia et al., 1997). The 
+Birimian sequence represents a large sedimentary basin and a volcanic belt which correlates well with the 
+2.1  Ga  accretion  period  during  the  Eburnean  orogeny  (Milesi,  1992)The  Palaeoproterozoic  Biriman 
+Kedougou-Kéniéba Inlier (KKI) in the West African Craton can be divided into three distinct domains: 
+the  eastern,  central  and  the  western  domain  (Matabane  and  Hein,  submitted).  The  central  and  eastern 
+domains are separated by the Senegalo-Malian Shear Zone (SMF) while the central and western domains 
+are separated by the Main Transcurrent Shear Zone (MTZ) (Fig. 3). 
+The  geology  of  these  domains  is  defined  largely  by  Boshoff  et  al.  (1989),  Ledru  et al.  (1991), Wilson, 
+(2002), Dioh et al. (2006) and Gueye et al. (2008): 
+* The western domain is composed of the Mako Supergroup, which is a volcanic sequence that consists of 
+tholeiitic  basalt  and  andesite.  It  also  consists  of  tholeiitic  pillowed  basalt.  The  pillowed  basalt  have  an 
+NMORB affinity, while the massive basalt has an enriched MORB composition. It is also characterised 
+by  folded  low-grade  metamorphic  rocks  which  are  intruded  by  granitic  and  mafic  bodies.  The  Mako 
+Supergroup  is  intruded  by  the  Sandikounda  Layered  Complex  and  the  Laminia  Kaourou  Plutonic 
+Complex  (2160-2130  Ma).  The  NW-SE  trending  Mako  volcanic  belt  is  located  west  of  the  Main 
+Transcurrent Zone. 
+*The central domain is dominated by the Diale-Dalemé Supergroup which is a sedimentary to volcano-
+sedimentary  unit.  It  is  composed  of  detrital  sedimentary  rocks  interbedded  with  calc-alkaline  volcanic 
+rocks. The sedimentary rocks are isoclinally folded with the folds being upright and overturned to the SE-
+direction.  It  is  intruded  by  the  Saraya  plutonic  complex  and  the  Balangouma  and  Boboti  plutons.    The 
+Diale-Dalemé occurs with the Faleme volcanic belt which consists of andesite and felsic lava, with  
+10
+
+--- Page 12 ---
+chemical  sediments  being  observed  throughout  the  belt.  The  Main  Transcurrent  Zone  follows  the 
+lithological contact between the Mako and the Diale-Dalema Supergroups. 
+*The  eastern  domain  hosts  the  Sadiola  goldfield  in  the  Kofi  Formaton  (Bishoff  et  al.,  1989;  Ranson, 
+1998; Wilson, 2002). This formation is also referred to as the Dalema-Kofi Supergroup and lies east of 
+the Senegalo-Malian Shear Zone. The Kofi Formation is dominated by metasedimentary rocks (Ranson, 
+1998; Wilson, 2002). These rocks are classified as Biriman-type sediments and include greywacke, shale 
+and graphitic shale with conglomeratic interbeds, banded iron formations and carbonates (Hanssen et al., 
+1978). 
+The Dalema-Kofi Supergroup is crosscut by tourmaline-rich quartz veins which are the primary host to 
+gold  mineralisation  (Wilson,  2002)  in  the  Loulo  goldfield,  SSE  of  Sadiola,  near  the  town  of  Kêniêba. 
+Ranson (1998) indicated that gold mineralisation occurs in pelitic shales.  The Dalema-Kofi sequence is 
+currently  not  dated  (Dioh  et  al.,  2006;  Matabane,  2008).  It  is  transacted  by  the  Senegalo-Malian  Shear 
+Zone with several gold deposits located in close proximity to the structure (Boshoff et al., 1998). 
+11
+
+--- Page 13 ---
+Area of Study 
+Figure. 2: Simplified geological map of the West African Craton (Dioh et al., 2006). 
+12
+
+--- Page 14 ---
+Figure. 3: A simplified geological map of the Kedougou-Kéniéba Inlier showing the location of the study 
+area (redrawn from Dioh et al., 2006). 
+13
+
+--- Page 15 ---
+3.2 The Geology of the Sadiola opencast mine and the Sadiola deposit  
+The  Kofi  Formation  of  the  Kedougou-Kêniêba  Inlier  is  dominated  by  fine-grained  carbonaceous 
+greywacke,  alternating  greywacke-shale  units,  impure  carbonates  which  were  folded  and  contain 
+limestone beds, siltstone, minor tuff and volcanoclastics units (Boshoff et al, 1998; Hanssen et al., 1998; 
+Hein and Tshibubudze, 2007a, b).  Jordaan et al. (1994) indicated that calcitic marbles occur in the Kofi 
+Formation. The Sadiola goldfield consists of greywacke, siltstone, marble, carbonaceous to volcanoclastic 
+greywacke  and  BIF  shale  (Hein  and  Tshibubudze,  2007a,  b).  The  goldfield  occurs  along  a  marble-
+greywacke contact located east of the Senegalo-Malian Shear Zone (Hanssen et al., 1998). 
+The greywacke units of the Sadiola goldfield are best developed to the west of the Sadiola Fracture Zone, 
+while impure carbonates are best developed to the east. The Sadiola Fracture Zone is interpreted to be a 
+splay  of  the  Senegalo-Malian  Shear  Zone.  Carbonate  units  are  the  main  host  to  the  Sadiola  deposit 
+(Boshoff  et  al.,  1998).  The  lithologies  of  the  Sadiola  goldfield  show  evidence  of  macroscopic  to 
+mesoscopic  slump  structures  (Hein  and  Tshibubudze,  2007a,  b).The  slump  structures  in  the  Sadiola 
+goldfield  were  defined  by  Matabane  (2008)  in  the  FE3  open  casts,  but  occur  throughout  the  Sadiola 
+goldfield. 
+There is  however  a  lack  of  detailed  stratigraphy  for  the Kofi  Formation  in  the  literature.  Jordaan  et al. 
+(1994)  outlined the  stratigraphy  of  the  Kofi  Formation:  the  formation  is  over  500m  in  thickness and  is 
+dominated at the base by arenitic tourmalinite, overlain by green argillite, interbedded pink arenite, calc-
+silicate, followed by the calcitic marble and pelite, which is locally dolomitised. The sequence is capped 
+by fine-medium grained arenite, siltstone, tourmalinite and intermediate lava. The Sadiola hanging-wall is 
+composed of greywacke (Sheets and Moore, 2000a; Hanssen, 1998; Van der Merwe, 2002; Hein, 2008) to 
+metagreywacke  (Sheets  and  Moore,  2000b).  The  hanging-wall  consists  of  greywacke  unit,  carbonate 
+bearing  units,  fine-grained  distal  turbidite  units,  tuffaceous  and  acid  volcanic  units  (Sheets  and  Moore, 
+2000a, b). Sheets and Moore (2000a) used the Sadiola Fracture Zone as the division between the hanging 
+wall and the footwall.  
+The  footwall  consists  of  marble  which  is  interbedded  with  pelitic  beds.  Three  types  of  marble  are 
+recognised  by  Hanssen  (1998)  and  include  contorted,  disrupted  and  transposed  marbles.  The  carbonate 
+units  are  massive  to  bedded  texture  and  they  are  succeeded  by  a  slump  facies  (Hein,  2008).Quartz-
+feldspar  porphyry  and  diorite  dykes  cross-cuts  both  the  hanging  wall  and  the  footwall  greywacke  and 
+marble  units  respectively  (Moore  and  Sheets,  2000a,  b;  Ranson,  1998;  Hanssen  et  al,  1998).  The 
+greywacke unit has been cross-cut again by dolomite and quartz veins (Ranson, 1998). 
+14
+
+--- Page 16 ---
+3.3 Metamorphism  
+Metamorphism  associated  with  the  Eburnean  orogeny  has  affected  the  Birimian  sequence  (Hastings, 
+1982).  Metamorphic  grade  is  recorded  as  low-pressure  greenschist  facies  as  indicated  by  the  mineral 
+assemblage muscovite, chlorite, + biotite mineral assemblage (Ledru et al., 1991). Liégeois et al., (1991) 
+recognised  a  mineral  assemblage  indicative  of  the  biotite-chlorite  transition  in  the  greenschist  facies. 
+These  greenschist  minerals  are  fine-grained  and  show  a  granoblastic  texture  with  no  indication  of 
+porphyroblastic  texture.  Green  to  brown  biotite  and  cordierite  mineralogy  is  observed  in  contact-
+metamorphic  aureoles  of  the  plutons.  The  carbonates  are  recrystallised  to  marbles  and  the  sequence 
+reached hornblende hornfels facies occurs near the contact aureole of the granitoids (Ledru et al., 1991; 
+Hein et al., 2004; Hein, 2009). 
+Liégeois  et  al. (1991) concluded  that  metamorphism was  syn-tectonic  based  on the orientation  of  sheet 
+silicates  and  amphiboles.  The  KKI  sediments  were  then  intruded  by  various  granitiod  plutons  which 
+caused further metamorphism (Dioh et al., 2006). The four types of granitoids that intruded the sediments 
+of  the  KKI  are  sodic  calc-alkaline  granitoids,  amphibole  bearing  granitoids,  pyroxene  and  K-bearing 
+granitoids  and  the  peraluminous  biotite  bearing  units  (Dioh  et  al.,  2006).  In  the  Sadiola  goldfield,  two 
+metamorphic  events  are  recorded:  regional  metamorphism 
+to  greenschist  facies  and  contact 
+metamorphism  (Hein  and  Tshibubudze,  2007a,  b).  Contact  metamorphism  is  defined  as  the 
+metamorphism that  occurs  in  close proximity  to  intrusions  and has  formed  as a  result  of  heat  from  the 
+intrusion (Blatt et al., 2006). Metamorphism at Sadiola reached hornblende-hornfels facies as a result of 
+the emplacement of tonalite-granodiorite plutons and the tonalite dykes  (Hein and Tshibubudze,  2007a, 
+b). 
+3.4 Gold Mineralisation 
+Three  types  of  gold  mineralisation  have  been  recognised  in  the  West  African  Craton.  These  are  pre-
+orogenic,  syn-orogenic  and  late-orogenic  mineralisation.  Mineralisation  is  related  to  regional  tectonic 
+event (Milesi et al, 1992; Beziat et al., 2008). Pre-orogenic deposits are associated with early extensional 
+zones and are recorded in stratiform Au tourmalinite in the Loulo goldfield in Mali (Milési et al., 1991; 
+Fouillac et al., 1993; Béziat et al., 2008). Syn-orogenic mineralisation is associated with mineralisation in 
+disseminated  sulphides  in  volcanic  and  plutonic  rock  (Milési  et  al.,  1992).  Late-orogenic  deposits  are 
+characterised by disseminated gold-bearing arsenopyrite and Au-quartz lode and quartz-vein type. These 
+are interpreted as the major type and host of gold in West Africa (Milési et al., 1991).Two metallogenic 
+styles  have  been  observed  in  the  Sadiola  goldfield  by  Hein  and  Tshibubudze  (2007a,  b)  and  these  are 
+placer gold in the palaeochannels and screes and gold occurring in stockwork veins and breccias.  
+15
+
+--- Page 17 ---
+Chapter 4: Results 
+4.1 Drill core results 
+Sample description involved a detailed study of the core samples and describing the rock types, alteration 
+sequence and paragenesis (if possible) of the overall individual core logs. The following table summarises 
+the events from the drill core samples.  
+Table 1. The paragenetic sequence observed in the samples from the six Borehole cores. 
+Sequence of Events 
+SD 129  SD 042  SD 022  SD 119 
+SD 782  SD 048 
+1. Deposition of the sediments 
+2. Slump of sediments 
+3. Lithification 
+4. Fracturing and Dilation 
+5. Vein development 
+6. Silica rich vein 
+7.  Sulphide  rich  deposits  in  the  
+vein 
+8. Disseminated sulphides 
+9. Later Epidote and chlorite 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x (with calcite) 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+Epidote 
+Chlorite 
+Sulphides 
+The overall sequence of events includes: 
+1.  (a) Deposition of sediments.  
+(b). Slumping of sediments. 
+2.  The sediments were lithified.  
+3.  Fracturing and dilation and formation of open-space fill. 
+4.  Precipitation of disseminated sulphides. 
+5.  The  last  stage  is  the  development  of  epidote  and  chlorite.  The  chlorite  occurs  as  spots  in  the 
+matrix. 
+16
+
+--- Page 18 ---
+The observed lithologies in the drill cores are greywacke and marble unit. The major alteration types are 
+calc-silicate,  potassic,  silicification  and  sulphidation.  The  major  ore  minerals  are  oxidized  pyrite  and 
+pyrrhotite. Minor ankerite veins were also recognized in the marble unit. The greywacke and the marble 
+unit  are  separated  by  an  oxidized  carbonaceous-siltstone  greywacke.  This  sequence  is  also  observed  in 
+five  of  the  drill  cores. The  veins  that  cross-cut  the  greywacke  unit  are  zoned. These  are  quartz-calcite-
+sulphides and pyrite-calcite-quartz zoning. Pyrite also develops as an open space fill. The mineralogy of 
+the  greywacke  unit  showed  a  randomly  oriented  mineral  texture  and  with  chloritoid  spots,  euhedral 
+hornblende and biotite in an equiangular texture in borehole SD129. This texture implies that the grains 
+have triple point boundaries and are in textural equilibrium.  
+The observed sequence in borehole SD782 is an oxide zone from about 93m to 183m that grades into a 
+marble unit. The oxide zone is mainly composed of metasediments, sandy siltstone and a slump sequence. 
+The  zone  is  Fe-altered.  Primary  bedding  has  been  destroyed  in  this  zone,  but  is  still  preserved  in  the 
+marble  unit.  Soft  sediment  deformation  structures  were  observed  in  the  marble  unit.  Slumping  which 
+occurred prior to the lithification processes are the main soft-sediment structures observed.  
+The  carbonaceous-siltstone  greywacke  unit  grade  from  sulphidated  greywacke  at  the  contact  with  the 
+greywacke  unit, to  a  sulphide rich zone and finally into a sulphidated carbonate  at the contact with the 
+marble.  
+17
+
+--- Page 19 ---
+A 
+B 
+C 
+Host Rock: 
+Inner Quartz-Calcite 
+vein 
+Outer Chlorite 
+Epidote 
+Host Rock: 
+Host Rock: Marble 
+Slump Structures 
+Hematite (Sulphides) 
+Matrix of biotite-
+(feldspar)albite-quartz 
+Figure. 4: Photographs of the drill core samples showing some of the observed mineralogy and textures. 
+A: SD22-SD40: Soft Sediment structures and epidote mineralogy observed in the marble unit. B: SD22-
+SD36:  Brecciated  marble  unit  with  later  sulphide  (hematite)  and  potassic-alteration  development.  C: 
+SD119-SD59: Greywacke  unit  with  a  zoned  vein  of  outer  chlorite  and  inner  silica-calcite  and  sulphide 
+composition. Photos taken by Prof.  Hein in 2007. 
+18
+
+--- Page 20 ---
+4.2 Lithologies 
+Mapping was undertaken in two areas in the Sadiola open  cast: West high-wall in the  main pit and the 
+Helicopter pit located at the southern end of the main pit (Map 1 & 2). The main lithologies observed in 
+the main pit are metagreywacke and carbonates.  The greywacke sequence is massive in texture and the 
+visible  mineralogy  includes  quartz,  calcite,  minor  sulphide  and  epidote  in  some  cases.  The  carbonate 
+sequence  becomes  friable  and  less  competent  at  the  contact  with  the  carbonaceous-siltstone  greywacke 
+unit. This unit is interpreted as the Sadiola Fracture Zone (SFZ) as defined by Hein (2009) and Boshoff et 
+al (1998). Pyrolusite, epidote and kaolinite occur in this zone and the zone is cross-cut by quartz veins. It 
+is heavily oxidized, silicified and kaolinised meaning that the unit is very decomposed.  
+A carbonate sequence is exposed in the pit face to the east of the Sadiola Fracture Zone. . The mineralogy 
+of the carbonate sequence includes biotite, calcite and sulphide. The sequence is massive  at the contact 
+with the SFZ, gradational with a bedded carbonate.  Euhedral crystals of hornblende and calcite crystals 
+are  set  in  fine-grained  bedded  matrix  comprising  epidote,  sulphides,  calcite  and  quartz.  This  texture  is 
+interpreted as a result of skarnification. Further to the east, the exposed carbonate sequence hosts micro-
+folds. It varies from hornfels-biotite rich marble, epidote-rich marble and calcite-rich marble. An anticline 
+is developed in the carbonate sequence. 
+Three  upper  benches  were  mapped  in  the  Helicopter  pit  (Map  1).  These  benches  consist  of  sandy 
+metasediments and are cross bedded. The metasediments include slump sequences with minor seismites. 
+Primary  bedding  is  destroyed  in  some  of  the  metasediments.  The  sequence  is  fine-grained  and  hosts 
+quartz veins. The helicopter metasediments are folded by a tight anticline with the fold hinge hosting a 
+major fault (Fig. 5).  
+19
+
+--- Page 21 ---
+f 
+Figure. 5 : Metasediments of the Helicopter Pit. These are folded with a fault at the fold hinge. The fault 
+is oriented at 0100/660/W. Photograph taken from the Helicopter Pit facing south. 
+f 
+20
+
+--- Page 22 ---
+4.3 Structure 
+Two  deformation  events  are  recorded  for  the  study  areas  in  the  Sadiola  deposit.  These  are  interpreted 
+from  equal  area  stereographic  projections  of  bedding  and  the  discontinuous,  parallel  cleavage  in  the 
+metasedimentary  rocks.  The  equal  area  stereographic  projections  of  bedding  from  the  Helicopter  Pit 
+records  a  calculated  mean  bedding  of  336o/64oE  with  a  calculated  mean  for  the  west  high-wall  of 
+350o/51oW.    The  spread  of  the  data  around  the  primitive  circles  is  related  to  folding  about  a  NNW-
+trending  fold  axes  (F1)  and  refolding  of  F1  about  the  ENE-ESE  trending  fold  axes  (F2).  Bedding  is 
+rotated against minor faults (Fig. 6). 
+A 
+B 
+Figure. 6: Equal area stereographic projection of bedding from A: Helicopter Pit & B: West High-wall in 
+the main pit. 
+The  equal  area  stereographic  projections  of  cleavage  of  the  Helicopter  Pit  records  a  calculated  mean 
+cleavage of 343o/54E, however the data can be resolved into two data sets: a NNW trending set and a NE-
+trending set (Fig. 7). Two sets of cleavages were also observed by Hein (2009) in which the ENE trending 
+sets  (S2)  cross-cuts  the  NNW-trending  sets  (S1).  Unfortunately  this  cross-cutting  relationship  has  not 
+been observed in the study area, but is accepted by the mine as a tectonic sequence for the Sadiola pit. 
+The  calculated  mean  for the  NNW-trending  cleavage  is  332o/60oE,  while  the ENE trending  cleavage  is 
+061O/43OS. The spread of data about the primitive circle for the NNW-trending cleavage is as a result of 
+folding by F2 (Fig. 7). 
+21
+
+--- Page 23 ---
+A 
+A1 
+A2 
+Figure. 7 : Equal area stereographic projections of cleavage from Helicopter Pit. The data is resolved into 
+two data sets : A1= S1 & A2= S2. 
+Stereographic  projections  for  the  cleavage  from  the  west  high-wall  in  the  main  pit  is  not  presented 
+because only five  data  points were collected and were  therefore considered to be  insufficient. However 
+the calculated mean was 213O/72OE. 
+22
+
+--- Page 24 ---
+Rose diagrams for quartz veins from the Helicopter Pit and the west high-wall are presented in Figure 8. 
+The  dominant  trend  of  quartz  veins  in  the  Helicopter  Pit  is  NE  with  sub-ordinate  trend  towards  NNE, 
+while  the  dominant  trend of  the  quartz  veins in  the  west  high-wall  is NNE  with  the  sub-ordinate trend 
+towards NNW. The quartz veins elsewhere in the main pit are folded by F2 (Hein, 2009) indicating that 
+the  veins  formed  prior  to  S2.  The  relationship  between  S1  in  the  Helicopter  Pit  and  the  dominant 
+orientation of quartz veins suggest that they formed at the same time during the NE directed compression. 
+This is because bedding and cleavage verge towards NE.   
+A 
+B 
+n=28 
+n=15 
+Figure. 8: Rose diagrams for the A: Helicopter Pit and the B: Main Pit quartz veins. 
+23
+
+--- Page 25 ---
+4.4 Petrography 
+The lithologies of the Sadiola gold mine vary from bedded/skarnified marble to marble and greywacke. 
+They  range  from  fine-grained  to  coarse-grained.  The  boundary  between  the  textures  is  marked  by 
+randomly oriented biotite (Fig. 9) although this texture was not observed in all the samples. The matrix 
+minerals are biotite, calcite, dolomite, quartz and minor feldspar (albite), chloritoid, chlorite, hornblende, 
+cordierite,  epidote  and tourmaline  (Fig.  9,  10,  11).  Magnetite  is  an  accessory  mineral.  Minor  cordierite 
+occurs  with  hornblende  in  sample  SD782-SD16.  The  dominant  alteration  types  are  potassic,  chlorite, 
+carbonatization (dolomitisation) and sulphidation. The biotite has been altered to chlorite, and chlorite is 
+also accompanied by potassic alteration. Potassic alteration is shown by the development of the albite and 
+it  overprints  quartz.  The  alteration  paragenesis  sequence  is  interpreted  as:  silicification  –  calc-
+silicate/propylitic  –  dolomitisation  –  potassic  alteration  &  biotite-chlorite  –  sulphidation.    Propylitic 
+alteration is indicated  by  the  occurrence  of chlorite, epidote  and  tremolite.   Evidence  of  deformation is 
+shown by kinked to radiating biotite, stylolites and a triple point grain contact between the dolomite. This 
+is the interpreted as a result of pressure solution.  
+Stylolites  were  recorded  between  the  calcite.  Biotite  is  generally  absent  in  epidote-rich  samples. 
+Chloritoid  overgrowths  were  also  recorded  with  some  being  zoned  and  euhedral.  The  zoned  chloritoid 
+consists of an inner semi-rounded crystal. The chloritoid are interpreted to have precipitated late as they 
+cross-cut  the  quartz-albite-epidote  matrix  and  the  coarse  calcite  veins.  Minor  muscovite  and  tremolite 
+were  observed  in  sample  SD22-SD51B  (meta-greywacke),  and  are  associated  with  potassic  and 
+dolomitisation  alteration.  Two  generations  of  dolomite  have  been  identified.  The  early  dolomite  forms 
+part of the matrix and the later is vein dolomite. Two generations of calcite were also identified: matrix 
+calcite  and  later  coarser  calcite  in  veins.    Sulphide  mineralogy  also  occurs  in  two  generations: 
+disseminated  and  vein  sulphides.  The  following  paragenesis  was  observed  for  the  Sadiola  mineralogy: 
+quartz – calcite – dolomite - biotite – sulphides – dolomite with sulphides-quartz-calcite vein – chloritoid.  
+24
+
+--- Page 26 ---
+A 
+Fine-grained matrix 
+3mm 
+3mm 
+Biotite 
+Coarse-grained calcite 
+Figure. 9: Photomicrograph of biotite separating the fine-grained matrix of biotite-calcite and the coarse-
+grained  calcite  from  sample  SD22-SD37B  (Marble).  There  is  no  observed  biotite  mineralogy  in  the 
+coarse-grained calcite. 
+B 
+C 
+3mm 
+3mm 
+Figure.  10:  B.  Photomicrograph  of  SD782-SD29.  Rhomb-shaped  dolomite  and  calcite  in  a  breccia.  C. 
+SD782-SD33. Biotite and calcite matrix with the biotite cross-cutting the coarse-grained calcite veins. 
+25
+
+--- Page 27 ---
+D 
+E 
+Chlorite 
+Biotite-Chlorite matrix 
+K-alteration 
+3mm 
+3mm 
+Pyrite 
+Figure.  11:    Photomicrographs  of  D:  SD129-SD77.  Chlorite  alteration  developed  in  a  potassic-altered 
+sample. Less than 1% of sulphide mineralogy can be observed in this sample.  
+E: SD119-SD60B. Chlorite-biotite alteration developing around the zoned tourmalines crystals. Sulphide 
+precipitation (mainly pyrite) occurs in the open spaces on the rock and the tourmaline crystals. 
+26
+
+--- Page 28 ---
+4.5 Ore Petrography 
+The  main  sulphides  in  the  samples  include  pyrite  and  arsenopyrite  with  minor  pyrrhotite.  The 
+arsenopyrite crystals are euhedral. Pyrite is irregular, anhedral and exhibits a variety of textures including 
+framboidal,  colloform,  zoning,  skeletal  and  atoll  texture.  The  colloform  pyrite  is  cross-cut  by  a  later, 
+elongated arsenopyrite crystal. It also forms as open space fill. Pyrite inclusions occur in the arsenopyrite 
+indicating  that  the  pyrite  is  early.  Both  the  pyrite  and  the  arsenopyrite  also  occur  in  veins.  The  outer 
+margin of the arsenopyrite veins were occupied by pyrite. Pyrite also develops in the margins of a calcite-
+rich vein. Concentric layering and botryoidal texture were developed in the pyrite vein. 
+Minor gold was observed on the pyrite edges/margins with a very small percentage disseminated in the 
+matrix, i.e. SD782-SD17A.   Less than 1% of octahedral magnetite was observed. Chalcopyrite occurs as 
+inclusions  in  the  hematite  and  sphalerite  indicating  that  the  chalcopyrite  is  earlier.  It  also  occurs  as  an 
+open  space  fill  between  the  pyrite.  The  following  paragenetic  sequence  was  observed  for  the  ore 
+mineralogy:  pyrite-chalcopyrite  +  (sphalerite +  hematite)  –  arsenopyrite. The ore  minerals  and the  host 
+rocks were then brecciated as shown in sample SD129-SD72C. Open space fill texture is shown in Figure 
+12 with Figure 13 also show brecciation. 
+Pyrite 
+Colloform 
+Pyrite 
+3mm 
+3mm 
+Late 
+Arsenopyrite 
+Figure. 12: Photomicrograph of Sample SD129-SD66.  A: Concentric-colloform texture displayed by the 
+pyrite.  B:  Colloform  pyrite  and  the  host  rock  (silica)  being  cross-cut  by  the  elongated  arsenopyrite 
+crystals. 
+27
+
+--- Page 29 ---
+A 
+B 
+1mm 
+1mm 
+Figure.  13:  Photomicrograph  of  Sample  SD  SD782-SD17A.  Breccia  composed  of  massive  pyrite  and 
+biotite crystals. Taken from A: Reflected and B: Transmitted light 
+A 
+Pyr 
+Aspy 
+1mm 
+Pyr 
+B 
+Aspy 
+0.5mm
+Figure. 14:  Photomicrograph of Sample SD129-SD71. Euhedral arsenopyrite (Aspy) and anhedral pyrite 
+(Pyr) which is earlier. Rhombohedral, late arsenopyrite with the pyrite in photomicrograph B. 
+28
+
+--- Page 30 ---
+CHAPTER 5: DISCUSSION 
+5.1 Depositional Environment 
+The development of seismites is interpreted as a result of either a seismic activity. These correlate with 
+the seismites recorded by Mazumder et al (2006) which are deformations that occurred in unconsolidated 
+sediments mainly as a result of shock. Soft sediment deformation is represented by slump facies recorded 
+on both the Helicopter pit and the drill cores. Slumping in interpreted to have succeeded the deposition of 
+the sediments and these occur mainly in continental slopes, seismically active environments and prior to 
+the  consolidation  of  sediments.  The  slump  sequence  of  the  main  Sadiola  open  cast  can  therefore  be 
+correlated  with  that  of  the  ancilliary  pits  defined  by  Matabane  (2008).  They  can  also  be  interpreted  to 
+have formed due to overloading, rapid sedimentation, over-steepening of slopes by earthquakes (Bagati, 
+2008). The slumps structures are therefore interpreted to have formed in continental slope or a seismically 
+active area before the sediments were lithified.  
+The sandy-metasediments and metagreywacke are deposits of fluvial to marine systems. Fluvial deposits 
+are cross bedded, similar to the cross-bedded sandy-metasediments of the Helicopter Pit. They are also 
+influenced  by  the  velocity  of  water  moving  the  particles.  The  metagreywacke  are  deposits  of  shallow 
+marine  waters.  The  cross-bedded  sandy-metasediments  corresponds  to  the  sandstones  of  Martin  and 
+Turner  (1998)  and  Tucker  (2001),  which  are  deposited  on  high  kinetic  environments  including  braided 
+rivers,  deltas,  shallow  marine  and  continental  margins.  The  shallow-marine  metagreywacke  are 
+interpreted by Tucker (2001) to have been deposited by turbidity currents mainly off continental margins. 
+The turbidites were deposited as a result of turbidity currents.  They greywacke observed in the field are 
+similar  to  that  of  Dampare  et  al.  (2004)  which  are  fine-medium  grained  and  show  some  degree  of 
+metamorphism.  The  Helicopter  pit  metasediments  are  also  similar  in  that  they  are  massive  and  show 
+minimal sedimentary structures. These  are therefore interpreted to have formed in an active continental 
+margin tectonic setting (Dampare et al., 2004). 
+From  the  interpretation  and  the  comparison  made  above,  the  Sadiola  open  cast  lithologies  are 
+representative of continental and shelf margins. This is based on the fact that along these settings, there is 
+sediment  instability,  turbidity  currents,  slumps  and  rapid  sedimentation.  The  sandy  metasediments  are 
+deposits of fluvial to shallow marine settings. 
+29
+
+--- Page 31 ---
+5.2 Structural Interpretation 
+The two deformation phases that are identified in the study areas of the Sadiola goldfield correlate with 
+the  deformation  phases  interpreted  by  Hein  (2009)  in  the  Goren  greenstone  belt  in  Burkina  Faso, 
+Tshibubudze  et  al.,  (2009)  in  the  Markoye  Shear  Zone  in  Burkina  Faso.  The  first  deformation  is 
+characterized  by  the  development  of  NNW-trending  folds  (F1).  NNW  bedding  and  cleavage  (S1) 
+orientation associated with D1 are recorded in the study area. This deformation is termed the Tangaean 
+Event and formed during the NE-SW shortening period. Quartz veins formed during this event and their 
+dominant trend is towards NNE-NE.  
+The second deformation event is characterized by the development of ENE-ESE trending folds (F2) and 
+NE-trending  cleavage  (S2).  The  ENE  trending  fold  axes  concur  with  Voet’s  (1997).    The  second 
+deformation correlates with the 2.13 - 1.98 Ga Eburnean orogeny as defined by Feybesse et al (2006).  A 
+conclusion can thus be made that the rocks of the Sadiola open cast mine underwent at least two phases of 
+deformation.  
+5.3 Petrographic Interpretation 
+Majority  of  the  recorded  mineral  assemblage  are  interpreted  to  have  formed  in  conditions  of  contact 
+metamorphism, hornfels facies and at low temperature settings. They are of metamorphic origin. These 
+assemblages  are  of  lower  greenschist  metamorphic  facies.  Brecciation  occurred  in  the  marble  and  is 
+attributed  to  have  resulted  from  the  fluids  passing  through  the  rock.  This  is  consistent  with  the 
+interpretation of Theron’s (1997a) that gold skarns develop where carbonates are present. These fluids are 
+also  responsible  for  the  deposition  of  calcite  and  sulphide  (mainly  pyrite)  in  the  open  spaces.  The 
+occurrence  of  albite  is  interpreted  as  a  result  of  the  hydrothermal  introduction  of  Na  into  the  system 
+(Theron, 1997a). The fluids at the Sadiola open cast are therefore interpreted to be hydrothermal in origin. 
+The texture displayed by the biotite (Fig. 6) is the syntaxial deposition of biotite which is followed by an 
+open  space  fill  of  calcite.  Under  conditions  of  contact  metamorphism,  there  is  a  spatial  relationship 
+between the intrusion and the mineralisation. The mineralisation is observed in the low temperature rocks 
+located further away from the high temperature setting closer to the intrusion.  
+Chlorite  replaces  biotite  and  this  texture  is  accompanied  by  potassic  alteration.  Potassic  alteration 
+recorded consists of biotite, quartz and potassic feldspar (mainly albite). Carbonate alteration is present in 
+the  form  of  dolomite  rather  than  calcite.  Dolomite  is  recystallising  at  the  expense  of  calcite.  Sulphide 
+precipitation  occurs  with  biotite.  An  increased  biotite  concentration  occurs  with  higher  sulphide 
+precipitation. The  occurrence  of  epidote  and  chlorite is  interpreted  as the  alteration  of  hornblende. The 
+occurrence of tourmaline is interpreted to have resulted from the infiltration of boron-rich fluids (London, 
+1986) while the cordierite can be as a result of high-grade hornfels metamorphism.   
+30
+
+--- Page 32 ---
+The vein growth that has been recorded from thin sections is crack-seal and open space fill and these are 
+mainly  quartz-carbonate  and  quartz-sulphide  veins.  An  association  between  sulphide  precipitation  and 
+biotite-chlorite  alteration  is  observed.  The  veinlets  are  interpreted  as  to  have  formed  during  brittle 
+deformation with the presence of stylolitic structures indicating dissolution.  These features correlate with 
+those of Wilson (2002b). 
+The  radial/concentric  textures  observed  in  Figure  9  are  due  to  physical  and  chemical  variation  in  fluid 
+chemistry.  The  skeletal  and  framboids  pyrite  textures  are  common  in  rapidly  cooling  rocks  and  at  low 
+temperatures. The skeletal intergrowths of pyrite are the replacements products of pyrrhotite and they are 
+associated  with  retrograde  replacement  of  amphiboles  (Edwards,  1947).  The  ore  mineral-suite  for  the 
+Sadiola gold mine includes Au-As-Fe-S and minor Zn-Sb-Cu. This ore mineral suite has been recorded in 
+the  study  area  by  Wilson  (2002a).    The  temperature  range  at  which  the  pyrite-arsenopyrite-gold 
+mineralisation forms was recorded by Mikus and Chovan (2003) to be in a range of 385 – 465 0C, and this 
+was in the Au-Sb mineralisation.  
+The biotite texture observed in figure 9 can therefore be interpreted as the biotite isograd defined by Blatt 
+and Tracy (2006) which is represented by the equation: muscovite + quartz + ankerite = biotite + calcite + 
+carbon dioxide. The presence of chlorite in the biotite rocks indicates that the chlorite is also as a result of 
+the above equation. 
+The recorded  calc-silicate  and  potassic  alteration  is  similar  to that  of  Boshoff  et  al,  (1998) and Theron 
+(1997a).  Gold  and  pyrite-arsenopyrite  assemblage  are  interpreted  to  have  formed  during  the  potassic-
+alteration  stage  (Boshoff  et  al.,  1998).  This  stage  is  also  associated  with  the  chlorite-biotite  alteration 
+during  carbonate  alteration.  The  observed  skarnification  in  the  carbonate  are  characterised  by  biotite, 
+amphiboles,  pyrite,  magnetite  and calcite. These  are  as  a  result  of  fluid  flux  into  the carbonate system. 
+Theron  (1997a)  indicated  that  this  is  due  to  the  introduction  of  Si,  Fe  and  Mg  by  hydrothermal  fluids 
+during contact metamorphism and the alteration development.   
+Gold  mineralisation  is  interpreted  to  occur  with  chlorite-biotite  alteration.  This  is  also  associated  with 
+potassic  alteration.  It  is  relatively  associated  with  the  pyrite-arsenopyrite  mineral  assemblage.  It  is  also 
+interpreted to occur along the biotite isograd which occurs between the inner to middle contact aureoles 
+(Hein and Tshibubudze, 2007a, b). Gold mineralisation forms along the Sadiola Fracture Zone interpreted 
+as  the  carbonaceous-siltstone  greywacke  unit.  The  chlorite-biotite  alteration  and  the  breakdown  of 
+hornblende into epidote, chlorite and quartz occur along the inner-middle transition boundary. Carbonate 
+alteration is interpreted to have formed in association with the gold forming stages.  
+The resulting fluid circulation, textures observed and the occurrence of the contact aureoles indicate that 
+the  Sadiola  gold  mine  and  the  resulting  mineralisation  have  a  spatial  and  temporal  relationship  to 
+31
+
+--- Page 33 ---
+intrusions. The mineralisation at Sadiola  is therefore interpreted to be as a result of metamorphism and 
+deformation  brought  about  the  Sekokoto  pluton  emplacement  during  the  Eburnean  orogeny.  Structural 
+data  indicate  that  quartz  veins  formed  prior  to  the  development  of  the  S2  cleavage  systems.  These  are 
+therefore  interpreted  to  be  post-Tangaean  and  pre-Eburnean  and  are  associated  with  minor  pyrite-
+arsenopyrite  mineralisation.  Mineralisation  was  therefore  upgraded  by  pluton  emplacement  and  the  re-
+activation  of  the  Sadiola  Fracture  Zone  and  the  remobilisation  of  fluids  to  cause  brecciation  and 
+skarnification of the carbonate unit. The fluids have moderate to high salinity as determined by Pan and 
+Fleet (1992) from calcite-dolomite geothermometry. 
+5.4 Comparison to Sadiola goldfield with the rest of the West African Gold deposits 
+The Sadiola deposits share some similarities with the other gold deposits in the West African Craton. In 
+the nearby FE3 open cast, two styles of gold mineralisation were recorded by Matabane (2008). These are 
+gold mineralisation in the breccia lodes and in the upper slump facies which co-exists with arsenopyrite-
+pyrite  assemblage  and  the  secondary  placer  gold  mineralisation.  Similar  occurrence  of  orogenic  gold 
+systems are recorded in Ghana, Senegal, Burkina Faso, Guinea and Cote d’Ivoire (Goldfarb et al., 2001). 
+Primary gold deposits in Burkina Faso are classified as orogenic-type gold deposits (Béziat et al., 2008) 
+with  the  differences  from  the  Sadiola  documented  in  the  style  of  gold  mineralisation.  Two  styles  of 
+mineralisation  observed  in  Burkina  Faso  are  quartz-vein  and  disseminated  (Béziat  et  al.,  2008). 
+Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be 
+equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia 
+deposits in Cote d’Ivoire.  The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation 
+which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit 
+is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et 
+al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa 
+District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 
+32
+
+--- Page 34 ---
+CHAPTER 6: Conclusion 
+•  The mineral assemblages of the Sadiola open cast are representative of greenschist metamorphic 
+facies. 
+•  Sadiola lithologies underwent at least two deformation events: one associated with the Tangaean 
+event (D1) and the latter associated with the Eburnean orogeny (D2). 
+•  The  quartz  veins  are  interpreted  to  have  formed  in  the  D1  event  during  a  NE-directed 
+compression. 
+•  Sadiola  lithologies  underwent  two  metamorphic  events:  regional  metamorphism  to  lower 
+greenschist facies and contact metamorphism to hornblende-hornfels facies. 
+•  Gold  mineralisation  is  associated  with  a  variety  of  alteration  system  with  pyrite-arsenopyrite 
+mineral assemblage. 
+•  Mineralisation  tends  to  occur  along  the  carbonate-greywacke  contact  which  is  from  the  inner 
+contact aureole to the middle aureole. 
+•  The  transition  from  the  inner  to  middle  contact  aureole  is  indicated  by  the  breakdown  of 
+hornblende into chlorite, epidote and quartz and from rocks that were completely recrystallised to 
+rocks in which the primary bedding is preserved. 
+•  This  is  the  Sadiola  Fracture  Zone  which  was  re-activated  during  pluton  emplacement  and  was 
+used as the pathway for moderate-high salinity fluids. 
+•  The Sadiola open cast mine is interpreted as an Intrusion related gold deposit or a thermal aureole 
+gold deposits associated with the Sekokoto plutons.         
+33

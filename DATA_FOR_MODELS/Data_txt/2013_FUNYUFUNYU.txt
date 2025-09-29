@@ -1,0 +1,1868 @@
+
+--- Page 2 ---
+FRONTISPIECE 
+“Wherefore smelting is necessary, for by this means earths, solidified juices, and stones are separated 
+from the metals so that they obtain their proper colour and become pure, and may be of great use to 
+mankind in many ways. When the ore is smelted, those things which were mixed with the metal before 
+it  was  melted  are  driven  forth,  because  the  metal  is  perfected  by  fire  in  this  manner.  Since 
+metalliferous ores differ greatly amongst themselves, first as to the metals which they contain, then as 
+to the quantity of the metal which is in them, and then by the fact that some are rapidly melted by fire 
+and others slowly, there are, therefore, many methods of smelting.” (Agricola, 1556) 
+2
+
+--- Page 7 ---
+DEDICATED 
+To my wonderful son, Gundo Nethavhanani, 
+the one who motivates me to be a responsible mother and 
+encourages me to work to my very best. 
+7
+
+--- Page 8 ---
+LIST OF FIGURES 
+Frontispiece “Wherefore smelting is necessary, for by this means earths, solidified juices, and stones 
+are separated from the metals so that they obtain their proper colour and become pure, and may 
+be of great use to mankind in many ways. When the ore is  smelted, those things which were 
+mixed with the metal before it was melted are driven forth, because the metal is perfected by 
+fire in this manner. Since metalliferous ores differ greatly amongst themselves, first as to the 
+metals which they contain, then as to the quantity of the metal which is in them, and then by the 
+fact that some are rapidly melted by fire and others slowly, there are, therefore, many methods 
+of smelting.” (Agricola, 1556) 
+Figure 1.1: Photograph of a typical modern day artisanal forge that is operated by one man, with a 
+single pump and a number of small crucibles. The tuyere is clearly visible. A goat skin bellows 
+would  have  been  placed  over  the  bellows  hole  to  pump  air  into  the  tuyere.  This  particular 
+working forge is on exhibition at the Museum of Kaya and is presented with the permission of 
+the Museum. 
+Figure 1.2: Location of the study area in Burkina Faso, northeast of the capital city of Ouagadougou 
+and 17 km northwest of the regional centre of Kaya. The study area is located near the village 
+of Dem and west of the Lac (Lake) Dem in the Goren greenstone belt. 
+Figure  1.3:  Photographs  of  the  elders  of  the  village  of  Liligomde  who  provided  the  ethnographic 
+background to this study (a, b, e). Their information indicated that no artisanal mining for iron 
+had taken place at Dem in their lifetimes. The senior elders ranged in age from 75-104 and they 
+were  the  senior  blacksmiths  of  the  Chief  Naba  of  the  Mossi  people.  Consequently,  it  can  be 
+reasonably  assumed  that  the  Dem  site  is  older  than  80  years.  Artisanal  mining  for  iron  is 
+conducted west of the village of Liligomde (c) with smelting in the village on small crucibles. 
+Iron rich spongy ferricrete is used for smelting (d) which makes tools for local agricultural use. 
+The  elderly  gentleman  in  (e)  made  his  own  gun  from  smelting  local  iron.  Photographs  are 
+reproduced  with  permission  of  the  village  elders.  (f)  Ethnographic  data  was  collected  by 
+interview  and  data  was  recorded  in  a  notebook  with  translations  from  Mossi  to  French  and 
+English as facilitated by Mr Bamogo Makido of the Museum of Kaya (squatting).  
+Figure 2.1: Schematic of furnace, showing temperatures and reactions during smelting (Cleere. 1981, 
+Figure  6).  I  =  Roasting  zone,  II  =  Indirect  reduction  zone,  II  =  Oxidation  zone,  IV  =  Direct 
+reduction in hearth, V = Slag bath and outlet. 
+8
+
+--- Page 9 ---
+Figure  2.2:  A  Fe-FeO–Fe2O3–SiO2  slag  phase  diagram  at  varying  temperatures  redrawn  from 
+Schuhmann et al. (1953), the temperatures is in degrees centigrade. 
+Figure 3.1: Photographic mosaic of the Dem site constructed from GoogleEarth images. Location of 
+the  town  of  Dem  along  the  main  road  to  Kaya  is  shown.  Sites  of  Opencast  (OC)  mining, 
+underground  (UG)  mines  and  forges/  furnaces  are  also  presented.  The  mine  site  is  wholly 
+located  east  of  the  major  ridge  on  an  alluvial  plain.  Lac  Dem  is  located  east  of  the  town  of 
+Dem. 
+Figure 3.2: Geology and layout of the Dem site. Open cast mines 1-3 are located on the eastern side 
+of  a  ridge  of  ferricrete  duricrust  and  immediately  east  of  ferricrete  scree  in  Fe-Mn  rich 
+metasedimentary rocks, and adit to UG 1-2 underground mines is located above the open casts. 
+Forges/Furnaces  1-11  are  situated  on  the  alluvium  plain  blow  the  open  cast  mines.  Waste 
+dumps are situated proximal to the furnace sites. 
+Figure 4.1: Photographs of vein-hosted iron ore from adits in the underground mines of the Dem iron 
+site.  A.  Massive  siltstone  hosting  hosting  zones  of  iron  staining.  Numerous  fine  vein  rich 
+veinlets  crosscut  the  host  rock.  B.  Interlocking  network  of  iron  rich  veinlets.  C.  Quartz  vein 
+cataclasite veins surrounded by a wide alteration zone of iron enriched siltstone. D. A complex 
+zone of alteration in massive siltstone. 
+Figure  4.2:  Laterite-ferricrete  plateau and  outcrops  occur  across  the  Dem  region.  A.  Photograph  of 
+recemented ferricrete in the foreground with ferricrete plateau in the back ground. B. Ferricrete 
+overlying massive siltstone unit in the Dem region. C. Ferricrete plateau in the background is 
+composed  of  the  profile  in  photograph  D.  Several  layers  of  ferricrete  development  can  be 
+interpreted from the profile.  
+Figure 4.3: The two surface mines consist of bowl-shaped opencast pits that are approximately 500-
+600m  in  diameter.  The  most  significant  is  pit  1  which  has  worked  a  considerable  volume  of 
+primary  ore  dislodged  from  outcrops  above  the  opencast,  in  a  natural  valley.  Iron  rich 
+cataclasite veins also crop out across the floor of the open cast. Underground workings (UG 1) 
+occur between the two open casts with adit/entrance located high on a rock face (as marked). 
+Open cast pit 2 worked mainly ferricrete scree that roll down from the laterite plateau above. 
+Figure 4.4: Underground Mine 1 (UG1) consists of a series of drifts, galleries, adits and tunnels that 
+accessed  primary  in-situ  iron  ore  from  the  selvedge  of  quartz  cataclasite  veins.  The  galleries 
+were too dangerous to enter but the workings were considerable. 
+9
+
+--- Page 10 ---
+Figure  4.5:  Iron  smelting  at  the  Dem  site  is  evidenced  from  the  remains  of  at  least  11  furnace 
+(furnace wall and floor fragments), and hundreds of fragments of tuyeres, crucible, burnt clay 
+and  iron  slag.  A.  Burnt  clay  of  the  furnace  wall.  B.  Furnace  2  which  is  representative  of  all 
+furnace in the Dem mine site. They are typically round with flat or bowl shaped floors. C and 
+D. Tuyeres are scattered around many of the furnaces or welded into the floor of the furnaces 
+with slag. E and F. Crucibles made of clay-sand are also found proximal to the furnace site of 
+welded together with slag.  
+Figure 4.6: Processing sites at the Dem site. A and B. Numerous processing and slag dump sites are 
+located  near  the  mines  and  adjacent  to  furnaces  and  scattered  throughout  the  area.  They 
+indicated that the ore was beneficiated before use in the furnace, or that slag was removed from 
+the ore after smelting. C. Section through a slag dump site next to a furnace 8. It is clear that a 
+significant amount of forging had taken place at Furnace 8. 
+Figure 4.7: Photographs of the different types of slag in found at the Dem mine site. A. Fragment of 
+glassy slag resembling obsidian found throughout the Dem site at all furnaces is consequent of 
+rapid  cooling.  B.  Flow  type  slag  from  Furnace  5  which  is  forms  during  slow  cooling  from  a 
+high temperature melt. C. Coarse grained slag from Furnace 5 formed by slow cooling rate at a 
+relatively constant temperature. D. a dense black-grey flowing type that resulted from a slow 
+cooling  rate  in  cow-pat  form,  E.  Spinifex  texture  which  forms  due  to  quenching  at  high 
+temperature. F. Vesicular slag with vugs that formed  due to the release of gas bubbles in the 
+melt. 
+Figure  4.8:  A  number  of  stone  tools  (A  B)  litter  the  Dem  site  specifically  long  old  tracks  (C,  D) 
+which  link  the  furnace  sites  and  the  mine  sites,  and  around  furnaces  site.  By  and  large,  the 
+purpose or use of these artefacts is not known. 
+Figure 5.1: A. Transmitted light photomicrographs of siltstone from sample LD001 SN-114. Siltstone 
+units  are  composed  of  quartz  (light  grey)  and  goethite  (black),  with  accessory  epidote  and 
+sericite.  B.  Transmitted  light  photomicrographs  of  iron  rich  carbonaceous  shale  from  sample 
+LD003  SN-116.  Iron  oxides  are  made  up  of  hematite-goethite  ±  sericite  (black).  Carbonate-
+quartz  makes  up  the  remainder  of  the  matrix  (white).  C.  Transmitted  light  photograph  of 
+chloritized basalt (Sample LD002 SN115). The basalt is composed of chlorite (after pyroxene), 
+sericite,  epidote  and  quartz,  with  minor  relict  plagioclase.  Opaque  minerals  are  goethite  ± 
+hematite  (black).  D.  Transmitted  light  photomicrograph  of  ferruginous  silicrete  (Sample  LD 
+016, SN121). The silicrete is made up of nodules of goethite and chalcedonic quartz enclosing 
+rock  fragments  particularly  around  pisoliths.  The  rock  fragments  are  also  cemented  with 
+goethite and chalcedonic quartz. 
+10
+
+--- Page 11 ---
+Figure  5.2:  A.  Photomicrograph  of  Fe-rich  ore  bearing  siltstone  in  transmitted  light  (cross-polars) 
+which is dominated by goethite-hematite (Sample LD 013, SN-118). B. Quartz cataclasite vein 
+at  the  base  of  the  valley  in  open  pit  1.  Fe-rich  fractures  and  micro-faults  crosscut  the  quartz 
+veins  and  wall  rock  indicating  they  formed  after  the  quartz  vein.  Photomicrographs  from 
+Sample LD 013, SN-118 in transmitted (C.), transmitted crossed polars (D.) and reflected light 
+of quartz cataclasite demonstrating that hematite-goethite dominate veins and fractures which 
+crosscut quartz in quartz veins. 
+Figure  5.3: Type  1  dense black  glassy  slag  with  flow  texture from  Furnace  5.  B.  Type  2  vesicular 
+green-black blocky slag from Furnace 10. 
+Figure  5.4:  Photomicrographs  of  slag  from  the  Dem  mine  site.  A.  Fine  to  coarse  skeletal  hematite 
+with  spinifex in  a  hematite  matrix from  Furnace  4.  B.  Herringbone  textured  hematite-wüstite 
+(Wu)  with  ocelli  of  fayalite  (Fa)  and  quartz  (Qtz),  and  vesicles  (V)  in  a  hematite  matrix.  C. 
+Intergrown  massive  hematite  and  semplectic  hematite.  D.  Beautiful  skeletal  structure  of 
+hematite  spinifex  in  hematite  matrix.  E.  Cross-formed  wüstite  (Wu)  in  subhedral  to  anhedral 
+hematite in a hematite matrix. F. Skeletal herringbone texture hematite in a hematite matrix. F1, 
+F2, F4, F5 = Furnace 1, 2, 4 or 5. 
+Figure 5.5: Photomicrographs and sketch from Furnace 9 of fayalite in a hematite spinifex (A, B) and 
+as ocelli, as fill or the lining of vesicles (as amygdules), and fill to fractures that crosscut the 
+hematite matrix of the slag. 
+Figure 5.6: Photomicrograph of micro-fault, fractures and hematite veinlets crosscut the spinifex and 
+herringbone textured hematite. 
+Figure 6.1: Sampling points from different furnaces. a. Sampling points for furnace 2 from furnace 
+walls.  b.-c.  Sampling  points  for  furnace  5  from  furnace  and  tuyere  fragments.  d.  Sampling 
+points  for  furnace  6  from  the  exposed  stratigraphy  of  the  furnace.  e.  Sampling  points  for 
+furnace  8  from  the  exposed  layers  of the furnace.  F.  Sampling  point  for  furnace  11  from  the 
+furnace walls. 
+Figure 6.2: Radiocarbon calibration curve organic material extracted from Furnace 6 (Sample FOR06 
+02CAR). Radiocarbon age (BP) is plotted against calendar years (AD). White bars correspond 
+to 68% and grey bars correspond to 95% confidence levels, respectively. The 95% confidence 
+level gives an age 1438-1458 AD. 
+Figure 6.3: Radiocarbon calibration curve organic material extracted from Furnace 6 (Sample FOR08 
+02CAR). Radiocarbon age (BP) is plotted against calendar years (AD). White bars correspond 
+to 68% and grey bars correspond to 95% confidence levels, respectively. The 95% confidence 
+level gives ages (1438-1458, 1651-1600, 1756-1759, and 1949-1951) AD.  
+11
+
+--- Page 12 ---
+LIST OF TABLES 
+Table  3.1:  The  characteristics  of  selected  samples  that  were  sent  to  the  laboratory  for  AMS 
+radiocarbon dating. 
+Table  6.1:  Results  of  samples  processed  and  calibrated  by  Beta  Analytic  using  the  Pretoria 
+Calibration Procedure program (Talma and Vogel, 1993). 
+Table 6.2: Radiocarbon ages from the study area, the dates have been calibrated with the INTCAL04 
+Radiocarbon Age Calibration after Talma and Vogel (1993). 
+12
+
+--- Page 13 ---
+ABSTRACT 
+Artisanal and small-scale mining (ASM) has been a crucial industry in Africa for centuries. In 
+Burkina  Faso  approximately  95  kms  northeast  of  the  capital  city  Ouagadougou  near  the  village  of 
+Dem  and  on  a  ferricrete  capped  ridge  to  the  west  of  the  village,  it  is  possible  to  find  a  number  of 
+opencast workings and underground mines that show evidence of extensive artisanal mining for iron. 
+Iron mining worked quartz-vein hosted and lateritic ore. Nearby, waste piles, processing sites and at 
+least  eleven  (11)  Bloomery  furnaces  are  exposed  on  the  alluvial  plain.  Petrographically  the  ore 
+bearing  rocks  consist  of  goethite-hematite  as  the  dominant  oxides  with  silica.  Geological  and 
+ethnographic  studies  conducted  in  2011  focussed  on  detailing  and  mapping  the  mine  site  and  host 
+rocks  (including  ore  rocks),  and  establishing  the  age  of  mining,  processing  and  forging  of  ore. 
+Selected charcoal samples were collected from furnaces sites. Limited AMS radiocarbon dating of six 
+(6)  samples  was  performed  at  Beta  Analytic  laboratory  in  Miami,  Florida,  USA  and  suggested  that 
+iron  forging  may  have  begun  in  the  15th  century,  which  could  also  be  the  age  of  mining  and 
+processing  of  ore.  The  site  has  characteristics  such  as  impure  slag,  eleven  (11)  large  furnaces, 
+hundreds  of  tuyeres,  and  crucibles,  and  clay  fragments.  Remnant  slag  samples  were  collected  for 
+petrographic and mineralogical study to deduce the mineral composition of the slag. The slag samples 
+contained high concentration of fayalite, quartz, magnetite and hematite and low concentration of iron 
+metal  and  ulvospinel  suggesting  an  iron  silicate  slag  of  low  melt  temperature  was  formed  in  the 
+furnaces.  
+13
+
+--- Page 14 ---
+1. INTRODUCTION 
+1.1. Nature of Artisanal Mining 
+Artisanal mining is the extraction of economic minerals from the ground in the form of surface 
+and underground mining, legally or illegally. Artisanal and small-scale mining (ASM) activities are 
+conducted on ore bodies or deposits by persons using traditional techniques and/or low mechanisation 
+levels  (Anonymous,  1999).  Artisanal  mining  involves  extraction  and  processing  of  minerals  by 
+intensive selective  manual labour.  Hilson (2002a, b) stated that in the most advanced case, ASM is 
+semi-mechanised  and  utilises  slightly  advanced  processing  techniques  to  highly  rudimentary.  In 
+recent years, the ASM sector has experienced significant growth worldwide, predominantly in remote 
+rural areas of the developing world (Hentschel et al., 2003). Hentschel et al. (op. cit.) stated that this 
+has occurred mainly in response to widespread unemployment in African, Latin-American and Asian 
+countries in which ASM takes place. 
+ASM is informal to formal and is an alternative and often seasonal form of income for the rural 
+sector (Hein, 2007). It is highly selective mining and is linked to poverty in a complex way. ASM is 
+practiced  by  millions  around  the  world  (in  2009  the  United  Nations  Environment  Programme 
+estimated 10-15 million artisanal and small-scale miners globally in approximately 70 countries) and 
+concerns  every  mineral  and  petroleum  resource.  ASM  communities  comprise  individuals,  families, 
+groups or cooperatives (often with illegal status). ASM covers activities involving as little as two or 
+three part-time miners working in a region, or tens of thousands of miners at a site working shifts to 
+produce as much ore as possible (Telmer, 2006). 
+ASM  in  Africa  is  typically  regulated  but  legislation  is  not  consistently  implemented  and 
+controlled by the relevant authorities. However ASM communities have a complex system of internal 
+checks and balances (Hein, 2007). It often involves large numbers of women and children. ASM is 
+normally  associated  with  significant  to  insignificant  production  of  ore,  poor  or  low-level  mining, 
+processing and extraction practices, illegal trading and access (Cameroon, 2002), conflict, corruption, 
+violence,  exploitation  and  human  rights  violations  (Bower,  1987;  ICMM,  2010),  poor  health 
+(HIV/AIDS,  mental  health,  prostitution,  high  mortality  and  sanitation),  poor  safety  (high  worker 
+morality, child versus adult), low levels of education and skill, environmental degradation (Hentschel 
+et al., 2002), pollution and regolith bioturbation, and/or an absence of security of tenure (Hein, 2007). 
+Generally,  ASM  is  practiced  as  an  alternative  economic  activity  in  times  of  economic  stress 
+(Hoadley and Limpitlaw, 2004). ASM in Burkina Faso, where this study is located, extracts iron for 
+the production of agricultural tools, and gold and silver in exchange for money and food. Hentschel et 
+al.  (2003)  divided  ASM  into  the  following  categories;  (a)  gold  rush  or  influx  (ICMM,  2010);  (b) 
+temporary operations fuelled by economic recession; (c) isolated and remote operations with little or 
+14
+
+--- Page 15 ---
+no  involvement  with nearby  communities;  (d)  seasonal  ASM  activities  within  an  agricultural  cycle; 
+and  (e)  traditional  year-around  activities  that  are  generally  associated  with  stable  communities  (or 
+‘permanent  cohabitation’  of  ICMM,  2010).  ASM  is  ultimately  maintained  by  the  demand  for  a 
+commodity in question (e.g., gold, tantalum, iron, diamonds and sand). 
+ASM of iron in the Sahelian-Saharan rural sector is often characterised by one man with one 
+small furnace, one pump and one crucible (Figure 1.1 and Frontispiece), although increasingly ASM 
+of  iron  recycles  steel.  However,  the  Dem  site  which  covers  an  area  in  access  of  2  km2  presents  a 
+significant  scale  of  mining,  with  11  large  furnaces  and  hundreds  of  crucibles,  and  a  large  mining 
+footprint. Importantly, the site is not modern as evidenced by small grassed fossil dunes of sand which 
+cover forging sites and are presently undergoing erosion to expose aspects of the mining area. 
+Figure  1.1:  Photograph  of  a  typical  modern  day  artisanal  forge  that  is  operated  by  one  man,  with  a  single 
+pump  and  a  number  of  small  crucibles.  The  tuyere  is  clearly  visible.  A  goat  skin  bellows  would  have  been 
+placed over the bellows hole to pump air into the tuyere. This particular working forge is on exhibition at the 
+Museum of Kaya and is presented with the permission of the Museum. 
+The Dem region is situated 17 km north-northwest of the town of Kaya in Burkina Faso (Figure 
+1.2).  Burkina  Faso’s  rural  economy  is  dependent  on  agriculture,  and  seasonal  artisanal  small  and 
+medium-scale  mining  (ASM)  for  livelihoods.  According  to  the  National  Museum  of  Burkina  Faso 
+there have been no studies of ASM for iron in Burkina Faso, and there are no records of iron mining 
+and processing for the Dem region. Consultations with senior elders in the village of Liligomde near 
+Kaya (Figure 1.3), who were the chief blacksmiths of the Chief Naba of the Mossi people (the Chief 
+Naba’s  residence  is  in  the  village  of  Boussouma,  19  km  southeast  of  Kaya),  clearly  argued  that 
+mining of iron in the Dem region, or for any metal commodity, or any artisanal mining in the Dem 
+region, had not occurred in the last 80 years, i.e., mining in the Dem region is not recorded in oral 
+15
+
+--- Page 16 ---
+tradition of significant elders of the Mossi people. The Dem site is thus an archaeological curiosity 
+and may provide a link with the historic mining history of the people of West Africa. 
+Figure 1.2: Location of the study area in Burkina Faso, northeast of the capital city of Ouagadougou and 17 km 
+northwest of the regional centre of Kaya. The study area is located near the village of Dem and west of the Lac 
+(Lake) Dem in the Goren greenstone belt. 
+16
+
+--- Page 17 ---
+Figure 1.3: Photographs of the elders of the village of Liligomde who provided the ethnographic background to 
+this study (a, b, e). Their information indicated that no artisanal mining for iron had taken place at Dem in their 
+lifetimes. The senior elders ranged in age from 75-104 and they were the senior blacksmiths of the Chief Naba 
+of  the  Mossi  people.  Consequently,  it  can  be  reasonably  assumed  that  the  Dem  site  is  older  than  80  years. 
+Artisanal mining for iron is conducted west of the village of Liligomde (c) with smelting in the village on small 
+crucibles. Iron rich spongy ferricrete is used for smelting (d) which makes tools for local agricultural use. The 
+elderly  gentleman  in  (e)  made  his  own  gun  from  smelting  local  iron.  Photographs  are  reproduced  with 
+permission of the village elders. (f) Ethnographic data was collected by interview and data was recorded in a 
+notebook  with  translations  from  Mossi  to  French  and  English  as  facilitated  by  Mr  Bamogo  Makido  of  the 
+Museum of Kaya (squatting). 
+17
+
+--- Page 18 ---
+Importantly, although the Museum of Kaya has a single ASM furnace on display to preserve 
+the techniques  of  iron  forging,  the  museum  indicated  that  no  research has ever  been  undertaken  on 
+iron  mining,  processing  and  production  anywhere  in  Burkina  Faso  and  certainly  not  in  the  Dem 
+region. 
+With this in mind, this study focuses on the historic mining, processing and production of iron 
+ore in the Dem region of Burkina Faso. Because the history is arguably lost, the techniques are not 
+known, the reasons for production are forgotten and the age of mine workings is no longer known, 
+this  study  records  the  size  and  dimensions  of  the  mine  sites,  waste  sites,  orebody  and  furnaces.  It 
+records the techniques used as best can be interpreted from the site. It looks at the metallurgy of the 
+processed ore, and type of the ore deposit. Oral tradition has suggested that the age of iron workings 
+in the Dem region may predate the time of the Mogho Naabas (i.e., Kings of the Mossi people) and 
+could thus be as old as the foundation of the Mossi Empire, whose inception was in the 15th century. 
+Alternatively, the Dem iron site may be associated with French industrialisation as numerous mineral 
+resources were mined during the period of French colonisation in the 1800's. Regardless, this research 
+attempts to recover that lost history. 
+Elemental iron has atomic number of 26 and is one of the transition elements of the periodic 
+table. Metallic iron is magnetic, malleable, and silvery-white in colour. Its physical properties make it 
+an outstanding material for the production of tools and industrial steel. Iron is found in different forms 
+including  magnetite  (Fe3O4),  hematite  (Fe2O3),  limonite  (FeO(OH).n(H2O)),  goethite  (FeO(OH)), 
+and/or  siderite  (FeCO3).  Metallic  iron  was  used for  decorative  purposes  and  weapons in  prehistoric 
+times  (Bahn  et  al.,  1994).  The  most  primitive  sample  is  a  cluster  of  oxidized  iron  beads  found  in 
+Egypt that date from 4000 BC. 
+Historically, there was virtually no use of metals in sub-Saharan Africa before 500 BC, when 
+both iron and copper came into use in the savannah and forest regions of West Africa (Smith et al., 
+1993). Large amounts of iron were smelted in the Nile Valley. Iron reached eastern Africa by 200 BC, 
+and by 200 AD had been carried to the south by ancestors of the modern Bantu peoples, together with 
+farming. However, the age of iron in the Dem region is not known and establishing its age may be 
+important to the mining history and heritage of the African continent. 
+1.2. Location and physiography 
+The Dem study area is located in the Sanmatenga District of northeast Burkina Faso. Burkina 
+Faso is a landlocked country that covers 274 300 km2 (Bierschenk, 1968) and shares its borders with 
+Mali, Togo, Benin, Ghana, Niger and Côte d’Ivoire. The capital city is Ouagadougou and is located in 
+the  geographic  centre  of  the  country.  The  average  daily  temperature  is  recorded  as  32°C  and  the 
+average annual rainfall is less than 25 centimetres in the north and northeast (McFarland et al., 1998). 
+Vegetation in Burkina Faso is predominantly sparse savannah grasslands, dry forest with occasional 
+18
+
+--- Page 19 ---
+shrub  vegetation,  or  acacia  forest. The  country  has  a  subtropical  Sahelian  climate  with  two  distinct 
+seasons, i.e., rainy season and dry season. 
+The  dry  season  lasts  for  eight  to  nine  months  with  a  rainy  season  from  June  to  September 
+(Bierschenk, 1968). Burkina Faso is characterised by low hills and alluvial plains, and is covered by 
+an extensive laterite plateau which is locally mined as a source for iron ore, or for alluvial gold.  
+Land use can be divided into (1) land that includes pastures, woodland, forest, built-up areas, 
+barren lands and roads, and which total 82% of all land in Burkina Faso; (2) arable land that is mainly 
+cultivated for crops that are replanted after each harvest (e.g., rice, maize, wheat) and which only total 
+17% of all land; and (3) permanent cultivated land that cannot be replanted after harvest (e.g. coffee, 
+rubber) and which makes up 1% of all land (Bierschenk, op. cit.). Gold mining has recently become 
+an  important  economic  aspect  of  development  in  Burkina  Faso,  with  gold  producing  mines  in  the 
+northeast  and  southwest  at  Essakane  gold  mining  (Tshibubudze  and  Hein,  2013)  and  Mana  gold 
+mining districts, respectively. 
+1.3. Geology of the study area 
+Burkina Faso lies on the West African Craton (WAC). Burkina Faso is generally characterized 
+by  granitic  gneiss,  and  also  north to  northeast-trending  belts  of  metasedimentary  and  meta-volcanic 
+rocks  of  the  Palaeoproterozoic  Birimian  Supergroup  (ca.  2.3  Ga)  that  are  intruded  by  trondjemite-
+tonalite-granodiorite plutons (ca. 2.1 Ga). 
+The Birimian Supergroup metasedimentary and metavolcanic rocks  were deformed during the 
+Tangaean  Event  that  is  dated  at  2170-2130  Ma  (Hein,  2010;  Tshibubudze  and  Hein,  2013)  and 
+Eburnean  Orogeny  (2130-1980  Ma)  (Feybesse,  2006;  Tshibubudze  et  al.,  2009).  They  were 
+subsequently deformed during the Wabo-Tampelse Event which is currently not dated (Hein, 2010; 
+Baratoux et al., 2011). The supracrustal rocks host economic concentrations of gold in quartz veins in 
+shear  zones,  in  stockwork  veins  or  as  placer  gold  deposits  (Beziat  et  al.,  2008).  Other  valuable 
+minerals  hosted  by  the  supracrustal  rocks  include  iron  which  is  mined  by  artisanal  processes  in 
+Burkina Faso for agricultural purposes, with modern exploration for manganese, diamond, zinc, lead 
+and silver being restricted to small-scale short-term mining entrepreneurs (Klemd et al., 1997; Milési 
+et al., 1992). 
+According to Cole et al. (2009), the geology of the WAC can be subdivided into three major 
+litho-tectonic  domains  namely,  (1)  Archaean-Palaeoproterozoic  basement  making  up  the  WAC,  (2) 
+NeoProterozoic  sedimentary  cover  rocks  that  are  developed  along  the  western,  northern  and 
+southeastern portions of the WAC, and (3) a Cenozoic mobile belt forming small inliers in the north-
+western  and  extreme  eastern  regions  of  the  WAC.  The  WAC  is  generally  characterized  by  granitic 
+gneiss and north to northeast-trending greenstone belts of metamorphosed sedimentary and volcanic 
+rocks. 
+19
+
+--- Page 20 ---
+The  Dem  study  area  is  situated  in  the  Goren  greenstone  belt  (GGB)  which  comprises  meta-
+volcanic  and  pyroclastic  units  that  are  interbedded  with  meta-sedimentary  rocks  (Hein  et  al.,  2004; 
+2010).  Carbonaceous  manganese-rich  shale  beds  and  tholeiitic  dacitic  rocks  are  interbedded  with 
+volcanic units (Kříbek et al., 2008). 
+Based  on  a  reconnaissance  geological  survey  conducted  in  November-December  2010,  the 
+Dem  region  consists  of  metamorphosed  basalt,  siltstone,  iron  formations  and  shale  units  that  are 
+unconformably  overlain  by  a  10  m  thick  silcrete-laterite-ferricrete  duricrust.  The  Dem  mine  site  is 
+hosted  in  shale  and  manganiferous  ironstone  units.  An  iron-rich  laterite-ferricrete  duricrust  formed 
+during the Cretaceous and Miocene (Dequincey et al., 2006) and is a local source of iron ore. 
+1.4. Project aims 
+The aims of this project include:  
+  To map the Dem mine site footprint, its geology and geography. 
+  To identify the characteristics of the Dem ore deposit including its mineralogy and host rocks. 
+  Determine  the  methods  of mining,  processing  and  production  of  iron  ore  as  reasonably  can  be 
+reconstructed. 
+  To establish the mineralogy and metallurgy of the slag. 
+  To provide a first pass estimate of the absolute age of iron mining and the age of the furnaces. 
+ To reconstruct the mining history of iron mining in the Dem region. 
+1.5. Theses organisation 
+This thesis is divided into text and appendices the latter containing the database on which the 
+text is based. The text is subdivided into nine chapters excluding the Introduction. 
+Chapter  Two  provides  a  Literature  Review  of  the  artisanal  and  small-scale  mining.  The 
+Literature Review also provides an overview on the historic mining, processing and production of iron 
+ore. The chapter presents an overview on the geology of laterite-ferricrete and iron ore deposits in the 
+WAC. 
+Chapter  Three  presents  the  Methodology  used  in  this  research;  it  also  describes  in  detail  the 
+different  techniques  used  for  data  acquisition,  data  analysis,  interpretation  and  the  final  product  of 
+every  stage.  Some  of  the  methods  included  GIS  evaluation,  petrography,  ore  petrology  and  dating. 
+GIS evaluation involved the use CorelDraw® and GoogleEarth® for data processing and interpretation. 
+This helped establish the location of mine sites, furnaces, artefacts, river profiles and contacts. 
+Chapter Four describes the Mine Site at Dem, its mining footprint and the layout of the mine 
+sites, processing sites, mines, and waste dumps. 
+20
+
+--- Page 21 ---
+Chapter Five presents petrography and metallurgy of selected samples of host rock and slag. 
+Chapter  Six  presents  the  results  of  a  pilot  radiocarbon  study  of  the  limited  absolute 
+geochronology which were conducted on a selected number of furnace samples. Geochronology was 
+conducted at Beta Analytic laboratory in Miami Florida USA. 
+Chapter Seven Discussion, summary and interpretation. 
+Chapter Eight presents conclusions. 
+1.6. Conventions and acronyms 
+The conventions and acronyms used in this thesis include: 
+ASM - Artisanal and small-scale mining 
+BIF - Banded Iron Formation 
+BP - Before Present 
+Ga - Billion years 
+GGB - Goren Greenstone Belt 
+GIS - Geographical Information System 
+ICMM - International Council on Mining and Metals 
+Ma - Million years 
+pMC - Percent Modern Carbon 
+WAC - West African Craton 
+21
+
+--- Page 22 ---
+2. LITERATURE REVIEW 
+2.1. Artisanal and Small-scale Mining 
+Artisanal  and  Small-scale  Mining  is  the  oldest  form  of  mining  known  in  Africa  and  Europe 
+(c.f., Agricola, 1556). To date, there is no internationally acceptable definition of Artisanal and Small-
+scale  Mining  (ASM).  The United  Nations  uses the  volume  of  material  mined  as  a  base  criterion  to 
+establish the difference between small and large-scale mining (ICMM, 2010), but summarily, artisanal 
+mining  involves  mining  activities  conducted  on  ore  bodies  or  deposits  by  persons  using  traditional 
+techniques  and/or  low  mechanisation  levels  (Anonymous,  1999)  using  extraction  and  processing  of 
+minerals by intensive selective manual labour. ASM mostly occurs in rural areas by artisanal miners 
+with inadequate (1) necessary education, (2) management skills, (3) training and (4) essential tools. 
+There are a range of criteria that are generally applied to categorize ASM practices. Chaparro 
+(2000)  classified  ASM  on  production,  depth  of  workings,  capital  investment,  mineral  type,  size  of 
+concessions,  number  of  workers,  quantity  of  reserves,  sales  volume,  operational  continuity, 
+operational  reliability,  duration  of  the  mining  cycle,  use  of  machinery  and  explosives.  In  contrast, 
+Hilson  (2002b)  divided  ASM  activities  into  two  categories  that  included  (1)  high  value  mineral 
+extraction  including  iron  ore,  gold,  silver,  precious  stones  and  quarry  mining,  or  (2)  the  mining  of 
+industrial minerals and construction materials. In the first category, as  an example, iron ore requires 
+mining, furnacing, smelting and production where the final product can be used to manufacture the 
+rudimentary  tools  such  as  handpicks  and  hoes.  In  the  case  of  gold,  similar  processes  are  used  but 
+chemical  reagents  are  utilized  such  as  mercury  amalgamation  or  cyanidisation  to  liberate  the  gold 
+from  the  mined  ore  (Hilson,  2002a).  The  mining  of  industrial  minerals  and  construction  materials 
+such as sand generally do not require any form of processing technique (although mining of quartz for 
+gravel in Burkina Faso requires considerable processing and hand-crushing). 
+Lovitz  (2006)  attempted  to  classify  ASM  practices  in  terms  of  modern  mining  techniques, 
+markets, and productivity drivers and included categories that involved investment costs, mine output, 
+labour, productivity, size of concessions, reserves and annual sales.  However, these categories were 
+less significant for ASM when compared to large-scale mining, and were often difficult to quantify. In 
+fact they relied on considerable amounts of qualitative data. For example, production is considerably 
+less in ASM operations relative to large-scale mining operations and productivity from day to day is 
+difficult  to  quantify  in  an  ASM  operation.  Regardless,  in  terms  of  ore  reserves,  ASM  is  often 
+characterized by small and poorly defined reserves and thus produces small concessions. 
+In  general,  artisanal operators use simple methods and processes to extract in excess of more 
+than  30  different  mineral  substances  world-wide  and  there  is  a  huge  variation  in  the  amount  of 
+success.  Mining  practices  vary  according  to  the  type  of  the  deposit  being  mined  and  the  location 
+22
+
+--- Page 23 ---
+(Aryee et al., 2002), but the majority of ASM miners rely on manual methods of mining using simple 
+equipment  such  as  shovels,  pans,  chisels,  pick-axes  and  hammers.  This  manual  aspect  of  ASM 
+methodology has probably not changed for hundreds, if not thousands of years in Africa and around 
+the world and is probably how iron ore was mined at Dem. 
+The more sophisticated ASM miners currently purchase small, cheap, readily mobile machines 
+to  speed  production,  or  use  forms  of  ventilation,  such  as  wind  assisted  plastic  ventilation  tubes  to 
+bring air to depth, so that extraction can proceed to up to 60 metres or more. Torches strapped to the 
+heads of the miner to aid with vision underground, plastic ropes and metal pulleys, or bucket hauling 
+systems, are all modernisations, but extraction is typically manual.  
+Furthermore,  ASM  mining  is  characterised  by  simple  and  sometimes  illicit  marketing 
+arrangements  mainly  due  to  poor  government  policing  (Sinding,  2005;  Hoadley  and  Limpitlaw, 
+2004). Funds for the allocation of proper market research are limited by low or no investment capital 
+and this  encourages  effective illegal trading and smuggling (Mutemeri et al., 2002). The process of 
+finding  adequate  markets  for  minerals  in  the  ASM  sector  is  also  difficult  and  may  be  disorganized 
+(United Nations, 2002) and trade tends to follow along traditional or informal trade routes, or occurs 
+within the same country. 
+ASM sites are also associated with health, safety and environmental problems.  Lovitz (2006) 
+stated that poor health and safety, and the use of environmentally destructive mining and processing 
+practices  draw  criticism  to  the  sector.  The  health,  safety  and  environmental  problems  are  often 
+aggravated  by  inadequate  regulatory  frameworks  governing  ASM  in  many  developing  countries, 
+especially in Africa. Nonetheless, although ASM may be associated with negative impacts, it provides 
+a  means  of  livelihood, jobs  and  business  opportunities  to  millions  of  people  across  the  world.  This 
+includes ASM in Burkina Faso both in a modern and historic context. 
+2.2. Artisanal mining, processing and production of iron 
+Africa is abundantly supplied with ores of differing qualities such as iron and copper. Iron is 
+found  in  nature  as  iron  ore  but  iron  oxides  are  the  most  abundant.  Iron  is  the  sixth  most  abundant 
+element and metal in the universe and fourth most abundant in the Earth’s crust after O, Si, and Al at 
+5% by weight (César et al., 2002). It is a key ingredient for structural material such as steel due to its 
+availability, low cost and strength. Iron ore is used mainly for making pig iron and sponge iron, and 
+rusts easily when combined with oxygen through the process of oxidation (Guilbert et al., 1975). 
+Historically, iron was a resource that was more common than bronze and  easier as a metal to 
+work  with,  much  as  the  historic  improvement  that  bronze  provided  over  copper  (Phillipson,  1975). 
+However,  the  use  of  iron  was  limited  by  furnace  design  which  could  not  achieve  sufficiently  high 
+enough  temperatures to  melt  iron ore  into  workable material (Cleere,  1972).  From  the  19th  century 
+23
+
+--- Page 24 ---
+onwards,  furnace  design  improved  and  temperature  of  1540  ºC  could  be  achieved  which  was 
+sufficient to completely melt the iron ore into a workable material (Tylecote, 1976). 
+According to the radiocarbon dating results of Todd (1979) there was a rapid expansion of iron 
+technology from 1400-1600 AD in West Africa but Pleiner (2000) indicated that iron workings may 
+have reached West Africa as early as 1300 AD. In the southeast part of Burkina Faso and southwest of 
+Niger, the Iron Age civilizations were demonstrated by the Bura culture that practiced smelting and 
+forging of tools and weapons in 1200 AD (Miller et al., 1994). 
+Charcoal  was  a  primary  fuel  in  sub-Saharan  Africa  for  smelting,  and  successful  smelting 
+required resilient woods that would burn slowly at high temperature (Childs, 1991).  Ore preparation 
+involved picking of the leanest ores followed by washing and crushing to remove the matrix and gross 
+impurities  (Kense,  1983).  The  ore  was  frequently  pounded  to  concentrate  the  mineral  although  the 
+nature  of  the  pounding  tools  is  generally  not  known.  Ore  was  also  roasted  to  eliminate  excess 
+moisture and increase rock permeability (Avery et al., 1970). Studies by Friede et al. (1986) showed 
+that the ore was sometimes made into balls that could be fed into the furnace. Fluxes were added in 
+form of old slag.  
+The chemistry of the slag is important to the smelting process as well as the chemistry of the 
+iron  ore.  Smelting  in  Africa  depended  exclusively  on  the  Bloomery  process  (Childs,  1991).  The 
+Bloomery process removes or extracts Fe from its ore, i.e., separating Fe and O in Fe2O3 to isolate Fe. 
+Herbert (1993) on explaining the concept of smelting summarised that smelting requires three sources 
+which  are  (1)  source  of  iron  which  is  the  iron  ore,  (2)  source  of  fuel  to  produce  high  temperatures 
+which is charcoal from wood and/or coke from coal, and (3) carbon to reduce iron by combining with 
+oxygen  in  iron  ore  to  form  CO2  (Figure  2.1).  The  characteristics  of  the  slag  are  dependent  on  the 
+carbon  (Scott-Garrett,  1956).  In  smelting,  other  elements  are  needed  to  remove  impurities  such  as 
+silica (Si). Limestone or calcium carbonate, (CaCO3) is typically added to remove silica from the iron 
+ore. 
+The process of removing iron from its ore is known as smelting. As described by the curator at 
+the Museum of Kaya in Burkina Faso, in smelting of iron ore in artisanal iron workings, the furnace is 
+loaded  with  charcoal  and  iron  ore.  Air  is  directed  into  the  furnace  from  below with  a  tuyere  (blow 
+pipe). During the process, iron oxides in the ore are reduced to iron within the furnace and the reduced 
+iron particles fall into a melt of slag formed near the air inlet. 
+Three vital chemical reactions inside the furnace occur during smelting, (1) carbon monoxide 
+(CO) that is formed by reaction of oxygen in the air and carbon present in the fuel, (2) the reduction of 
+iron oxide to metallic iron, and (3) the formation of slag. In the process of smelting roasted ore, flux 
+(carbonates and/or quartz), and fuel (charcoal) are required (Herbert, 1993). 
+24
+
+--- Page 25 ---
+Figure 2.1: Schematic of furnace, showing temperatures and reactions during smelting (Cleere. 1981,  Figure 
+6). I = Roasting zone, II = Indirect reduction zone, II = Oxidation zone, IV = Direct reduction in hearth, V = 
+Slag bath and outlet. 
+The chemical reaction in which carbon monoxide (CO) is formed takes place when the furnace 
+is packed with crucibles and preheated by burning of grass and wood, and when air is blown into the 
+furnace.  Charcoal  is  added  to  bring  the  furnace to approximately  1400  °C.  In  the  reaction,  the  heat 
+oxidises carbon to CO2 through an endothermic reaction that cause the temperature to rise drastically. 
+As  carbon  dioxide  is  transferred  throughout  the  furnace,  it  combines  with  the charcoal  to  form  CO 
+through an endothermic reaction that reduces the temperature. 
+The second chemical reaction that reduces the iron oxide to metallic iron takes place when iron 
+oxides  combine  with  carbon  in  the  furnace  to  form  iron  metal,  which  is  the  main  purpose  of  iron 
+smelting. The extraction process deals with the separation of Fe and O in Fe2O3 (hematite) and Fe3O4 
+(magnetite), and probably goethite (FeO(OH)),  to isolate Fe for subsequent use. The iron melt then 
+settles at the bottom of the furnace where it is tapped off for smithing. 
+The third reaction, the formation of slag, occurs between the flux and impurities in the iron ore. 
+The slag floats on top of the iron melt due to its lower density. The purpose of the flux is to assist in 
+the removal of impurities. The slag is drained through a temporarily opening on the lower side of the 
+furnace (Herbert, op. cit). 
+25
+
+--- Page 26 ---
+The chemical reactions in the smelting process include: 
+C + O2 CO2 + furnace heat (1200 ºC) 
+CO2 + C  2CO + furnace heat (1200 ºC) 
+3Fe2O3(s) + 3C  2Fe (iron metal) + 3CO 
+Fe3O4 + 4CO  3Fe (iron metal) + 4CO2 
+CO2 + C  2CO 
+Fe2O3 + 3CO  2Fe (iron metal) + 3CO2 
+CaCO3  CaO + CO2 
+CaO + SiO2  CaSiO3 (slag) 
+During  the  reducing  conditions,  iron  oxides  changes  from  hematite  to  magnetite,  from 
+magnetite to wüstite (FeO) and from wüstite to metal iron (Tylecote et al., 1971, Doherty et al., 1985). 
+Ulvospinel (Fe2TiO4) may also be formed by the reaction between magnetite and titanium in the host 
+rocks at high temperature under reducing conditions (Verhoogen, 1962; Ivanyuk et al., 2012). 
+At high temperature, any silica present in the furnace is likely to combine with some of the iron 
+oxide  to  form  fayalite  (Fe2SiO4).  Fayalite  and  the  oxides  combine  to  form  slag  with  a  melting 
+temperature below 1400 °C (Paynter, 2006). 
+Fe3O4 + TiO2  FeTiO3 + Fe2O3 
+2FeO + SiO2 Fe2SiO4 (Fayalite) 
+Based on the conditions inside the furnace, the reduction of iron oxide may take place in stages within 
+the slag, or independently within the individual ore particles. 
+The phase relations and the thermodynamics properties have been studied by Schuhmann et al. 
+(1953). The stability of the phases depends on temperature, pressure and oxygen activity (Figure 2.2). 
+At  high  pressure  fayalite  transforms  to  spinels.  At  normal  pressure  fayalite  is  the  only  stable 
+compound  within  the  Fe-O-SiO2  system.  The  iron-saturated  section  is  characterized  by  a  liquid 
+miscibility gap, which was investigated by Greig (1937). 
+26
+
+--- Page 27 ---
+Figure 2.2: A Fe-FeO–Fe2O3–SiO2 slag phase diagram at varying temperatures redrawn from Schuhmann et 
+al. (1953), the temperatures is in degrees centigrade. 
+2.3. Laterite-Ferricrete in the WAC 
+In West Africa, the volcano-sedimentary rocks of the Birimian Supergroup contain iron (Milési 
+et al., 1989; Bamba et al., 2002). These rocks are often overlain by an extensive lateritic weathering 
+profile  that  provide  laterite  mantles  and  screes  to  younger  ferricrust  (Beauvais  and  Chardon,  2013; 
+WAXI, 2013). Lateritization processes regulate the weathering products through extreme leaching of 
+the silica and alkaline-earth elements of the bed rock, which results in a mineralogical reorganization 
+of iron oxide, silica and alumina (Nahon 1991; Tardy 1993). According to Pryce et al. (2010), laterites 
+result from the decomposition of rock within a dynamic leaching environment. 
+Beauvais  et  al.  (2008)  stated  that  most  laterite  deposits  in  the  northeast  Burkina  Faso  were 
+formed  by  long-term  meteoric  weathering.  Formation  probably  took  place  in  a  tectonically  stable, 
+slowly  eroding,  tropical  environment  (Brown  et  al.,  1994;  10Be  and26Al  isotopic  depletion  ratios  of 
+ferricrete)  in  the  Cretaceous  period  and  during  breakup  of  Gondwanaland,  with  reworking  of  the 
+laterite  during  the  Miocene-Eocene  (Beauvais  et  al.,  2008;  Beauvais  and  Chardon,  2013;  WAXI, 
+2013). Although Burkina Faso is currently in a sub-tropical to Sahelian climatic zone, geographically 
+it was positioned in a tropical climatic zone during the Cretaceous when the equator was located just 
+27
+
+--- Page 28 ---
+north  of  Burkina  Faso,  the  repositioning  being  the  result  of  continental  drift  and  the  slow  march 
+northward of the African plate. 
+According to Taylor et al. (2001), laterite is a regolith mass that is cemented by Fe-oxides, with 
+composition that is characterised by SiO2, Al2O3, Fe2O3, H2O and accessory elements, including Cr, 
+V,  Zr  and  Ti.  However,  laterites  exhibit  a  vertical  zonality  of  their  characteristics  and  components 
+(Blot,  2004)  but  are  typically  a  weathering  profile  consisting  of  some,  or  all  of  the  soil  profile, 
+ferruginous  crust  and  bedrock.  Laterites  in  the  northeast  of  Burkina  Faso  are  similar  but  some  are 
+developed from weathering of tuffaceous schist and calc-alkaline granites (Brown et al., 1994). 
+In general, iron laterites are low in iron and not of economic interest (Read, 1937). However, 
+laterites derived from weathering of basic or ultra-basic rocks, or host rocks that are enriched in iron, 
+such as iron-rich shales and siltstones, may be sufficiently rich in iron (and/or other elements such as 
+nickel) to be minable. This is the case in the Dem study area, where iron-rich laterite overlies iron-rich 
+shale host rocks of the Birimian Supergroup.  
+In  contrast  to  laterite,  ferricrete  is  the  iron-cemented  duricrust  that  is  formed  by  various 
+processes  particularly  pedogenesis  (McFarlane,  1976).  Generally  it  overlies  the  laterite  profile  in 
+Burkina  Faso  but  is  still  regarded  as  part  of  the  laterite  weathering  profile  (Schwartz,  1994).  The 
+mineralogy of ferricrete is typically composed of goethite, limonite, lepicrocite, hematite in varying 
+proportions,  sometimes  with  minor  amounts  of  manganese  oxides,  and  residual  base  metal  sulfides 
+(Craig  and  Vaughan,  1994).  The  profile  typically  presents  indurated  strata  rich  in  kaolinite  and 
+hematite (Nahon and Tardy, 1992).  
+Further to this, in Burkina Faso, the general outcrop distribution of ferricrete indicates that the 
+surfaces have also been eroded, redeposited and cemented several times such that the current profile is 
+representative of several phases of ferricrete formation (Middleton et al., 1997). In fact, ferricrete may 
+overlie  one,  or  more  of  three  gently  inclined  laterite  pediments  that  formed  as  erosional  surfaces 
+between 45 Ma and 2 Ma (Beauvais et al., 2008).  
+2.4. Iron ore deposits in the WAC 
+The WAC hosts iron ore reserves that are hosted in large Palaeoproterozoic BIF (banded iron 
+formation) deposits (>6000  mt) of iron ore in the Man and Reguibat shields (Bronner et al., 1990). 
+The BIF in greenstone belts are also a local source of iron (Milési et al., 1989). 
+BIF's  are  fine  bedded  chemical  sedimentary  rocks  composed  of  chert  (amorphous  silica)  and 
+iron-bearing minerals with an iron content of greater than 30 wt% (USGS, 2000). BIF’s are formed in 
+shallow marine conditions from iron transported to the oceans in solution (Drever, 1974), as the result 
+of  free  oxygen  released  by  photosynthetic  cyanobacteria  combining  with  the  iron  in  solution, 
+insoluble  iron  oxides  formed,  which  precipitated  to form  thin  layers  on  the  seafloor.  Consequently, 
+BIF deposits normally occur as horizontally and vertically widespread sequences.  
+28
+
+--- Page 29 ---
+Some BIF deposits are formed from metal-rich brines that are expelled at active rift zones by 
+hydrothermal  activity.  This  is  case  for  the  Faléme  iron  ore  deposits  which  are  the  largest 
+Palaeoproterozoic  iron  ore  deposits  in  the  WAC  (Combes,  1980;  Milési  et  al.,  1992).  They  are 
+spatially associated with hydrothermal mineralisation associated with tourmalinisation, carbonisation, 
+chloritisation and albitisation of the host metasedimentary and volcanic rocks (Bassot, 1997). 
+Fe-Ti-V  mineralization  occurs  in  Tin  Edia  deposit  of  the  Oudalan  province  in  Burkina  Faso 
+(Neyberg  et  al.,  1980).  The  Fe-Ti-V  mineralization  occurs  in  veins  which  crosscut  gabbro,  gabbro-
+norite  and  norite  intrusions  as  magnetite  and  ilmenite,  with  accessory  pyrrhotite,  pentlandite  and 
+arsenopyrite  (Castaing  et  al.,  2003).  Iron-titanium  ores  mostly  consist  of  titaniferous-magnetite  in 
+association with ulvospinel and ilmenite. 
+The  volcano-sedimentary  formation  in  the  northeast  portion  of  the  WAC  contains  stratiform 
+deposits  of  iron-rich  shale,  manganese  and  manganese-iron-carbonate  deposits  particularly  in  the 
+northeast  of  Burkina  Faso  at  Tambão  (Kimberly,  1989;  Beauvais  et  al.,  2008)  and  Billiata 
+(Tshibubudze and Hein, 2013). Manganiferous iron ore deposits are formed by the leaching of silica, 
+carbon dioxide, magnesia and minor amounts of other constituents. In addition, some manganiferous 
+deposits  are  formed  by  the  local  migration  of  iron  and  manganese  that  produced  space  filling  and 
+replacement  of  silica.  Manganese  iron  ore  deposits  are  formed  on  the  seafloor  and  build-up  as 
+chemical sediments together with additional sedimentary or volcanic detritus (Dasgupta et al., 1999; 
+Mücke, 2005 suggesting that perhaps the formation of the iron and manganese deposits is related to 
+seafloor exhalite processes. 
+In  the  Goren  greenstone  belt,  in  which  the  Dem  site  is  located,  Fe-rich  siltstone  shale  and 
+siltstone  are  sometimes  manganiferous  and  intercalated  with  volcaniclastic  meta-greywacke,  meta-
+siltstone with minor resedimented pyroclastic deposits (Peters and Hein, 2013). However, repetitious 
+successions  of  Fe-rich  low  grade  metamorphosed  siltstones,  fine-grained,  carbonaceous,  Fe-rich 
+exhalative and volcaniclastic units are typically intercalated with the basalt units. 
+29
+
+--- Page 30 ---
+3. METHODOLOGY 
+3.1 Introduction 
+The  overall  project  carried  out  in  the  Dem  study  area  encompassed  five  aspects  including 
+mapping,  sampling,  database  development,  laboratory  studies  and  analysis  of  the  results.  Once  the 
+methodology was established, the next stage involved the accumulation and analysis of required data. 
+In general;  
+  A reconnaissance survey was undertaken to establish traverse lines. 
+  Ethnographic research on historical mining, processing and production of iron ore. 
+  Field  mapping  of the study  area  was  completed in November-December  2010.  At  each  station 
+point, lithological data was recorded and the GPS coordinates were established (UTM; WGS 84). 
+Also,  where  appropriate,  a  photographic  record  was  made  and  samples  were  collected  for 
+petrographic study. An aerial photographic mosaic map of the Dem site is presented in Figure 3.1 
+and a geology map of the same region is presented in Figure 3.2. Lithological data recorded in the 
+field is presented in Appendix 1. 
+  Sampling included; (1) lithological, (2) furnace, (3)  ore body and  (4) host rocks. The sampling 
+was done at normal surface temperatures 35° to 37°C with about eight hours of day light. A list of 
+samples is presented in Appendix 2. 
+  Petrographic  and  mineralogical  studies:  selected  samples  of  the  lithologies,  host  rocks,  ore 
+body and slag were investigated to establish the lithological type and slag characteristics. The list 
+of selected samples for petrography is given in Appendix 3. 
+  Carbon isotopes and AMS radiocarbon dating: A total of six carbon samples were dated using 
+radiometric  and  accelerator  mass  spectrometry  (AMS)  at  Beta  Analytic  Laboratories  in  Miami, 
+Florida, USA. 
+3.2. Ethnographic research 
+This  study  used  ethnographic  methods  and  research  as  a  first  pass  to  establish  the  history  of 
+artisanal  mining  of  iron  in  the  Kaya  region,  and  specifically  the  Dem  region.  The  recording  of 
+ethnographic  data  was  considered  important  to  develop  a  base  historical  perspective  and  perhaps 
+constrain the age of activity at the iron artisan mine site. Interviews with significant elders (Fig 1.3) of 
+the Mossi peoples where arranged with the assistance of staff from the Museum of Kaya.  
+30
+
+--- Page 31 ---
+Figure 3.1: Photographic mosaic of the Dem site constructed from GoogleEarth images. Location of the town 
+of Dem along the main road to Kaya is shown. Sites of Opencast (OC) mining, underground (UG) mines and 
+forges/ furnaces are also presented. The mine site is wholly located east of the major ridge on an alluvial plain. 
+Lac Dem is located east of the town of Dem. 
+31
+
+--- Page 32 ---
+Figure 3.2: Geology and layout of the Dem site. Open cast mines 1-3 are located on the eastern side of a ridge 
+of ferricrete duricrust and immediately east of ferricrete scree in Fe-Mn rich metasedimentary rocks, and adit to 
+UG 1-2 underground mines is located above the open casts. Forges/Furnaces 1-11 are situated on the alluvium 
+plain blow the open cast mines. Waste dumps are situated proximal to the furnace sites. 
+32
+
+--- Page 33 ---
+Interviews  were  conducted  with  community  members  of  the  towns  of  Liligomde  and  Kaya, 
+which are the two local centres of artisanal mining for iron and gold. No interviews were held without 
+the  expressed  permission  of  the  senior  elders  of  the  villages.  Data  was  recorded  in  a  notebook; 
+translations  from  Mossi  to  French  and  English  where  facilitated  by  Mr  Bamogo  Makido  of  the 
+Museum of Kaya and all notes were recorded in English. 
+Several consultations were specifically conducted with two groups of senior elders (ages ranged 
+from 75 to 101 years of age) of the village of Liligomde near Kaya (Figure 1.3), who were the former 
+chief  blacksmiths  of  the  Chief  Naba  of  the  Mossi  people.  The  results  of  the  consultations  clearly 
+argued that mining of iron in the Dem region, or any significant artisanal mining in the Dem region 
+for any metal commodity, had not occurred in the last 80-90 years, i.e., mining in the Dem region is 
+not recorded in oral tradition of the significant elders of the Mossi people.  In fact, the consultations 
+recorded that mining for iron for primarily agricultural purposes only took place at a site immediately 
+west of the village of Liligomde and not at Dem. The presence of iron in the Dem region was known 
+but the iron was not used for fabrication purposes.  
+The Museum of Kaya also supported the ethnographic evidence and added that research has not 
+been undertaken on iron mining, processing and production anywhere in Burkina Faso and certainly 
+not  in  the  Dem  region.  There  was  a  record  that  research  had  been  undertaken  in  the  village  of 
+Liligomde, but the results of that work does not appear in the published works or reports held by the 
+Museum of Kaya. 
+Interestingly,  consultations  with  the  significant  elders  about  the  history  of  iron  mining  in  the 
+Kaya region quickly recounted that iron mining and working as having arrived from the north through 
+the  village  of  Aribindi  in  the  Oudalan  province  (northeast  Burkina  Faso)  by  Chief  Abukonde. 
+Ethnographic research also revealed that iron technology was brought to Burkina Faso by the Dogon 
+people of Mali before the Mossi Kingdom was established in 1543 in Burkina Faso (Brunner-Robion 
+et al., 2003). There was no  ethnographic evidence  of iron mining, processing and production  in the 
+Dem region; iron mining in the Dem region took place before the senior elders became blacksmiths, 
+or before 1920-1930 AD. 
+3.3. Fieldwork and geological mapping 
+This  research  is  based  on  one  phase  of  fieldwork.  The  fieldwork  took  place  in  November-
+December  2010  over  a  period  of  17  days  and  recorded  the  geology  of  the  iron  orebody  that  was 
+mined, the type and number of mines, ore dressing and processing techniques (as reasonably could be 
+established) and the greater mining footprint; the results of field studies is presented in Chapter Four. 
+A total of 93 rock, mine site, carbon and metallurgical samples were collected in the study area 
+and  transported  to  the  University  of  Witwatersrand  Johannesburg.  Geological  surface  mapping  was 
+conducted throughout the Dem study area which is located in the Goren Greenstone Belt of Burkina 
+33
+
+--- Page 34 ---
+Faso (Figure 1.2). Field studies focussed on furnace sites, mine sites, waste sites and also accessible 
+outcrops (see Figures 3.1, 3.2). 
+Geographical  features  such  as  dry  river  profiles,  sand  dunes  and  the  geomorphology  of  the 
+terrain were recorded and if necessary, traversed using a GPS (Garmin) instrument (WGS84, UTM), 
+for example, the trace of the edge of dry river profiles was mapped in this way. Selected photographs 
+were  also  taken  of  sample  sites  and  geographical  features.  Artefacts  were  photographed  whenever 
+they were found and their GPS location recorded. All geographical and geological data were recorded 
+on Excel® spread sheets for map creation using MapInfo® and Coreldraw®. Maps of furnace sites, 
+establishing a photographic record, and site sampling were also completed. 
+The  selected  samples  collected  in  the  field  represent  a  cross-section  of  the  iron  ore  deposit, 
+mine site locations, furnace locations, and waste materials (host rock, slag and chimney). Host rock 
+lithologies  were  studied  for  thickness,  orientation  and  rock  character.  Underground  mine  sampling 
+was  limited  because  the  adits  and  drives  of  the  underground  mine  site  were  considered  unsafe  and 
+unstable  to  access.  All  samples  were  photographed,  wrapped,  bagged  and  labelled  to  keep  in  their 
+water content as of date of sampling. 
+Carbon samples from chimneys and furnace materials were collected from the 11 furnaces that 
+were found across the site, and their location was accurately recorded using GPS (Appendix 4). The 
+furnace materials included charcoal on fragments of broken furnace bricks and samples of slag. 
+All  samples  were  transported  to  the  University  of  the  Witwatersrand  Johannesburg  for 
+laboratory work. At the university, the lithology samples were catalogued and sent to the School of 
+Geosciences thin-section laboratory for preparation, while metallurgical and ore body samples were 
+sent  to  the  SGS  Laboratory  in  Booysens  for  polished  block  preparation.  Carbon  samples  were 
+packaged and shipped to the Beta Analytic laboratory in Miami, Florida, USA. 
+3.4. Petrography 
+A total of 59 samples were collected (Appendix 3) from sites of interest at Dem including host 
+rocks,  ore  bearing  rocks  and  slag  and  petrographic  sections  were  made.  Host  rock  and  ore  bearing 
+rock  samples  were  collected  from  the  mine sites.  Samples  of the  metallurgical slags  were  collected 
+from  11  furnaces  and  in  the  waste  areas,  and  ore  blocks  were  made  from  eight  (8)  samples. 
+Metallurgical polished blocks and rock thin-sections were studied using reflected light and transmitted 
+light  microscope  under  an  Olympus  BX51  microscope  with  a  CC12  imaging  system;  the  results  of 
+petrography and metallurgy are outlined in Chapter Five. 
+Petrographic  studies  documented  the  mineralogy,  texture,  and  alteration  mineralogies  of  the 
+host rocks.  Petrographic  data  of  the  bulk  rock  and  individual  mineral  attributes were  recorded  on a 
+spread sheet before describing characteristic features of each mineral. These petrographic data were 
+34
+
+--- Page 35 ---
+used to determine the main rock types in the study area, and also ore minerals that might be suitable 
+for determining the grade of iron ore before and after the smelting. 
+3.5. Pilot study - AMS radiocarbon dating 
+The  main  aim  of  dating  the  charcoal  samples  using  limited  AMS  radiocarbon  dating  was  to 
+constrain the age of forging as a proxy for artisanal mining activity at the Dem region through dating 
+of forge charcoal which was assumed to have formed at the same time as mining and processing took 
+place. The sampling of furnaces was undertaken as a pilot study in 2011, with a view to a focussed 
+comprehensive  study  if  the  pilot  study  was  successful,  but  limited  funding  has  meant  that  a 
+comprehensive study has not been possible to date. 
+There  are  three  primary  carbon  isotopes  that  are  12C,  13C  and  14C.  14C  is  radioactive  whereas 
+isotopes 12C and 13C are stable (Vogel et al., 1993). Radiocarbon dating is used to establish the ages of 
+samples younger than 55 000 years. According to Anderson et al. (1950), the radiocarbon method is 
+based on the rate of decay of the unstable carbon isotope  14C. Bowman (1990) showed that the  14C 
+isotope rapidly oxidizes to form CO2, which is absorbed by all living organisms through the process 
+of photosynthesis. Subsequent to death and burial of an organism, the material loses 14C as it converts 
+to 14N by radioactive decay. 
+Based on the studies by Taylor (1987) and Libby (1952), the method used in radiocarbon dating 
+is  the  Libby-half  life  (t½)  of  5570  ±  30  years  and  assumes  that  (1)  the  14C  production  in  the 
+atmosphere has been constant through time, (2) the concentration of  14C is homogeneous for all parts 
+of  the  system,  (3)  the  half-life  is  accurately  known  and  (4)  there  is  only  decay  of  14C  after  the 
+organism's death. All of these are the sources of errors that need to be taken into consideration when 
+analysing and interpreting the 14C ages. 
+Accelerator  Mass  Spectrometry  (AMS)  radiocarbon  dating  is  a  technique  that  is  based  on 
+detecting and counting the amount of beta radiation emitted in a unit time by radiocarbon atoms in a 
+sample of known weight (Guo et al., 2000). This technique usually provides reliable results and is also 
+based  on  counting  the  relative  amount  of  radiocarbon  to  stable  carbon  isotopes  in  a  sample  with  a 
+mass spectrometer (Oda et al., 2000). The technique requires very small samples (usually below one 
+gram in weight) and the time necessary to measure the amount of radiocarbon in each sample is only a 
+few minutes.  
+For  pilot  AMS  radiocarbon  dating,  six  samples  with  a  wide  range  of  carbon  content  were 
+selected  from  different  furnace  sites  in  the  Dem  study  area  including  samples  FOR02-01CAR, 
+FOR05-02CAR,  FOR06-02CAR,  FOR08-01CAR,  FOR09-01CAR,  and  FOR11-01CAR.  The 
+characteristics of the selected samples are presented in Table 3.1. 
+35
+
+--- Page 37 ---
+Prepared samples were taken to the AMS room for AMS radiocarbon dating. The graphite was 
+pressed into an aluminium (Al) target holder, or cathode, which was placed into a wheel that had 40 
+positions. Forty cathode targets were loaded in a 40-position source. From the 40 cathodes, 25 of them 
+were test/standard samples and the remaining ones were of graphite.  Modern  oxalic acids standards 
+(OXI  and  OXII)  that  allow  the  determination  of  quality  assurance  and  radiocarbon  age  calculation 
+were used. 
+The wheel was placed into the ion source which is the CCM beam that blasted the carbon out of 
+the cathode into the accelerator. AMS counting is performed by converting the atoms in the graphite 
+sample into a beam of fast moving ions (charged atoms). The stream of the carbon ions went to the 
+accelerator  being  burnt  and  separated  at  certain  places  by  the  application  of  magnetic  and  electric 
+fields  and  measured  by  nuclear particle  detection  techniques. The fields  separated  12C,  13C  and  14C; 
+the 14C continued through the accelerator where it was detected. Finally the filtered 14C ions enter the 
+detector  where  their  velocity  and  energy  are  checked  so  that  the  number  of  14C  ions  in  the  sample 
+could be counted. 
+Once  the  data  was  analysed  on  the  accelerator,  the  radiocarbon  age  was  calculated.  The 
+information  coming  off  the  accelerator  was  the  ratio  between  14C  to  13C.  The  conventional 
+radiocarbon  age  (CRA)  before  present  (BP)  was  obtained  by  using  the  following  equation  (Stuiver 
+and Polach, 1977). 
+t= -8033 ln (Asn/Aon) 
+where  -8033  represents  the  mean  life  time  of  14C;  Aon  is  the  activity  in  counts  per  minute  of  the 
+modern  standard,  Asn  is  the  equivalent  counts  per  minute  (cpm)  for  the  sample.  ln  represents  the 
+natural logarithm. The age is reported with a ± error meaning that the age can fall anywhere within 
+that radiocarbon age span (Taylor, 1987). 
+With  respect  to  contaminates  there  are  broadly  two  types;  natural  and  artificial.  Natural 
+contaminants are introduced to the carbon containing material by the surrounding substances such as 
+soil. Hogg (1992) categorised the natural contaminants into (1) carbonates, (2) plant rootlets, and (3) 
+humic acids (Cresswell, 1992). 
+Carbonates make the sample to appear older than its true age due to its older geological age, 
+and  although  there  are  no  carbonates  in  the  Dem  area,  the  iron-rich  shales  are  carbonaceous. 
+Consequently, it became imperative that CaCO3 be removed from the sample during the pre-treatment 
+stage as described in Section 3.5, and as a precaution. 
+Plant  rootlets  growing  in  the  material  of  interest  can  also  introduce  additional  carbon.  It  is 
+possible that plants grew in the study area at some time because the Dem region grows Sahelian grass, 
+but  it  should  be  noted  that  growth  fluctuates  dramatically  according  to  intensity  and  duration  of 
+rainfall. In this context, humic acids may have circulated through the sample by the process known as 
+37
+
+--- Page 38 ---
+adsorption and the sample may liberate a younger or older age depending on the age of growth of the 
+plant material (Hogg, 1992). There are no records of vegetation growth for Burkina Faso, but rainfall 
+statistics  that  would  help  to  ascertain  if  plant  growth  could  be  important  might  were  considered 
+useful.  
+With  respect  to  age  calculations,  the  conventional  radiocarbon  ages  of  the  selected  samples 
+were  calculated  using  the  Pretoria  Calibration  Procedure  program  after  Vogel  et  al.  (1993).  The 
+measured  radiocarbon  dates  are  presented  in  two  ways:  (1)  pMC,  which  refers  to  percent  Modern 
+Carbon, and (2) BP, which is Before Present or 1950 AD. There are factors that influence the pMC 
+while affecting the  14C activity. According to Bowman (1990), the factors include (1) contamination, 
+(2)  isotopic  (13C/12C)  fractionation  or  alteration  effects,  (3)  processes  affecting  the  global 
+concentration of 14C in the atmosphere, and (4) reservoir effects. These factors affect the accuracy and 
+precision of radiocarbon age. 
+Isotopic  fractionation  refers  to  the  variation in the  carbon isotope  ratios as a  result  of  natural 
+biochemical  processes  as  a  function  of  their  atomic  mass  (Taylor,  1987).  Isotopic  fractionation  is 
+important in presenting radiocarbon dates that are accurate and precise. Certain biochemical processes 
+such as photosynthesis change the stability between the carbon isotopes. They favour one isotope over 
+another  (Craig,  1953).  The  amount  of  isotopic  fractionation  on  the  14C/12C  ratio,  which  must  be 
+measured  precisely,  is  approximately  twice  that  for  the  measured  13C/12C  ratio.  If  isotopic 
+fractionation  occurs  in  natural  processes,  a  correction  can  be  made  by  measuring  the  ratio  of  the 
+isotope 13C to the isotope 12C in the sample being dated (Aitken, 1990). 
+It is important to measure the ratio of 13C to 12C. According to Gowlett et al. (1986), the ratio of 
+13C to 12C is measured in an AMS with a low resolution. This is done by extracting a small amount of 
+the  CO2  generated  during  the  combustion  and  measuring  the  13C/12C  ratio  relative  to  the  mass-
+spectrometry  standard. This ratio is used later in the calculation of the radiocarbon age and error to 
+correct for the nature's isotopic fractionation. The C13 concentration ratio is then expressed as. 
+The  composition  of  isotopes  in  the  sample  that  were  measured  is  expressed  as  δ13C,  which 
+represents  the  parts  per  thousand  difference  (‰,  per  mill)  between  the  sample  13C  content  and  the 
+content  of  the  international  PDB  standard  carbonate  which  refers  to  the  Cretaceous  belemnite 
+formation at Peedee in South Carolina, USA (Coplen, 1994). The carbon dating results are calculated 
+after normalising the δ13C values to -25‰. 
+Calibration was made using  IntCal04 after Talma and Vogel (1993) and Reimer et al (2004), 
+and  the  calibrated  ages  were  calculated  using  atmospheric  calibration  curves.  The  conventional 
+radiocarbon  ages  were  converted  into  Roman  calendar  years.  For  calendar  years  conversion, 
+38
+
+--- Page 39 ---
+conventional radiocarbon age was applied to the calibration curve. The radiocarbon ages intercept the 
+calibration  curve  at  two  different  locations.  The  calibration  database  designs  a  curve  for  the 
+probability of the calibrated ages. Each curve was studied to make sure the best interval was selected, 
+and the arithmetic mean was used for the 2 sigma (2σ) age interval of highest probability of 95% and 
+1σ  with  68%  probability.  In  this  study  only  95%  confidence  level  is  considered  as  it  is  accurate, 
+precise and reliable whereas the 1σ gives errors and means there is a 68.3% chance that the true result 
+will lie within ±1σ of the experimental result, a 95.4 % within ±2σ and 99.7% within ±3σ (Bowman, 
+1990). 
+39
+
+--- Page 40 ---
+4. THE MINE SITE AT DEM 
+4.1. Introduction 
+The  mining  of  iron  ore  in  the  Dem  study  area  produced  a  limited  number  of  underground 
+workings and surface open pits. These mine workings show no modern mechanised mining method of 
+operating.  The  surveyed  ASM  site  covers  1.9  km  by  1.3  km.  About  four  ore  extraction  areas  and 
+eleven  smelting  sites  were  located  during  field  studies  but  a  broader  study  of  the  Dem  region  is 
+warranted. 
+The  mining  proximal  footprint  is  characterised  by  two  underground  mine  openings  and  two 
+semi-circular  open  casts  which  are  500-600  metres  in  diameter.  The  underground  mines  include 
+galleries, ventilation shafts and adits. 
+The  underground  mine  workings  and  opencasts  were  mined  by  selective  mining  methods, 
+where  mineralised  iron-rich  fractures  and  quartz  veins  were  extracted.  The  mineralisation  generally 
+comprised ore of magnetite, hematite and laterite. 
+The mined ore was (apparently) transferred to a number of nearby processing sites which are 
+located  within  500  m  of  the  mines.  Waste  rocks  were  dumped  next  to  both  the  surface  and 
+underground mine excavations. Slag was dumped near the smelting sites (furnaces) and also close to 
+the ore sources. The layout of the Dem ASM site is presented in Figures 3.1 and 3.2. 
+The  host  rocks  to  the  iron  ore  deposits  included  metamorphosed  shale,  siltstone,  low  grade 
+laterite-ferricrete  and  mineralised  quartz  cataclasite  veins.  At least  one  mine  site,  the  host  rock  was 
+mangacrete. 
+4.2. Ore body 
+The Dem study area is situated in the Goren greenstone belt and hosted in rocks of the Birimian 
+Supergroup (Hein et al., 2004; Hein 2010). The lithologies of the study area include metamorphosed 
+basalt,  shale  and  interbedded  carbonaceous,  manganifereous,  sulphurous  and  ferruginous  shale  and 
+siltstone  beds,  which  are  unconformably  overlain  by  laterite,  silicrete  and  ferricrete  duricrust,  and 
+rarely as mangacrete which is Tertiary in age (Beauvais et al., 2008; WAXI , 2013). The western half 
+of the study area is characterised by fine grained siltstone and shale. The eastern half of the study area 
+is composed of metamorphosed basalt. The geology is unconformably overlain by deposits of orange 
+aeolian sand that is interbedded with rare stream conglomerate beds. The sand and conglomerate beds 
+are incised by ephemeral streams. 
+The  study  area  is  crosscut  by  buck  quartz  cataclasite  veins,  which  in  the  carbonaceous, 
+manganifereous, sulphurous and ferruginous shale and siltstone beds are surrounded by an alteration 
+40
+
+--- Page 41 ---
+zones, veins and interlocking veinlets that are rich in iron in the form of magnetite and hematite. The 
+veins  were  selectively  mined  by  gallery  methods.  Magnetite-rich  ore  is  black  in  colour  and 
+dominantly  hosted  in  massive  siltstone.  It  may  present  as  stratified  ore  that  extends  over  a  strike 
+length of 30-100 cm and width of 10 cm. The vein-hosted iron was a primary source of high grade 
+iron ore (Figures 4.1a-d). 
+Figure 4.1: Photographs of vein-hosted iron ore from adits in the underground mines of the Dem iron site. A. 
+Massive  siltstone  hosting  zones  of  iron  staining.  Numerous  fine  iron-rich  veinlets  crosscut  the  host  rock.  B. 
+Interlocking network of iron rich veinlets. C. Quartz vein cataclasite veins surrounded by a wide alteration zone 
+of iron enriched siltstone. D. A complex zone of alteration in massive siltstone. 
+Across  the  West  African  Craton,  an  extensive  laterite-ferricrete  plateau  is  locally  mined  as  a 
+source for iron ore for the agricultural industry (Figure 4.2), such as near the village of Liligomde near 
+Kaya).  In  the  Dem  region,  ferricrete  overlying  iron-rich  shale  was  clearly  mined  artisanally  as  a 
+source  of  iron,  along  with  primary  iron  in  the  alteration  selvages  around  buck  quartz  veins  that 
+crosscut the iron-rich shale. 
+Laterite-ferricrete type iron ores are derived from the sub-aerial alteration of rocks (Beukes et 
+al., 2002). Laterite-ferricrete ore deposits in the study area are 6-20 m thick, but usually less than 6 m, 
+and  consist  of  nodular  red,  yellow  and  brown  hematite  and/or  goethite.  The  laterite  ores  are 
+41
+
+--- Page 42 ---
+concentrated  on  the  upper  surface  of  the  regolith  as  a  supergene  product  of  the  iron-bearing  host 
+rocks. It consists of oxidised and insoluble rock constituents. 
+Figure 4.2: Laterite-ferricrete plateau and outcrops occur across the Dem region. A. Photograph of recemented 
+ferricrete in the foreground with ferricrete plateau in the back ground. B. Ferricrete overlying massive siltstone 
+unit in the Dem region. C. Ferricrete plateau in the background is composed of the profile in photograph D. 
+Several layers of ferricrete development can be interpreted from the profile.  
+In  summary,  there  are  two  types  of  ore  deposits  in  the  study  area;  vein  hosted  and  laterite-
+ferricrete hosted. The range of ore types mined was extensive and varied from high grade magnetite to 
+low grade laterite. 
+4.3. Mines 
+The  surface  mines  consist  of  two  bowl-shaped  open  cast  pits  (OC  1,  OC  2)  that  are 
+approximately  500-600m in diameter, with small galleries running a short distance into the sides of 
+42
+
+--- Page 43 ---
+the pit following the iron-rich vein-type ore. A third site (OC3) is situated approximately 650 metres 
+south-southeast of these two opencast. OC1 is situated at UTM 695780.98 mE, 1458597.50 mN, OC2 
+at UTM 695778.71, 1458705.0 mN, and OC3 at 696020.66 mE, 1457969.2 mN. Iron ore supply that 
+came from these sites comprised mostly laterite ore that was at or near surface. The open cast mines 
+are shown in Figure 4.3 as pit 1 and pit 2. Underground Mine 1 (UG1) is located between OC 1 and 
+OC 2. OC 1 mined scree rocks that rolled down the hill from outcrops of shale-siltstone above. OC 2 
+mined ferricrete scree that rolled down the hill from the ferricrete plateau above. This both in-situ and 
+scree was mined at Dem. 
+Figure  4.3:  The  two  surface mines  consist  of  bowl-shaped  opencast  pits  that are  approximately  500-600m  in 
+diameter. The most significant is pit 1 which has worked a considerable volume of primary ore dislodged from 
+outcrops above the opencast, in a natural valley. Iron rich cataclasite veins also crop out across the floor of the 
+open cast. Underground workings (UG 1) occur between the two open casts with adit/entrance located high on 
+a rock face (as marked). Open cast pit 2 worked mainly ferricrete scree that roll down from the laterite plateau 
+above. 
+The site also has two underground mines, which are characterised by drifts, galleries, adits and 
+tunnels (Figure 4.4). These openings were developed along and perpendicular to the mineralised vein 
+type ore. Underground mine 1 (UG1) is situated at latitude 13°11'15.137" N, longitude 1°11'36.017" 
+W and is characterised by two adits that are 3m apart. The opening of each adit is 1 to 2 metres in 
+diameter.  Underground  mine  2  (UG2)  is  situated  67m  SSE  of  UG1  at  latitude  13°  10'  55.107"  N, 
+longitude  1°  11'  28.759"  W.  These  two  underground  mines  are  characterised  by  quartz  vein-hosted 
+iron ore with magnetite and hematite hosted in shale and siltstone units. 
+43
+
+--- Page 44 ---
+After the ore was extracted from the open cast and underground mines, it is likely that the ore 
+was transported to the processing sites nearby the mines, with ore being dumped proximal to mining 
+operation, as occurs at ASM sites around the world today. The ore might have been man-hauled to the 
+surface in bags or sacks particularly because there is no evidence at the Dem site of mechanical aids 
+for  hoisting  and  hauling  ore.  It  is  possible  that  the  open  cast  operations  were  mined  by  women, 
+children  and  aged  persons,  as  can  be  witnessed  at  ASM  site  throughout  Burkina  Faso  and  West 
+Africa, with the underground operations being the domain of men. 
+Figure 4.4: Underground Mine 1 (UG1) consists of a series of drifts, galleries, adits and tunnels that accessed 
+primary in-situ iron ore from the selvedge of quartz cataclasite veins. The galleries were too dangerous to enter 
+but the workings were considerable. 
+4.4. Ore Dressing and Processing 
+After mining, the material containing the ore was  likely separated from the waste material by 
+handpicking, sorting and crushing as occurs at ASM sites today and around the world, and particularly 
+44
+
+--- Page 45 ---
+because there are small ore stockpiles near to the mines. The locations of stockpiles are presented in 
+Appendix 2. The waste rocks included quartz, silicrete and iron-poor laterite. 
+After the removal of most  of the waste rock, the ore was transferred to the forging sites. The 
+means of transport is not known, but we can speculate that the ore was transported by man-labour or 
+perhaps on livestock such as donkeys, as this is the technique that remains in use today in ASM sites. 
+Well defined paths (which currently stand proud of the eroding land surface) lead between the mine 
+sites and the forges.  
+Assuming  that  the  ore  was  transported  by  man  power  in  baskets,  sacks  and  bags,  the 
+transportation  from  the  sorting  site  and  ultimately  to  the  furnaces  would  have  been  across  short 
+distances  as  the  processing  and  furnace  sites  are  not  far  from  the  mine  sites  (1  km).  After 
+beneficiating the ore at the processing (again by hand with rudimentary tools for liberating the high 
+grade  ore  from  the  waste),  the  ore  would  have  been transported  to  the  furnaces.  Stockpiles  of  high 
+grade  ore  were  not  found  in  the  study  area  and  it  is  assumed  that  ore  was  passed  directly  into  the 
+furnaces as needed from the processing sites. 
+The  evidence  of  iron  smelting  in  the  study  area  includes  the  remains  of  at  least  11  furnace 
+(furnace wall and floor fragments), and hundreds of fragments of tuyeres, crucible, burnt clay and iron 
+slag (Figure 4.5). The furnaces remains are circular in shape with a maximum diameter  of 2 m. The 
+furnaces  designs  were  bowl-shaped  and/or  dome-shaped,  as  interpreted  from  the  remains  at  the 
+furnace sites. The bowl-shaped furnaces formed a hollow in the ground which was lined with clay and 
+filled with iron ore and charcoal. The dome-shaped furnaces comprised a circular hearth that was flat 
+at the base and covered by a brick dome. A list of the different types of furnaces in the study area with 
+their geographic locations, are presented in Appendix 3. 
+The  furnaces  were  filled  with  a  number  of  tuyeres,  fragments  of  burnt  clay  and  small  slag 
+fragments.  Except  for  their  size,  both  the  bowl  and  dome  furnaces  were  the  same  in  most 
+characteristics. Furnace 1 and 5 are the only processing sites that are far from the mine sites at 1.6 and 
+1.7 km distance, respectively. The relationship between the individual furnaces is not known, and it is 
+not clear if they worked as entities across the mine-processing sites, or together. 
+Tuyere  fragments  were found  in all  the furnaces  and  sometimes  hold slag  on their  ends. The 
+average tuyere size found in the study area was 7 cm long. Tuyeres are clay nozzles used to allow air 
+into the furnace through forced bellows (Childs, 1989). A bellow is used to cover the furnace and is 
+normally made of goat skin. The tuyere provides oxygen into the furnace and increases the pressure of 
+the  furnace  temperature.  It  can  be  interpreted  that  a  bellows  system  was  used  to  allow  air  into  the 
+furnaces in order to increase the temperature achieved in the furnace. 
+Hundreds  of  crucibles  were  also  found  in  the  study  area  in  association  with  the  tuyeres  and 
+furnaces. A crucible is a heat resistant bowl-like structure made of clay and organic material used in 
+the  smelting  process.  The  source  of  the  material  used  to  make  the  tuyeres,  crucibles  and  furnace 
+bricks can only be speculated; however, they are made of  orange aeolian sand similar to that which 
+45
+
+--- Page 46 ---
+unconformably overlies the Birimian Supergroup and Tertiary rocks of the study area. It is interpreted 
+to mean that the local sand was mined or harvested in the production of crucibles (probably made by 
+hand). 
+Figure 4.5: Iron smelting at the Dem site is evidenced from the remains of at least 11 furnace (furnace wall and 
+floor fragments), and hundreds of fragments of tuyeres, crucible, burnt clay and iron slag. A. Burnt clay of the 
+furnace wall. B. Furnace 2 which is representative of all furnace in the Dem mine site. They are typically round 
+with flat or bowl shaped floors. C and D. Tuyeres are scattered around many of the furnaces or welded into the 
+floor of the furnaces with slag. E and F. Crucibles made of clay-sand are also found proximal to the furnace site 
+of welded together with slag. 
+46
+
+--- Page 47 ---
+The waste rock in the mine sites was dumped near the open casts and underground mines. Open casts 
+tend to produce more waste than underground mines where a minimal quantity of waste was removed 
+to gain access to the ore deposit (Hudson et al., 1999). It is thus that the largest waste piles are located 
+next to the opencast mines. 
+Waste  from  the  furnaces  included  slag  and  furnace  fragments  which  were  dumped  after 
+smelting and within metres of the furnaces (Figure 4.6). Processing sites were also located proximal to 
+the furnace sites. 
+Figure 4.6: Processing sites at the Dem site. A and B. Numerous processing and slag dump sites are located 
+near  the  mines  and  adjacent  to  furnaces  and  scattered  throughout  the  area.  They  indicated  that  the  ore  was 
+beneficiated before use in the furnace, or that slag was removed from the ore after smelting. C. Section through 
+a slag dump site next to a furnace 8. It is clear that a significant amount of forging had taken place at Furnace 
+8. 
+47
+
+--- Page 48 ---
+Slag is the by-product of iron smelting.  It can be defined as a silicate complex formed in the 
+process  of  Bloomery  when  iron  ore  is  being  reduced  in  a  furnace  (Friede  et  al.,  1982).  The  most 
+important constituent of slag is fayalite (Fe2SiO4) and quartz (SiO2) (Morton and Wingrove 1972). 
+Slag making has always been a part of steel and iron making. In 1500 BC, the secret to steel 
+and  iron  making  was  in  the  slag  formulations  (Muszer,  2004).  The  characteristic  behaviour  of  slag 
+under any operating conditions is a function of its composition and the various constituents in it of 
+which the fluxing constituents are the most important ones. Slag contains gangue minerals from the 
+ore, impurities from the fuel, wüstite, silica and a variety of reaction products formed in the smelting 
+process. There are generally two types of slag including the flow-type and furnace-bottom slag. Flow-
+type  slag  is  solidified  from  molten  rock,  a  condition  which  is  lava-like  and  rippled  in  appearance. 
+Flow-type  slag  is  black,  dense  and  shiny  in  appearance.  In  contrast,  furnace-bottom  slag  contains 
+higher amounts of impurities from the ore, fuel and bloom. It is often spongy, porous and needle-like 
+in texture.  
+During the process of smelting, slag floats on the surface of the molten product due to the low 
+density  of  slag.  The  characteristics  of  slag  such  as  the  volume,  density,  porosity  and  grain  size  is 
+influenced  by  the  cooling  rate,  temperature  and  the  chemical  composition  of  the  iron  ore,  flux, 
+charcoal and clay. Higher temperatures decrease the viscosity of the melt. 
+Different  types  of  slag  (Figure  4.7)  were  dumped  at  different  locations  in  the  Dem  area  and 
+included (1) a dense black-grey flowing type that resulted from a slow cooling rate, (2) a black glassy 
+type resembling an obsidian formed as result of a rapid cooling rate in the presence of water, (3) a 
+spinifex-like texture due to quenching at high temperature, and (4) a clay containing pumice-like slag 
+with vugs that formed due to the release of gas bubbles in the melt. 
+Due to high silica content of the slag, it is resistant to weathering, thus large amounts of slag 
+fragments  were  found  at  the  ASM  site.  Slag  waste  around  Furnace  5  was  significant  and  extended 
+away from the furnaces up to 25-40 metres; it may have produced more slag and was bigger than all 
+the other furnaces. 
+In summary, the above evidence clearly shows that mining in the study area was important. It 
+must also have been economically  viable because a considerable amount of human capital and skill 
+was expended at the site. Ore dressing and processing extended over a considerable area of the study 
+site. 
+4.5. The greater mining footprint 
+The  Dem  ASM  site  is  located  2km  west  of  the  Dem  village,  which  is  situated  at  latitude 
+13°11'17.528" and longitude 1°10'43.199"W. According to Haaland et al. (2004), the successful cycle 
+of historic iron smelting involved; (1) the choice of the smelting site with respect to settlement and  
+48
+
+--- Page 49 ---
+Figure 4.7: Photographs of the different types of slag in found at the Dem mine site. A. Fragment of glassy slag 
+resembling an obsidian found throughout the Dem site at all furnaces is consequent of rapid cooling. B. Flow 
+type slag from Furnace 5 which is forms during slow cooling from a high temperature melt. C. Coarse grained 
+slag from Furnace 5 formed by slow cooling  rate at a relatively  constant temperature.  D.  a dense black-grey 
+flowing  type  that  resulted  from  a  slow  cooling  rate  in  cow-pat  form,  E.  Spinifex  texture  which  forms  due  to 
+quenching at high temperature. F. Vesicular slag with vugs that formed due to the release of gas bubbles in the 
+melt. 
+49
+
+--- Page 50 ---
+resources (iron ore, charcoal, clay, water and flux), (2) the choice of trees for making charcoal and 
+transporting them to the processing site, (3) clay collection for furnace construction and production of 
+tuyere  and  crucibles,  and  (4)  distribution  of  the  final  product  after  smelting.  Presumably,  historic 
+smelters  could  possibly  choose  the  smelting  site  near  at  least  one  resource.  Certainly,  the  iron-rich 
+resources  at  Dem  gave  reason  for  the  other  industries  to  exist;  tuyere,  crucible  and  furnace  brick 
+production is interpreted to have taken place locally from orange aeolian sand which covers the Dem 
+study area. 
+Charcoal was the most appropriate fuel for the smelting of iron ore in ancient times but the type 
+of  wood  used  in  the  Dem  study  area  is  a  subject  of  speculation.  Charcoal  is  a  by-product  of  dry 
+distillation  of  wood  and  contains  high  carbon  content  (Karbowniczek,  2005).  It  is  advantageous 
+because it is easy to produce, has low ash content, contains no sulphur and has a high caloric value 
+meaning, it can maintain very high temperatures in a small volume (Craddock, 1995). 
+At Dem, an immediate source of charcoal could have been from the valleys to the east of the 
+ASM  site  which  today  hosts  2  dams  for  irrigation  and  extensive  market  gardens  (Figure  3.1).  The 
+vegetation at the valley is presently dominated by large trees and savannah forest. It seems possible 
+that the historic Dem forest could  have provided the source of fuel (charcoal) during iron smelting, 
+and perhaps a ready source of water. 
+A source of flux is also important in iron ore production. Flux is used as a reducing agent that 
+facilitates  the  chemical  reaction  and  separates  the  molten  metal  from  the  waste  (slag)  in  smelting. 
+Some fluxes used in smelting include carbonate and quartz. In the study area a considerable amount of 
+crushed  quartz  and  outcrops  of  quartz  veins  occurs  both  in  the  mine  sites  themselves,  but  also 
+regionally.  A  ready  source  of  clean  carbonate  does  not  exist  although  many  of  the  siltstones  are 
+carbonaceous in composition and may have acted as a flux during smelting. It is possible that quartz 
+was the main flux, but further study is needed to clarify this aspect of iron ore production at Dem. 
+An important aspect of the greater mining footprint of the Dem ASM site are the many tracks, 
+which stand proud in the eroding fossil aeolian landscape. Tracks in desert aeolian sands are difficult 
+to  eradicate  and  can  remain  for  decades  as  trace  fossils  as  evidenced  from  rehabilitation  programs 
+around  the  world  which  want to  remove  tire and track  damage  in  deserts  (Burke  and  Cloete,  2004; 
+Wassenaar et al., 2013). In the Dem study area, tracks are pressed into the fossil alluvial soil (that is 
+currently being eroded) and these lead from mine to furnaces and processing sites, and from the east 
+of  the  mine  site  region  where  the  historic  Dem  forest  is  speculated  to  have  been  situated,  to  the 
+furnaces.  This  is  interpreted  as  the  representing  the  routes  or  paths  that  the  ASM  miners  used  to 
+convey material between, mines, processing sites and/or perhaps from the Dem forest to the furnaces. 
+Significant modern tracks for human movement and/or livestock do not occur in the study (apart from 
+the main road from Kaya through the village of Dem and heading northwest). 
+In addition, a number of stone tools of unknown use and origin litter the study area (Figure 4.8). 
+These require investigation in any further studies of the ASM site. 
+50
+
+--- Page 51 ---
+Figure 4.8: A number of stone tools (A B) litter the Dem site specifically long old tracks (C, D) which link the 
+furnace sites and the mine sites, and around furnaces site. By and large, the purpose or use of these artefacts is 
+not known. 
+51
+
+--- Page 52 ---
+5. PETROGRAPHY OF ORE BEARING ROCKS AND SLAG 
+5.1. Introduction 
+Transmitted  light  petrography  was  carried  out  to  attain  a  more  precise  identification  of  the 
+mineralogy  and  textures  of  the  rock  types,  ore  deposits  and  slag  comprising  the  Dem  area.  This 
+section  is  divided  into  three  parts.  The  first  part  describes  the  petrography  of  the  rock  types 
+comprising  basalt  and  metabasalt  units,  shale  units  and  silcrete  units.  It  focuses  on  the  rock  types 
+comprising the different contact relations among the three units. 
+The second part describes the petrographic features of the ore types comprising the hematite-
+magnetite, altered quartz vein and lateritic units. The description of the ore in this study was based on 
+numerous field exposures, underground openings such as adits, tunnels and winzes. The sections from 
+mine  sites  samples  were from  the  deeper  parts  of  the  openings  of  the  ore  deposit  in  order  to  avoid 
+weathering associated with soil forming processes. The third part details the petrography of the iron 
+ore slag. It focuses on the mineralogical composition of the slag. The thin-sections of samples from 
+the mine sites and contact rocks and slag were made.  
+Ore  samples  from  Dem  are  dominated  by  subhedral  to  euhedral  grains  of  iron  ore  minerals, 
+many of them are fractured. Sulphide minerals are less abundant than silicates and oxides. Glass and 
+metallic phases are also present in the slag samples. Magnetite and hematite are abundant throughout 
+the ore, ranging from the massive mesobands of interlocking grains to thin microbands and isolated 
+euhedral grains. Other minerals that are also present are goethite (FeO(OH)), manganite (MnO(OH) 
+and ulvospinel (Fe2TiO4). 
+The main aim of all the petrological investigation is to assess the mineralogy of host rocks, ore 
+body  and  slag  in  order  to  determine  the  relationship  of  iron  ore  mineralisation  before  and  after 
+smelting and also to establish the texture and structure of the ore minerals in the study. 
+5.2. Petrography of the host rocks 
+Six  different  host  and  contact  rocks  types  were  identified  in  the  study  area  and  included 
+metamorphosed  black  shale,  siltstone,  basalt-andesite  (partly  amydaloidal),  and  mangacrete,  silcrete 
+and ferricrete. 
+The  dominant  mineral  phases  in  the  shale  and  siltstone  host  rocks  are  unsurprisingly  quartz, 
+mica  and  carbonate,  with  accessory  feldspar,  graphite  and  rarely  magnetite.  The  shale  is  laminated 
+(Figure 5.1a) with minor patches and veinlets of iron oxides. Some beds are graded. Black shales are 
+graphitic and carbonaceous with a mineralogical assemblage of fine-grained quartz, sericite, carbonate 
+52
+
+--- Page 53 ---
+and accessory plagioclase (Figure 5.1b). The siltstone and shale units are graphitic and carbonaceous 
+and sometimes manganiferous. 
+The  basalt-andesite  units  in  the  Dem  study  area  are  generally  massive,  and  sometimes 
+amygdaloidal.  They  are  strongly  to  weakly  altered  and  typically  chloritized.  They  are  composed  of 
+fine to very fine assemblage of plagioclase, clinopyroxene (altered to chlorite), and biotite altered to 
+chlorite (Figure 5.1c). Quartz and rarely carbonate fills vugs as amygdules. 
+The  silicrete  units  are  composed  of  concretions  of  goethite  and  silica  surrounding  rock 
+fragments, and rarely organic materials and micro-quartz (Figure 5.1d). Vugs are filled with goethite 
+and quartz. 
+Figure 5.1: A. Transmitted light photomicrographs of siltstone from sample LD001 SN-114. Siltstone units are 
+composed of quartz (light grey) and goethite (black), with accessory epidote and sericite. B. Transmitted light 
+photomicrographs  of  iron  rich  carbonaceous  shale  from  sample  LD003  SN-116.  Iron  oxides  are  made  up  of 
+hematite-goethite  ±  sericite  (black).  Carbonate-quartz  makes  up  the  remainder  of  the  matrix  (white).  C. 
+Transmitted light photograph of chloritized basalt (Sample LD002 SN115). The basalt is composed of chlorite 
+(after  pyroxene),  sericite,  epidote  and  quartz,  with  minor  relict  plagioclase.  Opaque  minerals  are  goethite  ± 
+hematite (black). D. Transmitted light photomicrograph of ferruginous silicrete (Sample LD 016, SN121). The 
+silicrete is made up of nodules of goethite and chalcedonic quartz enclosing rock fragments particularly around 
+pisoliths. The rock fragments are also cemented with goethite and chalcedonic quartz. 
+53
+
+--- Page 54 ---
+5.3. Petrography of the ore bearing rocks 
+Petrographically  the  ore  bearing  rocks  consist  of  goethite-hematite  phase  as  the  dominant 
+oxides  with  silica  (Figure  5.2a).  Goethite  is  by  far  the  more  abundant  iron  oxide  phase,  and  is 
+massive. Carbonaceous shale also hosts ore in the study area. 
+Primary  ore  is  hosted  in  cataclasite  quartz  veins  (Figure  5.2b).  Fractures  and  micro-faults 
+crosscut  the  quartz  fragments  in  an  extremely  irregular  array  (Figure  5.2b-e).  Interstitial  areas  are 
+filled  with  oxide  minerals  that  make  up  the  matrix  producing  an  iron  rich  quartz  breccia.  The  iron 
+oxides are dominated by hematite and/or magnetite that are replaced by spinel. Patches and veins of 
+oxidised iron form part of the thin-section. 
+5.4. Slag geology and petrology 
+Slag is found at several furnace sites at Dem. The slag contains primary slag phases including 
+oxides, silicates, sulphides and the metal phase. Common primary minerals include hematite, fayalite 
+glass, and accessory wüstite, ulvospinel, quartz, iron metal, pyrite, and pyrrhotite. 
+The  macroscopic texture  and  shape of the  slag  depends  on  the  cooling  rate  and  nature  of  the 
+furnace  where  the  slag  solidified,  which  cannot  be  estimated  for  the  furnaces  in  the  study  area. 
+However,  the  slag  types  include  Type  1,  which  is  a  dense  black  glassy  slag  with  flow  texture,  and 
+Type 2, which is vesicular green-black blocky slag (Figures 5.3a, b). Type 1 slag dominates furnaces 
+1, 2, 3, 4 and 5 while Type 2 dominates furnaces 8, 9, and 10. 
+Type 1 slag is interpreted to have resulted from slow cooling from high temperature where gas 
+was mostly released during the cooling process. Type 2 slag is interpreted to have resulted from fast 
+cooling rate from a lower temperature, where gas bubbles were trapped in the cooling slag instead of 
+being released. The entrapment of gas left permanent voids within the solidified slag. 
+Macroscopically  slag  samples  from  furnace  1,  2,  and  5  have  comparatively  high  hematite 
+content relative to furnaces 9, 10 and 11. Samples from furnace five had no vesicles; this is interpreted 
+to be the result of a slow cooling rate.  
+Visible pyrite occurs in samples from furnace five indicating low oxygen fugacity, or resulted 
+from contamination or the feed ore into the furnace. Accessory iron metal is present in samples from 
+furnace ten. 
+54
+
+--- Page 55 ---
+Figure  5.2:  A.  Photomicrograph  of  Fe-rich  ore  bearing  siltstone  in  transmitted  light  (cross-polars)  which  is 
+dominated by goethite-hematite (Sample LD 013, SN-118). B. Quartz cataclasite vein at the base of the valley in 
+open pit  1.  Fe-rich  fractures  and  micro-faults  crosscut  the  quartz  veins and  wall  rock  indicating  they  formed 
+after the quartz vein. Photomicrographs from Sample LD 013, SN-118 in transmitted (C.), transmitted crossed 
+polars (D.) and reflected light of quartz cataclasite demonstrating that hematite-goethite dominates veins and 
+fractures which crosscuts quartz in quartz veins (F). 
+55
+
+--- Page 56 ---
+Figure 5.3: Type 1 dense black glassy slag with flow texture from Furnace 5. B. Type 2 vesicular green-black 
+blocky slag from Furnace 10. 
+The  common  oxide  mineral  in  slag  was  hematite,  with  accessory  wüstite  and  magnetite 
+(Figures  5.4a-e).  Interlocking  crystals  of  spinifex  and  herringbone  textured  hematite  are  present  in 
+samples  from  all  furnaces  (Figures  5.4a,  b,  d,  f).  The  hematite  hosts  ocelli  of  quartz  and  fayalite 
+(Figure  5.4b).  Cross-shaped  wüstite  is  present  in  samples  that  host  massive  and  semplectic 
+intergrowths  of  hematite  (Figure  5.4c,  e),  and  accessory  euhedral  magnetite.  Fayalite  ocelli  may 
+dominate  in  some  slag  samples  (e.g.,  FOR01-03,  FOR09-03,  FOR10-10).  In  some  samples  of  slag, 
+magnetite  and  hematite  have  exsolved  to  form  lamellae  of  light  grey  hematite  and  cloth-weave 
+textured  ulvospinel  (Fe2TiO4)  in  replacement  of  magnetite.  The  cloth-weaved  texture  of  accessory 
+ulvospinel is interpreted to be formed as a result of phase unmixing during initial melting (c.f., Spry 
+1987). It occurs as extremely fine, dark isotropic exsolution in bow-tie and wispy textured crystals. 
+Ocelli in the slag include fayalite glass (Fe2SiO4) and quartz (Figure 5.4b). Fayalite is formed 
+by the reaction of iron oxide (FeO) and silicate gangue minerals in the ore. Fayalite is the common 
+Fe-rich end-member of the olivine solid-solution series that forms at high temperature and reducing 
+conditions. It is present in all samples of slag from the Dem study area. Fayalite occurs as ocelli, fills 
+or lines vesicles (as amygdales) that formed from entrapped gases, and fills fractures which crosscut 
+the  hematite  matrix  of  the  slag  (Figure  5.5a-c).  The  presence  of  fayalite  glass  confirms  the  rapid 
+cooling or quenching of slag melt. 
+Partially melted grains of quartz are also present in all samples because some  of the iron ore 
+mined at Dem is hosted in quartz cataclasite veins (Figure 5.4b) and it is likely that it was difficult to 
+liberate the iron ore from the quartz. Alternatively, the quartz may have been used as flux. 
+Pyrite  and  Fe  metal  occurs  as  rare  inclusions  in  the  slag  samples  from  the  furnaces  (Figure 
+5.5c). It also sometimes fills veins and vesicles. The presence of pyrite is interpreted to mean that the 
+iron ore that entered the furnace was weakly sulphide-bearing, or contaminated with host rocks that 
+were sulphide-bearing (i.e., sulphidic and ferruginous shale and siltstone). 
+56
+
+--- Page 57 ---
+Figure 5.4: Photomicrographs of slag from the Dem mine site. A. Fine to coarse skeletal hematite with spinifex 
+in a hematite matrix from Furnace 4. B. Herringbone textured hematite-wüstite(Wu) with ocelli of fayalite (Fa) 
+and  quartz  (Qtz),  and  vesicles  (V)  in  a  hematite  matrix.  C.  Intergrown  massive  hematite  and  semplectic 
+hematite. D. Beautiful skeletal structure of hematite spinifex in hematite matrix. E. Cross-formed wüstite (Wu) 
+in subhedral to anhedral hematite in a hematite matrix. F. Skeletal herringbone texture hematite in a hematite 
+matrix. F1, F2, F4, F5 = Furnace 1, 2, 4 or 5. 
+57
+
+--- Page 58 ---
+Figure 5.5: Photomicrographs and sketch from Furnace 9 of fayalite in a hematite spinifex (A, B) and as ocelli, 
+as fill or the lining of vesicles (as amygdules), and fill to fractures that crosscut the hematite matrix of the slag. 
+Micro-fault,  fractures  and  hematite  veinlets crosscut the  spinifex  and  herringbone  textured  hematite 
+with  micro-displacement  of  the  hematite  crystals  (Figure  5.6).  The  veinlets  are  filled  fayalite  glass. 
+The infilling of fractures was a crucial late stage of the slag forming process. 
+Figure  5.6:  Photomicrograph  of  micro-fault,  fractures  and  hematite  veinlets  crosscut  the  spinifex  and 
+herringbone textured hematite. 
+58
+
+--- Page 59 ---
+5.5. Summary 
+The  major  primary  phases  in  both  the  petrography  of  the  ore  and  slag  are  the  oxides  and 
+silicates  and  minor  carbonates.  Iron  metal  was  found  in  all  the  samples  from  the  study  area. 
+Consequently, it can be speculated that smelters at Dem were effective as they extracted almost all the 
+iron metal. Mineral phases changed in the process of smelting as a result of high temperature and by 
+adding flux, which may have been silica in the form of quartz. 
+The  conditions  in  the  furnace,  along  with  the  production  processes,  lead  to  the  distinctive 
+composition patterns and textural variations of slag. In this study a Bloomery furnace technique was 
+used with tuyeres and crucibles. The yield and volume of iron metal could not be determined. 
+59
+
+--- Page 60 ---
+6. RADIOCARBON DATING PILOT STUDY 
+6.1. Introduction 
+As  stated  in  Chapter  3,  the  main  aim  of  dating  charcoal  samples  from  furnaces  in  the  Dem 
+study area, using AMS radiocarbon dating, was to try to constrain the age of forging as a proxy for 
+artisanal mining activity at the Dem mine site, with the assumption that forged charcoal formed at the 
+same time as mining and processing of iron. The sampling of furnaces was undertaken as a pilot study 
+in 2011 with the premise of undertaking further studies if sufficient funding could be found to mount 
+a fuller study and if valuable results could be obtained. 
+Six  surface  and  near  surface  charcoal  samples  were  selected  and  collected  from  11  different 
+furnaces (see Figures 3.1 and 3.2). The sampling points of the charcoal samples from furnaces 2, 5, 6, 
+8 and11 are shown Figures 6.1a-f. Sampling was undertaken in such a way as to have minimal impact 
+on  the  furnace  structures.  Samples  were  prepared  at  the  University  of  Witwatersrand  Johannesburg 
+and radiocarbon dating was performed at Beta Analytical Laboratories in Miami Florida (USA). 
+The results of the six samples analysed are presented in Table 6.1 which lists the measured and 
+conventional radiocarbon ages. Table 6.2 presents the results of two samples with 1σ (AD/BP) and 2σ 
+(AD/BP) calibrated ages derived after Talma and Vogel (1993).  
+The method of radiocarbon dating used in this study has been detailed in Section 3.5 and is not 
+repeated here. However, all samples submitted for radiocarbon dating were immediately subjected to 
+substantial  quality  control  measures.  They  were  cross-checked  throughout  the  process  to  maximise 
+precision. The measurements of each 14C were followed by a statistical error uncertainty known as the 
+1σ and 2σ. The first statistical error (1σ) indicated that there is  a 68% possibility that the true result 
+may fall within 1σ. The second statistical error (2σ) showed that there is  a 95% chance that the true 
+result may fall within 2σ (Bowman, 1990). 
+The  conventional  ages  are  reported  together  with  the  standard  deviation  of  the  laboratory 
+measurement and then doubled to obtain the 95 % probability interval. Conversion of 14C calendar age 
+is  dependent  on  the  calibration  curve.  Figures  6.2  and  6.3  present  graphs  of  the  radiocarbon  and 
+calibrated ages of the measured samples as reported by Beta Analytical Laboratories. The radiocarbon 
+ages and errors were rounded with respect to the conventions of Stuiver and Polach (1977). 
+Of significance is sample FOR06-02CAR which gave a conventional radiocarbon age of 430+/- 
+30 BP or a 2σ (95% confidence) age of 1430-1480 AD, which marks a significant period of economic 
+growth in the history of West Africa. 
+60
+
+--- Page 62 ---
+Figure 6.1: Sampling points from different furnaces. a. Sampling points for furnace 2 from furnace walls. b.-c. 
+sampling  points  for  furnace  5  from  furnace  and  tuyere  fragments.  d.  Sampling  points  for  furnace  6  from  the 
+exposed stratigraphy of the furnace. e. Sampling points for furnace 8 from the exposed layers of the furnace. F. 
+Sampling point for furnace 11 from the furnace walls. 
+62
+
+--- Page 63 ---
+Figure  6.2:  Radiocarbon  calibration  curve  organic  material  extracted  from  Furnace  6  (Sample  FOR06 
+02CAR). Radiocarbon age (BP) is plotted against calendar years (AD). White bars correspond to 68% and grey 
+bars correspond to 95% confidence levels, respectively. The 95% confidence level gives an age 1438-1458 AD. 
+Figure  6.3:  Radiocarbon  calibration  curve  organic  material  extracted  from  Furnace  6  (Sample  FOR08 
+02CAR). Radiocarbon age (BP) is plotted against calendar years (AD). White bars correspond to 68% and grey 
+bars correspond to 95% confidence levels, respectively. The 95% confidence level gives ages (1438-1458, 1651-
+1600, 1756-1759, and 1949-1951) AD. 
+63
+
+--- Page 64 ---
+6.2. Interpretation of the results of carbon dating 
+The  conventional  radiocarbon  ages  (95%  probability)  from  the  Dem  iron  mine  site  cover  the 
+Roman  calendar  ages  of  1430-1480,  1640-1680,  1740-1800  and  1940-1950  AD  Samples  FOR02-
+01CAR,  FOR05-02CAR,  FOR09-01CAR,  and  FOR11-01CAR  from  furnaces  2,  5,  9  and  11, 
+respectively,  gave  modern  dating  results,  which  are  0  BP,  thus  indicating  that  modern  material  had 
+been  introduced  during  the  last  60  years  or  so.  Based  on  the  ethnographic  evidence  presented  in 
+Section 3.2, mining, processing or forging of iron did not occur in the Dem region in the last 80 years, 
+and thus these samples can reasonably be assumed to have been contaminated with  modern organic 
+material and can be excluded as non-significant. 
+However,  the  2σ  calibrated  ages  (95%  probability)  for  samples  FOR06-02CAR  and  FOR08-
+01CAR arguably suggest that forging of iron may have been active in the Dem region at Furnace 6 at 
+1430-1480 AD, and at Furnace 8 at 1640-1680 AD and 1740-1800 AD The samples were collected 
+from deep in the furnace pile, with access being made easy because the sides of the furnaces had been 
+breached and collapsed into a small rivulet. Consequently, the furnace stratigraphy was exposed over 
+approximately  60  centimetres  of  depth  (Figures  6.1d,  e).  Furnace  6  and  8  are  situated  immediately 
+east of the open cast and underground mines (Figures 3.1 and 3.2). 
+Interestingly,  although  quite  limited  in  number,  the  ages  correspond  broadly  with  the  rapid 
+expansion  of  iron  technology  from  1400-1600  AD  in  West  Africa  (Todd,  1979).  They  correspond 
+with the rise of the Songhai Empire in the 15th century, and slavery in the 17-18th centuries and/or the 
+first European exploration into West Africa. Thus the radiocarbon ages may represent historical ages 
+of iron working in West Africa; a fuller investigation of the Dem site is thus needed. 
+Certainly, there is currently little evidence of iron smelting for the period 1430 to 1480 AD for 
+in  the  northeast  Burkina  Faso.  However,  Insol  (2000)  indicated  that  iron  technology  in  the  period 
+1400-1600 AD was one of a series of fundamental social assets that assisted the growth of significant 
+centralized kingdoms, particularly the Songhay Empire (under the rule of Sonni Ali) which was seated 
+in  Djenne  or Timbuktu  or  Gao.  These  towns  are  respectively  situated  360  km  west,  450  km  north-
+northwest and 370 km northeast of Dem across the international border of present day Burkina Faso 
+and Mali. By 1500 AD the Songhay Empire extended from central Niger in the east to Senegal in the 
+west,  and  from  central  Burkina  Faso  in  the  south  to  northern  Mali.  Olson  (1979)  argued  that  the 
+Songhay  economy  was  a  clan  based  system  linked  to  artisanal  skill  (craft  guilds),  with  the  most 
+important being metalwork, mechanics and carpentry; the regional economy was dependant on gold 
+and iron. Trade in gold, iron and salt where central to the Songhai economy and fundamental to its 
+power base (Masonen, 1997; Park, 2011).  
+Although speculative the limited radiocarbon results for sample FOR06-02CAR may suggest a 
+link between the Dem site and the demand for metal in the region during the 15th century.  
+64
+
+--- Page 65 ---
+In contrast, the period 1640-1680 AD and 1740-1800 AD falls within a period in West Africa 
+of economic and cultural decline (Levtzion, 1980). The decline was followed by slavery with British 
+and  French  colonials  battling  for  control  over  coastal  ports.  Europeans  conflicted  over  land 
+throughout  West  African  countries  and  brought  slave  trade  into  Fulani  and  Wassoulou  Empire 
+(Swartz,  1980).  In  1756-1759,  from  one-  to  two-thirds  of  the  whole  population  of  the  Fulani  jihad 
+states  comprised  enslaved  people.  This  period  was  followed  by  the  colonial  period  that  took  place 
+from 1895-1958 and French colonials took control over West Africa.  
+65
+
+--- Page 66 ---
+7. DISCUSSION 
+Small scale mining of iron ore was conducted in the Dem study area as evidenced as open cast 
+and  underground  mines,  waste  dumps,  processing  sites,  furnaces sites and  a relatively  large  mining 
+footprint. The  ASM  miners  employed  both  surface  and  underground  methods,  which  produced two 
+medium bowl-shaped surface mines (OC1 and OC2) and perhaps other smaller working such as OC3, 
+and two underground mines (UG 1 and 2) with small galleries, adits and raises. 
+Traditional  methods  of  processing  were  applied  and  included  handpicking,  sorting  and 
+crushing, which is similar to techniques still used today in Burkina Faso on many artisanal mines. 
+The host rocks mined at Dem consisted of iron-rich shale, siltstone and laterite. In the iron-rich 
+shales and siltstone, mining focussed on iron-rich alteration zones about quartz veins as the primary 
+ore. The ore was dominantly composed of magnetite (Fe3O4) and hematite (Fe2O3), with impurities of 
+SiO2,  as  occurs  in  many  ancient  iron  and  copper  sites  that  produce  an  iron  silicate  slag  of  low 
+temperature  (1200°C)  slag  (Craddock  and  Meeks,  1987).  The  magnetite-hematite  rich  veins  were 
+structurally controlled in the host rocks. Lateritic ore also provided a second source of iron-rich rock 
+for mining at the Dem site. 
+Processing  sites  comprised  at  least  11  furnaces  that  were  dome  and  circular  in  shape.  The 
+furnaces were filled with crucibles and tuyeres made of clay sand perhaps sourced  locally from the 
+alluvial plain  on  which  the  furnaces are  situated  or the  Dem  Valley  which is  now  occupied  by  Lac 
+Dem (Figures 3.1; 3.2). Crucibles and tuyeres litter the furnace sites as waste or are welded together 
+with  slag  in  the  base  of  the  furnace  structure.  Waste  areas  are  situated  adjacent  to  most  furnaces 
+suggesting a modest level of industrial activity ranging from mining or ore, processing and cleaning, 
+building  of  furnaces,  making  of  crucibles  and  tuyeres,  and  processing  the  slag  after  smelting.  The 
+presence of at least 11 furnaces with significant mining and processing of ore  suggests that the Dem 
+site may have been an important historic iron producing region. 
+A source of fuel remains speculative but the location of the mine site adjacent to the Lac Dem, 
+which  historically  was  a  wooden  valley  prior  to  the  damming  of  the  lake,  may  have  meant  that  a 
+source of fuel in the form of timber was readily available. In any case, timber for charcoal may have 
+been  transported  to  the  site  in  the  same  way  that  timber  for  charcoal  is  transported  to  the  growing 
+urban centres nearby from the forest surrounding the region (Kramer, 2002; Ouedraogo et al., 2010). 
+A source of flux may have the carbonaceous rocks and quartz that form part of the host rocks of 
+the region, or waste rock to the iron ore. A source of clean limestone which would make an ideal flux 
+does not occur in the region according to regional maps of Hottin and Ouedraogo (1992), Hein et al. 
+(2004) and Castaing et al (2003). 
+The  distinguishing  behaviour  of  slag  under  any  operational  environment  is  based  on  the  slag 
+composition and the range of components in it, where the flux materials and type of ore used are most 
+66
+
+--- Page 67 ---
+important  (Muszer,  2000).  Based  on  the  petrographic  descriptions,  fayalite,  quartz,  magnetite  and 
+hematite  were  the  dominant  minerals  in  all  slag  samples  with  minor  sulphides  and  iron  metals. 
+Ulvospinel  was  identified  in  a  few  samples.  The  presence  of  fayalite  and  silica  in  all  slag  samples 
+suggests  a  moderate  quality  product  was  produce  during  smelting  or  perhaps  an  iron  silicate  slag 
+(Craddock  and  Meeks,  1987).  The  slag  microstructures  and  macrostructures  suggest  that  the  slag 
+cooled at different rates ranging from rapid, fast to slow cooling. Fe-Ti oxide was present in the form 
+of ulvospinel in slag samples. 
+Iron production at the Dem site was Bloomery furnace smelting, where a fluid state of iron was 
+produced. The quality of ore produced is not known as there is no iron metal artefact discovered but 
+could  have  ranged  from  soft  iron  to  steel.  This  suggests  that  a  good  level  of  smelting  knowledge 
+existed at the time. 
+However, due to the variation of magnetite and hematite content the samples studied, it can be 
+argued that smelting practices were variable from one furnace to another. Furnaces 1, 3, 4 and 5 were 
+more  efficient  than  furnaces  9,  10,  due  to  the  amount  of  Fe-oxide  in  the  slag  and  the  physical 
+appearance  of  the  slag.  Iron  smelting  took  place  at  different  cooling  rates  and  encompassed  slow 
+cooling  rate,  fast  cooling  rate  and  rapid  cooling  rate.  The  slower  cooled  slag  exhibits  phaneritic 
+texture with crystals that are large in size (c.f., Craddock and Meeks, 1987; van Oss, 2002). The fast 
+cooling rate exhibits an aphanitic texture wherein the slag will have small crystals with vesicles. The 
+rapid  cooling  rate  produced  a  granular  or  glassy  texture  with  very  fine  crystals  that  resemble  the 
+volcanic rock obsidian (c.f., van Oss, 2002; Stewart, 2007).  
+Ethnographic research indicated that ASM of iron ore from the Dem site did not take place in 
+the  last  80  years  or  1932-2012.  Additionally,  the  Museum  of  Kaya  and  the  National  Museum  of 
+Burkina  Faso  does  not record iron  workings  at  Dem  over  the  last  hundred  years. There  are  also  no 
+other historic records of iron making at Dem. 
+It can thus be reasonably interpreted that the Dem site predates modern iron making in the Kaya 
+region.  Radiocarbon  dates  given  for  the  last  80  years  were  thus  discounted.  The  age  of  mining, 
+processing and production is thus tentatively constrained by radiocarbon dating to have been active in 
+1438-1458 AD, 1600-1651 AD, or 1756-1759 AD. 
+Iron was initially forged in West Africa as early as the 6th century (Insoll, 1997; Pleiner, 2000) 
+and iron smelting was practiced in the southeast of Burkina Faso by the Bura  culture whose culture 
+was focused in the region 250 km southeast of Dem. Iron forging and smelting was thus known to the 
+peoples of West Africa. By the 15th century, forging and smelting of iron (and gold) where central to 
+the region and particularly, the Songhay economy which dominated trade in the region. It is possible 
+that the limited radiocarbon results  for sample FOR06-02CAR suggest a link between the Dem site 
+and the demand for metal in the region at that time, but further research is needed to reinforce this 
+interpretation. The multiple ages calculated in sample (FOR08-01CAR) show that reforging occurred 
+and/or that the furnace was the sample was collected might have affected by modern. 
+67
+
+--- Page 68 ---
+. 
+8. CONCLUSIONS 
+The  mining  of  iron  ore  in  the  Dem  study  area  produced  a  limited  number  of  underground 
+workings  and  surface  open  pits.  These  mine  workings  show  no  modern  mechanised  mining 
+methodology. 
+Five ore extraction areas and eleven smelting sites were located. The evidence of iron smelting 
+in the study area includes the remains of at least 11 furnaces (furnace wall and floor fragments), and 
+hundreds of fragments of tuyeres, crucible, burnt clay and iron slag. 
+The  underground  mine  workings  and  opencasts  were  mined  by  selective  mining  methods, 
+where  mineralised  iron-rich  fractures  and  quartz  veins  were  extracted.  The  mineralisation  generally 
+comprised  ore  of  magnetite,  hematite  and  laterite.  There  are  two  types  of  ore  deposits  in  the  study 
+area;  vein  hosted  and  laterite-ferricrete  hosted.  The  range  of  ore  types  mined  included  high  grade 
+magnetite to low grade laterite. The waste rocks included quartz, silicrete and iron-poor laterite. 
+After the ore was extracted from the open cast and underground mines, it is likely that the ore 
+was transported to the processing sites nearby the mines, with ore being dumped proximal to mining 
+operations, as occurs at ASM sites around the world today. The ore might have been man-hauled to 
+the surface in bags or sacks particularly because there is no evidence at the Dem site of mechanical 
+aids for hoisting and hauling ore. It is possible that the open cast operations were mined by women, 
+children  and  aged  persons,  as  can  be  witnessed  at  ASM  sites  throughout  Burkina  Faso  and  West 
+Africa, with the underground operations being the domain of men. 
+Different  types  of  slag  were  dumped  proximal  to  the  furnace  sites  and  included  (1)  a  dense 
+black-grey flowing type that resulted from a slow cooling rate, (2) a black glassy type resembling an 
+obsidian formed as result of a rapid cooling rate in the presence of water, (3) a spinifex-like texture 
+due  to  quenching  at  high  temperature,  and  (4)  a  clay  containing  pumice-like  slag  with  vugs  that 
+formed due to the release of gas bubbles in the melt. 
+A considerable amount of clean crushed quartz and outcrops of quartz veins occurs both in the 
+mine  sites  themselves,  but  also  regionally,  which  may  have  been  used  as  a  flux  in  the  smelting 
+process.  A  ready  source  of  clean  carbonate  does  not  exist  although  many  of  the  siltstones  are 
+carbonaceous in composition and may have acted as a flux during smelting. 
+At Dem, an immediate source of charcoal could have been from the valleys to the east of the 
+ASM site which today hosts dams for irrigation and extensive market gardens. 
+The  dominant  mineral  phases  in  the  shale  and  siltstone  that  are  the  host  rocks  to  iron  ore  at 
+Dem  are  unsurprisingly  quartz,  mica  and  carbonate,  with  accessory  feldspar,  graphite  and  rarely 
+magnetite. Petrographically the ore bearing rocks consist of goethite-hematite as the dominant oxides 
+with silica. 
+68
+
+--- Page 69 ---
+The  macroscopic texture  and  shape of the  slag  depends  on  the  cooling  rate  and  nature  of  the 
+furnace  where  the  slag  solidified.  Macroscopically  slag  samples  from  furnaces  1,  2,  and  5  have 
+comparatively  high  hematite  content.  Ocelli  in  the  slag  include  fayalite  glass  (Fe2SiO4)  and  quartz. 
+Micro-fault,  fractures  and hematite  veinlets crosscut the  spinifex  and  herringbone  textured  hematite 
+with micro-displacement of the hematite crystals. 
+A limited number of radiocarbon dates were obtained from charcoal samples collected from the 
+base of Furnaces 2, 5, 6, 8, 9 and 11.  The 2σ calibrated results (95% probability) cover the Roman 
+calendar  ages  of 1430-1480  AD,  1640-1680  AD  and  1740-1800  AD.  Ethnographic research  argued 
+that mining of iron in the Dem region, or any significant artisanal mining in the Dem region for any 
+metal  commodity,  had  not  occurred  in  the  last  80-90  years.  Although  speculative,  the  limited 
+radiocarbon  results  for  sample  FOR06-02CAR  may  suggest  a  link  between  the  Dem  site  and  the 
+demand  for  metal  in  the  region  during  the  15th  century,  European  expansion  in  the  17th  to  18th 
+centuries. 
+69
+
+--- Page 70 ---
+RECOMMENDATIONS 
+The Dem ASM site should be protected and conserved as a historic and cultural monument by 
+the  relevant  authorities  in  Burkina  Faso  at  state  and  provincial  levels.  The  protection  will  prevent 
+degradation and destruction of the heritage and consequently will preserve the values and history of 
+the  area  for  present  and  future  generations  of  Africa.  The  Dem  region  is  important  to  a  fuller 
+understanding of the history and society of the Songhai Empire  – it thus adds to the archaeological 
+history of the African peoples. There may be a case to motivate for World Heritage Status but further 
+research in the region is necessary. 
+70
+
+--- Page 71 ---
+Introduction,  Annotations  and  appendices  upon  the  development  of  Mining  Methods, 
+metallurgical Processes, Geology, Mineralogy and Mining Law from the earliest times to the 16 
+Century  (Translations  by  Hoover,  H.C.,  Hoover,  L.H.)  Published  for  the  translators  by  the 
+Mining Magazine, Salisbury House, London, E.C., 1912, pp 389. 
+Aitken, M.J., 1990. Science-based Dating in Archaeology. Harlow, England: Longman Archaeology 
+Series, 226 pp. 
+Anderson, E.C., Libby, F.W 1950. World-wide distribution of natural radiocarbon. Institute of nuclear 
+studies, Department of chemistry, University of Chicago, 81, 6p. 
+Anonymous,  1999.  Social  and  labour  issues  in  small-scale  mines.  Report  for  discussion  at  the 
+Tripartite  Meeting  on  Social  and  Labour,  Issues  in  Small-Scale  Mines,  Geneva,  17-21  May 
+1999. International Labour Office, Geneva. 
+Aryee,  B.N.A.,  Ntibery,  B.K.,  Atorkui,  E.,  2002.  Trends  in  the  small-scale  mining  of  precious 
+minerals  in  Ghana:  a  perspective  on  its  environmental  impact, Journal  of  Cleaner  Production 
+11, 131-140. 
+Avery, D.H., Schmidt, P., 1986. The use of preheated air in ancient and recent African iron smelting 
+furnaces. Journal of Field Archaeology 13, 354-357. 
+Bahn,  T.,  Gerard,  P.,  1994.  Pyrenean  History,  Archaeology,  a  very  short  introduction  and  the 
+Cambridge illustrated history of Prehistoric Act, 24p. 
+Bamba,  O.,  Parisot,  J-C.,  Grandin,  G.,  Beauvais,  A.,  2002.  Ferricrete  genesis  and  supergene  gold 
+behaviour  in  Burkina  Faso,  West  Africa.  Geological  Society,  London,  Geochemistry: 
+Exploration, Environment, Analysis 2, 3-14. 
+Baratoux,  L.,  Metelka,  V.,  Naba,  S.,  Jessell,  M,  W.,  Gregoire,  M.,  Ganne,  J.,  2011.  Juvenile 
+Paleoproterozoic crust evolution during the Eburnean orogeny (~2.2-2.0 Ga), western Burkina 
+Faso. Precambrian Research 191, 18-45. 
+Bassot,  J.P.,  1997.  Albitisations  dans  le  Pale  protérozoïque  de  I’Est  Sénégal:  relations  avec  les 
+minéralisations ferrifères de la rive gauche de la Faleme. Journal of African Earth Sciences 25 
+(3), 353-357. 
+Beauvais,  A.,  D.  Chardon,  D.,  2013.  Modes,  tempo  and  spatial  variability  of  Cenozoic  denudation: 
+The  West  African 
+example.  Geochemistry,  Geophysics,  Geosystems,  14,  doi: 
+10.1002/ggge.20093. 
+Beauvais, A., Ruffet, G., Hénocque, O., Fabrice, C., 2008. Chemical and physical erosion rhythms of 
+the West African Cenozoic morphogenesis: The 39Ar-40Ar dating of supergene K-Mn oxides: 
+Journal of Geophysical Research 113, 15p. 
+71
+
+--- Page 72 ---
+Beukes, N.J., Dorland, H.C., Gutzmer, J., Nedachi, M., Ohmoto, H., 2002. Tropical laterites, life on 
+land, and the history of atmospheric oxygen in the Paleoproterozoic. Geology, 30, 491-494. 
+Beziat, D., Dubois, M., Debat., P., Nikiema, S., Salvi, S., Tollon, F., 2008.  Gold metallogeny in the 
+Birimian craton of Burkina Faso (West Africa). Journal of African Earth Sciences 50, 215-233.  
+Bierschenk, W.H., 1968. Geohydrological Reconnaissance in Upper Volta. Groundwater 6, 29-40. 
+Blot, A., 2004. Caracterisation des chapeaux de fer en milieu laterique cuirasse. Comptes Rendus de 
+l'Académie des Sciences, 336, 1473-1480.  
+Bower,  J.,  1987.  Conflicting  goals  of  mining  companies  and  host  governments,  Mineral  Resource 
+Development: Geopolitics, Economics and Policy, pp. 22-50. 
+Bowman, S.G.E., 1990. Radiocarbon dating; Interpreting the past. British Museum Publications, 64 p. 
+Bronner,  G.,  Chauvel,  J.J.,  Triboulet,  C.,  1990.  Geochemistry  and  knowledge  of  banded  iron 
+formation.  The  West  African  shield,  an  example  in  Chauvel,  J.J.,  Ancient  banded  iron 
+formations, regional presentations, Theophrastus, Athens 462 pp. 
+Brown, E.T., Bourlès, D.L., Colin, F., Safno, Z., Raisbeck, G.M., Yiou, F., 1994. The development of 
+iron  crust  lateritic  systems  in  Burkina  Faso,  West  Africa  examined  with  in-situ-produced 
+cosmogenic nuclides. Earth and Planetary Science Letters 124, 19-33. 
+Brunner-Robion, C., Perret, S., Serneels, V., Dembelé, A., Huysecom, E., 2003. A thousand years of 
+iron  metallurgy  on  the  Dogon  plateau  (Mali).  Department  of  Anthropology,  University  of 
+Geneva,  Switzerland;  Department  of  Geosciences,  University  Fribourg,  Switzerland;  Mission 
+Culturelle de Bandiagara, Mali 8p. 
+Burke, A., Cloete, J., 2004. Restoring tire tracks: lessons from the southern Namib Desert. Ecological 
+Restoration 22, 269-274. 
+Cameroon,  Y.,  2002.  Identifying  best  practices  and  building  the  sustainable  livelihoods  of 
+communities:  Seminar  on  Artisanal  and  Small-scale  mining  in  Africa,  Wardell  Armstrong 
+Consulting Group, UK 13p. 
+Castaing, C., Billa, M., Milési, J.P., Thiéblemont, D., Le Mentour, J., Egal, E., Donzeau, M. (BRGM) 
+(coordonnateurs)  et  Guerrot,  C.,  Cocherie,  A.,  Chevremont,  P.,  Tegyey,  M.,  Itard,  Y. 
+(BRGM),  Zida,  B.,  Ouedraogo,  I.,  Kote,  S., Kabore, B.E.,  Ouedraogo,  C. (BUMIGEB),  Ki, 
+J.C.,  Zunino  (ANTEA),  2003.  Notice  explicative  de  la  Carte  géologique  et  miniére  du 
+Burkina Faso à 1/1 000 000. 
+César, A.C., Bruand, A., Ramanaidou., E.R., Gilkes, R.J., 2002. Microporosity of BIF hosted massive 
+hematite ore. Iron Quadrangle, Brazil, Annals of the Brazilian Academy of Sciences 74, 113–
+126. 
+Chaparro, E., 2000. La llamada pequeña minería - un renovado enfoque empresarial. Serie Recursos 
+Naturales e Infraestructura 9, 82 pp.  
+Childs, S.T., 1989. Style, technology and iron smelting furnaces in Bantu-speaking Africa. Journal of 
+Anthropological Archaeology, 10 332-359.  
+72
+
+--- Page 73 ---
+Childs,  S.T.,  1991.  Style,  technology,  and  iron  furnaces  in  Bantu-speaking  Africa.  Journal  of 
+Anthropological Archaeology 10, 332-359. 
+Cleere, H.F., 1972. The classification of early iron-smelting furnaces. Antiquaries Journal 52, 8-23. 
+Cleere,  H.F.,  1981.  The  iron  Industry  of  Roman  Britain.  Some  operating  Parameters  for  Roman 
+Ironworks. Archaeological Society Occasional Paper no 1, 125p. 
+Cole, G., El-Rassi, D., Couture, J.F, 2009. Technical Report on the Bomboré Gold Project in Burkina 
+Faso, West Africa Orezone Gold Corporation 16, 1-132. 
+Combes, A., 1980. Etude des gisements de fer de la Falémé (Sénégal): rapport sur les travaux de la 
+phase de certification, BGRM 3, 75p. 
+Coplen, T.B., 1994. Reporting of stable hydrogen, carbon and oxygen isotope abundances. Pure and 
+Applied Chemistry 66, 273-76. 
+Craddock, P.T., 1995. Early metal mining and production. Smithsonian, Edinburgh, 4, 898-905. 
+Craddock, P.T., Meeks, N.D. 1987. Iron in ancient copper. Archaeometry 29, 187-204. 
+Craig, H., 1953. The geochemistry of the stable carbon isotopes. Geochimica et Cosmochimica Acta 
+3, 53-92. 
+Craig, J.R., Vaughan, D.J., 1994. Ore Microscopy and Ore Petrography Second Edition. Published by 
+John Wiley and Sons, Inc., New York, 424p. 
+Cresswell, R.G., 1992. Radiocarbon Dating of Iron Artifacts. Radiocarbon 34, 898-905. 
+Dasgupta, H.C., Sambasiva Rao, V.V., C. Krishna, C., 1999. Chemical environments of deposition of 
+ancient iron and manganese-rich sediments and cherts. Sedimentary Geology 125, 83-98 
+Dequincey, O., Chabaux, F., Leprun, J.C., Panquet, H., Clauer, N., Larque, P., 2006. Lanthanide and 
+trace  elements  mobilization  in  a  lateritic  toposequence:  inferences  from  the  Kaya  laterite  in 
+Burkina Faso. European Journal of Soil Science 57, 816-830. 
+Doherty, R.D., Hutchings, K.M., Smith, J.D., Yörük, S., 1985. The reduction of Hematite to Wustite 
+in a laboratory fluidized bed. Metallurgical Transactions B, 16B, 425-432. 
+Drever,  J.I.,  1974.  Geochemical  model  for  the  origin  of  Precambrian  banded  iron  formations. 
+Geological Society of America 7, 1099-1106. 
+Feybesse,  J-L.,  Billa,  M.,  Guerrot,  C.,  Duguey,  E.,  Lescuyer,  J-L.,  Milesi,  J-P.,  Bouchot,  V.,  2006. 
+The  paleoproterozoic  Ghanaian  province:  Geodynamic  model  and  ore  controls,  including 
+regional stress modeling. Precambrian Research 149, 149-196. 
+Friede,  H.M.,  Hejja,  A.A.,  Koursaris  A.  1982.  Archaeo-metallurgical  studies  of  iron  smelting  slags 
+from prehistoric sites in Southern Africa. Journal of the South African Institute of Mining and 
+Metallurgy 77, 224-232. 
+Friede,  H.M.,  Steel,  R.H.,  1986.  Traditional  smithing  and  forging  of  South  African  Bloomery  iron. 
+South African Archaeological Bulletin 41, 81-86. 
+73
+
+--- Page 74 ---
+Gowlett,  J.A.J.,  1986.  Problems  in  dating  the  early  human  settlement  of  the  Americas'  in 
+Archaeological results from accelerator dating. Oxford University Committee for Archaeology 
+Monograph. Oxford 11, 51-59.  
+Greig, R.C.H., 1937. Iron smelting in Fipa. Tanganyika Notes and Records 4, 77-8l. 
+Guilbert, J.M., Charles F., 1986. The Geology of Ore Deposits. Freeman, pp. 408-411. 
+Guo, Z., Liu, K., Lu, X., Ma, H., Li, K., Yuan, S., 2000. The use of AMS radiocarbon dating for Xia 
+Shang  Zhou,  Chronology,  Department  of  Archaeology,  Peking  University,  Beijing  100871, 
+People's Republic of China,  Nuclear Instruments and Methods in Physics Research 172, 724-
+731. 
+Haaland, G., Haaland, R., Dea, D., 2004. Furnace and Pot: why the iron smelter is a big pot maker, a 
+case study from South-western Ethiopia, 20pp. 
+Hein, K.A.A., 2007. Artisanal Mining, Its Place and role in the mining sector. Women in Mining  – 
+Taking Stock of the present, shaping the future. Colloquium, 8-9 November 2007, University of 
+the Witwatersrand, Johannesburg 15p. 
+Hein, K.A.A., Morel, V., Kagoné, O., Kiemde, F., Mayes, K., 2004. Birimian lithological succession 
+and structural evolution in the Goren segment of the Boromo-Goren Greenstone Belt, Burkina 
+Faso. Journal of African Earth Sciences 39, 1-23. 
+Hentschel, T., Hruschka, F., Priester, M., 2002. Global Report on Artisanal and Small-Scale Mining. 
+Mining, Minerals and Sustainable Development 70, 64p. 
+Hentschel,  T.,  Hruschka,  F.,  Priester,  M.,  2003.  Artisanal  and  small-scale  mining:  challenges  and 
+opportunities. International Institute for Environment and Development, London 94p. 
+Herbet, E., 1993. Iron gender and power, Indiana University. Precious metals of the age of expansion: 
+Papers of the 14th International Congress of the Historical Sciences 123p. 
+Hilson,  G.,  2002a.  The  environmental  impact  of  small-Scale  gold  mining  in  Ghana:  identifying 
+problems and possible solutions. The Geographical Journal 168, 57-72. 
+Hilson,  G.,  2002b.  Small-Scale  mining  and  its  socio-economic  impact  in  developing  countries. 
+Natural Resource Forum 26, 3–13. 
+Hoadley,  M.,  Limpitlaw,  D.,  2004.  The  artisanal  and  small-Scale  mining  sector  and  sustainable 
+livelihoods.  In:  Mintek  Small  Scale  Mining  Conference,  Book  of  Proceedings,  2004,  9 
+September, NASREC, Johannesburg 9p. 
+Hogg,  A.G.,  1992.  Assessment  of  0.3  ml  minivials  for  radiocarbon  dating  by  liquid  scintillation 
+counting of benzene. Radiocarbon 34, 389-393. 
+Hottin,  G.,  Ouedraogo,  O.F.,  1992.  Carte  Géologique  du  Burkina  Faso  (2nd  Edition).  Bureau  de 
+Recherches Géologiques et Minières, Burkina Faso. 
+Hudson,  T.L.,  Fox,  F.D.,  Plumlee,  G.S.,  1999.  Metals,  mining  and  the  environment,  AGI 
+environmental awareness series, 368p. 
+74
+
+--- Page 75 ---
+ICMM, 2010. Working Together – How large-scale mining can engage with artisanal and small-Scale 
+miners, international finance forum, World Bank, 108p. 
+Insoll, T., 1997. Iron age Gao: an archaeological contribution. The Journal of African History 38, 1-
+30. 
+Ivanyuk,  G.Y.,  Korchak,  Y.A.,  Pakhomovsky,  Y.A.,  Menshikov,  Y.P.,  Yakovenchuk,  V,N.,  2012. 
+Ulvöspinel  from  xenoliths  of  contact  altered  volcanic  and  volcanosedimentary  rocks  in 
+Nepheline  Syenites  of  the  Khibiny  and  Lovozero  Plutons.  Minerals  and  parageneses  of 
+minerals. Geology of Ore Deposits 54, 575-579. 
+Journal of African Earth Sciences 41,  407-436. 
+Karbowniczek,  M.,  2005.  Metallurgical  process  in  ancient  shaft  furnace,  theoretical  consideration, 
+Association of Metallurgical Engineers of Serbia 5, 145-155. 
+Kense,  J.F.,1983.  Traditional  African  iron  workings,  African  occasional  papers,  Department  of 
+archaeology, University of Calgary 25p. 
+Kimberly, M.M., 1989. Exhalative origins of iron formations. Ore Geology Reviews 5, 5-145. 
+Klemd, R., Hirdes, W., 1997. Origin of an unusual fluid composition in early Proterozoic palaeoplacer 
+and lode-gold deposits in Birimian greenstone terranes of West Africa. South African Journal 
+of Geology 100, 405-414. 
+Krämer P., 2002. The Fuel Wood Crisis in Burkina Faso, Solar Cooker as an Alternative. Solar cooker 
+archive. Ouagadougou: Burkina Faso. 
+Kribek,  B.,  Syrokorova,  I.,  Machovic,  V.,  Laufek,  F.,  2008.  Graphitization  of  organic  matter  and 
+fluid-deposited  graphite  in  Palaeoproterozoic  (Birimian)  black  shales  of  the  Kaya-Goren 
+greenstone belt (Burkina Faso, West Africa). Journal of Metamorphic Geology 26, 937-958. 
+Levtzion, N., 1980. Ancient Ghana and Mali. Published by Holmes and Meier Publishing, London, pp 
+42. 
+Libby. W.F., 1952. Radiocarbon dating, Chicago (2nd Edition). Chicago press, Chicago III, 124p.  
+Lovitz,  B.A.,  2006.  Scales  responsible  for  gold  mining:  Overcoming  barriers  to  cleaner  artisanal 
+mining in Southern Ecuador. The Faculty of the Graduate College of the University of Vermont 
+111p. 
+Manning,  M.  P.,  Reid,  R.  C.,  1977.  C-H-0  Systems  in  the  Presence  of  an  Iron  Catalyst,  Industrial 
+Engineering Chemistry and Process Design Development 16, 23p. 
+Masonen,  P.,  1997.  Trans-Saharan  Trade  and  the  West  African  Discovery  of  the  Mediterranean.  In 
+M'hammad  Sabour  and  Knut  S.  Vikør  (Eds),  Ethnic  Encounter  and  Culture  Change.  Papers 
+from the Third Nordic Conference on Middle Eastern Studies, Bergen 1997, Nordic Research 
+on the Middle East 3, 116-142. 
+McFarland,  D.M.,  Lawrence,  A.R.,  1998.  Historical  Dictionary  of  Burkina  Faso,  2nd  Edition. 
+Lanham, Scarecrow Press 360, pp 205-211. 
+McFarlane, M.J., 1976. Laterite and landscape, London, Academic press, 15p.  
+75
+
+--- Page 76 ---
+Middleton, R., Hein, K.A.A., 1997. An assessment of gold prospectivity in the Pissila region, Burkina 
+Faso, West Africa, Sanmantenga Joint Venture, report no: PROGEN 1, 24p. 
+Milési,  J.P.,  Feybesse,  J.L.,  Ledru,  P.,  Dommanget,  A.,  Ouedraogo,  M.F.,  Marcoux,  E.,  Prost,  A., 
+Vinchon, Ch., Sylvain, J.P., Johan, V., Tegyey, M., Calvez, J.Y., Lagny, P., 1989. West African 
+gold  deposits,  in  their  lower  Proterozoic  lithostructural  setting.  Chronique  de  la  Recherché 
+Minière 497, 3-98. 
+Milési,  J.P.,  Ledru,  P.,  Feybesse,  J.L.,  Dommanget,  A.,  Marcoux,  E.,  1992.  Early  Proterozoic  ore 
+deposits  and  tectonics  of  the  Birimian  orogenic  belt,  West  Africa.  Precambrian  Research  58, 
+305-344. 
+Miller,  D.E.,  Van  Der  Merwe,  N.J.,  1994.  Early  Metal  Working  in  Sub  Saharan  Africa.  Journal  of 
+African History 35, 1-36. 
+Morton, G.R., Wingrove, J. 1972. Constitution of Bloomery slags, Part 11. Iron and Steel Institute 21, 
+478-488. 
+Mücke,  A.,  2005.  The  Nigerian  manganese-rich  iron-formations  and  their  host  rocks—from 
+sedimentation to metamorphism. 
+Muszer, A., 2000. An outline of ore microscopy. University of Wroclaw, Poland, 233p. 
+Muszer,  A.,  2004.  Mineralogical  characteristics  of  metallurgical  dust  in  the  vicinity  of  Głogów. 
+Problems of mineral processes 38, 329-340. 
+Mutemeri  N.,  Petersen,  F.W.,  2002.  Small-scale  mining  in  South  Africa:  past,  present  and  future. 
+Natural Resources Forum 26, 286-292.  
+Nahon  DB,  Tardy  Y  (1992)  The  ferruginous  laterites.  In:  Butt  CRM,  Zeegers  H  (eds),  Regolith 
+exploration  geochemistry  in  tropical  and  subtropical  terrains.  Handbook  of  Exploration 
+Geochemistry 4, Elsevier, Amsterdam, pp 41-55. 
+Nahon,  D.,  1991.  Introduction to the  Petrology  of  Soils  and  Chemical  Weathering.  John  Wiley  and 
+Sons, New York. 313p. 
+Neyberg, H., Ladaron, D., Martin, H., Verkaeren, J., 1980. The vanadiferous  -magnetite deposits of 
+the Oursi region, Upper Volta. Economic Geology 7, 1042-1052.  
+Olson,  J.S.,  1979.  The  ethnic  dimension  in  American  History,  1st  Edition.  Published  by  St  Marins 
+press, 440p. 
+Ouedraogo,  I.,  Tigabu,  M.,  Savadogo,  P.,  Compaore,  Oden,  P.C.,  Ouadba,  J.M.,  2010.  Land  cover 
+change  and  its  relation  with  population  dynamics  in  Burkina  Faso,  West  Africa.  Land 
+degradation and Development 21, 453-462. 
+Park,  D.P.,  2011.  Climate  Change,  Human  Response  and  the  Origins  of  Urbanism  at  Timbuktu. 
+Doctoral Thesis, Yale University, Department of Anthropology, 577p. 
+Paynter, S. 2006. Regional Variation in Bloomery Smelting Slag of the Iron Age and Romano-British 
+Periods. Archaeometry 48, 271-292. 
+76
+
+--- Page 77 ---
+Peters, L.F.H., Hein, K.A.A., 2013. Volcanic facies and preliminary geochemical observations of the 
+Goren greenstone belt, Burkina Faso. EGU General Assembly 2013, 7-12 April 2013 Vienna, 
+Austria. 
+Phillipson, D.W., 1975. The chronology of the Iron Age in Bantu Africa; Journal of African history 
+16, 321-42.  
+Pleiner, R., 2000. Iron in archaeology: the European Bloomery smelters. Published by Archeologicky 
+Ustav AV CR, Prague, ISBN 80-86124-26-6. 
+Pryce, T.O., Natapintu, S., 2010. Smelting Iron from Laterite: Technical Possibility or Ethnographic 
+Aberration? University of Hawaii Press. Asian Perspectives 48, 16p. 
+Read, T. T., 1937. Iron and steel in the Far East. Far Eastern Survey 6, 145-147. 
+Reimer,  P.J.,  Baillie,  M.G.L.,  Bard,  E.,  Bayliss  A,  Beck,  J.W.,  Bertrand,  C.J.H.,  Blackwell,  P.G., 
+Buck, C.E., Burr, G.S., Cutler, K.B., Damon, P.E., Edwards, R.L., Fairbanks, R.G, Friedrich, 
+M.,  Guilderson,  T.P.,  Hogg,  A.G.,  Hughen,  K.A.,  Kromer,  B.,  McCormac,  G.,  Manning,  S., 
+Bronk Ramsey, C., Reimer, R.W., Remmele, S., Southon, J.R., Stuiver, M.,Talamo, S., Taylor, 
+F.W.,  van  der  Plicht,  J.,  Weyhenmeyer,  C.E.,  2004.  IntCal04  atmospheric  radiocarbon  age 
+calibration, 26–0 cal kyr BP. Radiocarbon, 46, 1059-1086. 
+Schuhmann R., Powell, R.J., Michal E.J.,1953. Constitution of FeO-Fe203-SiO2 system at slag making 
+temperatures. Metallurgical and Materials Transactions 197, 1097-1l04. 
+Schwartz, T., 1994. Ferricrete formation and relief inversion. An example from central Sudan, Catena 
+21, 257-268. 
+Scott-Garrett,  1956).  Romano-British  Sites  at  Chestnuts  Hill  and  Popes  Hill,  Forest  of  Dean. 
+Transactions of the Bristol Gloucestershire Archaeological Society 75, 199-202. 
+Sinding.  K.,  2005.  The  dynamics  of  artisanal  and  small-scale  mining  reform.  Natural  Resources 
+Forum 29, 243-252. 
+Smith, P., Timothy, G., 1993. Iron and steel industry. Editor, Steel times and Steeltimes Interval, 45p. 
+Spry, P.G., 1987. The chemistry and origin of zincain spinel associated with the Aggeneys Cu-Pb-Zn-
+Ag deposits, Namaqualand, South Africa. Mineralium Deposita, 22, 262-268. 
+Stewart, L.J., 2007. Quench textures, lithification, and modes of crystallization in a cooled slag block 
+from  a  smelter  at  Northport,  northeastern  Washington  State.  2007  GSA  Denver  Annual 
+Meeting (28–31 October 2007), Paper No. 143-48  
+Stuiver, M., Polach, H.A., 1977. Reporting of 14C data. Radiocarbon 19, 355-363. 
+Stuiver,  M.,  Reimer,  P.J,  Braziunas,  T.F.,  1998.  High-precision  radiocarbon  age  calibration  for 
+terrestrial and marine samples. Radiocarbon 40, 1127-1151. 
+Swartz, B.K., 1980. The status of Guinea Coast paleoarchaeological knowledge as seen from Legon 
+15, 37-40. 
+Talma, A.S., Vogel, J.C., 1993. A simplified approach to calibrating C14 dates. Radiocarbon 35, 317-
+322. 
+77
+
+--- Page 78 ---
+Tardy, Y., 1993, Pétrologie des latérites et des sols tropicaux. Paris, Masson, 461p. 
+Taylor,  G.,  Eggleton,  R.A.,  2001.  Regolith  geology  and  geomorphology.  Providing  fundamental 
+discussion of regolith properties and chemistry. John Wiley and Sons, 384p. 
+Taylor,  R.  1987,  Radiocarbon  Dating:  An  Archaeological  Perspective,  Academic  Press,  New  York 
+14p. 
+Telmer, K., Costa, M., Agelica, R., Araujo, E., Maurice, Y., 2006. The Source and Fate of sediment 
+and mercury in the Tapajos River, Para, Brazilian Amazon: Ground and Space Based Evidence. 
+Journal of Environmental Management 81, pp. 101-13. 
+Tshibubudze,  A.,  Hein,  K.A.A.,  2013.  Structural  setting  of  gold  deposits  in  the  Oudalan-Gorouol 
+volcano-sedimentary  belt  east  of  the  Markoye  Shear  Zone,  West  African  craton.  Journal  of 
+African Earth Sciences 80, 31-47. http://dx.doi.org/10.1016/j.jafrearsci.2012.11.010 
+Tylecote,  R.F.,  1965.  Iron  smelting  in  pre-industrial  communities.  Journal  of  the  Iron  and  Steel 
+Institute 203, 340-348. 
+Tylecote, R.F., Austin, J.N., and Wraith, A.E., 1971. The mechanism of the Bloomery process in shaft 
+furnaces. Journal of the Iron and Steel Institute 209, 342-63. 
+United  Nations,  2002,  Compendium  on  best  practices  in  Small-Scale  Mining  in  Africa.  Economic 
+Commission for Africa. 
+USGS., 2000. Mineral commodity summaries. United States Geological Survey Reston, 199 p.  
+Van Oss, H.G., 2002. Slag - Iron and Steel. U.S. Geological Survey Minerals Yearbook 2002, 70.1-
+70.6. 
+Verhoogen,  J.,  1962.  Oxidation  of  iron-titanium  oxides  in  igneous  rocks.  University  of  California, 
+Berkeley. The Journal of Geology 70, 168-181. 
+Vogel, J.C.,  Fuls.  A.,Visser.,  E,  1993.  Pretoria  calibration  for  short  lived  samples.  Radiocarbon  35, 
+73-85. 
+Wassenaar,  T.D.,  Henschel,  J.R.,  Pfaffenthaler,  M.M.,  Mutota,  E.N.,  Seely,  M.K.,  Pallett,  J.  2012. 
+Ensuring  the future  of  the Namib’s  biodiversity:  Ecological  restoration as a  key  management 
+response to a mining boom. Journal of Arid Environments 93, 126-135. 
+WAXI, 2013. Confidential final report to the AMIRA sponsors of WAXI phase II, Theme 3 Surface 
+processes, p 594 
+78

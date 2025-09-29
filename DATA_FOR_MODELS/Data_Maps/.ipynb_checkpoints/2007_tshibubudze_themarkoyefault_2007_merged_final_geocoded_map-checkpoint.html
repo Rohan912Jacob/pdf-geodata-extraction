@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0733b21bf4bbe7b6730c3ef8bf677306 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_0733b21bf4bbe7b6730c3ef8bf677306" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0733b21bf4bbe7b6730c3ef8bf677306 = L.map(
+                "map_0733b21bf4bbe7b6730c3ef8bf677306",
+                {
+                    center: [18.75727536578947, -2.2348747026315796],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1959610895282f3b789d128ef7b59045 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1959610895282f3b789d128ef7b59045.addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+            var circle_marker_51180e048b5d8338ac271a7353423dd9 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_03767904b428e42e5cca72b6d104d647 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b1879a991d080b620d0d0ff19d1c3d8a = $(`<div id="html_b1879a991d080b620d0d0ff19d1c3d8a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The area of study is located ±250 km NE of the capital city, Ouagadougou, Burkina Faso  (Fig. 1). Burkina  Faso  is  a  landlocked  country  in  West  Africa. The  neighbouring  countries  include  Mali,  Niger,  Benin,  Togo,  Ghana  and  Côte  d\`Ivoire. The  official  language is French. Other languages, local languages include Mooré and Dioula.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 8<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_03767904b428e42e5cca72b6d104d647.setContent(html_b1879a991d080b620d0d0ff19d1c3d8a);
+            
+        
+
+        circle_marker_51180e048b5d8338ac271a7353423dd9.bindPopup(popup_03767904b428e42e5cca72b6d104d647)
+        ;
+
+        
+    
+    
+            circle_marker_51180e048b5d8338ac271a7353423dd9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_caa17733c39f5d59b3f7dcedb2ee60d0 = L.circleMarker(
+                [11.5024338, 17.7578122],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_9d2e8066cd8383867dedbfe3b143f4c6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8cb114f353a276b2f0f01a710800821b = $(`<div id="html_8cb114f353a276b2f0f01a710800821b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> al., 1995; Naba et al., 2004; Pawlig et al., 2006). The tecto-magmatic event related to the  intrusion of the granitoids is dated at 2200 Ma – 2070 Ma (U-Pb dating) (Liégois et al.,  1991). The  granitoids  cover  50-70%  of  the  Palaeoproterozoic  basement  of  West  Africa  (Milési et al., 1989; Naba et al., 2004). Two emplacement events have been established  (Castaing  et  al.,  2003;  Naba  et  al.,  2004). A  TTG  Suite  which  is  composed  of  granodiorite,  tonalite  and  quartz-diorite  was  emplaced  between  2210  and  2160  Ma  (Castaing  et  al.,  2003). The  tonalite  suite  intrudes  and  contact  metamorphoses  the  Birimian  sequences,  and  is  banded  (layered)  and  foliated  in  places  (Hein  et  al.,  2004;  Naba et al., 2004).<br><b>Geocode:</b> Africa<br><b>Pages:</b> 12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9d2e8066cd8383867dedbfe3b143f4c6.setContent(html_8cb114f353a276b2f0f01a710800821b);
+            
+        
+
+        circle_marker_caa17733c39f5d59b3f7dcedb2ee60d0.bindPopup(popup_9d2e8066cd8383867dedbfe3b143f4c6)
+        ;
+
+        
+    
+    
+            circle_marker_caa17733c39f5d59b3f7dcedb2ee60d0.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_16bd451bd08b72e045f0c3bd6e324913 = L.circleMarker(
+                [9.5293472, 2.2584408],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_ae761bde9b5d7661fadbd16571679bc6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b744d24d11fee59962540f18f83335c3 = $(`<div id="html_b744d24d11fee59962540f18f83335c3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The area of study is located ±250 km NE of the capital city, Ouagadougou, Burkina Faso  (Fig. 1). Burkina  Faso  is  a  landlocked  country  in  West  Africa. The  neighbouring  countries  include  Mali,  Niger,  Benin,  Togo,  Ghana  and  Côte  d\`Ivoire. The  official  language is French. Other languages, local languages include Mooré and Dioula.<br><b>Geocode:</b> Benin<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ae761bde9b5d7661fadbd16571679bc6.setContent(html_b744d24d11fee59962540f18f83335c3);
+            
+        
+
+        circle_marker_16bd451bd08b72e045f0c3bd6e324913.bindPopup(popup_ae761bde9b5d7661fadbd16571679bc6)
+        ;
+
+        
+    
+    
+            circle_marker_16bd451bd08b72e045f0c3bd6e324913.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca20145913f6c271130630525bdffcfb = L.circleMarker(
+                [59.2055357, 18.005738],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_d66701bf411b3472152033ad4f9badbf = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_41e119f0e14c73e4f2e0b64f9ac95272 = $(`<div id="html_41e119f0e14c73e4f2e0b64f9ac95272" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 6: Discussion  6.1 Meta-sedimentary units and environments of deposition   Although  limited  by  the  availability  of  outcrops  due  to  the  Sahara  sand  dunes,  laterite,  and  alluvial  cover,  two  stratigraphic  sequences  are  recognised  in  the  study  area;  volcanoclastic  and  sedimentary. These  units  are  metamorphosed  to  hornblende-hornfels  facies through contact metamorphism, but primary sedimentary structures are preserved  as  compositional  layers  (Chapter  4). Primary  structures  include  graded  bedding,  flaser  and cross-bedding, fine laminations, ripple marks, slumps, and scour and fill. The  primary  structures  indicate  a  single  environment  of  deposition:  shallow  marine  continental shelf at a delta front setting. The fining up sequence (graded bedding), slumps  (gravity  flow),  mud  and  sand  balls,  lithic  fragments,  ripples,  scour  and  fill,  mud-cracks  and laminations in meta-volcanoclastic greywacke sequences suggest that the setting was  subjected  to  tidal  and  or  turbidity  currents  (Eriksson  et  al.,  1998;  2005;  Sultan  and  Björklund, 2006). The upward-fining, laminations, slumps, lithic fragments, and graded  beds, with scour and fill bases, are characteristic of  turbidity  currents  that operates at a  delta  front  (Shanmugan,  1997;  Sultan  and  Björklund,  2006),  and  the  ripples  are  characteristic of tidal currents (Sultan and Björklund, 2006).<br><b>Geocode:</b> Björklund, Huddinge, Huddinge kommun, Stockholm County, 141 92, Sweden<br><b>Pages:</b> 47<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d66701bf411b3472152033ad4f9badbf.setContent(html_41e119f0e14c73e4f2e0b64f9ac95272);
+            
+        
+
+        circle_marker_ca20145913f6c271130630525bdffcfb.bindPopup(popup_d66701bf411b3472152033ad4f9badbf)
+        ;
+
+        
+    
+    
+            circle_marker_ca20145913f6c271130630525bdffcfb.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_314fac0b693b81f5692269346611c02b = L.circleMarker(
+                [14.0327651, -0.0348286],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_52db73418e54620447aa9e2e518dbe97 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0b4590dc41df53867d429093a5497b23 = $(`<div id="html_0b4590dc41df53867d429093a5497b23" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 1: Introduction  1.1 Preamble  The  NE-trending  Markoye  fault  in  Burkina  Faso  is  a  first-order  crustal  scale  structure  located in the north-eastern part of Burkina Faso, between the towns of Dori and Tambão  by the boarder with Mali and Niger (Fig. 1). The structure has been interpreted as a major  westerly-dipping  thrust  (Milési  et  al.,  1992;  Hottin  and  Ouedraogo,  1992). Delfour  and  Jeabrum (1970) in Rogers and Dong (2000) defined the structure as an east-verging thrust  and  BHP  geologists  interpreted  the  structure  as  part  of  a  regional  dextral  strike-slip  system. Castaing  et  al. (2003)  interpreted  the  same  structure  as  a  sinistral  fault  system,  and  Milési  et  al.<br><b>Geocode:</b> Dori, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_52db73418e54620447aa9e2e518dbe97.setContent(html_0b4590dc41df53867d429093a5497b23);
+            
+        
+
+        circle_marker_314fac0b693b81f5692269346611c02b.bindPopup(popup_52db73418e54620447aa9e2e518dbe97)
+        ;
+
+        
+    
+    
+            circle_marker_314fac0b693b81f5692269346611c02b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e24c09e7bef16f400437e0ddfdf11773 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_4a98a31041929bafd925c827d1aea569 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_830b760618542a1d43a387388255d280 = $(`<div id="html_830b760618542a1d43a387388255d280" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Calculated fold axis  Figure  12. Equal  area  stereographic  projection  of  the  poles  to  bedding  at  Essakane  exploration  trenches. The  calculated  mean  strike  and  dip  is  343°/27°E. The  calculated  best  fit  girdle  is  078°/88°S. The  spread  of  the  poles  along  the  girdle  indicates  that  the  bedding has been folded; the calculated mean strike and dip is inferred to parallel the fold  axes. The  fold  is  asymmetric  with  the  fold  vergence  to  the  SW  indicating  that  the  transport direction is toward the SW. || Chapter 3: Methodology  3.1 Data collection  In  January  2007  a  detailed  structural  mapping  project  was  conducted  in  the  study  area  over  a  period  of  20  days,  including  days  allocated  to  logistics  and  camp  management. Geology  and  topographic  maps,  and  airborne  magnetic  data  were  used  to  delineate  the  Markoye  fault. Geographic  and  geologic  reconnaissance  studies  of  the  region  were  conducted  before  the  actual  field  work  commenced. Several  east-west  traverses  were  conducted  across  the  Markoye  fault  between  Essakane  and  Tambăo  (Fig.1  and  2). For  each station point mapped, lithological and structural data was recorded, a photographic  record was made, GPS position was established using UTM grid co-ordinates (WGS 84),  and if appropriate, samples were collected for petrographic studies. The  data  was  captured  using  a  northern  hemisphere  compass  clinometer,  and  the  geographic  coordinates  were  recorded  using  Garmin  Geographic  Positioning  System  (GPS) instrument. || Figure  11. Photographic  mosaic  of  Essakane  exploration  trench  number  1. This  trench  wall  is  southeast  facing,  and  the  pictures  were  taken  facing  to  the  northwest. The  Essakane  prospect  is  hosted  by  an  asymmetric  open  anticline. The  stockwork,  breccia,  and  sheeted  quartz-carbonate  veins  are  concentrated  (hosted)  in  the  eastern  limb,  the  west-dipping cavities on the NE limb where produced by orpailleurs who excluded west- dipping, gold bearing veins. 30 || Figure  2. Schematic  interpretation  of  LANDSAT  image,  modified  after  Hein  and  Tshibubudze, 2007 showing locations of villages, orpaillage (             ) and traverse lines  (     ). The villages are: Salmossi (S), Essakane (E), Tin Agadel (TA), Tin Taradat (TT),  Markoye (M), and Gorom-Gorom (GG). The (YMC) Yacouba Mafic Complex      . 10 || In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and  Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field  data was not presented. Unpublished structural studies completed for Goldfields Mining  Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an  east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral  strike-slip system. 2.9 Regional metallogeny  The West African Craton hosts many mineral deposits, for example, gold, diamond, iron,  and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several  deposits and deposit styles occur in the study area including; (1) The manganese deposit  at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane,  Gosséy, Koiréziéna, Falagountou (Fig. || Structural  studies  indicate  that  the  NE-trending  Markoye  fault,  which  is  the  first-order  crustal-scale  structure,  have  undergone  at  least  two  phases  of  deformation,  D1  and  D2,  with reactivation during the late phase of D2. D1 resulted in formation of NW-trending  asymmetric folds and thrusts at Essakane, and the displacement along the Markoye fault  was dextral reverse. D2 is a period of SE-NW crustal shortening that formed NE-trending  folds,  and  NE-trending  regional  foliation. The  NE-trending  mylonite  to  ultramylonite  zone, pseudotachylyte veins, buck quartz-carbonate (± tourmaline) veins and quartz iron- rich catalasite vein, and late quartz-chlorite shears formed during D2. D1 is interpreted to pre-date the Eburnean Orogeny, and D2 is correlated to the Eburnean  Orogeny ~2.1 G.a. The name ‘Markoye Fault’ should be changed to Markoye Shear Zone  (MSZ) to reflect the complex nature of the structure and tectonic history. || The presence of black shale and siltstone at Essakane provides evidence of fine material  deposited  by  suspension  settling  at  the  delta  front  (Eriksson  et  al.,  1998;  Sultan  and  Björklund,  2006). The  meta-volcanoclastic  greywackes  host  thin  intercalated  layers  of  fuchsite  and  mud-cracks. Fuchsite  layers  and  mud-cracks  can  form  in  lagoonal  (continental  shelf)  environments  were  temperature  and  availability  of  water  is  the  controlling  factors  (Sultan  and  Björklund,  2006). The  meta-conglomerate  contains  sub- rounded to rounded clasts indicating a local origin and short transportation distance. The  conglomerate  units  were  probably  deposited  proximal  to  the  source  in  a  deltaic  environment  (Eriksson  et  al.,  1998). The  presence  of  stromatolites  in  greywacke  41<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 14,16,17,36,37,47,6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4a98a31041929bafd925c827d1aea569.setContent(html_830b760618542a1d43a387388255d280);
+            
+        
+
+        circle_marker_e24c09e7bef16f400437e0ddfdf11773.bindPopup(popup_4a98a31041929bafd925c827d1aea569)
+        ;
+
+        
+    
+    
+            circle_marker_e24c09e7bef16f400437e0ddfdf11773.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c7f4b7078db5a39d25ddbba94d644b3e = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_d0ee70d6932c48e92995ed8558f49e80 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ad924b10473fbfde2a05178667df7620 = $(`<div id="html_ad924b10473fbfde2a05178667df7620" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Abstract  The  regional  lithological  and  structural  mapping  completed  in  the  north-eastern  part  of  Burkina Faso indicates that the Essakane goldfield of the West African Craton is hosted  by  meta-volcanoclastic  and  meta-sedimentary  rocks  of  the  Birimian  sequences. The  sequences  are  dominated  by  meta-volcanoclastic  greywackes,  intercalated  meta- conglomerate,  meta-sandstone-greywacke,  siltstone  and  shale. The  sequences  have  primary sedimentary structures preserved as compositional layering. The  depositional  environment  of  the  sequences  is  interpreted  to  have  occurred  in  a  shallow  marine  continental  shelf  environment  at  a  delta  front  setting. The  sequences  where  subjected  to  several  phases  of  deformation  and  metamorphism. They  have  been  contact metamorphosed to hornblende hornfels facies during emplacement of adamellite,  pyroxenite-gabbro, granodiorite-tonalite plutons, and dolerite dykes. || Chapter 7: Conclusion  The Markoye fault is a broad zone of faulting, shearing, mylonite zone, pseudotachylyte  veins, L-tectonites, quartz iron-rich cataclasite veins and quartz-carbonate (± tourmaline)  veins and is renamed as the Markoye Shear Zone (MSZ). The  lithologies  of  Essakane  goldfield  consist  of  metamorphosed  Birimian  volcano- sedimentary  and  sedimentary  sequences  that  were  deposited  in  a  shallow  marine  continental shelf at a delta front setting. These sequences have been intruded by plutonic  rocks  that  include  granodiorite-tonalite,  pyroxenite-gabbro,  granite  (adamellite)  plutons  and dolerite dykes. The plutons and dyke systems have contact metamorphosed the rocks  of  the  region  to  hornblende-hornfels  facies,  but  primary  sedimentary  structures  are  preserved as compositional layers. All the lithologies in the area have been subjected to  several phases of local-regional deformation, with development of mylonite, schistosity,  and L-tectonite. Two phases of deformation are recognised related to the Markoye Shear Zone (MSZ) in  the  area. || However most of the published ages in Figure 22 imply syn-depositional emplacement. (3) In Figure 22 the ages for granite suite rocks are younger than, or, synchronous to, the  emplacement of tonalite suite rocks. At Essakane goldfield granite xenoliths are hosted in  tonalite, which means that the granite suite is older than the tonalite suite. Consequently the data set shows inconsistencies and this needs further investigation. 46 || However, little or  no research has been undertaken to develop an understanding of first order crustal scale  structures and their relationship to gold mineralization in the Essakane goldfield. This is  the purpose of this report. || The  pegmatite  vein  is  ±40  cm  thick,  and  it  trends  NE. It  is  a  plagioclase-tourmaline-topaz  pegmatite with crystals greater than 10cm in size. 4.7.4 Dolerite  A series of parallel NW-trending, mafic magnetic dolerite dykes crosscut the study area. They are composed of plagioclase, clinopyroxene and magnetite and  commonly  exhibit  granophyric texture in thin section. The mineralogical composition is given in Figure 10. The  dykes  crosscut  greywacke-siltstone  sequences  at  the  Essakane  goldfield  and  have  contact  metamorphosed  these  sequences  to  hornblende-hornfels  facies. || The early phase of D2 is associated with medium to high grade metamorphic conditions  with  high  strain  along  the  MSZ  and  formation  of  the  MMZ  and  pseudotachylyte  veins  (Fig. 2). Quartz  iron-rich  cataclasite  veins  and  buck  quartz-carbonate  (±  tourmaline)  veins  in  quartz-chlorite  shears  crosscut  the  MMZ  and  are  interpreted  to  represent  low  strain rates during progressive deformation on the MSZ. Quartz-chlorite shear zones are  gold bearing at Essakane goldfield. 6.5 Relative and Absolute chronologies (Tectonic history)  Although  absolute  dating  can  delineate  separate  stratigraphic  sequences  and  tectonic  events based on heavy or light mineral analysis, these minerals are rarely available and  the analyses are limited by availability of resources. Due to geological processes that are  continuously  taking  place,  including,  erosion,  deposition  and  tectonic  events,  complete  stratigraphic  sequences  are  rarely  available  to  define  absolute  ages,  and  therefore,  it  is  generally  simple  to  establish  the  spatial  and  temporal  relationship  of  the  various  geological  features  in  the  region  by  establishing  the  crosscutting  relationships. || The gold mineralization in the Essakane goldfield is related to the  late quartz-chlorite schist of D2. 48 || However most of the published ages in Figure 22 imply syn-depositional emplacement. (3) In Figure 22 the ages for granite suite rocks are younger than, or, synchronous to, the  emplacement of tonalite suite rocks. At Essakane goldfield granite xenoliths are hosted in  tonalite, which means that the granite suite is older than the tonalite suite. Consequently the data set shows inconsistencies and this needs further investigation. 46<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 22,50,52,54,6,7,52<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d0ee70d6932c48e92995ed8558f49e80.setContent(html_ad924b10473fbfde2a05178667df7620);
+            
+        
+
+        circle_marker_c7f4b7078db5a39d25ddbba94d644b3e.bindPopup(popup_d0ee70d6932c48e92995ed8558f49e80)
+        ;
+
+        
+    
+    
+            circle_marker_c7f4b7078db5a39d25ddbba94d644b3e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7df089bd21c3d934d324cb804f83ae73 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_b975415c993ca57ad954804d5c9b757a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8e34ba7f7cc053171db250942e7a4210 = $(`<div id="html_8e34ba7f7cc053171db250942e7a4210" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  monotonous  greywacke-siltstone  sequences  at  the  Essakane  orpaillage  west  of  the  Essakane village (Fig. 2) hosts crosscutting quartz-carbonate veins, and gold-arsenopyrite  mineralization is hosted in the alteration zone surrounding the quartz-carbonate veins in  competent  greywacke  sandstone  units. The  greywacke-siltstone  sequence  has  been  folded. Siltstone  units  are  spotted  with  ovoid  porphyroblasts  of  cordierite  (thermally  metamorphosed). Siltstone, greywacke, sandstone and shale layers are interbedded. Shale  is dark-grey to black in colour, and contains a pronounced pencil cleavage. || West  of  the  Essakane  orpaillage  (Fig. 2)  the  lithologies  are  dominated  by  greywacke  sandstone  that  contains  shale  fragments. Primary  sedimentary  features  including  sand- balls, slumps and cross-bedding are preserved as compositional layering. The pebble lag  at the bottom of the greywacke sandstone layer is polymictic with clasts of shale (black)  and  chert. The  sequences  have  been  contact  metamorphosed  to  hornblende-hornfels  facies by a mafic dyke intrusion. 4.3 Massive volcanoclastic greywacke sequences  Massive volcanoclastic greywacke units underlie the greywacke siltstone sequences, and  are  predominantly  composed  of  quartz  and  feldspar  grains  in  a  fine  to  medium  grained  matrix  (Fig.<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 19,20<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b975415c993ca57ad954804d5c9b757a.setContent(html_8e34ba7f7cc053171db250942e7a4210);
+            
+        
+
+        circle_marker_7df089bd21c3d934d324cb804f83ae73.bindPopup(popup_b975415c993ca57ad954804d5c9b757a)
+        ;
+
+        
+    
+    
+            circle_marker_7df089bd21c3d934d324cb804f83ae73.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f83de928b17e742bff273771c3217e9 = L.circleMarker(
+                [14.3966471, 0.0243897],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_27116419daba497f02642d474b2fb725 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b4fd8184a2cb81d845d82c4157b1ab51 = $(`<div id="html_b4fd8184a2cb81d845d82c4157b1ab51" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  monotonous  greywacke-siltstone  sequences  at  the  Essakane  orpaillage  west  of  the  Essakane village (Fig. 2) hosts crosscutting quartz-carbonate veins, and gold-arsenopyrite  mineralization is hosted in the alteration zone surrounding the quartz-carbonate veins in  competent  greywacke  sandstone  units. The  greywacke-siltstone  sequence  has  been  folded. Siltstone  units  are  spotted  with  ovoid  porphyroblasts  of  cordierite  (thermally  metamorphosed). Siltstone, greywacke, sandstone and shale layers are interbedded. Shale  is dark-grey to black in colour, and contains a pronounced pencil cleavage.<br><b>Geocode:</b> Essakané-Site, Gorom-Gorom, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 19<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_27116419daba497f02642d474b2fb725.setContent(html_b4fd8184a2cb81d845d82c4157b1ab51);
+            
+        
+
+        circle_marker_8f83de928b17e742bff273771c3217e9.bindPopup(popup_27116419daba497f02642d474b2fb725)
+        ;
+
+        
+    
+    
+            circle_marker_8f83de928b17e742bff273771c3217e9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d4714256eb7f9353a37a765e0e0f28a0 = L.circleMarker(
+                [14.3738506, 0.1457981],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_8bff86bacf638a8a821659180060fa43 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a90da7303bc148e834ccad852be499b8 = $(`<div id="html_a90da7303bc148e834ccad852be499b8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and  Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field  data was not presented. Unpublished structural studies completed for Goldfields Mining  Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an  east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral  strike-slip system. 2.9 Regional metallogeny  The West African Craton hosts many mineral deposits, for example, gold, diamond, iron,  and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several  deposits and deposit styles occur in the study area including; (1) The manganese deposit  at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane,  Gosséy, Koiréziéna, Falagountou (Fig.<br><b>Geocode:</b> Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_8bff86bacf638a8a821659180060fa43.setContent(html_a90da7303bc148e834ccad852be499b8);
+            
+        
+
+        circle_marker_d4714256eb7f9353a37a765e0e0f28a0.bindPopup(popup_8bff86bacf638a8a821659180060fa43)
+        ;
+
+        
+    
+    
+            circle_marker_d4714256eb7f9353a37a765e0e0f28a0.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_20cee48b25b3cc34304fae2a9c404995 = L.circleMarker(
+                [46.603354, 1.8883335],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_623fe4b08398166d2bd85fe303d3aa07 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f5665f9095623a3fe8a3d5f1dff0e277 = $(`<div id="html_f5665f9095623a3fe8a3d5f1dff0e277" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> All samples where transported to Orezone Resources main office  in  Ouagadougou,  and  then  transported  to  Johannesburg  by  Air  France  flight. Samples  were  catalogued  and  submitted  to  SGS  laboratories  in  Booysens  Johannesburg  to  make  polished  thin  sections  (PTS). Oriented  samples  were  referenced  to  magnetic  north,  and  marked with horizontal and vertical orientation lines. 11<br><b>Geocode:</b> France<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_623fe4b08398166d2bd85fe303d3aa07.setContent(html_f5665f9095623a3fe8a3d5f1dff0e277);
+            
+        
+
+        circle_marker_20cee48b25b3cc34304fae2a9c404995.bindPopup(popup_623fe4b08398166d2bd85fe303d3aa07)
+        ;
+
+        
+    
+    
+            circle_marker_20cee48b25b3cc34304fae2a9c404995.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc35181f932d85ec3245a2f1057a42e5 = L.circleMarker(
+                [14.4504489, 0.1470469],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_cb5c6901f8ad7ef8e802363705d9e77c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3dfe289a80281606664383a4cdcc44f3 = $(`<div id="html_3dfe289a80281606664383a4cdcc44f3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and  Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field  data was not presented. Unpublished structural studies completed for Goldfields Mining  Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an  east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral  strike-slip system. 2.9 Regional metallogeny  The West African Craton hosts many mineral deposits, for example, gold, diamond, iron,  and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several  deposits and deposit styles occur in the study area including; (1) The manganese deposit  at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane,  Gosséy, Koiréziéna, Falagountou (Fig. || is  crosscut  by  a  week  anastomosing  cleavage  that  is  non  penetrative. The  cleavage  crosscuts post-dates the emplacement of pyroxenite intrusion. NW-trending  pyroxenite  dykes  are  composed  entirely  of  pyroxene  crystals  and  hornblende. The  wall  rocks  to  these  dykes  are  contact  metamorphosed  to  hornblende- hornfels facies. 4.7.3 Granodiorite-Tonalite  A granodiorite-tonalite intrusion outcrops over greater than 50% of the study area west of  the Markoye fault between Gosséy and Tambão (Fig. 1).<br><b>Geocode:</b> Gossey, Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 14,22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_cb5c6901f8ad7ef8e802363705d9e77c.setContent(html_3dfe289a80281606664383a4cdcc44f3);
+            
+        
+
+        circle_marker_dc35181f932d85ec3245a2f1057a42e5.bindPopup(popup_cb5c6901f8ad7ef8e802363705d9e77c)
+        ;
+
+        
+    
+    
+            circle_marker_dc35181f932d85ec3245a2f1057a42e5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bb40142f5c216be101d70a4525516ff = L.circleMarker(
+                [14.3629984, -0.0296908],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_de2f78e402fff51f5e7d1c93e2e2f6ea = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4fb35d7698c4ef3348226a7cf34e1be9 = $(`<div id="html_4fb35d7698c4ef3348226a7cf34e1be9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and  Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field  data was not presented. Unpublished structural studies completed for Goldfields Mining  Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an  east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral  strike-slip system. 2.9 Regional metallogeny  The West African Craton hosts many mineral deposits, for example, gold, diamond, iron,  and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several  deposits and deposit styles occur in the study area including; (1) The manganese deposit  at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane,  Gosséy, Koiréziéna, Falagountou (Fig.<br><b>Geocode:</b> Korizéna, Gorom-Gorom, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_de2f78e402fff51f5e7d1c93e2e2f6ea.setContent(html_4fb35d7698c4ef3348226a7cf34e1be9);
+            
+        
+
+        circle_marker_1bb40142f5c216be101d70a4525516ff.bindPopup(popup_de2f78e402fff51f5e7d1c93e2e2f6ea)
+        ;
+
+        
+    
+    
+            circle_marker_1bb40142f5c216be101d70a4525516ff.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ac7c63374a93a44408ab451fa54f0257 = L.circleMarker(
+                [14.7095001, 0.0948661],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_a3afcf84cdb533066a2cb9d77c6def38 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_02ebafcfab87ab0e28b7c0d9b281c6c8 = $(`<div id="html_02ebafcfab87ab0e28b7c0d9b281c6c8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Figure  2. Schematic  interpretation  of  LANDSAT  image,  modified  after  Hein  and  Tshibubudze, 2007 showing locations of villages, orpaillage (             ) and traverse lines  (     ). The villages are: Salmossi (S), Essakane (E), Tin Agadel (TA), Tin Taradat (TT),  Markoye (M), and Gorom-Gorom (GG). The (YMC) Yacouba Mafic Complex      . 10 || Structural  studies  indicate  that  the  NE-trending  Markoye  fault,  which  is  the  first-order  crustal-scale  structure,  have  undergone  at  least  two  phases  of  deformation,  D1  and  D2,  with reactivation during the late phase of D2. D1 resulted in formation of NW-trending  asymmetric folds and thrusts at Essakane, and the displacement along the Markoye fault  was dextral reverse. D2 is a period of SE-NW crustal shortening that formed NE-trending  folds,  and  NE-trending  regional  foliation. The  NE-trending  mylonite  to  ultramylonite  zone, pseudotachylyte veins, buck quartz-carbonate (± tourmaline) veins and quartz iron- rich catalasite vein, and late quartz-chlorite shears formed during D2. D1 is interpreted to pre-date the Eburnean Orogeny, and D2 is correlated to the Eburnean  Orogeny ~2.1 G.a. The name ‘Markoye Fault’ should be changed to Markoye Shear Zone  (MSZ) to reflect the complex nature of the structure and tectonic history.<br><b>Geocode:</b> Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 16,6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a3afcf84cdb533066a2cb9d77c6def38.setContent(html_02ebafcfab87ab0e28b7c0d9b281c6c8);
+            
+        
+
+        circle_marker_ac7c63374a93a44408ab451fa54f0257.bindPopup(popup_a3afcf84cdb533066a2cb9d77c6def38)
+        ;
+
+        
+    
+    
+            circle_marker_ac7c63374a93a44408ab451fa54f0257.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c63f176893c854ce5ba3ae7f94df739d = L.circleMarker(
+                [42.3788774, -72.032366],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_5d46cceda42576fe0d8c71c35e9346c9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_15457e01b23c83a567c105674f85afcb = $(`<div id="html_15457e01b23c83a567c105674f85afcb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> -  Formation  of  quartz-chlorite  shears  which  host  buck-quartz  carbonate  (±  tourmaline),  stockwork,  and  breccia  veins. The  veins  are  associated  with  sulphide  ±  gold  mineralization. 5.5 Markoye Fault versus Markoye Shear Zone (MSZ)  Markoye  fault  is  defined  by  ductile  (mylonitised  meta-sedimentary  rocks  and  granitoid  rocks) deformation, with the development of regional mylonite foliation and schistosity. The Markoye fault is ~5 km wide, and is a composed of numerous faults and shears. The  shears are well defined by development of C-S foliation, en echelon quartz-carbonate (±  tourmaline)  veins,  and  mineral,  stretching  and  slickenfibre  lineation. Hence  it  is  not  a  fault in the strict sense of the term. || Chapter 7: Conclusion  The Markoye fault is a broad zone of faulting, shearing, mylonite zone, pseudotachylyte  veins, L-tectonites, quartz iron-rich cataclasite veins and quartz-carbonate (± tourmaline)  veins and is renamed as the Markoye Shear Zone (MSZ). The  lithologies  of  Essakane  goldfield  consist  of  metamorphosed  Birimian  volcano- sedimentary  and  sedimentary  sequences  that  were  deposited  in  a  shallow  marine  continental shelf at a delta front setting. These sequences have been intruded by plutonic  rocks  that  include  granodiorite-tonalite,  pyroxenite-gabbro,  granite  (adamellite)  plutons  and dolerite dykes. The plutons and dyke systems have contact metamorphosed the rocks  of  the  region  to  hornblende-hornfels  facies,  but  primary  sedimentary  structures  are  preserved as compositional layers. All the lithologies in the area have been subjected to  several phases of local-regional deformation, with development of mylonite, schistosity,  and L-tectonite. Two phases of deformation are recognised related to the Markoye Shear Zone (MSZ) in  the  area.<br><b>Geocode:</b> Massachusetts, United States<br><b>Pages:</b> 35,54<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5d46cceda42576fe0d8c71c35e9346c9.setContent(html_15457e01b23c83a567c105674f85afcb);
+            
+        
+
+        circle_marker_c63f176893c854ce5ba3ae7f94df739d.bindPopup(popup_5d46cceda42576fe0d8c71c35e9346c9)
+        ;
+
+        
+    
+    
+            circle_marker_c63f176893c854ce5ba3ae7f94df739d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c8727cc9be9de6e92954cc9b474858ec = L.circleMarker(
+                [14.7095001, 0.0948661],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_c4b7c178f06560cc1a332825fafd70c2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_416df9a26f653284a47505d5822f44af = $(`<div id="html_416df9a26f653284a47505d5822f44af" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (1991,  1992),  Hirdes  and  Davis  (1998),  and  Hirdes  et  al. (1996)  interpreted that the Markoye fault formed during the Eburnean Orogeny at 2150 to 2095  Ma. However  little  field  data  has  been  presented  to  quantify  the  tectonic  history  of  the  structure and thus tectonic interpretation are contradictory. The  focus  of  this  research  is  the  Markoye  fault  and  its  tectonic  history. Added  to  this,  field studies test the possibility that the Markoye fault is a Pan African structure and that  gold  metallogenesis  is  associated  with  late  Neo-Proterozoic  Pan  African  tectonics  (c.f. Liégeois  et  al.,  2003)  through  development  of  a  relative  chronology  of  structural  and  metallogenic events. || Chapter 3: Methodology  3.1 Data collection  In  January  2007  a  detailed  structural  mapping  project  was  conducted  in  the  study  area  over  a  period  of  20  days,  including  days  allocated  to  logistics  and  camp  management. Geology  and  topographic  maps,  and  airborne  magnetic  data  were  used  to  delineate  the  Markoye  fault. Geographic  and  geologic  reconnaissance  studies  of  the  region  were  conducted  before  the  actual  field  work  commenced. Several  east-west  traverses  were  conducted  across  the  Markoye  fault  between  Essakane  and  Tambăo  (Fig.1  and  2). For  each station point mapped, lithological and structural data was recorded, a photographic  record was made, GPS position was established using UTM grid co-ordinates (WGS 84),  and if appropriate, samples were collected for petrographic studies. The  data  was  captured  using  a  northern  hemisphere  compass  clinometer,  and  the  geographic  coordinates  were  recorded  using  Garmin  Geographic  Positioning  System  (GPS) instrument. || Chapter 5: Structure  5.1 Preamble  The Markoye fault is ~5 km wide and is NE-trending. It is a composite structure of faults,  shears,  L-tectonites,  zones  of  mylonitisation  and  pseudotachylyte  veins. It  hosts  an  en  echelon  buck  quartz-carbonate  vein  array. The  structure  has  undergone  two  phases  of  brittle-ductile  deformation  and  at  least  two  phases  of  reactivation  are  recognised. D1  resulted in the development of the NW-trending asymmetric fold (F1), and the sense of  displacement on the Markoye fault was dextral (reverse). D2 marked a period of sinistral  (reverse)  displacement  on  the  Markoye  fault  with  refolding  of  F1  to  form  NE-trending  folds (F2). || Chapter 7: Conclusion  The Markoye fault is a broad zone of faulting, shearing, mylonite zone, pseudotachylyte  veins, L-tectonites, quartz iron-rich cataclasite veins and quartz-carbonate (± tourmaline)  veins and is renamed as the Markoye Shear Zone (MSZ). The  lithologies  of  Essakane  goldfield  consist  of  metamorphosed  Birimian  volcano- sedimentary  and  sedimentary  sequences  that  were  deposited  in  a  shallow  marine  continental shelf at a delta front setting. These sequences have been intruded by plutonic  rocks  that  include  granodiorite-tonalite,  pyroxenite-gabbro,  granite  (adamellite)  plutons  and dolerite dykes. The plutons and dyke systems have contact metamorphosed the rocks  of  the  region  to  hornblende-hornfels  facies,  but  primary  sedimentary  structures  are  preserved as compositional layers. All the lithologies in the area have been subjected to  several phases of local-regional deformation, with development of mylonite, schistosity,  and L-tectonite. Two phases of deformation are recognised related to the Markoye Shear Zone (MSZ) in  the  area. || F1 and F2 are crosscut by faults and quartz-chlorite shears associated with the  development of quartz-carbonate veins during reactivation of the Markoye fault. 5.2 D1  D1 is associated with the formation of NW-trending folds (F1) that are clearly evident in  the exploration trenches at Essakane Orpaillage (Fig. 11). An equal area projection of the  poles to bedding exposed in the trenches in the southern part of the Essakane Orpaillage  is  presented  in  Figure  12. The  mean  strike  and  dip  is  343°/27°E. Calculated  fold  axes  plunge  2°  towards  348°. || Figure  18. (a,  b,  c)  Quartz  iron-rich  cataclasite  veins  in  the  Markoye  fault. The  quartz  iron-rich  cataclasite  hosts  quartz-carbonate  veins. The  Orpailleurs  happened  to  be  panning gold from the weathered debris of the cataclasite. GPS, N 14 30 53 2 E 00 00 22  6. 37 || Figure  21. Equal  area  stereographic  projections  of  poles  to  schistosity. The  calculated  mean principal orientation is 025°/86°W. Schistosity represents the reactivation phase in  the Markoye fault. 40 || In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and  Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field  data was not presented. Unpublished structural studies completed for Goldfields Mining  Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an  east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral  strike-slip system. 2.9 Regional metallogeny  The West African Craton hosts many mineral deposits, for example, gold, diamond, iron,  and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several  deposits and deposit styles occur in the study area including; (1) The manganese deposit  at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane,  Gosséy, Koiréziéna, Falagountou (Fig. || It is medium to  coarse,  and  composed  of  millimetre-sized  crystals  of  potassium  feldspar,  quartz,  plagioclase, biotite and hornblende in a quartz-feldspar rich groundmass (Fig. 6, a, b and  c). Adjacent to the Markoye fault the granite is foliated and lineated. 4.7.2 Yacouba Mafic Complex (YMC)  The YMC is located NE of the Gosséy orpaillage (Fig. 2). It is composed of pyroxenite  and gabbro layers. || Structural  studies  indicate  that  the  NE-trending  Markoye  fault,  which  is  the  first-order  crustal-scale  structure,  have  undergone  at  least  two  phases  of  deformation,  D1  and  D2,  with reactivation during the late phase of D2. D1 resulted in formation of NW-trending  asymmetric folds and thrusts at Essakane, and the displacement along the Markoye fault  was dextral reverse. D2 is a period of SE-NW crustal shortening that formed NE-trending  folds,  and  NE-trending  regional  foliation. The  NE-trending  mylonite  to  ultramylonite  zone, pseudotachylyte veins, buck quartz-carbonate (± tourmaline) veins and quartz iron- rich catalasite vein, and late quartz-chlorite shears formed during D2. D1 is interpreted to pre-date the Eburnean Orogeny, and D2 is correlated to the Eburnean  Orogeny ~2.1 G.a. The name ‘Markoye Fault’ should be changed to Markoye Shear Zone  (MSZ) to reflect the complex nature of the structure and tectonic history. || The pseudotachylyte veins are interpreted  to have formed during high strain conditions, the resulting frictional heat melting the host  rock (Davis and Reynolds, 1996). Quartz iron-rich cataclasite veins (Fig. 18, a, b, c) outcrops west of the Yacouba Mafic  Complex  (YMC)  (Fig.2). The  cataclasite  veins  trends  067º  and  crosscut  the  YMC. The  cataclasite veins are interpreted to have formed during local dilation of the Markoye fault. Quartz-chlorite  shear  crosscut  the  cataclasite  and  the  YMC  as  well  indicating  that  the  quartz-chlorite shears are younger than the YMC and the cataclasite. || The quartz-chlorite shears are NE-trending. The schitosity measurements are represented  in  Figure  21. Schistosity  crosscuts  the  YMC  and  MMZ. The  anastomosing  cleavage  is  developed at the edge of YMC. 5.4 Relative chronology of structural events  - Formation of NW-trending folds (F1) and thrusts during SW-directed compression with  dextral reverse movement on the Markoye fault. -  Formation  of  NE-trending  folds  (F2)  during  SE-NW  compression  with  sinistral  (reverse) displacement on the Markoye fault with development of mylonite zone (MMZ)  and pseudotachylyte veins and quartz iron-rich cataclasite veins. || Structural  studies  indicate  that  the  NE-trending  Markoye  fault,  which  is  the  first-order  crustal-scale  structure,  have  undergone  at  least  two  phases  of  deformation,  D1  and  D2,  with reactivation during the late phase of D2. D1 resulted in formation of NW-trending  asymmetric folds and thrusts at Essakane, and the displacement along the Markoye fault  was dextral reverse. D2 is a period of SE-NW crustal shortening that formed NE-trending  folds,  and  NE-trending  regional  foliation. The  NE-trending  mylonite  to  ultramylonite  zone, pseudotachylyte veins, buck quartz-carbonate (± tourmaline) veins and quartz iron- rich catalasite vein, and late quartz-chlorite shears formed during D2. D1 is interpreted to pre-date the Eburnean Orogeny, and D2 is correlated to the Eburnean  Orogeny ~2.1 G.a. The name ‘Markoye Fault’ should be changed to Markoye Shear Zone  (MSZ) to reflect the complex nature of the structure and tectonic history.<br><b>Geocode:</b> Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 14,17,21,32,34,35,43,46,54,6,7,6<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c4b7c178f06560cc1a332825fafd70c2.setContent(html_416df9a26f653284a47505d5822f44af);
+            
+        
+
+        circle_marker_c8727cc9be9de6e92954cc9b474858ec.bindPopup(popup_c4b7c178f06560cc1a332825fafd70c2)
+        ;
+
+        
+    
+    
+            circle_marker_c8727cc9be9de6e92954cc9b474858ec.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f4f9844b71095fb70daf2536f68781cc = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_85e48a6abbbddf321b4acaf50c4b66d6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7925273643814e15e1b5f0a0e6f6fc27 = $(`<div id="html_7925273643814e15e1b5f0a0e6f6fc27" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (1996)  considered B2 to be younger than B1, however, Milési et al. (1991, 1992) and Feybesse  and  Milési  (1994)  considered  B1  to  be  younger  than  B2. In  contrast  Hein  et  al. (2004)  established  that  meta-volcanic  and  meta-pyroclastic  units  are  interbedded  with  meta- sedimentary rocks throughout the type locality in the Goren Greenstone Belt, and thus the  stratigraphy of the NE of Burkina Faso may need revision. 2.4 Intrusive complexes  During  the  polycyclic  Eburnean  Orogeny  numerous  calc-alkaline  plutons  intruded  the  Palaeoproterozoic sequences (Pawlig et al., 2006) including tonalite (TTG), granodiorite,  diorite  and  meta-diorite,  and  these  are  collectively  called  Eburnean  granitoids  (Pons  et  5 || (1996), but the stratigraphic order  was not defined. The three main units include: (1) a meta-pelite unit, (2) meta-sandstone  unit  and  (3)  a  meta-conglomerate  unit  containing  angular  clasts  of  quartzitic  and  micaceous lithic fragments of rhyolite, chert and schist. 2.7 Structure   Several regional tectono-metamorphic events are recognised in the NE of Burkina Faso. In  studies  conducted  by  Feybesse  et  al. (1990),  Lompo  et  al. (1991),  and  Hein  et  al. || 2.8 Markoye Fault  The first-order crustal-scale Markoye fault is located in the NE of Burkina Faso, west of  the  international  border  intersection  of  Burkina  Faso,  Mali  and  Niger  (Fig.1). The  fault  trends NE and is clearly visible in LANDSAT imagery (Fig. 2) and RTP magnetic data. According to Milési et al. (1989, 1992) and Castaing et al. (2003) the Markoye fault is  the  boundary  that  separates  Eburnean  granitoids  to  the  west  from  the  Tarkwa  Group  meta-sedimentary  units  in  the  east. || A granite suite which is localized along shear zones, intrudes both the  Birimian and the TTG suite and was emplaced between 2150 and 2130 Ma (Castaing et  al., 2003). Gabbro, meta-gabbro, diorite and trondhjemite intrusions are syn-tectonic with  emplacement of Birimian meta-volcanic sequences (Béziat et al., 2000; Hein et al., 2004)  and co-magmatic (Béziat et al., 2000). NE-trending dolerite dykes crosscut all Birimian,  Tarkwa and intrusive complexes in the NE of Burkina Faso and are dated at 250±13 Ma  (K-Ar whole rock dating) (Hottin and Ouedraogo, 1992). 2.5 Metamorphism  The Birimian sequences were metamorphosed during the Eburnean Orogeny with further  metamorphism  related  to  intrusion  of  granitoids. Metamorphic  grade  is  to  greenschist  facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996),  with  formation of chlorite and muscovite dominant mineral assemblages, and low to medium  grade amphibolite facies, with hornblende and andalusite dominant mineral assemblages  (Bossière  et  al.,  1996;  Béziat  et  al.,  2000;  Naba  et  al.,  2004)  particularly  in  the  contact  aureole  of  granitoids  (Pawlig  et  al.,  2006). The  Tarkwa  Group  is  metamorphosed  to  greenschist facies with development of chlorite and sericite (Milési et al., 1989, 1991). || The Baoule- Mossi domain is Palaeoproterozoic in age and consists of Birimian sequences that where  accreted  at  around  2100  Ma  during  the  Eburnean  Orogeny  (Milési  et  al.,  1991,  1992;  Boher  et  al.,  1992). The  syn-tectonic  emplacement  of  granitoids  during  accretion  occurred  at  around  2190-2108  Ma  during  the  Eburnean  orogeny  (Hirdes  and  Davis,  2002). The  Tarkwa  Group  which  unconformably  overlies  the  Birimian  sequences  is  regarded  by  some  as  the  erosional  product  of  the  Birimian  sequences  and  granitoids  (Hastings, 1982; Leube et al., 1990; Milési et al., 1992; Castaing et al., 2003). 2.2 Stratigraphy  The area of study is situated in the NE of Burkina Faso. The overall stratigraphy of the  eastern part of Burkina Faso is established by the Palaeoproterozoic basement. The NE- trending  Birimian  meta-sedimentary  and  meta-volcanic  sequences  (2238-2170  Ma)  unconformably  overlie  the  basement.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 10,11,12,13,14<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_85e48a6abbbddf321b4acaf50c4b66d6.setContent(html_7925273643814e15e1b5f0a0e6f6fc27);
+            
+        
+
+        circle_marker_f4f9844b71095fb70daf2536f68781cc.bindPopup(popup_85e48a6abbbddf321b4acaf50c4b66d6)
+        ;
+
+        
+    
+    
+            circle_marker_f4f9844b71095fb70daf2536f68781cc.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_355165ff0ce35d33db80aec7f1f63d82 = L.circleMarker(
+                [17.7356214, 9.3238432],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_ff8a021c95bfb0a5466f8e1256edcceb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_82bf0a3b225c889a7e9756cf4134f6de = $(`<div id="html_82bf0a3b225c889a7e9756cf4134f6de" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 1: Introduction  1.1 Preamble  The  NE-trending  Markoye  fault  in  Burkina  Faso  is  a  first-order  crustal  scale  structure  located in the north-eastern part of Burkina Faso, between the towns of Dori and Tambão  by the boarder with Mali and Niger (Fig. 1). The structure has been interpreted as a major  westerly-dipping  thrust  (Milési  et  al.,  1992;  Hottin  and  Ouedraogo,  1992). Delfour  and  Jeabrum (1970) in Rogers and Dong (2000) defined the structure as an east-verging thrust  and  BHP  geologists  interpreted  the  structure  as  part  of  a  regional  dextral  strike-slip  system. Castaing  et  al. (2003)  interpreted  the  same  structure  as  a  sinistral  fault  system,  and  Milési  et  al.<br><b>Geocode:</b> Niger<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ff8a021c95bfb0a5466f8e1256edcceb.setContent(html_82bf0a3b225c889a7e9756cf4134f6de);
+            
+        
+
+        circle_marker_355165ff0ce35d33db80aec7f1f63d82.bindPopup(popup_ff8a021c95bfb0a5466f8e1256edcceb)
+        ;
+
+        
+    
+    
+            circle_marker_355165ff0ce35d33db80aec7f1f63d82.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_13a6db3436c79ce3ed82eab96bb2889a = L.circleMarker(
+                [12.3681873, -1.5270944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_9ba2600531b5de14e54bc468f4831fc1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6140a04b648bd52494e493b3e0a48078 = $(`<div id="html_6140a04b648bd52494e493b3e0a48078" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The area of study is located ±250 km NE of the capital city, Ouagadougou, Burkina Faso  (Fig. 1). Burkina  Faso  is  a  landlocked  country  in  West  Africa. The  neighbouring  countries  include  Mali,  Niger,  Benin,  Togo,  Ghana  and  Côte  d\`Ivoire. The  official  language is French. Other languages, local languages include Mooré and Dioula. || All samples where transported to Orezone Resources main office  in  Ouagadougou,  and  then  transported  to  Johannesburg  by  Air  France  flight. Samples  were  catalogued  and  submitted  to  SGS  laboratories  in  Booysens  Johannesburg  to  make  polished  thin  sections  (PTS). Oriented  samples  were  referenced  to  magnetic  north,  and  marked with horizontal and vertical orientation lines. 11<br><b>Geocode:</b> Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 17,8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9ba2600531b5de14e54bc468f4831fc1.setContent(html_6140a04b648bd52494e493b3e0a48078);
+            
+        
+
+        circle_marker_13a6db3436c79ce3ed82eab96bb2889a.bindPopup(popup_9ba2600531b5de14e54bc468f4831fc1)
+        ;
+
+        
+    
+    
+            circle_marker_13a6db3436c79ce3ed82eab96bb2889a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b5517eebdaf7878ba104dc531921e026 = L.circleMarker(
+                [22.25, 9.8],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_6849b8fcbb5c57b149cb5e663d9713a6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a987ca3f046c9762e2cd992fc8a5dd2a = $(`<div id="html_a987ca3f046c9762e2cd992fc8a5dd2a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Islam is  the  dominate  religion  with  more  than  half  of  the  country’s  population  being  Muslim,  a  small group being Christian, with the remainder practicing indigenous African religions. The land surface is defined by alluvial plains, low hills, and sand dunes of the Sahara in  the north. The area of study is situated in the margin of the Sahara desert or Sahel region. In  this  region  more  than  60%  of  the  land  surface  is  covered  by  sand. The  dominate  vegetation is short-tall grass, with less than 10% cover due to trees. The  climate  is  variable  between  two  seasons,  the  wet  (rainy)  and  dry  season.<br><b>Geocode:</b> Sahara, Tazrouk, Tazrouk District, Tamanrasset, Algeria<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6849b8fcbb5c57b149cb5e663d9713a6.setContent(html_a987ca3f046c9762e2cd992fc8a5dd2a);
+            
+        
+
+        circle_marker_b5517eebdaf7878ba104dc531921e026.bindPopup(popup_6849b8fcbb5c57b149cb5e663d9713a6)
+        ;
+
+        
+    
+    
+            circle_marker_b5517eebdaf7878ba104dc531921e026.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7869fa96d70431501b0b6fe9b4619efb = L.circleMarker(
+                [14.5624473, -0.0719496],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_829459f27ffb08811ccaa0151e6241bd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a02e8b785881318f8f1a9d9210551d19 = $(`<div id="html_a02e8b785881318f8f1a9d9210551d19" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Figure  2. Schematic  interpretation  of  LANDSAT  image,  modified  after  Hein  and  Tshibubudze, 2007 showing locations of villages, orpaillage (             ) and traverse lines  (     ). The villages are: Salmossi (S), Essakane (E), Tin Agadel (TA), Tin Taradat (TT),  Markoye (M), and Gorom-Gorom (GG). The (YMC) Yacouba Mafic Complex      . 10<br><b>Geocode:</b> Salmossi, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 16<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_829459f27ffb08811ccaa0151e6241bd.setContent(html_a02e8b785881318f8f1a9d9210551d19);
+            
+        
+
+        circle_marker_7869fa96d70431501b0b6fe9b4619efb.bindPopup(popup_829459f27ffb08811ccaa0151e6241bd)
+        ;
+
+        
+    
+    
+            circle_marker_7869fa96d70431501b0b6fe9b4619efb.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e60b64b3d8b29ffd056bca8f3453715e = L.circleMarker(
+                [14.7788614, 0.0384507],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_7e972c99f70335f24a45f69feab7d04e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f1b36dbcdb43f0ea0a58c597e48ba48f = $(`<div id="html_f1b36dbcdb43f0ea0a58c597e48ba48f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2003),  and  (3)  pegmatites  veins  bearing  tourmaline  plagioclase  and  topaz  crystals  near  Tambăo. Several deposits are associated with the sulphidised brittle-ductile shear zones,  including gold in sheeted and stockwork quartz veins, copper as malachite in buck quartz  veins,  and  tourmaline  and  topaz  in  pegmatite  and  buck  quartz  veins  (Foster  and  Piper,  1993; Lompo, 2001; Castaing et al., 2003). Foster and Piper (1993) have restricted gold  mineralization of the West African Craton to the Eburnean tectonothermal event, but this  does  not  include  gold  hosted  by  the  Tarkwa  Group  meta-sedimentary  units  in  Ghana  (Milési  et  al.,  1991;  Feybesse  et  al.,  2006)  which  formed  after  the  Eburnean  event. Bossière  et  al. (1996)  concluded  that  the  Tarkwa  Group  meta-sedimentary  units  in  the  study area have no economic value. 9 || Chapter 3: Methodology  3.1 Data collection  In  January  2007  a  detailed  structural  mapping  project  was  conducted  in  the  study  area  over  a  period  of  20  days,  including  days  allocated  to  logistics  and  camp  management. Geology  and  topographic  maps,  and  airborne  magnetic  data  were  used  to  delineate  the  Markoye  fault. Geographic  and  geologic  reconnaissance  studies  of  the  region  were  conducted  before  the  actual  field  work  commenced. Several  east-west  traverses  were  conducted  across  the  Markoye  fault  between  Essakane  and  Tambăo  (Fig.1  and  2). For  each station point mapped, lithological and structural data was recorded, a photographic  record was made, GPS position was established using UTM grid co-ordinates (WGS 84),  and if appropriate, samples were collected for petrographic studies. The  data  was  captured  using  a  northern  hemisphere  compass  clinometer,  and  the  geographic  coordinates  were  recorded  using  Garmin  Geographic  Positioning  System  (GPS) instrument. || In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and  Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field  data was not presented. Unpublished structural studies completed for Goldfields Mining  Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an  east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral  strike-slip system. 2.9 Regional metallogeny  The West African Craton hosts many mineral deposits, for example, gold, diamond, iron,  and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several  deposits and deposit styles occur in the study area including; (1) The manganese deposit  at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane,  Gosséy, Koiréziéna, Falagountou (Fig. || is  crosscut  by  a  week  anastomosing  cleavage  that  is  non  penetrative. The  cleavage  crosscuts post-dates the emplacement of pyroxenite intrusion. NW-trending  pyroxenite  dykes  are  composed  entirely  of  pyroxene  crystals  and  hornblende. The  wall  rocks  to  these  dykes  are  contact  metamorphosed  to  hornblende- hornfels facies. 4.7.3 Granodiorite-Tonalite  A granodiorite-tonalite intrusion outcrops over greater than 50% of the study area west of  the Markoye fault between Gosséy and Tambão (Fig. 1).<br><b>Geocode:</b> Tambao, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 14,15,17,22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7e972c99f70335f24a45f69feab7d04e.setContent(html_f1b36dbcdb43f0ea0a58c597e48ba48f);
+            
+        
+
+        circle_marker_e60b64b3d8b29ffd056bca8f3453715e.bindPopup(popup_7e972c99f70335f24a45f69feab7d04e)
+        ;
+
+        
+    
+    
+            circle_marker_e60b64b3d8b29ffd056bca8f3453715e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_554796500fd92b1590fddd405e86019b = L.circleMarker(
+                [14.7788614, 0.0384507],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_4b115e6b5f11fca4b483b5da57fd0baf = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d5723ab702d960a3feff3675569a1df8 = $(`<div id="html_d5723ab702d960a3feff3675569a1df8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2003),  and  (3)  pegmatites  veins  bearing  tourmaline  plagioclase  and  topaz  crystals  near  Tambăo. Several deposits are associated with the sulphidised brittle-ductile shear zones,  including gold in sheeted and stockwork quartz veins, copper as malachite in buck quartz  veins,  and  tourmaline  and  topaz  in  pegmatite  and  buck  quartz  veins  (Foster  and  Piper,  1993; Lompo, 2001; Castaing et al., 2003). Foster and Piper (1993) have restricted gold  mineralization of the West African Craton to the Eburnean tectonothermal event, but this  does  not  include  gold  hosted  by  the  Tarkwa  Group  meta-sedimentary  units  in  Ghana  (Milési  et  al.,  1991;  Feybesse  et  al.,  2006)  which  formed  after  the  Eburnean  event. Bossière  et  al. (1996)  concluded  that  the  Tarkwa  Group  meta-sedimentary  units  in  the  study area have no economic value. 9<br><b>Geocode:</b> Tambao, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 15<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4b115e6b5f11fca4b483b5da57fd0baf.setContent(html_d5723ab702d960a3feff3675569a1df8);
+            
+        
+
+        circle_marker_554796500fd92b1590fddd405e86019b.bindPopup(popup_4b115e6b5f11fca4b483b5da57fd0baf)
+        ;
+
+        
+    
+    
+            circle_marker_554796500fd92b1590fddd405e86019b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_421cee0c62c226034eae91b7d4727a70 = L.circleMarker(
+                [21.9170588, -6.3578906],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_ca06d03ed38ae838d4ab906265887c58 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fba61331b5060fe843f355ac177d0466 = $(`<div id="html_fba61331b5060fe843f355ac177d0466" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Regional Geology  2.1 Preamble  The  West  African  Craton  is  composed  of an Archaean and Palaeoproterozoic basement  that  is  divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south  (Thiéblemont et al., 2004). These two are separated by the Taoudeni basin, which is of  upper  Proterozoic  to  Devonian  age  (Fig. 1). The  Leo-Man  Rise  is  composed  of  two  domains, the Kénéma-Man domain in the south west and the Baoule-Mossi domain in the  east (Feybesse et al., 2006). The area of study is situated within the Leo-Man Rise in the  Palaeoproterozoic  Baoule-Mossi  domain. The  Kénéma-Man  domain  is  Archaean  in  age  and dated at 3542-3535 Ma (U-Pb zircon, Thiéblemont et al., 2001, 2004).<br><b>Geocode:</b> Taoudeni Basin, Hodh Ech Chargui, Mauritania<br><b>Pages:</b> 10<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ca06d03ed38ae838d4ab906265887c58.setContent(html_fba61331b5060fe843f355ac177d0466);
+            
+        
+
+        circle_marker_421cee0c62c226034eae91b7d4727a70.bindPopup(popup_ca06d03ed38ae838d4ab906265887c58)
+        ;
+
+        
+    
+    
+            circle_marker_421cee0c62c226034eae91b7d4727a70.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8e75504dbd6992ebd2f260a4cc47c50 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_48ed8ddc36a72a9744bbebb7a85e17e7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0d97ca594dfdf43be4cb04111295d7be = $(`<div id="html_0d97ca594dfdf43be4cb04111295d7be" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Bossière  et  al. (1996)  established  that  the  metamorphosed  sequences  of  the  Tarkwa  Group of Burkina Faso (in the study area) were different from those defined in Ghana, in  that they contain euhedral zircons that suggest a short transportation distance. In the study  area  the  Tarkwa  Group  meta-sedimentary  rocks  are  deformed. Their  deformation  has  been attributed to the formation of sinistral shears and low grade metamorphism that is  characterised by formation of muscovite (Bossière et al., 1996; Naba et al., 2004), which  is  similar  to  what  has  been  defined  in  Ghana  by  Milési  et  al. (1989,  1991). They  were  divided into 3 main lithological units by Bossière et al.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 13<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_48ed8ddc36a72a9744bbebb7a85e17e7.setContent(html_0d97ca594dfdf43be4cb04111295d7be);
+            
+        
+
+        circle_marker_a8e75504dbd6992ebd2f260a4cc47c50.bindPopup(popup_48ed8ddc36a72a9744bbebb7a85e17e7)
+        ;
+
+        
+    
+    
+            circle_marker_a8e75504dbd6992ebd2f260a4cc47c50.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d59f5002302e91892bbe1ed954f29151 = L.circleMarker(
+                [5.3183943, -2.0135788],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_51935ec9bc9ba87c6434a274d649218d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e98aa0fb9a6072815cd9c8a8c31a69cd = $(`<div id="html_e98aa0fb9a6072815cd9c8a8c31a69cd" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Tarkwa Group unconformably overlies the Birimian sequence (Leube et al., 1990; Milési  et al., 1992; Castaing et al., 2003) and was deformed and metamorphosed to greenschist  facies during the Eburnean Orogeny (Milési et al., 1989, 1991). The Tarkwa Group has been divided into three units: the Banket series, phyllite unit and  the meta-sandstone unit. The Banket series is further divided into the Banket quartz lithic  meta-sandstone unit and the Banket meta-conglomerate unit (Tunks et al., 2004). Kwesie  (1984) and Kesse (1985) in Milési et al., (1991) described the meta-conglomerate unit at   Tarkwa  in  Ghana  as  monomictic,  consisting  of  over  90%  rounded  vein  quartz  pebbles  and approximately 10 % schist and quartzite pebbles. The matrix is mainly composed of  silica and black sands that are rich in heavy minerals including magnetite, ilmenite, rutile  and  tourmaline  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996). The  Tarkwa  Group  meta-conglomerate unit hosts and has been the source for economic gold at the Tarkwa  mine, Ghana (Milési et al., 1991).<br><b>Geocode:</b> Tarkwa Mine, Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana<br><b>Pages:</b> 13<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_51935ec9bc9ba87c6434a274d649218d.setContent(html_e98aa0fb9a6072815cd9c8a8c31a69cd);
+            
+        
+
+        circle_marker_d59f5002302e91892bbe1ed954f29151.bindPopup(popup_51935ec9bc9ba87c6434a274d649218d)
+        ;
+
+        
+    
+    
+            circle_marker_d59f5002302e91892bbe1ed954f29151.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_91f6a51ceabe6c6cf4c7767da981ce65 = L.circleMarker(
+                [8.0300284, -1.0800271],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_68436511160beed840190e98ecaeae8a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ca2188cc4b10a2d9ef198d7ec560ff8b = $(`<div id="html_ca2188cc4b10a2d9ef198d7ec560ff8b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> sandstone also suggest shallow marine environment of deposition with high sea salinity  (Altermann, 2002; Eriksson et al., 2005). 6.2 Tarkwa Group  The conglomerate units classified as Tarkwa Group consists of greater than 90% rounded  vein quartz pebbles, and 10% schist and quartzite pebbles in black sand matrix (Milési et  al.,  1989,  1991;  Bossière  et  al.,  1996). However  the  meta-conglomerate  defined  in  the  study area consists of sub-angular to sub-rounded clasts and boulders of basalt, andesite,  granodiorite,  granite,  volcanoclastic  meta-sediments,  chert,  and  lithic  fragments  in  greenish-grey greywacke-lithic matrix. The meta-conglomerate is therefore by no means  similar  to  the  meta-conglomerate  described  for  the  Tarkwa  type  section  in  Ghana. The  meta-sedimentary  rocks  classified  as  Tarkwa  Group  by  Castaing  et  al. (2003)  are  reclassified as Birimian flysch type sediments, as described by Milési et al.<br><b>Geocode:</b> Ghana<br><b>Pages:</b> 48<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_68436511160beed840190e98ecaeae8a.setContent(html_ca2188cc4b10a2d9ef198d7ec560ff8b);
+            
+        
+
+        circle_marker_91f6a51ceabe6c6cf4c7767da981ce65.bindPopup(popup_68436511160beed840190e98ecaeae8a)
+        ;
+
+        
+    
+    
+            circle_marker_91f6a51ceabe6c6cf4c7767da981ce65.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_62e6b33c99c438d97d0bd51bc92a2042 = L.circleMarker(
+                [14.6562836, 0.1646254],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_b9326751ed39af1f0671778f788b66af = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_104dea61295adf531b54cc69d0066b79 = $(`<div id="html_104dea61295adf531b54cc69d0066b79" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Figure 19. Buck-quartz carbonate veins located NE of Tin Taradat Village. The egg box  appearance  is  associated  with  formation  of  boudins  which  plunge  steeply. Slickensides  are steeply plunging. GPS, N 14 30 47 6 E 00 00 17 7. 38<br><b>Geocode:</b> Ti-n-Taradat, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 44<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b9326751ed39af1f0671778f788b66af.setContent(html_104dea61295adf531b54cc69d0066b79);
+            
+        
+
+        circle_marker_62e6b33c99c438d97d0bd51bc92a2042.bindPopup(popup_b9326751ed39af1f0671778f788b66af)
+        ;
+
+        
+    
+    
+            circle_marker_62e6b33c99c438d97d0bd51bc92a2042.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2840c679150b207ec8c80827a942220d = L.circleMarker(
+                [18.7668687, -72.4387315],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_9db6a3b15e1060930f92281fc0af0b77 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4bbe91ec4d62f2326694deada311167a = $(`<div id="html_4bbe91ec4d62f2326694deada311167a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> al., 1995; Naba et al., 2004; Pawlig et al., 2006). The tecto-magmatic event related to the  intrusion of the granitoids is dated at 2200 Ma – 2070 Ma (U-Pb dating) (Liégois et al.,  1991). The  granitoids  cover  50-70%  of  the  Palaeoproterozoic  basement  of  West  Africa  (Milési et al., 1989; Naba et al., 2004). Two emplacement events have been established  (Castaing  et  al.,  2003;  Naba  et  al.,  2004). A  TTG  Suite  which  is  composed  of  granodiorite,  tonalite  and  quartz-diorite  was  emplaced  between  2210  and  2160  Ma  (Castaing  et  al.,  2003). The  tonalite  suite  intrudes  and  contact  metamorphoses  the  Birimian  sequences,  and  is  banded  (layered)  and  foliated  in  places  (Hein  et  al.,  2004;  Naba et al., 2004).<br><b>Geocode:</b> West, Haiti<br><b>Pages:</b> 12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9db6a3b15e1060930f92281fc0af0b77.setContent(html_4bbe91ec4d62f2326694deada311167a);
+            
+        
+
+        circle_marker_2840c679150b207ec8c80827a942220d.bindPopup(popup_9db6a3b15e1060930f92281fc0af0b77)
+        ;
+
+        
+    
+    
+            circle_marker_2840c679150b207ec8c80827a942220d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_298accf87daad8aacbefcf789fbeff4a = L.circleMarker(
+                [47.3138746, 5.0488196],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_26220a2fdfba6b0820cb454e167af5ee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bce179a302e8fbcfac3e73e747cd4d9d = $(`<div id="html_bce179a302e8fbcfac3e73e747cd4d9d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The area of study is located ±250 km NE of the capital city, Ouagadougou, Burkina Faso  (Fig. 1). Burkina  Faso  is  a  landlocked  country  in  West  Africa. The  neighbouring  countries  include  Mali,  Niger,  Benin,  Togo,  Ghana  and  Côte  d\`Ivoire. The  official  language is French. Other languages, local languages include Mooré and Dioula.<br><b>Geocode:</b> West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_26220a2fdfba6b0820cb454e167af5ee.setContent(html_bce179a302e8fbcfac3e73e747cd4d9d);
+            
+        
+
+        circle_marker_298accf87daad8aacbefcf789fbeff4a.bindPopup(popup_26220a2fdfba6b0820cb454e167af5ee)
+        ;
+
+        
+    
+    
+            circle_marker_298accf87daad8aacbefcf789fbeff4a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0a0aeb0695c87c0697ea174c25bcf51 = L.circleMarker(
+                [17.7356214, 9.3238432],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_d6677a8164384ddbb5c922b09f4d0dec = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_10291576b98d4b2cf2dd7241089fd91e = $(`<div id="html_10291576b98d4b2cf2dd7241089fd91e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and  Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field  data was not presented. Unpublished structural studies completed for Goldfields Mining  Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an  east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral  strike-slip system. 2.9 Regional metallogeny  The West African Craton hosts many mineral deposits, for example, gold, diamond, iron,  and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several  deposits and deposit styles occur in the study area including; (1) The manganese deposit  at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane,  Gosséy, Koiréziéna, Falagountou (Fig.<br><b>Geocode:</b> Niger<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d6677a8164384ddbb5c922b09f4d0dec.setContent(html_10291576b98d4b2cf2dd7241089fd91e);
+            
+        
+
+        circle_marker_a0a0aeb0695c87c0697ea174c25bcf51.bindPopup(popup_d6677a8164384ddbb5c922b09f4d0dec)
+        ;
+
+        
+    
+    
+            circle_marker_a0a0aeb0695c87c0697ea174c25bcf51.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df6beeab2f0789c72edff5254786f112 = L.circleMarker(
+                [14.5624473, -0.0719496],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_d60f13ea0a3e3b47f667c0f2f65d1651 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cca585326987dd589666f18e41b678bb = $(`<div id="html_cca585326987dd589666f18e41b678bb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> They are crosscut by the MMZ. The Mukosi Mylonite Zone (MMZ) crops out east of Salmossi village (Fig. 2). The MMZ  is  NE-trending. This  zone  is  defined  by  mylonitised  to  ultra-mylonitised  meta- sedimentary rocks and granitoids. The MMZ is a planar, banded, corridor of fine grained  rock  with  a  well  developed  mylonitic  fabric,  and  numerous  σ  and  δ  clasts  and  rotated  porphyroclasts.<br><b>Geocode:</b> Salmossi, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 33<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d60f13ea0a3e3b47f667c0f2f65d1651.setContent(html_cca585326987dd589666f18e41b678bb);
+            
+        
+
+        circle_marker_df6beeab2f0789c72edff5254786f112.bindPopup(popup_d60f13ea0a3e3b47f667c0f2f65d1651)
+        ;
+
+        
+    
+    
+            circle_marker_df6beeab2f0789c72edff5254786f112.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1423fd04aa801bcd25296a44e1076cc = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_6b6ee62df8640972926bd4416dd0b26e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c19d10c8dbd7487d9b6537e91ee489d2 = $(`<div id="html_c19d10c8dbd7487d9b6537e91ee489d2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The Baoule- Mossi domain is Palaeoproterozoic in age and consists of Birimian sequences that where  accreted  at  around  2100  Ma  during  the  Eburnean  Orogeny  (Milési  et  al.,  1991,  1992;  Boher  et  al.,  1992). The  syn-tectonic  emplacement  of  granitoids  during  accretion  occurred  at  around  2190-2108  Ma  during  the  Eburnean  orogeny  (Hirdes  and  Davis,  2002). The  Tarkwa  Group  which  unconformably  overlies  the  Birimian  sequences  is  regarded  by  some  as  the  erosional  product  of  the  Birimian  sequences  and  granitoids  (Hastings, 1982; Leube et al., 1990; Milési et al., 1992; Castaing et al., 2003). 2.2 Stratigraphy  The area of study is situated in the NE of Burkina Faso. The overall stratigraphy of the  eastern part of Burkina Faso is established by the Palaeoproterozoic basement. The NE- trending  Birimian  meta-sedimentary  and  meta-volcanic  sequences  (2238-2170  Ma)  unconformably  overlie  the  basement.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 10<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6b6ee62df8640972926bd4416dd0b26e.setContent(html_c19d10c8dbd7487d9b6537e91ee489d2);
+            
+        
+
+        circle_marker_e1423fd04aa801bcd25296a44e1076cc.bindPopup(popup_6b6ee62df8640972926bd4416dd0b26e)
+        ;
+
+        
+    
+    
+            circle_marker_e1423fd04aa801bcd25296a44e1076cc.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0251c57970258488d250f02930ee19fb = L.circleMarker(
+                [14.4855754, -0.0384118],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_f4100d83010da279afcc6f0763126dc5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c163aeffb7ec641c528506aaaf2d3b80 = $(`<div id="html_c163aeffb7ec641c528506aaaf2d3b80" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Pseudotachylyte  veins  in  the  area  are  represented  by  very  fine  grained  glassy  textured,  dark-grey  to  black  glass  that  fill  fractures  and  meso-faults  in  the  host  rocks. They  are  several centimetres thick (Fig. 17, a, b). They outcrop in the region between Tin Agadel  and  Salmossi  village  (Fig. 2)  and  they  crosscut  the  adamellite  and  the  granodiorite- tonalite intrusion (Fig.17, a, b) north-east of Tin Agadel. The pseudotachylyte veins are  NNE-trending and steeply dipping to the east.<br><b>Geocode:</b> Tin-Agadel, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 34<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f4100d83010da279afcc6f0763126dc5.setContent(html_c163aeffb7ec641c528506aaaf2d3b80);
+            
+        
+
+        circle_marker_0251c57970258488d250f02930ee19fb.bindPopup(popup_f4100d83010da279afcc6f0763126dc5)
+        ;
+
+        
+    
+    
+            circle_marker_0251c57970258488d250f02930ee19fb.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cf19ad65c2b704d5d039ef39a5a03d49 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_b0ac86b5a666999f4d621749704aada7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cfd7c1cd30b0ce6f227859b1eeb1fdc3 = $(`<div id="html_cfd7c1cd30b0ce6f227859b1eeb1fdc3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Abstract  The  regional  lithological  and  structural  mapping  completed  in  the  north-eastern  part  of  Burkina Faso indicates that the Essakane goldfield of the West African Craton is hosted  by  meta-volcanoclastic  and  meta-sedimentary  rocks  of  the  Birimian  sequences. The  sequences  are  dominated  by  meta-volcanoclastic  greywackes,  intercalated  meta- conglomerate,  meta-sandstone-greywacke,  siltstone  and  shale. The  sequences  have  primary sedimentary structures preserved as compositional layering. The  depositional  environment  of  the  sequences  is  interpreted  to  have  occurred  in  a  shallow  marine  continental  shelf  environment  at  a  delta  front  setting. The  sequences  where  subjected  to  several  phases  of  deformation  and  metamorphism. They  have  been  contact metamorphosed to hornblende hornfels facies during emplacement of adamellite,  pyroxenite-gabbro, granodiorite-tonalite plutons, and dolerite dykes. || Chapter 1: Introduction  1.1 Preamble  The  NE-trending  Markoye  fault  in  Burkina  Faso  is  a  first-order  crustal  scale  structure  located in the north-eastern part of Burkina Faso, between the towns of Dori and Tambão  by the boarder with Mali and Niger (Fig. 1). The structure has been interpreted as a major  westerly-dipping  thrust  (Milési  et  al.,  1992;  Hottin  and  Ouedraogo,  1992). Delfour  and  Jeabrum (1970) in Rogers and Dong (2000) defined the structure as an east-verging thrust  and  BHP  geologists  interpreted  the  structure  as  part  of  a  regional  dextral  strike-slip  system. Castaing  et  al. (2003)  interpreted  the  same  structure  as  a  sinistral  fault  system,  and  Milési  et  al.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 6,7<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b0ac86b5a666999f4d621749704aada7.setContent(html_cfd7c1cd30b0ce6f227859b1eeb1fdc3);
+            
+        
+
+        circle_marker_cf19ad65c2b704d5d039ef39a5a03d49.bindPopup(popup_b0ac86b5a666999f4d621749704aada7)
+        ;
+
+        
+    
+    
+            circle_marker_cf19ad65c2b704d5d039ef39a5a03d49.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6bb1d44b8632858f4963cb1afd01ee1e = L.circleMarker(
+                [41.3100398, 19.4477744],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_47d2d33c9f143c7244030c4effb9c5fa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_39de172f523d9a1b4291ab30358dc1bb = $(`<div id="html_39de172f523d9a1b4291ab30358dc1bb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> concluded  that  in-situ  laterite  in  Burkina  Faso  formed  during  the  upper  Cretaceous  to  Eocene. The laterite is randomly distributed in the northern part of the study area. 4.6 Alluvial profile  The alluvial profile in the area of study is dominated by light coloured, fine to medium  sand  with  fragments  of  siltstone  and  quartz-vein  material. The  alluvial  profile  covers  most of the landscape in Burkina Faso. 4.7 Intrusions  4.7.1 Biotite Granite/ Adamellite   A biotite granite/adamellite crops out west of the Markoye fault (Fig. 2).<br><b>Geocode:</b> Part of the Wall from Durrës Castle, SH51, Durrës, Bashkia Durrës, Durrës County, Northern Albania, 2001, Albania<br><b>Pages:</b> 21<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_47d2d33c9f143c7244030c4effb9c5fa.setContent(html_39de172f523d9a1b4291ab30358dc1bb);
+            
+        
+
+        circle_marker_6bb1d44b8632858f4963cb1afd01ee1e.bindPopup(popup_47d2d33c9f143c7244030c4effb9c5fa)
+        ;
+
+        
+    
+    
+            circle_marker_6bb1d44b8632858f4963cb1afd01ee1e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ab122c6e575759f5edd4179dc7ffa6a1 = L.circleMarker(
+                [14.4504489, 0.1470469],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_5ba17d33408291084c1af1485f172084 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cb6933bfc670bb98bcf8d54b87ce5834 = $(`<div id="html_cb6933bfc670bb98bcf8d54b87ce5834" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Stromatolites  Figure 3. Stromatolites in a sandstone outcrop south of Gosséy. Compass clinometer for  scale. GPS, N 14 26 22 3 W 00 00 16 3. 17<br><b>Geocode:</b> Gossey, Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 23<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5ba17d33408291084c1af1485f172084.setContent(html_cb6933bfc670bb98bcf8d54b87ce5834);
+            
+        
+
+        circle_marker_ab122c6e575759f5edd4179dc7ffa6a1.bindPopup(popup_5ba17d33408291084c1af1485f172084)
+        ;
+
+        
+    
+    
+            circle_marker_ab122c6e575759f5edd4179dc7ffa6a1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d05ac65f77edfc26cd6a93ec65a5ea23 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_0733b21bf4bbe7b6730c3ef8bf677306);
+        
+    
+        var popup_bd7992c5e45b6b8c58f27432c395c744 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_da59e8cfd23e3a0267375b21a7feda4a = $(`<div id="html_da59e8cfd23e3a0267375b21a7feda4a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> sequence west of Essakane. GPS, 0184836- 1587581 (c) Preserved primary sedimentary  structure, ripple marks above the red arrow head and sour and fill texture. GPS, N 14 38  03 3 E 00 03 32 8. The arrows indicates the facing direction (d) Photomicrograph (plane  polarised light, X4 magnification), of meta-volcanoclastic greywacke (sample 005). The  greywacke  is  poorly  sorted  and  contains  rock  fragments,  anhedral  quartz,  plagioclase  grains, and isotropic minerals in a fine to medium grained quartz-feldspar-chlorite matrix. 19<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 25<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_bd7992c5e45b6b8c58f27432c395c744.setContent(html_da59e8cfd23e3a0267375b21a7feda4a);
+            
+        
+
+        circle_marker_d05ac65f77edfc26cd6a93ec65a5ea23.bindPopup(popup_bd7992c5e45b6b8c58f27432c395c744)
+        ;
+
+        
+    
+    
+            circle_marker_d05ac65f77edfc26cd6a93ec65a5ea23.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

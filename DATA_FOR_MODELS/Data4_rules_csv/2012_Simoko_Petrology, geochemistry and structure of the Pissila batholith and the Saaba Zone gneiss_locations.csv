@@ -1,0 +1,250 @@
+filename,page,mention,location,label,source
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",4,"Abstract  
+The  Pissila  batholith  is  a  foliated  coarse-grained  granodiorite,  which  is  located  in  north 
+eastern Burkina Faso. The batholith was emplaced at 2143 ±12 Ma and 2117 ±17Ma, coeval 
+with  the  Eburnean  orogeny. The  Eburnean  orogeny  represents  a  period  of  major  crustal 
+growth in an island arc setting. The batholith is geochemically similar to other calc-alkaline 
+granitoids in the domain. The Saaba zone gneiss, which is locally migmatitic is located within 
+the  Pissila  batholith. Geochemically,  the  gneiss  and  migmatites  have  some  Archean  TTG 
+affiliations.",Saaba,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",4,"Granitoids  that  are  associated  with  gneisses  and  migmatites  were  previously 
+described in north eastern Burkina Faso, Côte d’lvoire and Senegal. These studies concluded 
+that the granitoids intruded into the pre-existing gneissic terrane. This study suggests that the 
+Saaba  zone  and  Pissila  batholith  are  geochemically  and  petrological  different  from  each 
+other. The Saaba zone gneiss does not  represent  a deformed region  of the Pissila batholith. Based on similarities of the study area to other granitoid-gneissic terrane, the Saaba zone may 
+predate the Pissila batholith. It is also proposed that the gneiss preserve an older deformation 
+event  D1,  which  lead  to  amphibolite  facies  metamorphism.",Senegal,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",5,"1. Introduction 
+The Bauolé-Mossi domain consists of predominately Palaeoproterozoic calc-alkaline and 
+alkaline granitoid intrusions. Theses rocks were emplaced between ca 2.1 to 1.8 Ga (Vega et 
+al.,  2008). The  presence  of  terranes  that  predates  and  may  act  as  basement  rocks  to  the 
+Birimian granitoids has been the subject of debate. Basement rocks are typically gneissic to 
+migmatitic,  thus  the  granitoid-gneissic  terranes  in  the  West  African  Craton  became  the 
+subject of a number of studies (Eisenhohr and Hirdes, 1992, Pons et al., 1995, Hirdes et al., 
+1996,  Gasquet  et  al.,  2003). Lemoine,  1988  in  Gasquet  et  al.,  2003  introduced  the  term 
+Burkinian,  which  corresponds  to  reworking  of  Archean  rocks  and  formed  the  gneissic 
+terrance  in  Côte  d’lvoire.",Bauolé-Mossi,FAC,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",5,"1. Introduction 
+The Bauolé-Mossi domain consists of predominately Palaeoproterozoic calc-alkaline and 
+alkaline granitoid intrusions. Theses rocks were emplaced between ca 2.1 to 1.8 Ga (Vega et 
+al.,  2008). The  presence  of  terranes  that  predates  and  may  act  as  basement  rocks  to  the 
+Birimian granitoids has been the subject of debate. Basement rocks are typically gneissic to 
+migmatitic,  thus  the  granitoid-gneissic  terranes  in  the  West  African  Craton  became  the 
+subject of a number of studies (Eisenhohr and Hirdes, 1992, Pons et al., 1995, Hirdes et al., 
+1996,  Gasquet  et  al.,  2003). Lemoine,  1988  in  Gasquet  et  al.,  2003  introduced  the  term 
+Burkinian,  which  corresponds  to  reworking  of  Archean  rocks  and  formed  the  gneissic 
+terrance  in  Côte  d’lvoire.",Burkinian,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",6,"2. Regional Geology 
+The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo-
+Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the 
+Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain 
+and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north 
+and the Leo-Man in the south (Béziat et al., 2008).",Cahen,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",6,"2. Regional Geology 
+The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo-
+Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the 
+Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain 
+and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north 
+and the Leo-Man in the south (Béziat et al., 2008).",Leo-Man,FAC,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",6,"2.1. Archean domain 
+The Archean domain is divided into three units - 
+I. The basement rocks are grey-banded migmatitic orthogneiss, which formed ca. 3.5 to 
+3.4  Ga  (Potrel  et  al.,  1998). The  gneisses  are  trondhjemitic  in  composition 
+(Kouamelan et al., 1997). They were subsequently metamorphosed to granulite facies 
+(Potrel et al., 1998; Thieblemont et al., 2004).",Thieblemont,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",7,"The Kénéma-Man domain  was deformed and  metamorphosed during two major tectonic 
+events. The Leonean cycle, ca 3.0 Ga is associated with north-south trending structures and 
+metamorphism of basement rocks to granulite- facies (Cahen et al., 1984; Thieblemont et al., 
+2004). The  Liberian  event,  ca  2.7  Ga  resulted  in  N-S  to  NNE-SSW  trending  structures 
+(Thieblemont  et  al.,  2004). The  Liberian  event  culminated  with  TTG  batholith  intrusions 
+(Skinner et al., 2004). 2.2. Palaeoproterozoic Baoulé-Mossi domain 
+The  Birimian  was  first  described  by  Kitsh  from  outcrops  in  the  Birim  River  Valley  in 
+southern  Ghana  (Pohl,  1998).",Ghana,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",7,"The  lithostratigraphic  sequence  became  the  subject  of 
+controversy,  where  two  schools  of  thought  emerged;  the  Anglophone  and  Francophone. Junner (from the Anglophone school) sub-divided the Birimian into the Lower and the Upper 
+Birimian (Hirdes et al., 1996). I. The Lower Birimian is predominately composed of metasedimentary rocks, including 
+argillites, shale and conglomerates (Roddaz et al., 2007). The metasedimentary rocks 
+are  intercalated  with  dacite  and  rhyolite  metavolcanic  rocks  (Tshibubudze  et  al., 
+2009). II.",Lower,LOC,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",7,"Shales, quartzite and meta-conglomerates of the Banket Group. III. Overlying the Banket Group are shales and phyllites of the Tarkwa formation (Cahen 
+et al., 1984; Tshibubudze et al., 2009). The above Anglophone Birimian sequence was inverted by the Francophone school. The 
+predominately  volcanic  units  were  interpreted  as  being  younger  than  the  metasedimentary 
+units (Milési et al., 1992).However, during a study of the Goren-greenstone belt in Burkina 
+7",Burkina,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",8,"The granitoids intruded into meta-volcanic and meta-sedimentary rocks during the Eburnean 
+orogeny  (Egal  et  al.,  2002). The  Eburnean  orogeny  marks  a  major  period  of  crustal 
+thickening 2.1 to 2.0 Ga (Pons et al., 1995). The  granitoids  are  calc-alkaline  and  locally  alkaline  in  composition  with  minor  crustal 
+component  (Gasquet  et  al.,  2003). The  granitoids  are  divided  into  three  groups,  unfoliated 
+hornblende-bearing,  foliated  biotite-bearing  and  alkaline  granitoids  (Dioh  et  al.,  2006). Gasquet et al., (2003), Naba et al., (2004) and Agbossoumonde et al., (2007) observed that 
+the granitoids grade into gneissic and migmatitic structures. 2.4.",Naba,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",10,"3. Aim 
+Fig  3.1. Map  illustrates  the  location  of  the  study  area. The  white  numbers  corresponds  to  sample 
+numbers and the locations were each sample was collected. The Pissila batholith and the Saaba zone gneiss are located near the town of Pissila in NE 
+Burkina  Faso. The  aim  of  the  project  is  to  determine  the  relationship  between  the  Pissila 
+batholith and the Saaba zone gneiss.",Pissila,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",10,"Comparison of the petrographic and geochemical data obtained for the two areas. III. Comparison batholith and the gneiss with other granitoids in Burkina Faso and similar 
+granitoids in the West African Craton. 10",Burkina Faso,LOC,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",11,"4. Methodology 
+Field work 
+Samples from the Pissila batholith and the Saaba Zone gneiss were collected during field 
+work  in  January  2012. Mapping  of  the  study  area  and  sample  collection  was  conducted  by 
+Profs. Kerstin  Saalmann  and  Kim  Ncube-Hein. The  locations  of  each  station  point  were 
+recorded  using  GPS  co-ordinates. The  World  Geodetic  System  (WGS  84)  and  Universal 
+Transverse Mercator (UTM) in meters were used as the datum and format, respectively.",Saaba Zone,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",11,"4. Methodology 
+Field work 
+Samples from the Pissila batholith and the Saaba Zone gneiss were collected during field 
+work  in  January  2012. Mapping  of  the  study  area  and  sample  collection  was  conducted  by 
+Profs. Kerstin  Saalmann  and  Kim  Ncube-Hein. The  locations  of  each  station  point  were 
+recorded  using  GPS  co-ordinates. The  World  Geodetic  System  (WGS  84)  and  Universal 
+Transverse Mercator (UTM) in meters were used as the datum and format, respectively.",Profs,LOC,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",11,"The 
+location map of the study area was created using Expert GPS 4.57. The data from Expert GPS 
+was exported to Google Earth. Petrography  
+Seven  polished  thin  sections  were  used  for  petrography. Reflected  light  was  used  to 
+examine  the  oxide  mineralization. Five  of  the  seven  thin  sections  were  used  for  point 
+counting. An  average  of  500  minerals  in  each  samples  were  counted  using  Petrog  JVC 
+V2.42.15.",Petrog,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",11,"Samples  were  crushed 
+and finely milled for both methods. Major elements were analyzed using WDXRF from fused disks. The milled samples were 
+mixed with  a pre-ignition  flux and heated to  1,020°C for 50 minutes. H2O- and  H2O+ were 
+then calculated. The mixture was mechanically pressed into a fussed disked and analyzed. Samples  for  ICP-MS  were  prepared  by  mixing  the  milled  powder  with  HNO3/HF  and 
+heated to 235°C.",H2O-,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",14,"Figure 5.1.1. (A) Primary intergrowth between hornblende, quartz, plagioclase and Fe-Ti oxide. (B) 
+Hornblende with twinning lamellae  that is oblique to cleavage. Cleavage direction is indicated with 
+yellow  lines. (C)  Illustrates  biotite  with folded  cleavage  and  undulose  extinction. (D)  Quartz  in  the 
+centre exhibit deformation bands.",Illustrates,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",15,"Figure 5.2.1 (A) The image illustrates the formation of sub-grains and subsequent rotation of the sub-
+grains. The  image  also  shows  pressure  solution. (B) Chessboard sub-grains  in the  samples  occur  in 
+minor amounts. 5.3. Migmatites  
+Migmatites  are  a  mixture  of  two  or  more  petrographically  distinct  parts  (Sawyer,  2008). They  form  by  partial  melting  of  a  source  rock.",Migmatites,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",15,"The  melt  forms  light-coloured  veins 
+(leucosome)  and  mafic-rich  melanosomes. The  Saaba  Zone  gneiss  is  locally  migmatitic. Foliation and small-scale folds are visible in hand samples. In hand sample, the leucosomes 
+are  composed  of  discontinuous  quartz  and  feldspar-rich  melts. The  melanosomes  are 
+predominantly composed of biotite and hornblende. The folds in Sample KS-2012-23 consist of predominantly biotite with minor hornblende 
+and  Fe-Ti  oxide.",Sample KS-2012-23,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",26,"The  samples  are  enriched  in  LILE  relative  to 
+HFSE  (Fig  6.2.3). The  spider  plot  exhibit  similarities  with  the  samples  from  the  Dabakala 
+region in Côte d’lvoire that were described by Gasquet et al., 2003 (Fig 6.2.2 and appendix 
+1). The gneisses in the spider plot exhibit a prominent negative Ti and P anomaly. The migmatite exhibit a REE pattern that is relatively flat (Fig 6.2.1). The sample’s REE 
+pattern is depleted relative to the granodiorite, gneisses and K-rich vein. The flat REE pattern 
+suggests that the migmatite’s source rock lacked garnet.",Dabakala,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",26,"The  samples  are  enriched  in  LILE  relative  to 
+HFSE  (Fig  6.2.3). The  spider  plot  exhibit  similarities  with  the  samples  from  the  Dabakala 
+region in Côte d’lvoire that were described by Gasquet et al., 2003 (Fig 6.2.2 and appendix 
+1). The gneisses in the spider plot exhibit a prominent negative Ti and P anomaly. The migmatite exhibit a REE pattern that is relatively flat (Fig 6.2.1). The sample’s REE 
+pattern is depleted relative to the granodiorite, gneisses and K-rich vein. The flat REE pattern 
+suggests that the migmatite’s source rock lacked garnet.",Côte,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",27,"Fig. 6.2.1. REE plot of the gneiss and K-rich vein are comparable. The granodiorite and migmatites 
+exhibit REE pattern that differ from the gneiss. This may indicate the samples are not related to each 
+other.Normalising  values from Evensen et al., 1978 
+27",Evensen,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",28,"Samples exhibit an enrichment in LILE relative to HFSE. This is generally associated with 
+metasomatisation of the source rock (Rollinson, 1993). Normalising values from Pearce et al., (1984) 
+in Rollinson, 1993. 28",Pearce,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",29,"The  samples  are  depleted  in  HREE  relative  to  LREE,  which  indicates  a  garnet  and 
+amphibolite-bearing  source  rock  or  residuum  (Holland  &  Turekian,  2003). Migmatites 
+exhibits a flat REE slope, which may suggests that garnet and amphiboles had a minor role 
+melt production. 7.2. Gneiss and migmatite 
+The migmatites exhibit some similarities to Archean TTG. The samples exhibit SiO2> 70 
+wt%,  Na2O/K2O>0.5,  K2O/Na2O<0.5,  which  is  characteristic  of  Archean  TTG  (Clarke, 
+1992). Thus the gneiss and migmatite may have formed from processes similar to those that 
+form  Archean  TTG.",Holland,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",30,"Archean TTG are thought to have formed by partial melting of a hydrated oceanic crust or 
+partial  melting of a thickened crust, leaving  a  garnet-bearing  amphibolite residuum (Martin 
+and Moyen, 2002). The latter is not favoured to produce Archean TTG (Martin et al., 2005). The TTG are thought to represent felsic melt that interacted with  the mantle during diapiric 
+ascent (Clarke, 1992). Partial melting of the lower thickened crust could not have allowed the 
+melt to interact with the mantle prior to emplacement (Smithes, 2000). According to Doumbia et al., 1998, the concave up HREE end is typical of Archean TTG 
+and  of  calc-alkaline  granitoids  in  the  region. Depletion  of  HREE  relative  to  LREE  is 
+controlled by garnet and amphiboles retained in the residuum (Rollinson, 1993).",Moyen,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",30,"Archean TTG are thought to have formed by partial melting of a hydrated oceanic crust or 
+partial  melting of a thickened crust, leaving  a  garnet-bearing  amphibolite residuum (Martin 
+and Moyen, 2002). The latter is not favoured to produce Archean TTG (Martin et al., 2005). The TTG are thought to represent felsic melt that interacted with  the mantle during diapiric 
+ascent (Clarke, 1992). Partial melting of the lower thickened crust could not have allowed the 
+melt to interact with the mantle prior to emplacement (Smithes, 2000). According to Doumbia et al., 1998, the concave up HREE end is typical of Archean TTG 
+and  of  calc-alkaline  granitoids  in  the  region. Depletion  of  HREE  relative  to  LREE  is 
+controlled by garnet and amphiboles retained in the residuum (Rollinson, 1993).",Doumbia,GPE,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",31,"The spider diagram of the studied granodiorite is comparable with spider diagrams for the 
+Dabakala region in Côte d’lvoire  (appendix 1) (Gasquet et al., 2003). The diagrams exhibit 
+negative  Ta,  Ti  and  Nb,  which  are  usually  associated  with  titaniferous  minerals  retained  in 
+the  residuum  (White,  2012). A  negative  Ce  and  Nb  anomaly  is  generally  regarded  as  an 
+indicator  of  crustal  contamination  (fig  6.2.2.)  (Rollinson,  1993). The  positive  Sr  anomaly 
+attests to  declining role of plagioclase in  melt  production (Holland &  Turekian, 2003). The 
+positive  Sr  coupled  with  Eu  anomaly,  indicates  that  plagioclase  was  not  retained  in  the 
+residuum  during  partial  melting  or  fractionated  during  magma  differentiation  (Rollinson, 
+1993; Holland & Turekian, 2003). 7.4.",Côte d’lvoire,FAC,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",32,"migration  becomes  the  dominate  feature. The  development  of  quartz  with  chessboard 
+extinction  occurs  during  inversion  of  α-quartz  to  β-quartz  which  occurs  at  630°  ±  30°C 
+(Kruhl, 1996).Based on quartz with chessboard extinction  metamorphic temperatures that the 
+gneiss and migmatites experienced where at least 630°C. Granodiorite 
+Subsequent 
+to  magma  emplacement  and  crystallisation, 
+the  granodiorite  was 
+metamorphosed  and  deformed. Epidote  and  chlorite  found  in  the  sample  suggests 
+metamorphism  to  greenschist  facies. Microstructures  in  the  samples  seem  to  support  low 
+temperature metamorphism. Fracturing  of  plagioclase,  microcline  and  quartz  as  the  predominate  method  of 
+deformation typically occurs at  greenschist facies metamorphism (Gapais, 1989).",Gapais,LOC,spacy
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",6,"2. Regional Geology 
+The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo-
+Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the 
+Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain 
+and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north 
+and the Leo-Man in the south (Béziat et al., 2008).",Man,GEO,geotext
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",7,"Shales, quartzite and meta-conglomerates of the Banket Group. III. Overlying the Banket Group are shales and phyllites of the Tarkwa formation (Cahen 
+et al., 1984; Tshibubudze et al., 2009). The above Anglophone Birimian sequence was inverted by the Francophone school. The 
+predominately  volcanic  units  were  interpreted  as  being  younger  than  the  metasedimentary 
+units (Milési et al., 1992).However, during a study of the Goren-greenstone belt in Burkina 
+7",Tarkwa,GEO,geotext
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",8,"Faso, Hein et al., (2004) concluded that sub-dividing the Birimian into two units did not fit 
+the conformable nature of the sequence. Instead, they found three intercalated meta-volcanic 
+and  meta-volcanic  sequences  (Tshibubudze  et  al.,  2009). According  to  Tagini,  (1971)  in 
+Hastings,  (1982),  the  Birimian  was  deposited  in  an  intra-continental  rift  basin,  followed  by 
+sedimentation  and  localized  volcanism. The  Birimian  and  the  Tarkwaian  are  considered  to 
+represent  transition  from  a  deep  marine  to  sub-aerial  depositional  environment  caused  by 
+uplift during craton accretion (Pohl, 1998). 2.3. Magmatic Intrusions  
+Granitoids  cover  approximately  70%  of  the  Baoulé-Mossi  domain  (Debat  et  al.,  2003).",Hastings,GEO,geotext
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",30,"Archean TTG are thought to have formed by partial melting of a hydrated oceanic crust or 
+partial  melting of a thickened crust, leaving  a  garnet-bearing  amphibolite residuum (Martin 
+and Moyen, 2002). The latter is not favoured to produce Archean TTG (Martin et al., 2005). The TTG are thought to represent felsic melt that interacted with  the mantle during diapiric 
+ascent (Clarke, 1992). Partial melting of the lower thickened crust could not have allowed the 
+melt to interact with the mantle prior to emplacement (Smithes, 2000). According to Doumbia et al., 1998, the concave up HREE end is typical of Archean TTG 
+and  of  calc-alkaline  granitoids  in  the  region. Depletion  of  HREE  relative  to  LREE  is 
+controlled by garnet and amphiboles retained in the residuum (Rollinson, 1993).",Martin,GEO,geotext
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",4,"Abstract  
+The  Pissila  batholith  is  a  foliated  coarse-grained  granodiorite,  which  is  located  in  north 
+eastern Burkina Faso. The batholith was emplaced at 2143 ±12 Ma and 2117 ±17Ma, coeval 
+with  the  Eburnean  orogeny. The  Eburnean  orogeny  represents  a  period  of  major  crustal 
+growth in an island arc setting. The batholith is geochemically similar to other calc-alkaline 
+granitoids in the domain. The Saaba zone gneiss, which is locally migmatitic is located within 
+the  Pissila  batholith. Geochemically,  the  gneiss  and  migmatites  have  some  Archean  TTG 
+affiliations.",Eburnean orogeny,regex-GEO,regex
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",5,"1. Introduction 
+The Bauolé-Mossi domain consists of predominately Palaeoproterozoic calc-alkaline and 
+alkaline granitoid intrusions. Theses rocks were emplaced between ca 2.1 to 1.8 Ga (Vega et 
+al.,  2008). The  presence  of  terranes  that  predates  and  may  act  as  basement  rocks  to  the 
+Birimian granitoids has been the subject of debate. Basement rocks are typically gneissic to 
+migmatitic,  thus  the  granitoid-gneissic  terranes  in  the  West  African  Craton  became  the 
+subject of a number of studies (Eisenhohr and Hirdes, 1992, Pons et al., 1995, Hirdes et al., 
+1996,  Gasquet  et  al.,  2003). Lemoine,  1988  in  Gasquet  et  al.,  2003  introduced  the  term 
+Burkinian,  which  corresponds  to  reworking  of  Archean  rocks  and  formed  the  gneissic 
+terrance  in  Côte  d’lvoire.",West African Craton,regex-GEO,regex
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",6,"2. Regional Geology 
+The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo-
+Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the 
+Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain 
+and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north 
+and the Leo-Man in the south (Béziat et al., 2008).",Regional Geology The West African Craton,regex-GEO,regex
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",6,"2. Regional Geology 
+The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo-
+Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the 
+Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain 
+and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north 
+and the Leo-Man in the south (Béziat et al., 2008).",Phanerozoic Toudeni basin,regex-GEO,regex
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",7,"The Kénéma-Man domain  was deformed and  metamorphosed during two major tectonic 
+events. The Leonean cycle, ca 3.0 Ga is associated with north-south trending structures and 
+metamorphism of basement rocks to granulite- facies (Cahen et al., 1984; Thieblemont et al., 
+2004). The  Liberian  event,  ca  2.7  Ga  resulted  in  N-S  to  NNE-SSW  trending  structures 
+(Thieblemont  et  al.,  2004). The  Liberian  event  culminated  with  TTG  batholith  intrusions 
+(Skinner et al., 2004). 2.2. Palaeoproterozoic Baoulé-Mossi domain 
+The  Birimian  was  first  described  by  Kitsh  from  outcrops  in  the  Birim  River  Valley  in 
+southern  Ghana  (Pohl,  1998).",Birim River Valley,regex-GEO,regex
