@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4ec5efcd7adcad1cd720625f030ed44d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_4ec5efcd7adcad1cd720625f030ed44d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4ec5efcd7adcad1cd720625f030ed44d = L.map(
+                "map_4ec5efcd7adcad1cd720625f030ed44d",
+                {
+                    center: [21.105542326, -2.4161335759999982],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_35a4983d927c109cd0464c8593ac42f7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_35a4983d927c109cd0464c8593ac42f7.addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+            var circle_marker_234a5c77601fc0c4a230cefb6b02f803 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_fc827f12415f4af9536fe4dd65e362a3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bf02767843d051735089cd79111ff708 = $(`<div id="html_bf02767843d051735089cd79111ff708" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 8<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fc827f12415f4af9536fe4dd65e362a3.setContent(html_bf02767843d051735089cd79111ff708);
+            
+        
+
+        circle_marker_234a5c77601fc0c4a230cefb6b02f803.bindPopup(popup_fc827f12415f4af9536fe4dd65e362a3)
+        ;
+
+        
+    
+    
+            circle_marker_234a5c77601fc0c4a230cefb6b02f803.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9da4f864dc2237783fc78f57c15b2e7f = L.circleMarker(
+                [41.6218021, 0.6298841],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_704b3619343367c7156b2ce29a484cd7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_47ea1d74031ee906e7bcc03ec358d88b = $(`<div id="html_47ea1d74031ee906e7bcc03ec358d88b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> A  B  Marcasite  Aspy  1 mm  1 mm  C  3 mm  Figure 5.10: Photomicrographs of different textures of pyrite grains (a) Anhedral pyrite masses (B) Pyrite  altering to marcasite with subhedral arsenopyrite (C) Cubic pyrite  (c)  38<br><b>Geocode:</b> ASPY, Carrer del Princep de Viana, la Magdalena, Lleida, Segrià, Catalonia, 25004, Spain<br><b>Pages:</b> 44<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_704b3619343367c7156b2ce29a484cd7.setContent(html_47ea1d74031ee906e7bcc03ec358d88b);
+            
+        
+
+        circle_marker_9da4f864dc2237783fc78f57c15b2e7f.bindPopup(popup_704b3619343367c7156b2ce29a484cd7)
+        ;
+
+        
+    
+    
+            circle_marker_9da4f864dc2237783fc78f57c15b2e7f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f0c6f94ef99cb0bc29fca4a752c04126 = L.circleMarker(
+                [37.7874104, 41.2573924],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_9a498afab5c3d0496c5b70941d61f698 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6673d8e476ce723a9442a3820823e647 = $(`<div id="html_6673d8e476ce723a9442a3820823e647" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Wall  and  Taylor  (1991)  observed  retrograde  mineralisation  in  the  thermal- aureole of deposits at Victoria and Elsewhere, Australia. The stockwork vein system and disseminated  sulphides  (mainly  pyrite-arsenopyrite  (Au))  typify  the  thermal-aureole  gold  deposits  identified  in  Quigleys  and  Batman,  Australia  (Hein,  2003). The  mineralisation,  i.e. chlorite-epidote-pyrite- arsenopyrite is located in the lower temperature field of the thermal aureole. The mineralisation in the  OGGB is tentatively interpreted as orogenic under the subdivision of thermal-aureole gold. 42<br><b>Geocode:</b> Batman, Southeastern Anatolia Region, Turkey<br><b>Pages:</b> 48<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9a498afab5c3d0496c5b70941d61f698.setContent(html_6673d8e476ce723a9442a3820823e647);
+            
+        
+
+        circle_marker_f0c6f94ef99cb0bc29fca4a752c04126.bindPopup(popup_9a498afab5c3d0496c5b70941d61f698)
+        ;
+
+        
+    
+    
+            circle_marker_f0c6f94ef99cb0bc29fca4a752c04126.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_02009e234a19a41a50e7ea8648fff883 = L.circleMarker(
+                [9.5293472, 2.2584408],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_af3d242fa660f8b4d72b0f879dd10ccb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_762394fe9d025a0782383db141baaf2a = $(`<div id="html_762394fe9d025a0782383db141baaf2a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level.<br><b>Geocode:</b> Benin<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_af3d242fa660f8b4d72b0f879dd10ccb.setContent(html_762394fe9d025a0782383db141baaf2a);
+            
+        
+
+        circle_marker_02009e234a19a41a50e7ea8648fff883.bindPopup(popup_af3d242fa660f8b4d72b0f879dd10ccb)
+        ;
+
+        
+    
+    
+            circle_marker_02009e234a19a41a50e7ea8648fff883.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03c78a30e415c7c69e8b7be061985ed7 = L.circleMarker(
+                [6.1643724, -0.5776982],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_9ea9a92267843d6c9d7511969b9d8ab9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0c701c2da03695fb8abf9968b78911be = $(`<div id="html_0c701c2da03695fb8abf9968b78911be" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2003), Dioh et al. (2006)  and  Béziat  et  al. (2008),  the  Birimian  terrains  consists  of  sedimentary  basins,  and  linear  to  arcuate  volcanic belts that  correspond to the period of accretion during the Eburnean orogeny. The north-eastern Burkina Faso consists of the Palaeoproterozoic metasedimentary and metavolcanic  Birimian sequences (2184–2135 Ma) (Davis et al., 1994). The sequences are divided into the upper  and lower Birimian. These are unconformably overlain by the Tarkwa Group (2194-2132 Ma), first  described  in  the  Birim  River  in  Ghana  and  are  believed  to  be  derivatives  of  the  upper  Birimian  (Hastings,  1982;  Milési  et  al.,  1992;  Dzigbodi-Adjimah,  1993;  Bossiére  et  al.,  1996;  Davis  et  al.,  1994).<br><b>Geocode:</b> Birim river, Akim Apapam, Abuakwa South Municipal District, Eastern Region, Ghana<br><b>Pages:</b> 12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9ea9a92267843d6c9d7511969b9d8ab9.setContent(html_0c701c2da03695fb8abf9968b78911be);
+            
+        
+
+        circle_marker_03c78a30e415c7c69e8b7be061985ed7.bindPopup(popup_9ea9a92267843d6c9d7511969b9d8ab9)
+        ;
+
+        
+    
+    
+            circle_marker_03c78a30e415c7c69e8b7be061985ed7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b1b4499dd5fe2ef99c8704025cbdb57c = L.circleMarker(
+                [8.0300284, -1.0800271],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_5be7d17d8cc82fc71f56394b16d865dd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_11eaad179c66ccdd658dff944c604ce9 = $(`<div id="html_11eaad179c66ccdd658dff944c604ce9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2003), Dioh et al. (2006)  and  Béziat  et  al. (2008),  the  Birimian  terrains  consists  of  sedimentary  basins,  and  linear  to  arcuate  volcanic belts that  correspond to the period of accretion during the Eburnean orogeny. The north-eastern Burkina Faso consists of the Palaeoproterozoic metasedimentary and metavolcanic  Birimian sequences (2184–2135 Ma) (Davis et al., 1994). The sequences are divided into the upper  and lower Birimian. These are unconformably overlain by the Tarkwa Group (2194-2132 Ma), first  described  in  the  Birim  River  in  Ghana  and  are  believed  to  be  derivatives  of  the  upper  Birimian  (Hastings,  1982;  Milési  et  al.,  1992;  Dzigbodi-Adjimah,  1993;  Bossiére  et  al.,  1996;  Davis  et  al.,  1994).<br><b>Geocode:</b> Ghana<br><b>Pages:</b> 12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5be7d17d8cc82fc71f56394b16d865dd.setContent(html_11eaad179c66ccdd658dff944c604ce9);
+            
+        
+
+        circle_marker_b1b4499dd5fe2ef99c8704025cbdb57c.bindPopup(popup_5be7d17d8cc82fc71f56394b16d865dd)
+        ;
+
+        
+    
+    
+            circle_marker_b1b4499dd5fe2ef99c8704025cbdb57c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bf857aa4ed726a912e94c87d4005e26d = L.circleMarker(
+                [46.5098574, 6.6991577],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_97d9a7ea19228d6ef5d5195d2d7a4e36 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c2e8304f760efe96cfce620ac90eb83a = $(`<div id="html_c2e8304f760efe96cfce620ac90eb83a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2003), Dioh et al. (2006)  and  Béziat  et  al. (2008),  the  Birimian  terrains  consists  of  sedimentary  basins,  and  linear  to  arcuate  volcanic belts that  correspond to the period of accretion during the Eburnean orogeny. The north-eastern Burkina Faso consists of the Palaeoproterozoic metasedimentary and metavolcanic  Birimian sequences (2184–2135 Ma) (Davis et al., 1994). The sequences are divided into the upper  and lower Birimian. These are unconformably overlain by the Tarkwa Group (2194-2132 Ma), first  described  in  the  Birim  River  in  Ghana  and  are  believed  to  be  derivatives  of  the  upper  Birimian  (Hastings,  1982;  Milési  et  al.,  1992;  Dzigbodi-Adjimah,  1993;  Bossiére  et  al.,  1996;  Davis  et  al.,  1994).<br><b>Geocode:</b> Bossière, 113, Route de Bossières, La Croix (Lutry), Lutry, District de Lavaux-Oron, Vaud, 1095, Switzerland<br><b>Pages:</b> 12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_97d9a7ea19228d6ef5d5195d2d7a4e36.setContent(html_c2e8304f760efe96cfce620ac90eb83a);
+            
+        
+
+        circle_marker_bf857aa4ed726a912e94c87d4005e26d.bindPopup(popup_97d9a7ea19228d6ef5d5195d2d7a4e36)
+        ;
+
+        
+    
+    
+            circle_marker_bf857aa4ed726a912e94c87d4005e26d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5cf1191f78b4f01e3db29282ef75a4d1 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_c30ec35ec091a65e7713de0fc031fa7b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2796355b2a647443796c54ac3830ac6b = $(`<div id="html_2796355b2a647443796c54ac3830ac6b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  TTG  suite  contact  metamorphosed the Birimian sequences (Hein, et al., 2004; Naba et al., 2004). The  rocks  were  metamorphosed  to  lower  greenschist  facies  during  the  Eburnean  orogeny  which  is  characterised by the development of the mineral assemblage of prehnite, chlorite, actinolite, albite in  mafic  rocks,  and  muscovite,  albite  and  quartz  in  the  sedimentary  sequences  (Leube  et  al.,  1990;  Dzigbodi-Adjmah,  1992;  Debat  et  al.,  2003;  Naba  et  al.,  2004;  Béziat  et  al.,  2000). In  the  contact  aureole of the granitoids, the metamorphic grade is low- to medium grade amphibolite facies, which is  characterised  by  biotite,  muscovite  and  quartz  (Leube  et  al.,  1990;  Naba  et  al.,  2004,  Tunks  et  al.,  2004). The  Palaeoproterozoic  Birimian  sequences  in  NE  Burkina  Faso  are  also  crosscut  by  late  WNW-trending  dolerite  dykes,  which  are  younger  in  age  than  the  granitoids  (Hein,  2009;  Tshibubudze et al., 2009). The Birimian sequences are unconformably overlain by the Tarkwa Group, which was first described  in Ghana. Tshibubudze et al.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 13<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c30ec35ec091a65e7713de0fc031fa7b.setContent(html_2796355b2a647443796c54ac3830ac6b);
+            
+        
+
+        circle_marker_5cf1191f78b4f01e3db29282ef75a4d1.bindPopup(popup_c30ec35ec091a65e7713de0fc031fa7b)
+        ;
+
+        
+    
+    
+            circle_marker_5cf1191f78b4f01e3db29282ef75a4d1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3d47ab68bbd0883666263434e49e136b = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_c20656449663ed35e76f457e85498ac8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e8b78b01b247643e62284548fabd89e4 = $(`<div id="html_e8b78b01b247643e62284548fabd89e4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level. || Groves et al. (1998) and Goldfarb et al. (2000) classified gold in West Africa as  orogenic gold and gold in Burkina Faso has also been classified as orogenic gold (Béziat et al., 2008). Taner  (2004)  recognised  a  relationship  between  the  gold  mineralisation  and  intrusions  in  the  Falagountou and Essakane deposits. The gold in these deposits can be classified as mesothermal lode  gold, thermal-aureole gold or intrusion-related gold. 1 || There  is  a  controversy  on  the  stratigraphic  position  of  the  Birimian  rocks,  whether the  B1 is  younger  than the  B2  or  vice-versa  (Hirdes  et al. 1996). The Birimian  in  Burkina  Faso was deposited within an active continental margin/ marginal marine setting in which the detritus  was  derived  from  an  adjacent  volcanic  arc  (Hein  et  al.,  2004;  Roddaz  et  al.,  2007). 6 || N  N  32km  Essakane  Falagountou  Sokadie  8km  Figure 1.2: LANDSAT image of the Oudalan-Gorouol Greenstone belt in Burkina Faso and the locations of the deposits  4<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 10,12,7,8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c20656449663ed35e76f457e85498ac8.setContent(html_e8b78b01b247643e62284548fabd89e4);
+            
+        
+
+        circle_marker_3d47ab68bbd0883666263434e49e136b.bindPopup(popup_c20656449663ed35e76f457e85498ac8)
+        ;
+
+        
+    
+    
+            circle_marker_3d47ab68bbd0883666263434e49e136b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bbe6c3c99b211085d73a05ffa5e2bc01 = L.circleMarker(
+                [7.9897371, -5.5679458],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_22927ed643f81434867c77c62bb984bc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2e7fcd5ffa3e145d529dfaf090be496e = $(`<div id="html_2e7fcd5ffa3e145d529dfaf090be496e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level.<br><b>Geocode:</b> Côte d'Ivoire<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_22927ed643f81434867c77c62bb984bc.setContent(html_2e7fcd5ffa3e145d529dfaf090be496e);
+            
+        
+
+        circle_marker_bbe6c3c99b211085d73a05ffa5e2bc01.bindPopup(popup_22927ed643f81434867c77c62bb984bc)
+        ;
+
+        
+    
+    
+            circle_marker_bbe6c3c99b211085d73a05ffa5e2bc01.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_44d13d678bd4dd3d668a6bf29d80edc0 = L.circleMarker(
+                [14.0327651, -0.0348286],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_1ab03cd963cceaafe68d7ab8436d1ff2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0ee88d3f3bdfe2babf729f2b6a71f69d = $(`<div id="html_0ee88d3f3bdfe2babf729f2b6a71f69d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The Essakane deposit is described as quartz-carbonate hosted sulphide stockwork, with arsenopyrite- pyrite  gold  mineralisation  (Kerr  (b),  2004;  Tshibubudze  et  al.,  2009),  which  formed  during  the  D2  deformation event (Tshibubudze et al., 2009). The Sokadie deposit is hosted in a shear zone, and it is  situated  proximally  to  the  Dori  batholith  (Kerr  (a),  2004). The  mineralisation  in  the  Falagountou  deposit  has  been  interpreted  to  be  a  stockwork  of  veinlets  of  quartz±carbonate-sulphide  (Kerr  (c),  2004). The veinlets are hosted in the metasedimentary rocks together with the intrusive rocks found in  the area (Kerr (c), 2004). 8<br><b>Geocode:</b> Dori, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1ab03cd963cceaafe68d7ab8436d1ff2.setContent(html_0ee88d3f3bdfe2babf729f2b6a71f69d);
+            
+        
+
+        circle_marker_44d13d678bd4dd3d668a6bf29d80edc0.bindPopup(popup_1ab03cd963cceaafe68d7ab8436d1ff2)
+        ;
+
+        
+    
+    
+            circle_marker_44d13d678bd4dd3d668a6bf29d80edc0.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9d6b7af708ef8c5697d283d3a59e96f7 = L.circleMarker(
+                [14.0327651, -0.0348286],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_6cb2ddfeb01f830f7e070f55449618ab = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ee1904a951db6f23ff4b77ad56cd9cf7 = $(`<div id="html_ee1904a951db6f23ff4b77ad56cd9cf7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The Essakane deposit is described as quartz-carbonate hosted sulphide stockwork, with arsenopyrite- pyrite  gold  mineralisation  (Kerr  (b),  2004;  Tshibubudze  et  al.,  2009),  which  formed  during  the  D2  deformation event (Tshibubudze et al., 2009). The Sokadie deposit is hosted in a shear zone, and it is  situated  proximally  to  the  Dori  batholith  (Kerr  (a),  2004). The  mineralisation  in  the  Falagountou  deposit  has  been  interpreted  to  be  a  stockwork  of  veinlets  of  quartz±carbonate-sulphide  (Kerr  (c),  2004). The veinlets are hosted in the metasedimentary rocks together with the intrusive rocks found in  the area (Kerr (c), 2004). 8<br><b>Geocode:</b> Dori, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 14<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6cb2ddfeb01f830f7e070f55449618ab.setContent(html_ee1904a951db6f23ff4b77ad56cd9cf7);
+            
+        
+
+        circle_marker_9d6b7af708ef8c5697d283d3a59e96f7.bindPopup(popup_6cb2ddfeb01f830f7e070f55449618ab)
+        ;
+
+        
+    
+    
+            circle_marker_9d6b7af708ef8c5697d283d3a59e96f7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_659f8b35e395d2a4334f3bbaaad6d7d6 = L.circleMarker(
+                [12.255555, 1.0095764],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_472e282af89b0af5bc94f312641e89ff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_799851046deee75b208c703d2a63a4f1 = $(`<div id="html_799851046deee75b208c703d2a63a4f1" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Two of the three sites i.e. Falagountou and Sokadie are still artisanal mining sites and  Essakane is a developing mine. Essakane is the main deposit and is 11km×3km in dimension, with  Falagountou  and  Sokadie  located  to  the  East  and  south  of  the  Essakane  metasedimentary  belt,  respectively (Kerr(b), 2004). The  dominant  stratigraphic  sequences  that  have  been  identified  in  the  Oudalan-Gorouol  greenstone  belt are a volcaniclastic greywacke sequence and an interbedded conglomerate-greywacke-siltstone- shale  sequence,  which  have  been  contact  metamorphosed  to  hornblende-hornfels  facies  during  the  emplacement  of  igneous  bodies  (Tshibubudze  et  al.,  2009). The  environment  of  deposition  is  interpreted to be a shallow marine continental shelf (Tshibubudze et al., 2009). The  supracrustal  rocks  of  the  Oudalan-Gorouol  greenstone  belt  have  experienced  two  deformation  events  that  resulted  in  the  formation  of  shears,  folds,  mylonite  zones  and  regional  metamorphism;  contact  metamorphism  resulted  from  the  dolerite  dykes  intruding  the  area  and  the  emplacement  of  syn- and post-orogenic plutons (Tshibubudze et al., 2009).<br><b>Geocode:</b> East, Burkina Faso<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_472e282af89b0af5bc94f312641e89ff.setContent(html_799851046deee75b208c703d2a63a4f1);
+            
+        
+
+        circle_marker_659f8b35e395d2a4334f3bbaaad6d7d6.bindPopup(popup_472e282af89b0af5bc94f312641e89ff)
+        ;
+
+        
+    
+    
+            circle_marker_659f8b35e395d2a4334f3bbaaad6d7d6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_05a3869a6d46ee926ee3f96348fdbf87 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_1bae5910864ec1dae68dde306564d6e4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6a37dbf203759665ce2fc6e0c0a96190 = $(`<div id="html_6a37dbf203759665ce2fc6e0c0a96190" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.1.3 Essakane  The Essakane pit (Fig. 4.2) is located in the Essakane main zone. The deposit is north-west trending. The  deposit  is  hosted  in  a  volcaniclastic-sedimentary  sequence  covered  by  laterite  and  saprolite  profiles. The  Essakane  deposit  is  intersected  by  dolerite  dykes  and  gabbroic  sills. These  intrusive  rocks  are  composed of pyroxene and feldspar. || 4.2 Structural Features  4.2.1 Essakane  The deformation event, D1, in the Essakane deposit is recognised by the development of a NNW-NW  trending anticline (F1). The anticline is open, asymmetrical and verges to the SW (Fig. 4.4; 4.5). Due  to  poor  exposure  few  measurements  were  obtained  for  the  south-west  limb,  but  that  limited  data  suggests the limb trends NW and dips steeply SW. The north-east dipping limb is shown on the equal  area stereographic projection in Fig. 4.4, with a calculated mean of 325°/38°E. || Arsenopyrite  occurs  as  monoclinic  crystals  and  the  chalcopyrite is anhedral. The chalcopyrite forms a small proportion of the sulphides in the Essakane  samples ~1%. The arsenopyrite replaces the pyrite in these samples and occurs within the chlorite. Paragenesis of the sulphides: Pyrite- Chalcopyrite -Arsenopyrite  26 || Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008). || Essakane  Plutons  Falagountou  Sokadie  30 km  Dori Batholith  Figure 6.1: Aeromagnetic photograph of the study area indicating the locations of the plutons in the area  (Photograph courtesy of A. Tshibubudze)  43 || Groves et al. (1998) and Goldfarb et al. (2000) classified gold in West Africa as  orogenic gold and gold in Burkina Faso has also been classified as orogenic gold (Béziat et al., 2008). Taner  (2004)  recognised  a  relationship  between  the  gold  mineralisation  and  intrusions  in  the  Falagountou and Essakane deposits. The gold in these deposits can be classified as mesothermal lode  gold, thermal-aureole gold or intrusion-related gold. 1 || N  Calculated mean: 325°/38°E  NE dipping limb  n=12  Figure 4.4: Equal area stereographic projection of the Essakane bedding of NE dipping limb  1m  Figure  4.5:  Fold  axis  of  the  NW-trending  anticline  hosted  in  siltstone  in  the  Essakane  exploration  trench,  crosscut by  extensional veins (black stiples) and sheeted veins (black stiples). 21 || N  N  32km  Essakane  Falagountou  Sokadie  8km  Figure 1.2: LANDSAT image of the Oudalan-Gorouol Greenstone belt in Burkina Faso and the locations of the deposits  4 || The  precipitation  of  sulphides  and  gold  followed  during  this  process. Chloritisation  with  sulphidation  is  interpreted as the Au forming phase. The  interpretation  of  the  data  indicates  that  the  deposits  of  Falagountou,  Essakane  and  Sokadie  formed during the Eburnean orogeny subsequent to the intrusion and cooling of granitoid plutons. The  mineralisation  occurred  during  post  peak  metamorphism  and  is  defined  by  chloritisation  of  the  sequences. The  mineralogy  indicates  that  the  deposits  are  situated  proximal  (middle-aureole)  to  the  granitoids. The  mineralisation  is  hosted  in  quartz-carbonate-chlorite  stockwork  veins. || The calculated mean for the extensional veins and conjugate veins in Essakane  have  been  tentatively  determined  as  061°/82°S  and  164°/79°W,  respectively. Based  on  the  data  the  conjugate veins are oriented parallel to the fold axis and extensional veins are oriented perpendicular  to the fold axis, with the palaeostress was tentatively interpreted to be in NE direction. The deformation event, D2, resulted in the development of a NE- trending, normal-slip fault with a  mean direction of 300°/58° during the flexural-slip folding of the bedding and caused brecciation of  the footwall sequence (Fig. 4.8). 20 || Two of the three sites i.e. Falagountou and Sokadie are still artisanal mining sites and  Essakane is a developing mine. Essakane is the main deposit and is 11km×3km in dimension, with  Falagountou  and  Sokadie  located  to  the  East  and  south  of  the  Essakane  metasedimentary  belt,  respectively (Kerr(b), 2004). The  dominant  stratigraphic  sequences  that  have  been  identified  in  the  Oudalan-Gorouol  greenstone  belt are a volcaniclastic greywacke sequence and an interbedded conglomerate-greywacke-siltstone- shale  sequence,  which  have  been  contact  metamorphosed  to  hornblende-hornfels  facies  during  the  emplacement  of  igneous  bodies  (Tshibubudze  et  al.,  2009). The  environment  of  deposition  is  interpreted to be a shallow marine continental shelf (Tshibubudze et al., 2009). The  supracrustal  rocks  of  the  Oudalan-Gorouol  greenstone  belt  have  experienced  two  deformation  events  that  resulted  in  the  formation  of  shears,  folds,  mylonite  zones  and  regional  metamorphism;  contact  metamorphism  resulted  from  the  dolerite  dykes  intruding  the  area  and  the  emplacement  of  syn- and post-orogenic plutons (Tshibubudze et al., 2009). || Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008).<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 10,14,22,26,27,32,49,50,7,7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1bae5910864ec1dae68dde306564d6e4.setContent(html_6a37dbf203759665ce2fc6e0c0a96190);
+            
+        
+
+        circle_marker_05a3869a6d46ee926ee3f96348fdbf87.bindPopup(popup_1bae5910864ec1dae68dde306564d6e4)
+        ;
+
+        
+    
+    
+            circle_marker_05a3869a6d46ee926ee3f96348fdbf87.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eeb90fa674c6cf163deb7206b1fd2fd9 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_a2c41432c56df4ac4db927d77125a58d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f4ccb532fffd6f7099c54c7337476ef3 = $(`<div id="html_f4ccb532fffd6f7099c54c7337476ef3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Fold axis   Figure 4.2: The Essakane Pit + Essakane anticline  17<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 23<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a2c41432c56df4ac4db927d77125a58d.setContent(html_f4ccb532fffd6f7099c54c7337476ef3);
+            
+        
+
+        circle_marker_eeb90fa674c6cf163deb7206b1fd2fd9.bindPopup(popup_a2c41432c56df4ac4db927d77125a58d)
+        ;
+
+        
+    
+    
+            circle_marker_eeb90fa674c6cf163deb7206b1fd2fd9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e25dd5fdf2553cada9a4a19623d11d6 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_59829a598c58aaf0b40ea0790220f86b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0ae3dae72f96dc525bb40639a6b0f6ed = $(`<div id="html_0ae3dae72f96dc525bb40639a6b0f6ed" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2009), the D1 and D2 events are both mineralised giving rise to two  phases of gold mineralisation in the OGGB. The D1 is characterised by the metasomatic alteration of  the wall rocks to form quartz vein hosted arsenopyrite-pyrite gold mineralisation and subsequent to  ׳ this  was  the  development of  vein-stockwork  mineralisation of  D2. The  V1  and V1   observed in the  Essakane deposit are interpreted to be mineralised during D1, with V2 mineralised during D2. The V2  (stockwork veins) are typical of thermal-aureole vein assemblages noted by Wall (1991). The plutons  intruding the OGGB are syn- to post Eburnean (Leube et al., 1990; Naba et al., 2004; Tshibubudze et  al.,  2009)  and  this  provides  a  time  constraint  for  the  mineralisation  of  the  deposits. A  tentative  interpretation  is  that  the  Au  mineralisation  in  these  deposits  is  post-D1;  but  is  synchronous  to  D2,  during the cooling of the granitoids. || Chapter 5: Observations  Mineralogy, Petrography and Ore petrology1  5.1 Preamble  Fifteen polished thin sections were analysed for this project, with five thin sections from each deposit. The  petrography  section  aims  to  realise  the  main  aims  and  objectives  of  the  project. In  the  thin  sections the rock types, mineralogy of the rocks, alteration types and microstructures were identified  to determine a paragenetic sequence for the gold occurring in the Oudalan-Gorouol greenstone belt. The dominant sulphides included arsenopyrite and pyrite, with minor sphalerite, hematite, magnetite,  chalcopyrite and pyrrhotite. 5.2 Essakane  The Essakane deposit is hosted in an inclined, asymmetrical NW-NNW trending anticline. The rock  types that were identified in the thin sections are sandstone, siltstone, shale and volcaniclastics (Fig  5.1). || Figure 5.1: Drill core photographs from the Essakane deposit of (a) shale+ volcaniclastic+ siltstone   (b)  volcaniclastic with sulphides (c) siltstone (d) shale with sulphides  (Photographs courtesy of Prof Kim Hein)  27 || The Essakane deposit is described as quartz-carbonate hosted sulphide stockwork, with arsenopyrite- pyrite  gold  mineralisation  (Kerr  (b),  2004;  Tshibubudze  et  al.,  2009),  which  formed  during  the  D2  deformation event (Tshibubudze et al., 2009). The Sokadie deposit is hosted in a shear zone, and it is  situated  proximally  to  the  Dori  batholith  (Kerr  (a),  2004). The  mineralisation  in  the  Falagountou  deposit  has  been  interpreted  to  be  a  stockwork  of  veinlets  of  quartz±carbonate-sulphide  (Kerr  (c),  2004). The veinlets are hosted in the metasedimentary rocks together with the intrusive rocks found in  the area (Kerr (c), 2004). 8 || These  rocks  are  constituted  by  a  number  of  minerals  that  are  common  across  the  Essakane  deposit. The  arenaceous  sedimentary  units  i.e. sandstone  and  siltstone,  are  dominated  by  common  rock  forming  minerals  i.e. quartz,  orthoclase,  plagioclase  and  biotite. The  volcaniclastic  is  made  up  of  volcanic  clasts,  quartz  and  feldspar  in  a  fine-grained  matrix. The  samples  also  record  lithological  contacts on a microscopic scale (Fig 5.2A).<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 14,31,33,48<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_59829a598c58aaf0b40ea0790220f86b.setContent(html_0ae3dae72f96dc525bb40639a6b0f6ed);
+            
+        
+
+        circle_marker_8e25dd5fdf2553cada9a4a19623d11d6.bindPopup(popup_59829a598c58aaf0b40ea0790220f86b)
+        ;
+
+        
+    
+    
+            circle_marker_8e25dd5fdf2553cada9a4a19623d11d6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5177d243ee50e769ca3e8fda97b6995f = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_b95e30b3ecbae31e6bc09f5e901b0eae = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2ac327f6269dfac0418671bf6d763bc7 = $(`<div id="html_2ac327f6269dfac0418671bf6d763bc7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008).<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b95e30b3ecbae31e6bc09f5e901b0eae.setContent(html_2ac327f6269dfac0418671bf6d763bc7);
+            
+        
+
+        circle_marker_5177d243ee50e769ca3e8fda97b6995f.bindPopup(popup_b95e30b3ecbae31e6bc09f5e901b0eae)
+        ;
+
+        
+    
+    
+            circle_marker_5177d243ee50e769ca3e8fda97b6995f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9fd47d4c5f5d87b701a1eb85adcfd99c = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_e5f83a7c46709dcffe37294e7e8115e1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bee3e34f6df68e46ebd97589c313bd9b = $(`<div id="html_bee3e34f6df68e46ebd97589c313bd9b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.1.3 Essakane  The Essakane pit (Fig. 4.2) is located in the Essakane main zone. The deposit is north-west trending. The  deposit  is  hosted  in  a  volcaniclastic-sedimentary  sequence  covered  by  laterite  and  saprolite  profiles. The  Essakane  deposit  is  intersected  by  dolerite  dykes  and  gabbroic  sills. These  intrusive  rocks  are  composed of pyroxene and feldspar.<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e5f83a7c46709dcffe37294e7e8115e1.setContent(html_bee3e34f6df68e46ebd97589c313bd9b);
+            
+        
+
+        circle_marker_9fd47d4c5f5d87b701a1eb85adcfd99c.bindPopup(popup_e5f83a7c46709dcffe37294e7e8115e1)
+        ;
+
+        
+    
+    
+            circle_marker_9fd47d4c5f5d87b701a1eb85adcfd99c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fa2cbce30b516ff1f8d0f9cc46caa9c7 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_7cb8bbc1fb1a2b0853bc377b8b9d750c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_163741cc6c27eaa94ef2e34c52412288 = $(`<div id="html_163741cc6c27eaa94ef2e34c52412288" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Two of the three sites i.e. Falagountou and Sokadie are still artisanal mining sites and  Essakane is a developing mine. Essakane is the main deposit and is 11km×3km in dimension, with  Falagountou  and  Sokadie  located  to  the  East  and  south  of  the  Essakane  metasedimentary  belt,  respectively (Kerr(b), 2004). The  dominant  stratigraphic  sequences  that  have  been  identified  in  the  Oudalan-Gorouol  greenstone  belt are a volcaniclastic greywacke sequence and an interbedded conglomerate-greywacke-siltstone- shale  sequence,  which  have  been  contact  metamorphosed  to  hornblende-hornfels  facies  during  the  emplacement  of  igneous  bodies  (Tshibubudze  et  al.,  2009). The  environment  of  deposition  is  interpreted to be a shallow marine continental shelf (Tshibubudze et al., 2009). The  supracrustal  rocks  of  the  Oudalan-Gorouol  greenstone  belt  have  experienced  two  deformation  events  that  resulted  in  the  formation  of  shears,  folds,  mylonite  zones  and  regional  metamorphism;  contact  metamorphism  resulted  from  the  dolerite  dykes  intruding  the  area  and  the  emplacement  of  syn- and post-orogenic plutons (Tshibubudze et al., 2009).<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 14<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7cb8bbc1fb1a2b0853bc377b8b9d750c.setContent(html_163741cc6c27eaa94ef2e34c52412288);
+            
+        
+
+        circle_marker_fa2cbce30b516ff1f8d0f9cc46caa9c7.bindPopup(popup_7cb8bbc1fb1a2b0853bc377b8b9d750c)
+        ;
+
+        
+    
+    
+            circle_marker_fa2cbce30b516ff1f8d0f9cc46caa9c7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fed575864daa0695dc74c1720a643784 = L.circleMarker(
+                [14.3738506, 0.1457981],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_325942198b657412c2f919abf5007a8b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_40d10acabe3c40fdffdd2f71273ada9b = $(`<div id="html_40d10acabe3c40fdffdd2f71273ada9b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.3 Falagountou   The sedimentary sequences of the Falagountou deposit are intruded by monzonites and monzodiorites  (Fig  5.5). These  rocks  are  alkaline  to  calc-alkaline  with  plagioclase  feldspars  and  alkali  feldspar  making up a bulk of the mineralogy of the rocks. The alkaline intrusive rocks are quartz syenite and  quartz monzonite. The samples are phaneritic and are composed of medium-grained to coarse-grained  alkali feldspar (mainly orthoclase), plagioclase feldspar and quartz. The silicate mineralogy in the Falagountou deposit includes alkali feldspar, plagioclase, and quartz,  with  muscovite,  epidote,  sericite,  chlorite,  biotite,  hornblende,  calcite  and  cordierite;  however  most  dominant silicates found in the samples are feldspars, quartz and sericite. The two type of feldspars  identified  are  alkali  feldspar  and  plagioclase. || Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008). || Chapter 4: Lithologies and Structure   4.1 Lithologies  4.1.1 Preamble  The  lithologies  for  the  three  deposits  predominantly  consist  of  volcaniclastic-sedimentary  and  sedimentary sequences, which have been intruded by numerous plutonic rocks. The dominant cover over  the  sediments  is  laterite  and  sand  dunes. The  alteration  noted  in  some  of  the  sequences  is  oxidation,  kaolinisation and sericitisation. Field data was collected from 47 station points (see Appendix for station  point spreadsheet). 4.1.2 Falagountou  The Falagountou orpaillage is located to the East of the Essakane main deposit. The pit is ~100×200m in  dimension (Fig. || Essakane  Plutons  Falagountou  Sokadie  30 km  Dori Batholith  Figure 6.1: Aeromagnetic photograph of the study area indicating the locations of the plutons in the area  (Photograph courtesy of A. Tshibubudze)  43 || Groves et al. (1998) and Goldfarb et al. (2000) classified gold in West Africa as  orogenic gold and gold in Burkina Faso has also been classified as orogenic gold (Béziat et al., 2008). Taner  (2004)  recognised  a  relationship  between  the  gold  mineralisation  and  intrusions  in  the  Falagountou and Essakane deposits. The gold in these deposits can be classified as mesothermal lode  gold, thermal-aureole gold or intrusion-related gold. 1 || N  N  32km  Essakane  Falagountou  Sokadie  8km  Figure 1.2: LANDSAT image of the Oudalan-Gorouol Greenstone belt in Burkina Faso and the locations of the deposits  4 || The  mineral  pyrite  occurred  in  the  form  of  anhedral  masses  as  minor  product  of  the  reaction  of  feldspars  to  produce sericite (Robb, 2007). Subsequent to sericitisation, silicification appears through the addition  of quartz in the wallrock. Quartz-carbonate veins are interpreted to be the result of silicification and  carbonatisation of the sequences. These veins crosscut the lithology and they follow open-space fill  morphology with the quartz rimming the outside of the veins and the ankerite developing towards the  centre of the veins. Calcite is the product of later carbonatisation and is extensive in the wallrock of  the  intrusions  in  Falagountou. Sericitisation,  silicification  and  carbonatisation  are  tentatively  interpreted as prograde reactions of contact metamorphism. || The  precipitation  of  sulphides  and  gold  followed  during  this  process. Chloritisation  with  sulphidation  is  interpreted as the Au forming phase. The  interpretation  of  the  data  indicates  that  the  deposits  of  Falagountou,  Essakane  and  Sokadie  formed during the Eburnean orogeny subsequent to the intrusion and cooling of granitoid plutons. The  mineralisation  occurred  during  post  peak  metamorphism  and  is  defined  by  chloritisation  of  the  sequences. The  mineralogy  indicates  that  the  deposits  are  situated  proximal  (middle-aureole)  to  the  granitoids. The  mineralisation  is  hosted  in  quartz-carbonate-chlorite  stockwork  veins. || Two of the three sites i.e. Falagountou and Sokadie are still artisanal mining sites and  Essakane is a developing mine. Essakane is the main deposit and is 11km×3km in dimension, with  Falagountou  and  Sokadie  located  to  the  East  and  south  of  the  Essakane  metasedimentary  belt,  respectively (Kerr(b), 2004). The  dominant  stratigraphic  sequences  that  have  been  identified  in  the  Oudalan-Gorouol  greenstone  belt are a volcaniclastic greywacke sequence and an interbedded conglomerate-greywacke-siltstone- shale  sequence,  which  have  been  contact  metamorphosed  to  hornblende-hornfels  facies  during  the  emplacement  of  igneous  bodies  (Tshibubudze  et  al.,  2009). The  environment  of  deposition  is  interpreted to be a shallow marine continental shelf (Tshibubudze et al., 2009). The  supracrustal  rocks  of  the  Oudalan-Gorouol  greenstone  belt  have  experienced  two  deformation  events  that  resulted  in  the  formation  of  shears,  folds,  mylonite  zones  and  regional  metamorphism;  contact  metamorphism  resulted  from  the  dolerite  dykes  intruding  the  area  and  the  emplacement  of  syn- and post-orogenic plutons (Tshibubudze et al., 2009). || Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008).<br><b>Geocode:</b> Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 10,14,19,37,47,49,50,7,7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_325942198b657412c2f919abf5007a8b.setContent(html_40d10acabe3c40fdffdd2f71273ada9b);
+            
+        
+
+        circle_marker_fed575864daa0695dc74c1720a643784.bindPopup(popup_325942198b657412c2f919abf5007a8b)
+        ;
+
+        
+    
+    
+            circle_marker_fed575864daa0695dc74c1720a643784.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c2223a6cbd49968478efc4cfe93ebbc1 = L.circleMarker(
+                [14.3738506, 0.1457981],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_dd453b39fcf129d82053ee946ed0d82b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_db2d77f83cab18ff82a1eaee9fbaef37 = $(`<div id="html_db2d77f83cab18ff82a1eaee9fbaef37" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.1). It is covered by an extensive laterite profile and there is abundant sand dune cover  south  of  the  pit. The  laterite  and  sand  dunes  made  mapping  of  the  area  challenging;  subcrop  mapping  from the artisanal mining workings was used to determine the lithologies. The artisanal miners follow a  series  of  quartz  veins  which  crosscut  the  lithologies. The  veins  include  extensional  veins,  buck  quartz  veins and stockwork veins. In  the  Falagountou  artisanal  mine  area  lithologies  included:  metasiltstone/shale,  metagreywacke/sandstone, and gabbro dyke inferred from subcrop (boulders) in the mine.<br><b>Geocode:</b> Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 19<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_dd453b39fcf129d82053ee946ed0d82b.setContent(html_db2d77f83cab18ff82a1eaee9fbaef37);
+            
+        
+
+        circle_marker_c2223a6cbd49968478efc4cfe93ebbc1.bindPopup(popup_dd453b39fcf129d82053ee946ed0d82b)
+        ;
+
+        
+    
+    
+            circle_marker_c2223a6cbd49968478efc4cfe93ebbc1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_32b1fe46eca7e0494b206231a11949e1 = L.circleMarker(
+                [14.3738506, 0.1457981],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_0acb75f213fcd95f7df7751a2601ec64 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f1f2b793c5c7785419ca7ccdbe7399b7 = $(`<div id="html_f1f2b793c5c7785419ca7ccdbe7399b7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.3 Falagountou   The sedimentary sequences of the Falagountou deposit are intruded by monzonites and monzodiorites  (Fig  5.5). These  rocks  are  alkaline  to  calc-alkaline  with  plagioclase  feldspars  and  alkali  feldspar  making up a bulk of the mineralogy of the rocks. The alkaline intrusive rocks are quartz syenite and  quartz monzonite. The samples are phaneritic and are composed of medium-grained to coarse-grained  alkali feldspar (mainly orthoclase), plagioclase feldspar and quartz. The silicate mineralogy in the Falagountou deposit includes alkali feldspar, plagioclase, and quartz,  with  muscovite,  epidote,  sericite,  chlorite,  biotite,  hornblende,  calcite  and  cordierite;  however  most  dominant silicates found in the samples are feldspars, quartz and sericite. The two type of feldspars  identified  are  alkali  feldspar  and  plagioclase. || Gabbro and Diorite   The  Falagountou  deposit  is  crosscut  by  gabbro  dykes  composed  of  pyroxene,  plagioclase  and  arsenopyrite; and diorite dykes composed of orthoclase, plagioclase, quartz, hornblende and biotite. In  diamond  drill  core,  the  diorites  occur  at  a  shallow  depth  and  the  gabbro  occurs  towards  the  end  of  hole. The intrusives are coarse-grained and are cross-cut by extensional quartz-carbonate veins (V1). Chloritisation is the most common type of alteration developed in the intrusives. 14 || The Essakane deposit is described as quartz-carbonate hosted sulphide stockwork, with arsenopyrite- pyrite  gold  mineralisation  (Kerr  (b),  2004;  Tshibubudze  et  al.,  2009),  which  formed  during  the  D2  deformation event (Tshibubudze et al., 2009). The Sokadie deposit is hosted in a shear zone, and it is  situated  proximally  to  the  Dori  batholith  (Kerr  (a),  2004). The  mineralisation  in  the  Falagountou  deposit  has  been  interpreted  to  be  a  stockwork  of  veinlets  of  quartz±carbonate-sulphide  (Kerr  (c),  2004). The veinlets are hosted in the metasedimentary rocks together with the intrusive rocks found in  the area (Kerr (c), 2004). 8<br><b>Geocode:</b> Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 14,20,37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_0acb75f213fcd95f7df7751a2601ec64.setContent(html_f1f2b793c5c7785419ca7ccdbe7399b7);
+            
+        
+
+        circle_marker_32b1fe46eca7e0494b206231a11949e1.bindPopup(popup_0acb75f213fcd95f7df7751a2601ec64)
+        ;
+
+        
+    
+    
+            circle_marker_32b1fe46eca7e0494b206231a11949e1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c13b28b744c4af4636c1ae20dd03faa = L.circleMarker(
+                [8.0300284, -1.0800271],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_1aaa0c24048884171ed292347797c313 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_685227b3428736416bd49e449e6d54b2 = $(`<div id="html_685227b3428736416bd49e449e6d54b2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level. || 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level. || The  TTG  suite  contact  metamorphosed the Birimian sequences (Hein, et al., 2004; Naba et al., 2004). The  rocks  were  metamorphosed  to  lower  greenschist  facies  during  the  Eburnean  orogeny  which  is  characterised by the development of the mineral assemblage of prehnite, chlorite, actinolite, albite in  mafic  rocks,  and  muscovite,  albite  and  quartz  in  the  sedimentary  sequences  (Leube  et  al.,  1990;  Dzigbodi-Adjmah,  1992;  Debat  et  al.,  2003;  Naba  et  al.,  2004;  Béziat  et  al.,  2000). In  the  contact  aureole of the granitoids, the metamorphic grade is low- to medium grade amphibolite facies, which is  characterised  by  biotite,  muscovite  and  quartz  (Leube  et  al.,  1990;  Naba  et  al.,  2004,  Tunks  et  al.,  2004). The  Palaeoproterozoic  Birimian  sequences  in  NE  Burkina  Faso  are  also  crosscut  by  late  WNW-trending  dolerite  dykes,  which  are  younger  in  age  than  the  granitoids  (Hein,  2009;  Tshibubudze et al., 2009). The Birimian sequences are unconformably overlain by the Tarkwa Group, which was first described  in Ghana. Tshibubudze et al.<br><b>Geocode:</b> Ghana<br><b>Pages:</b> 13,8,8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1aaa0c24048884171ed292347797c313.setContent(html_685227b3428736416bd49e449e6d54b2);
+            
+        
+
+        circle_marker_9c13b28b744c4af4636c1ae20dd03faa.bindPopup(popup_1aaa0c24048884171ed292347797c313)
+        ;
+
+        
+    
+    
+            circle_marker_9c13b28b744c4af4636c1ae20dd03faa.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_093cfa9ec976a48182aaeb2a67c193af = L.circleMarker(
+                [33.0563927, 35.2369919],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_5dea0005ec0638e4752c77b53b63826b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_54c51bef6f93b561397f7895314298f4 = $(`<div id="html_54c51bef6f93b561397f7895314298f4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The deformation D3 is not defined in the Oudalan- Gorouol  greenstone  belt,  but  is  well  developed  in  the  Goren  greenstone  belt  and  post-dates  the  Eburnean orogeny (Hein et al., 2004; Hein, 2009). The  Palaeoproterozoic  Birimian  sequences  were  sheared  by  a  first-order  crustal  scale  structure,  the  Markoye  Shear  Zone,  which  marks  the  western  boundary  of  the  Oudalan-Gorouol  greenstone  belt  7<br><b>Geocode:</b> Goren, Maale Yosef Regional Council, Acre Subdistrict, North District, Israel<br><b>Pages:</b> 13<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5dea0005ec0638e4752c77b53b63826b.setContent(html_54c51bef6f93b561397f7895314298f4);
+            
+        
+
+        circle_marker_093cfa9ec976a48182aaeb2a67c193af.bindPopup(popup_5dea0005ec0638e4752c77b53b63826b)
+        ;
+
+        
+    
+    
+            circle_marker_093cfa9ec976a48182aaeb2a67c193af.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c5813e752a70cc5e169ae76faa7c5e04 = L.circleMarker(
+                [29.9482695, -93.9171155],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_b2678681deb92e3b05b9f2b79ff8eea4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_070ca45833e870f88c6b1c7c4c362b51 = $(`<div id="html_070ca45833e870f88c6b1c7c4c362b51" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Groves et al. (1998) and Goldfarb et al. (2000) classified gold in West Africa as  orogenic gold and gold in Burkina Faso has also been classified as orogenic gold (Béziat et al., 2008). Taner  (2004)  recognised  a  relationship  between  the  gold  mineralisation  and  intrusions  in  the  Falagountou and Essakane deposits. The gold in these deposits can be classified as mesothermal lode  gold, thermal-aureole gold or intrusion-related gold. 1<br><b>Geocode:</b> Groves, Jefferson County, Texas, 77619, United States<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b2678681deb92e3b05b9f2b79ff8eea4.setContent(html_070ca45833e870f88c6b1c7c4c362b51);
+            
+        
+
+        circle_marker_c5813e752a70cc5e169ae76faa7c5e04.bindPopup(popup_b2678681deb92e3b05b9f2b79ff8eea4)
+        ;
+
+        
+    
+    
+            circle_marker_c5813e752a70cc5e169ae76faa7c5e04.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_290add254e15923feb2565e25294825c = L.circleMarker(
+                [50.8553888, 0.5824703],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_2fdcf40ec20ffc8c1e019c065b8baedc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_39e0060c286b940d874e95e1bddd8dbc = $(`<div id="html_39e0060c286b940d874e95e1bddd8dbc" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008).<br><b>Geocode:</b> Hastings, East Sussex, England, United Kingdom<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2fdcf40ec20ffc8c1e019c065b8baedc.setContent(html_39e0060c286b940d874e95e1bddd8dbc);
+            
+        
+
+        circle_marker_290add254e15923feb2565e25294825c.bindPopup(popup_2fdcf40ec20ffc8c1e019c065b8baedc)
+        ;
+
+        
+    
+    
+            circle_marker_290add254e15923feb2565e25294825c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b045dc8a426ef03e03f8408d1af6ddd1 = L.circleMarker(
+                [7.9450752, -11.727446],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_fd49bdab13655348d244e59dd2a143a2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b88b8e3a54704d2ac1e9f80559313313 = $(`<div id="html_b88b8e3a54704d2ac1e9f80559313313" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Geology  2.1 Regional Geology  The West African craton (WAC) is ~ 4.5 million km2 and comprises two shields, the Reguibat Rise in  the north and the Leo-Man Rise to the south (Milési et al., 1992; Villeneuve and Cornée, 1994; Attoh  and Ekwueme, 1997; Potrel et al., 1998). The Taoudeni basin, situated in the central part of the craton,  separates the two shields and is Neo-Proterozoic to Devonian in age (Dioh et al., 2006). The Leo-Man  Rise  in  the  south  comprises  two  domains:  the  Archaean  Kenéma-Man  domain  and  the  Palaeoproterozoic  Baoulé-Mossi  domain. The  Baoulé-Mossi  domain  is  host  to  Birimian  sequences,  and these include meta-sedimentary and meta-volcanic rocks (Milési et al., 1991; Dzigbodi-Adjimah,  1993). Based on previous interpretations by Milési et al. (1991), Debat et al.<br><b>Geocode:</b> Ray and Man's Bar, Bo- Kenema Highway, Goma Town, Bo, Bo District, Sierra Leone<br><b>Pages:</b> 12<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fd49bdab13655348d244e59dd2a143a2.setContent(html_b88b8e3a54704d2ac1e9f80559313313);
+            
+        
+
+        circle_marker_b045dc8a426ef03e03f8408d1af6ddd1.bindPopup(popup_fd49bdab13655348d244e59dd2a143a2)
+        ;
+
+        
+    
+    
+            circle_marker_b045dc8a426ef03e03f8408d1af6ddd1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_851422a6e0002c5e3af14483c5a2da7d = L.circleMarker(
+                [16.3700359, -2.2900239],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_0ddbe64503c915035d60461c03e909b0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_db5713883ff389d695707182c482035f = $(`<div id="html_db5713883ff389d695707182c482035f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level.<br><b>Geocode:</b> Mali<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_0ddbe64503c915035d60461c03e909b0.setContent(html_db5713883ff389d695707182c482035f);
+            
+        
+
+        circle_marker_851422a6e0002c5e3af14483c5a2da7d.bindPopup(popup_0ddbe64503c915035d60461c03e909b0)
+        ;
+
+        
+    
+    
+            circle_marker_851422a6e0002c5e3af14483c5a2da7d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8cb5749d865e8dffe9bb779a5a049e04 = L.circleMarker(
+                [54.1936805, -4.5591148],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_72e4e0b8cf13eb233e2f01ec68a67f34 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9e029f9818dfaf2407a69be06ea28a7d = $(`<div id="html_9e029f9818dfaf2407a69be06ea28a7d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Geology  2.1 Regional Geology  The West African craton (WAC) is ~ 4.5 million km2 and comprises two shields, the Reguibat Rise in  the north and the Leo-Man Rise to the south (Milési et al., 1992; Villeneuve and Cornée, 1994; Attoh  and Ekwueme, 1997; Potrel et al., 1998). The Taoudeni basin, situated in the central part of the craton,  separates the two shields and is Neo-Proterozoic to Devonian in age (Dioh et al., 2006). The Leo-Man  Rise  in  the  south  comprises  two  domains:  the  Archaean  Kenéma-Man  domain  and  the  Palaeoproterozoic  Baoulé-Mossi  domain. The  Baoulé-Mossi  domain  is  host  to  Birimian  sequences,  and these include meta-sedimentary and meta-volcanic rocks (Milési et al., 1991; Dzigbodi-Adjimah,  1993). Based on previous interpretations by Milési et al. (1991), Debat et al.<br><b>Geocode:</b> Isle of Man<br><b>Pages:</b> 12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_72e4e0b8cf13eb233e2f01ec68a67f34.setContent(html_9e029f9818dfaf2407a69be06ea28a7d);
+            
+        
+
+        circle_marker_8cb5749d865e8dffe9bb779a5a049e04.bindPopup(popup_72e4e0b8cf13eb233e2f01ec68a67f34)
+        ;
+
+        
+    
+    
+            circle_marker_8cb5749d865e8dffe9bb779a5a049e04.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d36864adb86fb070732d8cc75101ca36 = L.circleMarker(
+                [50.5032737, 13.636112],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_fa12d3b9d33191207de8c50b16d8df4c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3a9a76675810c1ef1d0bde1e69dc5976 = $(`<div id="html_3a9a76675810c1ef1d0bde1e69dc5976" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The sills have coarser grained euhedral, feldspar crystals. Most  of  these  intrusives  occur  towards  the  end  of  hole  in  diamond  drilling  core. The  dolerite  dykes  are  trending at 334°. The  sedimentary  sequences  include  metavolcaniclastic  greywacke,  quartzite  and  interbedded  sandstone, siltstone, and shale. Quartzite  The quartzite is oxidised. The sulphides are weathering out, indicated by red oxidised pyrite spots on  the surface.<br><b>Geocode:</b> Most, okres Most, Ústí nad Labem Region, Northwest, Czechia<br><b>Pages:</b> 22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fa12d3b9d33191207de8c50b16d8df4c.setContent(html_3a9a76675810c1ef1d0bde1e69dc5976);
+            
+        
+
+        circle_marker_d36864adb86fb070732d8cc75101ca36.bindPopup(popup_fa12d3b9d33191207de8c50b16d8df4c)
+        ;
+
+        
+    
+    
+            circle_marker_d36864adb86fb070732d8cc75101ca36.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3fbf200aecb731f555e70602f715aeec = L.circleMarker(
+                [10.3777812, -4.6882653],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_67fa8570e09e07cc80863fd7eb12116c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8e9b2893c47dbaf65b4aaec0bb9de405 = $(`<div id="html_8e9b2893c47dbaf65b4aaec0bb9de405" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  TTG  suite  contact  metamorphosed the Birimian sequences (Hein, et al., 2004; Naba et al., 2004). The  rocks  were  metamorphosed  to  lower  greenschist  facies  during  the  Eburnean  orogeny  which  is  characterised by the development of the mineral assemblage of prehnite, chlorite, actinolite, albite in  mafic  rocks,  and  muscovite,  albite  and  quartz  in  the  sedimentary  sequences  (Leube  et  al.,  1990;  Dzigbodi-Adjmah,  1992;  Debat  et  al.,  2003;  Naba  et  al.,  2004;  Béziat  et  al.,  2000). In  the  contact  aureole of the granitoids, the metamorphic grade is low- to medium grade amphibolite facies, which is  characterised  by  biotite,  muscovite  and  quartz  (Leube  et  al.,  1990;  Naba  et  al.,  2004,  Tunks  et  al.,  2004). The  Palaeoproterozoic  Birimian  sequences  in  NE  Burkina  Faso  are  also  crosscut  by  late  WNW-trending  dolerite  dykes,  which  are  younger  in  age  than  the  granitoids  (Hein,  2009;  Tshibubudze et al., 2009). The Birimian sequences are unconformably overlain by the Tarkwa Group, which was first described  in Ghana. Tshibubudze et al.<br><b>Geocode:</b> Ne, Niangoloko, Comoé, Waterfalls, Burkina Faso<br><b>Pages:</b> 13<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_67fa8570e09e07cc80863fd7eb12116c.setContent(html_8e9b2893c47dbaf65b4aaec0bb9de405);
+            
+        
+
+        circle_marker_3fbf200aecb731f555e70602f715aeec.bindPopup(popup_67fa8570e09e07cc80863fd7eb12116c)
+        ;
+
+        
+    
+    
+            circle_marker_3fbf200aecb731f555e70602f715aeec.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ae699b2e6577a9de257468de0318ba24 = L.circleMarker(
+                [27.6145265, 107.108076],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_0a1a0bac9c5a27ce8c59484f7e080cd0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7545a9ae10ef578c47cfb322bfd299e4 = $(`<div id="html_7545a9ae10ef578c47cfb322bfd299e4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  sequences  were  deformed  during  Eburnean  orogeny  (2.2-2.0  Ga)  (Hastings,  1982;  Liégeois  et  al.,  1991). The  area  was  also  intruded  by  a  series  of  syn-  to  post  orogenic  granitoids,  which constitute ~70% of the Birimian group (Naba et al., 2004). The Birimian can be divided into the upper and lower Birimian (Junner, 1940). The upper Birimian  consists  of  a  detrital  sedimentary  pile  i.e. volcaniclastics,  turbidites,  shale  and  carbonate  units  and  these are interbedded with calc-alkaline volcanics (Leube et al., 1990; Hirdes et al., 1996; Roddaz et  al., 2007). The lower Birimian consists of a thick sequence of pillowed tholeiitic basalts, dolerites and  gabbros;  interlayered  with  the  basalts  are  immature  sediments  and  carbonates  (Leube  et  al.,  1990;  Roddaz  et  al.,  2007).<br><b>Geocode:</b> Laba, Zunyi, Guizhou, China<br><b>Pages:</b> 12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_0a1a0bac9c5a27ce8c59484f7e080cd0.setContent(html_7545a9ae10ef578c47cfb322bfd299e4);
+            
+        
+
+        circle_marker_ae699b2e6577a9de257468de0318ba24.bindPopup(popup_0a1a0bac9c5a27ce8c59484f7e080cd0)
+        ;
+
+        
+    
+    
+            circle_marker_ae699b2e6577a9de257468de0318ba24.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa8ff1cd8244c3b54e9a12bf0c7ca6c8 = L.circleMarker(
+                [17.7356214, 9.3238432],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_4b258fbf29e7750e14ce87224614d33b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d2f94ceef44fbcbba8f2f4de454c2a09 = $(`<div id="html_d2f94ceef44fbcbba8f2f4de454c2a09" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level. || 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level. || Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008).<br><b>Geocode:</b> Niger<br><b>Pages:</b> 7,8,8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4b258fbf29e7750e14ce87224614d33b.setContent(html_d2f94ceef44fbcbba8f2f4de454c2a09);
+            
+        
+
+        circle_marker_aa8ff1cd8244c3b54e9a12bf0c7ca6c8.bindPopup(popup_4b258fbf29e7750e14ce87224614d33b)
+        ;
+
+        
+    
+    
+            circle_marker_aa8ff1cd8244c3b54e9a12bf0c7ca6c8.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2df72d23a962866bba82b1ccf15af553 = L.circleMarker(
+                [40.5092961, -88.9843937],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_a79081fc2452e490beb33bf57db6002a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8496265396f74ab99cb33a4b08ffa1d0 = $(`<div id="html_8496265396f74ab99cb33a4b08ffa1d0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> N  δ1  Conjugate veins  Extensional veins  δ2  S1  (a)  n=6  1m  (b)  Figure  4.6:  (a)  Equal  area  stereographic  plot  of  the  conjugate  and  extensional  vein  sets  mapped  on  the  Western wall of the Essakane pit (b)    Normal –slip   Fault  Brecciated  footwall  Figure 4.7: NE-trending normal-slip fault in the exploration trench in Essakane (facing south-east). N  3m  22<br><b>Geocode:</b> Normal, McLean County, Illinois, United States<br><b>Pages:</b> 28<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a79081fc2452e490beb33bf57db6002a.setContent(html_8496265396f74ab99cb33a4b08ffa1d0);
+            
+        
+
+        circle_marker_2df72d23a962866bba82b1ccf15af553.bindPopup(popup_a79081fc2452e490beb33bf57db6002a)
+        ;
+
+        
+    
+    
+            circle_marker_2df72d23a962866bba82b1ccf15af553.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9b7e06e00b68c8090da1067c417b9bf9 = L.circleMarker(
+                [12.3681873, -1.5270944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_51ff2be0396965a854cf85483af1e786 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d690f457a626d5454566950ae7bca7f2 = $(`<div id="html_d690f457a626d5454566950ae7bca7f2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level.<br><b>Geocode:</b> Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_51ff2be0396965a854cf85483af1e786.setContent(html_d690f457a626d5454566950ae7bca7f2);
+            
+        
+
+        circle_marker_9b7e06e00b68c8090da1067c417b9bf9.bindPopup(popup_51ff2be0396965a854cf85483af1e786)
+        ;
+
+        
+    
+    
+            circle_marker_9b7e06e00b68c8090da1067c417b9bf9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d346e157458192a1c9f730ca913f92eb = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_e6ad18fe0c684ab23fca5efba28d0fff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7e8eef78f873d9f925a3b2a3ec96e514 = $(`<div id="html_7e8eef78f873d9f925a3b2a3ec96e514" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> N  N  32km  Essakane  Falagountou  Sokadie  8km  Figure 1.2: LANDSAT image of the Oudalan-Gorouol Greenstone belt in Burkina Faso and the locations of the deposits  4<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 10<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e6ad18fe0c684ab23fca5efba28d0fff.setContent(html_7e8eef78f873d9f925a3b2a3ec96e514);
+            
+        
+
+        circle_marker_d346e157458192a1c9f730ca913f92eb.bindPopup(popup_e6ad18fe0c684ab23fca5efba28d0fff)
+        ;
+
+        
+    
+    
+            circle_marker_d346e157458192a1c9f730ca913f92eb.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ee2ecda8f639ae05a837238c2cf1cc10 = L.circleMarker(
+                [22.25, 9.8],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_30719d70d042aa719acf40a95d188e72 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7cbfde38ee6b1a25452350a4642d2c80 = $(`<div id="html_7cbfde38ee6b1a25452350a4642d2c80" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level.<br><b>Geocode:</b> Sahara, Tazrouk, Tazrouk District, Tamanrasset, Algeria<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_30719d70d042aa719acf40a95d188e72.setContent(html_7cbfde38ee6b1a25452350a4642d2c80);
+            
+        
+
+        circle_marker_ee2ecda8f639ae05a837238c2cf1cc10.bindPopup(popup_30719d70d042aa719acf40a95d188e72)
+        ;
+
+        
+    
+    
+            circle_marker_ee2ecda8f639ae05a837238c2cf1cc10.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a925e36c18940ddb655c9aa3148e1036 = L.circleMarker(
+                [21.4202725, 73.9743698],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_7b4d8c0cb3e3886a76399d3cd2576537 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a0620f1cb6cad4f169ec9c783ef32687 = $(`<div id="html_a0620f1cb6cad4f169ec9c783ef32687" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> A  B  Volcaniclastic  S1s  Shale  Zircon S1s  Siltstone  S1s  3 mm  3 mm  Figure 5.22:  (A) Photomicrograph illustrating the contacts lithological contacts with zircons in the shale & S1  (B) Photomicrograph of hornblendite with two foliation directions  2 Scale on photomicrographs indicates width of field of view  28<br><b>Geocode:</b> Shale, Nizar Taluka, Tapi, Gujarat, India<br><b>Pages:</b> 34<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7b4d8c0cb3e3886a76399d3cd2576537.setContent(html_a0620f1cb6cad4f169ec9c783ef32687);
+            
+        
+
+        circle_marker_a925e36c18940ddb655c9aa3148e1036.bindPopup(popup_7b4d8c0cb3e3886a76399d3cd2576537)
+        ;
+
+        
+    
+    
+            circle_marker_a925e36c18940ddb655c9aa3148e1036.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2cd50efa5ef8a91194aae2ba36f76874 = L.circleMarker(
+                [14.3054651, 0.109826],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_f8cf1bd552a576610b49fdb37b4f1d36 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_159e83285e480162172c112b7b231ae8 = $(`<div id="html_159e83285e480162172c112b7b231ae8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.4 Sokadie  Sokadie is a shear hosted deposit. The rocks are mainly greenschists i.e. quartz-plagioclase-chlorite- muscovite  schist,  chlorite-mica  schist,  muscovite-quartz-chlorite  schist,  quartz-plagioclase-epidote  schist,  quartz-chlorite-muscovite  schist  and  quartz-muscovite-plagioclase  schist)  (Fig. 5.9). Greenschist facies minerals dominate and include chlorite, sericite, epidote, actinolite and muscovite. Other minerals in the samples include quartz, orthoclase, plagioclase, cordierite, biotite and calcite. || Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008). || Essakane  Plutons  Falagountou  Sokadie  30 km  Dori Batholith  Figure 6.1: Aeromagnetic photograph of the study area indicating the locations of the plutons in the area  (Photograph courtesy of A. Tshibubudze)  43 || N  N  32km  Essakane  Falagountou  Sokadie  8km  Figure 1.2: LANDSAT image of the Oudalan-Gorouol Greenstone belt in Burkina Faso and the locations of the deposits  4 || The  precipitation  of  sulphides  and  gold  followed  during  this  process. Chloritisation  with  sulphidation  is  interpreted as the Au forming phase. The  interpretation  of  the  data  indicates  that  the  deposits  of  Falagountou,  Essakane  and  Sokadie  formed during the Eburnean orogeny subsequent to the intrusion and cooling of granitoid plutons. The  mineralisation  occurred  during  post  peak  metamorphism  and  is  defined  by  chloritisation  of  the  sequences. The  mineralogy  indicates  that  the  deposits  are  situated  proximal  (middle-aureole)  to  the  granitoids. The  mineralisation  is  hosted  in  quartz-carbonate-chlorite  stockwork  veins. || Two of the three sites i.e. Falagountou and Sokadie are still artisanal mining sites and  Essakane is a developing mine. Essakane is the main deposit and is 11km×3km in dimension, with  Falagountou  and  Sokadie  located  to  the  East  and  south  of  the  Essakane  metasedimentary  belt,  respectively (Kerr(b), 2004). The  dominant  stratigraphic  sequences  that  have  been  identified  in  the  Oudalan-Gorouol  greenstone  belt are a volcaniclastic greywacke sequence and an interbedded conglomerate-greywacke-siltstone- shale  sequence,  which  have  been  contact  metamorphosed  to  hornblende-hornfels  facies  during  the  emplacement  of  igneous  bodies  (Tshibubudze  et  al.,  2009). The  environment  of  deposition  is  interpreted to be a shallow marine continental shelf (Tshibubudze et al., 2009). The  supracrustal  rocks  of  the  Oudalan-Gorouol  greenstone  belt  have  experienced  two  deformation  events  that  resulted  in  the  formation  of  shears,  folds,  mylonite  zones  and  regional  metamorphism;  contact  metamorphism  resulted  from  the  dolerite  dykes  intruding  the  area  and  the  emplacement  of  syn- and post-orogenic plutons (Tshibubudze et al., 2009).<br><b>Geocode:</b> Sokadie, Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 10,14,42,49,50,7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f8cf1bd552a576610b49fdb37b4f1d36.setContent(html_159e83285e480162172c112b7b231ae8);
+            
+        
+
+        circle_marker_2cd50efa5ef8a91194aae2ba36f76874.bindPopup(popup_f8cf1bd552a576610b49fdb37b4f1d36)
+        ;
+
+        
+    
+    
+            circle_marker_2cd50efa5ef8a91194aae2ba36f76874.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_98c91b8c78c8cb47a57c7fe12488be1f = L.circleMarker(
+                [14.3054651, 0.109826],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_57c397dc17c2f55be59e750c4f91527c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a2aa9c3c7b3a33acdb793f255fafcb84 = $(`<div id="html_a2aa9c3c7b3a33acdb793f255fafcb84" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.2.2 Sokadie  The metamorphic rocks in the Sokadie deposit are strongly deformed with well developed foliation,  intersection lineation and crenulation cleavage. The structures mapped indicate that the deposit is in a  shear zone. The shear zone is characterised by intensely foliated, crenulated, chloritised greenschist  rocks. The  greenschist  rocks  are  composed  of  quartz,  plagioclase,  epidote,  chlorite,  muscovite  with  developed of arsenopyrite. The quartz-carbonate veins cross-cutting this unit are intensely folded and boudinaged, and brecciated  buck quartz veins occur within the shear zone. The rock outcrops become progressively sheared when  approaching  the  shear  zone  (towards  the  south). || The Essakane deposit is described as quartz-carbonate hosted sulphide stockwork, with arsenopyrite- pyrite  gold  mineralisation  (Kerr  (b),  2004;  Tshibubudze  et  al.,  2009),  which  formed  during  the  D2  deformation event (Tshibubudze et al., 2009). The Sokadie deposit is hosted in a shear zone, and it is  situated  proximally  to  the  Dori  batholith  (Kerr  (a),  2004). The  mineralisation  in  the  Falagountou  deposit  has  been  interpreted  to  be  a  stockwork  of  veinlets  of  quartz±carbonate-sulphide  (Kerr  (c),  2004). The veinlets are hosted in the metasedimentary rocks together with the intrusive rocks found in  the area (Kerr (c), 2004). 8<br><b>Geocode:</b> Sokadie, Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 14,29<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_57c397dc17c2f55be59e750c4f91527c.setContent(html_a2aa9c3c7b3a33acdb793f255fafcb84);
+            
+        
+
+        circle_marker_98c91b8c78c8cb47a57c7fe12488be1f.bindPopup(popup_57c397dc17c2f55be59e750c4f91527c)
+        ;
+
+        
+    
+    
+            circle_marker_98c91b8c78c8cb47a57c7fe12488be1f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_82e4daa569baef05c50708e4393b3c65 = L.circleMarker(
+                [14.3054651, 0.109826],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_ef6809a10bef30f750a11d29ce739611 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2ba33c155a60270d7dca2e5f0abdfcfd = $(`<div id="html_2ba33c155a60270d7dca2e5f0abdfcfd" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.1.3 Sokadie  The  Sokadie  shear  zone  (Fig. 4.3)  is  located  south  of  the  Essakane  main  deposit. The  units include  schistose  greywacke,  sandstone,  siltstone,  quartzite  (which  were  identified  on  outcrop),  and  greenschists  (mainly  in  the  drill  core). The  artisanal  mine  workings  are  located  south  of  the  shear  zone. The units are cross-cut by folded and boudinaged quartz-carbonate veins. The structural features  and kinematics indicate that Sokadie is shear-hosted.<br><b>Geocode:</b> Sokadie, Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 24<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ef6809a10bef30f750a11d29ce739611.setContent(html_2ba33c155a60270d7dca2e5f0abdfcfd);
+            
+        
+
+        circle_marker_82e4daa569baef05c50708e4393b3c65.bindPopup(popup_ef6809a10bef30f750a11d29ce739611)
+        ;
+
+        
+    
+    
+            circle_marker_82e4daa569baef05c50708e4393b3c65.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e915cdda2f0dba1ba162fcd2e3395c0 = L.circleMarker(
+                [37.5691072, -101.7935648],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_9b5c8cf3c50090913beba026b5812dc6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8b681299d346a99548944a09bfc95e9e = $(`<div id="html_8b681299d346a99548944a09bfc95e9e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2004)  for  the  Boromo-Goren  Greenstone  belt,  Roddaz  et  al. (2007)  for  the  Upper  Birimian and Tshibubudze et al. (2009) for the OGGB. 6.1.2 Metamorphism  The  supracrustal  rocks  were  regionally  metamorphosed  to  greenschist  facies,  characterised  by  the  development  chlorite,  sericite,  muscovite  and  anhedral  pyrite,  which  formed  due  to  breakdown  of  feldspars  into  sericite  combined  with  iron  from  iron-silicates  and  sulphur  (Stanton,  1972). The  supracrustal  rocks  were  metamorphosed  to  quartzite,  metavolcaniclastic,  metagreywacke,  metasiltstone and  greenschists. The supracrustal rocks  are tentatively  interpreted  to  have  undergone  two phases of deformation.<br><b>Geocode:</b> Stanton County, Kansas, United States<br><b>Pages:</b> 46<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9b5c8cf3c50090913beba026b5812dc6.setContent(html_8b681299d346a99548944a09bfc95e9e);
+            
+        
+
+        circle_marker_4e915cdda2f0dba1ba162fcd2e3395c0.bindPopup(popup_9b5c8cf3c50090913beba026b5812dc6)
+        ;
+
+        
+    
+    
+            circle_marker_4e915cdda2f0dba1ba162fcd2e3395c0.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0507bb461bf56a331482d7ecc45a0cc = L.circleMarker(
+                [21.9170588, -6.3578906],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_14cd0c51d4a1d45d40258409f5740401 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8c93bceadb993196e102f380f0188ee8 = $(`<div id="html_8c93bceadb993196e102f380f0188ee8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Geology  2.1 Regional Geology  The West African craton (WAC) is ~ 4.5 million km2 and comprises two shields, the Reguibat Rise in  the north and the Leo-Man Rise to the south (Milési et al., 1992; Villeneuve and Cornée, 1994; Attoh  and Ekwueme, 1997; Potrel et al., 1998). The Taoudeni basin, situated in the central part of the craton,  separates the two shields and is Neo-Proterozoic to Devonian in age (Dioh et al., 2006). The Leo-Man  Rise  in  the  south  comprises  two  domains:  the  Archaean  Kenéma-Man  domain  and  the  Palaeoproterozoic  Baoulé-Mossi  domain. The  Baoulé-Mossi  domain  is  host  to  Birimian  sequences,  and these include meta-sedimentary and meta-volcanic rocks (Milési et al., 1991; Dzigbodi-Adjimah,  1993). Based on previous interpretations by Milési et al. (1991), Debat et al.<br><b>Geocode:</b> Taoudeni Basin, Hodh Ech Chargui, Mauritania<br><b>Pages:</b> 12<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_14cd0c51d4a1d45d40258409f5740401.setContent(html_8c93bceadb993196e102f380f0188ee8);
+            
+        
+
+        circle_marker_c0507bb461bf56a331482d7ecc45a0cc.bindPopup(popup_14cd0c51d4a1d45d40258409f5740401)
+        ;
+
+        
+    
+    
+            circle_marker_c0507bb461bf56a331482d7ecc45a0cc.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f556060a535864a45375a6c0fc335c6f = L.circleMarker(
+                [32.2793121, -99.8812612],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_a6f27b936d491ba8f66798cae81d67e6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_29c018dd3288762e1c0f27089c82a035 = $(`<div id="html_29c018dd3288762e1c0f27089c82a035" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Wall  and  Taylor  (1991)  observed  retrograde  mineralisation  in  the  thermal- aureole of deposits at Victoria and Elsewhere, Australia. The stockwork vein system and disseminated  sulphides  (mainly  pyrite-arsenopyrite  (Au))  typify  the  thermal-aureole  gold  deposits  identified  in  Quigleys  and  Batman,  Australia  (Hein,  2003). The  mineralisation,  i.e. chlorite-epidote-pyrite- arsenopyrite is located in the lower temperature field of the thermal aureole. The mineralisation in the  OGGB is tentatively interpreted as orogenic under the subdivision of thermal-aureole gold. 42<br><b>Geocode:</b> Taylor County, Texas, United States<br><b>Pages:</b> 48<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a6f27b936d491ba8f66798cae81d67e6.setContent(html_29c018dd3288762e1c0f27089c82a035);
+            
+        
+
+        circle_marker_f556060a535864a45375a6c0fc335c6f.bindPopup(popup_a6f27b936d491ba8f66798cae81d67e6)
+        ;
+
+        
+    
+    
+            circle_marker_f556060a535864a45375a6c0fc335c6f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c2f55c9d305566bd2ca9ebd3de21887 = L.circleMarker(
+                [8.7800265, 1.0199765],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_302d7efa0e2c367c8107fb77ca118488 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2182960546f8f3214dc737057168897b = $(`<div id="html_2182960546f8f3214dc737057168897b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level.<br><b>Geocode:</b> Togo<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_302d7efa0e2c367c8107fb77ca118488.setContent(html_2182960546f8f3214dc737057168897b);
+            
+        
+
+        circle_marker_9c2f55c9d305566bd2ca9ebd3de21887.bindPopup(popup_302d7efa0e2c367c8107fb77ca118488)
+        ;
+
+        
+    
+    
+            circle_marker_9c2f55c9d305566bd2ca9ebd3de21887.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8d87b255aef3d56dc1188c64a30506e = L.circleMarker(
+                [47.3138746, 5.0488196],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_96a98e8ec105d10deadd496d0517950e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7ee7ee188b14d0a8a4ad705ab0119308 = $(`<div id="html_7ee7ee188b14d0a8a4ad705ab0119308" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Groves et al. (1998) and Goldfarb et al. (2000) classified gold in West Africa as  orogenic gold and gold in Burkina Faso has also been classified as orogenic gold (Béziat et al., 2008). Taner  (2004)  recognised  a  relationship  between  the  gold  mineralisation  and  intrusions  in  the  Falagountou and Essakane deposits. The gold in these deposits can be classified as mesothermal lode  gold, thermal-aureole gold or intrusion-related gold. 1<br><b>Geocode:</b> West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_96a98e8ec105d10deadd496d0517950e.setContent(html_7ee7ee188b14d0a8a4ad705ab0119308);
+            
+        
+
+        circle_marker_e8d87b255aef3d56dc1188c64a30506e.bindPopup(popup_96a98e8ec105d10deadd496d0517950e)
+        ;
+
+        
+    
+    
+            circle_marker_e8d87b255aef3d56dc1188c64a30506e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7ce0519fe5131f1433958fa807a79379 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_df79a01ed7e6f4be26dafce375c92e06 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9ca9401cf23867015a3b7fe695a28d80 = $(`<div id="html_9ca9401cf23867015a3b7fe695a28d80" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> N  δ1  Conjugate veins  Extensional veins  δ2  S1  (a)  n=6  1m  (b)  Figure  4.6:  (a)  Equal  area  stereographic  plot  of  the  conjugate  and  extensional  vein  sets  mapped  on  the  Western wall of the Essakane pit (b)    Normal –slip   Fault  Brecciated  footwall  Figure 4.7: NE-trending normal-slip fault in the exploration trench in Essakane (facing south-east). N  3m  22<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 28<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_df79a01ed7e6f4be26dafce375c92e06.setContent(html_9ca9401cf23867015a3b7fe695a28d80);
+            
+        
+
+        circle_marker_7ce0519fe5131f1433958fa807a79379.bindPopup(popup_df79a01ed7e6f4be26dafce375c92e06)
+        ;
+
+        
+    
+    
+            circle_marker_7ce0519fe5131f1433958fa807a79379.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bda6899e44fe2687794b1bf1f906bc6 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_5484ba0dcf0d0d4aad7f8b912033b30b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a3f14e116c73f4f4b7d9bf5818deb0a5 = $(`<div id="html_a3f14e116c73f4f4b7d9bf5818deb0a5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 3: Methodology  3.1 Data Collection  The  project  entailed  petrographic  work  and  field  study  of  the  deposits. The  deposits  were  mapped  over the June/July break, through the sponsorship of IAMGOLD Corporation. The field visit spanned  22 days and a car was provided for transportation to and from the deposit sites. A  LANDSAT  image  of  a  portion  of  north-east  Burkina  Faso  was  used  to obtain  coordinates  of the  deposit  and  thus  delineate  the  deposits. The  equipment  used  for  the  mapping  was  graph  paper,  a  northern  hemisphere  compass  clinometer,  a  geographical  positioning  system  (GPS),  a  hand  lens,  a  digital camera and a geological hammer. The UTM (WGS 84) grid coordinates were drawn in on the  graph  paper  using  the  LANDSAT  image.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 17<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5484ba0dcf0d0d4aad7f8b912033b30b.setContent(html_a3f14e116c73f4f4b7d9bf5818deb0a5);
+            
+        
+
+        circle_marker_7bda6899e44fe2687794b1bf1f906bc6.bindPopup(popup_5484ba0dcf0d0d4aad7f8b912033b30b)
+        ;
+
+        
+    
+    
+            circle_marker_7bda6899e44fe2687794b1bf1f906bc6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_375e06da8ae92fa0c65c8c69aaf297ee = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_546f6d4076b4ff890571ee1a41d36570 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_296156eba3bc4cf2066115782c6a3bb3 = $(`<div id="html_296156eba3bc4cf2066115782c6a3bb3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2003), Dioh et al. (2006)  and  Béziat  et  al. (2008),  the  Birimian  terrains  consists  of  sedimentary  basins,  and  linear  to  arcuate  volcanic belts that  correspond to the period of accretion during the Eburnean orogeny. The north-eastern Burkina Faso consists of the Palaeoproterozoic metasedimentary and metavolcanic  Birimian sequences (2184–2135 Ma) (Davis et al., 1994). The sequences are divided into the upper  and lower Birimian. These are unconformably overlain by the Tarkwa Group (2194-2132 Ma), first  described  in  the  Birim  River  in  Ghana  and  are  believed  to  be  derivatives  of  the  upper  Birimian  (Hastings,  1982;  Milési  et  al.,  1992;  Dzigbodi-Adjimah,  1993;  Bossiére  et  al.,  1996;  Davis  et  al.,  1994). || (2009), refutes the notion that the conglomerate units in the Birimian of  Burkina Faso are Tarkwaian. North-eastern  Burkina  Faso  is  characterised  by  three  tectonic  events;  D1,  D2  and  D3  termed  the  Tangaean  event,  Eburnean  Orogeny  and  the  Wabo-Tampelse  event,  respectfully  (Hein,  2009;  Tshibubudze et al., 2009). The Tangaean event resulted in the development of a NW-NNW trending  fold-thrust belt ca. 2171-2130Ma (Hein, 2009). The Oudalan-Gorouol greenstone belt was intersected  by NE-trending shear zones, related to deformation during the Eburnean orogeny (Tshibubudze et al.,  2009;  Hein,  2009). The  deformation  D2  is  characterised  by  the  development  of  NNE-NE  trending  mylonite and shear zone, F2 folds and a penetrative schistocity (S-C2 to S2), which crosscut the D1  structures (Hein, 2009; Tshibubudze et al., 2009). || Chapter 1  1.1 Introduction  The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West  African  craton,  and  extends  into  the  neighbouring  Niger. The  greenstone  belt  is  characterised  by  meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et  al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can  be found throughout the belt (Tshibubudze et al., 2009). The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have  identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to  deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993;  Béziat et al., 2008).<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 12,13,7<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_546f6d4076b4ff890571ee1a41d36570.setContent(html_296156eba3bc4cf2066115782c6a3bb3);
+            
+        
+
+        circle_marker_375e06da8ae92fa0c65c8c69aaf297ee.bindPopup(popup_546f6d4076b4ff890571ee1a41d36570)
+        ;
+
+        
+    
+    
+            circle_marker_375e06da8ae92fa0c65c8c69aaf297ee.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_645175bd5aafbf2c953eabcc7316a955 = L.circleMarker(
+                [30.3293933, 30.5137919],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_4ec5efcd7adcad1cd720625f030ed44d);
+        
+    
+        var popup_f4ca7717b888f026665dcf7903d9bb15 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0779c90493b2adc518489d1f45a25427 = $(`<div id="html_0779c90493b2adc518489d1f45a25427" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Overview of the Study Area  The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of  Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274  300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin,  Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion  dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are  Christianity and indigenous African religions. Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau  located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk,  1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level.<br><b>Geocode:</b> Cairo, Alexandria Desert Road, Sadat City, Al Minufiya, 32921, Egypt<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f4ca7717b888f026665dcf7903d9bb15.setContent(html_0779c90493b2adc518489d1f45a25427);
+            
+        
+
+        circle_marker_645175bd5aafbf2c953eabcc7316a955.bindPopup(popup_f4ca7717b888f026665dcf7903d9bb15)
+        ;
+
+        
+    
+    
+            circle_marker_645175bd5aafbf2c953eabcc7316a955.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

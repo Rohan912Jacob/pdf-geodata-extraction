@@ -130,7 +130,7 @@ the pluton in KEMB could be a  younger batholith related diorite intrusions sout
 the town of Gorom Gorom. 7. The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands. Ferricrete 
 horizons  in  the  WAC  formed  during  the  Cretaceous  and  associated  with  the 
 development of in situ laterite (Brown et al., 1994; Burke and Gunnell, 2008).",rules
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Burkina Faso,"4,5","1. Introduction 
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Burkina Faso,"4,5,6","1. Introduction 
 1.1 Preamble 
 The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom 
 Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is 
@@ -148,7 +148,13 @@ b. Road to Dori
 Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears 
 indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated 
 on the image is the location of Kel Enguef and the main roads in the area. (Google Earth) 
-4","llm,rules"
+4 || The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that 
+expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field 
+area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N; 
+0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in 
+the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and 
+dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although 
+daily  temperatures  exceeded  30  ⁰C.","llm,rules"
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Clarke,46,"7.3 Migmatite formation 
 A  migmatite  results  from  the  partial  melting  of  a  pre-existing  rock. The  formation  of 
 migmatites is generally associated with an increase in pressure and temperature as either an 
@@ -176,7 +182,7 @@ metamorphism of the Birimian Supergroup to greenschist facies and contact metamo
 from pluton emplacement to low - medium amphibolite facies (Pons et al., 1995; Debat et al., 
 2003). 2.2 Local geology 
 The  Markoye  Shear  Zone  lies  to  the  east  of  the  KEMB.",rules
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Dori,"47,5","Considering the KEMB and related 
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Dori,"47,5,5","Considering the KEMB and related 
 pressure-temperature  conditions,  would  it  have  been  possible  to  produce  a  migmatite? The 
 migmatite  is  situated  between  the  greenschist  and  amphibolite  facies. Here  temperatures 
 would have been in excess of 450 ⁰C (c.f., Vernon and Clarke, 2008). The influx of fluids at 
@@ -185,6 +191,16 @@ presence  of  several  large  plutons  in  the  surrounding  area  which  includ
 granodiorite-tonalite,  Dori  batholith  and  the  Granite  Adamelite  (Tshibubudze  and  Hein, 
 submitted). These  could  have  been  the  source  of  high  temperature  igneous  related  fluids 
 which would have infiltrated the surrounding rocks. || STUDY AREA 
+a. Road to Markoye 
+N 
+Kel Enguef 
+Kel Enguef metamorphic belt 
+1 km 
+b. Road to Dori 
+Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears 
+indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated 
+on the image is the location of Kel Enguef and the main roads in the area. (Google Earth) 
+4 || STUDY AREA 
 a. Road to Markoye 
 N 
 Kel Enguef 
@@ -259,12 +275,7 @@ presence  of  several  large  plutons  in  the  surrounding  area  which  includ
 granodiorite-tonalite,  Dori  batholith  and  the  Granite  Adamelite  (Tshibubudze  and  Hein, 
 submitted). These  could  have  been  the  source  of  high  temperature  igneous  related  fluids 
 which would have infiltrated the surrounding rocks.",rules
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,KEMB,"4,42,47,48,49","(2003), Tshibubudze et al. (2009)  and  Tshibubudze  and  Hein  (submitted)  give  an  understanding  of  the  stratigraphic 
-sequences and metamorphism in the area. This has given some indication of what might be 
-present in the Kel Enguef metamorphic belt. The project has involved the geological mapping of the field area with follow up petrographic 
-and mineralogical work to elucidate the stratigraphy and metamorphic facies of the  KEMB. An  attempt  has  been  made  to  reconstruct  the  environment  of  deposition  and  the  tectonic 
-setting. The study will also investigate if there is any economic mineralization and if so what 
-type. || 7.4 Tectonic History 
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,KEMB,"4,42,47,48,49,8","7.4 Tectonic History 
 The  KEMB  is  host  to  metamorphosed  sedimentary  sequences  and  igneous  intrusions. The 
 terrain has been subjected to a series of regional tectonic events. The studies of Tshibubudze 
 et al. (2009) and Tshibubudze and Hein (submitted) have indicated that the KEMB lies west 
@@ -275,7 +286,17 @@ how the KEMB fits in with the regional geology. || The  Essakane  gold  mine  an
 20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation 
 may occur in the field area. 1.2 Location and physiography 
 The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast 
-of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3 || The intrusion of the diorite pluton. There are several granodiorite plutons that occur in 
+of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3 || The craton has been subjected to several tectonic events corresponding to the deformation of 
+Birimian  Supergroup. This  includes  the  SW  directed  shortening  of  the  Tangaean  Event 
+(2170-2130  Ma),  SE-NW  shortening  of  the  Eburnean  Orogeny  (2130-1980  Ma)  and  the 
+young Wabo-Tampelse Event. The Tangaean Event and Eburnean Orogeny were associated 
+with emplacement of TTG-suite plutons and dykes (Feybesse et al., 2006; Tshibubudze et al., 
+2009; Hein 2010). The tectonic events resulted in the formation of greenstone belts separated 
+by  the  granitoids  (Hirdes  and  Davis,  2002). The  Eburnean  Orogeny  resulted  in  regional 
+metamorphism of the Birimian Supergroup to greenschist facies and contact metamorphism 
+from pluton emplacement to low - medium amphibolite facies (Pons et al., 1995; Debat et al., 
+2003). 2.2 Local geology 
+The  Markoye  Shear  Zone  lies  to  the  east  of  the  KEMB. || The intrusion of the diorite pluton. There are several granodiorite plutons that occur in 
 the  surrounding  area  (Tshibubudze  and  Hein,  submitted). The  most  likely  source  of 
 the pluton in KEMB could be a  younger batholith related diorite intrusions south of 
 the town of Gorom Gorom. 7. The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands. Ferricrete 
@@ -303,12 +324,7 @@ Figure 1.1: a) Location of field area within Burkina Faso with surrounding green
 indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated 
 on the image is the location of Kel Enguef and the main roads in the area. (Google Earth) 
 4",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Kel Enguef metamorphic belt,"2,30,4,5","(2003), Tshibubudze et al. (2009)  and  Tshibubudze  and  Hein  (submitted)  give  an  understanding  of  the  stratigraphic 
-sequences and metamorphism in the area. This has given some indication of what might be 
-present in the Kel Enguef metamorphic belt. The project has involved the geological mapping of the field area with follow up petrographic 
-and mineralogical work to elucidate the stratigraphy and metamorphic facies of the  KEMB. An  attempt  has  been  made  to  reconstruct  the  environment  of  deposition  and  the  tectonic 
-setting. The study will also investigate if there is any economic mineralization and if so what 
-type. || 5. Petrography 
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Kel Enguef metamorphic belt,"2,30,5","5. Petrography 
 The petrographic study included 16 thin section samples of the Kel Enguef metamorphic belt. These  were  chosen  as  representative  samples  of  the  stratigraphy. The  focus  of  the 
 petrographic study was on the textural features and mineral assemblages in order to establish 
 the original rock types and the conditions which lead to metamorphism of the metamorphic 
@@ -337,13 +353,23 @@ samples were submitted to the Wits Geosciences Laboratory to be processed (14 th
 and 1 polished ore block) in early March 2011. A further 25 samples were submitted to SGS 
 for  thin  sections  and  XRD  (samples  with  economic  interest). Another  3  samples  were 
 9",rules
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Markoye,6,"River  channels  trend  east  towards  a  major 
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Markoye,"5,6","River  channels  trend  east  towards  a  major 
 river that is located on the eastern limits of the field area. The majority of the land between 
 the ridges is covered by millet fields where the underlying rock is covered by a layer of sand. Huts  are  scatted  across  the  farm  land  with  the  village  of  Kel  Enguef  situated  to  the  east 
 between  the  two  ridges  of  the  field  area  (Fig. 1.1b). Dirt  roads  are  present  connecting  the 
 village of Kel Enguef to the main road off to the west of the field area. Access into the field 
 was either from this main road or from the north off a main road that connects Gorom Gorom 
-to the village of Markoye (Fig.",rules
+to the village of Markoye (Fig. || STUDY AREA 
+a. Road to Markoye 
+N 
+Kel Enguef 
+Kel Enguef metamorphic belt 
+1 km 
+b. Road to Dori 
+Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears 
+indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated 
+on the image is the location of Kel Enguef and the main roads in the area. (Google Earth) 
+4","llm,rules"
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Markoye Shear Zone,"48,8","7.4 Tectonic History 
 The  KEMB  is  host  to  metamorphosed  sedimentary  sequences  and  igneous  intrusions. The 
 terrain has been subjected to a series of regional tectonic events. The studies of Tshibubudze 
@@ -431,7 +457,7 @@ the amphibolite would have been deposited in the prodelta in the form of shales 
 with  the  sedimentary  rocks  of  the  Birimian  Supergroup  and  in  particular  the  Oudalan-
 Gorouol  greenstone belt  described by  Pons  et  al., 1995; Debat  et  al., 2003;  Tshibubudze et 
 al.,  2009;  Tshibubudze  and  Hein,  submitted.",rules
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Oudalan-Gorouol Greenstone Belt,"4,4,9","(2003) and the area has been shown to comprise basalt, rhyolite and tuffaceous 
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Oudalan-Gorouol Greenstone Belt,"4,4,8,9","(2003) and the area has been shown to comprise basalt, rhyolite and tuffaceous 
 material  with  evidence  of  possible  gold  mineralisation. Apart  from  Castaing  et  al. (2003) 
 nothing  further  has  been  described  for  the  area  indicating  the  importance  of  this  study. Studies  in  the  surrounding  area  of  the  Oudalan-Gorouol  Greenstone  Belt  (just  east  of  the 
 KEMB) by Nikiema et al. (1993), Pons et al. (1995), Debat et al. || (2003) and the area has been shown to comprise basalt, rhyolite and tuffaceous 
@@ -449,7 +475,10 @@ submitted)  and  granulite  facies  (Tshibubudze  and  Hein,  submitted).. Throu
 barometric estimates, shallow crust (3-4 kbar) emplacement of plutons has been established 
 (Pons et al., 1992). Gold and manganese mineralisation as well as pegamatite veins are present in the Oudalan-
 Gorouol  greenstone  belt  (Milési  et  al.,  1992;  Nikiéma,  1992;  Beauvais  et  al.,  2008 
-Tshibubudze, et al., 2009; Tshibubudze and Hein, submitted).","llm,rules"
+Tshibubudze, et al., 2009; Tshibubudze and Hein, submitted). || The  Oudalan-Gorouol  Greenstone 
+Belt  is  situated  just  east  of  the  shear  zone  (Pons  et  al.,  1995;  Tshibubudze  et  al.,  2009; 
+Tshibubudze  and  Hein,  submitted). This  comprises  metamorphosed  and  deformed 
+7","llm,rules"
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Oudalan-Gorouol greenstone belt,42,"The deltaic environment determined 
 from the metaclastic succession allows for the interpretation of the underlying banded iron-
 formation  and amphibolite. Although definitive evidence of a  conformable contact  between 
@@ -474,35 +503,13 @@ the  amphibolite  rocks,  they  are  more  useful  in  determining  the  deposit
 or more thick as well as the coarsening upward sequence in the southern ridge and pebble like 
 nature  of  Unit  Y  between  Units  X  &  Z  of  the  northern  ridge,  a  deltaic  depositional 
 environment  is  interpreted  (Reading,  1978).",rules
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Road to Dori,5,"STUDY AREA 
-a. Road to Markoye 
-N 
-Kel Enguef 
-Kel Enguef metamorphic belt 
-1 km 
-b. Road to Dori 
-Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears 
-indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated 
-on the image is the location of Kel Enguef and the main roads in the area. (Google Earth) 
-4",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Road to Markoye,5,"STUDY AREA 
-a. Road to Markoye 
-N 
-Kel Enguef 
-Kel Enguef metamorphic belt 
-1 km 
-b. Road to Dori 
-Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears 
-indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated 
-on the image is the location of Kel Enguef and the main roads in the area. (Google Earth) 
-4",llm
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Sahara Desert,6,"The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that 
 expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field 
 area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N; 
 0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in 
 the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and 
 dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although 
-daily  temperatures  exceeded  30  ⁰C.",rules
+daily  temperatures  exceeded  30  ⁰C.","llm,rules"
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,Sahel,6,"The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that 
 expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field 
 area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N; 
@@ -605,27 +612,10 @@ volcaniclastics,  greywacke,  siltstone,  shale,  chemical  sediments  and  cher
 Tarkwa  Group,  dated  at  2194–2132  Ma  from  U-Pb  detrital  zircons  (Davis  et  al.,  1994), 
 comprises  clastic  sedimentary  rocks  derived  from  erosion  of  the  Birimian  Supergroup  of 
 which it overlies unconformably (Hirdes et al., 1992 and Davis et al., 1994).","llm,rules"
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,central and western region of the northern ridge,23,"The  northern  ridge  consists  of  three  meta-sedimentary  units  that  are  metamorphosed  to 
-greenschist facies. As with  the southern ridge, the rocks here are dominated by  quartz with 
-muscovite, epidote and iron oxides. The central and western region of the northern ridge host 
-three  well  defined  units  which  form  ridges  separated  by  valleys. Here  the  units  trends 
-approximately  east-west and dip at 58⁰N (Fig. 4.4a; 4.5f & 4.5g). In the eastern region, the 
-units  are  poorly  defined  and  the  ridges  are  broken  up  to  form  low  hillocks  where  the  units 
-trend 085⁰ and dip 60⁰ N.",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,east of the KEMB,"4,8","(2003) and the area has been shown to comprise basalt, rhyolite and tuffaceous 
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,east of the KEMB,4,"(2003) and the area has been shown to comprise basalt, rhyolite and tuffaceous 
 material  with  evidence  of  possible  gold  mineralisation. Apart  from  Castaing  et  al. (2003) 
 nothing  further  has  been  described  for  the  area  indicating  the  importance  of  this  study. Studies  in  the  surrounding  area  of  the  Oudalan-Gorouol  Greenstone  Belt  (just  east  of  the 
-KEMB) by Nikiema et al. (1993), Pons et al. (1995), Debat et al. || The craton has been subjected to several tectonic events corresponding to the deformation of 
-Birimian  Supergroup. This  includes  the  SW  directed  shortening  of  the  Tangaean  Event 
-(2170-2130  Ma),  SE-NW  shortening  of  the  Eburnean  Orogeny  (2130-1980  Ma)  and  the 
-young Wabo-Tampelse Event. The Tangaean Event and Eburnean Orogeny were associated 
-with emplacement of TTG-suite plutons and dykes (Feybesse et al., 2006; Tshibubudze et al., 
-2009; Hein 2010). The tectonic events resulted in the formation of greenstone belts separated 
-by  the  granitoids  (Hirdes  and  Davis,  2002). The  Eburnean  Orogeny  resulted  in  regional 
-metamorphism of the Birimian Supergroup to greenschist facies and contact metamorphism 
-from pluton emplacement to low - medium amphibolite facies (Pons et al., 1995; Debat et al., 
-2003). 2.2 Local geology 
-The  Markoye  Shear  Zone  lies  to  the  east  of  the  KEMB.",llm
+KEMB) by Nikiema et al. (1993), Pons et al. (1995), Debat et al.",llm
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,east of the Markoye shear zone,42,"Therefore  the  sequences  described  may 
 represent a portion of the Oudalan-Gorouol greenstone belt and this would also be enforced 
 by the KEMB close proximity to the belt, to east of the Markoye shear zone, 
@@ -644,22 +634,13 @@ Castaing et al.",llm
 may occur in the field area. 1.2 Location and physiography 
 The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast 
 of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,eastern region,23,"The  northern  ridge  consists  of  three  meta-sedimentary  units  that  are  metamorphosed  to 
-greenschist facies. As with  the southern ridge, the rocks here are dominated by  quartz with 
-muscovite, epidote and iron oxides. The central and western region of the northern ridge host 
-three  well  defined  units  which  form  ridges  separated  by  valleys. Here  the  units  trends 
-approximately  east-west and dip at 58⁰N (Fig. 4.4a; 4.5f & 4.5g). In the eastern region, the 
-units  are  poorly  defined  and  the  ridges  are  broken  up  to  form  low  hillocks  where  the  units 
-trend 085⁰ and dip 60⁰ N.",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,low hills southeast of Gorom Gorom,4,"1. Introduction 
-1.1 Preamble 
-The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom 
-Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is 
-situated  in  the  east  of  the  field  area. During  field  reconnaissance  in  2010,  the  KEMB  was 
-found by the Wits research team where it presented an anomaly on the regional topographical 
-and geological maps. The KEMB has not been researched in detail, thus how it fits in with 
-the  surrounding  area  is  unknown. The  general  region  of  the  KEMB  has  been  mapped  by 
-Castaing et al.",llm
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,eastern limits of the field area,6,"River  channels  trend  east  towards  a  major 
+river that is located on the eastern limits of the field area. The majority of the land between 
+the ridges is covered by millet fields where the underlying rock is covered by a layer of sand. Huts  are  scatted  across  the  farm  land  with  the  village  of  Kel  Enguef  situated  to  the  east 
+between  the  two  ridges  of  the  field  area  (Fig. 1.1b). Dirt  roads  are  present  connecting  the 
+village of Kel Enguef to the main road off to the west of the field area. Access into the field 
+was either from this main road or from the north off a main road that connects Gorom Gorom 
+to the village of Markoye (Fig.",llm
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,northeast of Burkina Faso,4,"1. Introduction 
 1.1 Preamble 
 The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom 
@@ -679,40 +660,21 @@ deformation  during  the  emplacement  of  the  batholith  (Tshibubudze  and  He
 with the migmatite. Figure 7.4: Diagram indicating the melting temperature of wet granite (David 
 Magrass and Brian Wells, 2010) 
 45",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,northern ridge,23,"The  northern  ridge  consists  of  three  meta-sedimentary  units  that  are  metamorphosed  to 
-greenschist facies. As with  the southern ridge, the rocks here are dominated by  quartz with 
-muscovite, epidote and iron oxides. The central and western region of the northern ridge host 
-three  well  defined  units  which  form  ridges  separated  by  valleys. Here  the  units  trends 
-approximately  east-west and dip at 58⁰N (Fig. 4.4a; 4.5f & 4.5g). In the eastern region, the 
-units  are  poorly  defined  and  the  ridges  are  broken  up  to  form  low  hillocks  where  the  units 
-trend 085⁰ and dip 60⁰ N.",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,region of Burkina Faso,6,"The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that 
-expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field 
-area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N; 
-0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in 
-the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and 
-dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although 
-daily  temperatures  exceeded  30  ⁰C.",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,south of the Sahara Desert,6,"The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that 
-expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field 
-area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N; 
-0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in 
-the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and 
-dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although 
-daily  temperatures  exceeded  30  ⁰C.",llm
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,south of the town of Gorom Gorom,49,"The intrusion of the diorite pluton. There are several granodiorite plutons that occur in 
 the  surrounding  area  (Tshibubudze  and  Hein,  submitted). The  most  likely  source  of 
 the pluton in KEMB could be a  younger batholith related diorite intrusions south of 
 the town of Gorom Gorom. 7. The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands. Ferricrete 
 horizons  in  the  WAC  formed  during  the  Cretaceous  and  associated  with  the 
 development of in situ laterite (Brown et al., 1994; Burke and Gunnell, 2008).",llm
-2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,southern ridge,23,"The  northern  ridge  consists  of  three  meta-sedimentary  units  that  are  metamorphosed  to 
-greenschist facies. As with  the southern ridge, the rocks here are dominated by  quartz with 
-muscovite, epidote and iron oxides. The central and western region of the northern ridge host 
-three  well  defined  units  which  form  ridges  separated  by  valleys. Here  the  units  trends 
-approximately  east-west and dip at 58⁰N (Fig. 4.4a; 4.5f & 4.5g). In the eastern region, the 
-units  are  poorly  defined  and  the  ridges  are  broken  up  to  form  low  hillocks  where  the  units 
-trend 085⁰ and dip 60⁰ N.",llm
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,southeast of Gorom Gorom,4,"1. Introduction 
+1.1 Preamble 
+The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom 
+Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is 
+situated  in  the  east  of  the  field  area. During  field  reconnaissance  in  2010,  the  KEMB  was 
+found by the Wits research team where it presented an anomaly on the regional topographical 
+and geological maps. The KEMB has not been researched in detail, thus how it fits in with 
+the  surrounding  area  is  unknown. The  general  region  of  the  KEMB  has  been  mapped  by 
+Castaing et al.",llm
 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,village of Kel Enguef,"4,6","1. Introduction 
 1.1 Preamble 
 The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom 

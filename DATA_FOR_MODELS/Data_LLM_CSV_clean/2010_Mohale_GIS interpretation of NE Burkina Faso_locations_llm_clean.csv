@@ -81,16 +81,12 @@ a  residual  error  of  approximately  2.1  metres. The  three  scenes  were  mo
 Buhera  district  was  extracted,  upon  which  subsequent  image  processing  was  undertaken. Two  bands  3 
 and 4 were used for change detection analysis. Summary of methodology is displayed in the following diagram 
 Figure 2.3.1: Flow diagram showing assessment of severity of degradation in the Save catchment.",Buhera district,llm
-2010_Mohale_GIS interpretation of NE Burkina Faso.txt,"11,12,16,36,4,5","1.2 Location and physiography 
+2010_Mohale_GIS interpretation of NE Burkina Faso.txt,"11,36,4,5","1.2 Location and physiography 
 The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in 
 western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the 
 southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the 
 east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is 
-Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11 || 2.2 Structures 
-In NE Burkina Faso there are four greenstone belts, of which three have been studied, namely, the 
-Goren  and  Oudalan-Gorouol  greenstone belts (Fig. 2.1)  which have  been  studied  by  Hein  et  al. (2004) 
-Hein  et  al. (2010)  and  Tshibubudze  et  al. (2009)  and  the  Yalogo  greenstone  belt  which  has  not  been 
-studied to date. Figure 2.1: Greenstone belts of Burkina Faso after Béziat et al. || As such, remote sensing techniques have great 
+Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11 || As such, remote sensing techniques have great 
 utility  in  lithologic  discrimination,  outcrop  delineation  and  production  of  geological  maps  at  different 
 scales (Qari et al 2008). This study focused on the identification of various lithological units using Landsat images with the aim of 
 using  them  as  part  of  a  dataset for  mineral  (gold and  other  mineral commodities)  potential targeting  in 
@@ -120,13 +116,7 @@ underlay (Tshibubudze et al., 2009). Figure 5.2: Strato-tectonic-magmatic map of
 purple and shear zones in red). Figure  4.3. The  Boromo–Goren  Greenstone  Belt  (BGGB)  of  Burkina  Faso,  together  with  the  Bouroum 
 and Yalogo greenstone belts Hein et al. (2004). || LIST OF FIGURES 
 Figure 1.1: Map of Burkina Faso showing study area. Figure 1.2: Geological map of Burkina Faso showing study area (Hottin & Ouedraogo, 1992). Figure 2.1: Greenstone belts of Burkina Faso after Béziat et al. (2008). Figure 2.3.1: Flow diagram showing assessment of severity of degradation in the Save catchment. Figure  2.3.2:  Updated  national  road  network  map  overlaid  on  mosaiced  SPOT  satellite  images  of  the 
-Kingdom of Swaziland. || Land  use  can  be  divided  into  three  sections:  arable  land  (17.66%),  which  is  mainly  land  cultivated  for 
-crops  that  are  replanted  after  each  harvest  (e.g. rice,  maize,  wheat),  permanent  land  (0.22%),  which  is 
-cultivated land that cannot be replanted after harvest(e.g. coffee, rubber ) and other land (82.12%) which 
-includes  pastures,  woodland,  forest,  built-on  areas,  barren  lands  and  roads. The  land  surface  is  mainly 
-defined  by  alluvial  plains,  low  hills,  and  sand  dunes  of  the  Sahara  Desert. Landforms  in  Burkina  Faso 
-include lakes, rivers, mountains and wetlands. In the north and east of the country vegetation consists of 
-acacia  woodland  and  scrub,  expanding  into  semi-desert  in  the  dry  season  in  the  north.",Burkina Faso,llm
+Kingdom of Swaziland.",Burkina Faso,llm
 2010_Mohale_GIS interpretation of NE Burkina Faso.txt,"39,4","A 
 B 
 Figure 4.7: A-RGB 432 false colour composite with areas of healthy and dense vegetation shown in red 
@@ -176,7 +166,7 @@ indicate  interplay  of  marine-deltaic  sedimentary  processes  and  volcanic  
 interpreted to have occurred within a marginal marine setting adjacent to an emergent volcanic centre or 
 island arc setting (Hein et al., 2004). The conformable nature (angular unconformity) of the successions: 
 the 1) Lower Birimian and 2) Upper Birimian does not provide any case of separation into two formations 
-in the Sanmatenga district described from previous studies by Attoh (1982) and Feybesse et al., (1990).",Gorem segment,llm
+in the Sanmatenga district described from previous studies by Attoh (1982) and Feybesse et al., (1990).",Gorem segment of the BGGB,llm
 2010_Mohale_GIS interpretation of NE Burkina Faso.txt,44,"zone cuts the Goren greenstone belt and the BSZ cuts the OGGB and this is in accordance with what has 
 been documented in literature. Greenstone belts and laterite profiles 
 Since no GIS work has been done on the greenstone belts, there is no confirmation of association of 
@@ -420,13 +410,6 @@ In NE Burkina Faso there are four greenstone belts, of which three have been stu
 Goren  and  Oudalan-Gorouol  greenstone belts (Fig. 2.1)  which have  been  studied  by  Hein  et  al. (2004) 
 Hein  et  al. (2010)  and  Tshibubudze  et  al. (2009)  and  the  Yalogo  greenstone  belt  which  has  not  been 
 studied to date. Figure 2.1: Greenstone belts of Burkina Faso after Béziat et al.",Oudalan-Gorouol greenstone belt,llm
-2010_Mohale_GIS interpretation of NE Burkina Faso.txt,12,"Land  use  can  be  divided  into  three  sections:  arable  land  (17.66%),  which  is  mainly  land  cultivated  for 
-crops  that  are  replanted  after  each  harvest  (e.g. rice,  maize,  wheat),  permanent  land  (0.22%),  which  is 
-cultivated land that cannot be replanted after harvest(e.g. coffee, rubber ) and other land (82.12%) which 
-includes  pastures,  woodland,  forest,  built-on  areas,  barren  lands  and  roads. The  land  surface  is  mainly 
-defined  by  alluvial  plains,  low  hills,  and  sand  dunes  of  the  Sahara  Desert. Landforms  in  Burkina  Faso 
-include lakes, rivers, mountains and wetlands. In the north and east of the country vegetation consists of 
-acacia  woodland  and  scrub,  expanding  into  semi-desert  in  the  dry  season  in  the  north.",Sahara Desert,llm
 2010_Mohale_GIS interpretation of NE Burkina Faso.txt,37,"Dykes 
 The dykes are predominantly NW-trending and are inferred to be dolerite in composition. The dykes are 
 not continuous and hard to trace. Sand dunes 
@@ -560,13 +543,6 @@ the  entire  kingdom  of  Swaziland. Using  ArcView,  all  the  different  natio
 overlaid to produce a single multi-thematic map of Swaziland with scale of 1:250000. From the methodology the following results were obtained: 
 National  map  of  kingdom  of  Swaziland  was  produced  using  SPOT  satellite  imagery  at  scale  of 
 1:250  000.",kingdom of Swaziland,llm
-2010_Mohale_GIS interpretation of NE Burkina Faso.txt,12,"Land  use  can  be  divided  into  three  sections:  arable  land  (17.66%),  which  is  mainly  land  cultivated  for 
-crops  that  are  replanted  after  each  harvest  (e.g. rice,  maize,  wheat),  permanent  land  (0.22%),  which  is 
-cultivated land that cannot be replanted after harvest(e.g. coffee, rubber ) and other land (82.12%) which 
-includes  pastures,  woodland,  forest,  built-on  areas,  barren  lands  and  roads. The  land  surface  is  mainly 
-defined  by  alluvial  plains,  low  hills,  and  sand  dunes  of  the  Sahara  Desert. Landforms  in  Burkina  Faso 
-include lakes, rivers, mountains and wetlands. In the north and east of the country vegetation consists of 
-acacia  woodland  and  scrub,  expanding  into  semi-desert  in  the  dry  season  in  the  north.",north and east of the country,llm
 2010_Mohale_GIS interpretation of NE Burkina Faso.txt,11,"1.2 Location and physiography 
 The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in 
 western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the 

@@ -1,50 +1,29 @@
-filename,location,pages,mentions,source,location_type,geocode_lat,geocode_lon,geocode_str,geocode_type
+filename,location,pages,mentions,source,location_type,geocode_lat,geocode_lon,geocode_str,geocode_type,accuracy
 2008_MATABANE_FE3.txt,1534765; 0216396,26,"Fig. 6: Slump folds and soft sediment deformation in the lower slump facies. Location: FE3-pit 
 2; GPS= 1534765; 0216396. Carbonate host rock 
 Sulphide  vein  crosscutting  the 
 host rock and the quartz vein 
 Quartz vein cross-cutting the 
 carbonate host rock 
-Fig. 7: Quartz vein and sulphide veins cross-cutting calcite host rock (magnification 4X). Sample DFE3-046-005.",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Fig. 7: Quartz vein and sulphide veins cross-cutting calcite host rock (magnification 4X). Sample DFE3-046-005.",llm,GPS,13.86872146595155,-5.623886506871003,"GPS: 13.868721, -5.623887",utm_heuristic,EXTRACTED
 2008_MATABANE_FE3.txt,1534836; 0216256,29,"Sericite alteration 
 0.1mm 
 Fig. 12: Deuteric alteration; (magnification 4X). Sample 195. Host rock 
 granodiorite 
-Fig. 13: Granodiorite dyke; Location: FE3-pit 2; GPS= 1534836; 0216256. 29",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Fig. 13: Granodiorite dyke; Location: FE3-pit 2; GPS= 1534836; 0216256. 29",llm,GPS,13.869348882395823,-5.625188028671232,"GPS: 13.869349, -5.625188",utm_heuristic,EXTRACTED
 2008_MATABANE_FE3.txt,1535190; 0216237,28,"Fig. 10: Slumps (with a glide surface, glide zone containing olistoliths and slump folds in the 
-upper slump facies. Location: FE3-pit 2; GPS= 1535190; 0216237. Fig. 11: Turbidite beds (with erosion surfaces and fining beds) in the siltstone-greywacke unit. Photo taken from FE4 open cast where the turbidites are overturned and best exposed.",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+upper slump facies. Location: FE3-pit 2; GPS= 1535190; 0216237. Fig. 11: Turbidite beds (with erosion surfaces and fining beds) in the siltstone-greywacke unit. Photo taken from FE4 open cast where the turbidites are overturned and best exposed.",llm,GPS,13.872544517087164,-5.625399662393493,"GPS: 13.872545, -5.6254",utm_heuristic,EXTRACTED
 2008_MATABANE_FE3.txt,1535909; 0215872,30,"Sericite replacing the feldspars  
 Fig. 14: Sericite alteration in the granodiorite (magnification 4X). Sample 195. 0.1mm
 Fig. 15: Breccia consisting of irregular clasts in an iron-oxide matrix. Location: FE3-pit 1; 
-GPS= 1535909; 0215872.",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+GPS= 1535909; 0215872.",llm,GPS,13.879002626739569,-5.628847349666377,"GPS: 13.879003, -5.628847",utm_heuristic,EXTRACTED
 2008_MATABANE_FE3.txt,80 km west of Bamako,7,"Also the tectonic setting and the relative timing of 
 gold mineralization will be determined. Determining the relative timing of gold mineralization 
 will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola 
 area. 1.2 Location and physiography 
 The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield 
 is located 80 km west of the capital city of Bamako on the western border of Senegal and 
-Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.",llm,APPROXIMATE,12.649319,-8.000337,"Bamako, Mali",APPROXIMATE
-2008_MATABANE_FE3.txt,Africa,13,"In the 16th century, the Gold Coast of West 
-Africa accounted for 35% of the entire world’s gold production although gold production had 
-decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
-Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and 
-is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently 
-the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
-stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
-mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",rules,PLACE,11.5024338,17.7578122,Africa,APPROXIMATE
-2008_MATABANE_FE3.txt,Alexander Island,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,-70.7303893,-69.8195893,Alexander Island,APPROXIMATE
+Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.",llm,APPROXIMATE,12.649319,-8.000337,"Bamako, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,"Alexander Island, Antarctica",37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
 Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
 margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
@@ -56,31 +35,7 @@ New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slu
 gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
 al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
 the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",llm,PLACE,-72.8438691,0.0,Antarctica,APPROXIMATE
-2008_MATABANE_FE3.txt,Alexandra Island,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,49.4685291,-123.3856452,"Alexandra Island, Area F (West Howe Sound), Sunshine Coast Regional District, British Columbia, Canada",APPROXIMATE
-2008_MATABANE_FE3.txt,Antarctica,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,-72.8438691,0.0,Antarctica,APPROXIMATE
+Martinsen 1994; Betrand et al., 2008).",llm,PLACE,-72.8438691,0.0,Antarctica,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Badon-Kakadian batholith,12,"2.7 Intrusive rocks 
 The Birimian sequences of the Kéniéba Inlier are intruded by calc-alkaline granitoids (TTG 
 suite)  that  were  emplaced  during  the  Eburnean  Orogeny  at  2200-2000  Ma  (Leube  et  al., 
@@ -91,21 +46,7 @@ et al., 2008). The 120 km long Badon-Kakadian batholith intrudes the Mako Superg
 numerous  TTG  suite  plutons  and  a  layered  plutonic  complex  (Dioh  et  al.,  2006). The 
 complex  is  composed  of  werhlite,  pyroxenite,  gabbro  and  diorite  (Gueye  et  al.,  2008). The 
 batholith  also  hosts  granitoids  that  are  dated  at  2199±68  Ma  (Bassot  and  Caen-Vachette, 
-1984 in Ledru et al., 1991; Rb-Sr whole rock; Gueye et al., 2008).",llm,GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Balangoma,12,"The Saraya batholith intrudes the Dialé-Dalemé Supergroup and includes the Balangouma 
-and Boboti plutons (Hirdes et al., 2002). The Saraya batholith is composed of biotite-bearing 
-tonalite to granite, while the Boboti and Balangoma plutons comprise gabbro to amphibole-
-biotite bearing monzogranite (Dioh et al., 2006) that are dated at 1973±33 Ma (Ledru et al., 
-1991; Rb-Sr). The Falemé volcanic belt is intruded by Na-rich, belt-type granitoids (Dioh et 
-al., 2006). 2.8 Metamorphism 
-During the Eburnean Orogeny, the Birimian meta-volcanic and meta-sedimentary sequences 
-of  the  Kéniéba  Inlier  were  subjected  to  regional  metamorphism  to  greenschist  facies 
-(Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Debat  et  al.,  2003). The  contact  aureole  of 
-granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  assemblages  indicating 
-that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al., 
-2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated 
-at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et 
-al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",rules,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+1984 in Ledru et al., 1991; Rb-Sr whole rock; Gueye et al., 2008).",llm,GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Balangouma pluton,12,"The Saraya batholith intrudes the Dialé-Dalemé Supergroup and includes the Balangouma 
 and Boboti plutons (Hirdes et al., 2002). The Saraya batholith is composed of biotite-bearing 
 tonalite to granite, while the Boboti and Balangoma plutons comprise gabbro to amphibole-
@@ -119,30 +60,7 @@ granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  asse
 that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al., 
 2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated 
 at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et 
-al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,13.0798757,-11.489401,"Balangouma, Communauté rurale de Missirah Sirimana, Arrondissement de Sabodala, Département de Saraya, Kédougou Region, Senegal",APPROXIMATE
-2008_MATABANE_FE3.txt,Bamako,7,"Also the tectonic setting and the relative timing of 
-gold mineralization will be determined. Determining the relative timing of gold mineralization 
-will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola 
-area. 1.2 Location and physiography 
-The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield 
-is located 80 km west of the capital city of Bamako on the western border of Senegal and 
-Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.",rules,PLACE,12.649319,-8.000337,"Bamako, Mali",APPROXIMATE
-2008_MATABANE_FE3.txt,Bambara,7,"The 
-climate ranges from sub-tropical in the south to arid in the north. The country is mostly dry, 
-but  in  the  south  of  the  country,  and  at  the  Sadiola  goldfield,  4-5  months  of  rainy  season 
-significantly  affects  mining  operations. December  and  January  are  the  driest  and  coldest 
-months of the year with zero rainfall, and temperature ranging from 16°C to 33°C. The field component of this study took place in January 2008 before the rainy season started 
-and  temperatures  peaked. During  the  dry  season  a  dry,  dust-laden  harmattan  haze  is 
-common and this reduces visibility. Mali’s official language is French but African languages are widely used; 80% of population 
-speaks  Bambara.",rules,PLACE,8.0204494,-11.612127,"Bambara, Bo District, Sierra Leone",APPROXIMATE
-2008_MATABANE_FE3.txt,Basement,11,"interpreted to have formed during activation on the Senegalo-Mali Shear Zone (Bassot et al., 
-1986 in Pawlig et al., 2006). 2.2 Basement rocks 
-The Sandikounda Amphibolite Gneiss Complex (SAG Complex) forms the basement to the 
-Mako Supergroup. It consists of two major components; Banded Gneiss and the Sonfarara 
-unit  (Gueye  et  al.,  2008). The  Banded  Gneiss  consists  of  heterogeneous  associations  of 
-diorite to tonalite, while the Sonfarara unit comprises amphibolite that has been interpreted 
-as xenoliths (approx. 500m in diameter) with a metamorphic ‘compositional banding’ (Dia et 
-al., 1997; Pawlig et al. 2006; Gueye et al., 2008).",rules,PLACE,51.8608142,5.7616726,"Basement, Olden Tempel, Beuningen Gld, Beuningen, Gelderland, Netherlands, 6641 MN, Netherlands",APPROXIMATE
+al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,13.0799078,-11.4893942,"Balangouma, Communauté rurale de Missirah Sirimana, Arrondissement de Sabodala, Département de Saraya, Kédougou Region, Senegal",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Birimian terrane,"40,44","There  are  two  phases  of  mineralisation  in  the  study  area. (a)  Primary  hydrothermal 
 mineralisation: Gold mineralisation in the breccia lodes and in the upper slump facies 
 consists  of  arsenopyrite-pyrite-gold  assemblages; 
@@ -162,7 +80,7 @@ veins that crosscut the stratigraphy, which implies that gold mineralisation is 
 the  sedimentary  units. The  mineralised  breccias  (and  associated  alteration,  Fig. 21)  occur 
 around contact aureole of the granodiorite. This may imply that the mineralisation is related 
 to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by 
-Hein and Tshibubudze (2007b).",llm,GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Hein and Tshibubudze (2007b).",llm,GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Boboti pluton,12,"The Saraya batholith intrudes the Dialé-Dalemé Supergroup and includes the Balangouma 
 and Boboti plutons (Hirdes et al., 2002). The Saraya batholith is composed of biotite-bearing 
 tonalite to granite, while the Boboti and Balangoma plutons comprise gabbro to amphibole-
@@ -176,19 +94,7 @@ granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  asse
 that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al., 
 2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated 
 at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et 
-al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,42.4062207,42.3525953,"Boboti, Martvili Municipality, Samegrelo-Upper Svaneti, Georgia",APPROXIMATE
-2008_MATABANE_FE3.txt,Burkina,14,"mineralization 
-in  disseminated  sulphides 
-in  volcanic  and  plutonic  rocks  and  gold 
-mineralization in conglomerate beds (Milési et al., 1992). These types of deposits have been 
-reported  in  Burkina  Faso  (Diénémera),  Ghana  (Tarkwa  district),  Mali  (Syama),  and  Ivory 
-Coast (Yaouré-Angovia) (Milési et al., 1992; Feybesse et al., 2006). Syn-orogenic deposits 
-are related to brecciated hydrothermal zones. Late  orogenic  discordant  mesothermal  gold  mineralisation  includes  gold-arsenopyrite  lode 
-mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly-metallic  sulphides 
-(Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
-Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
-Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",rules,PLACE,12.0753083,-1.6880314,Burkina Faso,APPROXIMATE
+al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,42.4062207,42.3525953,"Boboti, Martvili Municipality, Samegrelo-Upper Svaneti, Georgia",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Burkina Faso,13,"In the 16th century, the Gold Coast of West 
 Africa accounted for 35% of the entire world’s gold production although gold production had 
 decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
@@ -197,7 +103,7 @@ is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali ar
 the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
 stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
 mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.","llm,rules",PLACE,12.0753083,-1.6880314,Burkina Faso,APPROXIMATE
+the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.","llm,rules",PLACE,12.0753083,-1.6880314,Burkina Faso,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Burkina Faso (Dienemera),14,"mineralization 
 in  disseminated  sulphides 
 in  volcanic  and  plutonic  rocks  and  gold 
@@ -209,35 +115,19 @@ mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly
 (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
 Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
 Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Burkina Faso (Poura),14,"Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during 
 the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This 
 type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso 
 (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing 
 arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally 
-superimposed. 14",llm,PLACE,11.5931027,-2.7619833,"Poura, Balé, Boucle du Mouhoun, Burkina Faso",APPROXIMATE
-2008_MATABANE_FE3.txt,Candela,40,"The granodiorite dykes show evidence of fluid circulation as 
-represented  by  deuteric  alteration  and  sericitisation. Similar  deuteric  alteration  and 
-sericitisation textures have been reported by Candela (1994) and Yuguchi et al. (2007) and 
-40",rules,PLACE,41.137925,15.514654,"Candela, Foggia, Apulia, 71024, Italy",APPROXIMATE
+superimposed. 14",llm,PLACE,11.5931027,-2.7619833,"Poura, Balé, Boucle du Mouhoun, Burkina Faso",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Capo Millazo,42,"Fig. 20: Injection dykes from Messina Strait and Capo Millazo (modified from Montenat et al., 
 2007). Quartz vein 
 Siltstone 
 Chlorite-sericite 
 alteration 
-Fig 21: Sericite and chlorite alteration in siltstones around quartz veins. 42",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Conway,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,35.0891932,-92.4398402,"Conway, Faulkner County, Arkansas, United States",APPROXIMATE
+Fig 21: Sericite and chlorite alteration in siltstones around quartz veins. 42",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Conway coast in New Zealand,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
 Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
 margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
@@ -249,7 +139,7 @@ New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slu
 gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
 al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
 the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",llm,PLACE,-41.5000831,172.8344077,New Zealand,APPROXIMATE
+Martinsen 1994; Betrand et al., 2008).",llm,PLACE,-41.5000831,172.8344077,New Zealand,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,"Country Clare, Ireland",37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
 Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
 margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
@@ -261,28 +151,7 @@ New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slu
 gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
 al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
 the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",llm,PLACE,52.8378135,-9.0268222,"Woodstock Golf and Country Club, Garville Court, Ennis Rural ED, Ennis Municipal District, County Clare, Munster, V95 CT86, Ireland",APPROXIMATE
-2008_MATABANE_FE3.txt,Damuth,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,32.2960798,-95.9697135,"Damuth Flying D Ranch, 10600, Eustace, Henderson County, Texas, 75124, United States",APPROXIMATE
-2008_MATABANE_FE3.txt,Debris,40,"The deposition of carbonate occurs in a relative stable depositional environment (Proyer et 
-al.,  2008). Slope  and  shallow  marine  carbonate  can  be  re-sedimented  into  a  slump 
-environment  by  the  processes  of  debris  fall  and  sliding  as  olistoliths  (Naylor,  1982; 
-Martinsen, 1994). Debris fall and flow are common processes along the pro-delta (Manzi et 
-al.,  2007;  Pierre  et  al.,  2006;  Dennielou  et  al.,  2006). Debris  flow  of  a  carbonate  platform 
-requires  a  triggering  mechanism  that  destabilizes  the  environment  to  form  olistostrome. Debris flow can be triggered by gravity, active earthquakes or seismic shocks (Montenat et 
-al., 2007; McConnico et al., 2007; Damuth, 1993). In this case, the marble olistoliths in the 
-FE3 opencasts were re-sedimented into a slump environment by debris flow and slumping 
-along a continental margin.",rules,PLACE,34.2031207,-118.2372706,"Verdugo Wash Debris Basin, Glendale, Los Angeles County, California, United States",APPROXIMATE
+Martinsen 1994; Betrand et al., 2008).",llm,PLACE,52.8378135,-9.0268222,"Woodstock Golf and Country Club, Garville Court, Ennis Rural ED, Ennis Municipal District, County Clare, Munster, V95 CT86, Ireland",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Diale-Daleme Supergroup,"10,12,40","Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -325,46 +194,7 @@ granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  asse
 that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al., 
 2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated 
 at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et 
-al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Dioh,11,"2.3 Mako Supergroup 
-The  Mako  Supergroup  is  predominantly  composed  of  tholeiitic  pillowed  basalt  and  calc-
-alkaline  andesite. These  meta-volcanic  rocks  are  inter-layered  with  immature  meta-
-sedimentary and meta-volcaniclastic rocks (Hirdes et al., 2002; Dioh et al., 2006). 2.4 Dialé-Dalemé Supergroup 
-The  Dialé-Dalemé  Supergroup  is  composed  of  meta-sedimentary  sequences  inter-bedded 
-with calc-alkaline volcanics (Pawlig et al., 2006). The meta-sedimentary sequences consist 
-of intercalations of carbonate, volcaniclastic, siliciclastic and turbiditic units (Schwartz et al., 
-2004). The  volcanic  sequences  consist  of  andesite  lavas,  with  rhyolitic  pyroclastites 
-(Schwartz et al., 2004; Dioh et al., 2006). 2.5 Falemé volcanic belt 
-The  Falemé  volcanic  belt  is  poorly  exposed  and  extensively  latteritised  throughout  the 
-Kéniéba Inlier.",rules,PLACE,2.7383935,102.2601843,"Kampung Dioh Tengah, Kuala Pilah, Negeri Sembilan, 72000, Malaysia",APPROXIMATE
-2008_MATABANE_FE3.txt,East,21,"The  unit  is  cross-
-bedded. The unit is carbonate-bearing and has been metamorphosed to greenschist facies. Bedding  trends  to  the  north-west  with  a  dip  of  34°  E. The  greywacke  consists  of  angular 
-grains  of  quartz  embedded  in  a  finer  grained  quartz-chlorite-sericite  matrix. Stratigraphic 
-facing is to the East. 4.1.6 Laterite profile 
-A laterite profile covers the study area to a thickness of more than 2 metres.",rules,PLACE,12.255555,1.0095764,"East, Burkina Faso",APPROXIMATE
-2008_MATABANE_FE3.txt,Eburnean Orogeny,12,"The Saraya batholith intrudes the Dialé-Dalemé Supergroup and includes the Balangouma 
-and Boboti plutons (Hirdes et al., 2002). The Saraya batholith is composed of biotite-bearing 
-tonalite to granite, while the Boboti and Balangoma plutons comprise gabbro to amphibole-
-biotite bearing monzogranite (Dioh et al., 2006) that are dated at 1973±33 Ma (Ledru et al., 
-1991; Rb-Sr). The Falemé volcanic belt is intruded by Na-rich, belt-type granitoids (Dioh et 
-al., 2006). 2.8 Metamorphism 
-During the Eburnean Orogeny, the Birimian meta-volcanic and meta-sedimentary sequences 
-of  the  Kéniéba  Inlier  were  subjected  to  regional  metamorphism  to  greenschist  facies 
-(Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Debat  et  al.,  2003). The  contact  aureole  of 
-granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  assemblages  indicating 
-that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al., 
-2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated 
-at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et 
-al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",rules,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,FE3,20,"Chapter 4: Results 
-4.1 Lithologies 
-The  lithologies  of  the  FE3  opencasts  (FE3_1,  FE3_2  and  FE3_3)  are  composed  of 
-sedimentary  rocks. The  rocks  can  be  divided  into  four  major  units;  lower  slump  facies,  an 
-upper  slump  facies,  a  siltstone-greywacke  and  a  greywacke  unit  (Table  2). They  are 
-unconformably  overlain  by  a  laterite  profile  which  is  a  result  of  post-Palaeoproterozoic 
-weathering processes. The rocks of the FE3 opencast are deformed, which resulted in the development of breccia 
-lodes (cataclasite). The units have been intruded by granodiorite dykes. The intrusions have 
-contact metamorphosed the rocks with the development of a contact metamorphic aureole.",rules,GPS,48.5601724,6.183953,"FE3, D 913, Parc d'activités du Plateau, Flavigny-sur-Moselle, Nancy, Meurthe-et-Moselle, Grand Est, Metropolitan France, 54630, France",APPROXIMATE
+al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,FE3 open cast,7,"Chapter 1: Introduction 
 1.1 Preamble 
 The FE3 open cast is situated in the Sadiola goldfield in Mali. The goldfield also includes the 
@@ -376,7 +206,7 @@ mapped  or  researched  to  date. Therefore  the  relationship  between  the  st
 structures  and  intrusive  rocks  is  not  known,  but  it  is  considered  by  Sadiola  mine  geology 
 team to be important in determining the tectonic setting and the timing of gold mineralization 
 in the goldfield. Therefore  the  main  objective  of  this  study  is  to  describe  the  stratigraphy,  structure  and 
-intrusive rocks that occur in the goldfield.",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+intrusive rocks that occur in the goldfield.",llm,GPS,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,FE3 opencasts,40,"Finally,  the  sediments  of  the  FE3  opencasts  (Kofi  Series)  have  not  been  dated  but  are 
 interpreted as Birimian in age by Hirdes et al. (2002). The Birimian sequences of the West 
 African  craton  are  dated  at  2238-2171  Ma  (Milési  et  al.,  1991,  1992;  Ledru  et  al.,  1991; 
@@ -398,7 +228,7 @@ veins that crosscut the stratigraphy, which implies that gold mineralisation is 
 the  sedimentary  units. The  mineralised  breccias  (and  associated  alteration,  Fig. 21)  occur 
 around contact aureole of the granodiorite. This may imply that the mineralisation is related 
 to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by 
-Hein and Tshibubudze (2007b).",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Hein and Tshibubudze (2007b).",llm,GPS,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,FE3-pit 1,"27,30","Octahedral pyrite 
 Fig. 8: Octahedral pyrite in marble (magnification 4X). Sample SDFE3-007-017. 0.1mm 
 Mudstone dykes 
@@ -407,7 +237,7 @@ Fig. 9: Fluid escape structures in the upper slump facies Location: FE3-pit 1; G
 0215840. 27 || Sericite replacing the feldspars  
 Fig. 14: Sericite alteration in the granodiorite (magnification 4X). Sample 195. 0.1mm
 Fig. 15: Breccia consisting of irregular clasts in an iron-oxide matrix. Location: FE3-pit 1; 
-GPS= 1535909; 0215872.",llm,GPS,44.5428881,-69.8202249,"Pit 1, Belgrade, Kennebec County, Maine, United States",APPROXIMATE
+GPS= 1535909; 0215872.",llm,GPS,44.5433184,-69.8203591,"Pit 1, Belgrade, Kennebec County, Maine, United States",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,FE3-pit 2,"25,26,28,29","Fig. 10: Slumps (with a glide surface, glide zone containing olistoliths and slump folds in the 
 upper slump facies. Location: FE3-pit 2; GPS= 1535190; 0216237. Fig. 11: Turbidite beds (with erosion surfaces and fining beds) in the siltstone-greywacke unit. Photo taken from FE4 open cast where the turbidites are overturned and best exposed. || Fig. 6: Slump folds and soft sediment deformation in the lower slump facies. Location: FE3-pit 
 2; GPS= 1534765; 0216396. Carbonate host rock 
@@ -441,21 +271,13 @@ Fining upwards
 Erosion surfaces 
 Fig. 5:  Turbidite  sequences  of  the  lower  slump  facies. Location:  FE3-pit  2;  GPS=  1536162; 
 0216258  
-25",llm,GPS,20.6094928,-103.4025385,"Parque Industrial Tecnológico II, Tlaquepaque, San Pedro Tlaquepaque, Región Centro, Jalisco, Mexico",APPROXIMATE
+25",llm,GPS,20.6094928,-103.4025385,"Parque Industrial Tecnológico II, Tlaquepaque, San Pedro Tlaquepaque, Región Centro, Jalisco, Mexico",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,FE3-pit 3,32,"palaeochannel 
 Unconformity 
 Fig. 18: Palaeochannel - unconformity at the bottom of the palaeochannel. Location: FE3-pit 3; 
-photo taken facing north. 32",llm,GPS,40.393475,-79.855678,"#3 Slag Pit, Bessemer, North Braddock, Allegheny County, Pennsylvania, United States",APPROXIMATE
-2008_MATABANE_FE3.txt,FE3_3,44,"6. Conclusions 
-1. The lithologies of the FE3 opencasts (FE3_1, FE3_2 and FE3_3) can be divided into 
-four major units; lower slump facies, an upper slump facies, a siltstone-greywacke and 
-a greywacke unit. 2. Slumps  of  the  upper  and  lower  slump  facies,  which  exhibit  mass  flow  textures  (glide 
-surfaces,  slump  folds,  chaotic  bedding,  floating  clast,  olistoliths,  turbidites,  seismites 
-and fluid escape structures) are interpreted to have formed along a continental margin 
-in  either  a  pro-deltaic  or  deep-water  environment,  possible  from  a  stable  continental 
-platform. 3.",rules,GPS,52.4363756,10.7414197,"VW Parkpalette FE3, Nordstraße, Sandkamp, Wolfsburg, Lower Saxony, 38440, Germany",APPROXIMATE
+photo taken facing north. 32",llm,GPS,40.3932456,-79.8557945,"#3 Slag Pit Main Sump, Bessemer, North Braddock, Allegheny County, Pennsylvania, United States",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,FE4 open cast,28,"Fig. 10: Slumps (with a glide surface, glide zone containing olistoliths and slump folds in the 
-upper slump facies. Location: FE3-pit 2; GPS= 1535190; 0216237. Fig. 11: Turbidite beds (with erosion surfaces and fining beds) in the siltstone-greywacke unit. Photo taken from FE4 open cast where the turbidites are overturned and best exposed.",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+upper slump facies. Location: FE3-pit 2; GPS= 1535190; 0216237. Fig. 11: Turbidite beds (with erosion surfaces and fining beds) in the siltstone-greywacke unit. Photo taken from FE4 open cast where the turbidites are overturned and best exposed.",llm,GPS,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,FE4 open casts,7,"Chapter 1: Introduction 
 1.1 Preamble 
 The FE3 open cast is situated in the Sadiola goldfield in Mali. The goldfield also includes the 
@@ -467,7 +289,7 @@ mapped  or  researched  to  date. Therefore  the  relationship  between  the  st
 structures  and  intrusive  rocks  is  not  known,  but  it  is  considered  by  Sadiola  mine  geology 
 team to be important in determining the tectonic setting and the timing of gold mineralization 
 in the goldfield. Therefore  the  main  objective  of  this  study  is  to  describe  the  stratigraphy,  structure  and 
-intrusive rocks that occur in the goldfield.",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+intrusive rocks that occur in the goldfield.",llm,GPS,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Faleme volcanic belt,"10,11,12,15,40","Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -543,13 +365,13 @@ granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  asse
 that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al., 
 2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated 
 at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et 
-al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,13.3127665,-11.5901805,"Falémé, Kayes, Mali",APPROXIMATE
+al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,13.3127665,-11.5901805,"Falémé, Kayes, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,GPS= 1535924; 0215840,27,"Octahedral pyrite 
 Fig. 8: Octahedral pyrite in marble (magnification 4X). Sample SDFE3-007-017. 0.1mm 
 Mudstone dykes 
 Siltstone 
 Fig. 9: Fluid escape structures in the upper slump facies Location: FE3-pit 1; GPS= 1535924; 
-0215840. 27",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+0215840. 27",llm,GPS,13.87913493083331,-5.629144730949368,"GPS: 13.879135, -5.629145",utm_heuristic,EXTRACTED
 2008_MATABANE_FE3.txt,GPS= 1536162; 0216258,25,"Table 2: Stratigraphic succession of the FE3 open cast. (Youngest)  
 Lithologies 
   Description  
@@ -572,15 +394,7 @@ Fining upwards
 Erosion surfaces 
 Fig. 5:  Turbidite  sequences  of  the  lower  slump  facies. Location:  FE3-pit  2;  GPS=  1536162; 
 0216258  
-25",llm,GPS,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Garmin,19,"Chapter 3: Methodology 
-3.1 Data collection 
-Field mapping of the FE3 open casts was completed in January 2008. At each station point, 
-the  facies  were  mapped,  lithological  data  was  recorded  and  the  GPS  coordinates  were 
-established. Also,  where  appropriate  a  photographic  record  was  made  and  samples  were 
-collected for petrographic studies. The  data  was  captured  using  a  northern  hemisphere  compass  clinometer,  and  the 
-geographic  coordinates  were  recorded  using  a  Garmin  GPS. The  GPS  station  data  used 
-UTM coordination system, WGS 84 datum. The point data was transferred onto mine maps.",rules,PLACE,46.7727441,23.6041013,"Garmin, 33-37, Calea Dorobanților, Gheorgheni, Cluj-Napoca, Cluj Metropolitan Area, Cluj, 400117, Romania",APPROXIMATE
+25",llm,GPS,13.881326232932425,-5.625304337970767,"GPS: 13.881326, -5.625304",utm_heuristic,EXTRACTED
 2008_MATABANE_FE3.txt,Ghana,13,"In the 16th century, the Gold Coast of West 
 Africa accounted for 35% of the entire world’s gold production although gold production had 
 decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
@@ -589,7 +403,7 @@ is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali ar
 the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
 stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
 mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.","llm,rules",PLACE,8.0300284,-1.0800271,Ghana,APPROXIMATE
+the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.","llm,rules",PLACE,8.0300284,-1.0800271,Ghana,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,"Ghana (Ashanti, Pretea, Marlu, Bogosu, Konongo)",14,"mineralization 
 in  disseminated  sulphides 
 in  volcanic  and  plutonic  rocks  and  gold 
@@ -601,7 +415,7 @@ mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly
 (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
 Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
 Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,6.6231481,-1.2148111,"Konongo, Asante-Akim Central Municipal District, Ashanti Region, Ghana",APPROXIMATE
+long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,6.6231481,-1.2148111,"Konongo, Asante-Akim Central Municipal District, Ashanti Region, Ghana",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Ghana (Tarkwa district),14,"mineralization 
 in  disseminated  sulphides 
 in  volcanic  and  plutonic  rocks  and  gold 
@@ -613,7 +427,7 @@ mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly
 (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
 Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
 Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,5.3072505,-1.9913225,"District Office and Clinic, Prisons Avenue, Tarkwa Zongo, Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana",APPROXIMATE
+long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,5.3072505,-1.9913225,"District Office and Clinic, Prisons Avenue, Tarkwa Zongo, Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Ghanaian gold province,13,"In the 16th century, the Gold Coast of West 
 Africa accounted for 35% of the entire world’s gold production although gold production had 
 decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
@@ -622,25 +436,7 @@ is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali ar
 the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
 stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
 mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",llm,GEOLOGICAL_UNIT,51.5502718,0.0249117,"Connies Special Authentic Ghanaian, 85-87, Woodgrange Road, Forest Gate, London Borough of Newham, London, Greater London, England, E7 0EP, United Kingdom",APPROXIMATE
-2008_MATABANE_FE3.txt,Gold Coast,13,"In the 16th century, the Gold Coast of West 
-Africa accounted for 35% of the entire world’s gold production although gold production had 
-decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
-Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and 
-is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently 
-the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
-stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
-mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",rules,PLACE,-28.0023731,153.4145987,"Gold Coast City, Queensland, Australia",APPROXIMATE
-2008_MATABANE_FE3.txt,Gold Coast of West,13,"In the 16th century, the Gold Coast of West 
-Africa accounted for 35% of the entire world’s gold production although gold production had 
-decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
-Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and 
-is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently 
-the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
-stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
-mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",rules,APPROXIMATE,41.9038968,-87.6322263,"West Division Street, Gold Coast, Near North Side, Chicago, Cook County, Illinois, 60610, United States",APPROXIMATE
+the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",llm,GEOLOGICAL_UNIT,51.4837862,-0.093892,"Abokobi Ghanaian Restaurant, Camberwell Road, Browning Estate, Walworth, London Borough of Southwark, London, Greater London, England, SE5 0EN, United Kingdom",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Gold Coast of West Africa,13,"In the 16th century, the Gold Coast of West 
 Africa accounted for 35% of the entire world’s gold production although gold production had 
 decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
@@ -649,66 +445,20 @@ is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali ar
 the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
 stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
 mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",llm,APPROXIMATE,47.3138746,5.0488196,"West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France",APPROXIMATE
-2008_MATABANE_FE3.txt,Graham,23,"The quartzite is very fine 
-grained. The marble boulders that occur in the lower slump facies contain pyritohedra (Fig. 8). These 
-are  particularly  interesting  as  they  differ  in  shape  and  origin  from  the  ‘normal’  hexagonal 
-pyrite. The pyrite grains of this morphology are formed in alkaline polysulphide solutions and 
-the  development  of  octahedral  surfaces  are  a  result  of  slow  rate  of  pyritization  and 
-crystallisation in the presence of excess CaSO4 (Graham and Ohmoto, 1994). The marble is very fine grained and completely composed of calcite.",rules,PLACE,35.359542,-83.8337785,"Graham County, North Carolina, United States",APPROXIMATE
-2008_MATABANE_FE3.txt,Gueye,10,"Chapter 2: Regional geology 
-2.1 Preamble 
-The West African craton has been divided into four major domains; the Reguibat Rise, the 
-Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et 
-al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin 
-which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains 
-consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
-et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
-terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",rules,PLACE,-4.7984829,11.8483664,"Gueye, Rue de N'djeno, Losange, Pointe-Noire, Lumumba (arrondissement 1), Pointe-Noire (commune), Pointe-Noire (département), Congo-Brazzaville",APPROXIMATE
-2008_MATABANE_FE3.txt,Guinea,14,"Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during 
-the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This 
-type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso 
-(Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing 
-arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally 
-superimposed. 14",rules,PLACE,10.7226226,-10.7083587,Guinea,APPROXIMATE
+the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",llm,APPROXIMATE,47.3138746,5.0488196,"West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Guinea (Banora),14,"Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during 
 the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This 
 type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso 
 (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing 
 arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally 
-superimposed. 14",llm,PLACE,11.6080136,-10.2970052,"Banora, Dinguiraye, Faranah Region, Guinea",APPROXIMATE
-2008_MATABANE_FE3.txt,Ireland,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,52.865196,-7.9794599,Ireland,APPROXIMATE
+superimposed. 14",llm,PLACE,11.6080136,-10.2970052,"Banora, Dinguiraye, Faranah Region, Guinea",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Italy,38,"An  olistostrome  (composed  of  olistoliths)  is  defined  as  a  sedimentary  body  of  lithological 
 heterogeneous  material  in  which  the  fine-grained  matrix  supports  the  clasts  (olistoliths). They can result from sliding and debris flow on the edge of the continental margin (Maltman, 
 1994; Naylor, 1981). Olistotromes are recorded in Italy and the Niger Delta where slumping 
 and  debris  flow  occur  along  the  passive  continental  margin  (Naylor,  1982;  Damuth,  1993). This  suggests  that  the  olistostrome  were  formed  along  a  continental  margin  where  debris 
 flow and mass transportation displaced blocks and rock material downslope. The  mudstone  dykes  in  the  upper  slump  facies  are  similar  to  the  fluid  escape  structures 
 described  by  Lowe  (1975),  Stromberg,  (1998)  and  Montenat  et  al. (2007)  who  interpreted 
-mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.","llm,rules",PLACE,42.6384261,12.674297,Italy,APPROXIMATE
-2008_MATABANE_FE3.txt,Ivory Coast,14,"mineralization 
-in  disseminated  sulphides 
-in  volcanic  and  plutonic  rocks  and  gold 
-mineralization in conglomerate beds (Milési et al., 1992). These types of deposits have been 
-reported  in  Burkina  Faso  (Diénémera),  Ghana  (Tarkwa  district),  Mali  (Syama),  and  Ivory 
-Coast (Yaouré-Angovia) (Milési et al., 1992; Feybesse et al., 2006). Syn-orogenic deposits 
-are related to brecciated hydrothermal zones. Late  orogenic  discordant  mesothermal  gold  mineralisation  includes  gold-arsenopyrite  lode 
-mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly-metallic  sulphides 
-(Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
-Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
-Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",rules,PLACE,7.9897371,-5.5679458,Côte d'Ivoire,APPROXIMATE
+mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.","llm,rules",PLACE,42.6384261,12.674297,Italy,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Ivory Coast (Asupiri and Anuiri),14,"mineralization 
 in  disseminated  sulphides 
 in  volcanic  and  plutonic  rocks  and  gold 
@@ -720,13 +470,13 @@ mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly
 (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
 Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
 Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Ivory Coast (Hire),14,"Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during 
 the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This 
 type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso 
 (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing 
 arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally 
-superimposed. 14",llm,PLACE,6.1863684,-5.2960098,"Hiré, Lôh-Djiboua, Gôh-Djiboua, Côte d'Ivoire",APPROXIMATE
+superimposed. 14",llm,PLACE,6.1863684,-5.2960098,"Hiré, Lôh-Djiboua, Gôh-Djiboua, Côte d'Ivoire",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Ivory Coast (Yaoure-Angovia),14,"mineralization 
 in  disseminated  sulphides 
 in  volcanic  and  plutonic  rocks  and  gold 
@@ -738,17 +488,7 @@ mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly
 (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
 Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
 Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Johannesburg,19,"Core-
-logs were completed at the mine site. Appropriate  locations  in the  field  and  selected drill-core,  were  sampled. The  samples  were 
-labelled, bagged and then sent by air freight to the university. At the university the samples 
-were  catalogued  and  sent  to  the  SGS  laboratories  in  Booysen,  Johannesburg  for  lapidary. These thin sections were studied under refracted light and reflected light microscopy. 19",rules,PLACE,-26.205,28.049722,"Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2001, South Africa",APPROXIMATE
-2008_MATABANE_FE3.txt,Kalanga,14,"Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during 
-the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This 
-type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso 
-(Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing 
-arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally 
-superimposed. 14",rules,PLACE,30.337682,78.0877482,"Kalanga, Dehradun, Uttarakhand, 248013, India",APPROXIMATE
+long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Kayes Inlier,10,"Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -758,16 +498,7 @@ which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the
 consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
 et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
 terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.","llm,rules",GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Kenieba,44,"There  are  two  phases  of  mineralisation  in  the  study  area. (a)  Primary  hydrothermal 
-mineralisation: Gold mineralisation in the breccia lodes and in the upper slump facies 
-consists  of  arsenopyrite-pyrite-gold  assemblages; 
-(b)  Secondary  placer  gold 
-mineralisation. 9. A laterite profile covers the study area to a thickness of more than 2 metres 
-10. The considerable difference between the ages given for the Birimian sequences of the 
-West  African  craton  and  those  of  the  Kenieba  Inlier  could  indicate  that  the  slump, 
-olistostrome,  turbidite,  siltstone-greywacke  and  greywacke  sediments  of  the  FE3 
-opencasts were derived from the erosion of the Birimian terrane. 44",rules,PLACE,12.8564377,11.2415847,"Kenieba, Masaba, Borsari, Yobe, Nigeria",APPROXIMATE
+Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.","llm,rules",GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Kenieba Inlier,"10,11,12,15,17,18,22,40,41,44,40","2.3 Mako Supergroup 
 The  Mako  Supergroup  is  predominantly  composed  of  tholeiitic  pillowed  basalt  and  calc-
 alkaline  andesite. These  meta-volcanic  rocks  are  inter-layered  with  immature  meta-
@@ -914,7 +645,7 @@ veins that crosscut the stratigraphy, which implies that gold mineralisation is 
 the  sedimentary  units. The  mineralised  breccias  (and  associated  alteration,  Fig. 21)  occur 
 around contact aureole of the granodiorite. This may imply that the mineralisation is related 
 to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by 
-Hein and Tshibubudze (2007b).","llm,rules",GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Hein and Tshibubudze (2007b).","llm,rules",GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Kenieba Inlier in Mali,10,"Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -924,28 +655,7 @@ which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the
 consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
 et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
 terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,GEOLOGICAL_UNIT,16.3700359,-2.2900239,Mali,APPROXIMATE
-2008_MATABANE_FE3.txt,Keniéba,40,"Finally,  the  sediments  of  the  FE3  opencasts  (Kofi  Series)  have  not  been  dated  but  are 
-interpreted as Birimian in age by Hirdes et al. (2002). The Birimian sequences of the West 
-African  craton  are  dated  at  2238-2171  Ma  (Milési  et  al.,  1991,  1992;  Ledru  et  al.,  1991; 
-Boher  et  al.,  1992). The  Birimian  sequences  are  composed  of  tholeiitic  basalts,  andesitic 
-volcanic,  calc-alkaline  volcanics,  volcaniclastic  sediments,  detrital  sediments  and  chemical 
-sediments which are characteristic of an oceanic island arc environment (Hirdes et al., 2002; 
-Gueye  et  al.,  2008). In  contrast,  the  Birimian  sequences  of  the  Keniéba  Inlier  (i.e.,  Mako 
-Supergroup;  Diale-Daleme  Supergroup;  Falemé  volcanic  belt)  are  dated  at  2063±41  Ma, 
-2096±8  Ma  +  2099±4  Ma  (respectively). They  are  interpreted  as  remnants  of  an  oceanic 
-island  arcs  terrane  that  was  accreted  onto  an  Archaean  continent  (Diallo,  2001;  Dia  et  al., 
-1997).",rules,PLACE,12.7954505,-11.0449971,"Kéniéba, Kayes, Mali",APPROXIMATE
-2008_MATABANE_FE3.txt,Kofi,10,"Chapter 2: Regional geology 
-2.1 Preamble 
-The West African craton has been divided into four major domains; the Reguibat Rise, the 
-Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et 
-al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin 
-which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains 
-consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
-et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
-terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",rules,PLACE,10.1540819,-12.1615833,"Kofi, Mamou Prefecture, Mamou Region, Guinea",APPROXIMATE
+Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,GEOLOGICAL_UNIT,16.3700359,-2.2900239,Mali,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Kofi Series,10,"Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -959,38 +669,7 @@ Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al., 
 Mali, overlies the volcanic belt and has not been dated (Dioh et al., 2006). The sequences are intruded by Eburnean granitoids aged at 2045±27 to 1973±33 Ma (Ledru 
 et  al,  1991;  Taylor  et  al.,  1992;  Pb-Pb;  Pawlig  et  al.,  2006). The  post-Eburnean  age 
 Senegalo-Mali  graben  is  located  between  the  Falemé  volcanic  belt  and  Kofi  Series  and  is 
-10",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Konongo,14,"mineralization 
-in  disseminated  sulphides 
-in  volcanic  and  plutonic  rocks  and  gold 
-mineralization in conglomerate beds (Milési et al., 1992). These types of deposits have been 
-reported  in  Burkina  Faso  (Diénémera),  Ghana  (Tarkwa  district),  Mali  (Syama),  and  Ivory 
-Coast (Yaouré-Angovia) (Milési et al., 1992; Feybesse et al., 2006). Syn-orogenic deposits 
-are related to brecciated hydrothermal zones. Late  orogenic  discordant  mesothermal  gold  mineralisation  includes  gold-arsenopyrite  lode 
-mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly-metallic  sulphides 
-(Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
-Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
-Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",rules,PLACE,6.6231481,-1.2148111,"Konongo, Asante-Akim Central Municipal District, Ashanti Region, Ghana",APPROXIMATE
-2008_MATABANE_FE3.txt,Kéniéba Inlier,10,"3). The 
-Kéniéba Inlier is a Birimian terrain that was accreted during the Eburnean Orogeny at 2.2- 
-2.0  Ga  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Gueye  et  al.,  2008). The  Eburnean 
-Orogeny in the Kéniéba Inlier is characterized by the emplacement of calc-alkaline granitoids 
-which  intruded  the  volcanic  and  sedimentary  sequences  of  the  inlier  (Leube  et  al.,  1990; 
-Dioh  et  al.,  2006). The  post-Eburnean  Senegalo-Malian  graben  lies  east  of  the  Senegalo-
-Mali Shear Zone and trends N-S (Hirdes et al., 2002). The Kofi Series overlies the graben in 
-Mali; the series has not been dated. The stratigraphic succession of the Kéniéba Inlier is listed in Table 1.",rules,GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Ledru,12,"2.7 Intrusive rocks 
-The Birimian sequences of the Kéniéba Inlier are intruded by calc-alkaline granitoids (TTG 
-suite)  that  were  emplaced  during  the  Eburnean  Orogeny  at  2200-2000  Ma  (Leube  et  al., 
-1990;  Eisenlohr  et  al.,  1991;  Hirdes  et  al.,  2002). Two  major  magmatic  events  have  been 
-identified  in  the  Kéniéba  Inlier;  at  2.16-2.11  Ga  and  at  2.08-2.07  Ga  (Gueye  et  al.,  2008). The  early  magmatic  event  resulted  in  the  emplacement  of  the  Badon-Kakadian  batholith; 
-then later resulted in the emplacement of the late granitoids of the Saraya batholith (Gueye 
-et al., 2008). The 120 km long Badon-Kakadian batholith intrudes the Mako Supergroup and consists of 
-numerous  TTG  suite  plutons  and  a  layered  plutonic  complex  (Dioh  et  al.,  2006). The 
-complex  is  composed  of  werhlite,  pyroxenite,  gabbro  and  diorite  (Gueye  et  al.,  2008). The 
-batholith  also  hosts  granitoids  that  are  dated  at  2199±68  Ma  (Bassot  and  Caen-Vachette, 
-1984 in Ledru et al., 1991; Rb-Sr whole rock; Gueye et al., 2008).",rules,PLACE,32.9247304,76.1455911,"Ledru, Chaurah, Chamba, Himachal Pradesh, India",APPROXIMATE
+10",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Leo-Man Rise,10,"Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -1000,7 +679,7 @@ which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the
 consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
 et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
 terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Leo-Man domain,10,"Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -1010,7 +689,7 @@ which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the
 consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
 et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
 terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,GEOLOGICAL_UNIT,42.5968863,-5.5719594,"Leo man, Calle Burgo Nuevo, Centro, León, Castile and León, 24004, Spain",APPROXIMATE
+Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,GEOLOGICAL_UNIT,42.5968863,-5.5719594,"Leo man, Calle Burgo Nuevo, Centro, León, Castile and León, 24004, Spain",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Loulo district of Mali,13,"In the 16th century, the Gold Coast of West 
 Africa accounted for 35% of the entire world’s gold production although gold production had 
 decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
@@ -1019,11 +698,11 @@ is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali ar
 the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
 stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
 mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",llm,PLACE,16.3700359,-2.2900239,Mali,APPROXIMATE
+the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",llm,PLACE,16.3700359,-2.2900239,Mali,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Main Transcurrent,12,"2.9 Regional Structure 
 The  rocks  of  the  Kéniéba  Inlier  were  deformed  during  the  Eburnean  Orogeny  at  2.1  Ga 
 (Milési  et  al.,  1992). Two  major  strike-slip  shear  zones  dominate  the  Inlier;  the  Senegalo-
-Malian Shear Zone and the Main Transcurrent Zone (Ledru et al, 1991) (Fig. 4). Ledru et al. 12","llm,rules",PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Malian Shear Zone and the Main Transcurrent Zone (Ledru et al, 1991) (Fig. 4). Ledru et al. 12","llm,rules",PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Mako Supergroup,"10,12,15,40","2.7 Intrusive rocks 
 The Birimian sequences of the Kéniéba Inlier are intruded by calc-alkaline granitoids (TTG 
 suite)  that  were  emplaced  during  the  Eburnean  Orogeny  at  2200-2000  Ma  (Leube  et  al., 
@@ -1086,17 +765,8 @@ Ma (Dia et al, 1997; detrital zircons, Pb-Pb age) and at 2063±41 Ma (Abouchami,
 Nd). The  Mako  Supergroup  is  overlain  by  the  Dialé-Dalemé  Supergroup  which  consists  of 
 Birimian sequences dated at 2096±8 Ma (Ledru et al, 1991; Pb-zircon evaporation; Hirdes et 
 al.,  2002). The  Dialé-Dalemé  Supergroup  is  overlain  by  the  Falemé  volcanic  belt  which  is 
-dated at 2099±4 Ma (Hirdes et al., 2002; Pb-Pb age).",llm,GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Malaria,8,"Malaria and other arthropod-borne diseases prevail in Mali and high rates of children suffer 
-from malnutrition. Mali is very poor and one of the poorest countries in the world. Mining  is  a  significant  component  to  Mali’s  economy  and  accounted  for  26%  of  gross 
-domestic product (GDP) in 2005, with gold mining accounting for 80% of mining activity (US 
-Department of State, 2008 ). 1.3 Aims and objectives 
-The  main  objective  of  the  project  is  to  define  the  stratigraphy  in  the  study  area  by  sub-
-dividing the facies successions. Furthermore, detailed mapping of structures (if present) will 
-be  done  with  the  purpose  of  determining  the  relative  timing  of  structural  events. Another 
-objective  of  the  project  will  be  mapping  of  the  intrusive  bodies  and  determining  their 
-relationship to stratigraphy and structure.",rules,PLACE,14.7698215,121.0797135,"Malaria, Quirino Highway, Purok Ⅱ, Barangay 185, Zone 16, District 3, Caloocan, Northern Manila District, Metro Manila, 1426, Philippines",APPROXIMATE
-2008_MATABANE_FE3.txt,Mali,"10,13,7,7","3). The 
+dated at 2099±4 Ma (Hirdes et al., 2002; Pb-Pb age).",llm,GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
+2008_MATABANE_FE3.txt,Mali,"10,13,7,8,7","3). The 
 Kéniéba Inlier is a Birimian terrain that was accreted during the Eburnean Orogeny at 2.2- 
 2.0  Ga  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Gueye  et  al.,  2008). The  Eburnean 
 Orogeny in the Kéniéba Inlier is characterized by the emplacement of calc-alkaline granitoids 
@@ -1128,7 +798,15 @@ is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali ar
 the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
 stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
 mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite. || The 
+the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite. || Malaria and other arthropod-borne diseases prevail in Mali and high rates of children suffer 
+from malnutrition. Mali is very poor and one of the poorest countries in the world. Mining  is  a  significant  component  to  Mali’s  economy  and  accounted  for  26%  of  gross 
+domestic product (GDP) in 2005, with gold mining accounting for 80% of mining activity (US 
+Department of State, 2008 ). 1.3 Aims and objectives 
+The  main  objective  of  the  project  is  to  define  the  stratigraphy  in  the  study  area  by  sub-
+dividing the facies successions. Furthermore, detailed mapping of structures (if present) will 
+be  done  with  the  purpose  of  determining  the  relative  timing  of  structural  events. Another 
+objective  of  the  project  will  be  mapping  of  the  intrusive  bodies  and  determining  their 
+relationship to stratigraphy and structure. || The 
 climate ranges from sub-tropical in the south to arid in the north. The country is mostly dry, 
 but  in  the  south  of  the  country,  and  at  the  Sadiola  goldfield,  4-5  months  of  rainy  season 
 significantly  affects  mining  operations. December  and  January  are  the  driest  and  coldest 
@@ -1150,13 +828,13 @@ mapped  or  researched  to  date. Therefore  the  relationship  between  the  st
 structures  and  intrusive  rocks  is  not  known,  but  it  is  considered  by  Sadiola  mine  geology 
 team to be important in determining the tectonic setting and the timing of gold mineralization 
 in the goldfield. Therefore  the  main  objective  of  this  study  is  to  describe  the  stratigraphy,  structure  and 
-intrusive rocks that occur in the goldfield.","llm,rules",PLACE,16.3700359,-2.2900239,Mali,APPROXIMATE
+intrusive rocks that occur in the goldfield.","llm,rules",PLACE,16.3700359,-2.2900239,Mali,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Mali (Kalanga),14,"Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during 
 the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This 
 type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso 
 (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing 
 arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally 
-superimposed. 14",llm,PLACE,13.0043721,-5.1272565,"Kalanga, San Cercle, Ségou Region, Mali",APPROXIMATE
+superimposed. 14",llm,PLACE,13.0043721,-5.1272565,"Kalanga, San Cercle, Ségou Region, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Mali (Sanoukou district),14,"mineralization 
 in  disseminated  sulphides 
 in  volcanic  and  plutonic  rocks  and  gold 
@@ -1168,7 +846,7 @@ mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly
 (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
 Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
 Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Mali (Syama),14,"mineralization 
 in  disseminated  sulphides 
 in  volcanic  and  plutonic  rocks  and  gold 
@@ -1180,46 +858,13 @@ mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly
 (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
 Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
 Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,10.7706954,-6.0687286,"Syama, Kadiolo Cercle, Sikasso Region, Mali",APPROXIMATE
+long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",llm,PLACE,10.7706954,-6.0687286,"Syama, Kadiolo Cercle, Sikasso Region, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Messina Strait,42,"Fig. 20: Injection dykes from Messina Strait and Capo Millazo (modified from Montenat et al., 
 2007). Quartz vein 
 Siltstone 
 Chlorite-sericite 
 alteration 
-Fig 21: Sericite and chlorite alteration in siltstones around quartz veins. 42","llm,rules",PLACE,38.1110374,15.5786445,"Strait of Messina, Reggio Calabria, Italy",APPROXIMATE
-2008_MATABANE_FE3.txt,Mexico,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,23.6585116,-102.0077097,Mexico,APPROXIMATE
-2008_MATABANE_FE3.txt,Middleton,13,"In the 16th century, the Gold Coast of West 
-Africa accounted for 35% of the entire world’s gold production although gold production had 
-decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in 
-Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and 
-is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently 
-the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
-stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
-mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.",rules,PLACE,43.0962919,-89.5119565,"Middleton, Dane County, Wisconsin, 53562, United States",APPROXIMATE
-2008_MATABANE_FE3.txt,Mississippi,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,32.9715285,-89.7348497,"Mississippi, United States",APPROXIMATE
+Fig 21: Sericite and chlorite alteration in siltstones around quartz veins. 42","llm,rules",PLACE,38.1110374,15.5786445,"Strait of Messina, Reggio Calabria, Italy",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Mississippi delta-front slumps,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
 Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
 margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
@@ -1231,60 +876,14 @@ New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slu
 gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
 al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
 the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",llm,PLACE,32.9715285,-89.7348497,"Mississippi, United States",APPROXIMATE
-2008_MATABANE_FE3.txt,Most,23,"Most  of  the  rock  samples  including  quartzites  and  marble  have  been  recrystallised  and 
-metamorphosed. Quartz  grains  in  the  greywacke  unit  host  stylolitic  micro-textures  and 
-granoblastic quartz grains (fig. 16). These textures are interpreted to indicate deformation in 
-the rocks. The quartzite has a pinkish potassium feldspar staining. The potassium staining is 
-interpreted as an indication of a contact aureole around the rocks.",rules,PLACE,50.5032737,13.636112,"Most, okres Most, Ústí nad Labem Region, Northwest, Czechia",APPROXIMATE
-2008_MATABANE_FE3.txt,Naylor,38,"An  olistostrome  (composed  of  olistoliths)  is  defined  as  a  sedimentary  body  of  lithological 
-heterogeneous  material  in  which  the  fine-grained  matrix  supports  the  clasts  (olistoliths). They can result from sliding and debris flow on the edge of the continental margin (Maltman, 
-1994; Naylor, 1981). Olistotromes are recorded in Italy and the Niger Delta where slumping 
-and  debris  flow  occur  along  the  passive  continental  margin  (Naylor,  1982;  Damuth,  1993). This  suggests  that  the  olistostrome  were  formed  along  a  continental  margin  where  debris 
-flow and mass transportation displaced blocks and rock material downslope. The  mudstone  dykes  in  the  upper  slump  facies  are  similar  to  the  fluid  escape  structures 
-described  by  Lowe  (1975),  Stromberg,  (1998)  and  Montenat  et  al. (2007)  who  interpreted 
-mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.",rules,PLACE,36.5753359,-90.6040037,"Naylor, Ripley County, Missouri, 63593, United States",APPROXIMATE
-2008_MATABANE_FE3.txt,Nemec,38,"where Ps= sediment flow density, U= flow mean velocity, h = flow thickness and µs = flow 
-apparent viscosity (Sentini, 1970; Nemec, 1990). For turbulence to be initiated the Reynolds 
-number must be greater than 2000 (Ercilla et al., 2002). High density, fast flowing and deep-
-water environments are favoured for turbidity currents (Quaeño, 2005). Environments such 
-as these include deep-water and pro-deltaic environments where turbidite sediments readily 
-accumulate (Stow and Johansson 2000; Ponce et al., 2008). From this, it is interpreted that 
-the  turbidites  in  the  siltstone-greywacke  and  the  upper  slump  facies  of  the  FE3  opencasts 
-were  deposited  in  a  turbulent  environment  with  deposition  in  either  a  pro-deltaic  or  deep-
-water environment. The  rootless  marble  boulders  described  in  Section  4.1.1  are  interpreted  as  olistoliths 
-because  the  boulders  are  embedded  in  slumped  siltstone  units  of  the  Lower  slump  facies.",rules,PLACE,45.9700825,16.144187,"Nemec, Općina Marija Bistrica, Krapina-Zagorje County, Croatia",APPROXIMATE
-2008_MATABANE_FE3.txt,New Zealand,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,-41.5000831,172.8344077,New Zealand,APPROXIMATE
-2008_MATABANE_FE3.txt,Niger,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
-Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
-margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
-were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra 
-Island represent mass transported sediments along dislodged from the continental slope into 
-a deep marine environments. Modern slumps are common along continental margins and in 
-modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in 
-New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the 
-gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
-al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
-the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",rules,PLACE,17.7356214,9.3238432,Niger,APPROXIMATE
+Martinsen 1994; Betrand et al., 2008).",llm,PLACE,32.9715285,-89.7348497,"Mississippi, United States",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Niger Delta,38,"An  olistostrome  (composed  of  olistoliths)  is  defined  as  a  sedimentary  body  of  lithological 
 heterogeneous  material  in  which  the  fine-grained  matrix  supports  the  clasts  (olistoliths). They can result from sliding and debris flow on the edge of the continental margin (Maltman, 
 1994; Naylor, 1981). Olistotromes are recorded in Italy and the Niger Delta where slumping 
 and  debris  flow  occur  along  the  passive  continental  margin  (Naylor,  1982;  Damuth,  1993). This  suggests  that  the  olistostrome  were  formed  along  a  continental  margin  where  debris 
 flow and mass transportation displaced blocks and rock material downslope. The  mudstone  dykes  in  the  upper  slump  facies  are  similar  to  the  fluid  escape  structures 
 described  by  Lowe  (1975),  Stromberg,  (1998)  and  Montenat  et  al. (2007)  who  interpreted 
-mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.","llm,rules",PLACE,6.1167054,6.7623681,"Second Niger Bridge, Ogbaru, Anambra State, 430231, Nigeria",APPROXIMATE
+mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.","llm,rules",PLACE,6.1196119,6.7557494,"Second Niger Bridge, Ogbaru, Anambra State, 430231, Nigeria",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Niger delta continental margin,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
 Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
 margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
@@ -1296,25 +895,7 @@ New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slu
 gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
 al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
 the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",llm,PLACE,17.7356214,9.3238432,Niger,APPROXIMATE
-2008_MATABANE_FE3.txt,Paciullo,37,"From  this  information  slumps  of  the  upper  and  lower  slump  facies,  which  exhibit  mass 
-textures, are interpreted to have formed along a continental margin, possible from a stable 
-continental platform 
-The  siltstone-greywacke  unit  and  the  upper  slump  facies  are  characterised  by  turbidites 
-beds. Turbidites are deposits of turbidity currents (Meyn et al., 1980; Paciullo et al., 2007). For Newtonian fluids like water, the criterion for the initiation of turbulence is the Reynolds 
-number (Re). The Reynolds number for sediment flow is defined as; 
-Re= Ps.U.h/µs 
-37",rules,PLACE,40.538876,17.5739461,"Via Pietro Paciullo, Francavilla Fontana, Brindisi, Apulia, 72021, Italy",APPROXIMATE
-2008_MATABANE_FE3.txt,Ponce,38,"where Ps= sediment flow density, U= flow mean velocity, h = flow thickness and µs = flow 
-apparent viscosity (Sentini, 1970; Nemec, 1990). For turbulence to be initiated the Reynolds 
-number must be greater than 2000 (Ercilla et al., 2002). High density, fast flowing and deep-
-water environments are favoured for turbidity currents (Quaeño, 2005). Environments such 
-as these include deep-water and pro-deltaic environments where turbidite sediments readily 
-accumulate (Stow and Johansson 2000; Ponce et al., 2008). From this, it is interpreted that 
-the  turbidites  in  the  siltstone-greywacke  and  the  upper  slump  facies  of  the  FE3  opencasts 
-were  deposited  in  a  turbulent  environment  with  deposition  in  either  a  pro-deltaic  or  deep-
-water environment. The  rootless  marble  boulders  described  in  Section  4.1.1  are  interpreted  as  olistoliths 
-because  the  boulders  are  embedded  in  slumped  siltstone  units  of  the  Lower  slump  facies.",rules,PLACE,18.0668224,-66.6140412,"Ponce, Puerto Rico, United States",APPROXIMATE
+Martinsen 1994; Betrand et al., 2008).",llm,PLACE,17.7356214,9.3238432,Niger,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Reguibat Rise,10,"Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -1324,7 +905,7 @@ which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the
 consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
 et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
 terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Reguibat domain,10,"Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -1334,11 +915,11 @@ which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the
 consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
 et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
 terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,GEOLOGICAL_UNIT,19.416247,-16.4656949,"Rgueiba, Dakhlet Nouadhibou, Mauritania",APPROXIMATE
+Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,GEOLOGICAL_UNIT,19.416247,-16.4656949,"Rgueiba, Dakhlet Nouadhibou, Mauritania",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,"SGS laboratories in Booysen, Johannesburg",19,"Core-
 logs were completed at the mine site. Appropriate  locations  in the  field  and  selected drill-core,  were  sampled. The  samples  were 
 labelled, bagged and then sent by air freight to the university. At the university the samples 
-were  catalogued  and  sent  to  the  SGS  laboratories  in  Booysen,  Johannesburg  for  lapidary. These thin sections were studied under refracted light and reflected light microscopy. 19",llm,PLACE,-26.205,28.049722,"Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2001, South Africa",APPROXIMATE
+were  catalogued  and  sent  to  the  SGS  laboratories  in  Booysen,  Johannesburg  for  lapidary. These thin sections were studied under refracted light and reflected light microscopy. 19",llm,PLACE,-26.205,28.049722,"Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2001, South Africa",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Sadiola,"4,7","Abstract 
 The  FE3  open  casts  (Sadiola  goldfield,  Mali)  are  operated  by  the  by  the  Société 
 d’Exploitation des Mines d’Or de Sadiola S.A.. The open casts comprise meta-sedimentary 
@@ -1358,14 +939,14 @@ mapped  or  researched  to  date. Therefore  the  relationship  between  the  st
 structures  and  intrusive  rocks  is  not  known,  but  it  is  considered  by  Sadiola  mine  geology 
 team to be important in determining the tectonic setting and the timing of gold mineralization 
 in the goldfield. Therefore  the  main  objective  of  this  study  is  to  describe  the  stratigraphy,  structure  and 
-intrusive rocks that occur in the goldfield.","llm,rules",PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE
+intrusive rocks that occur in the goldfield.","llm,rules",PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Sadiola,7,"Also the tectonic setting and the relative timing of 
 gold mineralization will be determined. Determining the relative timing of gold mineralization 
 will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola 
 area. 1.2 Location and physiography 
 The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield 
 is located 80 km west of the capital city of Bamako on the western border of Senegal and 
-Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.",llm,PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE
+Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.",llm,PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Sadiola deposit,40,"There  is  a  considerable  difference  between  the  ages  given  for  the  Birimian 
 sequences of the West African craton and those of the Kenieba Inlier as indicated in Fig 22 
 and accord better, but are still younger, than those of the Tarkwa Group (2149-2132 Ma; U-
@@ -1377,8 +958,8 @@ veins that crosscut the stratigraphy, which implies that gold mineralisation is 
 the  sedimentary  units. The  mineralised  breccias  (and  associated  alteration,  Fig. 21)  occur 
 around contact aureole of the granodiorite. This may imply that the mineralisation is related 
 to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by 
-Hein and Tshibubudze (2007b).",llm,PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE
-2008_MATABANE_FE3.txt,Sadiola goldfield,"22,33,7,9,7","Also the tectonic setting and the relative timing of 
+Hein and Tshibubudze (2007b).",llm,PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE,nan
+2008_MATABANE_FE3.txt,Sadiola goldfield,"22,7,9,7","Also the tectonic setting and the relative timing of 
 gold mineralization will be determined. Determining the relative timing of gold mineralization 
 will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola 
 area. 1.2 Location and physiography 
@@ -1401,10 +982,7 @@ mapped  or  researched  to  date. Therefore  the  relationship  between  the  st
 structures  and  intrusive  rocks  is  not  known,  but  it  is  considered  by  Sadiola  mine  geology 
 team to be important in determining the tectonic setting and the timing of gold mineralization 
 in the goldfield. Therefore  the  main  objective  of  this  study  is  to  describe  the  stratigraphy,  structure  and 
-intrusive rocks that occur in the goldfield. || Fe3-pit1 
-Fe3-pit2 
-Fe3-pit3 
-Fig 19: The Sadiola goldfield. 33 || Figure1: Locality map of Sadiola goldfield (modified from Robins, 2006). Legend 
+intrusive rocks that occur in the goldfield. || Figure1: Locality map of Sadiola goldfield (modified from Robins, 2006). Legend 
                  : Escarpment 
        mines 
         mines 
@@ -1424,7 +1002,7 @@ crystalline  and  extensively  altered  (Fig. 12). In  places  the  dykes  have 
 weathered leaving a potassium-feldspar-rich residue. The dykes are interpreted to connect 
 with  the  Sekokoto  pluton  (Fig. 13),  at  depth  because  the  pluton  underlies  the  Sadiola 
 goldfield  (Hein  and  Tshibubudze,  2007a)  as  determined  from  aeromagnetic  data  of  the 
-Kenieba Inlier (north sun angle).","llm,rules",PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE
+Kenieba Inlier (north sun angle).","llm,rules",PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,"Sadiola goldfield, Mali",4,"Abstract 
 The  FE3  open  casts  (Sadiola  goldfield,  Mali)  are  operated  by  the  by  the  Société 
 d’Exploitation des Mines d’Or de Sadiola S.A.. The open casts comprise meta-sedimentary 
@@ -1433,14 +1011,14 @@ greywacke  unit,  greywacke  unit  and  a  laterite  profile. The  lower  slump 
 siltstone beds and is characterised by massive chaotic slump folds and olistoliths. The upper 
 slump  facies  consists  of  greywacke-siltstone  beds  and  is  characterised  by  turbidite  beds, 
 slump  folds  and  fluid  escape  structures. The  siltstone-greywacke  unit  is  characterised  by 
-turbidite beds. The greywacke unit is carbonaceous.",llm,PLACE,16.3700359,-2.2900239,Mali,APPROXIMATE
+turbidite beds. The greywacke unit is carbonaceous.",llm,PLACE,16.3700359,-2.2900239,Mali,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Sadiola mine,"17,18","Figure 3: Simplified geology of the Kéniéba Inlier (Dioh et al., 2006) 
 Sadiola mine
 17 || Figure 4: Structural map of the Kéniéba Inlier (modified after Ledru et al., 1991). 1 = transcurrent fault; 2 = reverse fault; 3 = trace of stratificationin B2 (a=normal position, b= 
 reverse position); 4=trace of schistosity 1 in Bl; 5=trace of schistosity 2; 6=planarfabric in the 
 granites; 7=stretching lineation; 8=linear fabric in the granites; MTZ=Main Transcurrent Zone; 
 SMF= Senegalese-Malian Fault. Sadiola mine
-18",llm,GEOLOGICAL_UNIT,13.889906,-11.6983648,"SADIOLA MINE [1er C]ycle, RN21, Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE
+18",llm,GEOLOGICAL_UNIT,13.889906,-11.6983648,"SADIOLA MINE [1er C]ycle, RN21, Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Sadiola opencast,39,"and  as  a  result  the  fluid  trapped  in  the  sediments  is  squeezed  through  the  pore  space 
 network (Lowe, 1975). Fluid escapes by percolating upwards through the sediments and the 
 vein  network  represents  the  pathways  along  which  the  fluid  movement  occurred  (Lowe, 
@@ -1449,18 +1027,7 @@ induced slump environment. The contact between the upper slump facies and the gr
 depositional environment. Because of limited outcrop exposure and deep weathering it is not 
 well  exposed  but  must  represent  an  unconformity  (sensu  stricto). In  the  nearby  Sadiola 
 opencast (6 kms west) the greywacke unit is massive, laminated and crossbedded (Hein et 
-al..,  2008),  with  no  evidence  of  slump  or  debris  flows.",llm,PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE
-2008_MATABANE_FE3.txt,Sandikounda,10,"The Birimian rocks of 
-the  Kéniéba  Inlier  unconformably  overlie  the  Sandikounda  Amphibolite-Gneiss  (SAG) 
-basement (Dia et al., 1997). The basement consists of dioritic to tonalitic rocks aged at 2194 
-± 6 (Dia et al., 1997, Pb-Pb age; Pawlig et al., 2006, T DM Sm-Nd). The oldest Birimian rocks 
-of  the  inlier  are  tholeiitic  basalts  and  andesites  of  the  Mako  Supergroup,  which 
-unconformably overlie the SAG basement. These volcanic sequences are dated at 2195±11 
-Ma (Dia et al, 1997; detrital zircons, Pb-Pb age) and at 2063±41 Ma (Abouchami, 1990; Sm-
-Nd). The  Mako  Supergroup  is  overlain  by  the  Dialé-Dalemé  Supergroup  which  consists  of 
-Birimian sequences dated at 2096±8 Ma (Ledru et al, 1991; Pb-zircon evaporation; Hirdes et 
-al.,  2002). The  Dialé-Dalemé  Supergroup  is  overlain  by  the  Falemé  volcanic  belt  which  is 
-dated at 2099±4 Ma (Hirdes et al., 2002; Pb-Pb age).",rules,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+al..,  2008),  with  no  evidence  of  slump  or  debris  flows.",llm,PLACE,13.891613,-11.7054385,"Sadiola, Kayes Cercle, Kayes, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Sandikounda Amphibolite Gneiss Complex,15,"Table I: Stratigraphic succession of the Kéniéba Inlier. Supergroup 
 Kofi Series 
 Dominant rock types 
@@ -1484,8 +1051,8 @@ Sandikounda Amphibolite Gneiss Complex
 1997, Pb-Pb)  
 Mako Supergroup 
 Basement 
-15",llm,GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Sandikounda Amphibolite-Gneiss (SAG) basement,10,"The Birimian rocks of 
+15",llm,GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
+2008_MATABANE_FE3.txt,Sandikounda Amphibolite-Gneiss,10,"The Birimian rocks of 
 the  Kéniéba  Inlier  unconformably  overlie  the  Sandikounda  Amphibolite-Gneiss  (SAG) 
 basement (Dia et al., 1997). The basement consists of dioritic to tonalitic rocks aged at 2194 
 ± 6 (Dia et al., 1997, Pb-Pb age; Pawlig et al., 2006, T DM Sm-Nd). The oldest Birimian rocks 
@@ -1495,18 +1062,7 @@ Ma (Dia et al, 1997; detrital zircons, Pb-Pb age) and at 2063±41 Ma (Abouchami,
 Nd). The  Mako  Supergroup  is  overlain  by  the  Dialé-Dalemé  Supergroup  which  consists  of 
 Birimian sequences dated at 2096±8 Ma (Ledru et al, 1991; Pb-zircon evaporation; Hirdes et 
 al.,  2002). The  Dialé-Dalemé  Supergroup  is  overlain  by  the  Falemé  volcanic  belt  which  is 
-dated at 2099±4 Ma (Hirdes et al., 2002; Pb-Pb age).",llm,GEOLOGICAL_UNIT,48.0693466,18.9482971,"Šahy, District of Levice, Region of Nitra, Western Slovakia, 936 01, Slovakia",APPROXIMATE
-2008_MATABANE_FE3.txt,Saraya,12,"2.7 Intrusive rocks 
-The Birimian sequences of the Kéniéba Inlier are intruded by calc-alkaline granitoids (TTG 
-suite)  that  were  emplaced  during  the  Eburnean  Orogeny  at  2200-2000  Ma  (Leube  et  al., 
-1990;  Eisenlohr  et  al.,  1991;  Hirdes  et  al.,  2002). Two  major  magmatic  events  have  been 
-identified  in  the  Kéniéba  Inlier;  at  2.16-2.11  Ga  and  at  2.08-2.07  Ga  (Gueye  et  al.,  2008). The  early  magmatic  event  resulted  in  the  emplacement  of  the  Badon-Kakadian  batholith; 
-then later resulted in the emplacement of the late granitoids of the Saraya batholith (Gueye 
-et al., 2008). The 120 km long Badon-Kakadian batholith intrudes the Mako Supergroup and consists of 
-numerous  TTG  suite  plutons  and  a  layered  plutonic  complex  (Dioh  et  al.,  2006). The 
-complex  is  composed  of  werhlite,  pyroxenite,  gabbro  and  diorite  (Gueye  et  al.,  2008). The 
-batholith  also  hosts  granitoids  that  are  dated  at  2199±68  Ma  (Bassot  and  Caen-Vachette, 
-1984 in Ledru et al., 1991; Rb-Sr whole rock; Gueye et al., 2008).",rules,PLACE,34.6401861,39.0494106,Syria,APPROXIMATE
+dated at 2099±4 Ma (Hirdes et al., 2002; Pb-Pb age).",llm,GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Saraya batholith,12,"2.7 Intrusive rocks 
 The Birimian sequences of the Kéniéba Inlier are intruded by calc-alkaline granitoids (TTG 
 suite)  that  were  emplaced  during  the  Eburnean  Orogeny  at  2200-2000  Ma  (Leube  et  al., 
@@ -1530,7 +1086,7 @@ granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  asse
 that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al., 
 2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated 
 at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et 
-al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,34.6401861,39.0494106,Syria,APPROXIMATE
+al., 2002; Pawlig et al., 2006, U-Pb age on sphene).",llm,GEOLOGICAL_UNIT,34.6401861,39.0494106,Syria,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Saraya pluton,15,"Table I: Stratigraphic succession of the Kéniéba Inlier. Supergroup 
 Kofi Series 
 Dominant rock types 
@@ -1554,48 +1110,20 @@ Sandikounda Amphibolite Gneiss Complex
 1997, Pb-Pb)  
 Mako Supergroup 
 Basement 
-15",llm,GEOLOGICAL_UNIT,34.6401861,39.0494106,Syria,APPROXIMATE
-2008_MATABANE_FE3.txt,Sekokoto pluton,"22,41","Intrusion  of  the  granodiorite  dykes  and  the  Sekokoto  pluton. The  intrusion  was 
-accompanied by contact metamorphism around the intrusive rocks. Also the intrusion 
-resulted  in  the  circulation  of  magmatic-hydrothermal  fluids  in  the  sedimentary 
-sequences and in the dykes. Gold-bearing breccias possibly formed at this time. 7. Erosion  and  the  development  of  the  palaeochannels  and  deposition  of  the  placer 
-gold mineralisation. || The quartz and plagioclase 
+15",llm,GEOLOGICAL_UNIT,34.6401861,39.0494106,Syria,APPROXIMATE,nan
+2008_MATABANE_FE3.txt,Sekokoto pluton,22,"The quartz and plagioclase 
 crystals  are  subhedral  while  biotite  grains  are  anhedral. The  granodiorite  is  medium-
 crystalline  and  extensively  altered  (Fig. 12). In  places  the  dykes  have  been  heavily 
 weathered leaving a potassium-feldspar-rich residue. The dykes are interpreted to connect 
 with  the  Sekokoto  pluton  (Fig. 13),  at  depth  because  the  pluton  underlies  the  Sadiola 
 goldfield  (Hein  and  Tshibubudze,  2007a)  as  determined  from  aeromagnetic  data  of  the 
-Kenieba Inlier (north sun angle).",llm,GEOLOGICAL_UNIT,13.2339278,-10.687269,"Sekokoto, Bafoulabé Cercle, Kayes, Mali",APPROXIMATE
-2008_MATABANE_FE3.txt,Senegal,7,"Also the tectonic setting and the relative timing of 
-gold mineralization will be determined. Determining the relative timing of gold mineralization 
-will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola 
-area. 1.2 Location and physiography 
-The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield 
-is located 80 km west of the capital city of Bamako on the western border of Senegal and 
-Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.",rules,PLACE,14.4750607,-14.4529612,Senegal,APPROXIMATE
+Kenieba Inlier (north sun angle).",llm,GEOLOGICAL_UNIT,13.2339278,-10.687269,"Sekokoto, Bafoulabé Cercle, Kayes, Mali",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Senegal (Sabodala),14,"Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during 
 the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This 
 type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso 
 (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing 
 arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally 
-superimposed. 14",llm,PLACE,13.1633018,-12.1128486,"Sabodala, Communauté rurale de Sabodala, Arrondissement de Sabodala, Département de Saraya, Kédougou Region, Senegal",APPROXIMATE
-2008_MATABANE_FE3.txt,Senegalese-Malian Fault,18,"Figure 4: Structural map of the Kéniéba Inlier (modified after Ledru et al., 1991). 1 = transcurrent fault; 2 = reverse fault; 3 = trace of stratificationin B2 (a=normal position, b= 
-reverse position); 4=trace of schistosity 1 in Bl; 5=trace of schistosity 2; 6=planarfabric in the 
-granites; 7=stretching lineation; 8=linear fabric in the granites; MTZ=Main Transcurrent Zone; 
-SMF= Senegalese-Malian Fault. Sadiola mine
-18",rules,GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Senegalo- Mali Shear,10,"3). The 
-Kéniéba Inlier is a Birimian terrain that was accreted during the Eburnean Orogeny at 2.2- 
-2.0  Ga  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Gueye  et  al.,  2008). The  Eburnean 
-Orogeny in the Kéniéba Inlier is characterized by the emplacement of calc-alkaline granitoids 
-which  intruded  the  volcanic  and  sedimentary  sequences  of  the  inlier  (Leube  et  al.,  1990; 
-Dioh  et  al.,  2006). The  post-Eburnean  Senegalo-Malian  graben  lies  east  of  the  Senegalo-
-Mali Shear Zone and trends N-S (Hirdes et al., 2002). The Kofi Series overlies the graben in 
-Mali; the series has not been dated. The stratigraphic succession of the Kéniéba Inlier is listed in Table 1.",rules,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Senegalo- Malian Shear,12,"2.9 Regional Structure 
-The  rocks  of  the  Kéniéba  Inlier  were  deformed  during  the  Eburnean  Orogeny  at  2.1  Ga 
-(Milési  et  al.,  1992). Two  major  strike-slip  shear  zones  dominate  the  Inlier;  the  Senegalo-
-Malian Shear Zone and the Main Transcurrent Zone (Ledru et al, 1991) (Fig. 4). Ledru et al. 12",rules,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+superimposed. 14",llm,PLACE,13.1633018,-12.1128486,"Sabodala, Communauté rurale de Sabodala, Arrondissement de Sabodala, Département de Saraya, Kédougou Region, Senegal",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Senegalo-Mali Shear,"10,11","3). The 
 Kéniéba Inlier is a Birimian terrain that was accreted during the Eburnean Orogeny at 2.2- 
 2.0  Ga  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Gueye  et  al.,  2008). The  Eburnean 
@@ -1610,16 +1138,16 @@ Mako Supergroup. It consists of two major components; Banded Gneiss and the Sonf
 unit  (Gueye  et  al.,  2008). The  Banded  Gneiss  consists  of  heterogeneous  associations  of 
 diorite to tonalite, while the Sonfarara unit comprises amphibolite that has been interpreted 
 as xenoliths (approx. 500m in diameter) with a metamorphic ‘compositional banding’ (Dia et 
-al., 1997; Pawlig et al. 2006; Gueye et al., 2008).","llm,rules",PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+al., 1997; Pawlig et al. 2006; Gueye et al., 2008).","llm,rules",PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Senegalo-Mali graben,10,"The Kofi Series, which outcrops only in 
 Mali, overlies the volcanic belt and has not been dated (Dioh et al., 2006). The sequences are intruded by Eburnean granitoids aged at 2045±27 to 1973±33 Ma (Ledru 
 et  al,  1991;  Taylor  et  al.,  1992;  Pb-Pb;  Pawlig  et  al.,  2006). The  post-Eburnean  age 
 Senegalo-Mali  graben  is  located  between  the  Falemé  volcanic  belt  and  Kofi  Series  and  is 
-10",llm,GEOLOGICAL_UNIT,13.2279224,-15.0288668,"Sinthiang Mali, Darou Hadinine, Communauté rurale de Ndorna, Arrondissement de Ndorna, Département de Médina Yoro Foulah, Kolda Region, Senegal",APPROXIMATE
+10",llm,GEOLOGICAL_UNIT,13.2279224,-15.0288668,"Sinthiang Mali, Darou Hadinine, Communauté rurale de Ndorna, Arrondissement de Ndorna, Département de Médina Yoro Foulah, Kolda Region, Senegal",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Senegalo-Malian Shear,12,"2.9 Regional Structure 
 The  rocks  of  the  Kéniéba  Inlier  were  deformed  during  the  Eburnean  Orogeny  at  2.1  Ga 
 (Milési  et  al.,  1992). Two  major  strike-slip  shear  zones  dominate  the  Inlier;  the  Senegalo-
-Malian Shear Zone and the Main Transcurrent Zone (Ledru et al, 1991) (Fig. 4). Ledru et al. 12",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Malian Shear Zone and the Main Transcurrent Zone (Ledru et al, 1991) (Fig. 4). Ledru et al. 12",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Senegalo-Malian graben,10,"3). The 
 Kéniéba Inlier is a Birimian terrain that was accreted during the Eburnean Orogeny at 2.2- 
 2.0  Ga  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Gueye  et  al.,  2008). The  Eburnean 
@@ -1627,30 +1155,7 @@ Orogeny in the Kéniéba Inlier is characterized by the emplacement of calc-alka
 which  intruded  the  volcanic  and  sedimentary  sequences  of  the  inlier  (Leube  et  al.,  1990; 
 Dioh  et  al.,  2006). The  post-Eburnean  Senegalo-Malian  graben  lies  east  of  the  Senegalo-
 Mali Shear Zone and trends N-S (Hirdes et al., 2002). The Kofi Series overlies the graben in 
-Mali; the series has not been dated. The stratigraphic succession of the Kéniéba Inlier is listed in Table 1.",llm,GEOLOGICAL_UNIT,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Sentini,38,"where Ps= sediment flow density, U= flow mean velocity, h = flow thickness and µs = flow 
-apparent viscosity (Sentini, 1970; Nemec, 1990). For turbulence to be initiated the Reynolds 
-number must be greater than 2000 (Ercilla et al., 2002). High density, fast flowing and deep-
-water environments are favoured for turbidity currents (Quaeño, 2005). Environments such 
-as these include deep-water and pro-deltaic environments where turbidite sediments readily 
-accumulate (Stow and Johansson 2000; Ponce et al., 2008). From this, it is interpreted that 
-the  turbidites  in  the  siltstone-greywacke  and  the  upper  slump  facies  of  the  FE3  opencasts 
-were  deposited  in  a  turbulent  environment  with  deposition  in  either  a  pro-deltaic  or  deep-
-water environment. The  rootless  marble  boulders  described  in  Section  4.1.1  are  interpreted  as  olistoliths 
-because  the  boulders  are  embedded  in  slumped  siltstone  units  of  the  Lower  slump  facies.",rules,PLACE,-7.5991109,29.891722,"Mushasha_Sentini, Tanganyika, Democratic Republic of the Congo",APPROXIMATE
-2008_MATABANE_FE3.txt,Siltstone,21,"Primary  features  observed  in  the  study  area  associated  with  the  slump  structures  include; 
-massive sandy sheets, floating clasts, rolled units, inverse grading and mudstone dykes. 4.1.1 Siltstone-greywacke unit 
-The  siltstone-greywacke  sequence  overlies  the  upper  slump  facies. Facing  has  been 
-determined  from  primary  depositional  features  such  as  scour  and  fill,  Bouma  sequences 
-(Fig. 11)  and  cross  bedding. Facing  is  generally  toward  the  NE  throughout  the  opencasts. The  unit  is  bedded;  beds  trend  SE  with  an  average  dip  of  20°NE.",rules,PLACE,-26.0530289,27.9541799,"Siltstone, Johannesburg Ward 100, Randburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2162, South Africa",APPROXIMATE
-2008_MATABANE_FE3.txt,Sonfarara,11,"interpreted to have formed during activation on the Senegalo-Mali Shear Zone (Bassot et al., 
-1986 in Pawlig et al., 2006). 2.2 Basement rocks 
-The Sandikounda Amphibolite Gneiss Complex (SAG Complex) forms the basement to the 
-Mako Supergroup. It consists of two major components; Banded Gneiss and the Sonfarara 
-unit  (Gueye  et  al.,  2008). The  Banded  Gneiss  consists  of  heterogeneous  associations  of 
-diorite to tonalite, while the Sonfarara unit comprises amphibolite that has been interpreted 
-as xenoliths (approx. 500m in diameter) with a metamorphic ‘compositional banding’ (Dia et 
-al., 1997; Pawlig et al. 2006; Gueye et al., 2008).",rules,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Mali; the series has not been dated. The stratigraphic succession of the Kéniéba Inlier is listed in Table 1.",llm,GEOLOGICAL_UNIT,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Storegga slumps in Norwegian continental margin,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
 Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
 margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
@@ -1662,35 +1167,7 @@ New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slu
 gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
 al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
 the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,Stow,37,"Chapter 5 Discussion 
-5.1 Depositional Environment 
-Slumps  characterise  the  lower  and  upper  slump  facies. A  slump  is  a  mass-transported 
-debris  flow  (Martinsen,  1994;  Shanmugam,  2000)  along  the  edge  of  a  continental  margin. They are a downslope movement of sediment and rock material above a basal shear surface 
-where  there  is  significant  internal  distortion  of  the  bedding  (Stow,  1986). Slump  structures 
-form  when  the  sedimentary  pile  abruptly  detaches  from  a  slope  and  is  transported 
-downslope (Collinson et al., 1991). A sediment pile will transport downslope when the shear 
-stress acting within a body of sediment exceeds the shear strength along the slope surface 
-(Dingle, 1980). The sedimentary pile deforms internally (intensely), and produces a variety of 
-deformation  structures  such  as  folds,  boudins,  and  micro-faults  (Martinsen,  1994),  all  of 
-which are observed in the study area (Fig.",rules,PLACE,42.4365949,-71.5050009,"Stow, Middlesex County, Massachusetts, 01775, United States",APPROXIMATE
-2008_MATABANE_FE3.txt,Stromberg,38,"An  olistostrome  (composed  of  olistoliths)  is  defined  as  a  sedimentary  body  of  lithological 
-heterogeneous  material  in  which  the  fine-grained  matrix  supports  the  clasts  (olistoliths). They can result from sliding and debris flow on the edge of the continental margin (Maltman, 
-1994; Naylor, 1981). Olistotromes are recorded in Italy and the Niger Delta where slumping 
-and  debris  flow  occur  along  the  passive  continental  margin  (Naylor,  1982;  Damuth,  1993). This  suggests  that  the  olistostrome  were  formed  along  a  continental  margin  where  debris 
-flow and mass transportation displaced blocks and rock material downslope. The  mudstone  dykes  in  the  upper  slump  facies  are  similar  to  the  fluid  escape  structures 
-described  by  Lowe  (1975),  Stromberg,  (1998)  and  Montenat  et  al. (2007)  who  interpreted 
-mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.",rules,PLACE,49.9447973,7.7763627,"Stromberg, Langenlonsheim-Stromberg, Landkreis Bad Kreuznach, Rhineland-Palatinate, 55442, Germany",APPROXIMATE
-2008_MATABANE_FE3.txt,Taoudeni,10,"Chapter 2: Regional geology 
-2.1 Preamble 
-The West African craton has been divided into four major domains; the Reguibat Rise, the 
-Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et 
-al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin 
-which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains 
-consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
-et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
-terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",rules,PLACE,22.6762435,-3.9806686,"Taoudeni;Taoudenni, Mali",APPROXIMATE
+Martinsen 1994; Betrand et al., 2008).",llm,PLACE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,Taoudeni basin,10,"Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -1700,19 +1177,7 @@ which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the
 consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
 et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
 terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,GEOLOGICAL_UNIT,21.9170588,-6.3578906,"Taoudeni Basin, Hodh Ech Chargui, Mauritania",APPROXIMATE
-2008_MATABANE_FE3.txt,Tarkwa,14,"mineralization 
-in  disseminated  sulphides 
-in  volcanic  and  plutonic  rocks  and  gold 
-mineralization in conglomerate beds (Milési et al., 1992). These types of deposits have been 
-reported  in  Burkina  Faso  (Diénémera),  Ghana  (Tarkwa  district),  Mali  (Syama),  and  Ivory 
-Coast (Yaouré-Angovia) (Milési et al., 1992; Feybesse et al., 2006). Syn-orogenic deposits 
-are related to brecciated hydrothermal zones. Late  orogenic  discordant  mesothermal  gold  mineralisation  includes  gold-arsenopyrite  lode 
-mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly-metallic  sulphides 
-(Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and 
-Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu, 
-Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres 
-long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).",rules,PLACE,5.310935,-1.992426,"Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana",APPROXIMATE
+Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",llm,GEOLOGICAL_UNIT,21.9170588,-6.3578906,"Taoudeni Basin, Hodh Ech Chargui, Mauritania",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,Tarkwa Group,40,"There  is  a  considerable  difference  between  the  ages  given  for  the  Birimian 
 sequences of the West African craton and those of the Kenieba Inlier as indicated in Fig 22 
 and accord better, but are still younger, than those of the Tarkwa Group (2149-2132 Ma; U-
@@ -1724,60 +1189,7 @@ veins that crosscut the stratigraphy, which implies that gold mineralisation is 
 the  sedimentary  units. The  mineralised  breccias  (and  associated  alteration,  Fig. 21)  occur 
 around contact aureole of the granodiorite. This may imply that the mineralisation is related 
 to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by 
-Hein and Tshibubudze (2007b).",llm,GEOLOGICAL_UNIT,5.2260678,-2.0158312,"NEZO Group, WT 0819-2439, IR6, Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, 00233, Ghana",APPROXIMATE
-2008_MATABANE_FE3.txt,Taylor,10,"3). The 
-Kéniéba Inlier is a Birimian terrain that was accreted during the Eburnean Orogeny at 2.2- 
-2.0  Ga  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Gueye  et  al.,  2008). The  Eburnean 
-Orogeny in the Kéniéba Inlier is characterized by the emplacement of calc-alkaline granitoids 
-which  intruded  the  volcanic  and  sedimentary  sequences  of  the  inlier  (Leube  et  al.,  1990; 
-Dioh  et  al.,  2006). The  post-Eburnean  Senegalo-Malian  graben  lies  east  of  the  Senegalo-
-Mali Shear Zone and trends N-S (Hirdes et al., 2002). The Kofi Series overlies the graben in 
-Mali; the series has not been dated. The stratigraphic succession of the Kéniéba Inlier is listed in Table 1.",rules,PLACE,32.2793121,-99.8812612,"Taylor County, Texas, United States",APPROXIMATE
-2008_MATABANE_FE3.txt,Thiéblemont,10,"Chapter 2: Regional geology 
-2.1 Preamble 
-The West African craton has been divided into four major domains; the Reguibat Rise, the 
-Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et 
-al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin 
-which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains 
-consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal 
-et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic 
-terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé 
-Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.",rules,PLACE,48.6898242,4.7330751,"Thiéblemont-Farémont, Vitry-le-François, Marne, Grand Est, Metropolitan France, 51300, France",APPROXIMATE
-2008_MATABANE_FE3.txt,Volcanoclastics,15,"Table I: Stratigraphic succession of the Kéniéba Inlier. Supergroup 
-Kofi Series 
-Dominant rock types 
-(undated) 
-Orogenic-type metasediments and volcaniclastic 
-sequences 
-Falémé volcanic belt 
-2099±4 Ma (Pb-Pb age; Hirdes et al. (2002) 
-Volcanoclastics and chemical sediments 
-Diale-Dalema 
-Supergroup 
-2096±8 Ma (Pb-zircon; Ledru et al., 1991) 
-Consists of detrital sediments and calc-alkaline 
-volcanics. Intruded by the Saraya pluton   
-2063±41 Ma (Abouchami, 1990; Sm-Nd) 
-2195±11 Ma (Dia et al., 1997; Pb-Pb) 
-Tholeiitic pillowed basalts and alkaline andesites with 
-immature basalts 
-Sandikounda Amphibolite Gneiss Complex 
-2194±6 Ma (Pawlig et al., 2006, Sm-Nd; Dia et al., 
-1997, Pb-Pb)  
-Mako Supergroup 
-Basement 
-15",rules,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
-2008_MATABANE_FE3.txt,West,40,"Finally,  the  sediments  of  the  FE3  opencasts  (Kofi  Series)  have  not  been  dated  but  are 
-interpreted as Birimian in age by Hirdes et al. (2002). The Birimian sequences of the West 
-African  craton  are  dated  at  2238-2171  Ma  (Milési  et  al.,  1991,  1992;  Ledru  et  al.,  1991; 
-Boher  et  al.,  1992). The  Birimian  sequences  are  composed  of  tholeiitic  basalts,  andesitic 
-volcanic,  calc-alkaline  volcanics,  volcaniclastic  sediments,  detrital  sediments  and  chemical 
-sediments which are characteristic of an oceanic island arc environment (Hirdes et al., 2002; 
-Gueye  et  al.,  2008). In  contrast,  the  Birimian  sequences  of  the  Keniéba  Inlier  (i.e.,  Mako 
-Supergroup;  Diale-Daleme  Supergroup;  Falemé  volcanic  belt)  are  dated  at  2063±41  Ma, 
-2096±8  Ma  +  2099±4  Ma  (respectively). They  are  interpreted  as  remnants  of  an  oceanic 
-island  arcs  terrane  that  was  accreted  onto  an  Archaean  continent  (Diallo,  2001;  Dia  et  al., 
-1997).",rules,PLACE,18.7668687,-72.4387315,"West, Haiti",APPROXIMATE
+Hein and Tshibubudze (2007b).",llm,GEOLOGICAL_UNIT,5.2260678,-2.0158312,"NEZO Group, WT 0819-2439, IR6, Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, 00233, Ghana",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,West Africa,"13,7,7","Also the tectonic setting and the relative timing of 
 gold mineralization will be determined. Determining the relative timing of gold mineralization 
 will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola 
@@ -1798,7 +1210,7 @@ is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali ar
 the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
 stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
 mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.","llm,rules",PLACE,47.3138746,5.0488196,"West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France",APPROXIMATE
+the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.","llm,rules",PLACE,47.3138746,5.0488196,"West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,West African craton,"10,10,40,44","Chapter 2: Regional geology 
 2.1 Preamble 
 The West African craton has been divided into four major domains; the Reguibat Rise, the 
@@ -1846,14 +1258,14 @@ veins that crosscut the stratigraphy, which implies that gold mineralisation is 
 the  sedimentary  units. The  mineralised  breccias  (and  associated  alteration,  Fig. 21)  occur 
 around contact aureole of the granodiorite. This may imply that the mineralisation is related 
 to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by 
-Hein and Tshibubudze (2007b).","llm,rules",GEOLOGICAL_UNIT,-28.8166236,24.991639,South Africa,APPROXIMATE
+Hein and Tshibubudze (2007b).","llm,rules",GEOLOGICAL_UNIT,-28.8166236,24.991639,South Africa,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,east of the Senegalo-Mali Shear,11,"Hirdes et al. (2002) concluded that andesite and felsic lava dominant the belt, 
 but volcaniclastic units, chemical sediments (e.g., chert and manganiferous shale) and meta-
 greywacke  also  occur  throughout  the  volcanic  belt. Hirdes  et  al. (2002)  interpreted  these 
 sequences  as  proximal  volcanic  rocks. The  Falemé  volcanic  belt  is  associated  with  major 
 skarn-type iron deposits (Schwartz et al., 2004). 2.6 Kofi Series 
 The Kofi Series crops out east of the Senegalo-Mali Shear Zone and is sinistrally displaced 
-(Hirdes  et  al.,  2002).",llm,APPROXIMATE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+(Hirdes  et  al.,  2002).",llm,APPROXIMATE,,,no-geocode-result,no-geocode-result,nan
 2008_MATABANE_FE3.txt,gulf of Mexico,37,"10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island, 
 Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental 
 margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that 
@@ -1865,11 +1277,11 @@ New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slu
 gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et 
 al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of 
 the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980; 
-Martinsen 1994; Betrand et al., 2008).",llm,PLACE,25.2834459,-89.9066163,Gulf of Mexico,APPROXIMATE
+Martinsen 1994; Betrand et al., 2008).",llm,PLACE,25.2834459,-89.9066163,Gulf of Mexico,APPROXIMATE,nan
 2008_MATABANE_FE3.txt,mine,19,"Core-
 logs were completed at the mine site. Appropriate  locations  in the  field  and  selected drill-core,  were  sampled. The  samples  were 
 labelled, bagged and then sent by air freight to the university. At the university the samples 
-were  catalogued  and  sent  to  the  SGS  laboratories  in  Booysen,  Johannesburg  for  lapidary. These thin sections were studied under refracted light and reflected light microscopy. 19",llm,GEOLOGICAL_UNIT,34.1667992,131.2062283,"Mine, Yamaguchi Prefecture, Japan",APPROXIMATE
+were  catalogued  and  sent  to  the  SGS  laboratories  in  Booysen,  Johannesburg  for  lapidary. These thin sections were studied under refracted light and reflected light microscopy. 19",llm,GEOLOGICAL_UNIT,34.1667992,131.2062283,"Mine, Yamaguchi Prefecture, Japan",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,south of the country,7,"The 
 climate ranges from sub-tropical in the south to arid in the north. The country is mostly dry, 
 but  in  the  south  of  the  country,  and  at  the  Sadiola  goldfield,  4-5  months  of  rainy  season 
@@ -1877,11 +1289,11 @@ significantly  affects  mining  operations. December  and  January  are  the  dr
 months of the year with zero rainfall, and temperature ranging from 16°C to 33°C. The field component of this study took place in January 2008 before the rainy season started 
 and  temperatures  peaked. During  the  dry  season  a  dry,  dust-laden  harmattan  haze  is 
 common and this reduces visibility. Mali’s official language is French but African languages are widely used; 80% of population 
-speaks  Bambara.",llm,APPROXIMATE,42.3134976,-71.1501556,"The Country Club, 191, Clyde Street, Buttonwood Village, South Brookline, Brookline, Norfolk County, Massachusetts, 02467, United States",APPROXIMATE
+speaks  Bambara.",llm,APPROXIMATE,42.3134976,-71.1501556,"The Country Club, 191, Clyde Street, Buttonwood Village, South Brookline, Brookline, Norfolk County, Massachusetts, 02467, United States",APPROXIMATE,nan
 2008_MATABANE_FE3.txt,western border of Senegal and Mali,7,"Also the tectonic setting and the relative timing of 
 gold mineralization will be determined. Determining the relative timing of gold mineralization 
 will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola 
 area. 1.2 Location and physiography 
 The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield 
 is located 80 km west of the capital city of Bamako on the western border of Senegal and 
-Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.",llm,PLACE,no-geocode-result,no-geocode-result,no-geocode-result,no-geocode-result
+Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.",llm,PLACE,,,no-geocode-result,no-geocode-result,nan

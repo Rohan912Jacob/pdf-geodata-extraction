@@ -1096,7 +1096,7 @@ dividing the facies successions. Furthermore, detailed mapping of structures (if
 be  done  with  the  purpose  of  determining  the  relative  timing  of  structural  events. Another 
 objective  of  the  project  will  be  mapping  of  the  intrusive  bodies  and  determining  their 
 relationship to stratigraphy and structure.",rules,PLACE
-2008_MATABANE_FE3.txt,Mali,"10,13,7,7","3). The 
+2008_MATABANE_FE3.txt,Mali,"10,13,7,8,7","3). The 
 Kéniéba Inlier is a Birimian terrain that was accreted during the Eburnean Orogeny at 2.2- 
 2.0  Ga  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Gueye  et  al.,  2008). The  Eburnean 
 Orogeny in the Kéniéba Inlier is characterized by the emplacement of calc-alkaline granitoids 
@@ -1128,7 +1128,15 @@ is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali ar
 the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic 
 stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold 
 mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in 
-the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite. || The 
+the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite. || Malaria and other arthropod-borne diseases prevail in Mali and high rates of children suffer 
+from malnutrition. Mali is very poor and one of the poorest countries in the world. Mining  is  a  significant  component  to  Mali’s  economy  and  accounted  for  26%  of  gross 
+domestic product (GDP) in 2005, with gold mining accounting for 80% of mining activity (US 
+Department of State, 2008 ). 1.3 Aims and objectives 
+The  main  objective  of  the  project  is  to  define  the  stratigraphy  in  the  study  area  by  sub-
+dividing the facies successions. Furthermore, detailed mapping of structures (if present) will 
+be  done  with  the  purpose  of  determining  the  relative  timing  of  structural  events. Another 
+objective  of  the  project  will  be  mapping  of  the  intrusive  bodies  and  determining  their 
+relationship to stratigraphy and structure. || The 
 climate ranges from sub-tropical in the south to arid in the north. The country is mostly dry, 
 but  in  the  south  of  the  country,  and  at  the  Sadiola  goldfield,  4-5  months  of  rainy  season 
 significantly  affects  mining  operations. December  and  January  are  the  driest  and  coldest 
@@ -1378,7 +1386,7 @@ the  sedimentary  units. The  mineralised  breccias  (and  associated  alteratio
 around contact aureole of the granodiorite. This may imply that the mineralisation is related 
 to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by 
 Hein and Tshibubudze (2007b).",llm,PLACE
-2008_MATABANE_FE3.txt,Sadiola goldfield,"22,33,7,9,7","Also the tectonic setting and the relative timing of 
+2008_MATABANE_FE3.txt,Sadiola goldfield,"22,7,9,7","Also the tectonic setting and the relative timing of 
 gold mineralization will be determined. Determining the relative timing of gold mineralization 
 will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola 
 area. 1.2 Location and physiography 
@@ -1401,10 +1409,7 @@ mapped  or  researched  to  date. Therefore  the  relationship  between  the  st
 structures  and  intrusive  rocks  is  not  known,  but  it  is  considered  by  Sadiola  mine  geology 
 team to be important in determining the tectonic setting and the timing of gold mineralization 
 in the goldfield. Therefore  the  main  objective  of  this  study  is  to  describe  the  stratigraphy,  structure  and 
-intrusive rocks that occur in the goldfield. || Fe3-pit1 
-Fe3-pit2 
-Fe3-pit3 
-Fig 19: The Sadiola goldfield. 33 || Figure1: Locality map of Sadiola goldfield (modified from Robins, 2006). Legend 
+intrusive rocks that occur in the goldfield. || Figure1: Locality map of Sadiola goldfield (modified from Robins, 2006). Legend 
                  : Escarpment 
        mines 
         mines 
@@ -1485,7 +1490,7 @@ Sandikounda Amphibolite Gneiss Complex
 Mako Supergroup 
 Basement 
 15",llm,GEOLOGICAL_UNIT
-2008_MATABANE_FE3.txt,Sandikounda Amphibolite-Gneiss (SAG) basement,10,"The Birimian rocks of 
+2008_MATABANE_FE3.txt,Sandikounda Amphibolite-Gneiss,10,"The Birimian rocks of 
 the  Kéniéba  Inlier  unconformably  overlie  the  Sandikounda  Amphibolite-Gneiss  (SAG) 
 basement (Dia et al., 1997). The basement consists of dioritic to tonalitic rocks aged at 2194 
 ± 6 (Dia et al., 1997, Pb-Pb age; Pawlig et al., 2006, T DM Sm-Nd). The oldest Birimian rocks 
@@ -1555,11 +1560,7 @@ Sandikounda Amphibolite Gneiss Complex
 Mako Supergroup 
 Basement 
 15",llm,GEOLOGICAL_UNIT
-2008_MATABANE_FE3.txt,Sekokoto pluton,"22,41","Intrusion  of  the  granodiorite  dykes  and  the  Sekokoto  pluton. The  intrusion  was 
-accompanied by contact metamorphism around the intrusive rocks. Also the intrusion 
-resulted  in  the  circulation  of  magmatic-hydrothermal  fluids  in  the  sedimentary 
-sequences and in the dykes. Gold-bearing breccias possibly formed at this time. 7. Erosion  and  the  development  of  the  palaeochannels  and  deposition  of  the  placer 
-gold mineralisation. || The quartz and plagioclase 
+2008_MATABANE_FE3.txt,Sekokoto pluton,22,"The quartz and plagioclase 
 crystals  are  subhedral  while  biotite  grains  are  anhedral. The  granodiorite  is  medium-
 crystalline  and  extensively  altered  (Fig. 12). In  places  the  dykes  have  been  heavily 
 weathered leaving a potassium-feldspar-rich residue. The dykes are interpreted to connect 

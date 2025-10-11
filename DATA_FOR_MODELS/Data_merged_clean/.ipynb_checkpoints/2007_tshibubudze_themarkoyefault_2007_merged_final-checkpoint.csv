@@ -22,6 +22,11 @@ granodiorite,  tonalite  and  quartz-diorite  was  emplaced  between  2210  and 
 (Castaing  et  al.,  2003). The  tonalite  suite  intrudes  and  contact  metamorphoses  the 
 Birimian  sequences,  and  is  banded  (layered)  and  foliated  in  places  (Hein  et  al.,  2004; 
 Naba et al., 2004).",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Ashanti Belt,7,"Since the completion of geological mapping of the West African Craton in the 1980s by 
+the BRGM, geological mapping has been focused in areas with potential mineral deposits 
+including  gold  deposits  in  the  Ashanti  Belt  and  Tarkwa  Basin  in  Ghana  (Milési  et  al., 
+1989, 1991; Feybesse et al., 2006). In Burkina Faso studies completed by Feybesse et al. (1990), Lompo et al. (1991, Béziat et al. (2000) and Hein et al. (2004) have focused on 
+the Boromo-Goren Greenstone belt and associated gold mineralization.","llm,rules",GEOLOGICAL_UNIT
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Baoule-Mossi domain,10,"Chapter 2: Regional Geology 
 2.1 Preamble 
 The  West  African  Craton  is  composed  of an Archaean and Palaeoproterozoic basement 
@@ -48,22 +53,14 @@ The area of study is located ±250 km NE of the capital city, Ouagadougou, Burki
 (Fig. 1). Burkina  Faso  is  a  landlocked  country  in  West  Africa. The  neighbouring 
 countries  include  Mali,  Niger,  Benin,  Togo,  Ghana  and  Côte  d`Ivoire. The  official 
 language is French. Other languages, local languages include Mooré and Dioula.",rules,PLACE
-2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Björklund,47,"Chapter 6: Discussion 
-6.1 Meta-sedimentary units and environments of deposition  
-Although  limited  by  the  availability  of  outcrops  due  to  the  Sahara  sand  dunes,  laterite, 
-and  alluvial  cover,  two  stratigraphic  sequences  are  recognised  in  the  study  area; 
-volcanoclastic  and  sedimentary. These  units  are  metamorphosed  to  hornblende-hornfels 
-facies through contact metamorphism, but primary sedimentary structures are preserved 
-as  compositional  layers  (Chapter  4). Primary  structures  include  graded  bedding,  flaser 
-and cross-bedding, fine laminations, ripple marks, slumps, and scour and fill. The  primary  structures  indicate  a  single  environment  of  deposition:  shallow  marine 
-continental shelf at a delta front setting. The fining up sequence (graded bedding), slumps 
-(gravity  flow),  mud  and  sand  balls,  lithic  fragments,  ripples,  scour  and  fill,  mud-cracks 
-and laminations in meta-volcanoclastic greywacke sequences suggest that the setting was 
-subjected  to  tidal  and  or  turbidity  currents  (Eriksson  et  al.,  1998;  2005;  Sultan  and 
-Björklund, 2006). The upward-fining, laminations, slumps, lithic fragments, and graded 
-beds, with scour and fill bases, are characteristic of  turbidity  currents  that operates at a 
-delta  front  (Shanmugan,  1997;  Sultan  and  Björklund,  2006),  and  the  ripples  are 
-characteristic of tidal currents (Sultan and Björklund, 2006).",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Birimian sequences,11,"between the West African Craton and the Birimian sequences (Milési et al., 1989; Davis 
+et  al.,  1994;  Feybesse  and  Milési.,  1994). Furthermore  Milési  et  al. (1992)  determined 
+that an unconformity exists between the lower and the upper Birimian series in the type 
+locality in the Goren Greenstone Belt. However Hein et al. (2004) demonstrated that the 
+discordance  was  structural  and  that  the  lower  and  upper  Birimian  series  are,  instead, 
+interbedded. An  unconformity  also  exists  between  the  Birimian  sequences  and  the 
+overlying Tarkwa Group sequences (Leube et al., 1990; Milési et al., 1992; Castaing et 
+al., 2003).",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Booysens,17,"All samples where transported to Orezone Resources main office 
 in  Ouagadougou,  and  then  transported  to  Johannesburg  by  Air  France  flight. Samples 
 were  catalogued  and  submitted  to  SGS  laboratories  in  Booysens  Johannesburg  to  make 
@@ -88,6 +85,48 @@ the BRGM, geological mapping has been focused in areas with potential mineral de
 including  gold  deposits  in  the  Ashanti  Belt  and  Tarkwa  Basin  in  Ghana  (Milési  et  al., 
 1989, 1991; Feybesse et al., 2006). In Burkina Faso studies completed by Feybesse et al. (1990), Lompo et al. (1991, Béziat et al. (2000) and Hein et al. (2004) have focused on 
 the Boromo-Goren Greenstone belt and associated gold mineralization.","llm,rules",GEOLOGICAL_UNIT
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Burkina,7,"Chapter 1: Introduction 
+1.1 Preamble 
+The  NE-trending  Markoye  fault  in  Burkina  Faso  is  a  first-order  crustal  scale  structure 
+located in the north-eastern part of Burkina Faso, between the towns of Dori and Tambão 
+by the boarder with Mali and Niger (Fig. 1). The structure has been interpreted as a major 
+westerly-dipping  thrust  (Milési  et  al.,  1992;  Hottin  and  Ouedraogo,  1992). Delfour  and 
+Jeabrum (1970) in Rogers and Dong (2000) defined the structure as an east-verging thrust 
+and  BHP  geologists  interpreted  the  structure  as  part  of  a  regional  dextral  strike-slip 
+system. Castaing  et  al. (2003)  interpreted  the  same  structure  as  a  sinistral  fault  system, 
+and  Milési  et  al.",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Burkina Faso,"21,7,9,7","Figure 1. Simplified geological map of the West African Craton after Thièblemont et al. (2004), and the geological map of the study area modified 
+after  Castaing  et  al. (2003). The  study  area 
+is  situated 
+in 
+the  Palaeoproterozoic  Baoule-Mossi  Domain 
+in  Burkina  Faso. || Since the completion of geological mapping of the West African Craton in the 1980s by 
+the BRGM, geological mapping has been focused in areas with potential mineral deposits 
+including  gold  deposits  in  the  Ashanti  Belt  and  Tarkwa  Basin  in  Ghana  (Milési  et  al., 
+1989, 1991; Feybesse et al., 2006). In Burkina Faso studies completed by Feybesse et al. (1990), Lompo et al. (1991, Béziat et al. (2000) and Hein et al. (2004) have focused on 
+the Boromo-Goren Greenstone belt and associated gold mineralization. || concluded  that  in-situ  laterite  in  Burkina  Faso  formed  during  the  upper  Cretaceous  to 
+Eocene. The laterite is randomly distributed in the northern part of the study area. 4.6 Alluvial profile 
+The alluvial profile in the area of study is dominated by light coloured, fine to medium 
+sand  with  fragments  of  siltstone  and  quartz-vein  material. The  alluvial  profile  covers 
+most of the landscape in Burkina Faso. 4.7 Intrusions 
+4.7.1 Biotite Granite/ Adamellite  
+A biotite granite/adamellite crops out west of the Markoye fault (Fig. 2). || Since the completion of geological mapping of the West African Craton in the 1980s by 
+the BRGM, geological mapping has been focused in areas with potential mineral deposits 
+including  gold  deposits  in  the  Ashanti  Belt  and  Tarkwa  Basin  in  Ghana  (Milési  et  al., 
+1989, 1991; Feybesse et al., 2006). In Burkina Faso studies completed by Feybesse et al. (1990), Lompo et al. (1991, Béziat et al. (2000) and Hein et al. (2004) have focused on 
+the Boromo-Goren Greenstone belt and associated gold mineralization.","llm,rules",PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Castaing,10,"The Baoule-
+Mossi domain is Palaeoproterozoic in age and consists of Birimian sequences that where 
+accreted  at  around  2100  Ma  during  the  Eburnean  Orogeny  (Milési  et  al.,  1991,  1992; 
+Boher  et  al.,  1992). The  syn-tectonic  emplacement  of  granitoids  during  accretion 
+occurred  at  around  2190-2108  Ma  during  the  Eburnean  orogeny  (Hirdes  and  Davis, 
+2002). The  Tarkwa  Group  which  unconformably  overlies  the  Birimian  sequences  is 
+regarded  by  some  as  the  erosional  product  of  the  Birimian  sequences  and  granitoids 
+(Hastings, 1982; Leube et al., 1990; Milési et al., 1992; Castaing et al., 2003). 2.2 Stratigraphy 
+The area of study is situated in the NE of Burkina Faso. The overall stratigraphy of the 
+eastern part of Burkina Faso is established by the Palaeoproterozoic basement. The NE-
+trending  Birimian  meta-sedimentary  and  meta-volcanic  sequences  (2238-2170  Ma) 
+unconformably  overlie  the  basement.",rules,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Dori,7,"Chapter 1: Introduction 
 1.1 Preamble 
 The  NE-trending  Markoye  fault  in  Burkina  Faso  is  a  first-order  crustal  scale  structure 
@@ -98,6 +137,13 @@ Jeabrum (1970) in Rogers and Dong (2000) defined the structure as an east-vergin
 and  BHP  geologists  interpreted  the  structure  as  part  of  a  regional  dextral  strike-slip 
 system. Castaing  et  al. (2003)  interpreted  the  same  structure  as  a  sinistral  fault  system, 
 and  Milési  et  al.",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Eburnean Orogeny,7,"(1991,  1992),  Hirdes  and  Davis  (1998),  and  Hirdes  et  al. (1996) 
+interpreted that the Markoye fault formed during the Eburnean Orogeny at 2150 to 2095 
+Ma. However  little  field  data  has  been  presented  to  quantify  the  tectonic  history  of  the 
+structure and thus tectonic interpretation are contradictory. The  focus  of  this  research  is  the  Markoye  fault  and  its  tectonic  history. Added  to  this, 
+field studies test the possibility that the Markoye fault is a Pan African structure and that 
+gold  metallogenesis  is  associated  with  late  Neo-Proterozoic  Pan  African  tectonics  (c.f. Liégeois  et  al.,  2003)  through  development  of  a  relative  chronology  of  structural  and 
+metallogenic events.",rules,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Essakane,"14,16,17,36,37,47,6","Calculated fold axis 
 Figure  12. Equal  area  stereographic  projection  of  the  poles  to  bedding  at  Essakane 
 exploration  trenches. The  calculated  mean  strike  and  dip  is  343°/27°E. The  calculated 
@@ -152,6 +198,13 @@ rounded to rounded clasts indicating a local origin and short transportation dis
 conglomerate  units  were  probably  deposited  proximal  to  the  source  in  a  deltaic 
 environment  (Eriksson  et  al.,  1998). The  presence  of  stromatolites  in  greywacke 
 41",llm,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Essakane Orpaillage,32,"F1 and F2 are crosscut by faults and quartz-chlorite shears associated with the 
+development of quartz-carbonate veins during reactivation of the Markoye fault. 5.2 D1 
+D1 is associated with the formation of NW-trending folds (F1) that are clearly evident in 
+the exploration trenches at Essakane Orpaillage (Fig. 11). An equal area projection of the 
+poles to bedding exposed in the trenches in the southern part of the Essakane Orpaillage 
+is  presented  in  Figure  12. The  mean  strike  and  dip  is  343°/27°E. Calculated  fold  axes 
+plunge  2°  towards  348°.",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Essakane goldfield,"22,50,52,54,6,7,52","Abstract 
 The  regional  lithological  and  structural  mapping  completed  in  the  north-eastern  part  of 
 Burkina Faso indicates that the Essakane goldfield of the West African Craton is hosted 
@@ -215,13 +268,6 @@ facies by a mafic dyke intrusion. 4.3 Massive volcanoclastic greywacke sequences
 Massive volcanoclastic greywacke units underlie the greywacke siltstone sequences, and 
 are  predominantly  composed  of  quartz  and  feldspar  grains  in  a  fine  to  medium  grained 
 matrix  (Fig.",llm,PLACE
-2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Essakane village,19,"The  monotonous  greywacke-siltstone  sequences  at  the  Essakane  orpaillage  west  of  the 
-Essakane village (Fig. 2) hosts crosscutting quartz-carbonate veins, and gold-arsenopyrite 
-mineralization is hosted in the alteration zone surrounding the quartz-carbonate veins in 
-competent  greywacke  sandstone  units. The  greywacke-siltstone  sequence  has  been 
-folded. Siltstone  units  are  spotted  with  ovoid  porphyroblasts  of  cordierite  (thermally 
-metamorphosed). Siltstone, greywacke, sandstone and shale layers are interbedded. Shale 
-is dark-grey to black in colour, and contains a pronounced pencil cleavage.",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Falagountou,14,"In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and 
 Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field 
 data was not presented. Unpublished structural studies completed for Goldfields Mining 
@@ -233,6 +279,15 @@ and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al., 
 deposits and deposit styles occur in the study area including; (1) The manganese deposit 
 at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane, 
 Gosséy, Koiréziéna, Falagountou (Fig.","llm,rules",PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Foster,15,"2003),  and  (3)  pegmatites  veins  bearing  tourmaline  plagioclase  and  topaz  crystals  near 
+Tambăo. Several deposits are associated with the sulphidised brittle-ductile shear zones, 
+including gold in sheeted and stockwork quartz veins, copper as malachite in buck quartz 
+veins,  and  tourmaline  and  topaz  in  pegmatite  and  buck  quartz  veins  (Foster  and  Piper, 
+1993; Lompo, 2001; Castaing et al., 2003). Foster and Piper (1993) have restricted gold 
+mineralization of the West African Craton to the Eburnean tectonothermal event, but this 
+does  not  include  gold  hosted  by  the  Tarkwa  Group  meta-sedimentary  units  in  Ghana 
+(Milési  et  al.,  1991;  Feybesse  et  al.,  2006)  which  formed  after  the  Eburnean  event. Bossière  et  al. (1996)  concluded  that  the  Tarkwa  Group  meta-sedimentary  units  in  the 
+study area have no economic value. 9",rules,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,France,17,"All samples where transported to Orezone Resources main office 
 in  Ouagadougou,  and  then  transported  to  Johannesburg  by  Air  France  flight. Samples 
 were  catalogued  and  submitted  to  SGS  laboratories  in  Booysens  Johannesburg  to  make 
@@ -244,6 +299,80 @@ the compass clinometer is not known. GPS 14 35 05 7 W 00 00 05 4. 24",llm,GPS
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,GPS N 14 30 27 7 E 00 00 16 2,29,"Figure  8. (a)  The  pyroxenite  layer  of  the  YMC. GPS  N  14  30  27  7  E  00  00  16  2. (b)  
 Photomicrograph  of  crystals  of  clinopyroxene  and  nepheline  of  the  pyroxenite  layer  of 
 the YMC. 23",llm,GPS
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Ghana,"12,13,15,7,7","2.6 Tarkwa Group 
+The  Tarkwa  Group  is  defined  from  Ghana  as  clastic  meta-sedimentary  rocks  derived 
+from  erosion  of  the  Birimian  sequences  (Leube  et  al.,  1990;  Milési  et  al.,  1991). The 
+6 || 2003),  and  (3)  pegmatites  veins  bearing  tourmaline  plagioclase  and  topaz  crystals  near 
+Tambăo. Several deposits are associated with the sulphidised brittle-ductile shear zones, 
+including gold in sheeted and stockwork quartz veins, copper as malachite in buck quartz 
+veins,  and  tourmaline  and  topaz  in  pegmatite  and  buck  quartz  veins  (Foster  and  Piper, 
+1993; Lompo, 2001; Castaing et al., 2003). Foster and Piper (1993) have restricted gold 
+mineralization of the West African Craton to the Eburnean tectonothermal event, but this 
+does  not  include  gold  hosted  by  the  Tarkwa  Group  meta-sedimentary  units  in  Ghana 
+(Milési  et  al.,  1991;  Feybesse  et  al.,  2006)  which  formed  after  the  Eburnean  event. Bossière  et  al. (1996)  concluded  that  the  Tarkwa  Group  meta-sedimentary  units  in  the 
+study area have no economic value. 9 || Bossière  et  al. (1996)  established  that  the  metamorphosed  sequences  of  the  Tarkwa 
+Group of Burkina Faso (in the study area) were different from those defined in Ghana, in 
+that they contain euhedral zircons that suggest a short transportation distance. In the study 
+area  the  Tarkwa  Group  meta-sedimentary  rocks  are  deformed. Their  deformation  has 
+been attributed to the formation of sinistral shears and low grade metamorphism that is 
+characterised by formation of muscovite (Bossière et al., 1996; Naba et al., 2004), which 
+is  similar  to  what  has  been  defined  in  Ghana  by  Milési  et  al. (1989,  1991). They  were 
+divided into 3 main lithological units by Bossière et al. || Since the completion of geological mapping of the West African Craton in the 1980s by 
+the BRGM, geological mapping has been focused in areas with potential mineral deposits 
+including  gold  deposits  in  the  Ashanti  Belt  and  Tarkwa  Basin  in  Ghana  (Milési  et  al., 
+1989, 1991; Feybesse et al., 2006). In Burkina Faso studies completed by Feybesse et al. (1990), Lompo et al. (1991, Béziat et al. (2000) and Hein et al. (2004) have focused on 
+the Boromo-Goren Greenstone belt and associated gold mineralization. || Tarkwa Group unconformably overlies the Birimian sequence (Leube et al., 1990; Milési 
+et al., 1992; Castaing et al., 2003) and was deformed and metamorphosed to greenschist 
+facies during the Eburnean Orogeny (Milési et al., 1989, 1991). The Tarkwa Group has been divided into three units: the Banket series, phyllite unit and 
+the meta-sandstone unit. The Banket series is further divided into the Banket quartz lithic 
+meta-sandstone unit and the Banket meta-conglomerate unit (Tunks et al., 2004). Kwesie 
+(1984) and Kesse (1985) in Milési et al., (1991) described the meta-conglomerate unit at  
+Tarkwa  in  Ghana  as  monomictic,  consisting  of  over  90%  rounded  vein  quartz  pebbles 
+and approximately 10 % schist and quartzite pebbles. The matrix is mainly composed of 
+silica and black sands that are rich in heavy minerals including magnetite, ilmenite, rutile 
+and  tourmaline  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996). The  Tarkwa  Group 
+meta-conglomerate unit hosts and has been the source for economic gold at the Tarkwa 
+mine, Ghana (Milési et al., 1991). || Since the completion of geological mapping of the West African Craton in the 1980s by 
+the BRGM, geological mapping has been focused in areas with potential mineral deposits 
+including  gold  deposits  in  the  Ashanti  Belt  and  Tarkwa  Basin  in  Ghana  (Milési  et  al., 
+1989, 1991; Feybesse et al., 2006). In Burkina Faso studies completed by Feybesse et al. (1990), Lompo et al. (1991, Béziat et al. (2000) and Hein et al. (2004) have focused on 
+the Boromo-Goren Greenstone belt and associated gold mineralization.","llm,rules",PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Goren Greenstone Belt,"11,11,14","(1996) 
+considered B2 to be younger than B1, however, Milési et al. (1991, 1992) and Feybesse 
+and  Milési  (1994)  considered  B1  to  be  younger  than  B2. In  contrast  Hein  et  al. (2004) 
+established  that  meta-volcanic  and  meta-pyroclastic  units  are  interbedded  with  meta-
+sedimentary rocks throughout the type locality in the Goren Greenstone Belt, and thus the 
+stratigraphy of the NE of Burkina Faso may need revision. 2.4 Intrusive complexes 
+During  the  polycyclic  Eburnean  Orogeny  numerous  calc-alkaline  plutons  intruded  the 
+Palaeoproterozoic sequences (Pawlig et al., 2006) including tonalite (TTG), granodiorite, 
+diorite  and  meta-diorite,  and  these  are  collectively  called  Eburnean  granitoids  (Pons  et 
+5 || (2004)  in  the  Boromo-Goren  Greenstone  Belt,  four  deformational  events  are  currently 
+recognised. D1,  represented  by  isoclinal  folds  (F1)  which  are  synchronous  with 
+development  of  foliation. D2,  represented  by  formation  of  N,  NE  and  NW-trending 
+sinistral faults that are synchronous with low-grade metamorphism. D3 is represented by 
+NE-trending  dextral  or  dextral  reverse  faults,  also  synchronous  with  low-grade 
+metamorphism. D3 event is associated with the development F3 folds during E-W crustal 
+shortening. D4, which is represented by NW-trending Wabi-Tampelse Shear Zone which 
+crosscuts the Goren Greenstone Belt is associated with development of mesoscopic folds 
+(F4) during N-S crustal shortening (Hein et al., 2004). || between the West African Craton and the Birimian sequences (Milési et al., 1989; Davis 
+et  al.,  1994;  Feybesse  and  Milési.,  1994). Furthermore  Milési  et  al. (1992)  determined 
+that an unconformity exists between the lower and the upper Birimian series in the type 
+locality in the Goren Greenstone Belt. However Hein et al. (2004) demonstrated that the 
+discordance  was  structural  and  that  the  lower  and  upper  Birimian  series  are,  instead, 
+interbedded. An  unconformity  also  exists  between  the  Birimian  sequences  and  the 
+overlying Tarkwa Group sequences (Leube et al., 1990; Milési et al., 1992; Castaing et 
+al., 2003). || between the West African Craton and the Birimian sequences (Milési et al., 1989; Davis 
+et  al.,  1994;  Feybesse  and  Milési.,  1994). Furthermore  Milési  et  al. (1992)  determined 
+that an unconformity exists between the lower and the upper Birimian series in the type 
+locality in the Goren Greenstone Belt. However Hein et al. (2004) demonstrated that the 
+discordance  was  structural  and  that  the  lower  and  upper  Birimian  series  are,  instead, 
+interbedded. An  unconformity  also  exists  between  the  Birimian  sequences  and  the 
+overlying Tarkwa Group sequences (Leube et al., 1990; Milési et al., 1992; Castaing et 
+al., 2003).","llm,rules",GEOLOGICAL_UNIT
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Gorom-Gorom,16,"Figure  2. Schematic  interpretation  of  LANDSAT  image,  modified  after  Hein  and 
+Tshibubudze, 2007 showing locations of villages, orpaillage (             ) and traverse lines 
+(     ). The villages are: Salmossi (S), Essakane (E), Tin Agadel (TA), Tin Taradat (TT), 
+Markoye (M), and Gorom-Gorom (GG). The (YMC) Yacouba Mafic Complex      . 10",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Gossey,"14,22","In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and 
 Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field 
 data was not presented. Unpublished structural studies completed for Goldfields Mining 
@@ -260,11 +389,56 @@ hornblende. The  wall  rocks  to  these  dykes  are  contact  metamorphosed  to 
 hornfels facies. 4.7.3 Granodiorite-Tonalite 
 A granodiorite-tonalite intrusion outcrops over greater than 50% of the study area west of 
 the Markoye fault between Gosséy and Tambão (Fig. 1).",llm,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Hastings,10,"The Baoule-
+Mossi domain is Palaeoproterozoic in age and consists of Birimian sequences that where 
+accreted  at  around  2100  Ma  during  the  Eburnean  Orogeny  (Milési  et  al.,  1991,  1992; 
+Boher  et  al.,  1992). The  syn-tectonic  emplacement  of  granitoids  during  accretion 
+occurred  at  around  2190-2108  Ma  during  the  Eburnean  orogeny  (Hirdes  and  Davis, 
+2002). The  Tarkwa  Group  which  unconformably  overlies  the  Birimian  sequences  is 
+regarded  by  some  as  the  erosional  product  of  the  Birimian  sequences  and  granitoids 
+(Hastings, 1982; Leube et al., 1990; Milési et al., 1992; Castaing et al., 2003). 2.2 Stratigraphy 
+The area of study is situated in the NE of Burkina Faso. The overall stratigraphy of the 
+eastern part of Burkina Faso is established by the Palaeoproterozoic basement. The NE-
+trending  Birimian  meta-sedimentary  and  meta-volcanic  sequences  (2238-2170  Ma) 
+unconformably  overlie  the  basement.",rules,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Johannesburg,17,"All samples where transported to Orezone Resources main office 
 in  Ouagadougou,  and  then  transported  to  Johannesburg  by  Air  France  flight. Samples 
 were  catalogued  and  submitted  to  SGS  laboratories  in  Booysens  Johannesburg  to  make 
 polished  thin  sections  (PTS). Oriented  samples  were  referenced  to  magnetic  north,  and 
 marked with horizontal and vertical orientation lines. 11","llm,rules",PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Kenema-Man domain,10,"Chapter 2: Regional Geology 
+2.1 Preamble 
+The  West  African  Craton  is  composed  of an Archaean and Palaeoproterozoic basement 
+that  is  divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south 
+(Thiéblemont et al., 2004). These two are separated by the Taoudeni basin, which is of 
+upper  Proterozoic  to  Devonian  age  (Fig. 1). The  Leo-Man  Rise  is  composed  of  two 
+domains, the Kénéma-Man domain in the south west and the Baoule-Mossi domain in the 
+east (Feybesse et al., 2006). The area of study is situated within the Leo-Man Rise in the 
+Palaeoproterozoic  Baoule-Mossi  domain. The  Kénéma-Man  domain  is  Archaean  in  age 
+and dated at 3542-3535 Ma (U-Pb zircon, Thiéblemont et al., 2001, 2004).",llm,GEOLOGICAL_UNIT
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Kesse,13,"Tarkwa Group unconformably overlies the Birimian sequence (Leube et al., 1990; Milési 
+et al., 1992; Castaing et al., 2003) and was deformed and metamorphosed to greenschist 
+facies during the Eburnean Orogeny (Milési et al., 1989, 1991). The Tarkwa Group has been divided into three units: the Banket series, phyllite unit and 
+the meta-sandstone unit. The Banket series is further divided into the Banket quartz lithic 
+meta-sandstone unit and the Banket meta-conglomerate unit (Tunks et al., 2004). Kwesie 
+(1984) and Kesse (1985) in Milési et al., (1991) described the meta-conglomerate unit at  
+Tarkwa  in  Ghana  as  monomictic,  consisting  of  over  90%  rounded  vein  quartz  pebbles 
+and approximately 10 % schist and quartzite pebbles. The matrix is mainly composed of 
+silica and black sands that are rich in heavy minerals including magnetite, ilmenite, rutile 
+and  tourmaline  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996). The  Tarkwa  Group 
+meta-conglomerate unit hosts and has been the source for economic gold at the Tarkwa 
+mine, Ghana (Milési et al., 1991).",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Koireziena,14,"In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and 
+Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field 
+data was not presented. Unpublished structural studies completed for Goldfields Mining 
+Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an 
+east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral 
+strike-slip system. 2.9 Regional metallogeny 
+The West African Craton hosts many mineral deposits, for example, gold, diamond, iron, 
+and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several 
+deposits and deposit styles occur in the study area including; (1) The manganese deposit 
+at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane, 
+Gosséy, Koiréziéna, Falagountou (Fig.",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Koiréziéna,14,"In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and 
 Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field 
 data was not presented. Unpublished structural studies completed for Goldfields Mining 
@@ -286,6 +460,25 @@ domains, the Kénéma-Man domain in the south west and the Baoule-Mossi domain i
 east (Feybesse et al., 2006). The area of study is situated within the Leo-Man Rise in the 
 Palaeoproterozoic  Baoule-Mossi  domain. The  Kénéma-Man  domain  is  Archaean  in  age 
 and dated at 3542-3535 Ma (U-Pb zircon, Thiéblemont et al., 2001, 2004).",llm,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Lompo,15,"2003),  and  (3)  pegmatites  veins  bearing  tourmaline  plagioclase  and  topaz  crystals  near 
+Tambăo. Several deposits are associated with the sulphidised brittle-ductile shear zones, 
+including gold in sheeted and stockwork quartz veins, copper as malachite in buck quartz 
+veins,  and  tourmaline  and  topaz  in  pegmatite  and  buck  quartz  veins  (Foster  and  Piper, 
+1993; Lompo, 2001; Castaing et al., 2003). Foster and Piper (1993) have restricted gold 
+mineralization of the West African Craton to the Eburnean tectonothermal event, but this 
+does  not  include  gold  hosted  by  the  Tarkwa  Group  meta-sedimentary  units  in  Ghana 
+(Milési  et  al.,  1991;  Feybesse  et  al.,  2006)  which  formed  after  the  Eburnean  event. Bossière  et  al. (1996)  concluded  that  the  Tarkwa  Group  meta-sedimentary  units  in  the 
+study area have no economic value. 9",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Mali,7,"Chapter 1: Introduction 
+1.1 Preamble 
+The  NE-trending  Markoye  fault  in  Burkina  Faso  is  a  first-order  crustal  scale  structure 
+located in the north-eastern part of Burkina Faso, between the towns of Dori and Tambão 
+by the boarder with Mali and Niger (Fig. 1). The structure has been interpreted as a major 
+westerly-dipping  thrust  (Milési  et  al.,  1992;  Hottin  and  Ouedraogo,  1992). Delfour  and 
+Jeabrum (1970) in Rogers and Dong (2000) defined the structure as an east-verging thrust 
+and  BHP  geologists  interpreted  the  structure  as  part  of  a  regional  dextral  strike-slip 
+system. Castaing  et  al. (2003)  interpreted  the  same  structure  as  a  sinistral  fault  system, 
+and  Milési  et  al.",rules,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Markoye,"16,6","Figure  2. Schematic  interpretation  of  LANDSAT  image,  modified  after  Hein  and 
 Tshibubudze, 2007 showing locations of villages, orpaillage (             ) and traverse lines 
 (     ). The villages are: Salmossi (S), Essakane (E), Tin Agadel (TA), Tin Taradat (TT), 
@@ -343,7 +536,12 @@ Ma. However  little  field  data  has  been  presented  to  quantify  the  tecto
 structure and thus tectonic interpretation are contradictory. The  focus  of  this  research  is  the  Markoye  fault  and  its  tectonic  history. Added  to  this, 
 field studies test the possibility that the Markoye fault is a Pan African structure and that 
 gold  metallogenesis  is  associated  with  late  Neo-Proterozoic  Pan  African  tectonics  (c.f. Liégeois  et  al.,  2003)  through  development  of  a  relative  chronology  of  structural  and 
-metallogenic events. || Chapter 3: Methodology 
+metallogenic events. || Buck quartz-carbonate (± tourmaline) veins outcrop in several locations along the trend 
+of  the  Markoye  fault. They  are  white  to  brown  in  colour  but  in  some  outcrop  they  are 
+dark grey and hosted by quartz-chlorite schist. They have an average size of 100 X 5m 
+(Fig. 19) and veins form an en echelon array indicating a sinistral normal displacement. They  host  centimetre-sized  arsenopyrite  (AsFeS2)  crystals  and  copper  oxide  in  form  of 
+malachite  (Cu2CO3(OH)2). Some  buck  quartz-carbonate  veins  are  highly  fractured, 
+boudinaged and lineated, producing an egg box textured outcrop (Fig. || Chapter 3: Methodology 
 3.1 Data collection 
 In  January  2007  a  detailed  structural  mapping  project  was  conducted  in  the  study  area 
 over  a  period  of  20  days,  including  days  allocated  to  logistics  and  camp  management. Geology  and  topographic  maps,  and  airborne  magnetic  data  were  used  to  delineate  the 
@@ -535,6 +733,13 @@ plagioclase, biotite and hornblende in a quartz-feldspar rich groundmass (Fig. 6
 c). Adjacent to the Markoye fault the granite is foliated and lineated. 4.7.2 Yacouba Mafic Complex (YMC) 
 The YMC is located NE of the Gosséy orpaillage (Fig. 2). It is composed of pyroxenite 
 and gabbro layers.",llm,APPROXIMATE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Naba,10,"The  NE-trending  Tarkwa  Group  (2150-2130  Ma) 
+meta-sedimentary  sequence  overlie  the  Birimian  sequences  and  they  are  intruded  by 
+Eburnean granitoids (2150-2095 Ma) (Leube et al., 1990; Milési et al., 1991; Bossière et 
+al., 1996; Castaing et al 2003; Naba et al., 2004). Both sequences were deformed during 
+the  Eburnean  Orogeny  at  2100  Ma  -  2000  Ma  (Milési  et  al.,  1991,  1992;  Ledru  et  al 
+1994). There  is  a  school  of  thought  that  acknowledges  a  well  established  unconformity 
+4",rules,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Niger,7,"Chapter 1: Introduction 
 1.1 Preamble 
 The  NE-trending  Markoye  fault  in  Burkina  Faso  is  a  first-order  crustal  scale  structure 
@@ -554,6 +759,12 @@ in  Ouagadougou,  and  then  transported  to  Johannesburg  by  Air  France  fli
 were  catalogued  and  submitted  to  SGS  laboratories  in  Booysens  Johannesburg  to  make 
 polished  thin  sections  (PTS). Oriented  samples  were  referenced  to  magnetic  north,  and 
 marked with horizontal and vertical orientation lines. 11","llm,rules",PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Palaeoproterozoic Baoule-Mossi Domain,9,"Figure 1. Simplified geological map of the West African Craton after Thièblemont et al. (2004), and the geological map of the study area modified 
+after  Castaing  et  al. (2003). The  study  area 
+is  situated 
+in 
+the  Palaeoproterozoic  Baoule-Mossi  Domain 
+in  Burkina  Faso.",llm,GEOLOGICAL_UNIT
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Reguibat Rise,10,"Chapter 2: Regional Geology 
 2.1 Preamble 
 The  West  African  Craton  is  composed  of an Archaean and Palaeoproterozoic basement 
@@ -569,10 +780,17 @@ the  dominate  religion  with  more  than  half  of  the  country’s  populatio
 small group being Christian, with the remainder practicing indigenous African religions. The land surface is defined by alluvial plains, low hills, and sand dunes of the Sahara in 
 the north. The area of study is situated in the margin of the Sahara desert or Sahel region. In  this  region  more  than  60%  of  the  land  surface  is  covered  by  sand. The  dominate 
 vegetation is short-tall grass, with less than 10% cover due to trees. The  climate  is  variable  between  two  seasons,  the  wet  (rainy)  and  dry  season.","llm,rules",PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Sahel,8,"Islam is 
+the  dominate  religion  with  more  than  half  of  the  country’s  population  being  Muslim,  a 
+small group being Christian, with the remainder practicing indigenous African religions. The land surface is defined by alluvial plains, low hills, and sand dunes of the Sahara in 
+the north. The area of study is situated in the margin of the Sahara desert or Sahel region. In  this  region  more  than  60%  of  the  land  surface  is  covered  by  sand. The  dominate 
+vegetation is short-tall grass, with less than 10% cover due to trees. The  climate  is  variable  between  two  seasons,  the  wet  (rainy)  and  dry  season.",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Salmossi,16,"Figure  2. Schematic  interpretation  of  LANDSAT  image,  modified  after  Hein  and 
 Tshibubudze, 2007 showing locations of villages, orpaillage (             ) and traverse lines 
 (     ). The villages are: Salmossi (S), Essakane (E), Tin Agadel (TA), Tin Taradat (TT), 
 Markoye (M), and Gorom-Gorom (GG). The (YMC) Yacouba Mafic Complex      . 10",llm,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Sebba,14,"2) and Sebba (Milési et al., 1992; Castaing et al., 
+8",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tambao,"14,15,17,22","2003),  and  (3)  pegmatites  veins  bearing  tourmaline  plagioclase  and  topaz  crystals  near 
 Tambăo. Several deposits are associated with the sulphidised brittle-ductile shear zones, 
 including gold in sheeted and stockwork quartz veins, copper as malachite in buck quartz 
@@ -627,11 +845,46 @@ domains, the Kénéma-Man domain in the south west and the Baoule-Mossi domain i
 east (Feybesse et al., 2006). The area of study is situated within the Leo-Man Rise in the 
 Palaeoproterozoic  Baoule-Mossi  domain. The  Kénéma-Man  domain  is  Archaean  in  age 
 and dated at 3542-3535 Ma (U-Pb zircon, Thiéblemont et al., 2001, 2004).",llm,GEOLOGICAL_UNIT
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tarkwa,"12,13","A granite suite which is localized along shear zones, intrudes both the 
+Birimian and the TTG suite and was emplaced between 2150 and 2130 Ma (Castaing et 
+al., 2003). Gabbro, meta-gabbro, diorite and trondhjemite intrusions are syn-tectonic with 
+emplacement of Birimian meta-volcanic sequences (Béziat et al., 2000; Hein et al., 2004) 
+and co-magmatic (Béziat et al., 2000). NE-trending dolerite dykes crosscut all Birimian, 
+Tarkwa and intrusive complexes in the NE of Burkina Faso and are dated at 250±13 Ma 
+(K-Ar whole rock dating) (Hottin and Ouedraogo, 1992). 2.5 Metamorphism 
+The Birimian sequences were metamorphosed during the Eburnean Orogeny with further 
+metamorphism  related  to  intrusion  of  granitoids. Metamorphic  grade  is  to  greenschist 
+facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996),  with 
+formation of chlorite and muscovite dominant mineral assemblages, and low to medium 
+grade amphibolite facies, with hornblende and andalusite dominant mineral assemblages 
+(Bossière  et  al.,  1996;  Béziat  et  al.,  2000;  Naba  et  al.,  2004)  particularly  in  the  contact 
+aureole  of  granitoids  (Pawlig  et  al.,  2006). The  Tarkwa  Group  is  metamorphosed  to 
+greenschist facies with development of chlorite and sericite (Milési et al., 1989, 1991). || Tarkwa Group unconformably overlies the Birimian sequence (Leube et al., 1990; Milési 
+et al., 1992; Castaing et al., 2003) and was deformed and metamorphosed to greenschist 
+facies during the Eburnean Orogeny (Milési et al., 1989, 1991). The Tarkwa Group has been divided into three units: the Banket series, phyllite unit and 
+the meta-sandstone unit. The Banket series is further divided into the Banket quartz lithic 
+meta-sandstone unit and the Banket meta-conglomerate unit (Tunks et al., 2004). Kwesie 
+(1984) and Kesse (1985) in Milési et al., (1991) described the meta-conglomerate unit at  
+Tarkwa  in  Ghana  as  monomictic,  consisting  of  over  90%  rounded  vein  quartz  pebbles 
+and approximately 10 % schist and quartzite pebbles. The matrix is mainly composed of 
+silica and black sands that are rich in heavy minerals including magnetite, ilmenite, rutile 
+and  tourmaline  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996). The  Tarkwa  Group 
+meta-conglomerate unit hosts and has been the source for economic gold at the Tarkwa 
+mine, Ghana (Milési et al., 1991).","llm,rules",PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tarkwa Basin,7,"Since the completion of geological mapping of the West African Craton in the 1980s by 
 the BRGM, geological mapping has been focused in areas with potential mineral deposits 
 including  gold  deposits  in  the  Ashanti  Belt  and  Tarkwa  Basin  in  Ghana  (Milési  et  al., 
 1989, 1991; Feybesse et al., 2006). In Burkina Faso studies completed by Feybesse et al. (1990), Lompo et al. (1991, Béziat et al. (2000) and Hein et al. (2004) have focused on 
 the Boromo-Goren Greenstone belt and associated gold mineralization.","llm,rules",GEOLOGICAL_UNIT
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tarkwa Group,15,"2003),  and  (3)  pegmatites  veins  bearing  tourmaline  plagioclase  and  topaz  crystals  near 
+Tambăo. Several deposits are associated with the sulphidised brittle-ductile shear zones, 
+including gold in sheeted and stockwork quartz veins, copper as malachite in buck quartz 
+veins,  and  tourmaline  and  topaz  in  pegmatite  and  buck  quartz  veins  (Foster  and  Piper, 
+1993; Lompo, 2001; Castaing et al., 2003). Foster and Piper (1993) have restricted gold 
+mineralization of the West African Craton to the Eburnean tectonothermal event, but this 
+does  not  include  gold  hosted  by  the  Tarkwa  Group  meta-sedimentary  units  in  Ghana 
+(Milési  et  al.,  1991;  Feybesse  et  al.,  2006)  which  formed  after  the  Eburnean  event. Bossière  et  al. (1996)  concluded  that  the  Tarkwa  Group  meta-sedimentary  units  in  the 
+study area have no economic value. 9",llm,GEOLOGICAL_UNIT
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tarkwa Group of Burkina Faso,13,"Bossière  et  al. (1996)  established  that  the  metamorphosed  sequences  of  the  Tarkwa 
 Group of Burkina Faso (in the study area) were different from those defined in Ghana, in 
 that they contain euhedral zircons that suggest a short transportation distance. In the study 
@@ -640,6 +893,14 @@ been attributed to the formation of sinistral shears and low grade metamorphism 
 characterised by formation of muscovite (Bossière et al., 1996; Naba et al., 2004), which 
 is  similar  to  what  has  been  defined  in  Ghana  by  Milési  et  al. (1989,  1991). They  were 
 divided into 3 main lithological units by Bossière et al.",llm,GEOLOGICAL_UNIT
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tarkwa Group sequences,11,"between the West African Craton and the Birimian sequences (Milési et al., 1989; Davis 
+et  al.,  1994;  Feybesse  and  Milési.,  1994). Furthermore  Milési  et  al. (1992)  determined 
+that an unconformity exists between the lower and the upper Birimian series in the type 
+locality in the Goren Greenstone Belt. However Hein et al. (2004) demonstrated that the 
+discordance  was  structural  and  that  the  lower  and  upper  Birimian  series  are,  instead, 
+interbedded. An  unconformity  also  exists  between  the  Birimian  sequences  and  the 
+overlying Tarkwa Group sequences (Leube et al., 1990; Milési et al., 1992; Castaing et 
+al., 2003).",llm,GEOLOGICAL_UNIT
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,"Tarkwa mine, Ghana",13,"Tarkwa Group unconformably overlies the Birimian sequence (Leube et al., 1990; Milési 
 et al., 1992; Castaing et al., 2003) and was deformed and metamorphosed to greenschist 
 facies during the Eburnean Orogeny (Milési et al., 1989, 1991). The Tarkwa Group has been divided into three units: the Banket series, phyllite unit and 
@@ -663,9 +924,42 @@ greenish-grey greywacke-lithic matrix. The meta-conglomerate is therefore by no 
 similar  to  the  meta-conglomerate  described  for  the  Tarkwa  type  section  in  Ghana. The 
 meta-sedimentary  rocks  classified  as  Tarkwa  Group  by  Castaing  et  al. (2003)  are 
 reclassified as Birimian flysch type sediments, as described by Milési et al.",llm,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Thiéblemont,10,"Chapter 2: Regional Geology 
+2.1 Preamble 
+The  West  African  Craton  is  composed  of an Archaean and Palaeoproterozoic basement 
+that  is  divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south 
+(Thiéblemont et al., 2004). These two are separated by the Taoudeni basin, which is of 
+upper  Proterozoic  to  Devonian  age  (Fig. 1). The  Leo-Man  Rise  is  composed  of  two 
+domains, the Kénéma-Man domain in the south west and the Baoule-Mossi domain in the 
+east (Feybesse et al., 2006). The area of study is situated within the Leo-Man Rise in the 
+Palaeoproterozoic  Baoule-Mossi  domain. The  Kénéma-Man  domain  is  Archaean  in  age 
+and dated at 3542-3535 Ma (U-Pb zircon, Thiéblemont et al., 2001, 2004).",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tin Agadel,"16,34","Figure  2. Schematic  interpretation  of  LANDSAT  image,  modified  after  Hein  and 
+Tshibubudze, 2007 showing locations of villages, orpaillage (             ) and traverse lines 
+(     ). The villages are: Salmossi (S), Essakane (E), Tin Agadel (TA), Tin Taradat (TT), 
+Markoye (M), and Gorom-Gorom (GG). The (YMC) Yacouba Mafic Complex      . 10 || Pseudotachylyte  veins  in  the  area  are  represented  by  very  fine  grained  glassy  textured, 
+dark-grey  to  black  glass  that  fill  fractures  and  meso-faults  in  the  host  rocks. They  are 
+several centimetres thick (Fig. 17, a, b). They outcrop in the region between Tin Agadel 
+and  Salmossi  village  (Fig. 2)  and  they  crosscut  the  adamellite  and  the  granodiorite-
+tonalite intrusion (Fig.17, a, b) north-east of Tin Agadel. The pseudotachylyte veins are 
+NNE-trending and steeply dipping to the east.","llm,rules",PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tin Taradat,16,"Figure  2. Schematic  interpretation  of  LANDSAT  image,  modified  after  Hein  and 
+Tshibubudze, 2007 showing locations of villages, orpaillage (             ) and traverse lines 
+(     ). The villages are: Salmossi (S), Essakane (E), Tin Agadel (TA), Tin Taradat (TT), 
+Markoye (M), and Gorom-Gorom (GG). The (YMC) Yacouba Mafic Complex      . 10",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tin Taradat Village,44,"Figure 19. Buck-quartz carbonate veins located NE of Tin Taradat Village. The egg box 
 appearance  is  associated  with  formation  of  boudins  which  plunge  steeply. Slickensides 
 are steeply plunging. GPS, N 14 30 47 6 E 00 00 17 7. 38",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Tin-Taradat,22,"The granodiorite-tonalite pluton 
+is  coarse  to  medium,  and  composed  of  crystals  of  plagioclase,  quartz,  hornblende  and 
+biotite (Fig. 9). It is crosscut by pseudotachylyte veins west of the Markoye fault. It hosts 
+elongate mafic xenoliths that trend NW and dips to the west. The hereafter referred to as 
+the  Tin-Taradat  granodiorite-tonalite  (Fig. 2)  is  crosscut  by  a  pegmatite  vein.",llm,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Togo,8,"1.2 Location and physiography 
+The area of study is located ±250 km NE of the capital city, Ouagadougou, Burkina Faso 
+(Fig. 1). Burkina  Faso  is  a  landlocked  country  in  West  Africa. The  neighbouring 
+countries  include  Mali,  Niger,  Benin,  Togo,  Ghana  and  Côte  d`Ivoire. The  official 
+language is French. Other languages, local languages include Mooré and Dioula.",rules,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Wabi-Tampelse Shear,14,"(2004)  in  the  Boromo-Goren  Greenstone  Belt,  four  deformational  events  are  currently 
 recognised. D1,  represented  by  isoclinal  folds  (F1)  which  are  synchronous  with 
 development  of  foliation. D2,  represented  by  formation  of  N,  NE  and  NW-trending 
@@ -689,6 +983,86 @@ The area of study is located ±250 km NE of the capital city, Ouagadougou, Burki
 (Fig. 1). Burkina  Faso  is  a  landlocked  country  in  West  Africa. The  neighbouring 
 countries  include  Mali,  Niger,  Benin,  Togo,  Ghana  and  Côte  d`Ivoire. The  official 
 language is French. Other languages, local languages include Mooré and Dioula.",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,West African Craton,"10,11,14,15,6,7,9,6","2003),  and  (3)  pegmatites  veins  bearing  tourmaline  plagioclase  and  topaz  crystals  near 
+Tambăo. Several deposits are associated with the sulphidised brittle-ductile shear zones, 
+including gold in sheeted and stockwork quartz veins, copper as malachite in buck quartz 
+veins,  and  tourmaline  and  topaz  in  pegmatite  and  buck  quartz  veins  (Foster  and  Piper, 
+1993; Lompo, 2001; Castaing et al., 2003). Foster and Piper (1993) have restricted gold 
+mineralization of the West African Craton to the Eburnean tectonothermal event, but this 
+does  not  include  gold  hosted  by  the  Tarkwa  Group  meta-sedimentary  units  in  Ghana 
+(Milési  et  al.,  1991;  Feybesse  et  al.,  2006)  which  formed  after  the  Eburnean  event. Bossière  et  al. (1996)  concluded  that  the  Tarkwa  Group  meta-sedimentary  units  in  the 
+study area have no economic value. 9 || Abstract 
+The  regional  lithological  and  structural  mapping  completed  in  the  north-eastern  part  of 
+Burkina Faso indicates that the Essakane goldfield of the West African Craton is hosted 
+by  meta-volcanoclastic  and  meta-sedimentary  rocks  of  the  Birimian  sequences. The 
+sequences  are  dominated  by  meta-volcanoclastic  greywackes,  intercalated  meta-
+conglomerate,  meta-sandstone-greywacke,  siltstone  and  shale. The  sequences  have 
+primary sedimentary structures preserved as compositional layering. The  depositional  environment  of  the  sequences  is  interpreted  to  have  occurred  in  a 
+shallow  marine  continental  shelf  environment  at  a  delta  front  setting. The  sequences 
+where  subjected  to  several  phases  of  deformation  and  metamorphism. They  have  been 
+contact metamorphosed to hornblende hornfels facies during emplacement of adamellite, 
+pyroxenite-gabbro, granodiorite-tonalite plutons, and dolerite dykes. || Chapter 2: Regional Geology 
+2.1 Preamble 
+The  West  African  Craton  is  composed  of an Archaean and Palaeoproterozoic basement 
+that  is  divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south 
+(Thiéblemont et al., 2004). These two are separated by the Taoudeni basin, which is of 
+upper  Proterozoic  to  Devonian  age  (Fig. 1). The  Leo-Man  Rise  is  composed  of  two 
+domains, the Kénéma-Man domain in the south west and the Baoule-Mossi domain in the 
+east (Feybesse et al., 2006). The area of study is situated within the Leo-Man Rise in the 
+Palaeoproterozoic  Baoule-Mossi  domain. The  Kénéma-Man  domain  is  Archaean  in  age 
+and dated at 3542-3535 Ma (U-Pb zircon, Thiéblemont et al., 2001, 2004). || Figure 1. Simplified geological map of the West African Craton after Thièblemont et al. (2004), and the geological map of the study area modified 
+after  Castaing  et  al. (2003). The  study  area 
+is  situated 
+in 
+the  Palaeoproterozoic  Baoule-Mossi  Domain 
+in  Burkina  Faso. || In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and 
+Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field 
+data was not presented. Unpublished structural studies completed for Goldfields Mining 
+Pty, Ltd, Ore Zone Resources and BHP Billiton concluded that the Markoye fault is an 
+east-verging  thrust  (Rogers  and  Dong,  2000)  and  that  it  is  a  part  of  a  regional  dextral 
+strike-slip system. 2.9 Regional metallogeny 
+The West African Craton hosts many mineral deposits, for example, gold, diamond, iron, 
+and  manganese,  silver,  lead  and  zinc  (Hastings,  1982;  Milési  et  al.,  1992). Several 
+deposits and deposit styles occur in the study area including; (1) The manganese deposit 
+at  Tambăo  close  to  border  with  Niger  (Fig. 2),  (2)  gold  mineralization  at  Essakane, 
+Gosséy, Koiréziéna, Falagountou (Fig. || Since the completion of geological mapping of the West African Craton in the 1980s by 
+the BRGM, geological mapping has been focused in areas with potential mineral deposits 
+including  gold  deposits  in  the  Ashanti  Belt  and  Tarkwa  Basin  in  Ghana  (Milési  et  al., 
+1989, 1991; Feybesse et al., 2006). In Burkina Faso studies completed by Feybesse et al. (1990), Lompo et al. (1991, Béziat et al. (2000) and Hein et al. (2004) have focused on 
+the Boromo-Goren Greenstone belt and associated gold mineralization. || between the West African Craton and the Birimian sequences (Milési et al., 1989; Davis 
+et  al.,  1994;  Feybesse  and  Milési.,  1994). Furthermore  Milési  et  al. (1992)  determined 
+that an unconformity exists between the lower and the upper Birimian series in the type 
+locality in the Goren Greenstone Belt. However Hein et al. (2004) demonstrated that the 
+discordance  was  structural  and  that  the  lower  and  upper  Birimian  series  are,  instead, 
+interbedded. An  unconformity  also  exists  between  the  Birimian  sequences  and  the 
+overlying Tarkwa Group sequences (Leube et al., 1990; Milési et al., 1992; Castaing et 
+al., 2003). || Abstract 
+The  regional  lithological  and  structural  mapping  completed  in  the  north-eastern  part  of 
+Burkina Faso indicates that the Essakane goldfield of the West African Craton is hosted 
+by  meta-volcanoclastic  and  meta-sedimentary  rocks  of  the  Birimian  sequences. The 
+sequences  are  dominated  by  meta-volcanoclastic  greywackes,  intercalated  meta-
+conglomerate,  meta-sandstone-greywacke,  siltstone  and  shale. The  sequences  have 
+primary sedimentary structures preserved as compositional layering. The  depositional  environment  of  the  sequences  is  interpreted  to  have  occurred  in  a 
+shallow  marine  continental  shelf  environment  at  a  delta  front  setting. The  sequences 
+where  subjected  to  several  phases  of  deformation  and  metamorphism. They  have  been 
+contact metamorphosed to hornblende hornfels facies during emplacement of adamellite, 
+pyroxenite-gabbro, granodiorite-tonalite plutons, and dolerite dykes.","llm,rules",GEOLOGICAL_UNIT
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,Yacouba Mafic,34,"The pseudotachylyte veins are interpreted 
+to have formed during high strain conditions, the resulting frictional heat melting the host 
+rock (Davis and Reynolds, 1996). Quartz iron-rich cataclasite veins (Fig. 18, a, b, c) outcrops west of the Yacouba Mafic 
+Complex  (YMC)  (Fig.2). The  cataclasite  veins  trends  067º  and  crosscut  the  YMC. The 
+cataclasite veins are interpreted to have formed during local dilation of the Markoye fault. Quartz-chlorite  shear  crosscut  the  cataclasite  and  the  YMC  as  well  indicating  that  the 
+quartz-chlorite shears are younger than the YMC and the cataclasite.",rules,PLACE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,border with Mali and Niger,7,"Chapter 1: Introduction 
+1.1 Preamble 
+The  NE-trending  Markoye  fault  in  Burkina  Faso  is  a  first-order  crustal  scale  structure 
+located in the north-eastern part of Burkina Faso, between the towns of Dori and Tambão 
+by the boarder with Mali and Niger (Fig. 1). The structure has been interpreted as a major 
+westerly-dipping  thrust  (Milési  et  al.,  1992;  Hottin  and  Ouedraogo,  1992). Delfour  and 
+Jeabrum (1970) in Rogers and Dong (2000) defined the structure as an east-verging thrust 
+and  BHP  geologists  interpreted  the  structure  as  part  of  a  regional  dextral  strike-slip 
+system. Castaing  et  al. (2003)  interpreted  the  same  structure  as  a  sinistral  fault  system, 
+and  Milési  et  al.",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,border with Niger,14,"In  Milési  et  al. (1989,  1991,  1992)  and  Hottin  and 
 Ouedraogo  (1992),  the  Markoye  fault  is  recorded  as  a  westerly-dipping  thrust  but  field 
 data was not presented. Unpublished structural studies completed for Goldfields Mining 
@@ -755,9 +1129,17 @@ sand  with  fragments  of  siltstone  and  quartz-vein  material. The  alluvial 
 most of the landscape in Burkina Faso. 4.7 Intrusions 
 4.7.1 Biotite Granite/ Adamellite  
 A biotite granite/adamellite crops out west of the Markoye fault (Fig. 2).",llm,APPROXIMATE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,between Tin Agadel and Salmossi village,34,"Pseudotachylyte  veins  in  the  area  are  represented  by  very  fine  grained  glassy  textured, 
+dark-grey  to  black  glass  that  fill  fractures  and  meso-faults  in  the  host  rocks. They  are 
+several centimetres thick (Fig. 17, a, b). They outcrop in the region between Tin Agadel 
+and  Salmossi  village  (Fig. 2)  and  they  crosscut  the  adamellite  and  the  granodiorite-
+tonalite intrusion (Fig.17, a, b) north-east of Tin Agadel. The pseudotachylyte veins are 
+NNE-trending and steeply dipping to the east.",llm,PLACE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,south of Gossey,23,"Stromatolites 
 Figure 3. Stromatolites in a sandstone outcrop south of Gosséy. Compass clinometer for 
 scale. GPS, N 14 26 22 3 W 00 00 16 3. 17",llm,APPROXIMATE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,south of the Gossey trend,19,"Stromatolites 
+occur in siltstone-sandstone sequences (Fig. 3) south of the Gosséy trend (Fig. 2). 13",llm,APPROXIMATE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,southern part of the Essakane Orpaillage,32,"F1 and F2 are crosscut by faults and quartz-chlorite shears associated with the 
 development of quartz-carbonate veins during reactivation of the Markoye fault. 5.2 D1 
 D1 is associated with the formation of NW-trending folds (F1) that are clearly evident in 
@@ -781,6 +1163,13 @@ structure, ripple marks above the red arrow head and sour and fill texture. GPS,
 polarised light, X4 magnification), of meta-volcanoclastic greywacke (sample 005). The 
 greywacke  is  poorly  sorted  and  contains  rock  fragments,  anhedral  quartz,  plagioclase 
 grains, and isotropic minerals in a fine to medium grained quartz-feldspar-chlorite matrix. 19",llm,APPROXIMATE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,west of the Essakane village,19,"The  monotonous  greywacke-siltstone  sequences  at  the  Essakane  orpaillage  west  of  the 
+Essakane village (Fig. 2) hosts crosscutting quartz-carbonate veins, and gold-arsenopyrite 
+mineralization is hosted in the alteration zone surrounding the quartz-carbonate veins in 
+competent  greywacke  sandstone  units. The  greywacke-siltstone  sequence  has  been 
+folded. Siltstone  units  are  spotted  with  ovoid  porphyroblasts  of  cordierite  (thermally 
+metamorphosed). Siltstone, greywacke, sandstone and shale layers are interbedded. Shale 
+is dark-grey to black in colour, and contains a pronounced pencil cleavage.",llm,APPROXIMATE
 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,west of the Markoye fault,"21,22,27","Figure 6. (a) The adamellite which crops out west of the Markoye fault. GPS, N 14 36 31 
 8  W  00  00  45  2. (b)  Photomicrograph  of  adamellite. The  adamellite  is  K-feldspar 
 dominant. Phenocrysts  of  plagioclase  in  a  quartzitic-feldspar  matrix  are  partially  re-
@@ -806,3 +1195,9 @@ rock (Davis and Reynolds, 1996). Quartz iron-rich cataclasite veins (Fig. 18, a,
 Complex  (YMC)  (Fig.2). The  cataclasite  veins  trends  067º  and  crosscut  the  YMC. The 
 cataclasite veins are interpreted to have formed during local dilation of the Markoye fault. Quartz-chlorite  shear  crosscut  the  cataclasite  and  the  YMC  as  well  indicating  that  the 
 quartz-chlorite shears are younger than the YMC and the cataclasite.",llm,APPROXIMATE
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,"west of the international border intersection of Burkina Faso, Mali and Niger",14,"2.8 Markoye Fault 
+The first-order crustal-scale Markoye fault is located in the NE of Burkina Faso, west of 
+the  international  border  intersection  of  Burkina  Faso,  Mali  and  Niger  (Fig.1). The  fault 
+trends NE and is clearly visible in LANDSAT imagery (Fig. 2) and RTP magnetic data. According to Milési et al. (1989, 1992) and Castaing et al. (2003) the Markoye fault is 
+the  boundary  that  separates  Eburnean  granitoids  to  the  west  from  the  Tarkwa  Group 
+meta-sedimentary  units  in  the  east.",llm,APPROXIMATE

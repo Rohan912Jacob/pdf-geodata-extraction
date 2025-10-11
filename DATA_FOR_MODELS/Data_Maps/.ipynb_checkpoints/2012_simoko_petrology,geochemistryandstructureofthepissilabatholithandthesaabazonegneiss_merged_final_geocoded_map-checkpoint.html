@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c359a923551e8175c62026292fe91dde {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_c359a923551e8175c62026292fe91dde" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c359a923551e8175c62026292fe91dde = L.map(
+                "map_c359a923551e8175c62026292fe91dde",
+                {
+                    center: [13.494664960000001, -5.161732833333334],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c79a86a0a517dd808fb7eac5d1013dd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6c79a86a0a517dd808fb7eac5d1013dd.addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+            var circle_marker_9b1da3c7e24a2e558e2cc3f0f923d2ae = L.circleMarker(
+                [7.9897371, -5.5679458],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_23f45b5ce1c0296e0ade65a8416e5242 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c7037264005e8d6145231f3386bdfb3e = $(`<div id="html_c7037264005e8d6145231f3386bdfb3e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1. Introduction  The Bauolé-Mossi domain consists of predominately Palaeoproterozoic calc-alkaline and  alkaline granitoid intrusions. Theses rocks were emplaced between ca 2.1 to 1.8 Ga (Vega et  al.,  2008). The  presence  of  terranes  that  predates  and  may  act  as  basement  rocks  to  the  Birimian granitoids has been the subject of debate. Basement rocks are typically gneissic to  migmatitic,  thus  the  granitoid-gneissic  terranes  in  the  West  African  Craton  became  the  subject of a number of studies (Eisenhohr and Hirdes, 1992, Pons et al., 1995, Hirdes et al.,  1996,  Gasquet  et  al.,  2003). Lemoine,  1988  in  Gasquet  et  al.,  2003  introduced  the  term  Burkinian,  which  corresponds  to  reworking  of  Archean  rocks  and  formed  the  gneissic  terrance  in  Côte  d’lvoire. || Granitoids  that  are  associated  with  gneisses  and  migmatites  were  previously  described in north eastern Burkina Faso, Côte d’lvoire and Senegal. These studies concluded  that the granitoids intruded into the pre-existing gneissic terrane. This study suggests that the  Saaba  zone  and  Pissila  batholith  are  geochemically  and  petrological  different  from  each  other. The Saaba zone gneiss does not  represent  a deformed region  of the Pissila batholith. Based on similarities of the study area to other granitoid-gneissic terrane, the Saaba zone may  predate the Pissila batholith. It is also proposed that the gneiss preserve an older deformation  event  D1,  which  lead  to  amphibolite  facies  metamorphism. || The  Pissila  batholith  and  the  Saaba  zone  exhibit  some  similarities  to  granitoid-gneissic  terranes  in  Côte  d’lvoire,  NE  Burkina  Faso  and  Senegal. The  study  area  may  have  formed  under  processes  similar  to  those  that  formed  granitoid-gneisses  in  the  above  countries. Therefore, the Saaba zone was possibly intruded by the Pissila batholith. The intrusion leads  to partial melting and migmatization of the gneisses. Analysis of microstructures in the Pissila batholith and the Saaba zone gneiss suggests the  rocks were subjected to two deformation events. The Saaba zone gneiss and migmatites was  deformed to amphibolites facies during D1 deformation event.<br><b>Geocode:</b> Côte d'Ivoire<br><b>Pages:</b> 35,4,5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_23f45b5ce1c0296e0ade65a8416e5242.setContent(html_c7037264005e8d6145231f3386bdfb3e);
+            
+        
+
+        circle_marker_9b1da3c7e24a2e558e2cc3f0f923d2ae.bindPopup(popup_23f45b5ce1c0296e0ade65a8416e5242)
+        ;
+
+        
+    
+    
+            circle_marker_9b1da3c7e24a2e558e2cc3f0f923d2ae.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_310d6e4ab88225058273154fb3f2f1ce = L.circleMarker(
+                [7.9897371, -5.5679458],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_feffe297b3b6daa617ebc1cb983b6c25 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_934809a47a84583aa601df9849e1edee = $(`<div id="html_934809a47a84583aa601df9849e1edee" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Appendix 1  REE diagrams of the Dabakala region in Côte d’lvoire (Gasquet et al., 2003)  Spider diagram of the Dabakala region in Côte d’lvoire (Gasquet et al., 2003)  37 || The  samples  are  enriched  in  LILE  relative  to  HFSE  (Fig  6.2.3). The  spider  plot  exhibit  similarities  with  the  samples  from  the  Dabakala  region in Côte d’lvoire that were described by Gasquet et al., 2003 (Fig 6.2.2 and appendix  1). The gneisses in the spider plot exhibit a prominent negative Ti and P anomaly. The migmatite exhibit a REE pattern that is relatively flat (Fig 6.2.1). The sample’s REE  pattern is depleted relative to the granodiorite, gneisses and K-rich vein. The flat REE pattern  suggests that the migmatite’s source rock lacked garnet. || The spider diagram of the studied granodiorite is comparable with spider diagrams for the  Dabakala region in Côte d’lvoire  (appendix 1) (Gasquet et al., 2003). The diagrams exhibit  negative  Ta,  Ti  and  Nb,  which  are  usually  associated  with  titaniferous  minerals  retained  in  the  residuum  (White,  2012). A  negative  Ce  and  Nb  anomaly  is  generally  regarded  as  an  indicator  of  crustal  contamination  (fig  6.2.2.)  (Rollinson,  1993). The  positive  Sr  anomaly  attests to  declining role of plagioclase in  melt  production (Holland &  Turekian, 2003). The  positive  Sr  coupled  with  Eu  anomaly,  indicates  that  plagioclase  was  not  retained  in  the  residuum  during  partial  melting  or  fractionated  during  magma  differentiation  (Rollinson,  1993; Holland & Turekian, 2003). 7.4.<br><b>Geocode:</b> Côte d'Ivoire<br><b>Pages:</b> 26,31,37<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_feffe297b3b6daa617ebc1cb983b6c25.setContent(html_934809a47a84583aa601df9849e1edee);
+            
+        
+
+        circle_marker_310d6e4ab88225058273154fb3f2f1ce.bindPopup(popup_feffe297b3b6daa617ebc1cb983b6c25)
+        ;
+
+        
+    
+    
+            circle_marker_310d6e4ab88225058273154fb3f2f1ce.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_47123188e3a8989ba977593fc4bdd2ce = L.circleMarker(
+                [8.363238, -4.428486],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_b5bcb5a6a310cec0a48fa1186b7a17af = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dd936b7f5900d87522386179e6c6cd9f = $(`<div id="html_dd936b7f5900d87522386179e6c6cd9f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 7.5. Comparison other regions in the craton similar to the study area  Granitoid  intrusion  associated  with  orthogneiss  and  migmatites  where  previously  described by Hirdes et al., 1996, Doumbia et al., 1998, Gasquet et al., 2003, Naba et al., 2004  and Vegas et al., 2008. The Pissila batholith and the Saaba zone gneiss are petrologically and  geochemically  similar  to  gneissic  terranes  in  the  sodic  calc-alkaline  granitoids  in  the  Dabakala region, Côte d’lvoire and the batholiths in north eastern Burkina Faso (appendix 1). Therefore,  the  Pissila  batholith  and  the  Saaba  zone  were  possibly  derived  from  similar  processes  that  formed  the  above  regions. In  both  regions  the  granitoids  are  associated  with  first  group  of  granitoid  intrusion  ca  2.1  Ga,  which  is  similar  to  the  age  (2143  ±12  Ma  and  2117 ±17Ma) of the Pissila batholith (Gasquet et al., 2003, Vegas et al., 2008). In  a  study  of  granitoid-gneissic  terrane  in  the  Dabakala  region,  Hirdes  et  al.,  1996  proposed  that  the  gneisses  where  intruded  by  younger  batholiths.<br><b>Geocode:</b> Dabakala, Hambol, Vallée du Bandama, Côte d'Ivoire<br><b>Pages:</b> 34<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b5bcb5a6a310cec0a48fa1186b7a17af.setContent(html_dd936b7f5900d87522386179e6c6cd9f);
+            
+        
+
+        circle_marker_47123188e3a8989ba977593fc4bdd2ce.bindPopup(popup_b5bcb5a6a310cec0a48fa1186b7a17af)
+        ;
+
+        
+    
+    
+            circle_marker_47123188e3a8989ba977593fc4bdd2ce.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65fbd2fc53791698a209a409a3de2594 = L.circleMarker(
+                [8.0300284, -1.0800271],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_7f3ceba9b4e6961816dd9ef185fc0c9a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eda7939f98419856e7a9ab3a8b2e9599 = $(`<div id="html_eda7939f98419856e7a9ab3a8b2e9599" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Upper  Birimian  consists  of  tholeiitic  lavas,  which  are  locally  pillowed,  intercalated with  turbidites and  meta-volcanoclastic sedimentary  rocks  (Debat  et  al.,  2003). The Tarkwaian  unconformably overlies the Upper Birimian  and  consist  of coarse  clastic  sedimentary  unit  (Tshibubudze  et  al.,  2009). The  description  of  the  unit  is  based  on  work  done in Ghana (Eisenlohr and Hirdes, 1992). I. The Tarkwaian includes basal conglomerates from the Kewese Group (Pohl, 1998). II. || The Kénéma-Man domain  was deformed and  metamorphosed during two major tectonic  events. The Leonean cycle, ca 3.0 Ga is associated with north-south trending structures and  metamorphism of basement rocks to granulite- facies (Cahen et al., 1984; Thieblemont et al.,  2004). The  Liberian  event,  ca  2.7  Ga  resulted  in  N-S  to  NNE-SSW  trending  structures  (Thieblemont  et  al.,  2004). The  Liberian  event  culminated  with  TTG  batholith  intrusions  (Skinner et al., 2004). 2.2. Palaeoproterozoic Baoulé-Mossi domain  The  Birimian  was  first  described  by  Kitsh  from  outcrops  in  the  Birim  River  Valley  in  southern  Ghana  (Pohl,  1998).<br><b>Geocode:</b> Ghana<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7f3ceba9b4e6961816dd9ef185fc0c9a.setContent(html_eda7939f98419856e7a9ab3a8b2e9599);
+            
+        
+
+        circle_marker_65fbd2fc53791698a209a409a3de2594.bindPopup(popup_7f3ceba9b4e6961816dd9ef185fc0c9a)
+        ;
+
+        
+    
+    
+            circle_marker_65fbd2fc53791698a209a409a3de2594.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ec61ff389420b3016fc67aa0f67a5ed7 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_f3b2da2d4503ced24f4a4cddc9f7207e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dfc72ba57fd62113f9d8134c1316642f = $(`<div id="html_dfc72ba57fd62113f9d8134c1316642f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Shales, quartzite and meta-conglomerates of the Banket Group. III. Overlying the Banket Group are shales and phyllites of the Tarkwa formation (Cahen  et al., 1984; Tshibubudze et al., 2009). The above Anglophone Birimian sequence was inverted by the Francophone school. The  predominately  volcanic  units  were  interpreted  as  being  younger  than  the  metasedimentary  units (Milési et al., 1992).However, during a study of the Goren-greenstone belt in Burkina  7<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 7<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f3b2da2d4503ced24f4a4cddc9f7207e.setContent(html_dfc72ba57fd62113f9d8134c1316642f);
+            
+        
+
+        circle_marker_ec61ff389420b3016fc67aa0f67a5ed7.bindPopup(popup_f3b2da2d4503ced24f4a4cddc9f7207e)
+        ;
+
+        
+    
+    
+            circle_marker_ec61ff389420b3016fc67aa0f67a5ed7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_daed18cd0fd264d3da8111f1ccd089ab = L.circleMarker(
+                [7.9450752, -11.727446],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_53c552971be9b653febf338679d79e84 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b94fe30ebcb33e7e8b166c486b8c6544 = $(`<div id="html_b94fe30ebcb33e7e8b166c486b8c6544" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2. Regional Geology  The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo- Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the  Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain  and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north  and the Leo-Man in the south (Béziat et al., 2008). || The Kénéma-Man domain  was deformed and  metamorphosed during two major tectonic  events. The Leonean cycle, ca 3.0 Ga is associated with north-south trending structures and  metamorphism of basement rocks to granulite- facies (Cahen et al., 1984; Thieblemont et al.,  2004). The  Liberian  event,  ca  2.7  Ga  resulted  in  N-S  to  NNE-SSW  trending  structures  (Thieblemont  et  al.,  2004). The  Liberian  event  culminated  with  TTG  batholith  intrusions  (Skinner et al., 2004). 2.2. Palaeoproterozoic Baoulé-Mossi domain  The  Birimian  was  first  described  by  Kitsh  from  outcrops  in  the  Birim  River  Valley  in  southern  Ghana  (Pohl,  1998).<br><b>Geocode:</b> Ray and Man's Bar, Bo- Kenema Highway, Goma Town, Bo, Bo District, Sierra Leone<br><b>Pages:</b> 6,7<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_53c552971be9b653febf338679d79e84.setContent(html_b94fe30ebcb33e7e8b166c486b8c6544);
+            
+        
+
+        circle_marker_daed18cd0fd264d3da8111f1ccd089ab.bindPopup(popup_53c552971be9b653febf338679d79e84)
+        ;
+
+        
+    
+    
+            circle_marker_daed18cd0fd264d3da8111f1ccd089ab.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0f457887c50a4362ac1cccd73988273 = L.circleMarker(
+                [42.5968863, -5.5719594],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_e7d492167b6573e4e63dcc2b5c65f002 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8e7cd886e6857d6761a3aece5ad448bf = $(`<div id="html_8e7cd886e6857d6761a3aece5ad448bf" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2. Regional Geology  The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo- Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the  Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain  and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north  and the Leo-Man in the south (Béziat et al., 2008).<br><b>Geocode:</b> Leo man, Calle Burgo Nuevo, Centro, León, Castile and León, 24004, Spain<br><b>Pages:</b> 6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e7d492167b6573e4e63dcc2b5c65f002.setContent(html_8e7cd886e6857d6761a3aece5ad448bf);
+            
+        
+
+        circle_marker_c0f457887c50a4362ac1cccd73988273.bindPopup(popup_e7d492167b6573e4e63dcc2b5c65f002)
+        ;
+
+        
+    
+    
+            circle_marker_c0f457887c50a4362ac1cccd73988273.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cf3e86531e33d54ad7f94c146af2e7fc = L.circleMarker(
+                [10.3777812, -4.6882653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_cfcb741ba2b375cadd0608be8ae1c0e4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9e1ecd2acfbe15f9d38bb818ec05c9f2 = $(`<div id="html_9e1ecd2acfbe15f9d38bb818ec05c9f2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 3. Aim  Fig  3.1. Map  illustrates  the  location  of  the  study  area. The  white  numbers  corresponds  to  sample  numbers and the locations were each sample was collected. The Pissila batholith and the Saaba zone gneiss are located near the town of Pissila in NE  Burkina  Faso. The  aim  of  the  project  is  to  determine  the  relationship  between  the  Pissila  batholith and the Saaba zone gneiss. || The  Pissila  batholith  and  the  Saaba  zone  exhibit  some  similarities  to  granitoid-gneissic  terranes  in  Côte  d’lvoire,  NE  Burkina  Faso  and  Senegal. The  study  area  may  have  formed  under  processes  similar  to  those  that  formed  granitoid-gneisses  in  the  above  countries. Therefore, the Saaba zone was possibly intruded by the Pissila batholith. The intrusion leads  to partial melting and migmatization of the gneisses. Analysis of microstructures in the Pissila batholith and the Saaba zone gneiss suggests the  rocks were subjected to two deformation events. The Saaba zone gneiss and migmatites was  deformed to amphibolites facies during D1 deformation event.<br><b>Geocode:</b> Ne, Niangoloko, Comoé, Waterfalls, Burkina Faso<br><b>Pages:</b> 10,35<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_cfcb741ba2b375cadd0608be8ae1c0e4.setContent(html_9e1ecd2acfbe15f9d38bb818ec05c9f2);
+            
+        
+
+        circle_marker_cf3e86531e33d54ad7f94c146af2e7fc.bindPopup(popup_cfcb741ba2b375cadd0608be8ae1c0e4)
+        ;
+
+        
+    
+    
+            circle_marker_cf3e86531e33d54ad7f94c146af2e7fc.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b31131c2bb5ab7fbcc6f4dbe2705dd8d = L.circleMarker(
+                [13.1658394, -0.8287661],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_b2bdd9efcf9c77e26dc4d8a702fa2872 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6da1124ed259bfca5bb50cc75f2fa7ef = $(`<div id="html_6da1124ed259bfca5bb50cc75f2fa7ef" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4. Methodology  Field work  Samples from the Pissila batholith and the Saaba Zone gneiss were collected during field  work  in  January  2012. Mapping  of  the  study  area  and  sample  collection  was  conducted  by  Profs. Kerstin  Saalmann  and  Kim  Ncube-Hein. The  locations  of  each  station  point  were  recorded  using  GPS  co-ordinates. The  World  Geodetic  System  (WGS  84)  and  Universal  Transverse Mercator (UTM) in meters were used as the datum and format, respectively. || 7. Discussion  7.1. Comparison between the gneiss and granodiorite  The  Pissila  batholith  and  the  Saaba  zone  gneiss  are  petrologically  and  geochemically  different from each other. The granodiorite exhibit a composition that is more mafic relative  to the gneiss and migmatite. This is apparent in the thin section where hornblende and biotite  are  dominant  in  the  granodiorite  relative  to  the  gneiss  and  migmatite. In  general,  the  granodiorite  exhibit  higher  oxide  content  relative  to  the  gneiss  and  migmatite,  with  an  exception to SiO2 and K2O. || 7.5. Comparison other regions in the craton similar to the study area  Granitoid  intrusion  associated  with  orthogneiss  and  migmatites  where  previously  described by Hirdes et al., 1996, Doumbia et al., 1998, Gasquet et al., 2003, Naba et al., 2004  and Vegas et al., 2008. The Pissila batholith and the Saaba zone gneiss are petrologically and  geochemically  similar  to  gneissic  terranes  in  the  sodic  calc-alkaline  granitoids  in  the  Dabakala region, Côte d’lvoire and the batholiths in north eastern Burkina Faso (appendix 1). Therefore,  the  Pissila  batholith  and  the  Saaba  zone  were  possibly  derived  from  similar  processes  that  formed  the  above  regions. In  both  regions  the  granitoids  are  associated  with  first  group  of  granitoid  intrusion  ca  2.1  Ga,  which  is  similar  to  the  age  (2143  ±12  Ma  and  2117 ±17Ma) of the Pissila batholith (Gasquet et al., 2003, Vegas et al., 2008). In  a  study  of  granitoid-gneissic  terrane  in  the  Dabakala  region,  Hirdes  et  al.,  1996  proposed  that  the  gneisses  where  intruded  by  younger  batholiths. || 8. Conclusion  Petrology  and  geochemistry  suggests  the  Pissila batholith  and  the Saaba  zone  gneiss  are  differ  from  each  other. The  gneisses  exhibit  some  affiliations  to  Archean  TTG. The  Pissila  batholith  does  not  vary  too  much  from  other  calc-alkaline  intrusions  in  the  craton. Geochronology  of  the  batholith  produces  age  of  2143  ±12  Ma  and  2117  ±17  Ma. Emplacement was coeval with the Eburnean orogeny ca 2.1 Ga. || Abstract   The  Pissila  batholith  is  a  foliated  coarse-grained  granodiorite,  which  is  located  in  north  eastern Burkina Faso. The batholith was emplaced at 2143 ±12 Ma and 2117 ±17Ma, coeval  with  the  Eburnean  orogeny. The  Eburnean  orogeny  represents  a  period  of  major  crustal  growth in an island arc setting. The batholith is geochemically similar to other calc-alkaline  granitoids in the domain. The Saaba zone gneiss, which is locally migmatitic is located within  the  Pissila  batholith. Geochemically,  the  gneiss  and  migmatites  have  some  Archean  TTG  affiliations. || D2 lead to greenschist facies  metamorphism of both the Pissila batholith and the Saaba zone. Despite petrography and geochemistry indicating that the  Pissila batholith and the Saaba  zone gneiss are unrelated, more conclusive data is required. Therefore, geochronology of the  Saaba  zone  is  necessary  to  validate  the  study  results. Geochronology  would  also  allow  for  better comparison of the study area to other granitoid-gneissic terranes in the craton. 35 || Granitoids  that  are  associated  with  gneisses  and  migmatites  were  previously  described in north eastern Burkina Faso, Côte d’lvoire and Senegal. These studies concluded  that the granitoids intruded into the pre-existing gneissic terrane. This study suggests that the  Saaba  zone  and  Pissila  batholith  are  geochemically  and  petrological  different  from  each  other. The Saaba zone gneiss does not  represent  a deformed region  of the Pissila batholith. Based on similarities of the study area to other granitoid-gneissic terrane, the Saaba zone may  predate the Pissila batholith. It is also proposed that the gneiss preserve an older deformation  event  D1,  which  lead  to  amphibolite  facies  metamorphism. || The  Pissila  batholith  and  the  Saaba  zone  exhibit  some  similarities  to  granitoid-gneissic  terranes  in  Côte  d’lvoire,  NE  Burkina  Faso  and  Senegal. The  study  area  may  have  formed  under  processes  similar  to  those  that  formed  granitoid-gneisses  in  the  above  countries. Therefore, the Saaba zone was possibly intruded by the Pissila batholith. The intrusion leads  to partial melting and migmatization of the gneisses. Analysis of microstructures in the Pissila batholith and the Saaba zone gneiss suggests the  rocks were subjected to two deformation events. The Saaba zone gneiss and migmatites was  deformed to amphibolites facies during D1 deformation event.<br><b>Geocode:</b> Pissila, Sanmatenga, Central-North, Burkina Faso<br><b>Pages:</b> 11,29,34,35,4<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b2bdd9efcf9c77e26dc4d8a702fa2872.setContent(html_6da1124ed259bfca5bb50cc75f2fa7ef);
+            
+        
+
+        circle_marker_b31131c2bb5ab7fbcc6f4dbe2705dd8d.bindPopup(popup_b2bdd9efcf9c77e26dc4d8a702fa2872)
+        ;
+
+        
+    
+    
+            circle_marker_b31131c2bb5ab7fbcc6f4dbe2705dd8d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ffdd6be11cacee849f8ec614e175a807 = L.circleMarker(
+                [19.416247, -16.4656949],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_63976761d3ac73786363670e23c1ba50 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0f8eb25cb27f47a85e729e5ff8cb675f = $(`<div id="html_0f8eb25cb27f47a85e729e5ff8cb675f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2. Regional Geology  The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo- Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the  Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain  and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north  and the Leo-Man in the south (Béziat et al., 2008).<br><b>Geocode:</b> Rgueiba, Dakhlet Nouadhibou, Mauritania<br><b>Pages:</b> 6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_63976761d3ac73786363670e23c1ba50.setContent(html_0f8eb25cb27f47a85e729e5ff8cb675f);
+            
+        
+
+        circle_marker_ffdd6be11cacee849f8ec614e175a807.bindPopup(popup_63976761d3ac73786363670e23c1ba50)
+        ;
+
+        
+    
+    
+            circle_marker_ffdd6be11cacee849f8ec614e175a807.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f8a5825dede30f0cb410268e2b5b33e5 = L.circleMarker(
+                [12.376944, -1.420833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_9ebb220ba12bcceafe3e588657ed717d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_01ab635fc2e9d0399b2e1c541ccd647d = $(`<div id="html_01ab635fc2e9d0399b2e1c541ccd647d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4. Methodology  Field work  Samples from the Pissila batholith and the Saaba Zone gneiss were collected during field  work  in  January  2012. Mapping  of  the  study  area  and  sample  collection  was  conducted  by  Profs. Kerstin  Saalmann  and  Kim  Ncube-Hein. The  locations  of  each  station  point  were  recorded  using  GPS  co-ordinates. The  World  Geodetic  System  (WGS  84)  and  Universal  Transverse Mercator (UTM) in meters were used as the datum and format, respectively. || 4. Methodology  Field work  Samples from the Pissila batholith and the Saaba Zone gneiss were collected during field  work  in  January  2012. Mapping  of  the  study  area  and  sample  collection  was  conducted  by  Profs. Kerstin  Saalmann  and  Kim  Ncube-Hein. The  locations  of  each  station  point  were  recorded  using  GPS  co-ordinates. The  World  Geodetic  System  (WGS  84)  and  Universal  Transverse Mercator (UTM) in meters were used as the datum and format, respectively. || 5.2. Biotite gneiss  The Saaba Zone is characterised by medium-grain biotite gneiss. Hand samples KS-2012-  17B and 17C are foliated. Biotite, hornblende and discontinuous feldspathic layers (0.5-3mm  thick)  define  the  fabric. Sample  KS-2012-17B  is  predominately  composed  of  quartz  (66%)  with  plagioclase  (18%),  microcline  (8%),  hornblende  (3%),  biotite  (5%)  and  Fe-Ti  oxide  (>1%) (Table 1). Hornblende and biotite are elongated and strongly aligned.<br><b>Geocode:</b> Saaba, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 11,11,14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9ebb220ba12bcceafe3e588657ed717d.setContent(html_01ab635fc2e9d0399b2e1c541ccd647d);
+            
+        
+
+        circle_marker_f8a5825dede30f0cb410268e2b5b33e5.bindPopup(popup_9ebb220ba12bcceafe3e588657ed717d)
+        ;
+
+        
+    
+    
+            circle_marker_f8a5825dede30f0cb410268e2b5b33e5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a55d09f00991726a0b6f9ed3c0ecf8ad = L.circleMarker(
+                [12.376944, -1.420833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_61666676a7a6f8df759ddbb69ae2654d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f6c376773b891feb750cfddc8cf7ebbc = $(`<div id="html_f6c376773b891feb750cfddc8cf7ebbc" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 7. Discussion  7.1. Comparison between the gneiss and granodiorite  The  Pissila  batholith  and  the  Saaba  zone  gneiss  are  petrologically  and  geochemically  different from each other. The granodiorite exhibit a composition that is more mafic relative  to the gneiss and migmatite. This is apparent in the thin section where hornblende and biotite  are  dominant  in  the  granodiorite  relative  to  the  gneiss  and  migmatite. In  general,  the  granodiorite  exhibit  higher  oxide  content  relative  to  the  gneiss  and  migmatite,  with  an  exception to SiO2 and K2O. || 7.5. Comparison other regions in the craton similar to the study area  Granitoid  intrusion  associated  with  orthogneiss  and  migmatites  where  previously  described by Hirdes et al., 1996, Doumbia et al., 1998, Gasquet et al., 2003, Naba et al., 2004  and Vegas et al., 2008. The Pissila batholith and the Saaba zone gneiss are petrologically and  geochemically  similar  to  gneissic  terranes  in  the  sodic  calc-alkaline  granitoids  in  the  Dabakala region, Côte d’lvoire and the batholiths in north eastern Burkina Faso (appendix 1). Therefore,  the  Pissila  batholith  and  the  Saaba  zone  were  possibly  derived  from  similar  processes  that  formed  the  above  regions. In  both  regions  the  granitoids  are  associated  with  first  group  of  granitoid  intrusion  ca  2.1  Ga,  which  is  similar  to  the  age  (2143  ±12  Ma  and  2117 ±17Ma) of the Pissila batholith (Gasquet et al., 2003, Vegas et al., 2008). In  a  study  of  granitoid-gneissic  terrane  in  the  Dabakala  region,  Hirdes  et  al.,  1996  proposed  that  the  gneisses  where  intruded  by  younger  batholiths. || 8. Conclusion  Petrology  and  geochemistry  suggests  the  Pissila batholith  and  the Saaba  zone  gneiss  are  differ  from  each  other. The  gneisses  exhibit  some  affiliations  to  Archean  TTG. The  Pissila  batholith  does  not  vary  too  much  from  other  calc-alkaline  intrusions  in  the  craton. Geochronology  of  the  batholith  produces  age  of  2143  ±12  Ma  and  2117  ±17  Ma. Emplacement was coeval with the Eburnean orogeny ca 2.1 Ga. || D2 lead to greenschist facies  metamorphism of both the Pissila batholith and the Saaba zone. Despite petrography and geochemistry indicating that the  Pissila batholith and the Saaba  zone gneiss are unrelated, more conclusive data is required. Therefore, geochronology of the  Saaba  zone  is  necessary  to  validate  the  study  results. Geochronology  would  also  allow  for  better comparison of the study area to other granitoid-gneissic terranes in the craton. 35 || Granitoids  that  are  associated  with  gneisses  and  migmatites  were  previously  described in north eastern Burkina Faso, Côte d’lvoire and Senegal. These studies concluded  that the granitoids intruded into the pre-existing gneissic terrane. This study suggests that the  Saaba  zone  and  Pissila  batholith  are  geochemically  and  petrological  different  from  each  other. The Saaba zone gneiss does not  represent  a deformed region  of the Pissila batholith. Based on similarities of the study area to other granitoid-gneissic terrane, the Saaba zone may  predate the Pissila batholith. It is also proposed that the gneiss preserve an older deformation  event  D1,  which  lead  to  amphibolite  facies  metamorphism. || The  Pissila  batholith  and  the  Saaba  zone  exhibit  some  similarities  to  granitoid-gneissic  terranes  in  Côte  d’lvoire,  NE  Burkina  Faso  and  Senegal. The  study  area  may  have  formed  under  processes  similar  to  those  that  formed  granitoid-gneisses  in  the  above  countries. Therefore, the Saaba zone was possibly intruded by the Pissila batholith. The intrusion leads  to partial melting and migmatization of the gneisses. Analysis of microstructures in the Pissila batholith and the Saaba zone gneiss suggests the  rocks were subjected to two deformation events. The Saaba zone gneiss and migmatites was  deformed to amphibolites facies during D1 deformation event.<br><b>Geocode:</b> Saaba, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 29,34,35,4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_61666676a7a6f8df759ddbb69ae2654d.setContent(html_f6c376773b891feb750cfddc8cf7ebbc);
+            
+        
+
+        circle_marker_a55d09f00991726a0b6f9ed3c0ecf8ad.bindPopup(popup_61666676a7a6f8df759ddbb69ae2654d)
+        ;
+
+        
+    
+    
+            circle_marker_a55d09f00991726a0b6f9ed3c0ecf8ad.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_15479479b185e1410a078801d8199519 = L.circleMarker(
+                [14.4750607, -14.4529612],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_77dda055ff659932074fceb31de0d367 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d202eec0fbc301d620de06421c756b5f = $(`<div id="html_d202eec0fbc301d620de06421c756b5f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Granitoids  that  are  associated  with  gneisses  and  migmatites  were  previously  described in north eastern Burkina Faso, Côte d’lvoire and Senegal. These studies concluded  that the granitoids intruded into the pre-existing gneissic terrane. This study suggests that the  Saaba  zone  and  Pissila  batholith  are  geochemically  and  petrological  different  from  each  other. The Saaba zone gneiss does not  represent  a deformed region  of the Pissila batholith. Based on similarities of the study area to other granitoid-gneissic terrane, the Saaba zone may  predate the Pissila batholith. It is also proposed that the gneiss preserve an older deformation  event  D1,  which  lead  to  amphibolite  facies  metamorphism. || Granitoids  that  are  associated  with  gneisses  and  migmatites  were  previously  described in north eastern Burkina Faso, Côte d’lvoire and Senegal. These studies concluded  that the granitoids intruded into the pre-existing gneissic terrane. This study suggests that the  Saaba  zone  and  Pissila  batholith  are  geochemically  and  petrological  different  from  each  other. The Saaba zone gneiss does not  represent  a deformed region  of the Pissila batholith. Based on similarities of the study area to other granitoid-gneissic terrane, the Saaba zone may  predate the Pissila batholith. It is also proposed that the gneiss preserve an older deformation  event  D1,  which  lead  to  amphibolite  facies  metamorphism. || The  Pissila  batholith  and  the  Saaba  zone  exhibit  some  similarities  to  granitoid-gneissic  terranes  in  Côte  d’lvoire,  NE  Burkina  Faso  and  Senegal. The  study  area  may  have  formed  under  processes  similar  to  those  that  formed  granitoid-gneisses  in  the  above  countries. Therefore, the Saaba zone was possibly intruded by the Pissila batholith. The intrusion leads  to partial melting and migmatization of the gneisses. Analysis of microstructures in the Pissila batholith and the Saaba zone gneiss suggests the  rocks were subjected to two deformation events. The Saaba zone gneiss and migmatites was  deformed to amphibolites facies during D1 deformation event.<br><b>Geocode:</b> Senegal<br><b>Pages:</b> 35,4,4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_77dda055ff659932074fceb31de0d367.setContent(html_d202eec0fbc301d620de06421c756b5f);
+            
+        
+
+        circle_marker_15479479b185e1410a078801d8199519.bindPopup(popup_77dda055ff659932074fceb31de0d367)
+        ;
+
+        
+    
+    
+            circle_marker_15479479b185e1410a078801d8199519.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2156b5c21ac3ffdf70d08ab56921662e = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_067bc9eea1675b582af1c65fe5e582fb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_48dbd0d9f2c307918677dd013bd672ce = $(`<div id="html_48dbd0d9f2c307918677dd013bd672ce" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 7.5. Comparison other regions in the craton similar to the study area  Granitoid  intrusion  associated  with  orthogneiss  and  migmatites  where  previously  described by Hirdes et al., 1996, Doumbia et al., 1998, Gasquet et al., 2003, Naba et al., 2004  and Vegas et al., 2008. The Pissila batholith and the Saaba zone gneiss are petrologically and  geochemically  similar  to  gneissic  terranes  in  the  sodic  calc-alkaline  granitoids  in  the  Dabakala region, Côte d’lvoire and the batholiths in north eastern Burkina Faso (appendix 1). Therefore,  the  Pissila  batholith  and  the  Saaba  zone  were  possibly  derived  from  similar  processes  that  formed  the  above  regions. In  both  regions  the  granitoids  are  associated  with  first  group  of  granitoid  intrusion  ca  2.1  Ga,  which  is  similar  to  the  age  (2143  ±12  Ma  and  2117 ±17Ma) of the Pissila batholith (Gasquet et al., 2003, Vegas et al., 2008). In  a  study  of  granitoid-gneissic  terrane  in  the  Dabakala  region,  Hirdes  et  al.,  1996  proposed  that  the  gneisses  where  intruded  by  younger  batholiths. || Abstract   The  Pissila  batholith  is  a  foliated  coarse-grained  granodiorite,  which  is  located  in  north  eastern Burkina Faso. The batholith was emplaced at 2143 ±12 Ma and 2117 ±17Ma, coeval  with  the  Eburnean  orogeny. The  Eburnean  orogeny  represents  a  period  of  major  crustal  growth in an island arc setting. The batholith is geochemically similar to other calc-alkaline  granitoids in the domain. The Saaba zone gneiss, which is locally migmatitic is located within  the  Pissila  batholith. Geochemically,  the  gneiss  and  migmatites  have  some  Archean  TTG  affiliations. || Granitoids  that  are  associated  with  gneisses  and  migmatites  were  previously  described in north eastern Burkina Faso, Côte d’lvoire and Senegal. These studies concluded  that the granitoids intruded into the pre-existing gneissic terrane. This study suggests that the  Saaba  zone  and  Pissila  batholith  are  geochemically  and  petrological  different  from  each  other. The Saaba zone gneiss does not  represent  a deformed region  of the Pissila batholith. Based on similarities of the study area to other granitoid-gneissic terrane, the Saaba zone may  predate the Pissila batholith. It is also proposed that the gneiss preserve an older deformation  event  D1,  which  lead  to  amphibolite  facies  metamorphism.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 34,4<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_067bc9eea1675b582af1c65fe5e582fb.setContent(html_48dbd0d9f2c307918677dd013bd672ce);
+            
+        
+
+        circle_marker_2156b5c21ac3ffdf70d08ab56921662e.bindPopup(popup_067bc9eea1675b582af1c65fe5e582fb)
+        ;
+
+        
+    
+    
+            circle_marker_2156b5c21ac3ffdf70d08ab56921662e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_13a085d01688b4aa20f46f595883c255 = L.circleMarker(
+                [13.1658394, -0.8287661],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c359a923551e8175c62026292fe91dde);
+        
+    
+        var popup_70a3115bb187449d29616388275832d0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_278549d2735e9657d2d68f2c6f5be66e = $(`<div id="html_278549d2735e9657d2d68f2c6f5be66e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 3. Aim  Fig  3.1. Map  illustrates  the  location  of  the  study  area. The  white  numbers  corresponds  to  sample  numbers and the locations were each sample was collected. The Pissila batholith and the Saaba zone gneiss are located near the town of Pissila in NE  Burkina  Faso. The  aim  of  the  project  is  to  determine  the  relationship  between  the  Pissila  batholith and the Saaba zone gneiss.<br><b>Geocode:</b> Pissila, Sanmatenga, Central-North, Burkina Faso<br><b>Pages:</b> 10<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_70a3115bb187449d29616388275832d0.setContent(html_278549d2735e9657d2d68f2c6f5be66e);
+            
+        
+
+        circle_marker_13a085d01688b4aa20f46f595883c255.bindPopup(popup_70a3115bb187449d29616388275832d0)
+        ;
+
+        
+    
+    
+            circle_marker_13a085d01688b4aa20f46f595883c255.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

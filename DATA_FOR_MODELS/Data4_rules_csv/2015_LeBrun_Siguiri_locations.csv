@@ -1730,7 +1730,7 @@ University,  State  and  Commonwealth  Governments. In  particular,  I  thank  J
 Malcolm  Roberts  from  the  CMCA  for  their  help  on  the  delicate  machines  the  SEM  and 
 microprobe  are. At  Curtin,  Hao  Gao  and  Cristina  Talavera  are  thanked  for  their  incredible 
 patience and determination to make the SHRIMP operate smoothly. I thank Noreen Evans and 
-Brad McDonald for their help and expertise in the collection of quality LA-ICP-MS data.",Gao,GEO,geotext
+Brad McDonald for their help and expertise in the collection of quality LA-ICP-MS data.",Talavera,GEO,geotext
 2015_LeBrun_Siguiri.txt,26,"more than one occasion to get things going for me at the core yard. At UWA, I thank Professor 
 and friend Julien Bourget for his precious help regarding the description and interpretation of 
 sediments  and  sedimentary  facies. I  also  acknowledge  the  facilities,  and  the  scientific  and 
@@ -1740,23 +1740,7 @@ University,  State  and  Commonwealth  Governments. In  particular,  I  thank  J
 Malcolm  Roberts  from  the  CMCA  for  their  help  on  the  delicate  machines  the  SEM  and 
 microprobe  are. At  Curtin,  Hao  Gao  and  Cristina  Talavera  are  thanked  for  their  incredible 
 patience and determination to make the SHRIMP operate smoothly. I thank Noreen Evans and 
-Brad McDonald for their help and expertise in the collection of quality LA-ICP-MS data.",Talavera,GEO,geotext
-2015_LeBrun_Siguiri.txt,26,"In  addition  to  these  colleagues  and  fellow  researchers,  the  admin  and  research 
-staff/student  at  the  CET  were  an  irreplaceable  support  in  the  success  of  this  project. Specifically, Matt Hill, Luis Parra, Quentin Masurel, Thomas Angerer, Ana-Sophie Hensler and 
-Christian  Schindler  are  thanked  for  reminding  me  that  a  PhD  was  also the  occasion  to meet 
-great  people  and  share  good  moments  around  a  beer  (or  two  maybe). Cindy  Dunjey,  Susie 
-Cass,  Estelle  Dawes,  Emily  Denham,  Wendy  Carter,  Gillian  Evans  and  Hayley  Newberry  are 
-thanked for handling the financial and administrative side of the research. Regarding financial support, this project is funded by AngloGold Ashanti, which I thank, 
-and  is  associated  with  an  ARC  Linkage  Grant:  “Four  dimensional  lithospheric  evolution  and 
-controls  on  mineral  system  distribution 
-in  Neoarchean  to  Paleoproterozoic  terranes"" 
-(LP110100667), and in collaboration with the AMIRA P934A project “West African Exploration 
-Initiative- Stage 2”. Outside  the  academic  world,  my  friends  and  family  were  the  strong  pillars  that 
-supported me all along, cheered me up when things were looking dire and have always been a 
-welcomed  distraction when I was  meant to work  hard. In particular, I thank  my spearfishing 
-buddies and dear friends Mael Coret, Craig McPhilimey and Jacques Wittig for accompanying 
-me on our regular underwater escapes in the cold waters around Albany and the warm depths 
-26",Evans,GEO,geotext
+Brad McDonald for their help and expertise in the collection of quality LA-ICP-MS data.",Gao,GEO,geotext
 2015_LeBrun_Siguiri.txt,26,"In  addition  to  these  colleagues  and  fellow  researchers,  the  admin  and  research 
 staff/student  at  the  CET  were  an  irreplaceable  support  in  the  success  of  this  project. Specifically, Matt Hill, Luis Parra, Quentin Masurel, Thomas Angerer, Ana-Sophie Hensler and 
 Christian  Schindler  are  thanked  for  reminding  me  that  a  PhD  was  also the  occasion  to meet 
@@ -1773,15 +1757,22 @@ welcomed  distraction when I was  meant to work  hard. In particular, I thank  m
 buddies and dear friends Mael Coret, Craig McPhilimey and Jacques Wittig for accompanying 
 me on our regular underwater escapes in the cold waters around Albany and the warm depths 
 26",Estelle,GEO,geotext
-2015_LeBrun_Siguiri.txt,31,"To the south, the Siguiri Basin is bordered by a series of 
-late  Eburnean intrusives (ca. 2090-2070 Ma) and by the Sassandra fault separating the Basin 
-sediments from the Archean Kénéma-Man gneiss (Egal et al., 2002). The Archean banded iron 
-formations of the Simandou also outcrop south of the Siguiri Basin (Egal et al., 1999). Finally, to 
-the north, the Siguiri Basin is unconformably overlain by the Neoproterozoic sediments of the 
-Taoudeni  Basin. The  Siguiri  Basin  sediments  are  intruded  by  a  number  of  late  Eburnean 
-monzogranite  and  biotite  granite  intrusions  dated  at  ca. 2090-2070  Ma  such  as  the  Malea 
-monzogranite, outcropping in the northernmost part of the Basin, 50 km north of the Siguiri 
-district  (Egal  et  al.,  2002;  Parra-Avila,  2015).",Man,GEO,geotext
+2015_LeBrun_Siguiri.txt,26,"In  addition  to  these  colleagues  and  fellow  researchers,  the  admin  and  research 
+staff/student  at  the  CET  were  an  irreplaceable  support  in  the  success  of  this  project. Specifically, Matt Hill, Luis Parra, Quentin Masurel, Thomas Angerer, Ana-Sophie Hensler and 
+Christian  Schindler  are  thanked  for  reminding  me  that  a  PhD  was  also the  occasion  to meet 
+great  people  and  share  good  moments  around  a  beer  (or  two  maybe). Cindy  Dunjey,  Susie 
+Cass,  Estelle  Dawes,  Emily  Denham,  Wendy  Carter,  Gillian  Evans  and  Hayley  Newberry  are 
+thanked for handling the financial and administrative side of the research. Regarding financial support, this project is funded by AngloGold Ashanti, which I thank, 
+and  is  associated  with  an  ARC  Linkage  Grant:  “Four  dimensional  lithospheric  evolution  and 
+controls  on  mineral  system  distribution 
+in  Neoarchean  to  Paleoproterozoic  terranes"" 
+(LP110100667), and in collaboration with the AMIRA P934A project “West African Exploration 
+Initiative- Stage 2”. Outside  the  academic  world,  my  friends  and  family  were  the  strong  pillars  that 
+supported me all along, cheered me up when things were looking dire and have always been a 
+welcomed  distraction when I was  meant to work  hard. In particular, I thank  my spearfishing 
+buddies and dear friends Mael Coret, Craig McPhilimey and Jacques Wittig for accompanying 
+me on our regular underwater escapes in the cold waters around Albany and the warm depths 
+26",Evans,GEO,geotext
 2015_LeBrun_Siguiri.txt,31,"To the south, the Siguiri Basin is bordered by a series of 
 late  Eburnean intrusives (ca. 2090-2070 Ma) and by the Sassandra fault separating the Basin 
 sediments from the Archean Kénéma-Man gneiss (Egal et al., 2002). The Archean banded iron 
@@ -1791,6 +1782,15 @@ Taoudeni  Basin. The  Siguiri  Basin  sediments  are  intruded  by  a  number  o
 monzogranite  and  biotite  granite  intrusions  dated  at  ca. 2090-2070  Ma  such  as  the  Malea 
 monzogranite, outcropping in the northernmost part of the Basin, 50 km north of the Siguiri 
 district  (Egal  et  al.,  2002;  Parra-Avila,  2015).",Sassandra,GEO,geotext
+2015_LeBrun_Siguiri.txt,31,"To the south, the Siguiri Basin is bordered by a series of 
+late  Eburnean intrusives (ca. 2090-2070 Ma) and by the Sassandra fault separating the Basin 
+sediments from the Archean Kénéma-Man gneiss (Egal et al., 2002). The Archean banded iron 
+formations of the Simandou also outcrop south of the Siguiri Basin (Egal et al., 1999). Finally, to 
+the north, the Siguiri Basin is unconformably overlain by the Neoproterozoic sediments of the 
+Taoudeni  Basin. The  Siguiri  Basin  sediments  are  intruded  by  a  number  of  late  Eburnean 
+monzogranite  and  biotite  granite  intrusions  dated  at  ca. 2090-2070  Ma  such  as  the  Malea 
+monzogranite, outcropping in the northernmost part of the Basin, 50 km north of the Siguiri 
+district  (Egal  et  al.,  2002;  Parra-Avila,  2015).",Man,GEO,geotext
 2015_LeBrun_Siguiri.txt,32,"Even  though  all  these  studies  propose  that  gold  mineralisation  in  Siguiri  is  dominantly 
 controlled by veins, no consensus was reached by the authors on what controls the location of 
 the Siguiri gold district at the scale of the Siguiri Basin or what controls the extent of the ore 
@@ -1934,6 +1934,15 @@ Boromo,  Houndé  and  Banfora  sedimentary  rocks  have  been  described  as  t
 volcano-sediments,  volcaniclastics,  argilites  and  wackes  with  occasional  intercalations  of 
 andesites (Baratoux et al., 2011). The Komana sedimentary rocks in the Yanfolila Belt of Mali, 
 are another example interpreted by Davis et al. (2015) to be a lateral equivalent of the Sefwi 
+Formation (Figure 15).",Banfora,GEO,geotext
+2015_LeBrun_Siguiri.txt,78,"2200 up to ca. 2140 Ma (Adadey et al., 2009; Davis et al., 2015; Davis et 
+al.,  1994;  Hirdes  and  Davis,  1998;  Taylor  et  al.,  1992). The  Sefwi  Formation  displays  similar 
+facies  and  ages  as  the  Fetekoro  sediments  and  its  equivalents  in  the  Boromo,  Houndé  and 
+Banfora belts of Burkina Faso (Davis et al., 2015; Baratoux et al., 2011). In Burkina Faso, the 
+Boromo,  Houndé  and  Banfora  sedimentary  rocks  have  been  described  as  tuffs,  epiclastic 
+volcano-sediments,  volcaniclastics,  argilites  and  wackes  with  occasional  intercalations  of 
+andesites (Baratoux et al., 2011). The Komana sedimentary rocks in the Yanfolila Belt of Mali, 
+are another example interpreted by Davis et al. (2015) to be a lateral equivalent of the Sefwi 
 Formation (Figure 15).",Houndé,GEO,geotext
 2015_LeBrun_Siguiri.txt,78,"2200 up to ca. 2140 Ma (Adadey et al., 2009; Davis et al., 2015; Davis et 
 al.,  1994;  Hirdes  and  Davis,  1998;  Taylor  et  al.,  1992). The  Sefwi  Formation  displays  similar 
@@ -1944,15 +1953,6 @@ volcano-sediments,  volcaniclastics,  argilites  and  wackes  with  occasional  
 andesites (Baratoux et al., 2011). The Komana sedimentary rocks in the Yanfolila Belt of Mali, 
 are another example interpreted by Davis et al. (2015) to be a lateral equivalent of the Sefwi 
 Formation (Figure 15).",Burkina Faso,GEO,geotext
-2015_LeBrun_Siguiri.txt,78,"2200 up to ca. 2140 Ma (Adadey et al., 2009; Davis et al., 2015; Davis et 
-al.,  1994;  Hirdes  and  Davis,  1998;  Taylor  et  al.,  1992). The  Sefwi  Formation  displays  similar 
-facies  and  ages  as  the  Fetekoro  sediments  and  its  equivalents  in  the  Boromo,  Houndé  and 
-Banfora belts of Burkina Faso (Davis et al., 2015; Baratoux et al., 2011). In Burkina Faso, the 
-Boromo,  Houndé  and  Banfora  sedimentary  rocks  have  been  described  as  tuffs,  epiclastic 
-volcano-sediments,  volcaniclastics,  argilites  and  wackes  with  occasional  intercalations  of 
-andesites (Baratoux et al., 2011). The Komana sedimentary rocks in the Yanfolila Belt of Mali, 
-are another example interpreted by Davis et al. (2015) to be a lateral equivalent of the Sefwi 
-Formation (Figure 15).",Banfora,GEO,geotext
 2015_LeBrun_Siguiri.txt,79,"(in  review  2015);  Chapter  3,  Parra-Avila  et  al. (this  volume), 
 Perrouti et al. (2012). In contrast, the deposition ages of the Siguiri Basin sediments compare with those of 
 the  Upper  Birimian  and  Tarkwa  Group  rocks  such  as  the  Kumasi  Formations  (Ghana),  Batie 

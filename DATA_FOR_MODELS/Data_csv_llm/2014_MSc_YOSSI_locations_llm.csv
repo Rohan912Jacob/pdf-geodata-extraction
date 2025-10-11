@@ -292,12 +292,7 @@ of the Niger River including the Sankarani in the north that debouches into the 
 Kouroussa,  Siguiri)  and  its  tributaries  Sankarani,  Fié,  Tinkisso  (at  Faranah),  Mafou,  Dion  and 
 Niandan (in Kissidougou) and Milo (in Kankan). In Mali, the study area is traversed by the tributaries 
 of the Niger River including the Sankarani in the north that debouches into the Niger River upstream 
-12",Niger River
-2014_MSc_YOSSI.txt,9,"These  rivers  include  the  Bafing  River,  Niger  River  (at 
-Kouroussa,  Siguiri)  and  its  tributaries  Sankarani,  Fié,  Tinkisso  (at  Faranah),  Mafou,  Dion  and 
-Niandan (in Kissidougou) and Milo (in Kankan). In Mali, the study area is traversed by the tributaries 
-of the Niger River including the Sankarani in the north that debouches into the Niger River upstream 
-12",Sankarani
+12",Sankarani in the north
 2014_MSc_YOSSI.txt,10,"of the city of Bamako, and the Bani which joins the Niger at Mopti after collecting waters from the 
 Baoulé, Bagoé and Banifing rivers. 1.3. Objective 
 Most of the geological studies completed at the scale of the study area have typically been based 
@@ -454,6 +449,19 @@ domain and Palaeoproterozoic Baoulé-Mossi domain. The Baoulé-Mossi domain is m
 greenstone belts composed of metamorphosed plutono-volcanic, volcaniclastic and sedimentary rocks, 
 and TTG suite granitoids (Lompo, 2010). 2.2. Regional geology setting 
 2.2.1.",Reguibat Shield
+2014_MSc_YOSSI.txt,13,"The Leo-Man Shield includes the Archaean Kenema-Man 
+domain 
+in 
+the  west  and 
+the  Palaeoproterozoic  Baoulé-Mossi  domain 
+in 
+the  east. The 
+Palaeoproterozoic Kayes and Kedougou-Kenieba inliers are situated in the west of the craton between 
+the Reguibat and Leo-Man shields. The Leo-Man Shield is divided into the Archaean Kenema-Man 
+domain and Palaeoproterozoic Baoulé-Mossi domain. The Baoulé-Mossi domain is made up of linear 
+greenstone belts composed of metamorphosed plutono-volcanic, volcaniclastic and sedimentary rocks, 
+and TTG suite granitoids (Lompo, 2010). 2.2. Regional geology setting 
+2.2.1.",Leo-Man Shield
 2014_MSc_YOSSI.txt,13,"The Archaean Kenema-Man domain 
 The  Kenema-Man  domain  is  marked  by  pre-Leonean  granitic-gniessic  basement,  Leonean 
 and the Liberian domain. The degree of regional metamorphism observed in the Kenema-Man domain 
@@ -612,7 +620,7 @@ basins,  which  are  divided  by  greenstone  belts  including  the  Yanfolila, 
 basin. The Siguiri basin is dominated by the Siguiri-Kankan Formation in Guinea, and is composed of 
 siltstone,  mudstone  and  subordinate  arkoses,  with pelitic  schist (Egal  et al., 1999;  Lahondère  et  al., 
 1999). These sediments are intercalated with pyroclastites or tuffs that are composed of rhyolite and 
-quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Siguiri basin
+quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Siguiri
 2014_MSc_YOSSI.txt,16,"2.3. Architecture and geological setting of southern Mali and northeast Guinea 
 The  study  area  in  southern  Mali  and  northeast  Guinea  is  composed  of  metamorphosed 
 sedimentary units including greywacke, siltstone and conglomerate that are intercalated with volcanic 
@@ -622,7 +630,7 @@ basins,  which  are  divided  by  greenstone  belts  including  the  Yanfolila, 
 basin. The Siguiri basin is dominated by the Siguiri-Kankan Formation in Guinea, and is composed of 
 siltstone,  mudstone  and  subordinate  arkoses,  with pelitic  schist (Egal  et al., 1999;  Lahondère  et  al., 
 1999). These sediments are intercalated with pyroclastites or tuffs that are composed of rhyolite and 
-quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Bougouni basin
+quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Bougouni
 2014_MSc_YOSSI.txt,16,"2.3. Architecture and geological setting of southern Mali and northeast Guinea 
 The  study  area  in  southern  Mali  and  northeast  Guinea  is  composed  of  metamorphosed 
 sedimentary units including greywacke, siltstone and conglomerate that are intercalated with volcanic 
@@ -632,7 +640,7 @@ basins,  which  are  divided  by  greenstone  belts  including  the  Yanfolila, 
 basin. The Siguiri basin is dominated by the Siguiri-Kankan Formation in Guinea, and is composed of 
 siltstone,  mudstone  and  subordinate  arkoses,  with pelitic  schist (Egal  et al., 1999;  Lahondère  et  al., 
 1999). These sediments are intercalated with pyroclastites or tuffs that are composed of rhyolite and 
-quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Bagoé basin
+quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Bagoé basins
 2014_MSc_YOSSI.txt,16,"2.3. Architecture and geological setting of southern Mali and northeast Guinea 
 The  study  area  in  southern  Mali  and  northeast  Guinea  is  composed  of  metamorphosed 
 sedimentary units including greywacke, siltstone and conglomerate that are intercalated with volcanic 
@@ -682,7 +690,27 @@ basins,  which  are  divided  by  greenstone  belts  including  the  Yanfolila, 
 basin. The Siguiri basin is dominated by the Siguiri-Kankan Formation in Guinea, and is composed of 
 siltstone,  mudstone  and  subordinate  arkoses,  with pelitic  schist (Egal  et al., 1999;  Lahondère  et  al., 
 1999). These sediments are intercalated with pyroclastites or tuffs that are composed of rhyolite and 
-quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Siguiri-Kankan Formation in Guinea
+quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Siguiri basin
+2014_MSc_YOSSI.txt,16,"2.3. Architecture and geological setting of southern Mali and northeast Guinea 
+The  study  area  in  southern  Mali  and  northeast  Guinea  is  composed  of  metamorphosed 
+sedimentary units including greywacke, siltstone and conglomerate that are intercalated with volcanic 
+rocks (Liégeois et al., 1991). The rocks of the study area are grouped from west to east into the Siguiri, Bougouni, and Bagoé 
+basins,  which  are  divided  by  greenstone  belts  including  the  Yanfolila,  Massigui  and  Syama  belts 
+(Figure  2.2). They  are  unconformably  overlain  by  the  Neoproterozoic  sediments  of  the  Taoudeni 
+basin. The Siguiri basin is dominated by the Siguiri-Kankan Formation in Guinea, and is composed of 
+siltstone,  mudstone  and  subordinate  arkoses,  with pelitic  schist (Egal  et al., 1999;  Lahondère  et  al., 
+1999). These sediments are intercalated with pyroclastites or tuffs that are composed of rhyolite and 
+quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Siguiri-Kankan Formation
+2014_MSc_YOSSI.txt,16,"2.3. Architecture and geological setting of southern Mali and northeast Guinea 
+The  study  area  in  southern  Mali  and  northeast  Guinea  is  composed  of  metamorphosed 
+sedimentary units including greywacke, siltstone and conglomerate that are intercalated with volcanic 
+rocks (Liégeois et al., 1991). The rocks of the study area are grouped from west to east into the Siguiri, Bougouni, and Bagoé 
+basins,  which  are  divided  by  greenstone  belts  including  the  Yanfolila,  Massigui  and  Syama  belts 
+(Figure  2.2). They  are  unconformably  overlain  by  the  Neoproterozoic  sediments  of  the  Taoudeni 
+basin. The Siguiri basin is dominated by the Siguiri-Kankan Formation in Guinea, and is composed of 
+siltstone,  mudstone  and  subordinate  arkoses,  with pelitic  schist (Egal  et al., 1999;  Lahondère  et  al., 
+1999). These sediments are intercalated with pyroclastites or tuffs that are composed of rhyolite and 
+quartz  lithic  fragments  (Lahondère  et  al.,  2002).",Guinea
 2014_MSc_YOSSI.txt,16,"The  basin  is  bordered  by  the  Yanfolila  granites  in 
 Mali (Figure 2.3). The  Yanfolila  belt  is  the  northwest-trending  extension  in  Mali  of  the  Ziemougoula  volcano-
 sedimentary belt in Guinea and the Ivory Coast (Figure 2.2). The Yanfolila belt and several outliers 
@@ -831,13 +859,6 @@ Syama (Girard et al., 1998), and the Kadiana-Madinani domain to the west of the 
 and the Kadiolo domain to the east of the Syama Shear (Standing, 2000). The  Kadiana-Madinani  domain  is  interpreted  by  Bentley  et  al. (2000)  as  a  back-arc  basin  that 
 was accreted onto the Kadiolo terrane during the peak of the Eburnean orogeny (ca. 2.2-2.0 Ga). The 
 19",Banfora belt
-2014_MSc_YOSSI.txt,16,"The northwest trending Bagoe volcano-sedimentary belt is the western extension of 
-the Bondiali-Bagoé-Diaoula belt in Ivory Coast which splits to form the Bagoé volcano-sedimentary 
-belt  and the Banfora belt  (Bessoles, 1977). The Bagoé  belt has  been  subdivided  into Syama  belt  at 
-Syama (Girard et al., 1998), and the Kadiana-Madinani domain to the west of the Syama Shear Zone 
-and the Kadiolo domain to the east of the Syama Shear (Standing, 2000). The  Kadiana-Madinani  domain  is  interpreted  by  Bentley  et  al. (2000)  as  a  back-arc  basin  that 
-was accreted onto the Kadiolo terrane during the peak of the Eburnean orogeny (ca. 2.2-2.0 Ga). The 
-19",Bagoé belt
 2014_MSc_YOSSI.txt,16,"The northwest trending Bagoe volcano-sedimentary belt is the western extension of 
 the Bondiali-Bagoé-Diaoula belt in Ivory Coast which splits to form the Bagoé volcano-sedimentary 
 belt  and the Banfora belt  (Bessoles, 1977). The Bagoé  belt has  been  subdivided  into Syama  belt  at 
@@ -1427,7 +1448,7 @@ that is characterized by  moderate magnetic mineral content and moderate intensi
 signature. The first vertical derivative of TMI enabled the identification of Yanfolila-Kalana 
 shear zone; Yanfolila belt and Kalana-Kodiaran fold (Figure 4.5).   Domain 4 - A northwest domain that is characterized by low magnetic mineral content and 
 high intensity gravity zone. This domain includes the Yanfolila Fault and Siguiri Shear Zone 
-(Figure 4.5).",Banifing shear zone
+(Figure 4.5).",Banifing
 2014_MSc_YOSSI.txt,31,"  Domain 2 - A northeast to east domain that is characterized by moderate magnetic mineral 
 content  and  moderate  to  high  density  mineral. It  possible  to  identify  the  NE  trending 
 Banifing, Fatou and Syama shear zones, and approximately EW trending dykes (Figure 4.5).   Domain 3 - A domain located between the southeast domain, and northeast to east domain 
@@ -1435,7 +1456,7 @@ that is characterized by  moderate magnetic mineral content and moderate intensi
 signature. The first vertical derivative of TMI enabled the identification of Yanfolila-Kalana 
 shear zone; Yanfolila belt and Kalana-Kodiaran fold (Figure 4.5).   Domain 4 - A northwest domain that is characterized by low magnetic mineral content and 
 high intensity gravity zone. This domain includes the Yanfolila Fault and Siguiri Shear Zone 
-(Figure 4.5).",Fatou shear zone
+(Figure 4.5).",Fatou
 2014_MSc_YOSSI.txt,31,"  Domain 2 - A northeast to east domain that is characterized by moderate magnetic mineral 
 content  and  moderate  to  high  density  mineral. It  possible  to  identify  the  NE  trending 
 Banifing, Fatou and Syama shear zones, and approximately EW trending dykes (Figure 4.5).   Domain 3 - A domain located between the southeast domain, and northeast to east domain 
@@ -1443,7 +1464,7 @@ that is characterized by  moderate magnetic mineral content and moderate intensi
 signature. The first vertical derivative of TMI enabled the identification of Yanfolila-Kalana 
 shear zone; Yanfolila belt and Kalana-Kodiaran fold (Figure 4.5).   Domain 4 - A northwest domain that is characterized by low magnetic mineral content and 
 high intensity gravity zone. This domain includes the Yanfolila Fault and Siguiri Shear Zone 
-(Figure 4.5).",Syama shear zone
+(Figure 4.5).",Syama shear zones
 2014_MSc_YOSSI.txt,31,"  Domain 2 - A northeast to east domain that is characterized by moderate magnetic mineral 
 content  and  moderate  to  high  density  mineral. It  possible  to  identify  the  NE  trending 
 Banifing, Fatou and Syama shear zones, and approximately EW trending dykes (Figure 4.5).   Domain 3 - A domain located between the southeast domain, and northeast to east domain 
@@ -1510,7 +1531,34 @@ in  Domain  3;  (2)  The  Banifing  and  Syama  Shear  Zone  in  Domain  2. Addi
 anomaly first vertical derivative map resolves a series of NW trend lineaments that are not evident in 
 the  Magnetic  First  Vertical  Derivative  map  (Figure  4.5). These  NW  trends  are  interpreted  as  fault 
 according  to  the  Parasnis  (1997)  qualitative  interpretation  principle. They  can  be  named  Menakoro 
-fault and Koumantou-Morila fault (Figure 4.13).",Banifing and Syama Shear Zone
+fault and Koumantou-Morila fault (Figure 4.13).",Domain 3
+2014_MSc_YOSSI.txt,31,"4.1.3. Bouguer anomaly First Vertical Derivative 
+The  Bouguer  anomaly  first  vertical  derivative  of  the  study  area  (Figure  4.6)  resolves  number 
+lineaments  that  coincide  with  attributes  extracted  from  the  Magnetic  First  Vertical  Derivative  map 
+(Figure 4.5). These features include: (1) the Yanfolila-Kalana Shear Zone and Kalana-Kondiaran fold 
+in  Domain  3;  (2)  The  Banifing  and  Syama  Shear  Zone  in  Domain  2. Additionally,  the  Bouguer 
+anomaly first vertical derivative map resolves a series of NW trend lineaments that are not evident in 
+the  Magnetic  First  Vertical  Derivative  map  (Figure  4.5). These  NW  trends  are  interpreted  as  fault 
+according  to  the  Parasnis  (1997)  qualitative  interpretation  principle. They  can  be  named  Menakoro 
+fault and Koumantou-Morila fault (Figure 4.13).",Banifing Shear Zone
+2014_MSc_YOSSI.txt,31,"4.1.3. Bouguer anomaly First Vertical Derivative 
+The  Bouguer  anomaly  first  vertical  derivative  of  the  study  area  (Figure  4.6)  resolves  number 
+lineaments  that  coincide  with  attributes  extracted  from  the  Magnetic  First  Vertical  Derivative  map 
+(Figure 4.5). These features include: (1) the Yanfolila-Kalana Shear Zone and Kalana-Kondiaran fold 
+in  Domain  3;  (2)  The  Banifing  and  Syama  Shear  Zone  in  Domain  2. Additionally,  the  Bouguer 
+anomaly first vertical derivative map resolves a series of NW trend lineaments that are not evident in 
+the  Magnetic  First  Vertical  Derivative  map  (Figure  4.5). These  NW  trends  are  interpreted  as  fault 
+according  to  the  Parasnis  (1997)  qualitative  interpretation  principle. They  can  be  named  Menakoro 
+fault and Koumantou-Morila fault (Figure 4.13).",Syama Shear Zone
+2014_MSc_YOSSI.txt,31,"4.1.3. Bouguer anomaly First Vertical Derivative 
+The  Bouguer  anomaly  first  vertical  derivative  of  the  study  area  (Figure  4.6)  resolves  number 
+lineaments  that  coincide  with  attributes  extracted  from  the  Magnetic  First  Vertical  Derivative  map 
+(Figure 4.5). These features include: (1) the Yanfolila-Kalana Shear Zone and Kalana-Kondiaran fold 
+in  Domain  3;  (2)  The  Banifing  and  Syama  Shear  Zone  in  Domain  2. Additionally,  the  Bouguer 
+anomaly first vertical derivative map resolves a series of NW trend lineaments that are not evident in 
+the  Magnetic  First  Vertical  Derivative  map  (Figure  4.5). These  NW  trends  are  interpreted  as  fault 
+according  to  the  Parasnis  (1997)  qualitative  interpretation  principle. They  can  be  named  Menakoro 
+fault and Koumantou-Morila fault (Figure 4.13).",Domain 2
 2014_MSc_YOSSI.txt,31,"4.1.3. Bouguer anomaly First Vertical Derivative 
 The  Bouguer  anomaly  first  vertical  derivative  of  the  study  area  (Figure  4.6)  resolves  number 
 lineaments  that  coincide  with  attributes  extracted  from  the  Magnetic  First  Vertical  Derivative  map 
@@ -1680,7 +1728,17 @@ Zone.",Yanfolila-Kalana Shear Zone
 Kolondieba belt and Banifing Shear Zone.   The Menankoro Fault  which  crosscuts the Banifing and Yanfolila-Kalana Shear Zone,  the 
 Bougouni belt, Mandiana-Yanfolila and Madina Fault. This fault is a NW trending.   The  Kadiolo-Fourou Fault which trends NW  and crosscuts  the Kadiolo, Syama  and Fatou 
 Shear Zone.   The Koumatou Morila Fault which trends NW and crosscuts the Banifing and Fatou Shear 
+Zone.",Bougouni belt
+2014_MSc_YOSSI.txt,33,"  The  Madina  Fault  trends  NE. It  crosscuts  the  Kalana-Kodiaran  fold,  Bougouni  and 
+Kolondieba belt and Banifing Shear Zone.   The Menankoro Fault  which  crosscuts the Banifing and Yanfolila-Kalana Shear Zone,  the 
+Bougouni belt, Mandiana-Yanfolila and Madina Fault. This fault is a NW trending.   The  Kadiolo-Fourou Fault which trends NW  and crosscuts  the Kadiolo, Syama  and Fatou 
+Shear Zone.   The Koumatou Morila Fault which trends NW and crosscuts the Banifing and Fatou Shear 
 Zone.",Mandiana-Yanfolila
+2014_MSc_YOSSI.txt,33,"  The  Madina  Fault  trends  NE. It  crosscuts  the  Kalana-Kodiaran  fold,  Bougouni  and 
+Kolondieba belt and Banifing Shear Zone.   The Menankoro Fault  which  crosscuts the Banifing and Yanfolila-Kalana Shear Zone,  the 
+Bougouni belt, Mandiana-Yanfolila and Madina Fault. This fault is a NW trending.   The  Kadiolo-Fourou Fault which trends NW  and crosscuts  the Kadiolo, Syama  and Fatou 
+Shear Zone.   The Koumatou Morila Fault which trends NW and crosscuts the Banifing and Fatou Shear 
+Zone.",Madina Fault
 2014_MSc_YOSSI.txt,33,"  The  Madina  Fault  trends  NE. It  crosscuts  the  Kalana-Kodiaran  fold,  Bougouni  and 
 Kolondieba belt and Banifing Shear Zone.   The Menankoro Fault  which  crosscuts the Banifing and Yanfolila-Kalana Shear Zone,  the 
 Bougouni belt, Mandiana-Yanfolila and Madina Fault. This fault is a NW trending.   The  Kadiolo-Fourou Fault which trends NW  and crosscuts  the Kadiolo, Syama  and Fatou 
@@ -1706,6 +1764,16 @@ Kolondieba belt and Banifing Shear Zone.   The Menankoro Fault  which  crossc
 Bougouni belt, Mandiana-Yanfolila and Madina Fault. This fault is a NW trending.   The  Kadiolo-Fourou Fault which trends NW  and crosscuts  the Kadiolo, Syama  and Fatou 
 Shear Zone.   The Koumatou Morila Fault which trends NW and crosscuts the Banifing and Fatou Shear 
 Zone.",Koumatou Morila Fault
+2014_MSc_YOSSI.txt,33,"  The  Madina  Fault  trends  NE. It  crosscuts  the  Kalana-Kodiaran  fold,  Bougouni  and 
+Kolondieba belt and Banifing Shear Zone.   The Menankoro Fault  which  crosscuts the Banifing and Yanfolila-Kalana Shear Zone,  the 
+Bougouni belt, Mandiana-Yanfolila and Madina Fault. This fault is a NW trending.   The  Kadiolo-Fourou Fault which trends NW  and crosscuts  the Kadiolo, Syama  and Fatou 
+Shear Zone.   The Koumatou Morila Fault which trends NW and crosscuts the Banifing and Fatou Shear 
+Zone.",Banifing
+2014_MSc_YOSSI.txt,33,"  The  Madina  Fault  trends  NE. It  crosscuts  the  Kalana-Kodiaran  fold,  Bougouni  and 
+Kolondieba belt and Banifing Shear Zone.   The Menankoro Fault  which  crosscuts the Banifing and Yanfolila-Kalana Shear Zone,  the 
+Bougouni belt, Mandiana-Yanfolila and Madina Fault. This fault is a NW trending.   The  Kadiolo-Fourou Fault which trends NW  and crosscuts  the Kadiolo, Syama  and Fatou 
+Shear Zone.   The Koumatou Morila Fault which trends NW and crosscuts the Banifing and Fatou Shear 
+Zone.",Fatou Shear Zone
 2014_MSc_YOSSI.txt,33,"  Farako  Fault  which  trends  NE  and  crosscut  the  Banifing  and  Fatou  shear  zones,  and 
 Bougouni belt. The NW trend highlighted with the first derivative map of Bouguer anomalies is confirmed by 
 Menankoro Fault (Figure 4.6). Furthermore,  Figure  4.8  enabled  enhancement  of  as  series  EW  trending  lineaments  that  were 
@@ -2059,7 +2127,7 @@ comparison with attributes extracted from geophysical maps (Figure 4.13) to esta
 level of the study area. According to the similarity between Figure 4.14 with attribute maps (Figure 
 4.13) the attributes that can be highlighted includes: 
   The Yanfolila, Mandiana-Yanfolila, Madina and Farako Faults (Figure 4.13) 
-  The Yanfolila belt is the only belt that can be confirmed with Figure 4.14.   The folds were all confirmed in the potassium map (Figure 4.14).   The shear zones were all confirmed apart from Siguiri and Kadiolo Shears Zone.",Farako
+  The Yanfolila belt is the only belt that can be confirmed with Figure 4.14.   The folds were all confirmed in the potassium map (Figure 4.14).   The shear zones were all confirmed apart from Siguiri and Kadiolo Shears Zone.",Farako Faults
 2014_MSc_YOSSI.txt,35,"4.2.9. The potassium map 
 The Figure  4.14 corresponds to the potassium  map of the study area. This image was used for 
 comparison with attributes extracted from geophysical maps (Figure 4.13) to establish the confidence 
@@ -2080,7 +2148,7 @@ comparison with attributes extracted from geophysical maps (Figure 4.13) to esta
 level of the study area. According to the similarity between Figure 4.14 with attribute maps (Figure 
 4.13) the attributes that can be highlighted includes: 
   The Yanfolila, Mandiana-Yanfolila, Madina and Farako Faults (Figure 4.13) 
-  The Yanfolila belt is the only belt that can be confirmed with Figure 4.14.   The folds were all confirmed in the potassium map (Figure 4.14).   The shear zones were all confirmed apart from Siguiri and Kadiolo Shears Zone.",Kadiolo
+  The Yanfolila belt is the only belt that can be confirmed with Figure 4.14.   The folds were all confirmed in the potassium map (Figure 4.14).   The shear zones were all confirmed apart from Siguiri and Kadiolo Shears Zone.",Kadiolo Shears Zone
 2014_MSc_YOSSI.txt,35,"4.2.10. The thorium map 
 The  thorium  map  is  presented  in  Figure  4.15. This  image  enabled  the  confirmation  of  certain 
 attributes  presented  in  Figure  4.13. The  attributes  in  Figure  4.13  that  coincides  with  Figure  4.15 
@@ -2333,6 +2401,27 @@ zone and Menankoro fault in the southeastern region of the study area (Figure 4.
 1232696N,  and  measures  approximately  47km  in  length. It  transects  the  Kolondieba  belt, 
 Madina fault, and Banifing shear zone in the east central region of the study area (Figure 4.13). A profile of the upward continuation of magnetic data was calculated for each transect to produce 
 three  profiles  (Profile  1-3). The  magnetic  susceptibility  data  used  published  petrophysical  data  to 
+calculate the magnetic field.",Bougouni belt
+2014_MSc_YOSSI.txt,38,"  Transect 2 (BB’) from GPS coordinates 687510E and 1164475N to 721944E and 1164475N, 
+and  measures  approximately  34km  in  length. It  transects  the  Bougouni  belt,  Banifing  shear 
+zone and Menankoro fault in the southeastern region of the study area (Figure 4.13).   Transect  3  (CC’)  extends  from  GPS  coordinates  704880E  and  1232696N  to  751630E  and 
+1232696N,  and  measures  approximately  47km  in  length. It  transects  the  Kolondieba  belt, 
+Madina fault, and Banifing shear zone in the east central region of the study area (Figure 4.13). A profile of the upward continuation of magnetic data was calculated for each transect to produce 
+three  profiles  (Profile  1-3). The  magnetic  susceptibility  data  used  published  petrophysical  data  to 
+calculate the magnetic field.",Banifing shear zone
+2014_MSc_YOSSI.txt,38,"  Transect 2 (BB’) from GPS coordinates 687510E and 1164475N to 721944E and 1164475N, 
+and  measures  approximately  34km  in  length. It  transects  the  Bougouni  belt,  Banifing  shear 
+zone and Menankoro fault in the southeastern region of the study area (Figure 4.13).   Transect  3  (CC’)  extends  from  GPS  coordinates  704880E  and  1232696N  to  751630E  and 
+1232696N,  and  measures  approximately  47km  in  length. It  transects  the  Kolondieba  belt, 
+Madina fault, and Banifing shear zone in the east central region of the study area (Figure 4.13). A profile of the upward continuation of magnetic data was calculated for each transect to produce 
+three  profiles  (Profile  1-3). The  magnetic  susceptibility  data  used  published  petrophysical  data  to 
+calculate the magnetic field.",Menankoro fault
+2014_MSc_YOSSI.txt,38,"  Transect 2 (BB’) from GPS coordinates 687510E and 1164475N to 721944E and 1164475N, 
+and  measures  approximately  34km  in  length. It  transects  the  Bougouni  belt,  Banifing  shear 
+zone and Menankoro fault in the southeastern region of the study area (Figure 4.13).   Transect  3  (CC’)  extends  from  GPS  coordinates  704880E  and  1232696N  to  751630E  and 
+1232696N,  and  measures  approximately  47km  in  length. It  transects  the  Kolondieba  belt, 
+Madina fault, and Banifing shear zone in the east central region of the study area (Figure 4.13). A profile of the upward continuation of magnetic data was calculated for each transect to produce 
+three  profiles  (Profile  1-3). The  magnetic  susceptibility  data  used  published  petrophysical  data  to 
 calculate the magnetic field.",southeastern region of the study area
 2014_MSc_YOSSI.txt,38,"  Transect 2 (BB’) from GPS coordinates 687510E and 1164475N to 721944E and 1164475N, 
 and  measures  approximately  34km  in  length. It  transects  the  Bougouni  belt,  Banifing  shear 
@@ -2348,6 +2437,20 @@ zone and Menankoro fault in the southeastern region of the study area (Figure 4.
 Madina fault, and Banifing shear zone in the east central region of the study area (Figure 4.13). A profile of the upward continuation of magnetic data was calculated for each transect to produce 
 three  profiles  (Profile  1-3). The  magnetic  susceptibility  data  used  published  petrophysical  data  to 
 calculate the magnetic field.",751630E and 1232696N
+2014_MSc_YOSSI.txt,38,"  Transect 2 (BB’) from GPS coordinates 687510E and 1164475N to 721944E and 1164475N, 
+and  measures  approximately  34km  in  length. It  transects  the  Bougouni  belt,  Banifing  shear 
+zone and Menankoro fault in the southeastern region of the study area (Figure 4.13).   Transect  3  (CC’)  extends  from  GPS  coordinates  704880E  and  1232696N  to  751630E  and 
+1232696N,  and  measures  approximately  47km  in  length. It  transects  the  Kolondieba  belt, 
+Madina fault, and Banifing shear zone in the east central region of the study area (Figure 4.13). A profile of the upward continuation of magnetic data was calculated for each transect to produce 
+three  profiles  (Profile  1-3). The  magnetic  susceptibility  data  used  published  petrophysical  data  to 
+calculate the magnetic field.",Kolondieba belt
+2014_MSc_YOSSI.txt,38,"  Transect 2 (BB’) from GPS coordinates 687510E and 1164475N to 721944E and 1164475N, 
+and  measures  approximately  34km  in  length. It  transects  the  Bougouni  belt,  Banifing  shear 
+zone and Menankoro fault in the southeastern region of the study area (Figure 4.13).   Transect  3  (CC’)  extends  from  GPS  coordinates  704880E  and  1232696N  to  751630E  and 
+1232696N,  and  measures  approximately  47km  in  length. It  transects  the  Kolondieba  belt, 
+Madina fault, and Banifing shear zone in the east central region of the study area (Figure 4.13). A profile of the upward continuation of magnetic data was calculated for each transect to produce 
+three  profiles  (Profile  1-3). The  magnetic  susceptibility  data  used  published  petrophysical  data  to 
+calculate the magnetic field.",Madina fault
 2014_MSc_YOSSI.txt,38,"  Transect 2 (BB’) from GPS coordinates 687510E and 1164475N to 721944E and 1164475N, 
 and  measures  approximately  34km  in  length. It  transects  the  Bougouni  belt,  Banifing  shear 
 zone and Menankoro fault in the southeastern region of the study area (Figure 4.13).   Transect  3  (CC’)  extends  from  GPS  coordinates  704880E  and  1232696N  to  751630E  and 
@@ -2371,6 +2474,13 @@ depth projection)  (Table 5.1). Bodies 2, 3, 4  and 5  with  approximately  the 
 5.1) are situated between bodies 1 and 6 (Figure 5.3) and correspond with the positon of the Yanfolila 
 shear  zone  which  crosscuts  the  region. Body  5  is  slightly  different  than  bodies  2,  3  and  4  and 
 corresponds with the position of the Kalana-Kodiaran fold.",Kalana-Kodiaran fold
+2014_MSc_YOSSI.txt,39,"5.2.2. Profile 2 
+Profile  2  which  transects  the  Bougouni  belt,  is  located  in  a  moderate  to  high  magnetic 
+susceptibility and low density zone (Figure 4.13). The petrophysical data from WAXI (2013) reported 
+that the geology along the transect line is composed of orthogranite, sediments, pegmatites and quartz 
+veins. The interpreted model of profile 2 presents five bodies (Figure 5.4). The parameters of the five 
+bodies are presented in Table 5.1. According to the parameters, the top-depth of the bodies is located 
+at approximately 750m depth and all bodies project at depth.",Bougouni belt
 2014_MSc_YOSSI.txt,39,"According to the magnetic susceptibility and density, bodies 2, 3 and 5 are different from bodies 
 1 and 4, reflecting different rock types. Bodies 2, 3 and 5 report a low susceptibility corresponding to 
 a  high  magnetic  field. Bodies  1  and  4  shows  similarities  in  term  of  parameters  (dip,  top  depth  and 
@@ -2383,20 +2493,6 @@ from bodies 3, 5 and 6, reflecting different rock types. Bodies 2 and 4 report l
 interpreted as splay shears of the Banifing shear zone. Bodies 3, 5 and 6 report a high susceptibility. The profile resolves similarities between bodies 3, 5 and 6 in term of parameters (dip, top depth 
 and depth projection) (Table 5.1). The bodies 2 and 4  are  similar in parameters,  and different  from 
 body  1. However,  bodies  2,  3,  4,  5,  6  are  located  in  the  Banifing  shear  zone.",Banifing shear zone
-2014_MSc_YOSSI.txt,39,"Consequently,  the 
-Banifing  shear  zone  can  be  considered  as  a  complex  structure  formed  by  a  main  shear  and  several 
-secondary splay shears that resolve differences in dip and trend. 5.2.4. Synthesis of forward modelling 
-The forward modelling of the three transects shows that: 
-1. Transect  1  crosscuts  the  Yanfolila  shear  zone  and  resolves  its  complexity. The  trends  are 
-subvertical  to  east-dipping  for  body  3,  and  east-dipping  for  bodies  2  and  3;  they  are  interpreted  as 
-42",Banifing shear zone
-2014_MSc_YOSSI.txt,39,"Consequently,  the 
-Banifing  shear  zone  can  be  considered  as  a  complex  structure  formed  by  a  main  shear  and  several 
-secondary splay shears that resolve differences in dip and trend. 5.2.4. Synthesis of forward modelling 
-The forward modelling of the three transects shows that: 
-1. Transect  1  crosscuts  the  Yanfolila  shear  zone  and  resolves  its  complexity. The  trends  are 
-subvertical  to  east-dipping  for  body  3,  and  east-dipping  for  bodies  2  and  3;  they  are  interpreted  as 
-42",Yanfolila shear zone
 2014_MSc_YOSSI.txt,40,"splay shears to the main Yanfolila shear zone. The Yanfolila shear zone crosscuts the Yanfolila belt 
 according to the similarity of bodies 1 and 6. The Kalana-Kodieran fold also is identified in transect 1. 2. Transect  2  and  3  is  located  to  the  Banifing  shear  zone  which  is  also  a  complex  structure 
 composed of several shear trends and secondary splay shears. The  forward  modelling of three profiles  across the Yanfolila  and Banifing shear  zones (Figure 
@@ -2417,30 +2513,28 @@ according to the similarity of bodies 1 and 6. The Kalana-Kodieran fold also is 
 composed of several shear trends and secondary splay shears. The  forward  modelling of three profiles  across the Yanfolila  and Banifing shear  zones (Figure 
 4.13) facilitated the characterization and geometry of the first-order structures, in terms of trend and 
 dip.",Banifing shear zone
-2014_MSc_YOSSI.txt,40,"The results of the inversions enabled 
-the determination of the form, volume and the geometries of rock volumes and structures. The trend, 
-depth, dip, and the crosscutting relationship between rock volumes and structures were calculated to 
-develop an architectural model of the study area. 5.3.1. Key zone 1 
-The  inversion  model  of  key  zone  1  is  presented  in  Figure  5.6;  zone  3  is  located  *****. The 
-inversion model of key zone 1 included the Yanfolila shear zone, Kalana-Kodiaran fold, Mandiana-
-Yanfolila  fault,  and  dykes. According  to  the  magnetic  and  gravity  maps  (Figure  4.13),  the  area  is 
-located in a low susceptibility, and low to high density region.",Yanfolila shear zone
-2014_MSc_YOSSI.txt,40,"The results of the inversions enabled 
-the determination of the form, volume and the geometries of rock volumes and structures. The trend, 
-depth, dip, and the crosscutting relationship between rock volumes and structures were calculated to 
-develop an architectural model of the study area. 5.3.1. Key zone 1 
-The  inversion  model  of  key  zone  1  is  presented  in  Figure  5.6;  zone  3  is  located  *****. The 
-inversion model of key zone 1 included the Yanfolila shear zone, Kalana-Kodiaran fold, Mandiana-
-Yanfolila  fault,  and  dykes. According  to  the  magnetic  and  gravity  maps  (Figure  4.13),  the  area  is 
-located in a low susceptibility, and low to high density region.",Kalana-Kodiaran fold
-2014_MSc_YOSSI.txt,40,"The results of the inversions enabled 
-the determination of the form, volume and the geometries of rock volumes and structures. The trend, 
-depth, dip, and the crosscutting relationship between rock volumes and structures were calculated to 
-develop an architectural model of the study area. 5.3.1. Key zone 1 
-The  inversion  model  of  key  zone  1  is  presented  in  Figure  5.6;  zone  3  is  located  *****. The 
-inversion model of key zone 1 included the Yanfolila shear zone, Kalana-Kodiaran fold, Mandiana-
-Yanfolila  fault,  and  dykes. According  to  the  magnetic  and  gravity  maps  (Figure  4.13),  the  area  is 
-located in a low susceptibility, and low to high density region.",Mandiana-Yanfolila fault
+2014_MSc_YOSSI.txt,40,"The  models  enabled  the  determination  of  magnetic  anomalies. The  depth  of  the  anomalies  is 
+greater for the Yanfolila shear zone than the Banifing shear zone. The difference of source depth is 
+due to the presence of sedimentary cover rocks along transect 1 to 1100m, and 850m for transect 2 
+and  3. Importantly  the  data  shows  that  the  cover  sequences  postdate  activity  on  the  shear  zones 
+suggesting that the shear zones were truncated and unconformably overlain by younger sedimentary 
+cover  rocks. The  low  magnetic  susceptibility  and  high  density  along  transect  1  is  interpreted  to  be 
+related to the thickness of the sedimentary cover rocks. The higher density may be due to compaction 
+effects.",Yanfolila shear zone
+2014_MSc_YOSSI.txt,40,"The  models  enabled  the  determination  of  magnetic  anomalies. The  depth  of  the  anomalies  is 
+greater for the Yanfolila shear zone than the Banifing shear zone. The difference of source depth is 
+due to the presence of sedimentary cover rocks along transect 1 to 1100m, and 850m for transect 2 
+and  3. Importantly  the  data  shows  that  the  cover  sequences  postdate  activity  on  the  shear  zones 
+suggesting that the shear zones were truncated and unconformably overlain by younger sedimentary 
+cover  rocks. The  low  magnetic  susceptibility  and  high  density  along  transect  1  is  interpreted  to  be 
+related to the thickness of the sedimentary cover rocks. The higher density may be due to compaction 
+effects.",Banifing shear zone
+2014_MSc_YOSSI.txt,40,"The  inversion  of  magnetic  and  gravity  data  (Figure  5.6)  resolves  the  Yanfolila  shear  zone  and 
+specific  rock  volumes  that  trend  north  and  north-northeast. These  can  be  divided  into  two 
+susceptibility  groups,  namely  (1)  a  high  susceptibility  rock  volumes,  and  (2)  moderate  to  low 
+susceptibility north-northeast trending rock volumes values. 43 
+Comment [KH1]: Not correct figure 
+number for gravity and magnetic maps",Yanfolila shear zone
 2014_MSc_YOSSI.txt,41,"A low density rock volume in the southeastern corner of the inversion could be due granitoids in 
 that region. North-northeast trend rock volumes in the magnetic data resolve high density values in 
 the north and south of the inversion (Figure 5.6) that probably correspond with basalt andesite rocks. The Yanfolila shear zone is characterised by two parallel trends and the presence of a close upright 
@@ -2619,6 +2713,15 @@ According to the gravity data inversion, high density rocks are located in the n
 coincidence may indicate basaltic rocks. Geometric elements such as dip, depth of structures and rocks volumes were determined for the 
 magmatic  and  gravity  inversion  sections  of  zone  3  (Figures  5.13-5.14). The  Yanfolila  fault  dips 
 steeply west.",northwest of zone 3
+2014_MSc_YOSSI.txt,42,"An  east-west 
+trending dolerite dyke is clearly evident in the inversion model and corresponds with dyke 1 marked 
+in  Figure  4.13;  the  dyke  crosscuts  the  Yanfolila  fault  and  Yanfolila  belt. East-west  trending  linear 
+intrusions have been mapped as dolerite dykes across the study are a (Reference) 
+According to the gravity data inversion, high density rocks are located in the northwest of zone 3 
+(Figure 5.14). The high density coincides with a north-northeast trending susceptibility volume. The 
+coincidence may indicate basaltic rocks. Geometric elements such as dip, depth of structures and rocks volumes were determined for the 
+magmatic  and  gravity  inversion  sections  of  zone  3  (Figures  5.13-5.14). The  Yanfolila  fault  dips 
+steeply west.",zone 3
 2014_MSc_YOSSI.txt,42,"Key zone 4 is located in the southeast of 
 the  study  area  on  the  Banifing  shear  zone  (Figure  4.13). It  includes  the  Bougouni  volcanic  belt, 
 Menankoro fault, and group two dykes. Zone 4 is composed of low to high magnetic susceptibility, 
@@ -2805,20 +2908,6 @@ Madina  fault  and  Koumantou-Morila  fault  (Figure  4.13). The  geology  inclu
 metamorphosed  sediment  with  biotite  and  muscovite  according  to  the  surface  petrophysical 
 measurements. Zone 6 is characterized by low, moderate and high susceptibility. The density values 
 of zone 6 vary from low to moderate.",Koumantou-Morila fault
-2014_MSc_YOSSI.txt,44,"Geological synthesis of inverse modelling  
-Inverse modelling was performed on the two first-order crustal-scale structures, namely, the 
-Yanfolila shear zone and Banifing shear zone. The inversions modelling resolved the geometry of the 
-shear zone geometries using the surface petrophysical and fact data available. The inversion showed:-  
-1. There is a difference in thicknesses of sedimentary cover at approximately 1200m for the 
-Yanfolila shear zone and approximately 700m for Banifing shear zone. 2. First-order scale shear zones are steeply dipping to the west or east and are complex 
-structures, with numerous second order splay shear.",Yanfolila shear zone
-2014_MSc_YOSSI.txt,44,"Geological synthesis of inverse modelling  
-Inverse modelling was performed on the two first-order crustal-scale structures, namely, the 
-Yanfolila shear zone and Banifing shear zone. The inversions modelling resolved the geometry of the 
-shear zone geometries using the surface petrophysical and fact data available. The inversion showed:-  
-1. There is a difference in thicknesses of sedimentary cover at approximately 1200m for the 
-Yanfolila shear zone and approximately 700m for Banifing shear zone. 2. First-order scale shear zones are steeply dipping to the west or east and are complex 
-structures, with numerous second order splay shear.",Banifing shear zone
 2014_MSc_YOSSI.txt,44,"3. The  Yanfolila  shear  zone  is  characterised  by  parallel  shear  trends. A  number  of  southwest 
 trending second order splay shears are also evident. The shears bound high susceptibility rock 
 volumes that internal to the Yanfolila shear zone form left-handed (anticlockwise) sigmoids 
@@ -2831,7 +2920,7 @@ with dextral displacement in the plane of the shear zone, respectively.",Yanfoli
 2014_MSc_YOSSI.txt,45,"4. The Yanfolila fault to the west of the Yanfolila belt is arcuate and dips steeply west. 5. The Banifing shear zone is also characterised by parallel shear trends. A number of southeast 
 trending splay shears are also evident. The shears bound high susceptibility rock volumes that 
 internal to the Banifing shear zone form right handed (clockwise) sigmoids that are consistent 
-with dextral displacement in the plane of the shear zone, respectively.",Yanfolila belt
+with dextral displacement in the plane of the shear zone, respectively.",west of the Yanfolila belt
 2014_MSc_YOSSI.txt,45,"4. The Yanfolila fault to the west of the Yanfolila belt is arcuate and dips steeply west. 5. The Banifing shear zone is also characterised by parallel shear trends. A number of southeast 
 trending splay shears are also evident. The shears bound high susceptibility rock volumes that 
 internal to the Banifing shear zone form right handed (clockwise) sigmoids that are consistent 
