@@ -1,0 +1,840 @@
+
+--- Page 6 ---
+Abstract 
+The  gold-hosting  sedimentary  sequences  of  the  Oudalan-Gorouol  greenstone  belt  underwent  four 
+events to give rise to the gold mineralisation. The alteration that resulted during the metamorphism of 
+the  rocks  is  linked  to  the  gold  mineralisation.  Subsequent  to  deposition  of  sediments,  regional 
+metamorphism during the Eburnean orogeny gave rise to greenschist facies metamorphic assemblages 
+and  two  deformation  phases.    The  first  deformation  phase  resulted  in  development  of  NW-NNW 
+trending  folds  (F1),  NW-NNW  trending  foliation  (S1)  and  extensional-conjugate  vein  sets  (V1), 
+interpreted  as  Tangaean  (D1)  structures.  The  second  deformation  phase  resulted  in  development  of 
+NE-NNE trending faults, stockwork veins (V2) and NE trending foliation (S2) associated with dextral 
+shear  zones, 
+interpreted  as  Eburnean  (D2)  structures.  The  sequences  underwent  contact 
+metamorphism to hornblende-hornfels facies during the intrusion of granitoid plutons (syn-Eburnean). 
+Retrograde processes from the cooling of the granitoids resulted in the remobilisation of fluids in the 
+supracrustal rocks, which travelled via shears and fracture zones resulting in alteration of the wallrock 
+including sericitisation, silicification, carbonatisation and chloritisation (with sulphidation).  The gold 
+mineralisation  occurs  in  the  chloritisation  stage  of  the  alteration  and  is  associated  with  the  mineral 
+arsenopyrite.  Precipitation of sulphides in fractures lead to quartz-carbonate stockwork  vein hosted 
+gold mineralisation. The mineralisation is interpreted to be post Tangaean (D1) and synchronous to 
+the  intrusion  of  granitoids  during  the  Eburnean  orogeny  (D2).  The  mineralisation  is  defined  as 
+orogenic gold under the subdivision of thermal-aureole gold. 
+v
+
+--- Page 7 ---
+Chapter 1 
+1.1 Introduction 
+The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West 
+African  craton,  and  extends  into  the  neighbouring  Niger.  The  greenstone  belt  is  characterised  by 
+meta-volcanic  and  meta-sedimentary  rocks,  and  intruded  by  various  igneous  rocks  (Tshibubudze  et 
+al., 2009). It hosts various Au deposits, notably the Essakane goldfield, but smaller artisanal sites can 
+be found throughout the belt (Tshibubudze et al., 2009).  
+The ore genesis of Essakane, Falagountou and Sokadie areas has not been defined. Researchers have 
+identified  that    quartz-vein  hosted  gold  in the  Birimian  of  West  African  craton  can  be  attributed  to 
+deformation in the Eburnean Orogeny (Hastings, 1982; Milési et al., 1992; Dzigbodi-Adjimah, 1993; 
+Béziat et al., 2008). Groves et al. (1998) and Goldfarb et al. (2000) classified gold in West Africa as 
+orogenic gold and gold in Burkina Faso has also been classified as orogenic gold (Béziat et al., 2008). 
+Taner  (2004)  recognised  a  relationship  between  the  gold  mineralisation  and  intrusions  in  the 
+Falagountou and Essakane deposits. The gold in these deposits can be classified as mesothermal lode 
+gold, thermal-aureole gold or intrusion-related gold. 
+1
+
+--- Page 8 ---
+1.2 Overview of the Study Area 
+The  study  area  is  located  in  the  Oudalan-Gorouol  greenstone  belt  ~250km  to  the  north-east  of 
+Ouagadougou, Burkina Faso. Burkina Faso is a landlocked country in West Africa which covers 274 
+300  square  kilometres  in  area  (Bierschenk,  1968),  and  shares  its  borders  with  Mali,  Togo,  Benin, 
+Ghana, Niger and Côte d’Ivoire. The official language is French, with Mooré and Dioula. The religion 
+dominantly practised is Islam with >50% of the population being Muslim, the remaining religions are 
+Christianity and indigenous African religions.  
+Burkina Faso is defined by low hills and alluvial plains and is covered by an extensive laterite plateau 
+located at the southern edge of the Sahara Desert, with sand dunes (desert) to the north (Bierschenk, 
+1968). Central Burkina Faso is a savanna plateau and 198-305 metres above sea level. The Sahelian 
+climate characterises this area, where there is eight to nine months of dry season and a rainy season 
+from June to September. The average daily temperature has been recorded as 32°C and the average 
+annual  rainfall  is  less  than  25  centimetres  in  the  north  and  north-east.  The  hot  desert  winds 
+(harmattan) add to the dryness of the region. 
+2
+
+--- Page 9 ---
+N 
+(a) 
+N 
+See LANDSAT image 
+on the next page 
+(b) 
+Figure 1.1: Simplified geological map of (a) the West African Craton and (b) the greenstone belts of Burkina Faso after Béziat et al. (2008) 
+3
+
+--- Page 10 ---
+N 
+N 
+32km 
+Essakane 
+Falagountou 
+Sokadie 
+8km 
+Figure 1.2: LANDSAT image of the Oudalan-Gorouol Greenstone belt in Burkina Faso and the locations of the deposits 
+4
+
+--- Page 11 ---
+1.3 Aims and Objectives of the Project 
+The  main  aim  of  the  project  is  to  characterise  the  metallogenic  system  for  each  deposit  through 
+petrographic  study  and  development  of  a  paragenetic  sequence  to  constrain  an  ore  genesis  model 
+(mineralogy,  alteration,  microstructure,  host  rocks,  etc.)  for  exploration  for  gold  throughout  the 
+greenstone belt.  
+Objectives: 
+- 
+- 
+to select 15 samples and do petrography, mineralogy and ore petrology of the study areas 
+to determine the genesis of the ore in the greenstone belt 
+5
+
+--- Page 12 ---
+Chapter 2: Geology 
+2.1 Regional Geology 
+The West African craton (WAC) is ~ 4.5 million km2 and comprises two shields, the Reguibat Rise in 
+the north and the Leo-Man Rise to the south (Milési et al., 1992; Villeneuve and Cornée, 1994; Attoh 
+and Ekwueme, 1997; Potrel et al., 1998). The Taoudeni basin, situated in the central part of the craton, 
+separates the two shields and is Neo-Proterozoic to Devonian in age (Dioh et al., 2006). The Leo-Man 
+Rise  in  the  south  comprises  two  domains:  the  Archaean  Kenéma-Man  domain  and  the 
+Palaeoproterozoic  Baoulé-Mossi  domain.  The  Baoulé-Mossi  domain  is  host  to  Birimian  sequences, 
+and these include meta-sedimentary and meta-volcanic rocks (Milési et al., 1991; Dzigbodi-Adjimah, 
+1993). Based on previous interpretations by Milési et al. (1991), Debat et al. (2003), Dioh et al. (2006) 
+and  Béziat  et  al.  (2008),  the  Birimian  terrains  consists  of  sedimentary  basins,  and  linear  to  arcuate 
+volcanic belts that  correspond to the period of accretion during the Eburnean orogeny. 
+The north-eastern Burkina Faso consists of the Palaeoproterozoic metasedimentary and metavolcanic 
+Birimian sequences (2184–2135 Ma) (Davis et al., 1994). The sequences are divided into the upper 
+and lower Birimian. These are unconformably overlain by the Tarkwa Group (2194-2132 Ma), first 
+described  in  the  Birim  River  in  Ghana  and  are  believed  to  be  derivatives  of  the  upper  Birimian 
+(Hastings,  1982;  Milési  et  al.,  1992;  Dzigbodi-Adjimah,  1993;  Bossiére  et  al.,  1996;  Davis  et  al., 
+1994).  The  sequences  were  deformed  during  Eburnean  orogeny  (2.2-2.0  Ga)  (Hastings,  1982; 
+Liégeois  et  al.,  1991).  The  area  was  also  intruded  by  a  series  of  syn-  to  post  orogenic  granitoids, 
+which constitute ~70% of the Birimian group (Naba et al., 2004). 
+The Birimian can be divided into the upper and lower Birimian (Junner, 1940). The upper Birimian 
+consists  of  a  detrital  sedimentary  pile  i.e.  volcaniclastics,  turbidites,  shale  and  carbonate  units  and 
+these are interbedded with calc-alkaline volcanics (Leube et al., 1990; Hirdes et al., 1996; Roddaz et 
+al., 2007). The lower Birimian consists of a thick sequence of pillowed tholeiitic basalts, dolerites and 
+gabbros;  interlayered  with  the  basalts  are  immature  sediments  and  carbonates  (Leube  et  al.,  1990; 
+Roddaz  et  al.,  2007).  There  is  a  controversy  on  the  stratigraphic  position  of  the  Birimian  rocks, 
+whether the  B1 is  younger  than the  B2  or  vice-versa  (Hirdes  et al.  1996). The Birimian  in  Burkina 
+Faso was deposited within an active continental margin/ marginal marine setting in which the detritus 
+was  derived  from  an  adjacent  volcanic  arc  (Hein  et  al.,  2004;  Roddaz  et  al.,  2007).
+6
+
+--- Page 13 ---
+The  Birimian sequences  were intruded by  syn-  to  post  orogenic,  alkaline to calc-alkaline  granitoids 
+during the Eburnean Orogeny (Leube et al., 1990; Naba et al., 2004). The emplacement resulted in ~ 
+70% of the Birimian formation being intruded by granitoids. The granitoids range from granodiorite-
+tonalite-trondjemite (TTG) suite to peraluninous granite plutons; U-Pb zircon dating of the granitoids 
+put  the  age  of  emplacement  at  2190-2108  Ma  (Hirdes  et  al.,  1996;  Béziat  et  al.,  2000;  Naba  et  al., 
+2004; Hein (in press)). These granitoids are referred to as the Eburnean granitoids (Pons et al., 1995; 
+Naba  et  al.,  2004).  Naba  et  al.  (2004)  described  the  granitoids  as  circular  to  elliptical,  isolated  to 
+nested  coalescent  bodies  and  are  aligned  or  more/less  interlocked.  The  TTG  suite  contact 
+metamorphosed the Birimian sequences (Hein, et al., 2004; Naba et al., 2004).  
+The  rocks  were  metamorphosed  to  lower  greenschist  facies  during  the  Eburnean  orogeny  which  is 
+characterised by the development of the mineral assemblage of prehnite, chlorite, actinolite, albite in 
+mafic  rocks,  and  muscovite,  albite  and  quartz  in  the  sedimentary  sequences  (Leube  et  al.,  1990; 
+Dzigbodi-Adjmah,  1992;  Debat  et  al.,  2003;  Naba  et  al.,  2004;  Béziat  et  al.,  2000).  In  the  contact 
+aureole of the granitoids, the metamorphic grade is low- to medium grade amphibolite facies, which is 
+characterised  by  biotite,  muscovite  and  quartz  (Leube  et  al.,  1990;  Naba  et  al.,  2004,  Tunks  et  al., 
+2004).  The  Palaeoproterozoic  Birimian  sequences  in  NE  Burkina  Faso  are  also  crosscut  by  late 
+WNW-trending  dolerite  dykes,  which  are  younger  in  age  than  the  granitoids  (Hein,  2009; 
+Tshibubudze et al., 2009).  
+The Birimian sequences are unconformably overlain by the Tarkwa Group, which was first described 
+in Ghana. Tshibubudze et al. (2009), refutes the notion that the conglomerate units in the Birimian of 
+Burkina Faso are Tarkwaian.  
+North-eastern  Burkina  Faso  is  characterised  by  three  tectonic  events;  D1,  D2  and  D3  termed  the 
+Tangaean  event,  Eburnean  Orogeny  and  the  Wabo-Tampelse  event,  respectfully  (Hein,  2009; 
+Tshibubudze et al., 2009). The Tangaean event resulted in the development of a NW-NNW trending 
+fold-thrust belt ca. 2171-2130Ma (Hein, 2009). The Oudalan-Gorouol greenstone belt was intersected 
+by NE-trending shear zones, related to deformation during the Eburnean orogeny (Tshibubudze et al., 
+2009;  Hein,  2009).  The  deformation  D2  is  characterised  by  the  development  of  NNE-NE  trending 
+mylonite and shear zone, F2 folds and a penetrative schistocity (S-C2 to S2), which crosscut the D1 
+structures (Hein, 2009; Tshibubudze et al., 2009). The deformation D3 is not defined in the Oudalan-
+Gorouol  greenstone  belt,  but  is  well  developed  in  the  Goren  greenstone  belt  and  post-dates  the 
+Eburnean orogeny (Hein et al., 2004; Hein, 2009).  
+The  Palaeoproterozoic  Birimian  sequences  were  sheared  by  a  first-order  crustal  scale  structure,  the 
+Markoye  Shear  Zone,  which  marks  the  western  boundary  of  the  Oudalan-Gorouol  greenstone  belt 
+7
+
+--- Page 14 ---
+(Tshibubudze et al., 2009). This is a NE-trending zone characterised by large scale faulting, shearing 
+and  mylonite  zone  (Tshibubudze  et  al.,  2009).  The  Markoye  Shear  Zone  underwent  two  phases  of 
+reactivation  with  two  deformation  events  i.e.,  D1  and  D2,  occurring  concurrently  to  that.  The  D1 
+deformation event as previously discussed resulted in the development of folds that trend towards the 
+NW-NNW  during  the  dextral  reverse  displacement  of  the  Markoye  Shear  Zone.  During  the  D2 
+deformation  event,  the  Markoye  Shear  Zone  underwent  SE-NW  crustal  shortening  and  sinistral-
+reverse displacement (Tshibubudze et al., 2009).  
+2.2 Local Geology of the Study Area 
+The  three  areas  that  have  been  designated  for  this  project  are  located  in  the  Oudalan-Gorouol 
+greenstone belt. Two of the three sites i.e. Falagountou and Sokadie are still artisanal mining sites and 
+Essakane is a developing mine. Essakane is the main deposit and is 11km×3km in dimension, with 
+Falagountou  and  Sokadie  located  to  the  East  and  south  of  the  Essakane  metasedimentary  belt, 
+respectively (Kerr(b), 2004).  
+The  dominant  stratigraphic  sequences  that  have  been  identified  in  the  Oudalan-Gorouol  greenstone 
+belt are a volcaniclastic greywacke sequence and an interbedded conglomerate-greywacke-siltstone-
+shale  sequence,  which  have  been  contact  metamorphosed  to  hornblende-hornfels  facies  during  the 
+emplacement  of  igneous  bodies  (Tshibubudze  et  al.,  2009).  The  environment  of  deposition  is 
+interpreted to be a shallow marine continental shelf (Tshibubudze et al., 2009).  
+The  supracrustal  rocks  of  the  Oudalan-Gorouol  greenstone  belt  have  experienced  two  deformation 
+events  that  resulted  in  the  formation  of  shears,  folds,  mylonite  zones  and  regional  metamorphism; 
+contact  metamorphism  resulted  from  the  dolerite  dykes  intruding  the  area  and  the  emplacement  of 
+syn- and post-orogenic plutons (Tshibubudze et al., 2009). 
+The Essakane deposit is described as quartz-carbonate hosted sulphide stockwork, with arsenopyrite-
+pyrite  gold  mineralisation  (Kerr  (b),  2004;  Tshibubudze  et  al.,  2009),  which  formed  during  the  D2 
+deformation event (Tshibubudze et al., 2009). The Sokadie deposit is hosted in a shear zone, and it is 
+situated  proximally  to  the  Dori  batholith  (Kerr  (a),  2004).  The  mineralisation  in  the  Falagountou 
+deposit  has  been  interpreted  to  be  a  stockwork  of  veinlets  of  quartz±carbonate-sulphide  (Kerr  (c), 
+2004). The veinlets are hosted in the metasedimentary rocks together with the intrusive rocks found in 
+the area (Kerr (c), 2004). 
+8
+
+--- Page 15 ---
+2.3 Gold Metallogeny in West Africa 
+Gold deposits in West Africa have been classified as orogenic gold deposits (Goldfarb et al., 2001; 
+Groves et al., 1998). The gold forming stage of the Palaeoproterozoic is interpreted as being the third 
+global  episode  of  orogenic  gold-vein  formation,  where  greenstone-sedimentary  sequences  became 
+important hosts for gold (Goldfarb et al., 2001). In orogenic gold deposits, the formation of the ores is 
+attributed  to  the  compressional  to  transpressional  deformation  processes  that  occur  during  the 
+convergence  of  plate  margins  in  accretionary  and  collisional  orogens  (Groves  et  al.,  1998).  The 
+orogenic deposits can further be classified as syn-orogenic and post-orogenic, the former describing 
+ore-forming fluids that were generated and set in motion by thermal processes at depth (Groves et al., 
+1998);  and  the latter considers  the  fact  that  the  ore  hosting  rocks  are  undergoing  uplift  and  cooling 
+(Groves  et  al.,  1998).  These  gold  deposits  are  characterised  quartz-vein  systems,  with  mainly  Fe-
+sulphides and carbonate minerals (Milési et al., 1992; Groves, 1998; Béziat et al., 2008), the gangue 
+minerals associated with the greenschist facies host rocks include albite, fuchsite, chlorite, schheelite 
+and  tourmaline  (Groves  et  al.,  1998).  These  orogenic  gold  deposits  are  further  divided  into  zones 
+based on their temperature and depth, epizonal deposits (<6km at 150°C-300°C), mesozonal deposits 
+(6-12k at 300°C-475°C), hypozonal deposits (>12km at temperatures exceeding 475°C). 
+Gold mineralisation in the Birimian of the West African craton has been associated with the Eburnean 
+orogeny  (Hastings,  1982;  Milési  et  al.,  1992;  Dzigbodi-Adjimah,  1993).  Dzigbodi-Adjimah,  (1993) 
+distinguished  two types of gold-bearing orebodies; the quartz vein type (QVT), where the gold occurs 
+with  carbonate  vein-filling  along  fractures  in  the  quartz  vein  and  the  disseminated  sulphide  type 
+(DST),  where  the  gold  occurs  in  sheared  metavolcanic  rocks.  These  two  types  of  gold-bearing 
+orebodies  are  characterised  by  sulphides  such  as  pyrite,  arsenopyrite,  sphalerite,  chalcopyrite, 
+aurostibite,  bornite,  bournonite,  tetrahedrite,  buolangerite,  jamesonite  with  galena  occurring  as  a 
+minor phase (Dzigbodi-Adjimah, 1993).  
+In agreement with the classification of Groves et al., (1998), the gold deposits in Burkina Faso have 
+been classified as orogenic-type gold deposits (Béziat et al., 2008). Two types of gold mineralisation 
+were identified, which are similar to the type of mineralisation classified by Leube et al. 
+9
+
+--- Page 16 ---
+(1990);  quartz-vein  hosted  gold  (QVT)  which  is  associated  with    pyrite  or  tourmaline  and 
+disseminated gold (DST) which is commonly associated with sulphides (Fig. 2.1) (Béziat et al., 2008) 
+.  
+Figure 2.1: A sketch of the two gold mineralisation styles in Burkina Faso, after Béziat et al., 2008. 
+10
+
+--- Page 17 ---
+Chapter 3: Methodology 
+3.1 Data Collection 
+The  project  entailed  petrographic  work  and  field  study  of  the  deposits.  The  deposits  were  mapped 
+over the June/July break, through the sponsorship of IAMGOLD Corporation. The field visit spanned 
+22 days and a car was provided for transportation to and from the deposit sites.  
+A  LANDSAT  image  of  a  portion  of  north-east  Burkina  Faso  was  used  to obtain  coordinates  of the 
+deposit  and  thus  delineate  the  deposits.  The  equipment  used  for  the  mapping  was  graph  paper,  a 
+northern  hemisphere  compass  clinometer,  a  geographical  positioning  system  (GPS),  a  hand  lens,  a 
+digital camera and a geological hammer. The UTM (WGS 84) grid coordinates were drawn in on the 
+graph  paper  using  the  LANDSAT  image.  The  deposits  were  each  visited  on  separate  days  and 
+assigned three days to complete mapping.  
+Before the actual mapping commenced, a reconnaissance of each deposit was conducted. From each 
+deposit  north-south  traverses  were  made.  From  each  outcrop  in  the  area  the  lithologies  were 
+identified,  bedding,  structural  features  and  veins  were  recorded.  In  areas  where  there  was  no 
+significant outcrop subcrop mapping from orpaillage diggings was used to identify the lithologies, but 
+no structural data was recorded. No samples were collected from the field. 
+Core logging was the other aspect of the field visit. The petrographic component of the project was 
+done at the University of the Witwatersrand laboratory. The samples were documented by Professor 
+Kim  Hein  and  sent  to  the  SGS  laboratories  in  Booysens,  Johannesburg  to  create  polished  thin 
+sections.  The  petrography  work  involved  the  use  of  both  transmitted  light  and  reflected  light 
+components  of  a  microscope,  to  identify  sulphides  and  minerals  in  the  sections.  Photographs  were 
+taken of thin sections of interest. 
+11
+
+--- Page 18 ---
+3.2 Data Documentation 
+The collected data (structural, lithological and petrographic) was documented on a Microsoft® Excel 
+Spreadsheet  (Appendix  B)  for  convenience.  The  structural  data  was  interpreted  on  the  program, 
+GEOrient® (Holcombe, 2008). 
+12
+
+--- Page 19 ---
+Chapter 4: Lithologies and Structure  
+4.1 Lithologies 
+4.1.1 Preamble 
+The  lithologies  for  the  three  deposits  predominantly  consist  of  volcaniclastic-sedimentary  and 
+sedimentary sequences, which have been intruded by numerous plutonic rocks. The dominant cover over 
+the  sediments  is  laterite  and  sand  dunes.  The  alteration  noted  in  some  of  the  sequences  is  oxidation, 
+kaolinisation and sericitisation. Field data was collected from 47 station points (see Appendix for station 
+point spreadsheet). 
+4.1.2 Falagountou 
+The Falagountou orpaillage is located to the East of the Essakane main deposit. The pit is ~100×200m in 
+dimension (Fig. 4.1). It is covered by an extensive laterite profile and there is abundant sand dune cover 
+south  of  the  pit.  The  laterite  and  sand  dunes  made  mapping  of  the  area  challenging;  subcrop  mapping 
+from the artisanal mining workings was used to determine the lithologies. The artisanal miners follow a 
+series  of  quartz  veins  which  crosscut  the  lithologies.  The  veins  include  extensional  veins,  buck  quartz 
+veins and stockwork veins.  
+In 
+the 
+Falagountou 
+artisanal  mine 
+area 
+lithologies 
+included:  metasiltstone/shale, 
+metagreywacke/sandstone, and gabbro dyke inferred from subcrop (boulders) in the mine. 
+Metasiltstone-shale 
+The pit is dominated by metasiltstone/shale.  The unit is foliated, has sandstone partings and it is oxidised 
+and  kaolinised.  Malachite  staining  is  common  in  this  unit,  indicating  the  presence  of  copper  sulphide. 
+This  unit  is  cross-cut  by  stockwork,  sheeted  and  extensional  quartz-carbonate  veins.  The  extensional 
+veins (V1) trend approximately WNW. The quartz-carbonate-chlorite stockwork veins (V2) displace the 
+extensional veins (V1), and this was followed by the development of a third generation quartz veins (V3).  
+Metagreywacke-sandstone  
+A  subcrop  of  foliated  metagreywacke-sandstone  was  identified  on  the  margin  of  the  pit.  The 
+metagreywacke-sandstone  outcrops  were 
+located 
+to 
+the  north  of 
+the  pit  and  are  oxidised. 
+13
+
+--- Page 20 ---
+Gabbro and Diorite  
+The  Falagountou  deposit  is  crosscut  by  gabbro  dykes  composed  of  pyroxene,  plagioclase  and 
+arsenopyrite; and diorite dykes composed of orthoclase, plagioclase, quartz, hornblende and biotite. In 
+diamond  drill  core,  the  diorites  occur  at  a  shallow  depth  and  the  gabbro  occurs  towards  the  end  of 
+hole. The intrusives are coarse-grained and are cross-cut by extensional quartz-carbonate veins (V1). 
+Chloritisation is the most common type of alteration developed in the intrusives. 
+14
+
+--- Page 21 ---
+N 
+Quartz-carbonate veins 
+bedding 
+  Figure 4.1: The Falagountou pit 
+siltstone 
+15
+
+--- Page 22 ---
+4.1.3 Essakane 
+The Essakane pit (Fig. 4.2) is located in the Essakane main zone. The deposit is north-west trending. 
+The  deposit  is  hosted  in  a  volcaniclastic-sedimentary  sequence  covered  by  laterite  and  saprolite 
+profiles. 
+The  Essakane  deposit  is  intersected  by  dolerite  dykes  and  gabbroic  sills.  These  intrusive  rocks  are 
+composed of pyroxene and feldspar. The sills have coarser grained euhedral, feldspar crystals. Most 
+of  these  intrusives  occur  towards  the  end  of  hole  in  diamond  drilling  core.  The  dolerite  dykes  are 
+trending at 334°.  
+The  sedimentary  sequences  include  metavolcaniclastic  greywacke,  quartzite  and  interbedded 
+sandstone, siltstone, and shale.  
+Quartzite 
+The quartzite is oxidised.  The sulphides are weathering out, indicated by red oxidised pyrite spots on 
+the surface. The foliation is developed parallel to the bedding. The quartzite has shale laminations and 
+is cross-cut by quartz-carbonate veins, with no sulphides concentrated in the veins.  
+Interbedded sandstone-siltstone-graphitic shale  
+This sequence of rocks is kaolinised. The sandstone and laminated siltstone/shale are interbedded in a 
+fining  upward  sequence.  Facing  is  to  the  north-east,  as  determined  by  graded  beds,  scour  and  fill. 
+Metavolcaniclastic greywacke also occurs at the base of the interbedded sandstone-siltstone-graphitic 
+shale unit. Pyrite and arsenopyrite mineralisation occurs in these units.  The development of chlorite 
+on the siltstone was noted on the drill core (ERC1196D-136m). The sequences that occur lower in the 
+stratigraphy are brecciated (identified in the diamond drilling core). The unit of rocks is cross-cut by 
+north-east trending quartz-carbonate, quartz and quartz-chlorite extensional veins (V1); NW trending 
+׳
+conjugate veins (V1
+) and stockwork-sheeted veins (V2). 
+16
+
+--- Page 23 ---
+Fold axis 
+ Figure 4.2: The Essakane Pit + Essakane anticline 
+17
+
+--- Page 24 ---
+4.1.3 Sokadie 
+The  Sokadie  shear  zone  (Fig.  4.3)  is  located  south  of  the  Essakane  main  deposit. The  units include 
+schistose  greywacke,  sandstone,  siltstone,  quartzite  (which  were  identified  on  outcrop),  and 
+greenschists  (mainly  in  the  drill  core).  The  artisanal  mine  workings  are  located  south  of  the  shear 
+zone. The units are cross-cut by folded and boudinaged quartz-carbonate veins. The structural features 
+and kinematics indicate that Sokadie is shear-hosted. 
+Metagreywacke 
+The metagreywacke unit occurs to the north of the shear zone. It has a pockmarked surface, resulting 
+from  the  weathering  out  of  the  mineral  pyrite.  The  rocks  are  oriented  towards  the  north-east.  The 
+outcrop of the metagreywacke has randomly oriented fractures. The unit is foliated and it is cross-cut 
+by randomly oriented quartz-carbonate veins. The unit is chloritised; hence it is termed a chloritised 
+metavolcaniclastic greywacke.  
+Quartzite 
+The quartzite unit oxidised with two generations of foliation and penetrative crenulation cleavage is 
+developed throughout the rock. The unit is cross-cut by quartz-carbonate veins.  
+Metasandstone-siltstone 
+The  metasandstone-siltstone  units  are  folded;  they  have  a  well  developed  foliation  and  a  schistose 
+texture. These units are highly altered, with chloritisation and sericitic alteration developed; and they 
+are  weathered.  The  units  are  brecciated  (noted  in  the  drill  core)  and  occur  mainly  higher  in  the 
+stratigraphy. The quartz veins are not frequent in these higher units.  
+4.1.5 Laterite Profile  
+This provides the cover for large amounts of the deposits visited. It is an iron-rich profile and forms in 
+tropical to subtropical conditions, mainly on the surface of rocks due to their longer exposure to the 
+atmosphere and the hydrosphere (Dequincey et al., 2006). These rocks that are covered by the laterite 
+profile are hard, ferruginous and cemented (Bierschenk, 1968). 
+18
+
+--- Page 25 ---
+Figure 4.3: The Sokadie Shear zone 
+19
+
+--- Page 26 ---
+4.2 Structural Features 
+4.2.1 Essakane 
+The deformation event, D1, in the Essakane deposit is recognised by the development of a NNW-NW 
+trending anticline (F1). The anticline is open, asymmetrical and verges to the SW (Fig. 4.4; 4.5). Due 
+to  poor  exposure  few  measurements  were  obtained  for  the  south-west  limb,  but  that  limited  data 
+suggests the limb trends NW and dips steeply SW.  The north-east dipping limb is shown on the equal 
+area stereographic projection in Fig. 4.4, with a calculated mean of 325°/38°E. The facing of the limbs 
+was  determined  using  graded  bedding  and  scour  and  fill  and  indicate  that  the  fold  is  an  inclined 
+anticline. A palaeostress (δ1) applied from a north-eastern direction produced the asymmetry of the 
+fold (Fig. 4.5).  
+The  rock  units  are  cross-cut  by  quartz-carbonate  veins  which  include  extensional  veins,  conjugate 
+veins,  bedding-parallel  veins  and  stockwork  veins.  An  equal  area  stereographic  projection  of 
+conjugate  and  extensional veins  is  presented  in  Fig. 4.6  (a)  and  with  photograph  from  station  point 
+N1591992; E0184823. The calculated mean for the extensional veins and conjugate veins in Essakane 
+have  been  tentatively  determined  as  061°/82°S  and  164°/79°W,  respectively.  Based  on  the  data  the 
+conjugate veins are oriented parallel to the fold axis and extensional veins are oriented perpendicular 
+to the fold axis, with the palaeostress was tentatively interpreted to be in NE direction.  
+The deformation event, D2, resulted in the development of a NE- trending, normal-slip fault with a 
+mean direction of 300°/58° during the flexural-slip folding of the bedding and caused brecciation of 
+the footwall sequence (Fig. 4.8). 
+20
+
+--- Page 27 ---
+N 
+Calculated mean: 325°/38°E 
+NE dipping limb 
+n=12 
+Figure 4.4: Equal area stereographic projection of the Essakane bedding of NE dipping limb 
+1m 
+Figure  4.5:  Fold  axis  of  the  NW-trending  anticline  hosted  in  siltstone  in  the  Essakane  exploration  trench, 
+crosscut by  extensional veins (black stiples) and sheeted veins (black stiples). 
+21
+
+--- Page 28 ---
+N 
+δ1 
+Conjugate veins 
+Extensional veins 
+δ2 
+S1 
+(a) 
+n=6 
+1m 
+(b) 
+Figure  4.6:  (a)  Equal  area  stereographic  plot  of  the  conjugate  and  extensional  vein  sets  mapped  on  the 
+Western wall of the Essakane pit (b)   
+Normal –slip  
+Fault 
+Brecciated 
+footwall 
+Figure 4.7: NE-trending normal-slip fault in the exploration trench in Essakane (facing south-east).  
+N 
+3m 
+22
+
+--- Page 29 ---
+4.2.2 Sokadie 
+The metamorphic rocks in the Sokadie deposit are strongly deformed with well developed foliation, 
+intersection lineation and crenulation cleavage. The structures mapped indicate that the deposit is in a 
+shear zone. The shear zone is characterised by intensely foliated, crenulated, chloritised greenschist 
+rocks.  The  greenschist  rocks  are  composed  of  quartz,  plagioclase,  epidote,  chlorite,  muscovite  with 
+developed of arsenopyrite.  
+The quartz-carbonate veins cross-cutting this unit are intensely folded and boudinaged, and brecciated 
+buck quartz veins occur within the shear zone. The rock outcrops become progressively sheared when 
+approaching  the  shear  zone  (towards  the  south).  The  foliation  of  the  rocks,  with  a  calculated  mean 
+strike and dip of 078°/66°S, indicates that the shear zone is steeply dipping to the south with a NE-
+trend (Fig 4.5). Crenulation cleavage, intersection lineation and S-C fabric were formed subsequent to 
+the shearing. The sense of shear determined using the S-C fabric, boudins and quartz-carbonate veins 
+is tentatively interpreted as dextral reverse.  
+23
+
+--- Page 30 ---
+N 
+Calculated mean: 078°/66°S 
+n=13 
+Figure 4.8: Equal area stereographic plot of foliation in the Sokadie shear zone 
+24
+
+--- Page 31 ---
+Chapter 5: Observations 
+Mineralogy, Petrography and Ore petrology1 
+5.1 Preamble 
+Fifteen polished thin sections were analysed for this project, with five thin sections from each deposit. 
+The  petrography  section  aims  to  realise  the  main  aims  and  objectives  of  the  project.  In  the  thin 
+sections the rock types, mineralogy of the rocks, alteration types and microstructures were identified 
+to determine a paragenetic sequence for the gold occurring in the Oudalan-Gorouol greenstone belt. 
+The dominant sulphides included arsenopyrite and pyrite, with minor sphalerite, hematite, magnetite, 
+chalcopyrite and pyrrhotite.  
+5.2 Essakane 
+The Essakane deposit is hosted in an inclined, asymmetrical NW-NNW trending anticline. The rock 
+types that were identified in the thin sections are sandstone, siltstone, shale and volcaniclastics (Fig 
+5.1).  These  rocks  are  constituted  by  a  number  of  minerals  that  are  common  across  the  Essakane 
+deposit.  
+The  arenaceous  sedimentary  units  i.e.  sandstone  and  siltstone,  are  dominated  by  common  rock 
+forming  minerals  i.e.  quartz,  orthoclase,  plagioclase  and  biotite.  The  volcaniclastic  is  made  up  of 
+volcanic  clasts,  quartz  and  feldspar  in  a  fine-grained  matrix.  The  samples  also  record  lithological 
+contacts on a microscopic scale (Fig 5.2A).  
+The  quartz  has  undulatory  extinction  with  sutured  grain  boundaries,  indicating  dissolution  and 
+subsequent  overgrowth.  The  quartz  displays  a  ‘butterfly’  texture  (Fig.  5.3A,  B)  along  the  euhedral 
+boundaries  of  the  sulphides,  it  is  the  quartz  is  strained  and  indicates  direction  of  compression.  The 
+minerals  developing  next  are  elongated  hornblende  and  minor  biotite  <  2%.  These  are  altered  to 
+chlorite. The hornblende is has two preferred mineral orientations and produces foliation in the rocks. 
+The sample  EDD4-178B  consists  of  more  than  50% hornblende  and  it  is  termed  hornblendite  (Fig. 
+5.2B).  
+The secondary minerals that appear include muscovite, sericite, kaolinite and chlorite. These minerals 
+form the wallrock alteration. The sericite is the most developed wallrock alteration (Fig. 5.4A) and it 
+has preferred orientation i.e. it is cleaved. Muscovite occurs as needle-like blades with preferred linear 
+orientation. The chlorite cross-cuts the all the minerals and has high iron content; it is found in the 
+1 The oxide and sulphide textures depicted in the photomicrographs are found in all the deposits 
+25
+
+--- Page 32 ---
+centre of the veins and in the distributed in the whole sample. The abundant chlorite may be due to 
+biotite-chlorite  alteration  or  the  alteration  of  hornblende.  The  sheet  silicates  have  a  preferred 
+orientation that produces a pronounced foliation (S1) in the rocks.  
+The veins in the samples are quartz-ankerite veins and quartz-ankerite-chlorite veins; with chlorite in 
+the centre (Fig. 5.4B). They form simple open-space fill morphology. The order of the minerals in the 
+veins is quartz in contact with the wall rock, followed by ankerite with chlorite and sulphides at the 
+centre.  The  veins  are  coarse-grained  texture  to  fine-grained  in  texture.  The  chlorite  and  sericite 
+dominate the alteration zone that is enveloping the quartz veins. 
+Three sulphides occur in the samples i.e. pyrite, chalcopyrite and arsenopyrite with the oxide phase as 
+rutile.  Pyrite  is  most  common  and  occurs  as  both  euhedral  crystal  and  anhedral  masses,  and  it  is 
+undergoing  supergene  alteration  to  marcasite.  Arsenopyrite  occurs  as  monoclinic  crystals  and  the 
+chalcopyrite is anhedral. The chalcopyrite forms a small proportion of the sulphides in the Essakane 
+samples ~1%. The arsenopyrite replaces the pyrite in these samples and occurs within the chlorite.  
+Paragenesis of the sulphides: Pyrite- Chalcopyrite -Arsenopyrite 
+26
+
+--- Page 33 ---
+Figure 5.1: Drill core photographs from the Essakane deposit of (a) shale+ volcaniclastic+ siltstone  
+(b) 
+volcaniclastic with sulphides (c) siltstone (d) shale with sulphides 
+(Photographs courtesy of Prof Kim Hein) 
+27
+
+--- Page 34 ---
+A 
+B 
+Volcaniclastic 
+S1s 
+Shale 
+Zircon
+S1s 
+Siltstone 
+S1s 
+3 mm 
+3 mm 
+Figure 5.22:  (A) Photomicrograph illustrating the contacts lithological contacts with zircons in the shale & S1 
+(B) Photomicrograph of hornblendite with two foliation directions 
+2 Scale on photomicrographs indicates width of field of view 
+28
+
+--- Page 35 ---
+A 
+B 
+Direction of applied stress 
+1mm 
+3 mm 
+Figure 5.3: (A; B) Photomicrograph of ‘butterfly’ texture in quartz developing against sulphides 
+29
+
+--- Page 36 ---
+A 
+Chlorite ‘vein’ 
+B 
+Quartz-carbonate 
+vein  
+Sericite 
+3 mm 
+Chlorite 
+3 mm 
+Figure 5.4: (A) Photomicrograph of anomalous blue chlorite vein with sericitisation on the wall rock. (B) 
+Photomicrograph illustrating chlorite within quartz-carbonate veins 
+Chlorite 
+30
+
+--- Page 37 ---
+5.3 Falagountou  
+The sedimentary sequences of the Falagountou deposit are intruded by monzonites and monzodiorites 
+(Fig  5.5).  These  rocks  are  alkaline  to  calc-alkaline  with  plagioclase  feldspars  and  alkali  feldspar 
+making up a bulk of the mineralogy of the rocks. The alkaline intrusive rocks are quartz syenite and 
+quartz monzonite. The samples are phaneritic and are composed of medium-grained to coarse-grained 
+alkali feldspar (mainly orthoclase), plagioclase feldspar and quartz.   
+The silicate mineralogy in the Falagountou deposit includes alkali feldspar, plagioclase, and quartz, 
+with  muscovite,  epidote,  sericite,  chlorite,  biotite,  hornblende,  calcite  and  cordierite;  however  most 
+dominant silicates found in the samples are feldspars, quartz and sericite. The two type of feldspars 
+identified  are  alkali  feldspar  and  plagioclase.  The  alkali  feldspar  comprises  of  orthoclase  and 
+microcline; and has a coarse-grained, equiangular texture. Grain boundaries in the feldspars have been 
+dissolved and recystallised. The feldspars have a cloudy appearance and are altering to sericite (Fig. 
+5.6A).  The  calcite  develops  in  the  wallrock  and  it  is  abundant  in  the  sample  with  a  proportion  of 
+~20% in  each  sample.  Quartz  occurs in  smaller  proportions than feldspars.  It  is  polycrystalline  and 
+subhedral, with sutured grain boundaries. The feldspars and quartz are in eutectic growth with each 
+other.  
+Sericite is the first alteration mineral to form and constitutes the groundmass. It is cleaved and has two 
+preferred  orientations.  Muscovite  occurs  in  the  samples  as  elongate  crystals,  with  random  in  the 
+igneous  rocks  and  linear  orientation  in  sedimentary  rocks.  Chlorite  forms  later  with  sulphides 
+concentrated within the chlorite (Fig. 5.6B). 
+The sulphides in the Falagountou deposit are arsenopyrite, pyrite, chalcopyrite and sphalerite; and the 
+oxides include hematite, magnetite and ilmenite. The hematite replaced the both magnetite (Fig. 5.7A, 
+B)  and  arsenopyrite.  Magnetite  is  anhedral  with  exsolved  skeletal  ilmenite  developing  within  its 
+structure; it may be a product of the alteration of biotite to chlorite or the replacement by muscovite. 
+The presence of ilmenite is attributed to its tendency to be a common accessory  mineral in igneous 
+rocks.  The  sphalerite  occurs  as  irregular  anhedral  masses  and  is  replaced  by  chalcopyrite.  The 
+arsenopyrite is euhedral; and pyrite occurs as both euhedral crystals and anhedral masses. Free native 
+gold  (Fig.  5.8A,  B)  was  observed  in a  sample  (FDD023-87),  the  grains  occur within  the  sericitised 
+wallrock. 
+Paragenesis of the sulphides: Pyrite-sphalerite- chalcopyrite-arsenopyrite 
+          Magnetite-(ilmenite)- arsenopyrite??-hematite 
+31
+
+--- Page 38 ---
+Figure 5.5: Drill core photographs from the Falagountou orpaillage (a) monzodiorite (b) monzonite (c) 
+monzodiorite (d) shale (e) monzodiorite (although thin section indicates no feldspar present) 
+(Photographs courtesy of Prof Kim Hein) 
+32
+
+--- Page 39 ---
+A 
+B 
+Sericite 
+1 mm 
+Chloritisation-sulphidation 
+1 mm 
+Figure 5.6: (A) Photomicrograph of monzonite with intense sericitisation. (B) Photomicrograph of sulphides 
+concentrated within the chlorite zone 
+33
+
+--- Page 40 ---
+A 
+B 
+Mgt 
+Hmt 
+Hmt 
+Mgt 
+0.5 mm 
+1 mm 
+Figure 5.7: (A) Photomicrograph of magnetite altering to hematite in PPL (B) Photomicrograph of magnetite 
+altering to hematite in XPL 
+34
+
+--- Page 41 ---
+A 
+B 
+0.5 mm 
+0.5 mm 
+Figure 5.8: (A, B) Photomicrograph of free Au in Falagountou samples 
+35
+
+--- Page 42 ---
+5.4 Sokadie 
+Sokadie is a shear hosted deposit. The rocks are mainly greenschists i.e. quartz-plagioclase-chlorite-
+muscovite  schist,  chlorite-mica  schist,  muscovite-quartz-chlorite  schist,  quartz-plagioclase-epidote 
+schist,  quartz-chlorite-muscovite  schist  and  quartz-muscovite-plagioclase  schist)  (Fig.  5.9). 
+Greenschist facies minerals dominate and include chlorite, sericite, epidote, actinolite and muscovite. 
+Other minerals in the samples include quartz, orthoclase, plagioclase, cordierite, biotite and calcite.  
+The rocks are very fine-grained and foliated, with micaceous minerals having a preferred orientation. 
+The first preferred orientation forms a crenulation cleavage in some samples and in other samples the 
+orientation  is  linear.  The  veins  cross-cutting  these  rocks  are  folded.  S-C  fabric  is  evident  in  some 
+samples (SOK02-50m); this is formed by the orientation of the minerals. The quartz in the sample is 
+polycrystalline  and  has  pressure  solution,  and  it  is  in  eutectic  growth  with  the  orthoclase.  Calcite 
+appears later, because it has not been affected by the deformation of the earlier minerals.  
+The sulphides in the Sokadie are disseminated and include pyrite and arsenopyrite; and the oxides are 
+hematite and magnetite. The pyrite in the samples occurs as anhedral masses with a few cubic crystals 
+occurring (Fig 5.10A, B, C). The hematite occurs as a psuedomorph and replaces pyrite and fractured 
+arsenopyrite (Fig. 5.11A, B, C). The magnetite is altered to hematite. In the sample SOK04-216mB, 
+the pyrite is oriented along the crenulation cleavage.  
+Paragenesis of the sulphides: anhedral pyrite-cubic pyrite-(magnetite)-arsenopyrite  
+(a) 
+(b) 
+36
+
+--- Page 43 ---
+Figure 5.9: Drill core photographs of the Sokadie orpaillage (a) quartz-muscovite-plagioclase schist (b) quartz-
+chlorite-muscovite schist (c) quartz-plagioclase-epidote-schist with folded quartz-carbonate vein (d) muscovite-
+quartz-chlorite schist (e) chlorite-mica-schist 
+(Photographs courtesy of Prof Kim Hein) 
+37
+
+--- Page 44 ---
+A 
+B 
+Marcasite 
+Aspy 
+1 mm 
+1 mm 
+C 
+3 mm 
+Figure 5.10: Photomicrographs of different textures of pyrite grains (a) Anhedral pyrite masses (B) Pyrite 
+altering to marcasite with subhedral arsenopyrite (C) Cubic pyrite 
+(c) 
+38
+
+--- Page 45 ---
+A 
+B 
+Aspy 
+Fractures 
+Hmt 
+1 mm 
+1 mm 
+C 
+1 mm 
+Figure 5.11: Photomicrographs of arsenopyrite textures (A) Photomicrograph of arsenopyrite replaced by 
+hematite (B) Photomicrograph of irregular   with arsenopyrite growth zoning and irregular overgrowths (C) 
+Photomicrograph of euhedral arsenopyrite with ‘butterfly’ texture 
+(a) 
+39 
+(a) 
+(b)
+
+--- Page 46 ---
+Chapter 6: Discussion 
+6.1 Discussion  
+6.1.1 Depositional environment 
+The deposition of supracrustal rocks includes sandstone, siltstone, shale, greywacke and volcaniclastic 
+in  a sedimentary  basin. The  most  recognisable sedimentary  structures in  the  sedimentary  sequences 
+are graded beds with a fining upwards sequence on a local scale, scour and fill and finely laminated 
+sediments. On the basis of the sedimentary structures and laminations in the sediments, the sequences 
+are  interpreted  to  have  deposited  in  a  low  energy  environment.  Mass flow  on  a continental  shelf is 
+interpreted to be the mode of transport of the conglomerates observed by Tshibubudze, 2009 in the 
+OGGB.  Based  on  the  limited  data  collected  for  the  sedimentary  structures,  the  depositional 
+environment  is  tentatively  interpreted  shallow  marine  continental  shelf,  with  the  volcaniclastics 
+derived from an adjacent volcanic arc. The interpretation is in accordance with the observations made 
+by  Hein  et  al.  (2004)  for  the  Boromo-Goren  Greenstone  belt,  Roddaz  et  al.  (2007)  for  the  Upper 
+Birimian and Tshibubudze et al. (2009) for the OGGB.  
+6.1.2 Metamorphism 
+The  supracrustal  rocks  were  regionally  metamorphosed  to  greenschist  facies,  characterised  by  the 
+development  chlorite,  sericite,  muscovite  and  anhedral  pyrite,  which  formed  due  to  breakdown  of 
+feldspars  into  sericite  combined  with  iron  from  iron-silicates  and  sulphur  (Stanton,  1972).  The 
+supracrustal 
+rocks  were  metamorphosed 
+to  quartzite,  metavolcaniclastic,  metagreywacke, 
+metasiltstone and  greenschists. The supracrustal rocks  are tentatively  interpreted  to  have  undergone 
+two phases of deformation. The first deformation is associated with the development of NW-trending 
+folds  (F1),  foliation  (S1)  and  extensional-conjugate  quartz-carbonate  vein  sets  (V1),  these  are 
+interpreted as D1 (Tangaean) structures. The second deformation is associated with the development 
+of  vein  stockwork  (V2),  NE-trending  faults,  NE-trending  foliation  (S2)  associated  with  the  dextral 
+shear zones and are interpreted as D2 (Eburnean) structures. 
+The  supracrustal  rocks  were  intruded  by  granitoid  plutons  and  prograde  contact  metamorphosed  to 
+hornblende-hornfels  facies,  indicated  by  the  development  cordierite  spots,  amphiboles  and 
+hornblende.  Leube  et  al.  (1990)  and  Tunks  et  al.  (2004)  recognised  the  low-  to  medium  grade 
+amphibolite facies metamorphism of supracrustal rocks within the contact aureole of granitoids; Hein 
+et  al.  (2004)  noted  the  development  of  hornblende-hornfels  facies  around  the  contact  aureole  of 
+granitoids in the Boromo-Goren greenstone belt. Data for the size and mineralogy of the plutons was 
+not  available,  but  they  are  interpreted  large,  calc-alkaline  plutons.  The  absence  of  minerals  kinked, 
+40
+
+--- Page 47 ---
+zoned  biotite  and  tourmaline  in  the  samples  support  the  notion  that  the  supracrustal  rocks  are  not 
+intrusion-hosted but proximal to the intrusions; hence the interpretation is that supracrustal rocks lie in 
+the contact-aureole of granitoids.  
+6.1.3 Alteration and mineralisation 
+Alteration in supracrustal rocks is inferred to be concomitant to regional and contact metamorphism. 
+Alteration  types  are  silicification, sericitisation, carbonatisation,  chloritisation  and  sulphidation. The 
+fluids causing the alteration in the rocks are interpreted as derived from dewatering of sediments by 
+compression  and  convective  currents  created  by  the  raised  geothermal  gradient  from  cooling  and 
+recrystallisation of the plutons in proximity to the deposits (Fig 6.1). This phase is interpreted as the 
+retrograde path of the contact metamorphism of the supracrustal rocks. Sericitisation of the wallrock 
+occurred  first  and  is  recognised  by  alkali  metasomatism  forming  the  mineral  sericite.  The  mineral 
+pyrite  occurred  in  the  form  of  anhedral  masses  as  minor  product  of  the  reaction  of  feldspars  to 
+produce sericite (Robb, 2007). Subsequent to sericitisation, silicification appears through the addition 
+of quartz in the wallrock. Quartz-carbonate veins are interpreted to be the result of silicification and 
+carbonatisation of the sequences. These veins crosscut the lithology and they follow open-space fill 
+morphology with the quartz rimming the outside of the veins and the ankerite developing towards the 
+centre of the veins. Calcite is the product of later carbonatisation and is extensive in the wallrock of 
+the  intrusions  in  Falagountou.  Sericitisation,  silicification  and  carbonatisation  are  tentatively 
+interpreted as prograde reactions of contact metamorphism.  
+Chloritisation  and  sulphidation  succeed  prograde  reactions.  This  alteration  is  characterised  by  the 
+development  chlorite  and  epidote,  with  quartz-chlorite  veins  and  the  development  of  sulphides 
+concentrated  within  chlorite.  The  interpretation  is  that  retrograde  reactions  resulted  in  these  low 
+temperature minerals forming and overprinting the earlier high temperature minerals. This alteration 
+is tentatively interpreted as the likely Au forming phase.  
+The alteration sequence is as follows: 
+    Sericitisation 
+    Silicification 
+   Silicification and carbonatisation 
+  Carbonatisation 
+  Chloritisation with silicification and sulphidation 
+Time 
+41
+
+--- Page 48 ---
+The sulphides in these deposits include pyrite, chalcopyrite, sphalerite and arsenopyrite. The sulphides 
+are coarse-grained and disseminated. Sulphidation is synchronous with the chloritisation phase and is 
+a  product  of  addition  of  Cu,  S,  As  and  Zn  during  hydrothermal  activity.  The  Au  is  intimately 
+associated  with  the  mineral  arsenopyrite.  A  paragenetic  sequence  of  the  sulphides  was  determined 
+from the replacement textures between the sulphides. It occurs as follows: 
+    Pyrite 
+Sphalerite 
+Chalcopyrite 
+Time 
+Arsenopyrite (-Au) 
+6.1.4 Timing of Gold mineralisation and genetic model 
+According to Tshibubudze et al. (2009), the D1 and D2 events are both mineralised giving rise to two 
+phases of gold mineralisation in the OGGB. The D1 is characterised by the metasomatic alteration of 
+the wall rocks to form quartz vein hosted arsenopyrite-pyrite gold mineralisation and subsequent to 
+׳
+this  was  the  development of  vein-stockwork  mineralisation of  D2. The  V1  and V1
+  observed in the 
+Essakane deposit are interpreted to be mineralised during D1, with V2 mineralised during D2. The V2 
+(stockwork veins) are typical of thermal-aureole vein assemblages noted by Wall (1991). The plutons 
+intruding the OGGB are syn- to post Eburnean (Leube et al., 1990; Naba et al., 2004; Tshibubudze et 
+al.,  2009)  and  this  provides  a  time  constraint  for  the  mineralisation  of  the  deposits.  A  tentative 
+interpretation  is  that  the  Au  mineralisation  in  these  deposits  is  post-D1;  but  is  synchronous  to  D2, 
+during the cooling of the granitoids. 
+The Au mineralisation was formed by hydrothermal activity and is associated with the last phase of 
+alteration identified in the samples, i.e. chloritisation. It is associated with contact metamorphism of 
+granitoids. The Au forming stage is interpreted as a retrograde path during contact metamorphism, i.e.  
+post  peak  thermal  metamorphism.  The  mineralisation  is  dominantly  a  quartz-chlorite-pyrite-
+arsenopyrite  system.  Wall  and  Taylor  (1991)  observed  retrograde  mineralisation  in  the  thermal-
+aureole of deposits at Victoria and Elsewhere, Australia. The stockwork vein system and disseminated 
+sulphides  (mainly  pyrite-arsenopyrite  (Au))  typify  the  thermal-aureole  gold  deposits  identified  in 
+Quigleys  and  Batman,  Australia  (Hein,  2003).  The  mineralisation,  i.e.  chlorite-epidote-pyrite-
+arsenopyrite is located in the lower temperature field of the thermal aureole. The mineralisation in the 
+OGGB is tentatively interpreted as orogenic under the subdivision of thermal-aureole gold.  
+42
+
+--- Page 49 ---
+Essakane 
+Plutons 
+Falagountou 
+Sokadie 
+30 km 
+Dori Batholith 
+Figure 6.1: Aeromagnetic photograph of the study area indicating the locations of the plutons in the area 
+(Photograph courtesy of A. Tshibubudze) 
+43
+
+--- Page 50 ---
+Chapter 7: Conclusion 
+The  rock  sequences  in  the  Oudalan-Gorouol  greenstone  belt  underwent  regional  metamorphism 
+characterised by greenschist facies mineral assemblages, with the development of hornblende-hornfels 
+assemblages  during  contact  metamorphism.  The  sequences  were  cross-cut  by  quartz  and  quartz-
+carbonate  dominant  veins. The  events leading  up  to  the  formation  of the ore  can  be  summarised as 
+follows: 
+1.  The  deposition  of  lithologies  on  the  greenstone  belt,  which  include  interbedded  shale-
+siltstone-sandstone and volcaniclastic sedimentary sequences.  
+2.  The  regional  metamorphic  event  led  metamorphism  and  deformation  of  the  sequences, 
+characterised  by  the  development  of  greenschist  facies  mineral  assemblages  and  NW-NNW 
+trending structures (D1) and NE-NNE trending structures (D2). 
+3.  The intrusion of granitoids during the Eburnean orogeny contact metamorphosed supracrustal 
+rocks to hornblende-hornfels facies during the prograde path of metamorphism. 
+4.  Heat  released  from  cooling  of  granitoids  remobilised  the  fluids  in  the  sediments  and 
+introduced retrograde mineral assemblages. 
+5.  Alteration  of  the  sequences  occurred  concurrent  to  metamorphism  resulting  in  the 
+development  of  quartz,  quartz-chlorite  and  quartz-carbonate  veins.  The  precipitation  of 
+sulphides  and  gold  followed  during  this  process.  Chloritisation  with  sulphidation  is 
+interpreted as the Au forming phase. 
+The  interpretation  of  the  data  indicates  that  the  deposits  of  Falagountou,  Essakane  and  Sokadie 
+formed during the Eburnean orogeny subsequent to the intrusion and cooling of granitoid plutons. The 
+mineralisation  occurred  during  post  peak  metamorphism  and  is  defined  by  chloritisation  of  the 
+sequences.  The  mineralogy  indicates  that  the  deposits  are  situated  proximal  (middle-aureole)  to  the 
+granitoids.  The  mineralisation  is  hosted  in  quartz-carbonate-chlorite  stockwork  veins.  Based  on  the 
+previous discussion (Chapter 6) the deposits are tentatively classified as orogenic gold deposits under 
+the subdivision of thermal-aureole gold deposits. 
+44

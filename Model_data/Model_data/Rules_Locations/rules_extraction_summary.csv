@@ -1,0 +1,15 @@
+filename,spacy_locations,geotext_locations,regex_locations,total_deduped
+2013_Peters.txt,87,47,25,125
+2015_Masurel_phd.txt,263,82,90,319
+2013_FUNYUFUNYU.txt,165,71,37,200
+2014_MSc_YOSSI.txt,83,29,62,109
+2015_LeBrun_Siguiri.txt,187,69,110,255
+2008_MATABANE_FE3.txt,51,24,22,62
+2011_Peters_East Markoye_2011.txt,83,29,35,98
+2010_Matsheka_Irvin Final Thesis.txt,23,18,17,41
+2013_Ramabulana_Sadiola Hill petrology.txt,36,13,13,46
+2007_Tshibubudze_THE MARKOYE FAULT_2007.txt,31,15,24,42
+2009_Bontle Nkuna_0605886P_Honours Report.txt,14,20,21,37
+2010_Mohale_GIS interpretation of NE Burkina Faso.txt,31,15,26,51
+2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt,12,15,11,24
+"2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt",24,8,9,29

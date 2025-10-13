@@ -1,0 +1,1169 @@
+
+--- Page 2 ---
+Abstract 
+The  Kel  Enguef  metamorphic  belt  is  host  to  metamorphosed  clastic  and  chemical 
+sedimentary  rocks  that  are  intruded  by  gabbro  dykes  and  a  diorite  pluton.  The 
+metamorphosed  clastic  and  sedimentary  rocks  were  deposited  in  a  deltaic  setting  into  a 
+shallow  marine  environment.  The  sequences  comprise  fine-  to  coarse-grained  sedimentary 
+rocks  that  exhibit  an  overall  upward  coarsening  stratigraphy.  The  metamorphism  and 
+deformation of the sequences is interpreted to have occurred mainly as a result of burial. Both 
+greenschist and amphibolite grade metamorphism have been recognised. Gradation between 
+these two facies is not observed.  An anomalous occurrence of localised migmatite, which has 
+attained granulite facies, lies between the greenschist and amphibolite and adds complexity to 
+the  metamorphic  belt.  The  tectonic  history  of  the  region  leads  to  further  complexity  of  the 
+KEMB. Folding and tectonic uplift are linked to regional deformation and the emplacement 
+of local plutons. Indications of mineralisation occur in the form of an iron stone, ferruginous 
+quartzite and a quartz-tourmaline vein. These raise interest for further research into possible 
+large deposits of such kinds. 
+1
+
+--- Page 4 ---
+1.  Introduction 
+1.1 Preamble 
+The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom 
+Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is 
+situated  in  the  east  of  the  field  area.  During  field  reconnaissance  in  2010,  the  KEMB  was 
+found by the Wits research team where it presented an anomaly on the regional topographical 
+and geological maps. The KEMB has not been researched in detail, thus how it fits in with 
+the  surrounding  area  is  unknown.  The  general  region  of  the  KEMB  has  been  mapped  by 
+Castaing et al. (2003) and the area has been shown to comprise basalt, rhyolite and tuffaceous 
+material  with  evidence  of  possible  gold  mineralisation.  Apart  from  Castaing  et  al.  (2003) 
+nothing  further  has  been  described  for  the  area  indicating  the  importance  of  this  study. 
+Studies  in  the  surrounding  area  of  the  Oudalan-Gorouol  Greenstone  Belt  (just  east  of  the 
+KEMB) by Nikiema et al. (1993), Pons et al. (1995), Debat et al. (2003), Tshibubudze et al. 
+(2009)  and  Tshibubudze  and  Hein  (submitted)  give  an  understanding  of  the  stratigraphic 
+sequences and metamorphism in the area. This has given some indication of what might be 
+present in the Kel Enguef metamorphic belt. 
+The project has involved the geological mapping of the field area with follow up petrographic 
+and mineralogical work to elucidate the stratigraphy and metamorphic facies of the  KEMB. 
+An  attempt  has  been  made  to  reconstruct  the  environment  of  deposition  and  the  tectonic 
+setting. The study will also investigate if there is any economic mineralization and if so what 
+type.  The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately 
+20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation 
+may occur in the field area. 
+1.2 Location and physiography 
+The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast 
+of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b).  
+3
+
+--- Page 5 ---
+STUDY AREA 
+a. 
+Road to Markoye 
+N 
+Kel Enguef 
+Kel Enguef metamorphic belt 
+1 km 
+b. 
+Road to Dori 
+Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears 
+indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated 
+on the image is the location of Kel Enguef and the main roads in the area. (Google Earth) 
+4
+
+--- Page 6 ---
+The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that 
+expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field 
+area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N; 
+0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in 
+the Sahel, just south of the Sahara Desert.  Climatic conditions are arid, that is very hot and 
+dry.  Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although 
+daily  temperatures  exceeded  30  ⁰C.  Wind  speeds  are  typically  high  which  provided  some 
+relief from the heat. These winds, however, can cause a lot of dust to rise. At this time of the 
+year, the dust forms what is called the pre-Harmattan. 
+The land between the ridges  and on  either side  is  relatively flat  with river channels  cutting 
+into  the  land.  The  river  channels  are  narrow  and  dissect  the  land  surface  to  a  metre  depth 
+making traveling by vehicle difficult. At this time of the year water is becoming increasingly 
+scarce  and  all  rivers  in  the  region  are  now  dry.  River  channels  trend  east  towards  a  major 
+river that is located on the eastern limits of the field area. The majority of the land between 
+the ridges is covered by millet fields where the underlying rock is covered by a layer of sand. 
+Huts  are  scatted  across  the  farm  land  with  the  village  of  Kel  Enguef  situated  to  the  east 
+between  the  two  ridges  of  the  field  area  (Fig.  1.1b).  Dirt  roads  are  present  connecting  the 
+village of Kel Enguef to the main road off to the west of the field area. Access into the field 
+was either from this main road or from the north off a main road that connects Gorom Gorom 
+to the village of Markoye (Fig. 1.1b). 
+1.3 Aims 
+The KEMB had not previously been mapped in detail and no previous research has been done 
+on the area. This project attempted to gain a better understanding of the geology of the area 
+with  a  focus  on  the  stratigraphy  and  metamorphism.  The  environment  of  deposition  of  the 
+rocks  was  determined.  The  pressure  and  temperature  conditions  were  established  to 
+determine  the  metamorphic  grade  and  the  overall  metamorphic  history  of  the  KEMB.  An 
+economic aspect in this project was to study mineralisation present in the KEMB if any.  
+5
+
+--- Page 7 ---
+1.4 Acronyms 
+KEMB- 
+Kel Enguef metamorphic belt 
+UTM-   
+Universal Transverse Mercator 
+TTG-   
+Tonalite-trondjhemite-granodiorite 
+6
+
+--- Page 8 ---
+2.  Geology setting 
+2.1 Regional geology and tectonics 
+The West African Craton is composed of Palaeoproterozoic rocks of the Birimian Supergroup 
+(Feybesse et  al.,  2006; Hein,  2010) and Tarkwa Group (Davis  et  al.,  1994)  as  well as  calc-
+alkaline plutons which include tonalite-trondjhemite-granodiorite and diorite intrusions which 
+intrude the Palaeoproterozoic stratigraphy (Pons et al., 1995; Naba et al., 2004 Hein, 2010). 
+The Birimian Supergroup is dominated by metamorphosed sedimentary, volcano-sedimentary 
+and  volcanic  sequences.  The  meta-volcanic  sequences  in  the  Goren  greenstone  belt  and 
+Boromo greenstone belt are at dated at 2238 ± 5 Ma and 2171 ± 7 Ma respectively (Castaing 
+et  al.,  2003)  based  on  Pb-Pb  zircon  dating  from  rhyolites  within  the  belts.  The 
+metasedimentary  rocks  of  the  Birimian  Supergroup  comprise  mainly  metamorphosed 
+volcaniclastics,  greywacke,  siltstone,  shale,  chemical  sediments  and  chert.  The  younger 
+Tarkwa  Group,  dated  at  2194–2132  Ma  from  U-Pb  detrital  zircons  (Davis  et  al.,  1994), 
+comprises  clastic  sedimentary  rocks  derived  from  erosion  of  the  Birimian  Supergroup  of 
+which it overlies unconformably (Hirdes et al., 1992 and Davis et al., 1994). 
+The craton has been subjected to several tectonic events corresponding to the deformation of 
+Birimian  Supergroup.  This  includes  the  SW  directed  shortening  of  the  Tangaean  Event 
+(2170-2130  Ma),  SE-NW  shortening  of  the  Eburnean  Orogeny  (2130-1980  Ma)  and  the 
+young Wabo-Tampelse Event. The Tangaean Event and Eburnean Orogeny were associated 
+with emplacement of TTG-suite plutons and dykes (Feybesse et al., 2006; Tshibubudze et al., 
+2009; Hein 2010). The tectonic events resulted in the formation of greenstone belts separated 
+by  the  granitoids  (Hirdes  and  Davis,  2002).  The  Eburnean  Orogeny  resulted  in  regional 
+metamorphism of the Birimian Supergroup to greenschist facies and contact metamorphism 
+from pluton emplacement to low - medium amphibolite facies (Pons et al., 1995; Debat et al., 
+2003).  
+2.2 Local geology 
+The  Markoye  Shear  Zone  lies  to  the  east  of  the  KEMB.  The  Oudalan-Gorouol  Greenstone 
+Belt  is  situated  just  east  of  the  shear  zone  (Pons  et  al.,  1995;  Tshibubudze  et  al.,  2009; 
+Tshibubudze  and  Hein,  submitted).  This  comprises  metamorphosed  and  deformed 
+7
+
+--- Page 9 ---
+volcaniclastic,  volcanics  and  sedimentary  rocks.  The  sedimentary  units  are  composed  of 
+metamorphosed  conglomerate,  quartzite,  greywacke,  siltstone,  shale  and  chemical 
+sedimentary rocks (Nikiéma, 1992; Pons et al., 1995; Tshibubudze et al., 2009; Tshibubudze 
+and Hein, submitted).  Volcaniclastic sequences comprise greywacke composed of medium-
+grained quarts and feldspar-rich sand. Intercalated with greywacke units are  fuchsite layers, 
+thin chert beds,  shale, siltstone and rare pebble beds (Pons  et  al., 1995;  Tshibubudze et  al., 
+2009).  A  calk-alkaline  series  comprising  ultramafics,  gabbro,  basalt,  andesite  and  rhyolite 
+associated with the volcaniclastic and sedimentary rocks are present (Pons et al., 1995) 
+Two  phases  of  regional  metamorphism  are  present  in  these  rocks  and  characterised  by  two 
+mineral  assemblages  (Pons  et  al.,  1995).  These  are  low-grade  assemblages  of  prehinite, 
+chlorite,  actinolite  and  quartz  as  well  as  low-grade  assemblages  associated  with  regional 
+schistosity.  Specifically  the  Oudalan-Gorouol  Greenstone  Belt  has  undergone  greenschist-
+facies  metamorphism  (Tshibubudze  et  al.,  2009).  Regional  metamorphism  to  greenschist 
+facies is associated to north-south crustal shortening during the Eburnean Orogeny (Vidal et 
+al., 1996, Beziat et al., 2000, Hein et al., 2004 and Naba et al., 2004). Contact metamorphism 
+of  these  rocks  occurred  due  to  the  emplacement  of  granitoids  which  include  granite-
+adamellite,  granite  and  granodiorite  compositions  (Pons  et  al.,  1995;  Debat  et  al.,  2003; 
+Tshibubudze et al., 2009). Metamorphism of the surrounding units to the granitoids occurred 
+to  amphibolite-facies  (Pons  et  al.,  1995;  Tshibubudze  et  al.,  2009;  Tshibubudze  and  Hein, 
+submitted)  and  granulite  facies  (Tshibubudze  and  Hein,  submitted)..  Through  hornblende 
+barometric estimates, shallow crust (3-4 kbar) emplacement of plutons has been established 
+(Pons et al., 1992). 
+Gold and manganese mineralisation as well as pegamatite veins are present in the Oudalan-
+Gorouol  greenstone  belt  (Milési  et  al.,  1992;  Nikiéma,  1992;  Beauvais  et  al.,  2008 
+Tshibubudze, et al., 2009; Tshibubudze and Hein, submitted). Gold mineralisation, found at 
+many locations, is hosted in shear zones as structural hosted lode-gold associated with NW-
+SE structures (Nikiéma, 1992; Tshibubudze et al., 2009; Tshibubudze and Hein, submitted). 
+Manganese  mineralisation  is  situated  NE  and  SW  of  the  KEMB  at  Tambăo  and  Billiata 
+(Tshibubudze and Hein, submitted) and pegamatite veins are situated NE at Tambăo. 
+8
+
+--- Page 10 ---
+3.   Methodology 
+In order to  gain  an understanding of the field  area, a mosaic was constructed using Google 
+Earth® images of the Kel Enguef metamorphic belt before entering the field. This was used 
+to  locate  the  field  area  with  respect  to  the  surrounding  topography  which  included  the 
+location and orientation of rivers and ridges, as well as roads and villages. These were used 
+for orientation in the field.  
+Reconnaissance of the terrain and geology was carried out  in the field area before mapping 
+commenced. This assisted in planning field mapping and the location of suitable drop-off and 
+pick-up points and access within the field area. Mapping was carried out over a period of 13 
+field  days  during  January  2011.  Field  mapping  was  undertaken  by  3  relatively  straight 
+northwest-southeast traverses directly across the field area, one on either side of the field area 
+and one through the middle (Fig. 3.1). Multiple short traverses were carried out across each 
+ridge running perpendicular to strike. Furthermore, loosely defined traverses were carried out 
+in the central region and south of the southern ridge to locate outcrop which was scarce. Data 
+was  recorded  in  field  books  and  notes  were  supported  by  photographs  of  selected  outcrops 
+along  traverse  lines.  The  location,  rock  type,  attitude,  mineralogy,  structural  data  and 
+metamorphism  were  recorded.  Rock  samples  were  taken  at  particular  station  points  during 
+mapping. Logging and back up of all data was done after each day in the field.  
+The  Google  Earth  mosaic  was  geo-referenced  using  MapInfo.  Station  points  that  were 
+situated at positions easily identified on the image were used as reference points in the geo-
+referencing  process.  Once  the  image  was  referenced  using  five  such  points,  the  remaining 
+station  points  were  overlaid  onto  the  image  (Fig.  3.1).  This  created  an  image  overlaid  with 
+station  points  corresponding  to  their  actual  position.  By  overlaying  tracing  paper  onto  the 
+image,  geographical  and  geological  features  were  recorded  to  produce  a  geographical  and 
+surface cover map (Fig. 3.2) as well as a geological map (Fig. 3.3). These traces were then 
+digitized using CorelDraw®.  
+Samples  were  strategically  selected  for  thin  sections  and  polished  ore  blocks.  An  initial  15 
+samples were submitted to the Wits Geosciences Laboratory to be processed (14 thin sections 
+and 1 polished ore block) in early March 2011. A further 25 samples were submitted to SGS 
+for  thin  sections  and  XRD  (samples  with  economic  interest).  Another  3  samples  were 
+9
+
+--- Page 11 ---
+submitted  to  Wits  Geosciences  Laboratory  for  ore  blocks  in  June  2011.  Thin  sections 
+petrography analysed for mineral assemblages, grain size and textural features. Minerals were 
+identified using their optical properties with the assistance of mineral identification books and 
+knowledgeable  staff  members.  Associations  between  minerals  were  also  a  focus.  The 
+petrographic  data  combined  with  field  data  was  used  to  determine  protoliths  and 
+metamorphic  facies.  Ore  blocks  were  analysed  for  minerals  present  with  the  help  of  XRD 
+data. Mineral associations were a focus in determining petrogenesis. Pictures were taken of 
+the thin sections and ore blocks to indicate mineral assemblages and textural features present 
+in the samples. 
+10
+
+--- Page 12 ---
+N 
+1 km 
+Figure 3.1: Google Earth mosaic of the KEMB with station point distribution and NW-SE traverses (blue lines) 
+indicated over the field area. The ridges, central and southern region were mapped by loosely defined 
+traverses. 
+11
+
+--- Page 13 ---
+Kel Enguef 
+Figure 2.2: Geography and surface cover map of the KEMB. 
+12
+
+--- Page 14 ---
+Figure 3.3: Geological interpretation map of the KEMB 
+13
+
+--- Page 15 ---
+4.  Field description 
+The  field  area  is  a  metamorphic  terrane  that  ranges  from  greenschist  facies  to  amphibolite 
+facies,  with  metamorphic  grade  increasing  from  the  north  to  the  south.  The  two  east-west 
+trending ridges are host to greenschist facies rocks which are separated by relatively flat open 
+millet fields with limited outcrop. The outcrop in this region indicates the presence of cross-
+cutting  gabbro  dykes,  a  dioritic  pluton  and  possibly  underlying  greenschist  facies, 
+metamorphosed  sedimentary  rocks.  Rocks  of  amphibolite  facies  are  situated  along  the 
+southern  margin  of  the  field  area  where  the  outcrop  trends  east  west.  Between  the 
+amphibolite  zone  and  the  southern  ridge,  outcrop  is  scarce  however  a  localised  pod  of 
+migmatite-gneiss occurs herein.  
+Mapping in the  central  and southern  region  was  limited by the lack of outcrop. The region 
+between the two ridges is approximately 3 km wide and comprises sandy farming land in the 
+centre, as well as river beds which drain towards the east. Rock is present as sparse float. The 
+regions between the farm land and ridges are covered by loose sand and float. Float is derived 
+from the ridges. Buck quartz veins crop out near the margin of the two ridges; the veins are 
+dark grey in colour. They have a lateral extent in an east-west direction. A characteristic of 
+the veins is a dense network of fractures marked by black glass.  
+The northern part of the field area is host to an extensive fluvial system which was dry at the 
+time  of  field  work.  The  associated  alluvial  sediment  covers  the  underlying  rock  apart  from 
+the western edge of the field area where small, low lying outcrops are visible. A large buck 
+quartz vein is located 100 m north of the northern ridge.  
+4.1 Metamorphic stratigraphy 
+The southernmost region of the field area comprises amphibolite which crops out poorly. The 
+amphibolite is dark green in colour and hosts a strong fabric that is pervasive. The sequence 
+is  medium-  to  fine-grained  and  dominated  by  hornblende  and  quartz.  Course-grained 
+hornblende-bearing quartzite occurs within the amphibolite (Fig. 4.1d), especially to the east 
+of the sequence. The fabric is derived from compositional layering (Fig. 4.1a). Quartz layers 
+are dominated by quartz with small amounts of hornblende, and plagioclase is absent. These 
+layers are generally thinner than the hornblende layers. Hornblende layers are dominated by 
+fine-grained  hornblende  and  quartz  with  minor  plagioclase.  Fine  compositional  layering  is 
+found in the east where the unit is folded and contains small-scale shears (Fig. 4.1b & 4.1c). 
+14
+
+--- Page 16 ---
+Coarse-grained quartz-plagioclase veins cut the amphibolite and are also present along some 
+shear zones.  These veins are only seen in  this part of the unit and  are a few millimetres in 
+width. Deformation is variable throughout the unit. Isoclinal folding (Fig. 4.1e), shearing and 
+augen gneiss is common in the eastern part of the unit. Small scale isoclinal folds are present 
+where  limbs  of  the  folds  are  close  and  within  a  fold  width  of  10  to  20  cm.  Some  isoclinal 
+folds are truncated by small-scale planar shears. Slip was determined to be sinistral reverse. 
+Augen  gneiss  are  present  with  augen  tails  extend  many  centimetres  away  from  each  augen 
+parallel to compositional banding (Fig. 4.1d). The augen are up to 2 cm thick and 5 cm long. 
+Some augen exhibit a weak anticlockwise rotation.  
+These deformation features are confined to the east of the sequence where a large scale fold is 
+located.  Although  the  sequence  cannot  we  traced  continuously,  the  variable  strike  would 
+suggest a large fold. Tracing the amphibolite outcrop from east to west, the fabric orientation 
+is  as  follows:  019⁰/70⁰W,  052⁰/64⁰E,  051⁰/78⁰W,  178⁰/63⁰E,  008⁰/75⁰E  which  sharply 
+changes to 066⁰/79⁰S.  
+To the west, the amphibolite has a relatively constant trend of about 075⁰ dipping to the north 
+at  approximately  72⁰.  Deformation  of  the  unit  is  less  evident  in  the  west.  Here  spotted 
+amphibolite  is  present  (Fig.  4.1f).  Coarse-grained  plagioclase  crystals  form  positive 
+weathering features that stand proud of the rock. The plagioclase crystals are about 4 mm in 
+diameter  and  stand  out  approximately  2  mm  from  the  surface.  These  give  the  spotted 
+amphibolite its appearance. 
+15
+
+--- Page 17 ---
+a. 
+b. 
+c. 
+N 
+e. 
+d. 
+f. 
+Figure 4.1: Amphibolite outcrop. a) fine composition-banding located in the eastern part of the units. b & 
+c) small scale shear truncating isoclinal fold. d) small scale isoclinal fold in hornblende-baring quartzite. e) 
+quartz augen with sinistral rotation. f) spotted amphibolite with compositional-banding.   
+16
+
+--- Page 18 ---
+a. 
+Two layers of metamorphosed banded iron formation crop out on the eastern side of the field 
+area just north of the amphibolite. The contact between the two units is not visible. Outcrop 
+to subcrop can be traced for approximately 300 m. The banded iron formation comprises fine 
+laminations  (not  more  than  1  cm  thick)  of  light  grey  chert  and  dark  brown,  fine-grained, 
+ironstone (Fig. 4.2a). An irregular surface exists between the chert and iron-rich layers. Soft-
+sediment  deformation  features  are  evident  by  the  presence  of  isoclinal  slump  folds  (Fig. 
+4.2a).  A  common  feature  of  the  banded  ironstone  is  cross-cutting  thin,  siliceous  veins.  The 
+combination  of  the  siliceous  layers  and  veins  create  a  cross-hatched  pattern  on  weathering 
+surfaces especially where veins are concentrated (Fig. 4.2b). The banded ironstone formation 
+is  folded.  It  changes  in  strike  from  066⁰  to  137⁰  and  168⁰  before  abruptly  turning  to  069⁰ 
+(Fig. 3.3). The banded ironstone formation dips towards the north between 30 and 45⁰. In the 
+west of the region, banded ironstone float was observed over a distance of about 100 m. The 
+float  is  scattered  with  no  in-situ  outcrop  visible  thus  questioning  whether  the  formation  is 
+present here.  
+a. 
+b. 
+Figure 4.2: Banded ironstone. a) fine laminated banding with soft sediment  slump folding. b) dense 
+quartz veins exhibiting a cross-hatch weathering pattern. 
+17
+
+--- Page 19 ---
+The  southern  ridge  is  approximately  2.5  km  in  length  trending  east-west  (in  the  west)  and 
+northeast-southwest (in the east). The eastern limb of the ridge has a mean calculated strike 
+and  dip  of  066⁰/37⁰N  (Fig.  4.3a).  The  western  limb  has  mean  calculated  strike  and  dip  of 
+270⁰/42⁰N  (Fig.  4.3b)  with  orientation  data  fitting  tightly  together.  The  southern  ridge 
+comprises  four  quartz-rich  units  (Units  A  –  D)  of  similar  mineralogy  that  can  be 
+distinguished by varying grain  size (and slight compositional variation). The  southern units 
+comprise isoclinal folds with hinges parallel to the bedding plane.  
+Unit A is a medium-grained quartzite that hosts fine-grained muscovite and iron oxides. Iron 
+rich zones are not constrained to single beds. Hornblende occurs in lesser amounts in this unit 
+and is seen as black specks in the rock. Unit A is discontinuous along the southern margin of 
+the southern ridge. A small ridge that is located just south of the main ridge exposes the best 
+outcrop  of  this  unit.  The  unit  is  absent  to  the  west  of  this  ridge  whereas  to  the  east  it  is 
+discontinuous.  The  quartzite  strikes  approximately  080⁰  and  dip  towards  the  north  at  about 
+45⁰. The grain size decreases northward towards Unit B.  
+Unit B consists of interbedded fine- and medium- grained, iron-rich quartzite that is dark red-
+brown  in  colour.  The  unit  is  approximately  10  m  thick.  Bedding  features  are  not  visible 
+within the unit and compositional layering is not well presented.  
+Unit C is situated along the southern slope of the southern ridge and comprises a medium- to 
+coarse-grained quartzite with muscovite, iron oxides and epidote. Unit C is gradational with 
+Unit  B  and  D.  Within  Unit  C,  there  are  zones  with  varying  iron  content.  Compositional 
+layering  is  prominent  in  this  unit.  Quartz  grains  are  strained  and  elongated  parallel  to  the 
+direction  of  compositional  layers.  A  fabric,  parallel  to  compositional  layers  is  pervasive 
+throughout the unit (Fig. 4.5a & 4.5b). This unit it continuous along the southern slope of the 
+ridge and coarsens towards the top of the ridge and Unit D.  
+The top of the ridge and the northern slope consist of coarse-grained quartzite with medium- 
+to fine-grained muscovite, epidote, quartz and interstitial iron oxide (Unit D). Quartz grains 
+are angular and elongated parallel to strike of compositional layers which are well defined in 
+Unit  D.  Layers  range  from  a  few  centimetres  up  to  tens  of  centimetres.  Quartz  grains  are 
+course  from  5 to  10 mm.  Iron content  varies throughout  the unit. Some  layers exhibit  tight 
+folds and undulations. This unit strikes approximately 090⁰ and dips at 40⁰ northward on the 
+18
+
+--- Page 20 ---
+western limb of the ridge. On the eastern limb of the ridge, the unit strikes at approximately 
+065⁰ and dips 35⁰ northward. The eastern limb is disjointed   
+A fine-grained, ferruginous-quartzite is located approximately 100 m away from the eastern 
+end of the southern ridge. Outcrop is confined to a 20 m stretch with a width of 3 m. The unit 
+is highly magnetic, massive and coarse-grained with dark red quartz veins crosscut the unit.  
+19
+
+--- Page 21 ---
+066⁰ 
+090⁰ 
+a. 
+b. 
+Figure 4.3: Equal area stereographic projection of poles to (a) the eastern limb of the 
+southern ridge with a mean calculated strike and dip of 066⁰/37⁰N and (b) the western 
+limb of the southern ridge with a mean calculated strike and dip of 090⁰/42⁰N. 
+20
+
+--- Page 22 ---
+084⁰ 
+068⁰ 
+a. 
+b. 
+Figure 4.4: Equal area stereographic projection of (a) poles to the northern ridge with a 
+mean calculated strike and dip of 084⁰/58⁰N and (b) the orientations of dominant 
+lineations in the northern ridge with a mean calculated principle direction of 068⁰/26⁰. 
+21
+
+--- Page 23 ---
+The  northern  ridge  consists  of  three  meta-sedimentary  units  that  are  metamorphosed  to 
+greenschist facies. As with  the southern ridge, the rocks here are dominated by  quartz with 
+muscovite, epidote and iron oxides. The central and western region of the northern ridge host 
+three  well  defined  units  which  form  ridges  separated  by  valleys.  Here  the  units  trends 
+approximately  east-west and dip at 58⁰N (Fig. 4.4a; 4.5f & 4.5g). In the eastern region, the 
+units  are  poorly  defined  and  the  ridges  are  broken  up  to  form  low  hillocks  where  the  units 
+trend 085⁰ and dip 60⁰ N. A dominant lineation is common in the outcrop with a dip and dip 
+direction of 26⁰ towards 068⁰ (Fig. 4.4b). 
+Unit  X  (southern  side  of  the  northern  ridge),  comprises  a  medium-  to  coarse-grained 
+quartzite.  Unit  X  is  approximately  50  to  100  m  thick.  Compositional  variations  are  evident 
+throughout.  It  is  common to  have iron rich horizons, which are a dark red brown in colour 
+and  vary  in  thickness  from  10  to  20  cm  up  to  a  few  metres.  Compositional  layering  is 
+typically planar to undulate with a pervasive fabric parallel to layering (Fig. 4.5e). This unit is 
+continuous in the central and western regions of the main ridge, but is crosscut by a series of 
+north-westerly trending faults. Towards the eastern end of the ridge the faults off-set Unit W 
+up to 40 m.  
+Unit  Y  (centre  of  the  northern  ridge)  is  dominated  by  course-grained  quartzite  with  rare 
+muscovite and iron oxides. Quartz pebbles range up to a few centimetres in size. The quartz 
+grains are elongated and form a strong fabric in the unit. Quartz veins are present which are 
+parallel to the fabric. These can range in size from a few centimetres in width and length up 
+to several metres, showing little to no foliation through them.  
+Unit  Z,  located  on  the  northern  side  of  the  northern  ridge,  comprised  interbedded  fine-  to 
+coarse-grained metapelite to quartzite. Where grain size is coarse, compositional layering is 
+thick (up to 40 cm) with quartz pebbles up to 2 cm in size with varying amounts of muscovite 
+and epidote.  The iron content varies throughout the unit (Fig. 4.5c). Metaclastics exhibit thin 
+bedding  (on  a  centimetre  scale)  with  quartz  grains  up  to  2  mm  in  size  and  accessory 
+muscovite and epidote. A high concentration of iron oxide is present in layers. Quartzite beds 
+are typically thicker with pebbles up to 10 mm in size. Muscovite is more abundant in these 
+beds. The unit exhibits strained grains that are elongated parallel to bedding and gives rise to 
+grain  lineation.  Quartz  veins  are  a  common  feature  and  are  occur  parallel  to  bedding  with 
+crystal growth perpendicular to bedding.  
+22
+
+--- Page 24 ---
+a. 
+c. 
+e. 
+f. 
+b. 
+d.
+. 
+g. 
+Figure 4.5: Greenschist facies rocks. a & b) bedding with subparallel to parallel foliation. c) iron-rich 
+(dark) and iron-poor (light) layering in fine-grained metaclastic. d) highly foliated and deformed 
+beds of the southern ridge. e) strong foliation in medium-grained beds. f & g)moderately northerly 
+dipping beds of the northern ridge. 
+23
+
+--- Page 25 ---
+a. 
+c. 
+b. 
+d. 
+Figure 4.6: Migmatite-gneiss outcrop exhibiting ( a & b) fine compositional bands with flow 
+textures, (c) thick compositional bands of leucosomes and melanosomes and (d) regions of 
+gneissic textures.  
+24
+
+--- Page 26 ---
+A zone of migmatite-gneiss crops out in the south of the field area between amphibolite and 
+greenschist  facies  rocks.  Outcrop  occurs  as  large  boulders  and  in-situ  blocks  which  are 
+scattered  over  an  area  covering  about  600  by  200  m  (Fig.  3.3).  Over  the  full  extent  of  the 
+outcrop  there  is  large  variation  between  zones  of  migmatite  and  gneiss.  The  migmatite 
+contains  compositional  bands  of  dark  and  light  grey  minerals  that  characterise  partial  melt 
+with flow texture. The compositional bands vary from a few millimetres in thickness to many 
+centimetres  (Fig.  4.6a  &  4.6b)  and  less  commonly  up  to  approximately  20  cm  thick  (Fig. 
+4.6c). The light coloured bands consist of medium- to fine-grained quartz, plagioclase, alkali 
+feldspar and accessory muscovite and biotite. Dark grey bands are fine-grained and consist of 
+biotite  and  quartz  with  accessory  plagioclase.  The  gneissic  zones  exhibit  partial  zoning  of 
+light and dark minerals (Fig. 4.6d). The gneiss consists of medium- to course-grained quartz, 
+plagioclase,  alkali  feldspar  and  mica.  Within  in  the  gneiss  there  are  potassium  rich  zones 
+which are observed where the outcrop has  a grey-pink  appearance. Veins  of coarse-grained 
+quartz and plagioclase cross cut the migmatite and gneiss with some exhibiting off set. The 
+veins are orientated north-south. 
+4.2 Ferricrete 
+The flat lying area is covered by ferricrete which is made up of two horizons (Fig. 4.7). The 
+most  prominent  outcrops  occur  around  the  southern  ridge  and  in  the  north  east  of  the  field 
+area. The best exposure occurs where rivers have cut into these outcrops. The upper horizon 
+is  approximately  1  m  thick  and  the  lower  is  about  20  cm  thick.  The  dark  red  ferricrete 
+horizons consist of quartz-iron pisoliths in an iron-cement comprising haematite and goethite. 
+Figure 4.7: Ferricrete horizons in river cutting 
+25
+
+--- Page 27 ---
+4.3 Tertiary sands 
+These lie above the ferricrete horizons and sometimes as perched ridges on the sides of the 
+main ridges. The sands are currently eroding.  
+4.4 Intrusions 
+A diorite pluton crops out poorly on the northern side of the southern ridge in  contact with 
+greenschist facies meta-sedimentary rocks. The diorite is light grey in colour and consists of, 
+quartz, plagioclase and muscovite. The pluton is roughly oval in shape.  
+Gabbro dykes are interpreted to crosscut the central region between the northern and southern 
+ridges. This is based on a linear array of gabbro in subcrop across the region and coincident 
+linear magmatic highs in geophysical maps of the region. Boulders of gabbro are commonly 
+located several  metres  to  hundred metres apart from  one another, but  a 6 m  wide northeast 
+trending  outcrop  of  gabbro  is  situated  on  the  north-western  side  of  the  southern  ridge. 
+Outcrops  of  gabbro  were  observed  near  houses  and  on  tracks.  The  outcrop  consisted  of 
+medium-grained  crystals  of  plagioclase  and  pyroxene.  Distribution  of  minerals 
+is 
+homogeneous.  Quartz veins crosscut the gabbro. Where the quartz veins are thin (between 5 
+and 10 mm) the quartz is isotropic and where the veins are thicker (up to 50 mm) large quartz 
+crystals are present. The width and lateral extent of the dykes is not well defined due to the 
+lack of outcrop. It is determined that at least three dykes cross-cut the central region. 
+4.4 Mineralisation indicators 
+Iron occurrence 
+A  fine-grained,  ferruginous-quartzite  (Fig.  4.8)  is  located  approximately  100  m  away  from 
+the eastern end of the southern ridge. Outcrop is confined to a 20 m stretch with a width of 3 
+m.  The  unit  is  highly  magnetic,  massive  and  coarse-grained  with  dark  red  quartz  veins 
+crosscut the unit.  
+26
+
+--- Page 28 ---
+An iron stone is hosted in the amphibolite, situated in the southern most region of the field 
+area.  It  is  black  in  colour,  extremely  hard  and  strongly  magnetic.  It  is  fine-grained  and 
+crosscut  by  10  cm  thick  quartz  veins  (Fig.  4.9b  &  4.9c).  The  outcrop  is  3  m  in  size  (Fig. 
+4.9a). Iron-rich ferricrete surrounds the outcrop.  
+Quartz-tourmaline vein 
+A  massive  quartz  tourmaline  vein  is  situated  approximately  a  kilometre  northeast  of  the 
+diorite.  This  vein  is  30  m  long  and  sigmoidal  in  form.  Therein  hosts  an  abundance  of 
+tourmaline crystals that are randomly orientated (Fig. 4.10a). The crystals are up to 3 cm in 
+length and 3 mm in width. Tourmaline veins (approximately 20 cm) crosscut the quartz vein 
+with  tourmaline crystals  extending out  from  veins (Fig. 4.10b). The tourmaline veins  strike 
+170⁰ and dip 20⁰ E.  
+Figure 4.8: Fine-grained, ferruginous-quartzite cut by quartz vein (left) 
+27
+
+--- Page 29 ---
+a. 
+b. 
+c. 
+Figure 4.9: (a) Localised iron stone outcrop which (b) comprises dark-red, fine-grained iron-rich minerals (c) 
+cross-cut but quartz veins and cataclastic quartz. 
+a. 
+b. 
+Figure 4.10: Quartz-tourmaline vein with (a) randomly orientated coarse tourmaline crystals and 
+(b) cross-cut by tourmaline veins with crystals radiating out from veins.  
+28
+
+--- Page 30 ---
+5.  Petrography 
+The petrographic study included 16 thin section samples of the Kel Enguef metamorphic belt. 
+These  were  chosen  as  representative  samples  of  the  stratigraphy.  The  focus  of  the 
+petrographic study was on the textural features and mineral assemblages in order to establish 
+the original rock types and the conditions which lead to metamorphism of the metamorphic 
+samples. The study splits the samples into the various facies. Intrusive samples focus on the 
+mineralogy. 
+5.1 Unit descriptions 
+Amphibolite 
+Amphibolite  samples  consist  of  fine-grained  and  equigranular  minerals  up  to  0.3  mm  (Fig. 
+5.1).  The  amphibolite  is  dominated  by  quartz  and  hornblende,  with  plagioclase  in  low 
+concentrations.  Mineral  proportions  of  the  whole  rock  are  approximately  hornblende:  54%; 
+quartz: 40% and plagioclase 6%. The amphibolite is host to a compositional banding texture 
+which is exhibited by the presence of compositional banding. Banding comprises hornblende- 
+and quartz-rich bands. The hornblende rich-bands comprise subhedral crystals of hornblende, 
+0.2  mm  in  size  and  randomly  orientated.  Quartz  inclusions  are  common  in  the  hornblende 
+crystals.  Quartz  is  typically  coarser  grained,  up  to  0.3  mm,  with  an  irregular  sub-rounded 
+shape. Plagioclase occurs as an accessory mineral and is subhedral. Plagioclase crystals have 
+fine bladed muscovite inclusions. Quartz compositional bands, up to  1mm  in  thickness,  are 
+characterised  by  elongated  quartz  crystals  that  are  orientated  parallel  to  the  bands. 
+Hornblende is found in trace amounts and plagioclase is absent. Low strain is exhibited and 
+grain boundary migration is relatively low. 
+Greenschist 
+Greenschist  facies  samples  were  selected  from  each  of  the  greenschist  sequences  from  the 
+north  and  south  ridge.  They  are  dominated  by  quartz  crystals  with  varying  amounts  of 
+muscovite,  iron  oxide,  epidote  and  chlorite.  The  degree  of  strain  is  high  throughout  the 
+sample set.  
+Samples  from  the  southern  ridge  exhibit  a  dominant  fabric  which  is  produced  by  the 
+elongation of crystals, specifically quartz, and the orientation of microcrystalline zones. Two 
+different  zones,  which  are  distinguished  by  grain  sizes,  are  identified  in  the  samples.  One 
+29
+
+--- Page 31 ---
+zone  consists  of  medium  to  fine-grained  quartz  crystals  with  minor  amounts  muscovite. 
+Quartz  crystals  are  irregular  in  shape  and  exhibit  undulose  extinction  (Fig.  5.2).  Quartz 
+crystals  also  exhibit  intense  grain  boundary  migration  between  one  another.  Crystals  are 
+elongate  parallel  to  the  microcrystalline  zones  (Fig.  5.2).  Fractures,  which  are  occasionally 
+filled  with  red  iron  oxide,  crosscut  the  quartz  crystals  (Fig.  5.2).  Rare  muscovite  is  fine-
+grained. The second zone is composed of microcrystalline quartz (dominant) and muscovite 
+and epidote which vary in size from fine- to medium-grained. The microcrystalline zones are 
+preferentially orientated and range in thickness up to 2 mm. Angular quartz crystals (up to 1 
+mm in size) occur where these zones are thickest. Where thin, a flow texture is present made 
+up  of  very  fine  elongated  crystals  of  quarts  and  minor  muscovite.  Epidote,  an  uncommon 
+mineral, is elongate and  up to 1 mm in length. Red opaque iron oxides are common within 
+the zones and are either blocky and clustered where zones are thicker or elongated and bladed 
+where zones are thin. Another feature of thin microcrystalline zones is crack-seal fill where 
+fine elongated quartz crystals as fill are oriented perpendicular to the crack direction. Samples 
+from Unit C three contain quartz crystals up to 2 mm in size which are also elongated. Within 
+the microcrystalline zones, muscovite occurs as both fine bladed crystals and larger crystals 
+up to 2 mm in size. Some of the muscovite crystals are deformed and follow the orientation 
+of the microcrystalline zone. Muscovite most commonly has formed parallel to sub parallel 
+with the orientation of the microcrystalline zone but does also occur to it. Samples from Unit 
+D  have  quartz  crystals  up  to  5mm  in  size  and  are  irregular  in  shape  with  grain  boundary 
+migration present.  
+The sample set from the northern ridge comprises fine-grained crystals of quartz, muscovite, 
+epidote  and  red  iron  oxides  and  has  evidence  of  high  strain.  There  is  a  preferential  fabric 
+direction  which  is  exhibited  by  elongated  quartz  crystals  and  microcrystalline  zones  (Fig. 
+5.2).  The  quartz  crystals  are  approximately  1  mm  in  size  with  the  presence  of  zones  of 
+coarser and finer crystals. Quartz crystals contain fine fractures where some of these fractures 
+contain iron oxides in  small  amounts. Grain  boundary migration and undulose extinction is 
+common with quartz crystals. Microcrystalline zones are a prominent feature in the samples. 
+The  zones  vary  in  size  from  less  than  a  millimetre  up  to  2  mm  and  align  parallel  to  the 
+elongation  in  quartz  crystals.  They  comprise  very  fine-grained  quartz,  fine  needles  of 
+muscovite  and  epidote.  The  texture  within  the  zones  varies  from  needle  like  to  blocky. 
+Epidote occurs in low concentrations with an irregular shape and is fine-grained. The opaque 
+30
+
+--- Page 32 ---
+mineral is typically euhedral to subhedral and is blocky to elongate. Where it occurs in higher 
+concentration it is commonly blocky and forms clumps of rounded minerals. 
+Migmatite-gneiss 
+Granulite samples consist of medium- to fine-grained crystals which do not exhibit any strain. 
+The mineralogy consists of quartz, plagioclase and biotite, which are the dominant minerals, 
+and  hornblende,  monazite,  sphene  and  magnetite,  make  up  approximately  5  %  of  the  rock. 
+Compositional  bands  are  well  defined  by  the  presence  or  absence  of  biotite  (Fig.  5.3).  The 
+biotite-rich  bands  are  fine-grained  and  biotite  is  preferentially  aligned  to  the  banding 
+direction.  Quartz  and  plagioclase  are  irregular  with  the  occurrence  of  grain  boundary 
+migration.  Quartz-rich  bands  are  medium-grained  with  crystals  up  to  2  mm  in  diameter. 
+Interstitial  magnetite,  associated  with  monazite  and  sphene,  is  common  in  these  bands  and 
+also occurs as inclusions. Quartz is irregular in shape, fractured, and hosts small plagioclase 
+inclusions. Plagioclase is 1 mm or smaller in  size and is  subhedral.  Sericite replacement of 
+plagioclase is common with the presence of fine-grained muscovite on grain boundaries and 
+as inclusions. Biotite is present as an accessory mineral in these zones. Irregular to subhedral 
+grains of monazite and sphene are evenly distributed throughout the rock.  
+Gabbro 
+Samples  are  made  up  of  medium-  to  fine-grained  crystals  of  plagioclase,  actinolite  with 
+accessory  muscovite,  sericite  and  chlorite  in  varying  amounts  depending  on  the  sample.  A 
+high degree of alteration is evident due to the textures present. Crystals are undeformed and 
+there is no presence of a well-defined fabric. However minerals are aligned in regions of the 
+thin section. Samples that contain a relatively even distribution of actinolite and plagioclase 
+(Fig. 5.4) consist of actinolite ranging in size from medium- to fine-grained. Medium-grained 
+crystals  are elongated and subhedral whereas fine-grained crystals  are irregular. Quartz and 
+plagioclase inclusions are typical in actinolite. Plagioclase crystals are irregular in shape and 
+range  from  medium-  to  fine-grained.  Levels  of  alteration  vary  throughout  the  sample. 
+Relatively unaltered plagioclase crystals are present with minor sericite. Altered plagioclase 
+crystals  are  almost  completely  recrystallised  in  the  form  of  sericite,  muscovite  and  fine 
+grained  cloudy  minerals.  Remnant  twinning  is  present  in  these  altered  plagioclase  crystals. 
+The  abundance  of  actinolite  and  plagioclase  vary  in  samples.  Actinolite  may  also  be 
+dominant  (85  %)  with  an  absence  of  plagioclase.  These  samples  comprise  coarse-grained 
+31
+
+--- Page 33 ---
+actinolite which is aligned in parts of the sample. Chlorite is present (8 %) in this sample with 
+accessory muscovite, sericite and quartz.  
+200 μm 
+200 μm 
+Figure 5.1: Amphibolite with randomly orientated, subhedral hornblende and quartz crystals  
+Ms 
+500 μm 
+XPL 
+Ms 
+500 μm 
+Qtz 
+Qtz 
+500 μm 
+XPL  
+500 μm 
+PPL  
+PPL  
+Figure 5.2: Greenschist facies rocks with medium-grained, elongated quartz crystals which are 
+fractured and microcrystalline zones of quartz (Qtz), epidote and muscovite forming the foliation 
+with larger muscovite (Ms) crystals within.  
+32
+
+--- Page 34 ---
+Melanosome 
+Leucosome 
+Melanosome 
+Leucosome 
+Mn 
+Mn 
+PPL  
+500 μm 
+XPL 
+500 μm 
+Figure 5.3: Migmatite with melanosome (biotite-rich) and leucosome (quartz-plagioclase-rich) zones  
+and monazite (Mn) crystals 
+Ac 
+Pg 
+Ac 
+Pg 
+Ac 
+200 μm 
+XPL  
+200 μm 
+Ac 
+PPL 
+Figure 5.4: Metamorphosed gabbro with actinolite (Ac) and altered plagioclase (Pg) 
+33
+
+--- Page 35 ---
+Diorite 
+Diorite  samples  comprise  quartz,  plagioclase  and  minor  biotite  and  muscovite  in  small 
+amounts.  Quartz  and  plagioclase  are  equigranular  which  are  undeformed.  There  is  a 
+homogenous  distribution of minerals  with  no  fabric or deformation  present.  Quartz crystals 
+are irregular with jagged grain crystal boundaries and are 1 to 3 mm in size. Grain boundary 
+migration  is  relatively  low.  Quartz  exhibits  undulated  extinction.  Plagioclase  and  small 
+bladed  biotite  inclusions  are  present.  Plagioclase  crystals  are  subhedral  and  up  to  1  mm  in 
+size. There is replacement of plagioclase by muscovite on grain boundaries, irregular and up 
+to 2 mm in size, and fine inclusions within plagioclase. Biotite is fine grained, interstitial and 
+makes  up  about  1  %  of  the  rock.  Quartz  and  plagioclase  are  present  at  60  %  and  35  % 
+respectively. Muscovite makes up 5 % of the rock.  
+5.2 Overview 
+The rocks of the KEMB exhibit varying degrees of deformation and metamorphic grades. In 
+summary, the amphibolite comprises a fine-grained mineral assemblage of hornblende, quartz 
+and plagioclase. Hornblende and quartz are the dominant minerals and plagioclase occurs in 
+low concentrations. Compositional banding is present in the rock and produces hornblende-
+rich  and  quartz-rich  zones.  The  minerals  do  not  align  with  these  zones  and  rather  have  a 
+granoblastic texture. The greenschist rocks are highly deformed and poses a strong fabric. A 
+mineral assemblage of quartz-muscovite ±epidote ±chlorite makes up the rock. Quartz is the 
+dominant  mineral  (>90%)  and  ranges  in  size  from  fine-  to  coarse-grained  in  the  various 
+samples.  The  quartz  crystals  are  elongated  in  a  preferential  direction  which  is  parallel  to 
+microcrystalline  zones  which  are  a  typical  feature  of  the  greenschist  rocks.  Within  the 
+microcrystalline  zones,  minerals  such  as  muscovite,  iron  oxides,  epidote  and  chlorite  are 
+present.  The  zones  vary  in  thickness  and  are  pervasive  throughout  the  rock.  The  migmatite 
+has  a  mineral  assemblage  of  quartz-plagioclase-biotite-magnetite-monazite-sphene. 
+Compositional banding is dominant feature of the migmatite with the separation of minerals 
+into  leucosome  (quartz-plagioclase-magnetite-monazite-sphene)  and  melanosome  (biotite-
+dominant) bands.  Biotite is elongated parallel to  the compositional bands. The meta-gabbro 
+dykes  comprise  the  mineral  assemblage  actinolite-plagioclase-chlorite-sericite-muscovite. 
+Crystals range in  size from  medium- to fine-grained with  course-grained actinolite in  parts. 
+The  mineral  are  irregular  in  shape  and  inclusions  and  replacement  minerals  are  a  common 
+feature in actinolite and plagioclase respectively. A fabric is not present in the samples. The 
+34
+
+--- Page 36 ---
+diorite  has  an  equigranular  texture  comprising  a  mineral  assemblage  of  quart-plagioclase-
+biotite-muscovite. Samples do not indicate deformation and the rock is relatively unaltered. 
+35
+
+--- Page 37 ---
+6.  Mineralogical study 
+6.1 XRD data 
+Two  samples  (samples  A  &  B)  of  the  iron  stone  out  crop  were  analysed  by  XRD.  An 
+interpretation  of  the  diffractograms  indicates  the  presence  of  magnetite,  hematite,  goethite 
+and cassiterite (Fig. 6.1). Therefore there is the presence of iron and tin in the samples. 
+6.2 Ore block study 
+The study of the samples indicates an abundance of magnetite and hematite. Fractures are a 
+dominant feature of the samples (Fig. 6.2a). The two minerals occur in close association with 
+one  another.  The  composition  is  approximately  60  %  magnetite  and  40  %  hematite. 
+Magnetite occurs as fine fragments with straight regular edges surrounded by hematite (Fig. 
+6.2b). This textural relationship of the minerals indicates hematite is replacing magnetite. The 
+hematite extends out from the fine fractures. In some parts magnetite is found in low amounts 
+where it has almost been completely replaced. Cassiterite was not seen in the ore blocks. 
+Samples  of  the  iron-rich  quartzite  indicate  a  similar  occurrence  of  magnetite  and  hematite. 
+Due to the interstitial nature of the Fe-rich minerals (Fig. 6.3a & 6.3b), it has been determined 
+that the minerals are secondary, possibly utilizing pore spaces. Hematite replaces magnetite 
+in  a  very  similar  manner  to  the  above  example  (Fig.  6.3c  &  6.3d)  where  is  propagates  out 
+from 
+fractures.  
+36
+
+--- Page 38 ---
+l
+.
+s
+e
+p
+m
+a
+s
+e
+n
+o
+t
+s
+n
+o
+r
+i
+o
+w
+t
+f
+o
+n
+a
+c
+s
+D
+R
+X
+m
+o
+r
+f
+s
+m
+a
+r
+g
+o
+t
+c
+a
+r
+f
+f
+i
+D
+:
+1
+.
+6
+e
+r
+u
+g
+i
+F
+37
+
+--- Page 39 ---
+He 
+Mg 
+a.  
+c 
+500 μm 
+b.  
+200 μm 
+Figure 6.2: Iron stone ore blocks in reflective light. a) highly fractured rock. b) hematite (light mineral-
+He) replacing magnetite (dark mineral- Mg). 
+Qtz 
+Qtz 
+MH 
+MH 
+Qtz 
+Qtz 
+a.  
+Mg 
+c.  
+500 μm 
+500 μm 
+b.  
+Qtz 
+Qtz 
+He 
+200 μm 
+d.  
+Mg 
+He 
+Qtz 
+Qtz 
+200 μm 
+Figure 6.3: Ferruginous quartzite. a) transmitted light through thin section showing quartz crystals (light 
+mineral-Qtz) and interstitial magnetite and hematite (black mineral-MH). b) reflective light of 
+ferruginous quartzite. c & d) fractures crystals with hematite replacement (light mineral-He) of 
+magnetite (dark mineral-Mg). 
+38
+
+--- Page 40 ---
+7.  Interpretation and discussion 
+7.1 Protolith and depositional environment 
+The metamorphosed sequences of the KEMB have been subjected to high stress and a range 
+of  temperatures  which  is  evident  by  the  cleavage  and  metamorphic  facies  present.  The 
+mineralogy of the metamorphosed rocks and the preservation of bedding are indicative of a 
+sedimentary  protolith.  The  metamorphosed  rock  is  quartz  dominated  with  a  composition  of 
+more than 90 % quartz. Other minerals present are muscovite, epidote, chlorite, hornblende 
+and iron oxide. Bedding is dominantly planar, with cross-bedding features apparently absent, 
+and ranges in thickness from a few centimetres to several metres. Within bedding, grain-size 
+is  typically  uniform,  with  no  upward-  fining  or  coarsening  trend.  The  absence  of  typical 
+sedimentary features such as cross-bedding and graded bedding may be attributed to the high 
+degree  of  strain  accommodated  by  the  rocks.  In  the  east  of  the  northern  ridge  units,  the 
+scattered  hillocks  of  coarser  units  surrounded  by  the  low  lying  finer  units  possibly  indicate 
+lateral facies changes. 
+The high silica content, in the form of quartz crystals and microcrystalline quartz, suggest a 
+sandstone  protolith.  This  is  consistent  with  the  metamorphic  mineral  assemblage  of  quartz-
+muscovite-iron  oxide±  chlorite±  epidote  (Nesse,  2000).  A  dominant  feature  throughout  the 
+greenschist rocks is the anastomosing, microcrystalline zones which occur in thin section as 
+dark bands with varying thickness (Fig. 5.2). A possible explanation for the microcrystalline 
+zones is the formation of a fracture cleavage which utilises the less competent matrix (Spry, 
+1969). Although no matrix is observed in thin section, the pervasive nature, varying thickness 
+and  the  way  the  microcrystalline  zones  anastomose  around  quartz  crystals  suggests  the 
+deformation of finer material (matrix) which was once present. Thin sections reveal that these 
+microcrystalline zones make up 10 to 30 % of the rock depending on the sample and where in 
+the  stratigraphy  it  is  located.  This  indicates  that  the  rock  originally  comprised  up  to  30  % 
+matrix.  However,  volume  reduction  should  also  be  considered  if  the  stress  applied  on  the 
+rocks was great. The protolith would therefore have been a quartzwacke (Fig. 7.1) based on 
+the amount of matrix once present and the absence of lithic fragments and feldspathic grains 
+(Boggs, 2006). 
+39
+
+--- Page 41 ---
+Figure 7.1: Classification of sandstone (Boggs, 2006) 
+The  KEMB  is  split  into  three  clastic  sedimentary  metamorphic  units,  namely  the  northern 
+ridge,  southern  ridge  and  southern  region  units.  These  three  units  comprise  one  or  more 
+successions with ranging grain size. The southern region (amphibolite) unit comprises a fine-
+grained  succession.  The  dominant  metamorphic  overprint  has  destroyed  all  evidence  of 
+sedimentary features such as bedding and grading sequences. Stratigraphically above this is a 
+banded ironstone  formation  (BIF)  that consists of interbedded shale and iron precipitate.  In 
+turn  stratigraphically  above  the  BIF,  the  southern  ridge  units  comprise  medium-  to  fine-
+grained quartzite (Units A & B), overlain by a medium-grained quartzite (Unit C) grading up 
+to  a  coarse-grained  quartzite  (Unit  D).  Overall,  there  is  an  increase  in  grain  size  over  a 
+thickness  of  approximately  150  m.  The  northern  ridge  units  comprise  a  fine-  to  medium-
+grained quartzite (Units X & Z) with a coarse, pebble like interbed (Unit Y). The eastern side 
+of  the  northern  ridge  is  host  to  facies  changes,  of  high  and  low  energy.  Here  coarser 
+sequences are located a largely predominant fine-grained sequence.  
+Due  to  the  greenschist  facies  rocks  having  more  sedimentary  features  preserved  relative  to 
+the  amphibolite  rocks,  they  are  more  useful  in  determining  the  depositional  environment. 
+Considering the protolith of quartzwacke, which is extensive and occurs in beds up to a metre 
+or more thick as well as the coarsening upward sequence in the southern ridge and pebble like 
+nature  of  Unit  Y  between  Units  X  &  Z  of  the  northern  ridge,  a  deltaic  depositional 
+environment  is  interpreted  (Reading,  1978).  The  overall  upward  coarsening  trend  of  the 
+southern  ridge  is  indicative  of  a  progradational  deltaic  sequence  (Reading,  1978;  Leeder, 
+1999).  However,  typical  channel  forms  and  shapes,  expected  in  a  deltaic  environments 
+(Reading, 1978) are absent. In general, the fine sequences are representative of the distal bar 
+to  prodelta  setting  (Leeder,  1999  and  Nichols,  2009).  The  medium-grained  sequences  are 
+40
+
+--- Page 42 ---
+representative  of  the  sandy  distal  mouth  bar  while  the  coarse-grained  sequences  are 
+representative of a gravelly proximal mouth bar to sandy distal mouth bar of a typical delta 
+(Nichols,  2009).  The  interlamination  of  sands  and  silts  will  occur  between  the  sandy  distal 
+bar mouth bar and the prodelta (Fig. 7.2).  
+Figure 7.2: Coarse-grained delta (Nichols, 2009) 
+Interpreting the sequences present in the greenschist ridges, a prograding delta would account 
+for  the  overall  upward  coarsening  profile  (Fig.  7.2).  The  sequences  in  the  northern  ridge 
+suggest progradation from a medium-grained to a course-grained/pebble sequence, followed 
+by retrogradation to a medium-grained facies sequence. The deltaic environment determined 
+from the metaclastic succession allows for the interpretation of the underlying banded iron-
+formation  and amphibolite. Although definitive evidence of a  conformable contact  between 
+the iron-formation and the metaclastics was not observed, the increase in metamorphic grade 
+and  facing  direction  suggests  that  these  sequences  occur  lower  in  the  stratigraphy.  The 
+occurrence of the banded ironstone formation is typical of shallow water environments of the 
+Proterozoic (Leeder, 1999). This  would have occurred distal  to  a delta setting on a shelf or 
+proximal to the delta during periods of reduced sedimentation. The fine-grained sediment of 
+the amphibolite would have been deposited in the prodelta in the form of shales or mudstone.   
+The  described  protoliths  of  quartzwacke,  shale  and  possible  pebble  quartz  arenite  fit  well 
+with  the  sedimentary  rocks  of  the  Birimian  Supergroup  and  in  particular  the  Oudalan-
+Gorouol  greenstone belt  described by  Pons  et  al., 1995; Debat  et  al., 2003;  Tshibubudze et 
+al.,  2009;  Tshibubudze  and  Hein,  submitted.  Therefore  the  sequences  described  may 
+represent a portion of the Oudalan-Gorouol greenstone belt and this would also be enforced 
+by the KEMB close proximity to the belt, to east of the Markoye shear zone, 
+41
+
+--- Page 43 ---
+7.2 Metamorphic history 
+The  overall  metamorphism  of  the  KEMB  increases  very  rapidly  in  grade  from  greenschist 
+facies  in  the  north  to  amphibolite  facies  in  the  south.  The  mineral  assemblage  of  the 
+greenschist  grade  rocks  are  quartz-muscovite-iron  oxide  ±  epidote  ±  chlorite.  Pressure-
+temperature conditions specific to this assemblage are between 2 to 4 kbar at temperatures of 
+250 to 450⁰C (Nesse, 2000). The amphibolite has the general mineral assemblage of quartz-
+hornblende-plagioclase. This assemblage is typical of conditions of 2 to 5 kbar at temperature 
+of  450  to  650  ⁰C  (Nesse,  2000).  These  conditions  are  satisfied  by  a  normal  geothermal 
+gradient (Fig. 7.3). Thus subsidence and burial to suitable depth, by some or other process, 
+would have resulted in the formation in the facies observed by regional metamorphism. 
+Figure 7.3: Metamorphic facies and geothermal gradients (Nelson, 2003) 
+Features  within  the  metamorphic  rock  assist  in  determining  how  metamorphism  occurred. 
+The  greenschist  contains  bedding  parallel  foliation  which  is  defined  by  the  elongation  and 
+alignment of quartz crystals and microcrystalline anastomosing zones, possibly representative 
+of  where  pressure  solution  may  have  also  occurred.  Deformation  to  crystals  appears  to  be 
+axial  which  is  indicated  by  the  absence  of  shearing  and  rotation  of  crystals.  Undulose 
+extinction, grain elongation defining a foliation and recrystallisation, all exhibited by quartz 
+crystals, are produced at low to moderate temperatures and pressures (Vernon, 1976; Vernon 
+&  Clarke,  2008).  This  is  what  is  expected  in  greenschist  facies.  Under  experimental 
+42
+
+--- Page 44 ---
+conditions,  using  axial  compression,  intragranular  recrystallisation  can  be  achieved  at 
+temperatures of 300 to 400 ⁰C with confining pressures of 10 to 15 kbar in the presence of 
+structural  hydroxide  (Vernon,  1976).  A  part  from  the  elongated  quartz  crystals,  strain  is 
+largely contained within the matrix surrounding the grains in the quartz wacke (Spry, 1969). 
+Deformation has formed a foliation in the rock which is described as closely spaced, irregular 
+zones  which  anastomose  around  fragments  of  clastic  grains  (Fig.  16),  namely  quartz.  The 
+formation of the foliation and grain elongation would have occurred resulting in volume loss 
+under  compression.  This  foliation  is  sub-parallel  to  the  bedding  plane.  Bedding  parallel 
+foliation  is  commonly  associated  with  shales  that  have  been  subjected  to  low  stress  during 
+burial  under  normal  diagenetic  processes  (Vernon  and  Clarke,  2008).  However,  bedding 
+parallel  foliation  in  the  metamorphosed  rocks  of  the  KEMB  is  in  quartz  wackes  that  have 
+reached much greater depths as indicated by the greenschist facies mineral assemblage. 
+The  amphibolite  comprises  quartz  and  hornblende  which  are  subhedral.  The  unit  contains 
+prominent  compositional  banding  of  quartz-hornblende  and  quartz.  Hornblende  crystals  are 
+not  preferentially  orientated  parallel  to  the  compositional  banding  (Fig.  15).  The 
+compositional  banding  may  represent  either  original  depositional  features,  strain  induced 
+banding forming a foliation or quartz veining that has been deformed. Quartz veining would 
+be unlikely as the compositional banding is pervasive, fine and relatively regular. It would be 
+highly unlikely for quartz veins to cut through the rock at such regular intervals to form what 
+is  observed  as  banding.  The  possibility  of  the  banding  representing  bedding  features  of  the 
+original  rock  is  something  to  consider  however  this  will  be  difficult  to  prove.  Considering 
+what is seen in the above greenschist rocks which contain a strong fabric, it is interpreted that 
+this  compositional  banding  was  also  induced  from  stress  related  to  the  formation  of  the 
+greenschist foliation. The formation of isoclinal folds in the unit, with fold hinges parallel to 
+foliation, formed during high compaction accommodation volume loss (Davis and Reynolds, 
+1996). 
+Previous  studies  of  the  metamorphism  in  the  WAC  concluded  regional  metamorphism  to 
+greenschist facies occurred during crustal  shortening of the Eburnean Orogeny (Vidal  et  al, 
+1996;  Beziat  et  al.,  2000;  Debat  et  al.,  2003;  Hein  et  al.,  2004;  Naba  et  al.,  2004). 
+Metamorphism 
+to  amphibolite  facies  was  concluded 
+to  occurred  during  contact 
+metamorphism by the emplacements of the various plutons (Pons  et  al., 1995;  Debat  et  al., 
+2003;  Tshibubudze  et  al.,  2009)  However  a  more  recent  study  in  the  Oudalan-Gorouol 
+43
+
+--- Page 45 ---
+greenstone  belt  concluded  amphibolite  facies  was  reached  during  regional  deformation 
+(Tshibubudze and Hein, submitted).  
+To explain the metamorphic grade and deformation exhibited by the rocks of the KEMB, the 
+following possibilities are proposed. 
+1.  The rocks were deformed and metamorphosed during regional deformation events as 
+proposed by  Tshibubudze and Hein  (submitted).  Attaining  bedding-parallel foliation 
+would be difficult to achieve unless the rocks were orientated at  a high angle to  the 
+primary  stress  direction.  This  would  have  occurred  either  during  SW  directed 
+shortening  of  the  Tangaean  Event  or  SE-NW  shortening  of  the  Eburnean  Orogeny 
+(Tshibubudze et al., 2009; Hein 2010; Tshibubudze and Hein, submitted). This would 
+have  a  required  the  units  to  be  forced  into  a  steep  orientation  prior  to  one  of  the 
+events. Following deformation, the units would then require subsidence and tilting.  
+2.  Burial  to  depths  of  approximately  10  to  12  km.  Subsequent  metamorphism  and 
+deformation  would  be  expected  due  to  the  geothermal  gradient  as  well  as  a  large 
+amount  of  force  exerted  by  the  overlying  rocks  which  would  result  in  compaction. 
+Producing  bedding-parallel  foliation  would  be  challenging  by  such  a  process  as  it 
+would require the descent of rocks to a great depth remaining in the same position as 
+they  were  deposited  in.  However  bedding-parallel  foliation  as  well  as  isoclinal  fold 
+hinges  parallel to  the bedding plane is strong  evidence  for this  type of deformation. 
+Thus  it  is  suggested  that  crustal  extension  following  deposition  resulted  in  the 
+subsidence and burial  of the rocks of the KEMB. Thinning of the crust as well as a 
+higher  geothermal  gradient  prosed  for  the  Precambrian  would  have  resulted  in 
+subsequent metamorphism. 
+3.  Contact  metamorphism  related  to  the  emplacement  of  a  pluton.  This  has  been 
+proposed by Pons et al. (1995), Tshibubudze et al. (2009) and Tshibubudze and Hein, 
+(submitted). However, this does not explain the presence of the foliation and therefore 
+is not the favoured explanation. 
+Regional  deformation  or  burial  metamorphism  could  explain  the  formation  of  foliation. 
+However it is evident that the rocks of the KEMB did reach crustal levels great enough to 
+achieve amphibolite facies and form compositional banding within the amphibolite rock.  
+44
+
+--- Page 46 ---
+7.3 Migmatite formation 
+A  migmatite  results  from  the  partial  melting  of  a  pre-existing  rock.  The  formation  of 
+migmatites is generally associated with an increase in pressure and temperature as either an 
+increase in  depth,  known as “static melting”, or  an increase in  differential  stress,  known as 
+“dynamic melting” (Ashworth, 1985 and Sawyer, 2008). In the absence of free fluid, melting 
+reactions occur at  granulite facies conditions,  typically at  temperature between 800 to  1000 
+⁰C (Vernon and Clarke, 2008).  
+However  the  occurrence  of  the  migmatite  in  the  KEMB  is  not  associated  with  a  typical 
+increase in temperature and pressure along a geothermal as described above. This is due to its 
+anomalous  position  between  greenschist  and  amphibolite  facies.  Outcrop  suggest  the 
+migmatite has  little lateral  extent and is isolated to  an area of only several  hundred metres. 
+The  closest  occurring  migmatite  in  the  surrounding  area  is  situated  approximately  20  km 
+away on the northern margin of the Dori Batholith and is interpreted as the product of aureole 
+deformation  during  the  emplacement  of  the  batholith  (Tshibubudze  and  Hein,  submitted). 
+However aureole deformation is not indicated in the KEMB as there is no intrusion in contact 
+with the migmatite. 
+Figure 7.4: Diagram indicating the melting temperature of wet granite (David 
+Magrass and Brian Wells, 2010) 
+45
+
+--- Page 47 ---
+Another process by which a migmatite can form is during metasomatism (Sawyer, 2008). The 
+presence of fluids is known to act as a flux and thus can reduce the melting temperature (Fig. 
+7.4) by changing the solidus (Ashworth, 1985;Sawyer, 2008; Vernon and Clarke, 2008).  
+Fluid interaction, to induce melting, can take place in two ways: 
+1.  Metasomatism  before  melting  (Sawyer,  2008).  The  infiltration  of  metasomatic 
+fluids  from  an  outside  source  involves  the  enrichment  of  the  rock  by  improving 
+the  rock  fertility  (Vernon  and  Clarke,  2008)  thus  making  it  more  susceptible  to 
+melting.  This  involves  hydrothermal  alteration  and  the  production  of  new 
+minerals. The amount of water in the fluids leads towards the second type of fluid 
+interaction.  
+2.  Introduction  of  hydrous  fluids  from  an  external  source  known  as  H2O-saturated 
+melting (Ashworth, 1985; Sawyer, 2008; Vernon and Clarke, 2008). The presence 
+of  water  as  well  as  other  compounds  (such  as  P2O5,  HF,  LiOH)  can  drastically 
+reduce the solidus temperature (Ashworth, 1985).   
+Furthermore,  the  dehydration  of  hydrous  minerals  under  high  pressures  releases  water  into 
+the rock and induces melting (Vernon and Clarke, 2008). Considering the KEMB and related 
+pressure-temperature  conditions,  would  it  have  been  possible  to  produce  a  migmatite?  The 
+migmatite  is  situated  between  the  greenschist  and  amphibolite  facies.  Here  temperatures 
+would have been in excess of 450 ⁰C (c.f., Vernon and Clarke, 2008). The influx of fluids at 
+these  temperatures  would  not  have  been  sufficient  to  induce  melting.  However  there  is  the 
+presence  of  several  large  plutons  in  the  surrounding  area  which  include  the  Tin  Taradat 
+granodiorite-tonalite,  Dori  batholith  and  the  Granite  Adamelite  (Tshibubudze  and  Hein, 
+submitted).  These  could  have  been  the  source  of  high  temperature  igneous  related  fluids 
+which would have infiltrated the surrounding rocks. These zones of infiltration would have 
+had  to  be  concentrated  and  localised.  The  rapid  increase  of  temperature  in  pre-existing  hot 
+conditions could have induced partial melting and dehydration of the rock. Migmatites from 
+Saint-Malo, France, with a very similar mineral assemblage of muscovite-plagioclase-quartz 
+leucosome and biotite-rich melanosome, are interpreted to have formed by the breakdown of 
+muscovite (Sawyer, 2008). Although the Saint-Malo migmatites have been proposed to have 
+formed  in  upper  amphibolite  facies,  the  presence  of  muscovite  in  the  metamorphosed  rock 
+which formed the migmatite in KEMB would have been a source for more hydrous fluid. 
+46
+
+--- Page 48 ---
+Another possibility is that the migmatites are bounded by shear zones and that fluids travelled 
+along the structures and caused the partial melting.  
+The occurrence of the KEMB migmatite is anomalous and somewhat challenging to interpret. 
+However it can be summarised as a location of partial melting at granulite facies. The most 
+suitable explanation for its occurrence is the influx of high temperature fluid from an external 
+source, either from one of the plutons in the surrounding area or along strictures  along the 
+margins of the migmatite. Associated with this was dehydration metamorphism and reactions. 
+Why this occurred here, is the focus of future research studies in the region. 
+ 7.4 Tectonic History 
+The  KEMB  is  host  to  metamorphosed  sedimentary  sequences  and  igneous  intrusions.  The 
+terrain has been subjected to a series of regional tectonic events. The studies of Tshibubudze 
+et al. (2009) and Tshibubudze and Hein (submitted) have indicated that the KEMB lies west 
+of    the  Markoye  Shear  Zone  which  developed  by  at  least  two  regional  deformation  events. 
+Understanding the tectonic history of the KEMB is beyond the scope of this project however 
+based on the metamorphic and structural data collected, a simplified tectonic history can be 
+suggested. Saying this, further studies will be crucial in acquiring a greater understanding of 
+how the KEMB fits in with the regional geology. 
+The  series  of  metamorphosed  sedimentary  units  have  reached  metamorphic  grades  of 
+greenschist and amphibolite facies. An anomalous occurrence of a localised migmatite, which 
+has  reached  granulite  facies,  lies  between  the  greenschist  and  amphibolite  and  adds 
+complexity to the metamorphic belt. The metamorphosed sedimentary units are separated by 
+areas of sand cover with little outcrop. Later intrusive phases are a feature of the KEMB with 
+the presence of gabbro dykes cross-cutting the central region as well as the occurrence of a 
+diorite pluton. 
+The tectonic history of the KEMB is summarized below. 
+1.  The deposition of the sedimentary units in a shallow marine, deltaic setting following 
+the formation of a basin. The units include (amphibolite) a siltstone sequence, a BIF 
+sequence,  (Unit  A)  a  sandstone  sequence,  (Unit  B)  an  interbedded  siltstone  and 
+sandstone  sequence,  (Unit  C)  a  sandstone  sequence,  (Unit  D)  a  coarse-grained 
+sandstone  sequence,  (Unit  X)  an  interbedded  siltstone  sequence,  (Unit  Y)  a  course-
+grained sandstone and (Unit Z) an interbedded siltstone and sandstone sequence. 
+47
+
+--- Page 49 ---
+2.  Burial of the sedimentary units was accompanied by compaction and metamorphism. 
+Burial  occurred  to  a  depth  of  several  kilometres  as  determined  by  the  metamorphic 
+facies  reached. The immense overlying weight  would  have exerted a  great  stress  on 
+the rocks at such a depth, thus resulting in a pervasive bedding-parallel foliation (S1) 
+and crystal lineation (L1).  
+3.  Folding (F2) of the southwest units. The amphibolite, banded ironstone and southern 
+ridge are host to a fold. F2 is defined in the amphibolite and banded ironstone in the 
+south-eastern region. S1 is folded about F2. 
+4.  Intrusion of gabbro dykes prior or during metamorphism of the metaclastic rocks. A 
+petrology  study  on 
+the  dykes  determined 
+that 
+there 
+is  an  abundance  of 
+actinolite/tremolite  present  and  an  absence  of  pyroxene.  Plagioclase  crystals  are 
+commonly  altered  to  sericite.  The  presence  of  actinolite  and  altered  plagioclase  to 
+sericite  suggest  metamorphism  to  greenschist  facies.  Thus  the  dykes  had  to  be 
+intruded at depth in order to be metamorphosed it such facies. 
+5.  Uplift  and  tilting  of  the  metamorphosed  sedimentary  units  and  dykes  to  the  north 
+indicated by the dip of bedding-parallel foliation.  
+6.  The intrusion of the diorite pluton. There are several granodiorite plutons that occur in 
+the  surrounding  area  (Tshibubudze  and  Hein,  submitted).  The  most  likely  source  of 
+the pluton in KEMB could be a  younger batholith related diorite intrusions south of 
+the town of Gorom Gorom.  
+7.  The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands.  Ferricrete 
+horizons  in  the  WAC  formed  during  the  Cretaceous  and  associated  with  the 
+development of in situ laterite (Brown et al., 1994; Burke and Gunnell, 2008). 
+Suggestions  tectonic  uplift  is  proposed  due  to  the  result  of  either  one  of  two  events.  The 
+emplacement of  the Dori  Batholith, preceding the Tangaean Event (Tshibubudze and Hein, 
+submitted), to the southeast of the field area may have resulted in the uplift and tilting of the 
+KEMB. This would have been due to the crust being pushed out and up to accommodate the 
+large  volume  of  magma  being  emplaced  beneath.  The  northerly  dipping  bedding-parallel 
+foliation of the metamorphosed units in the KEMB would agree with this. Another proposed 
+event  is  the  NW-SE  crustal  shortening  of  the  Eburnean  Orogeny  (Tshibubudze  et  al.,  2009 
+and Tshibubudze and Hein, submitted) which may also have resulted in the uplift and tilting 
+48
+
+--- Page 50 ---
+of the KEMB. The NW compression and resulting thrusting could have caused tilling of the 
+stratigraphy to the north exposing deeper crustal levels. 
+49
+
+--- Page 51 ---
+8.  Conclusions 
+The  deformation  and  metamorphism  present  in  the  KEMB  is  complex  and  not  easily 
+explained.  This  can  be  linked  to  the  series  of  tectonic  events  which  have  occurred  in  the 
+region and the terrain that the KEMB exists in. In light of this, far more is now known about 
+the KEMB and the outcomes of this project can lead to further work  in understanding how 
+the KEMB fits in with the regional geology. 
+The following conclusions are drawn about the KEMB. The rocks comprise metamorphosed 
+sedimentary and intrusive rocks. The deposition of the sedimentary sequences occurred in a 
+deltaic environment into a shallow marine setting. These rocks were subsequently  buried to 
+an  estimated  deep  crustal 
+level  where 
+the  associated  pressures  and 
+temperatures 
+metamorphosed  the  rocks  to  greenschist  and  amphibolite  facies.  The  result  of  either 
+compaction associated with the weight of the overlying rock and crustal shortening during the 
+regional  deformation  events  formed  a  strong  foliation  in  the  sedimentary  sequences.  The 
+intrusion of gabbro dykes and a diorite pluton occurred after such events. The tectonic uplift 
+and  tilting  of  the  rocks  was  followed  by  erosion  and  the  formation  of  ferricrete  horizons 
+leading to the exposer of the rocks as seen today.   
+The  presence  of  an  iron  stone  and  ferruginous  quartzite  as  well  as  quartz-tourmaline  veins 
+indicates  the  potential  for  economic  deposits.  The  surface  extent  of  these  outcrops  do  not 
+suggest  a great  extent of the mineralisation. However the sign of such occurrences do raise 
+interest for further research into possible large deposits of such kinds. 
+50
+
+--- Page 53 ---
+10.

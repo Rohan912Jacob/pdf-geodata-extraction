@@ -1,0 +1,676 @@
+
+--- Page 4 ---
+LIST OF FIGURES 
+Figure 1.1: Map of Burkina Faso showing study area.  
+Figure 1.2: Geological map of Burkina Faso showing study area (Hottin & Ouedraogo, 1992). 
+Figure 2.1: Greenstone belts of Burkina Faso after Béziat et al. (2008). 
+Figure 2.3.1: Flow diagram showing assessment of severity of degradation in the Save catchment. 
+Figure  2.3.2:  Updated  national  road  network  map  overlaid  on  mosaiced  SPOT  satellite  images  of  the 
+Kingdom of Swaziland. 
+Figure 3.1: Mosaic of the six Landsat (RGB) 731 colour composite. 
+Figure  3.2:  Aeromagnetic  data  A,  B,  C  with  total  magnetic  intensity  reduced  to  the  pole  1st  vertical 
+derivative. D-represents overlay of the three magnetic data (A, B and C). 
+Figure 3.3: A and C show radiometric data and B and D show inverted radiometric data. 
+Figure 3.4: True colour composite image (RGB) 321. 
+Figure 3.5: False colour composite 742 with rivers in blue, sand, minerals and soils in various colours and 
+bare land in pink. Green show area of vegetation. 
+Figure 4.1: Lineaments with E–W (ENE), N–S (NNW) and NE–SW trends. 
+Figure 4.2: Distribution of greenstone belts, laterites and shear zones (Greenstone belts-green, laterites-
+purple and shear zones in red). 
+Figure  4.3. The  Boromo–Goren  Greenstone  Belt  (BGGB)  of  Burkina  Faso,  together  with  the  Bouroum 
+and Yalogo greenstone belts Hein et al. (2004). 
+Figure 4.4: RGB 742 showing sand dunes in light green on the image. 
+Figure 4.5: Outcrop locations in grey. 
+Figure 4.6: Sharp lithological contacts (orange). 
+Figure 4.7: A-RGB 432 false colour composite with areas of healthy and dense vegetation shown in red 
+and  areas  of  less  vegetation  shown  in  light  right.  Rivers  are  marked  in  blue  and  cities  (City  of 
+Ouagadougou) in cyan blue (B) and drainage systems are shown in red indicating that there is vegetation 
+along the river (B). 
+Figure 4.8: Locality map of Burkina Faso showing cities, towns, villages and roads. 
+Figure 4.9: interpretation of magnetic data. (Green- lineaments and black-areas of shear). 
+Figure 4.10: A- normal radiometric data and B- inverted radiometric data. Black- Lineaments, Red- areas 
+of shear. 
+4
+
+--- Page 5 ---
+Figure 5.1:  Interpretative geology map of the Markoye Shear Zone based on combined regional magnetic 
+data  (RTP  and  RTP  1st  vertical  derivative),  Landsat  imagery,  with  Landsat  image  p194r050_741  as 
+underlay (Tshibubudze et al., 2009). 
+Figure 5.2: Strato-tectonic-magmatic map of Burkina Faso with distribution of structures and lithology. 
+5
+
+--- Page 6 ---
+LIST OF TABLES 
+Table 3.1: Satellite imagery type and georeference system used. 
+Table 3. 2 (a): Landsat 7 characteristics. 
+Table 3. 2 (b): Band characteristics. 
+6
+
+--- Page 7 ---
+ACRONYMS AND ABBREVIATIONS 
+The following abbreviations are used: 
+GIS- Geographic Information System 
+RGB-Red, Green, Blue 
+TTG- Tonalite Tronjomite Granodiorite 
+OGGB- Oudalan-Gorouol Greenstone Belt 
+BGGB- Boroum-Goren Greenstone Belt 
+GGB- Goren Greenstone Belt 
+MSZ- Markoye Shear Zone 
+SSZ- Sabce Shear Zone 
+BSZ- Belahouro Shear Zone 
+FCC- False Colour Composite 
+7
+
+--- Page 10 ---
+ABSTRACT 
+Satellite  images  are  among  continuous  sources  of  digital  data  for  mapping  geological  structures, 
+lithologies  and  for  human  geography  studies.    In  this  study,  a  strato-tectonic-magmatic  map  of  NE 
+Burkina Faso was created using Landsat 7 imagery combined with radiometric and magnetic data.  Four 
+different  false  color  composite  images  of  Landsat  data  (FCC  731,742,753  and  432)  RGB  images  were 
+generated and evaluated for lithological mapping and human geography studies. A false color composite 
+image of Landsat data 731 (RGB) was generated and used for production of the strato-tectonic-magmatic 
+map for the study area. Analysis of geological structures such as lineaments, shear zone, dykes, plutons 
+and lithological discrimination as well as geographic features was carried out using IDRISI Kilimanjaro 
+software and CorelDraw X3 ® software packages.  
+Throughout  this  study  Landsat  data  731(RGB)  was  used  for  extraction  process.  From  this  study  it  was 
+found that  the  study  area  is  dominated by  NE-NNW  trending  shear  zones,  NW trending  dykes  and  the 
+extracted lineament trends are east to ENE, north to NNW and NEasterly. There are four greenstone belts 
+in the study area and these are underlain by laterite. Sand dunes cover most of the northern Burkina Faso. 
+The features extracted from the Landsat 7 were also evident in, magnetic and radiometric data. Landsat 7 
+imagery can be used successfully for geological mapping. 
+10
+
+--- Page 11 ---
+CHAPTER 1: INTRODUCTION 
+1.1 Preamble 
+Most geological maps of Burkina Faso are outdated and due to high cost of aerial photography the maps 
+have not been updated. There is massive investment in exploration in NE Burkina Faso and there are few 
+geological maps that assist in targeting, with the latest being completed by Castaing in 2003.  Therefore a 
+GIS  interpretation  was  undertaken  to  create  a  strato-tectonic-magmatic  map  for  the  area.  GIS 
+interpretation has become the most important modern tool for geological interpretation and a fundamental 
+approach in grassroots exploration for the delineation of resource potential. It involves the breaking up of 
+complex  data  planes  into  simpler  and  more  interpretable  forms  related  to  geological  features.  Remote 
+sensing analysis from GIS is used to extract drainage and topographic patterns, curvilinear features and 
+stands of lithologically related vegetation (Drury, 1987).  As such, remote sensing techniques have great 
+utility  in  lithologic  discrimination,  outcrop  delineation  and  production  of  geological  maps  at  different 
+scales (Qari et al 2008). 
+This study focused on the identification of various lithological units using Landsat images with the aim of 
+using  them  as  part  of  a  dataset for  mineral  (gold and  other  mineral commodities)  potential targeting  in 
+Burkina  Faso,  mapping  of  geological  structures  and  also  land  use/cover  data  sets.  This  was  completed 
+using  six  Landsat  images,  radiometric  and  magnetic  data.  The  images  will  be  georeferenced  using 
+geographic  coordination  systems  or  projections.  Based  on  the  spectral  capabilities  of  Landsat  7  image 
+data, the RGB (Red, Green, and Blue) band combination was prepared for discrimination of geological 
+features  (lithology,  structure  and  contacts).  Although  the  spectral  capabilities  of  Landsat  data  do  not 
+provide new information on lithology, they are useful for extracting geological features that might have 
+not been defined by field studies and aerial photography or maps in the area.  
+1.2 Location and physiography 
+The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in 
+western  Africa,  north  of  Ghana  (Fig  1.1).  It  shares  borders  with  six  countries  namely  Benin  in  the 
+southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the 
+east.  It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is 
+Ouagadougou. The official language is French and regional languages include Dioula and Mooré.  
+11
+
+--- Page 12 ---
+Land  use  can  be  divided  into  three  sections:  arable  land  (17.66%),  which  is  mainly  land  cultivated  for 
+crops  that  are  replanted  after  each  harvest  (e.g.  rice,  maize,  wheat),  permanent  land  (0.22%),  which  is 
+cultivated land that cannot be replanted after harvest(e.g. coffee, rubber ) and other land (82.12%) which 
+includes  pastures,  woodland,  forest,  built-on  areas,  barren  lands  and  roads.  The  land  surface  is  mainly 
+defined  by  alluvial  plains,  low  hills,  and  sand  dunes  of  the  Sahara  Desert.  Landforms  in  Burkina  Faso 
+include lakes, rivers, mountains and wetlands. In the north and east of the country vegetation consists of 
+acacia  woodland  and  scrub,  expanding  into  semi-desert  in  the  dry  season  in  the  north.  The  rest  of  the 
+country’s  vegetation  is  sparse  savanna  grasslands  as  well  as  dry  forest  areas  with  occasional  shrub 
+vegetation or acacia. The country has a subtropical sahelian climate with two distinct seasons, i.e. rainy 
+season and dry season.  
+Study area 
+Figure 1: Map of Burkina Faso showing study area. 
+     Figure 1.1: Map of Burkina Faso showing study area.  
+1.3 Problem statement 
+Most geological maps of Burkina Faso are outdated and due to high cost of aerial photography the maps 
+have  not  been  updated,  this  research  will  test  whether  GIS  interpretation  techniques  can  be  used  for 
+geological mapping using Landsat, magnetic and radiometric and to update the geological map of Burkina 
+Faso. 
+12
+
+--- Page 13 ---
+1.4 Aims and Objectives 
+The aim of the project is to create a strato-tectonic-magmatic map of  NE Burkina Faso for exploration 
+targeting.  The  map  will  be  created  using  six  Landsat  images,  magnetic  &  radiometric  data.  Using  the 
+imagery  it  will  be  possible  to  extract  geological  boundaries  (lithological  contacts),  structures,  dykes, 
+lineaments, land use and land cover datasets. Through doing this work knowledge about GIS and Remote 
+sensing will be gained. 
+1.5 Research questions 
+Are GIS and/or Remote sensing good for geological mapping and effective? 
+13
+
+--- Page 14 ---
+Figure 1.2: Geological map of Burkina Faso showing study area (Hottin & Ouedraogo, 1992) 
+14
+
+--- Page 15 ---
+CHAPTER 2: REGIONAL GEOLOGY 
+2.1 Stratigraphy 
+The  lithostratigraphy  in  north-eastern  Burkina  Faso  is  defined  by  NE-trending  Birimian  meta-
+volcaniclastic  greywacke  and  intercalated  meta-conglomerate,  siltstone  and  shale  (Figure  1.  2).  The 
+Birimian stratigraphy was divided into two parts by Junner (1935; 1940) in (Leube et al., 1990), the lower 
+Birimian series and the upper Birimian series. The lower Birimian series is predominantly sedimentary in 
+origin  and  includes  dacitic/rhyodacitic  meta-volcaniclastic  sediments,  meta-greywacke  with intercalated 
+black meta-siltstone and manganiferous chert, argillite, shale and chemical meta-sedimentary (Feybesse et 
+al., 1990; Leube et al., 1990; Hirdes et al., 1990; Milési et al., 1991). The upper Birimian series consists 
+of metamorphosed basic and intermediate lavas and pyroclastic rocks (Feybesse et al., 1990; Leube et al., 
+1990; Hirdes et al., 1996; Milési et al., 1991, 1992; Naba, 2004; Tshibubudze et al., 2009). The Birimian 
+sequences  were  metamorphosed  during  the  Eburnean  Orogeny  and  were  intruded  by  numerous  calc-
+alkaline  plutons  including  tonalite  (TTG),  granodiorite,  diorite  and  meta-diorite  bodies  that  are 
+collectively  termed  the  Eburnean  granitoids  (Pons  et  al.,  1995;  Naba  et  al.,  2004;  Pawlig  et  al.,  2006). 
+Lateritic profiles cover much of the West African craton.  
+The  Birimian  sequences  were  metamorphosed  during  the  Eburnean  Orogeny  where  the  meta-
+volcanic  and  metasedimentary  rocks  were  subjected  to  crustal  shortening  associated  with  greenschist 
+facies  regional  metamorphism  (Oberthur  et  al.,  1998)  and  by  further  metamorphism  related  to  the 
+intrusion  of  granitoids  (Milesi  et  al.,  1989,  1991;  Bossiére  et  al.,  1996;  Hirdes  et  al.  1996;  Hein  et  al., 
+2004).  Metamorphic  grade  includes  greenschist  facies  with  formation  of  dominant  chloride–muscovite 
+mineral  assemblage  and  abundant  hornblende  and  andalusite  mineral  assemblages  which  are  low  to 
+medium grade amphibolites facies (Bossiére et al., 1996; Béziat et al., 2000; Naba et al., 2004; Pawlig et 
+al., 2006). 
+The Tarkwa Group unconformably overlies the Birimian sequence (Leube et al., 1990; Milési et al., 
+1992;  Castaing  et  al.,  2003).  It  has  been  divided  into  three  units:  the  Banket  Series,  Phyllite  Unit  and 
+Meta-Sandstone unit. There is further division into the Banket quartz lithic meta-sandstone unit and the 
+Banket meta-conglomerate unit of the Banket series (Tunks et al., 2004). 
+15
+
+--- Page 16 ---
+2.2 Structures 
+In NE Burkina Faso there are four greenstone belts, of which three have been studied, namely, the 
+Goren  and  Oudalan-Gorouol  greenstone belts (Fig.  2.1)  which have  been  studied  by  Hein  et  al.  (2004) 
+Hein  et  al.  (2010)  and  Tshibubudze  et  al.  (2009)  and  the  Yalogo  greenstone  belt  which  has  not  been 
+studied to date. 
+Figure 2.1: Greenstone belts of Burkina Faso after Béziat et al. (2008) 
+The Oudalan–Gorouol greenstone belt (OGGB) hosts gold deposits at Essakane, Gossey, Korizena 
+and  Falagountou  (Tshibubudze  et  al.,  2010).  In  the  OGGB,  the  Birimian  supracrustal  sequences  are 
+dominated  by  meta-volcaniclastic  greywacke  that  is  intercalated  with  meta-conglomerate,  siltone  and 
+shale, carbonate (dolomite) and volcanic units (pillow lavas). The OGGB is surrounded by plutonic rocks 
+including granite, TTG suite granitoids and granite gneiss (Tshibubudze et al., 2010). It is crosscut by the 
+NNE trending Markoye Shear Zone, NE trending Tin Takanet-Bellekcire Shear Zone, westerly trending 
+16
+
+--- Page 17 ---
+Dori Shear Zone, north trending Kargouna Shear Zone, Takabougou Shear Zone and Bom Kodjelé Shear 
+Zone (Tshibubudze et al., 2010). 
+The  Goren  Greenstone  Belt  (GGB)  forms  part  of  the  largest  Boromo-Goren  Greenstone  Belt 
+(BGGB) .The GGB segment of the BGGB trends SE across the Yatenga, Bam, and Sanmatenga districts 
+(Hein et al., 2004). In the GGB there are two Birimian formations: the Lower and Upper Birimian which 
+are described based on studies done by Attoh (1982) and Feybesse et al. (1990) and craton-scale studies 
+by Milési et al. (1989), Abouchami et al. (1990), Hottin and Ouedraogo (1992)  and Boher et al (1992). 
+The studies indicate that the  
+1) Lower Birimian which includes a volcano-sedimentary package with intercalated fluvial deltaic meta-
+sediments is unconformably overlain by the: 
+2) Upper Birimian which is a volcanic-volcanoclastic package.  
+Further investigations on lithologies and structures completed by  Hein et al. 2004 at Sanmatenga 
+district  indicate  that  the  deposition  of  the  volcanic,  metasedimentary  and  turbidic  rocks  in  the  Gorem 
+segment  of  the  BGGB  is  in  three  conformable  successions:  a  lower  volcano-  sedimentary  succession, 
+mafic-intermediate  volcanic  succession,  and an  upper  volcano-sedimentary  succession. The  successions 
+indicate  interplay  of  marine-deltaic  sedimentary  processes  and  volcanic  activity.  The  deposition  was 
+interpreted to have occurred within a marginal marine setting adjacent to an emergent volcanic centre or 
+island arc setting (Hein et al., 2004).  The conformable nature (angular unconformity) of the successions: 
+the 1) Lower Birimian and 2) Upper Birimian does not provide any case of separation into two formations 
+in the Sanmatenga district described from previous studies by Attoh (1982) and Feybesse et al., (1990). 
+The  Birimian  Bouroum-Yalogo  greenstone  belt  is  a  Y-shaped  terrane  located  between  large 
+Eburnean  granitoid  batholiths  200  km  northeast  of  Ouagadougou  (Ducellier  1963).  It  consists  of:  (1) 
+metagranites,  metagabbro-diorites  and  metaquartzite  of  the  Bamga  series  (Hottin  and  Ouedraogo  1976; 
+Sawadogo 1983; Zonou, 1987) interpreted as early Birimian and dated at 2. 18 Ga (Boher et al. 1992); (2) 
+overlying  mafic  lava  flows  and  pillow  lavas  (Zonou  et  al.,1985)  with  associated  pyroclastites, 
+volcaniclastic rocks and immature sediments  mainly at lower levels and calc-alkaline andesite, dacite and 
+lamprophyre  at  upper  levels,  all  affected  by  a  greenschist-facies  metamorphism;  and  (3)  basic  to 
+intermediate plutons later emplaced. 
+Markoye Shear zone 
+In  the  NE  Burkina  Faso  the  Palaeoproterozoic  Birimian  Domain  of  the  West  African  Craton  is 
+crosscut by the NE-trending Markoye Shear Zone (MSZ) which is a first crustal scale structure. The MSZ 
+marks  the  western  boundary  of  the  Oudalan-Gorouol  Greenstone  Belt  which  extends  into  the  Niger 
+17
+
+--- Page 18 ---
+(Tshibubudze et al., 2009). The MSZ has undergone at least two phases of reactivation which happened at 
+the same time as two phases of regional deformation. The first deformation, D1 resulted in the formation 
+of  NNW-NW  trending  folds  and  thrusts  during  dextral-reverse  displacement  of  the  MSZ.  The  second 
+deformation, D2 involved a period of SE-NW crustal shortening and sinistral-reverse displacement on the 
+MSZ and is correlated to the Eburnean Orogeny approximately 2.1 Ga (Tshibubudze et al., 2009).  
+Sabce Shear Zone 
+The Sabce Shear Zone (SSZ) is a NE trending sinistral-reverse shear zone. It is represented by a 
+branch  of  the  main  zone  at  Tangapella.  The  branch  consists  of  an  array  of  interconnected  sub-shears 
+trending NE. The sub-shears crosscut and offset all the lithologies, F1 folds and D1 boudins at Tangapella 
+area (Hein, 2010). 
+Belahouro Shear Zone 
+The Belahouro Shear Zone (BSZ) is a mineralised NNW trending shear zone. It is modelled as a 
+back structure to the major NNE trending Markoye Shear Zone (Middleton et al., 1997)).  The Belahouro 
+Shear  Zone  is  mineralised and  is  considered  a  prospective  exploration  target.  Basalt and  volcanoclastic 
+within the NE portion of the region have a sheared contact and provide a lithological contrast (Middleton 
+et al., 1997). 
+Laterites (Ferricrete) 
+An  extensive  residual  laterite  cap  exists  in  the  study  area  (Hein.  2008).  Laterite  is  an  iron-rich 
+profile that is developed under tropical to sub-tropical condition due to long term exposure of rocks to the 
+atmosphere and hydrosphere in tectonically stable areas (Dequincey et al., 2006).The ferricrete is matrix 
+to  clast  supported  and  typically  contains  clasts  and  rock  fragments  of  the  underlying  stratigraphy 
+(Middleton et al., 1997) and is currently forming in lowland areas.  The general outcrop distribution of 
+ferricrete indicate that, the ferricrete has been eroded, deposited and cemented several times such that the 
+current  ferricrete  profile  is  representative  of  several  phases  of  ferricrete  formation  (Middleton  et  al., 
+1997). Studies done by Hein, 2008 in the Yatenga District show that ferricrete has a negative correlation 
+with master joints. Using 10Be and 26Al isotopic depletion ratios of laterite, Brown et al. (1994) concluded 
+that in-situ laterite in Burkina Faso formed during the upper Cretaceous to Eocene. 
+2.3. Case studies 
+The following case studies helped in choosing the methodology for this project. 
+18
+
+--- Page 19 ---
+2.3.1  Assessment  of  land  degradation  in  the  save  catchment  of  Zimbabwe  by  Julia  Mambo  and  Emma 
+Archer, 2007. 
+Methodology 
+The  methodology  involves  Buhera  Straddles  three  landsat  satellite  scenes  namely  169/74,169/73 
+and  168/74.Two  sets  of  the  three  Landsat  TM  and  ETM  scenes  for  the  years  1992  and  2002  were 
+georeferenced using image to image rectification with SPOT images projected in UTM, (Zone 365) and 
+referenced onto the WGS 84 ellipsoid. An average of 12 ground control points per image were used; with 
+a  residual  error  of  approximately  2.1  metres.  The  three  scenes  were  mosaiced  and  an  image  enclosing 
+Buhera  district  was  extracted,  upon  which  subsequent  image  processing  was  undertaken.  Two  bands  3 
+and 4 were used for change detection analysis. 
+Summary of methodology is displayed in the following diagram 
+Figure 2.3.1: Flow diagram showing assessment of severity of degradation in the Save catchment. 
+2.3.2 Map updating using high resolution satellite imagery: A case of the kingdom of Swaziland, 2002. 
+A case study of the Kingdom of Swaziland on map updating using high resolution satellite imagery 
+was completed because the map for the area is old, outdated and largely exist in analogue form. This work 
+19
+
+--- Page 20 ---
+was  undertaken  by  W.  Ottichilo  and  E.  Khamala.  The  country  is  covered  by  fourteen  spot  satellite 
+imagery scene, four landsat TM satellite image scene and thirty-five 1:50000 topographic maps.  
+Methodology used high resolution remote sensing and GIS. This was implemented in  five stages. 
+These include: 
+1.  Preliminary image interpretation: This involved classifying and interpretation. Preliminary maps 
+were  produced  from  colour,  tone,  pattern,  texture,  association,  shape,  size,  shadows  and  size 
+enabled photomorphic delineation of line and polygon. 
+2.  Field observation: sample points were selected from preliminary interpretation. 
+3.  Final  image  interpretations  were:  field  work  findings  were  incorporated  to  refine  both  the 
+preliminary classification systems and preliminary image interpretation. This stage involved re-
+labelling and redrawing of certain feature boundaries to give the actual representation as revealed 
+from fieldwork exercises. 
+4.  Quality control: This stage involved cross-checking the feature boundaries to ensure accurate and 
+consistent  interpretation.  Confirmation  of  feature  codes/labels,  polygon  closures,  line  feature 
+continuity  among  topological  issues  .After  approval  final  interpretation  would  proceed  for 
+digitization.  
+5.  Digitization of final interpretation: this was done on a scene by scene and theme to theme basis 
+using ArcInfo, ArcView GIS Software. Land use and land cover polygons, hydrological features 
+and the road network were digitized as independent thematic layers. Each thematic layer was then 
+edited  to  eliminate  digitization  errors  and  thereafter  coded  and  Georeferenced.  Adjacent  digital 
+themes were edge matched and joined together to produce single nationwide thematic mosaics of 
+the  entire  kingdom  of  Swaziland.  Using  ArcView,  all  the  different  national  map  layers  were 
+overlaid to produce a single multi-thematic map of Swaziland with scale of 1:250000. 
+From the methodology the following results were obtained: 
+National  map  of  kingdom  of  Swaziland  was  produced  using  SPOT  satellite  imagery  at  scale  of 
+1:250  000.  The  map  carried  eight  land  use/  land  cover  classes,  hydrological  features,  transportation 
+infrastructure,  towns  and  administrative  boundaries.  A  rich  GIS  database  containing  both  spatial  and 
+aspatial information was developed. Satellite image interpretation accuracy was 80% indicating that the 
+methodology is robust and reliable if well executed. 
+20
+
+--- Page 21 ---
+Figure  2.3.2:  Updated  national  road  network  map  overlaid  on  mosaiced  SPOT  satellite  images  of  the 
+Kingdom of Swaziland. 
+2.3.3 Photo geology presented by Drury, 1987. 
+Methodology 
+The methodology deals with extraction of geological structures to produce geological maps from 
+aerial photos and satellite images. The following criteria are used to extract data: Colour and colour tones, 
+topography  and  geometry,  stream  drainage  patterns,  vegetation  anomalies.  IDRISI  software  package, 
+remote sensing and GIS are used considering the following four criteria: 
+21
+
+--- Page 22 ---
+1.  Structural interpretation-  determination  of  geomorphology,  lineaments  and line  features,  faults  and 
+folds, vegetation anomalies and drainage patterns. 
+2.  Petrographic/lithologic  interpretation-  determination  of  rock  types  and  boundaries  of  geological 
+formations. 
+3.  Using IDRISI colour & colour tones show shapes and sizes of features. 
+-Shape is the geometric outline of an object and it gives information about the nature and geometry 
+of the object. 
+-size is the magnitude of an object or a single dimension of an object. 
+The geological interpretation of imagery 
+Colour and tones give brightness levels in digital images and reflection of colour tones of different 
+materials  on  the  earth  helps  to  distinguish  different  materials  and  their  boundaries  e.g.  water  can  be 
+distinguished  from  soil  since  water  has  a  different  tone  than  soil  (Lillesand  &  Kiefer,  1994;  Konecny 
+2002; Prost, 2001).  
+2.3.4 Mapping land use/ cover distributions on a mountainous tropical island using remote sensing and 
+GIS by Serwan M. J. Baban and Kamaruzaman Wan Yusuf, 2001 
+Study area: Langkawi Islands 
+Data collection and methodology 
+The study area has a Landsat TM satellite image for Langkawi Island, acquired on March 1995 was 
+analysed using IDRISI, a raster-based GIS software program. Image was atmospherically corrected using 
+the  darkest  pixel  approach  and  geocorrected  with  a mean  square  (RMS)  error of  less  than  half a  pixel. 
+Using IDRISI, with composite images of the bands TM3, TM4 and TM5 an unsupervised classification of 
+land use/cover was performed on the basis of spectral signatures for nine clustering areas. Secondary data 
+was used to support this work. This consisted of a 1990 topographic map of scale 1:500 000, 1990 land 
+use map of scale 1:150 000 and 1986 map at scale 1:100 000 and ground truth data from 255 sampled 
+points.  This  was  followed  by  a  supervised  classification  for  land  use/cover  where  training  sites  were 
+selected on the basis of the unsupervised classified image. 
+ Using  IDRISI,  the  polygons  around  each  training  area  were  digitized  and  assigned  a  unique 
+identifier  each  cover  type;  a  spectral  signature  for  each  class  was  created.  Thematic  content  of  the 
+classified  image  was  quantitavely  assessed  for  accuracy  by  evaluating  the  correspondence  between  the 
+class label assigned to a pixel in the image and true class as measured on ground. A direct comparison of 
+22
+
+--- Page 23 ---
+classes  was  carried  out  based  on  geographical  location  with  the  available  primary  and  secondary  data. 
+Most of the classes were easily separated and mapped due to their distinctive reflectance signatures within 
+the  TM  bands  used;  their  confinement  of  different  parts  of  the  area  was  based  mainly  on  topography. 
+Overall accuracy of the method was 90%. 
+23
+
+--- Page 26 ---
+Figure 3.1: Mosaic of the six Landsat (RGB) 731 colour composite. 
+3.1.3 Aeromagnetic data 
+The aeromagnetic data has total magnetic intensity reduced to the pole 1st vertical derivative with 
+NW  shading  UTM  Zone  30N.  Three  images  making  the  magnetic  data  will  be  used  (figure  3).  These 
+images will be overlain using CorelDraw X3 ® software. 
+26
+
+--- Page 27 ---
+Figure  3.2:  Aeromagnetic  data  A,  B,  C  with  total  magnetic  intensity  reduced  to  the  pole  1st  vertical 
+derivative. D-represents overlay of the three magnetic data (A, B and C). 
+3.1.4 Radiometric data 
+Total K-Th-U RGB data for NE Burkina Faso was used. Due to the image being cut off only few parts of 
+the image making the study area will be used. There are two images making the radiometric data (figure 
+4) and using CorelDraw X3 ® Software the two image in figure 4 A and C were inverted. 
+27
+
+--- Page 28 ---
+Figure 3.3: A and C show radiometric data and B and D show inverted radiometric data. 
+3.2. Image processing and classification 
+3.2.1 Bands combinations 
+The Landsat imagery bands of p194r050, p194r051, p194r052, p195r050, p195r051 and p195r052 
+were  used  for  band  combinations.  RGB  colour  combination  images  using  Landsat  data  were  selected 
+primarily  on  the  basis  of  reflectance  spectra  of  dominant  rock  types.  The  original  image  bands  were 
+displayed  in  an  RGB  colour  composite  in  order  to  detect  the  best  combination  that  shows  more 
+information  of  geological  features  of  the  study  area  (Fig.  1).  The  band  combination  321  (RGB)  were 
+displayed for true colour visual analysis of geological features (Figure 5). The false colour composite 742 
+in  an  RGB  was  displayed  in  order  to  enhance  the  interpretation  and  visual  analysis  of  geological 
+structures  shown  by  the  band  combination  321.  The  false  colour  composite  742  (Figure  6)  has  the 
+advantage  of  preserving  morphological  features  as  well  as  displaying  different  lithological  units  in 
+different colours because of the use of near and mid infrared portion of the electromagnetic spectra (Peña 
+and  Abdelsalam,  2006).    A  false  colour  composite  with  band  combination  (RGB)  7  3  1  was  used  to 
+28
+
+--- Page 29 ---
+display differences in rock types (Figure 1). False colour composite with band combination (RGB) 432 
+was used to delineate the human geography. False colour composite with band combination (RGB) 753 
+can be used to find textural and moisture of soils and can be useful for geological studies. All the band 
+combinations were created using IDRISI Kilimanjaro software package by running Composite from the 
+display menu and assigning the bands to RGB composite. 
+True colour composite (RGB) 321 
+In  a  True  Color  composite,  the  visible  bands  are  selected  and  assigned  to  their  corresponding 
+colours  to  obtain  an  image  that  approximates  true  color.  The  visible  bands  approximate  the  range  of 
+vision for the human eye, and hence they appear to be close to what we would expect to see in a normal 
+photograph.    True  color  tends  to  appear  flat  and  have  low  contrast  due  to  the  Electromagnetic  (EM) 
+radiation in the blue visible region being more susceptible to atmospheric scattering. 
+29
+
+--- Page 30 ---
+Figure 3.4: True colour composite image (RGB) 321 
+30
+
+--- Page 31 ---
+False colour composite 742 
+This band combination provides imagery for desert regions and for the purpose of the project it will 
+be used to extract sand dunes. Sands, soils and minerals are highlighted in different colours. Areas with 
+bright green indicate healthy vegetated areas while area in light green represents grass lands. Pink areas 
+represents barren soil, urban areas are represented in magenta. 
+Figure 3.5: False colour composite 742 with rivers in blue, sand, minerals and soils in various colours and 
+bare land in pink. Green show area of vegetation. 
+31
+
+--- Page 32 ---
+3.3 Extraction of geological features 
+CorelDraw X3 ® software was used to extract different features including lineaments, shear zones, 
+sand dunes, plutons, granodiorites and greenstone belts. Six images from the study area with False Colour 
+Composite  and    RGB  731  band  combination  were  combined  to  form  a  mosaic  using  CorelDraw  X3 ® 
+software. The extraction process took five weeks to complete because of the large size of the images and 
+time was needed to zoom to features to see them clearly. Magnetic and radiometric data were also used in 
+this  process.  Three  images  of  the  aeromagnetic  data  were  overlain  in  CorelDraw  to  extract  large 
+geological  features.  The  two  images  making  the  radiometric  data  were  also  used  for  this  process  of 
+extraction but due to the fact that only a portion of the study area is covered by the currently available 
+radiometric data, few features could be extracted. 
+32
+
+--- Page 33 ---
+CHAPTER 4: EXTRACTION 
+The extraction process for NE Burkina Faso helped in constraining the position of plutons, dykes, 
+lithologies,  lineaments,  laterites  and  shears  in  the  study  area.  LANDSAT  7  data  provided  useful 
+constraints on surface lineaments, the distribution of laterites, drainage systems and human geography. 
+4.1 Extraction of geological features using LANDSAT 7 (RGB) 731 FCC 
+Plutons 
+Plutonic rocks surround the greenstone belts, and are pink in image colour. There is no development of 
+shears  on  the  plutonic  rocks.  It  can  be  concluded  that  the  plutons  postdate  shearing.  The  plutons  have 
+almost circular shapes and their boundaries were easy to define. 
+Lineaments 
+A  lineament  analysis  using  LANDSAT  7  731  FCC  and  to  a  limited  extent,  aeromagnetic  data,  was 
+completed to establish the dominant trend of lithologies, and shears. The lineaments were extracted from 
+river drainages were the river was flowing in a straight line, since the river doesn’t flow in a straight line 
+there must have been a linear feature making it to flow in a straight line or causing it to change its course 
+of flow. Most of the rivers in the imagery have the same trends as the lineaments. The lineaments trends 
+(Fig 4.1). 
+1. East to ENE,  
+2. North to NNW  
+3. NEasterly  
+33
+
+--- Page 34 ---
+Figure 4.1: Lineaments interpreted from 731 FCC, lineaments trend east to ENE, north to NNW and NE. 
+Laterite (Ferricrete)  
+An extensive residual laterite cap exists in the study area. Dykes north of the Burkina Faso are skirted by 
+laterite. Laterite covers greenstone belts. Age of the laterite is cretaceous. 
+Shear zones and greenstone belt 
+The NNE trending MSZ clearly  mark the boundary of the OGGB as interpreted by Tshibubudze et al., 
+(2009).  The  OGGB  is  surrounded  by  plutonic  rocks  as  documented  by  Tshibubudze  et  al.,  (2010.  The 
+shear  zones  are  marked  in  red  (Fig.  4.2).  The  NE  trending  SSZ  cuts  the  GGB  and  the  Bouroum 
+greenstone  belt  is  cut  by  the  BSZ  which  is  NW  trending  as  shown  on  fig  4.2  and  fig.  4.3.  All  the 
+greenstone belts on the image have an orange-brownish colour and have laterite caps. The GGB is cut by 
+34
+
+--- Page 35 ---
+major  joints  with  different  trends.  The  greenstone  belts  extracted  are  larger  in  dimension  than  those 
+documented  on  Figure  1.2,  and  this  can  help  in  increasing  Gold  exploration  since  most  of  the  major 
+discoveries of gold are found on the greenstone belts. New greenstone belts were found, these have the 
+same signature (colour and laterite caps) as the already known greenstone belts. 
+Figure 4.2: Distribution of greenstone belts, laterites and shear zones (Greenstone belts-green, laterites-
+purple and shear zones in red). 
+35
+
+--- Page 36 ---
+Figure  4.3: The  Boromo–Goren  Greenstone  Belt  (BGGB)  of  Burkina  Faso,  together  with the  Bouroum 
+and Yalogo greenstone belts Hein et al. (2004). 
+36
+
+--- Page 37 ---
+Dykes 
+The dykes are predominantly NW-trending and are inferred to be dolerite in composition. The dykes are 
+not continuous and hard to trace.  
+Sand dunes 
+Two images (p194r050 and p195r050) from the false colour composite 742 were used to delineate sand 
+dunes  (Fig.  4.4).  On  the  image  they  are  light  green  since  they  occur  in  areas with  less  vegetation.  The 
+sand dunes only cover the northern part of Burkina Faso, they form part of the Sahara desert. 
+Figure 4.4: RGB 742 showing sand dunes in light green on the image. 
+Lithologies 
+Lithological  trends  were  established  wherever  possible.  There  were  sharp  lithological  contacts  on  the 
+imagery were no mapping was done (fig.4.6). Near the GGB there was folding in the meta-conglomerate 
+observed by Tshibubudze et al., (2009). Most of the eastern part of the image is covered by sand dunes 
+and  alluvium  occurs  in  areas  near  the  river  this  is  marked  by  a  light  yellowish  colour  on  the  imagery. 
+Other lithologies observed include volcanic intrusions e.g. TTG, granite which have a pink colour on the 
+imagery. 
+37
+
+--- Page 38 ---
+Figure 4.6: Sharp lithological contacts (orange) 
+4.2  Extraction  of  geographic/  physical  features  using  LANDSAT  7  (RGB)  432  false  colour 
+composite. 
+RGB 432 colour composite was used to delineate the human geography these includes roads, cities and 
+villages and drainage systems (fig. 4.7).  This was done on a large scale. This RGB 432 band combination 
+highlights the following: 
+Vegetation has shades of red, deep red shows healthy vegetation while light red shows grasslands and/or 
+sparsely  vegetated  areas.  Urban  areas  have  a  cyan  blue.  Soils  have  light  to  dark  brown  colours. 
+Coniferous trees are darker red than hardwoods. 
+38
+
+--- Page 39 ---
+A 
+B 
+Figure 4.7: A-RGB 432 false colour composite with areas of healthy and dense vegetation shown in red 
+and  areas  of  less  vegetation  shown  in  light  red.  Rivers  are  marked  in  blue  and  cities  (City  of 
+Ouagadougou) in cyan blue (B) and drainage systems are shown in red indicating that there is vegetation 
+along the river (B). 
+Using the image above, a map showing locations of roads and cities as well as small villages was made 
+using CorelDraw X3 ® Software (Fig. 4.8).  
+39
+
+--- Page 40 ---
+Figure 4.8: Locality map of Burkina Faso showing cities (dark blue), towns and villages (pink) and roads 
+(brown) 
+40
+
+--- Page 41 ---
+4.3 Extraction of geological features using Magnetic data 
+The interpretation of magnetic data was done using figure 3:D which was the combination of A, B and C. 
+from the data there were dominant NW trending lineaments (green)  and areas of shear (black) were NE 
+trending (Fig. 4.9). 
+Figure 4.9: interpretation of magnetic data. Green- Lineaments and black-areas of shear. 
+4.4 Extraction of geological features using radiometric data 
+The normal (A) and inverted (B) radiometric data were used for the extraction. Since parts of the study 
+area is cut off, only limited extraction was done. A few lineaments and areas of shear were extracted. The 
+lineaments are NE-NW trending and the shears are NE trending (fig. 4.10). 
+41
+
+--- Page 42 ---
+A 
+B 
+Figure 4.10: A- normal radiometric data and B- inverted radiometric data. Black- Lineaments, Red- areas 
+of shear. 
+42
+
+--- Page 43 ---
+CHAPTER 5: DISCUSSION 
+5.1 Observations 
+From the Landsat 7 imagery, Magnetic and radiometric data a number of features  were extracted 
+including lineaments, Greenstone Belts, laterite, dykes, joints sets, shear zones. Lineaments in all the data 
+sets had east to ENE, north to NNW and NEasterly trends. Most of the major lineaments as seen on the 
+data  sets  had  NW-NE  trends.  The  areas  of  shear  investigated  in  all  data  set  were  dominantly  NNE 
+trending with a few trending NW. The four greenstone belts studied in literature could only be extracted 
+clearly from the Landsat 7 imagery. The greenstone belts were covered by laterite caps which followed 
+the orientation of the greenstone belts throughout the images. Areas of greenstone belt occurrences were 
+easily 
+identified  by 
+looking  at  occurrences  of 
+the 
+laterite  caps.  The  Landsat  with  (RGB 
+) 731 FCC used for extraction of geological features was very helpful because the band combination has 
+an advantage of distinguishing different rock types. The greenstone belts had a brownish to orange colour; 
+volcanic had a grey colour, granodiorites had a pinkish colour and sand dunes had a yellowish colour. The 
+laterites have a dark brown to purple colour and were easy to distinguish from the imagery. The drainage 
+systems  on  the  imagery  were  used  for  lineament  identification  and  major  drainages  were  classified  as 
+major joints because they show area of weakness which the river penetrated and could flow through. The 
+major joint sets had the same orientation as the lineaments. The extraction of human geography was done 
+using  432  FCC  because  of  the  advantages  that  this  band  combination  has  as  documented  in  the 
+methodology. Roads, rivers, vegetation, drainage systems, towns, cities and villages were easy to identify 
+and these was more useful for creating a locality map and thus for land use and land cover classification. 
+From  the  magnetic  and  radiometric  data  lineaments  with  same  orientation  found  in  both  Landsat  and 
+Aster imagery were also found, as well as areas of shear. Since the Radiometric data was cut off limited 
+extraction was done on the data. 
+5.2 Geological mapping 
+Shear zone and dyke 
+From the extraction done previously the interpretation of the shear zones and NW trending dolerite 
+dykes found are in accordance with observations made by Tshibubudze et al 2009 for the NNE trending 
+Markoye  and  Takabangou  shear  zones(  fig.5.1)  which  were  also  extracted  using  Landsat  imagery 
+followed  by  field  mapping  to  ground  truth  the  shear  zones  and  the  dykes.  SSZ  which  is  a  major  shear 
+43
+
+--- Page 44 ---
+zone cuts the Goren greenstone belt and the BSZ cuts the OGGB and this is in accordance with what has 
+been documented in literature. 
+Greenstone belts and laterite profiles 
+Since no GIS work has been done on the greenstone belts, there is no confirmation of association of 
+greenstone  belts  with  laterite  profiles  found  throughout  the  study  area.  From  the  interpretation  it  was 
+found  that  the  laterite  profiles  have  the  same  orientation  as  the  greenstone  belts  and  cover  most  of  the 
+study  area  where  greenstone  belts  are  located.  Studies  by  Hein,  (2008)  show  that  dykes  in  northern 
+Burkina Faso have laterite skirts and from the interpretation done in this study most of the dolerite dykes 
+interpreted  had  the  laterite  skirts.  The  four  greenstone  belts  Goren,  Bouroum,  Oudalan-Gorouol,  and 
+Yalogo  greenstone  belts  locations  were  defined.  A  Goren  Greenstone  Belt  is  cut  by  a  series  of  NE 
+trending joint sets and the SSZ.  
+Figure 5.1:  Interpretative geology map of the Markoye Shear Zone based on combined regional magnetic 
+data  (RTP  and  RTP  1st  vertical  derivative),  Landsat  imagery,  with  Landsat  image  p194r050_741  as 
+underlay (Tshibubudze et al., 2009). 
+44
+
+--- Page 45 ---
+5.3. Is GIS and/or Remote sensing good for geological mapping and is it effective? 
+The results  obtained  from  the  study  show  that  GIS  is  a  very  useful  tool  for  geological  mapping. 
+GIS interpretation can be done before going to the field for ground truth. This use of GIS can decrease the 
+cost of mapping. From the study it is evident that Landsat 7 band 7 is very useful for geological studies 
+since it helps in distinguishing different rock types. The different band combinations generated in remote 
+sensing  using  different bands  is  very  helpful  in  differentiating  features  depending  on  the  area  of  study. 
+RGB  321  which  is  a  true  colour  composite  can  be  generated  and  since  it’s  a  representation  of  what  in 
+reality (ground) it can also be used for ground truth. From this study 731 and 742 FCC band combinations 
+were very helpful for geological mapping and extraction of features; both bands have different advantages 
+in highlighting different features. For land use and land cover analysis RGB 432 colour composite was 
+used. Image classification which involves two classification systems (supervised and unsupervised) can 
+be done for land use studies. 
+The use of GIS and remote sensing is very effective for geological studies. Different case studies 
+that went this route were successful and this is a new effective tool that is been used and will continue to 
+be used for mapping and for geographic studies. The results obtained using GIS are similar to what has 
+been done previously (previous maps) and highlight other featured that are not documented on previous 
+maps these was evident from this study. 
+Recommendations 
+From the study it is evident that the use of GIS is effective in that it agrees with what has been done 
+before in previous studies and can also help in discovering things that might be missed on the field. This 
+method of mapping though it is time consuming it reduces cost of mapping and buying aerial photographs 
+which have become costly over the years. Using GIS and remote sensing improves mapping techniques. 
+5.4 Comparison 
+The  map  done  by  Hottin &  Ouedraogo (1992)  is  missing  a  lot  of  structures  such  as  lineaments,  dykes, 
+shear  zones  compared  to the  map  created. The  map  by  Hottin  &  Ouedraogo  (1992)  doesn’t show  sand 
+dunes that cover most of the NE Burkina Faso. The new map (Fig. 5.2) has more details but more ground 
+truth  in the form  of  mapping  needs  to  be  done to  confirm  some  of  the  features  that are  not  covered  in 
+literature or haven’t been mapped. 
+45
+
+--- Page 46 ---
+Figure 1.2: Geological map of Burkina Faso showing study area (Hottin & Ouedraogo, 1992) 
+Figure 5.2: Strato-tectonic-magmatic map of Burkina Faso with distribution of structures and lithology. 
+46
+
+--- Page 47 ---
+47
+
+--- Page 48 ---
+CHAPTER 7: CONCLUSION 
+This  research  is  the  first  attempt  that  has  utilized  LANDSAT  data,  magnetic  and  radiometric  data  for 
+geological  mapping  and  production  of  a  1:100  000  geological  map  for  the  study  area.  Advantages  of 
+LANDSAT images for geological  mapping lie in their high spectral band characteristics. Four different 
+false colour composite images were generated and evaluated for extraction purposes. The first FCC 731 in 
+RGB image was generated and evaluated for extraction of geological features.  The second FCC 432 in 
+RGB image was generated for human geography. The third FCC 742  in RGB image  was also used for 
+extraction of geological features, since the FCC 742 imagery has the same advantage as 731 FCC it was 
+used to extract features that were not easy to extract like sand dunes on the 731 FCC image. The last FCC 
+image was used for the location of outcrops. The prepared 731 FCC imagery (Fig. 3.1) obtained from the 
+Landsat 7 data, was used in constructing the detailed strato-tectonic-magmatic map of NE Burkina Faso 
+(Fig. 5.2) which illustrates the following:  
+1-  The greenstone belts with a brownish to orange colour covered by purple laterite caps, plutonic 
+rocks  which  had  a  pinkish  colour  surrounding  the  greenstone  belts  which  were  clearly 
+discriminated. 
+2-  The shear zones which had NNE- NW trends and dykes with laterite skirts trending NW. 
+3-  The lineaments with East to ENE), North to NNW and NEasterly trends and major joints created 
+by the drainage system in the area. 
+The prepared 432 FCC was helpful in extraction of human  geography and a locality  map for the study 
+area was created (Fig. 4.8). The 742 FCC was used for extraction of sand dunes and 753 FCC was used 
+for  locating  outcrops.  The  map  created  shows  the  validity  and  usefulness  of  applying  GIS  and  remote 
+sensing techniques for geological mapping. Comparing the constructed strato-tectonic-magmatic map of 
+NE Burkina Faso (Fig. 5.2) with the previously published maps (Fig 1.2), the study shows the following:  
+1-  The  strato-tectonic-magmatic  map  in  the  present  work  shows  more  detailed  information  about 
+structural features and lithologies than the previous mapping.  
+2-  The FCC images gave additional information helping in improving the previous geological maps 
+of the study area.  
+3- This new strato-tectonic-magmatic map in this study (Fig. 5.2) needs more field investigations and 
+verifications  to  construct  the  detailed  geological  map  of  NE  Burkina  Faso.  This  study  showed  the 
+important use of colour composite images constructed from the LANDSAT 7 bands combined with 
+the magnetic and radiometric data and for geological mapping improves mapping.  
+48

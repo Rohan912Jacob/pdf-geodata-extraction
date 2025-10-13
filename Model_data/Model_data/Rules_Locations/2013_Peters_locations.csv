@@ -1,0 +1,1140 @@
+filename,page,mention,location,label,source
+2013_Peters.txt,5,"Most importantly, I wish to thank WAXI (West African Exploration Initiative), the AMIRA and 
+its sponsors, without whom this research would not have been possible. I  wish  to  gratefully  acknowledge  AMIRA  International  and  the  industry  sponsors,  including 
+AusAid and the ARC Linkage Project LP110100667, for their support of the WAXI Project (P934A). I am also appreciative of the contribution of the various Geological Surveys/Department of Mines in 
+West Africa as sponsors in-kind of WAXI. Finally, I wish to recognize our WAXI research colleagues 
+from the various Institutions from around the world. I would like to thank the National Research Foundation for providing funding for this research 
+in 2012. 5",West Africa,GPE,spacy
+2013_Peters.txt,8,"LIST OF FIGURES 
+Figure  1.1. Volcano-sedimentary  belts  of  southeast  and  northeast  Burkina  Faso  and  northwestern 
+Ghana. Volcano-sedimentary belts from the northeast Burkina Faso are modified after Hein et 
+al. (2004);  the  study  area  is  located  in  the  Goren  belt  and  expanded  in  Inset  A. Location  of 
+Tiebélé  dome  of  southern  Burkina  Faso  with  Zn  anomalies  as  defined  by  Ilboudo  (2010)  is 
+presented in Inset B. The Perkoa and Gaoua deposits are located in the Boromo belt in Burkina 
+Faso, southwest of Ouagadougou.",Ghana,GPE,spacy
+2013_Peters.txt,8,"LIST OF FIGURES 
+Figure  1.1. Volcano-sedimentary  belts  of  southeast  and  northeast  Burkina  Faso  and  northwestern 
+Ghana. Volcano-sedimentary belts from the northeast Burkina Faso are modified after Hein et 
+al. (2004);  the  study  area  is  located  in  the  Goren  belt  and  expanded  in  Inset  A. Location  of 
+Tiebélé  dome  of  southern  Burkina  Faso  with  Zn  anomalies  as  defined  by  Ilboudo  (2010)  is 
+presented in Inset B. The Perkoa and Gaoua deposits are located in the Boromo belt in Burkina 
+Faso, southwest of Ouagadougou.",Burkina Faso,FAC,spacy
+2013_Peters.txt,8,"LIST OF FIGURES 
+Figure  1.1. Volcano-sedimentary  belts  of  southeast  and  northeast  Burkina  Faso  and  northwestern 
+Ghana. Volcano-sedimentary belts from the northeast Burkina Faso are modified after Hein et 
+al. (2004);  the  study  area  is  located  in  the  Goren  belt  and  expanded  in  Inset  A. Location  of 
+Tiebélé  dome  of  southern  Burkina  Faso  with  Zn  anomalies  as  defined  by  Ilboudo  (2010)  is 
+presented in Inset B. The Perkoa and Gaoua deposits are located in the Boromo belt in Burkina 
+Faso, southwest of Ouagadougou.",Burkina,GPE,spacy
+2013_Peters.txt,8,"LIST OF FIGURES 
+Figure  1.1. Volcano-sedimentary  belts  of  southeast  and  northeast  Burkina  Faso  and  northwestern 
+Ghana. Volcano-sedimentary belts from the northeast Burkina Faso are modified after Hein et 
+al. (2004);  the  study  area  is  located  in  the  Goren  belt  and  expanded  in  Inset  A. Location  of 
+Tiebélé  dome  of  southern  Burkina  Faso  with  Zn  anomalies  as  defined  by  Ilboudo  (2010)  is 
+presented in Inset B. The Perkoa and Gaoua deposits are located in the Boromo belt in Burkina 
+Faso, southwest of Ouagadougou.",Ouagadougou,GPE,spacy
+2013_Peters.txt,8,"The Essakane, Falagountou, Taparko and Inata goldfields are 
+represented in north-northeast of Burkina Faso. The Billiata and Tambão Mn deposits and the 
+Tin Edia Mn-Fe-V deposit are located on the western margin of the Oudalan-Gorouol belt. The 
+Barsalogo diamond fields are located north of the Goren belt. Figure 2.1. The Goren volcano-sedimentary belt is presented showing the locations of Kaya, Mané, 
+Guilla, Korsimoro, Sirgui artisanal mine and Tangapella hill. Northwest and northeast trending 
+shears  and  thrusts  are  represented  as  well  as  WNW  trending  shears  of  the  Wabo-Tampelse 
+Event.",Essakane,GPE,spacy
+2013_Peters.txt,8,"The Essakane, Falagountou, Taparko and Inata goldfields are 
+represented in north-northeast of Burkina Faso. The Billiata and Tambão Mn deposits and the 
+Tin Edia Mn-Fe-V deposit are located on the western margin of the Oudalan-Gorouol belt. The 
+Barsalogo diamond fields are located north of the Goren belt. Figure 2.1. The Goren volcano-sedimentary belt is presented showing the locations of Kaya, Mané, 
+Guilla, Korsimoro, Sirgui artisanal mine and Tangapella hill. Northwest and northeast trending 
+shears  and  thrusts  are  represented  as  well  as  WNW  trending  shears  of  the  Wabo-Tampelse 
+Event.",Falagountou,GPE,spacy
+2013_Peters.txt,8,"The Essakane, Falagountou, Taparko and Inata goldfields are 
+represented in north-northeast of Burkina Faso. The Billiata and Tambão Mn deposits and the 
+Tin Edia Mn-Fe-V deposit are located on the western margin of the Oudalan-Gorouol belt. The 
+Barsalogo diamond fields are located north of the Goren belt. Figure 2.1. The Goren volcano-sedimentary belt is presented showing the locations of Kaya, Mané, 
+Guilla, Korsimoro, Sirgui artisanal mine and Tangapella hill. Northwest and northeast trending 
+shears  and  thrusts  are  represented  as  well  as  WNW  trending  shears  of  the  Wabo-Tampelse 
+Event.",Taparko,GPE,spacy
+2013_Peters.txt,8,"The Essakane, Falagountou, Taparko and Inata goldfields are 
+represented in north-northeast of Burkina Faso. The Billiata and Tambão Mn deposits and the 
+Tin Edia Mn-Fe-V deposit are located on the western margin of the Oudalan-Gorouol belt. The 
+Barsalogo diamond fields are located north of the Goren belt. Figure 2.1. The Goren volcano-sedimentary belt is presented showing the locations of Kaya, Mané, 
+Guilla, Korsimoro, Sirgui artisanal mine and Tangapella hill. Northwest and northeast trending 
+shears  and  thrusts  are  represented  as  well  as  WNW  trending  shears  of  the  Wabo-Tampelse 
+Event.",Korsimoro,GPE,spacy
+2013_Peters.txt,11,"The  GB  rocks  plot 
+within the basalt, basaltic-andesite and andesite fields. Samples from the Boromo-Houndé belts 
+are distributed throughout the basalt, basaltic-andesite and andesite fields. The Tiebélé samples 
+have a smaller SiO2 range but some samples contain increased alkali concentrations and plot as 
+trachyandesite and tephrite. The Oudalan-Gorouol belt samples plot between basalt and basaltic-
+andesite. (d)  SiO2  versus K2O  (wt%) demonstrates  that the  GB  volcanic rocks  plot  within the 
+Low-K series for the most part. One sample plots in the Medium-K series with a K2O value of 
+~1 wt%.",Medium-K,FAC,spacy
+2013_Peters.txt,11,"Samples from the Boromo-Houndé belts plot within the Low-K series as well as the 
+calc-alkaline fields (Medium-K, High-K series and the Shoshonite series. The Tiebélé samples 
+vary between the different fields. (e) The AFM diagram plots samples from various locations. The  GB  volcanic  rocks  plot  in  the  tholeiitic  phase  whereas  the  Boromo-Houndé  samples  are 
+split between tholeiitic  and  calc-alkaline  compositions  which  agrees  with  classifications  made 
+by  Baratoux et  al. (2011). The Tiebélé  samples  are also  distributed  between calc-alkaline  and 
+tholeiitic compositions.",Low-K,FAC,spacy
+2013_Peters.txt,12,"TiO2 will 
+crystallise  and  form  oxide  minerals  such  as  rutile  and  ilmenite  (g)  The  MgO-Na2O  plot 
+displayed  the  Na2O  concentration  increasing  slowly  as  MgO  concentration  remained high. As 
+the MgO concentration began to decrease, the Na2O concentration rapidly increased. This can 
+be explained by the crystallization of the Na-rich end-members of plagioclase, towards the end 
+of crystallization (h) The MgO-P2O5 plot also resolved an increasing trend as MgO decreased, 
+suggesting  phosphorus  did  not  crystallise  (i)  The  MgO-FeO  plot  resolved  an  increasing  FeO 
+trend. It would be expected at some point in the fractionation process for Fe to partition into Fe-
+oxide  minerals,  explaining  the  decrease  in  FeO  concentrations. (j)  K2O  versus  MgO  shows  a 
+poor correlation. Figure 6.3 (a) Chondrite-normalised multi-element diagram comparing the tholeiitic basalts from the 
+GB,  Boromo-Houndé  belts  and  the  Tiebélé  region.",Tiebélé,GPE,spacy
+2013_Peters.txt,13,"The 
+average range in concentrations for LREE is from ~8-25 times the chondritic value, whereas the 
+HREE range between ~9 and 20 times chondrite. Some samples present slight depletions, while 
+others present slight enrichments from LREE to HREE. (b) Chondrite-normalised REE diagram 
+comparing  the  GB,  Boromo-Houndé  and  Tiebélé  tholeiitic  basalts. The  REE  patterns  of  each 
+sample  suite  present  parallel  patterns  of  similar  magnitudes. The  Tiebélé  samples  present  a 
+slightly  decreasing  trend  from  LREE  to  HREE. (c)  Chondrite-normalised  REE  diagram 
+comparing tholeiitic basalts from the GB to the Boromo-Houndé calc-alkaline volcanic rocks.",Lree,GPE,spacy
+2013_Peters.txt,16,"1. INTRODUCTION 
+1.1. Preamble 
+Volcano-sedimentary  belts  make  up  a  large  part  of  the  stratigraphy  of  the  Palaeoproterozoic 
+Baoulé-Mossi domain (West Africa) in northeast Burkina Faso (Figure 1.1). The belts are composed 
+of  dominantly  lower  to  middle  greenschist  metamorphosed  volcanic,  pyroclastic  and  sedimentary 
+rocks  with  extensive  units  of  basalt-andesite,  dacite  and  less  substantial  amounts  of  pyroclastite 
+(Milési et al., 1989, 1991; Leube et al., 1990; Ledru et al., 1991). Carbonaceous and Mn-Fe bearing 
+chemical sedimentary units are intercalated with the volcanic rocks (Blanchot et al., 1972; Béssoles, 
+1977; Wright, 1985; Leube et al., 1990; Melcher, 1995; Kříbek et al., 2008). The volcanic sequences of the Baoulé-Mossi domain were first described in the Birim Valley in 
+Ghana  (Kitson,  1918)  and  were  classified  as  tholeiitic  basalts  and  calc-alkaline  lavas.",Birim Valley,GPE,spacy
+2013_Peters.txt,16,"This  bimodal 
+volcanic  suite  was  also  described  by  Abouchami  et  al. (1990)  in  craton-wide  studies  that  concluded 
+that tholeiitic suites were more abundant than calc-alkaline suites (Abouchami et al., 1990; Boher et 
+al., 1992; Pouclet et al., 1996; Arndt et al., 1997; Lompo, 2009). Mg-rich tholeiites and calc-alkaline 
+lavas  were  also  described  by  Dia  et  al. (1997)  from  the  Kénieba-Kédougou  Inlier  of  western  Mali. Blanchot et al. (1972), Béssoles (1977), Wright (1985), Abouchami et al.",Pouclet,GPE,spacy
+2013_Peters.txt,16,"This  bimodal 
+volcanic  suite  was  also  described  by  Abouchami  et  al. (1990)  in  craton-wide  studies  that  concluded 
+that tholeiitic suites were more abundant than calc-alkaline suites (Abouchami et al., 1990; Boher et 
+al., 1992; Pouclet et al., 1996; Arndt et al., 1997; Lompo, 2009). Mg-rich tholeiites and calc-alkaline 
+lavas  were  also  described  by  Dia  et  al. (1997)  from  the  Kénieba-Kédougou  Inlier  of  western  Mali. Blanchot et al. (1972), Béssoles (1977), Wright (1985), Abouchami et al.",Lompo,GPE,spacy
+2013_Peters.txt,18,"(2)  a  western  belt  in  central  Cote  d'Ivoire,  western  Mali  and  Guinea,  essentially  composed  of  the 
+equivalent volcanic products but geochronologically younger at approximately 2105 Ma (U-Pb zircon) 
+(Hirdes et al., 1996). Despite  these  investigations,  surprisingly  little  research  has  been  conducted  on  the  volcanic 
+sequences  at  the  scale  of  one  or  several  belts  in  West  Africa. Few  studies  have  been  conducted  on 
+volcanic facies and metal potential in terms of base metals and Mn mineralisation, but delineating the 
+volcanic facies and alteration zones  of volcanic belts can help in identifying and targeting volcanic-
+related mineral deposits. For example, the Mount Reid volcanics in western Tasmania and the Abitibi 
+greenstone  belt  of  central  Canada  are  both  regions  where  volcanogenic  massive  sulphide 
+mineralization  has  been  found. Their  volcanic  facies  and  alteration  zones  are  well  understood, 
+providing spatial constraints to economic mineralization (McPhie et al., 1993; Piché and Jébrak 2006). Delineating facies is also important in developing tectonic models for volcanic terranes.",Guinea,GPE,spacy
+2013_Peters.txt,18,"(2)  a  western  belt  in  central  Cote  d'Ivoire,  western  Mali  and  Guinea,  essentially  composed  of  the 
+equivalent volcanic products but geochronologically younger at approximately 2105 Ma (U-Pb zircon) 
+(Hirdes et al., 1996). Despite  these  investigations,  surprisingly  little  research  has  been  conducted  on  the  volcanic 
+sequences  at  the  scale  of  one  or  several  belts  in  West  Africa. Few  studies  have  been  conducted  on 
+volcanic facies and metal potential in terms of base metals and Mn mineralisation, but delineating the 
+volcanic facies and alteration zones  of volcanic belts can help in identifying and targeting volcanic-
+related mineral deposits. For example, the Mount Reid volcanics in western Tasmania and the Abitibi 
+greenstone  belt  of  central  Canada  are  both  regions  where  volcanogenic  massive  sulphide 
+mineralization  has  been  found. Their  volcanic  facies  and  alteration  zones  are  well  understood, 
+providing spatial constraints to economic mineralization (McPhie et al., 1993; Piché and Jébrak 2006). Delineating facies is also important in developing tectonic models for volcanic terranes.",Mount Reid,LOC,spacy
+2013_Peters.txt,18,"(2)  a  western  belt  in  central  Cote  d'Ivoire,  western  Mali  and  Guinea,  essentially  composed  of  the 
+equivalent volcanic products but geochronologically younger at approximately 2105 Ma (U-Pb zircon) 
+(Hirdes et al., 1996). Despite  these  investigations,  surprisingly  little  research  has  been  conducted  on  the  volcanic 
+sequences  at  the  scale  of  one  or  several  belts  in  West  Africa. Few  studies  have  been  conducted  on 
+volcanic facies and metal potential in terms of base metals and Mn mineralisation, but delineating the 
+volcanic facies and alteration zones  of volcanic belts can help in identifying and targeting volcanic-
+related mineral deposits. For example, the Mount Reid volcanics in western Tasmania and the Abitibi 
+greenstone  belt  of  central  Canada  are  both  regions  where  volcanogenic  massive  sulphide 
+mineralization  has  been  found. Their  volcanic  facies  and  alteration  zones  are  well  understood, 
+providing spatial constraints to economic mineralization (McPhie et al., 1993; Piché and Jébrak 2006). Delineating facies is also important in developing tectonic models for volcanic terranes.",Tasmania,GPE,spacy
+2013_Peters.txt,18,"(2)  a  western  belt  in  central  Cote  d'Ivoire,  western  Mali  and  Guinea,  essentially  composed  of  the 
+equivalent volcanic products but geochronologically younger at approximately 2105 Ma (U-Pb zircon) 
+(Hirdes et al., 1996). Despite  these  investigations,  surprisingly  little  research  has  been  conducted  on  the  volcanic 
+sequences  at  the  scale  of  one  or  several  belts  in  West  Africa. Few  studies  have  been  conducted  on 
+volcanic facies and metal potential in terms of base metals and Mn mineralisation, but delineating the 
+volcanic facies and alteration zones  of volcanic belts can help in identifying and targeting volcanic-
+related mineral deposits. For example, the Mount Reid volcanics in western Tasmania and the Abitibi 
+greenstone  belt  of  central  Canada  are  both  regions  where  volcanogenic  massive  sulphide 
+mineralization  has  been  found. Their  volcanic  facies  and  alteration  zones  are  well  understood, 
+providing spatial constraints to economic mineralization (McPhie et al., 1993; Piché and Jébrak 2006). Delineating facies is also important in developing tectonic models for volcanic terranes.",Canada,GPE,spacy
+2013_Peters.txt,18,"Distal 
+versus proximal facies and coherent versus volcaniclastic facies can be interpreted using lithological 
+relationships, volcanic textures and rock composition. For example, in the Tiebélé Dome in southern 
+Burkina  Faso  (Figure  1.1),  chert  and  manganese  horizons  act  as  marker  units  in  local  volcano-
+sedimentary belts (Melcher, 1995; Ilboudo, 2010). The chert and manganese units are intercalated with 
+Zn-rich  volcanic-hosted  massive  sulphide  (VHMS)  mineralization,  and  manganese  and  silica  were 
+leached  from  the  volcanic  rocks  during  hydrothermal  activity,  synchronous  to  volcanism,  and 
+concomitant to precipitation at the water-rock interface (Melcher, 1995), i.e., syn-volcanic exhalative 
+processes took place during eruption. Volcanic terranes are often complicated because volcanic and sedimentary processes work at the 
+same time (Cas and Wright, 1987; Lajoie and Stix, 1992) and volcanic and sedimentary rocks may be 
+juxtaposed  in  a  complicated  manner. However,  a  comprehensive  study  of  the  volcanology, 
+sedimentology and geochemistry of volcano-sedimentary belts can accurately reconstruct the volcanic 
+environment. This has been the focus of research in the southern Goren volcano-sedimentary belt (Figure 1.1) 
+where the stratigraphy is characterised by a conformable sequence of meta-sedimentary rocks that are 
+intercalated with basalt, andesite, dacite, pyroclastite and volcanic tuff, and carbonaceous and Mn-Fe  
+bearing shale (Hein et al., 2004; Hein, 2010).",Tiebélé Dome,LOC,spacy
+2013_Peters.txt,18,"Distal 
+versus proximal facies and coherent versus volcaniclastic facies can be interpreted using lithological 
+relationships, volcanic textures and rock composition. For example, in the Tiebélé Dome in southern 
+Burkina  Faso  (Figure  1.1),  chert  and  manganese  horizons  act  as  marker  units  in  local  volcano-
+sedimentary belts (Melcher, 1995; Ilboudo, 2010). The chert and manganese units are intercalated with 
+Zn-rich  volcanic-hosted  massive  sulphide  (VHMS)  mineralization,  and  manganese  and  silica  were 
+leached  from  the  volcanic  rocks  during  hydrothermal  activity,  synchronous  to  volcanism,  and 
+concomitant to precipitation at the water-rock interface (Melcher, 1995), i.e., syn-volcanic exhalative 
+processes took place during eruption. Volcanic terranes are often complicated because volcanic and sedimentary processes work at the 
+same time (Cas and Wright, 1987; Lajoie and Stix, 1992) and volcanic and sedimentary rocks may be 
+juxtaposed  in  a  complicated  manner. However,  a  comprehensive  study  of  the  volcanology, 
+sedimentology and geochemistry of volcano-sedimentary belts can accurately reconstruct the volcanic 
+environment. This has been the focus of research in the southern Goren volcano-sedimentary belt (Figure 1.1) 
+where the stratigraphy is characterised by a conformable sequence of meta-sedimentary rocks that are 
+intercalated with basalt, andesite, dacite, pyroclastite and volcanic tuff, and carbonaceous and Mn-Fe  
+bearing shale (Hein et al., 2004; Hein, 2010).",Ilboudo,GPE,spacy
+2013_Peters.txt,18,"Distal 
+versus proximal facies and coherent versus volcaniclastic facies can be interpreted using lithological 
+relationships, volcanic textures and rock composition. For example, in the Tiebélé Dome in southern 
+Burkina  Faso  (Figure  1.1),  chert  and  manganese  horizons  act  as  marker  units  in  local  volcano-
+sedimentary belts (Melcher, 1995; Ilboudo, 2010). The chert and manganese units are intercalated with 
+Zn-rich  volcanic-hosted  massive  sulphide  (VHMS)  mineralization,  and  manganese  and  silica  were 
+leached  from  the  volcanic  rocks  during  hydrothermal  activity,  synchronous  to  volcanism,  and 
+concomitant to precipitation at the water-rock interface (Melcher, 1995), i.e., syn-volcanic exhalative 
+processes took place during eruption. Volcanic terranes are often complicated because volcanic and sedimentary processes work at the 
+same time (Cas and Wright, 1987; Lajoie and Stix, 1992) and volcanic and sedimentary rocks may be 
+juxtaposed  in  a  complicated  manner. However,  a  comprehensive  study  of  the  volcanology, 
+sedimentology and geochemistry of volcano-sedimentary belts can accurately reconstruct the volcanic 
+environment. This has been the focus of research in the southern Goren volcano-sedimentary belt (Figure 1.1) 
+where the stratigraphy is characterised by a conformable sequence of meta-sedimentary rocks that are 
+intercalated with basalt, andesite, dacite, pyroclastite and volcanic tuff, and carbonaceous and Mn-Fe  
+bearing shale (Hein et al., 2004; Hein, 2010).",Lajoie,GPE,spacy
+2013_Peters.txt,18,"Distal 
+versus proximal facies and coherent versus volcaniclastic facies can be interpreted using lithological 
+relationships, volcanic textures and rock composition. For example, in the Tiebélé Dome in southern 
+Burkina  Faso  (Figure  1.1),  chert  and  manganese  horizons  act  as  marker  units  in  local  volcano-
+sedimentary belts (Melcher, 1995; Ilboudo, 2010). The chert and manganese units are intercalated with 
+Zn-rich  volcanic-hosted  massive  sulphide  (VHMS)  mineralization,  and  manganese  and  silica  were 
+leached  from  the  volcanic  rocks  during  hydrothermal  activity,  synchronous  to  volcanism,  and 
+concomitant to precipitation at the water-rock interface (Melcher, 1995), i.e., syn-volcanic exhalative 
+processes took place during eruption. Volcanic terranes are often complicated because volcanic and sedimentary processes work at the 
+same time (Cas and Wright, 1987; Lajoie and Stix, 1992) and volcanic and sedimentary rocks may be 
+juxtaposed  in  a  complicated  manner. However,  a  comprehensive  study  of  the  volcanology, 
+sedimentology and geochemistry of volcano-sedimentary belts can accurately reconstruct the volcanic 
+environment. This has been the focus of research in the southern Goren volcano-sedimentary belt (Figure 1.1) 
+where the stratigraphy is characterised by a conformable sequence of meta-sedimentary rocks that are 
+intercalated with basalt, andesite, dacite, pyroclastite and volcanic tuff, and carbonaceous and Mn-Fe  
+bearing shale (Hein et al., 2004; Hein, 2010).",Stix,GPE,spacy
+2013_Peters.txt,18,"Distal 
+versus proximal facies and coherent versus volcaniclastic facies can be interpreted using lithological 
+relationships, volcanic textures and rock composition. For example, in the Tiebélé Dome in southern 
+Burkina  Faso  (Figure  1.1),  chert  and  manganese  horizons  act  as  marker  units  in  local  volcano-
+sedimentary belts (Melcher, 1995; Ilboudo, 2010). The chert and manganese units are intercalated with 
+Zn-rich  volcanic-hosted  massive  sulphide  (VHMS)  mineralization,  and  manganese  and  silica  were 
+leached  from  the  volcanic  rocks  during  hydrothermal  activity,  synchronous  to  volcanism,  and 
+concomitant to precipitation at the water-rock interface (Melcher, 1995), i.e., syn-volcanic exhalative 
+processes took place during eruption. Volcanic terranes are often complicated because volcanic and sedimentary processes work at the 
+same time (Cas and Wright, 1987; Lajoie and Stix, 1992) and volcanic and sedimentary rocks may be 
+juxtaposed  in  a  complicated  manner. However,  a  comprehensive  study  of  the  volcanology, 
+sedimentology and geochemistry of volcano-sedimentary belts can accurately reconstruct the volcanic 
+environment. This has been the focus of research in the southern Goren volcano-sedimentary belt (Figure 1.1) 
+where the stratigraphy is characterised by a conformable sequence of meta-sedimentary rocks that are 
+intercalated with basalt, andesite, dacite, pyroclastite and volcanic tuff, and carbonaceous and Mn-Fe  
+bearing shale (Hein et al., 2004; Hein, 2010).",Hein,GPE,spacy
+2013_Peters.txt,19,"1.2. Location and physiography 
+Burkina  Faso  is  situated in  West  Africa  and is  bordered  by  Ghana,  Benin, Togo,  Mali,  Niger 
+and Côte d’Ivoire. It is a landlocked country that covers an area of 274 300 km2. It lies mostly in the 
+Sahel climatic zone. The  Sahelian  zone  is  characterized  by  hot  and  arid  conditions. Burkina  Faso  has  an  average 
+daily temperature of 32° C and less than 25 cm of rainfall annually, particularly in the northern and 
+northeastern regions (McFarland et al., 1998).",Benin,GPE,spacy
+2013_Peters.txt,19,"1.2. Location and physiography 
+Burkina  Faso  is  situated in  West  Africa  and is  bordered  by  Ghana,  Benin, Togo,  Mali,  Niger 
+and Côte d’Ivoire. It is a landlocked country that covers an area of 274 300 km2. It lies mostly in the 
+Sahel climatic zone. The  Sahelian  zone  is  characterized  by  hot  and  arid  conditions. Burkina  Faso  has  an  average 
+daily temperature of 32° C and less than 25 cm of rainfall annually, particularly in the northern and 
+northeastern regions (McFarland et al., 1998).",McFarland,GPE,spacy
+2013_Peters.txt,19,"Two seasons are predominant in Burkina Faso, namely 
+the wet and dry seasons. The dry season occurs from October to May, which is followed by the wet 
+season from June until September (Bierschenk, 1968; McFarland et al., 1998). Geographically,  the  capital  city  of  Ouagadougou  is  situated  at  the  centre  of  the  country. The 
+Goren  volcano-sedimentary  belt  is  located  in  the  Sanmatenga  district. The  belt  is  elongate  and 
+northwest-trending and extends from the towns of Kaya to Kongossi (Figure 1.1). The town of Kaya is 
+approximately 90 km northeast of Ouagadougou and lies at the southeastern end of the belt.",Sanmatenga,GPE,spacy
+2013_Peters.txt,19,"Kongossi 
+is 60 km from Kaya and lies at the northeastern end of the belt. The belt is composed of two 100 km 
+parallel  branches  that  are  characterized  by  topographic  highs;  the  branches  are  separated  by  a 
+relatively flat lying region up to 20 km wide. An extensive ferricrete profile covers the GB as is typical for the West African craton in general 
+(Brown  et  al.,  1994;  Beauvais  et  al.,  2008). The  ferricrete  formed  during  the  Cretaceous  Period  but 
+was remobilised during the Palaeogene-Neogene in discrete erosion events, with 40Ar/39Ar dates of 59-
+45 Ma, 29-18 Ma, 18-11 Ma, 6 Ma and 3 Ma (Brown et al., 1994; Beauvais et al., 2008). The last three 
+erosional  periods  were  responsible  for  the  formation  of  distinct  three-level  pediment  surfaces  seen 
+throughout the GB (WAXI, 2013). 1.3.",Palaeogene-Neogene,FAC,spacy
+2013_Peters.txt,20,"1.4. Conventions and Acronyms 
+The  referencing  style  adopted  in  this  thesis  is  the  Harvard  style,  used  by  the  South  African 
+Journal of Geology (SAJG). The conventions and acronyms used in this thesis include: 
+CIPW - Cross, Iddings, Pirsson, Washington 
+GB - Goren volcano-sedimentary belt 
+GPS - Global Positioning System 
+HFSE - High Field Strength Elements 
+HREE - Heavy Rare Earth Element 
+IAT – Intra-Arc Tholeiites 
+ICPMS - Inductively Coupled Plasma Mass Spectrometry 
+LILE - Large Ion Lithophile Elements 
+LREE - Light Rare Earth Element 
+MORB - Mid-Ocean Ridge Basalts 
+N-MORB - Normal MORB 
+OFB - Oceanic Flood Basalts 
+OGB - Oudalan-Gorouol belt 
+REE - Rare Earth Element 
+TTG -Trondjemite, Tonalite, Granodiorite 
+VHMS – Volcanic Hosted Massive Sulphide 
+WAC - West African Craton 
+XRF - X-Ray Fluorescence 
+1.5. Thesis Organisation 
+This thesis is organisation into eight chapters including the Introduction as follows:- 
+(1) Chapter Two provides a review of the geology  of West Africa, volcanology and volcanic-related 
+ore deposits. Specific focus is given to the volcanic rocks of Burkina Faso. (2) Chapter Three provides a detailed description of the methodologies used in this thesis.",Washington,GPE,spacy
+2013_Peters.txt,21,"1.6. Limitations of the study 
+A major limitation to this study  was the inability to continue fieldwork as a result of political 
+instability and war in the neighbouring country of Mali from February to April 2013; foreigners were 
+restricted  from  access  to  Burkina  Faso  north  of  the  13  Parallel  (Figure  1.1),  or  advised  against 
+unnecessary  travel. The  result  was  a  smaller  sample  suite  and  smaller  mapping  area. However,  a 
+comparative geochemical study was undertaken using data for volcanic samples from various volcano-
+sedimentary belts in Burkina Faso as an expanded study. 21",Mali,GPE,spacy
+2013_Peters.txt,22,"2. REVIEW OF WEST AFRICAN GEOLOGY 
+2.1. Stratigraphy 
+The West African Craton (WAC) is made up of Archaean and Palaeoproterozoic rocks and is 
+divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south  (Thiéblemont  et  al., 
+2004)  (Figure  1.1). The  Leo-Man  consists  of  two  domains,  namely  the  Archaean  Kénema-Man 
+domain  (3.54  Ga)  in  the  southwest  and the  Palaeoproterozoic  Baoulé-Mossi  domain  (2.3-1.8  Ga)  in 
+the  east  (Feybesse  et  al.,  2006),  with  the  exception  of  the  Kénieba-  Kédougou  and  Kayes  Inliers, 
+located  between  Mali  and  Senegal  (Figure  1.1). The  Birimian  Supergroup  makes  up  part  of  the 
+Baoulé-Mossi  domain  and  was  deposited  ca. 2.3  Ga  (Feybesse  et  al.,  2006;  Pawlig  et  al.,  2006).",Archaean and Palaeoproterozoic,LOC,spacy
+2013_Peters.txt,23,"older  than  the  calc-alkaline  series  of  lavas  for  the  Boromo,  Houndé  and  Banfora  belts. However, 
+craton-wide studies by WAXI (2013) indicated that the stratigraphic order of volcanic rocks cannot be 
+generalised  (some  belts  do  not  host  tholeiitic  and/or  calc-alkaline  volcanic  rocks)  and  thus  the 
+stratigraphy of each greenstone belt must be established independently. 2.2. Granitoid and dolerite emplacement 
+The emplacement of tonalite-trondjemite-granodiorite (TTG) plutons and granites in the WAC 
+is restricted to 2200, 2160-2130 and 2100-2070 Ma according to Pawlig et al. (2006) and Gueye et al. (2008).",Pawlig,GPE,spacy
+2013_Peters.txt,23,"A swarm of WNW and NW-trending dolerite dykes crosscut the WAC including the GB. They 
+are genarlly composed of plagioclase, clinopyroxene and magnetite and are currently dated at 215 ± 15 
+Ma (K-Ar whole-rock age) (Hottin and Ouedraogo, 1992). 2.3. Metamorphism and deformation 
+The Birimian Supergroup in northern Burkina Faso underwent deformation during the Tangaean 
+Event (2170-2150 Ma) (Tshibubudze et al., 2009; Hein, 2010; Tshibubudze and Hein, 2013) as well as 
+craton-wide deformation associated with regional metamorphism during the Eburnean Orogeny (2145-
+2100 Ma) (Hein et al., 2004;  Feybesse et al., 2006; Hein, 2010;  Baratoux et al., 2011; Tshibubudze 
+and Hein, 2013; WAXI, 2013), and deformation during the Wabo-Tampelse Event (undated) (Hein et 
+al., 2004; Hein, 2010; Baratoux et al., 2011). Metamorphic grades during the Tangaean reached lower 
+23",Ouedraogo,GPE,spacy
+2013_Peters.txt,23,"A swarm of WNW and NW-trending dolerite dykes crosscut the WAC including the GB. They 
+are genarlly composed of plagioclase, clinopyroxene and magnetite and are currently dated at 215 ± 15 
+Ma (K-Ar whole-rock age) (Hottin and Ouedraogo, 1992). 2.3. Metamorphism and deformation 
+The Birimian Supergroup in northern Burkina Faso underwent deformation during the Tangaean 
+Event (2170-2150 Ma) (Tshibubudze et al., 2009; Hein, 2010; Tshibubudze and Hein, 2013) as well as 
+craton-wide deformation associated with regional metamorphism during the Eburnean Orogeny (2145-
+2100 Ma) (Hein et al., 2004;  Feybesse et al., 2006; Hein, 2010;  Baratoux et al., 2011; Tshibubudze 
+and Hein, 2013; WAXI, 2013), and deformation during the Wabo-Tampelse Event (undated) (Hein et 
+al., 2004; Hein, 2010; Baratoux et al., 2011). Metamorphic grades during the Tangaean reached lower 
+23",Tangaean Event,FAC,spacy
+2013_Peters.txt,23,"A swarm of WNW and NW-trending dolerite dykes crosscut the WAC including the GB. They 
+are genarlly composed of plagioclase, clinopyroxene and magnetite and are currently dated at 215 ± 15 
+Ma (K-Ar whole-rock age) (Hottin and Ouedraogo, 1992). 2.3. Metamorphism and deformation 
+The Birimian Supergroup in northern Burkina Faso underwent deformation during the Tangaean 
+Event (2170-2150 Ma) (Tshibubudze et al., 2009; Hein, 2010; Tshibubudze and Hein, 2013) as well as 
+craton-wide deformation associated with regional metamorphism during the Eburnean Orogeny (2145-
+2100 Ma) (Hein et al., 2004;  Feybesse et al., 2006; Hein, 2010;  Baratoux et al., 2011; Tshibubudze 
+and Hein, 2013; WAXI, 2013), and deformation during the Wabo-Tampelse Event (undated) (Hein et 
+al., 2004; Hein, 2010; Baratoux et al., 2011). Metamorphic grades during the Tangaean reached lower 
+23",Eburnean Orogeny,FAC,spacy
+2013_Peters.txt,23,"A swarm of WNW and NW-trending dolerite dykes crosscut the WAC including the GB. They 
+are genarlly composed of plagioclase, clinopyroxene and magnetite and are currently dated at 215 ± 15 
+Ma (K-Ar whole-rock age) (Hottin and Ouedraogo, 1992). 2.3. Metamorphism and deformation 
+The Birimian Supergroup in northern Burkina Faso underwent deformation during the Tangaean 
+Event (2170-2150 Ma) (Tshibubudze et al., 2009; Hein, 2010; Tshibubudze and Hein, 2013) as well as 
+craton-wide deformation associated with regional metamorphism during the Eburnean Orogeny (2145-
+2100 Ma) (Hein et al., 2004;  Feybesse et al., 2006; Hein, 2010;  Baratoux et al., 2011; Tshibubudze 
+and Hein, 2013; WAXI, 2013), and deformation during the Wabo-Tampelse Event (undated) (Hein et 
+al., 2004; Hein, 2010; Baratoux et al., 2011). Metamorphic grades during the Tangaean reached lower 
+23",Wabo-Tampelse Event,FAC,spacy
+2013_Peters.txt,24,"greenschist facies at most (WAXI, 2013). Regional metamorphism in the Eburnean Orogeny attained 
+greenschist  facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996)  with  the 
+development of chlorite, muscovite, epidote and actinolite mineral assemblages, and low to medium 
+grade amphibolite facies with the introduction of hornblende (Bossière et al., 1996; Béziat et al., 2000; 
+Debat et al., 2003; Naba et al., 2004). Granulite facies metamorphic rocks  crop out in the Oudalan-
+Gorouol belt on the margin of the Dori batholith in the Gorom Gorom region (Tshibubudze and Hein, 
+2013), and in the Pissila batholith in the Saaba region (Simoko, 2012). Three deformation events are recognised in northeast Burkina Faso: 
+(1)  D1  (Tangaean  Event)  resulted  in  NW-trending  dextral  reverse  shear  zones,  folds  and  an  S1 
+foliation. The  shortening  direction  was  SW-directed  (Tshibubudze  et  al.,  2009;  Hein,  2010; 
+Tshibubudze  and  Hein,  2013). D1  is  recognised  in  northern  Ghana  by  de  Kock  et  al.",Gorom Gorom,GPE,spacy
+2013_Peters.txt,24,"greenschist facies at most (WAXI, 2013). Regional metamorphism in the Eburnean Orogeny attained 
+greenschist  facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996)  with  the 
+development of chlorite, muscovite, epidote and actinolite mineral assemblages, and low to medium 
+grade amphibolite facies with the introduction of hornblende (Bossière et al., 1996; Béziat et al., 2000; 
+Debat et al., 2003; Naba et al., 2004). Granulite facies metamorphic rocks  crop out in the Oudalan-
+Gorouol belt on the margin of the Dori batholith in the Gorom Gorom region (Tshibubudze and Hein, 
+2013), and in the Pissila batholith in the Saaba region (Simoko, 2012). Three deformation events are recognised in northeast Burkina Faso: 
+(1)  D1  (Tangaean  Event)  resulted  in  NW-trending  dextral  reverse  shear  zones,  folds  and  an  S1 
+foliation. The  shortening  direction  was  SW-directed  (Tshibubudze  et  al.,  2009;  Hein,  2010; 
+Tshibubudze  and  Hein,  2013). D1  is  recognised  in  northern  Ghana  by  de  Kock  et  al.",Pissila,GPE,spacy
+2013_Peters.txt,24,"greenschist facies at most (WAXI, 2013). Regional metamorphism in the Eburnean Orogeny attained 
+greenschist  facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996)  with  the 
+development of chlorite, muscovite, epidote and actinolite mineral assemblages, and low to medium 
+grade amphibolite facies with the introduction of hornblende (Bossière et al., 1996; Béziat et al., 2000; 
+Debat et al., 2003; Naba et al., 2004). Granulite facies metamorphic rocks  crop out in the Oudalan-
+Gorouol belt on the margin of the Dori batholith in the Gorom Gorom region (Tshibubudze and Hein, 
+2013), and in the Pissila batholith in the Saaba region (Simoko, 2012). Three deformation events are recognised in northeast Burkina Faso: 
+(1)  D1  (Tangaean  Event)  resulted  in  NW-trending  dextral  reverse  shear  zones,  folds  and  an  S1 
+foliation. The  shortening  direction  was  SW-directed  (Tshibubudze  et  al.,  2009;  Hein,  2010; 
+Tshibubudze  and  Hein,  2013). D1  is  recognised  in  northern  Ghana  by  de  Kock  et  al.",Saaba,GPE,spacy
+2013_Peters.txt,24,"greenschist facies at most (WAXI, 2013). Regional metamorphism in the Eburnean Orogeny attained 
+greenschist  facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996)  with  the 
+development of chlorite, muscovite, epidote and actinolite mineral assemblages, and low to medium 
+grade amphibolite facies with the introduction of hornblende (Bossière et al., 1996; Béziat et al., 2000; 
+Debat et al., 2003; Naba et al., 2004). Granulite facies metamorphic rocks  crop out in the Oudalan-
+Gorouol belt on the margin of the Dori batholith in the Gorom Gorom region (Tshibubudze and Hein, 
+2013), and in the Pissila batholith in the Saaba region (Simoko, 2012). Three deformation events are recognised in northeast Burkina Faso: 
+(1)  D1  (Tangaean  Event)  resulted  in  NW-trending  dextral  reverse  shear  zones,  folds  and  an  S1 
+foliation. The  shortening  direction  was  SW-directed  (Tshibubudze  et  al.,  2009;  Hein,  2010; 
+Tshibubudze  and  Hein,  2013). D1  is  recognised  in  northern  Ghana  by  de  Kock  et  al.",Simoko,GPE,spacy
+2013_Peters.txt,27,"3. METHODOLOGY 
+3.1. Field Methods 
+A  desktop  study  of  the  field  area  was  completed  using  high  resolution  satellite  imagery  from 
+Google Earth  ® prior to fieldwork. The images were studied in order to determine the most efficient 
+way  to  undertake  mapping,  reconnaissance  work,  identifying  possible  sample  location  sites  and 
+possible  traverse  lines. Geological  mapping  focused  on  contacts,  structures,  facies  delineation  and 
+volcanic  textures. The  purpose  was  to  create  geological  and  facies  maps  (Figure  3.1  and  3.2)  with 
+relevant cross sections (Figure 3.2) and graphic logs of field traverses (Figure B1 and B2, Appendix 
+B).",Google Earth,LOC,spacy
+2013_Peters.txt,30,"Hyaloclastites 
+and flow breccias indicate autoclastic facies, which often occur  near coherent lavas (Lajoie and Stix, 
+1992). Lavas can develop numerous textures, most because of cooling, such as those observed in the 
+GB (e.g., hyaloclastites, jointing and volcanic glass). For  example,  the  greenschist  facies  Mt  Reid  volcanics  of  western  Tasmania  yield  fairly  well 
+preserved volcanic textures where the rocks are not strongly altered by hydrothermal processes and/or 
+deformed  (McPhie  and  Allen,  2003). An  example  of  this  is  the  devitrification  of  volcanic  glass,  as 
+described  by  McPhie  and  Allen  (op  cit.,  2003);  crystal  boundaries  remain  intact  and  the  glass 
+recrystallises as zeolites with a minor proportion of clay minerals. As a further example, metamorphosed Triassic basalt lavas in NW Croatia were interpreted as 
+proximal  to intermediate  facies  by  Palinkaš  et  al. (2008)  based  on  volcanic textures  such  as  closely 
+packed  pillows,  hyaloclastite,  pepperite  and  tortoise-shell  jointing.",NW Croatia,LOC,spacy
+2013_Peters.txt,30,"(1996), and McPhie and Allen (2003) in analysing volcanic facies in 
+detail to establish the environments of deposition, have been used in this research. 3.2. Laboratory Methods 
+X-ray  fluorescence  (XRF)  and  inductively  coupled  plasma  mass  spectrometry  (ICPMS) 
+analyses  were  completed  at  the  Earth  Lab  at  the  University  of  the  Witwatersrand,  Johannesburg. Twenty-nine (29) samples were analised. The XRF analyses were able to determine the composition 
+of  each  sample  in  terms  of  major  and  minor  elements. ICP-MS  analyses  were  completed  to 
+specifically  measure  the  composition  of  minor  and  trace  elements.",Witwatersrand,GPE,spacy
+2013_Peters.txt,30,"(1996), and McPhie and Allen (2003) in analysing volcanic facies in 
+detail to establish the environments of deposition, have been used in this research. 3.2. Laboratory Methods 
+X-ray  fluorescence  (XRF)  and  inductively  coupled  plasma  mass  spectrometry  (ICPMS) 
+analyses  were  completed  at  the  Earth  Lab  at  the  University  of  the  Witwatersrand,  Johannesburg. Twenty-nine (29) samples were analised. The XRF analyses were able to determine the composition 
+of  each  sample  in  terms  of  major  and  minor  elements. ICP-MS  analyses  were  completed  to 
+specifically  measure  the  composition  of  minor  and  trace  elements.",Johannesburg,GPE,spacy
+2013_Peters.txt,32,"The  elemental  concentrations  were  obtained  by  comparison  to  13  known  standards. The 
+standards used included W2, GSP1, BHVO2, AGV2, G2, DTS1, PCC1, BCR2, NIM N, NIM P, NIM 
+S, NIM D, NIM G (Govindaraju, 1994). A synthetic internal standard was run after every 5 analyses to 
+monitor  and  compensate  for  instrumental  drift. Agreement  to  recommended  values  was  better  than 
+0·7% for all major elements and 5% for trace elements. All trace elements were analysed for pressed pellet. The preparation of the pressed pellet was 
+achieved  by  mixing  approximately  6g  of  sample  with  three  drops  of  4%  commercially  purchased 
+Mowiol (polyvinyl alcohol).",DTS1,GPE,spacy
+2013_Peters.txt,32,"The known standards 
+used were AGV2, BHVO2, GSP2, NIM D and NIM S (Govindaraju, 1994). 3.2.2. Summary of ICP-MS analyses 
+The  methodology  for  ICP  data  is  taken  from  the  Earth  Lab  at  the  University  of  the 
+Witwatersrand,  Johannesburg. The  samples  were  prepared  in  a  clean  laboratory,  which  had  special 
+HEPA filters, along with other filters that remove all airborne contaminants. Samples were dissolved 
+in a MARS microwave digester. 50mg of sample was added to 6ml HF/HNO3 (3:2) and placed into the microwave digester at 
+235 C  and  450  PSI,  for  40  minutes.",Mars,FAC,spacy
+2013_Peters.txt,33,"Maps and images 
+Google  Earth®,  ArcGIS®  10,  Corel  Draw®  9  and  Adobe  Illustrator®  CS  2  were  used  to  create 
+maps and images. Station points were imported from a Garmin Etrex-high sensitivity hand-held GPS 
+device  to  Google  Earth®. This  process  was  done  during  field  work  as  it  assisted  with  daily  field 
+planning. A mosaic of the field area was created using Google Earth  ® satellite imagery. The mosaic 
+was  imported  into  ArcGIS®,  then  geo-referenced  to  the  WGS84  UTM  co-ordinate  system  for  UTM 
+Zone 30. Grid lines were added in ArcGIS®.",Google Earth ®,LOC,spacy
+2013_Peters.txt,33,"Maps and images 
+Google  Earth®,  ArcGIS®  10,  Corel  Draw®  9  and  Adobe  Illustrator®  CS  2  were  used  to  create 
+maps and images. Station points were imported from a Garmin Etrex-high sensitivity hand-held GPS 
+device  to  Google  Earth®. This  process  was  done  during  field  work  as  it  assisted  with  daily  field 
+planning. A mosaic of the field area was created using Google Earth  ® satellite imagery. The mosaic 
+was  imported  into  ArcGIS®,  then  geo-referenced  to  the  WGS84  UTM  co-ordinate  system  for  UTM 
+Zone 30. Grid lines were added in ArcGIS®.",ArcGIS®,FAC,spacy
+2013_Peters.txt,33,"The image was exported to CorelDraw® where polygons 
+and  lines  were  overlain. The  polygons  and  lines  represented  the  lithologies,  structure  and 
+infrastructure  (Figure  3.1). Adobe  Illustrator®  was  used  to  create  the  facies  map  (Figure  3.2),  facies 
+model (Figure 7.1), and other schematic diagrams. Microsoft Publisher® 2010 was used to edit and format all geochemical graphs (refer to Figures 
+6.1-6.18),  after  they  were  created  in  Sigma  Plot®  version  11.0  and  Microsoft  Excel®  2010. All 
+calculations  concerning  the  geochemical  data  were  completed  in  Excel®. The  calculated  data  were 
+33",Sigma,GPE,spacy
+2013_Peters.txt,36,"Hyaloclastite breccia dominates in units of loosely packed pillows (Figure 4.2a). Pillow lavas are abundant throughout the study area, particularly in the western arm of the GB 
+between the Mané road and the Kaya-Ouagadougou national highway. The pillows range in size from 
+10 to 100 cm across. 36",Kaya-Ouagadougou,FAC,spacy
+2013_Peters.txt,38,"Flow  banding  occurs. The  bands  measure  ~1  cm  in  thickness  (Figure  4.4a). The  bands  are 
+mineralogically controlled, as observed by the colour of each band. Leucocratic bands are plagioclase-
+rich whereas melanocratic bands are epidote-chlorite rich. The basalt units south-east of the Mané Road and adjacent to the Sirgui artisanal mine (Figure 
+2.1)  are  texturally  well-preserved. They  not  only  show  well-defined  pillow  basalts,  but  a  variety  of 
+features  related  to  flow  and  cooling.",Mané Road,FAC,spacy
+2013_Peters.txt,38,"This  includes  hyaloclastite  (Figure  4.4b),  jointing  and  flow 
+banding. Differential  weathering  exposed  large  plagioclase  crystals  (0.5-1.2  cm)  which  stand  out 
+outcrop (Figure 4.1). Variolitic  basalts  crop  out  between  Mané  and  the  Silimidougou  megacrystic  granite  and  in 
+isolated outcrops in the Tangapella region, in the central northern GB (Figure 2.1). The varioles are 
+approximately 0.5-2.0 cm in diameter and composed of plagioclase feldspar crystals. 38",Silimidougou,GPE,spacy
+2013_Peters.txt,44,"4.4.3. Loudo granodiorite 
+The Loudo granodiorite crops out south of Kaya in the study area. It was described by Hein et 
+al. (2004)  as  hornblende  granodiorite  with  a  plagioclase,  quartz,  hornblende,  K-feldspar,  biotite 
+groundmass. It hosts mafic xenoliths that vary in size and shape. The southern contact crops out south 
+of the town of Loudo where it intrudes basalt.",Loudo,GPE,spacy
+2013_Peters.txt,45,"5. PETROGRAPHIC  OBSERVATIONS  OF  SELECTED  SAMPLES  FROM  THE 
+GOREN BELT 
+5.1. Basaltic rocks 
+A  petrographic  study  of  28  basalt  samples  was  completed  at  the  University  of  the 
+Witwatersrand Johannesburg. The  petrography  shows  that  the  basaltic  rocks  are  dominantly  aphyric 
+and  compositionally  similar. The  primary  mineralogy  of  the  samples  is  composed  of  clinopyroxene 
+and  plagioclase. Plagioclase  and  clinopyroxene  made  up  between  5  and  15  %  of  the  samples  as 
+variably altered microlites (Figure 5.1a).",Witwatersrand Johannesburg,FAC,spacy
+2013_Peters.txt,55,"Confirmation of secondary 
+silica was therefore determined by petrographic analyses of the samples (Chapter 5). A classification diagram using the  immobile element ratios of Nb/Y plotted against Zr/TiO2 x 
+0.0001 after Winchester and Floyd (1976) was plotted for the GB volcanic rocks  (Figure 6.1b). The 
+samples plot well within the basalt field with the  exception of  Sample G12-02-126, which straddles 
+the boundary between the basalt and basaltic andesite fields. A total alkalis versus silica (TAS) diagram (after Le Maitre et al., 1989) plots samples within 
+the basalt, basaltic andesite and andesite fields (Figure 6.1c). The TAS diagram indicates that the rocks 
+are  sub-alkaline  (tholeiitic)  in  composition. A  comparison  of  the  GB  samples  with  the  Boromo-
+Houndé  volcanics  reported  by  Baratoux  et  al.",Le Maitre,FAC,spacy
+2013_Peters.txt,55,"The Tiebélé samples (HTPILL and HTBA), 
+which had been classified as basaltic rocks by Ilboudo (2010),show high Na2O+K2O values (up to ~6 
+and  10  wt%)  and  plot  as  tephrite/basanite  and  trachyandesite,  respectively. Sample  HTGOGO  from 
+the Tiebélé region, plots as an alkaline volcanic rock in the basalt field. The highest K2O+Na2O value 
+from  the  Tiebélé  samples  is  9.86  wt%. The  GB  samples  show  a  maximum  K2O+Na2O  value  of  4.7 
+wt%. A  further  sub-division  of sub-alkalic  rocks  is  shown using  SiO2  versus K2O  in wt% in  Figure 
+6.1d. Le Maitre et al.",Le Maitre et,FAC,spacy
+2013_Peters.txt,59,"The MgO-Na2O plot  (Figure 6.2g) displays the Na2O concentration increasing  with respect to 
+MgO. This  is  interpreted  to  be  the  result  of  the  crystallization  of  the  Na-rich  end-members  of 
+plagioclase,  i.e.,  albite. Albite  tends  to  crystallise  at  lower  temperatures  compared  to  the  Ca-rich 
+anorthite (Orville, 1972); however, it is evident from the trend that most Na2O would have remained in 
+the liquid. The MgO-P2O5 plot also resolves an increasing trend as MgO decreased (Figure 6.2h). This 
+indicates  that  phosphate  minerals  did  not  crystallise  in  any  significant  way. The  MgO-FeO  plot 
+(Figure 6.2i) resolves an increasing FeO trend, which is typical of a liquid in which MgO fractionates 
+first.",Orville,GPE,spacy
+2013_Peters.txt,61,"Such 
+anomalies  are  reported  by  Saunders  and  Tarney  (1984)  and  Väisänen  and  Westerlund  (2007)  for 
+tholeiitic  basalts  from  modern  back-arc  and  Palaeoproterozoic  terranes  in  Finland. Tectonic 
+environments can in some cases be deduced by HFSE concentrations such as Ti, Ta and Nb. The calc-
+alkaline  rocks  from  the  Boromo-Houndé  belts  were  plotted  against  the  GB  samples,  while  still 
+normalised  to  N-MORB  (Figure  6.5b). Enrichment  in  Rb,  Ba  and  Th  was  noted  relative  to  the  GB 
+samples, as well as negative Ti and P anomalies. The calc-alkaline samples from the Boromo-Houndé 
+belts did not show Nb or Ta anomalies. 61",Väisänen,GPE,spacy
+2013_Peters.txt,61,"Such 
+anomalies  are  reported  by  Saunders  and  Tarney  (1984)  and  Väisänen  and  Westerlund  (2007)  for 
+tholeiitic  basalts  from  modern  back-arc  and  Palaeoproterozoic  terranes  in  Finland. Tectonic 
+environments can in some cases be deduced by HFSE concentrations such as Ti, Ta and Nb. The calc-
+alkaline  rocks  from  the  Boromo-Houndé  belts  were  plotted  against  the  GB  samples,  while  still 
+normalised  to  N-MORB  (Figure  6.5b). Enrichment  in  Rb,  Ba  and  Th  was  noted  relative  to  the  GB 
+samples, as well as negative Ti and P anomalies. The calc-alkaline samples from the Boromo-Houndé 
+belts did not show Nb or Ta anomalies. 61",Finland,GPE,spacy
+2013_Peters.txt,68,"The GB tholeiitic basalts and the Boromo-Houndé calc-alkaline lavas areplotted in Figure 6.6c 
+and  demonstrated  a  noticeable  enrichment  in  LREE  relative  to  HREE  for  the  calc-alkaline  volcanic 
+rocks. The La values vary between 21 and 60 times chondrites, all of which were larger than the GB 
+La values. The (La/Yb)CHON for the GB tholeiitic basalts range from 0.65 to 3.14, whereas the ratio for 
+the calc-alkaline volcanics range from 2.44-5.27. A large enrichment indicates a slightly more evolved 
+melt,  typical  of  calc-alkaline  compositions  (Saunders  and  Tarney,  1984),  as  would  be  expected. Negative Eu anomalies are observed for samples H03 and H09, which are significantly larger than that 
+of  the  tholeiitic  basalts. This  suggests  that  either  more  plagioclase  retention  occurred  in  the  residue 
+during melting or plagioclase fractionation occurred and was then removed.",H03,GPE,spacy
+2013_Peters.txt,72,"They  are  associated  with  low 
+discharge rates of magma and/or extrusion onto low gradient slopes (Griffiths and Fink, 1992). Pillow 
+lavas of the southern GB are interpreted to have formed in relatively shallow water, due to their high 
+vesicle abundance, and perhaps only a few hundred meters water depth (cf. Jones, 1969). The vesicles 
+indicate  movement  of  gas  toward  flow  boundaries,  particularly  the  top  of  flow  units;  for  example, 
+Archaean subaqueous basalts in Quebec were identified by Dimroth et al. (1978) with an abundance of 
+vesicles  positioned  towards  the  upper  margins  of  flow  units  and  less  abundant  in  the  flow/pillow 
+interior. However, the accumulation of vesicles is not unique to subaqueous flows.",Quebec,GPE,spacy
+2013_Peters.txt,74,"Although  considered  rare  in  mafic,  non-viscous  lavas,  flow 
+banding has been recorded in the Archaean Barberton greenstone belt of South Africa (Robbins et al., 
+2010) and occurs in the southern Bouroum belt in Burkina Faso (WAXI, 2013) (Figure 1.1). The  coherent  and  autoclastic  units  of  the  study  area  formed  as  a  result  of  effusive  eruptions. Effusive eruptions are typical of basaltic liquids, particularly when submerged beneath the confining 
+water column. Effusive eruptions are characterized by the ability of lava to flow (low viscosity) rather 
+than explode (Parfitt and Wilson, 2008) because volatiles escape passively through vesicle formation 
+(McPhie et al., 1993; Bardintzeff and McBirney, 2000; Parfitt and Wilson, 2008). The  coherent  and  autoclastic  facies  are  interpreted  to  have  formed  proximally  to  the  volcanic 
+source. However, because basaltic lavas have low viscosities, they are able to flow laterally between 
+tens and hundreds of metres before solidification.",South Africa,GPE,spacy
+2013_Peters.txt,74,"Although  considered  rare  in  mafic,  non-viscous  lavas,  flow 
+banding has been recorded in the Archaean Barberton greenstone belt of South Africa (Robbins et al., 
+2010) and occurs in the southern Bouroum belt in Burkina Faso (WAXI, 2013) (Figure 1.1). The  coherent  and  autoclastic  units  of  the  study  area  formed  as  a  result  of  effusive  eruptions. Effusive eruptions are typical of basaltic liquids, particularly when submerged beneath the confining 
+water column. Effusive eruptions are characterized by the ability of lava to flow (low viscosity) rather 
+than explode (Parfitt and Wilson, 2008) because volatiles escape passively through vesicle formation 
+(McPhie et al., 1993; Bardintzeff and McBirney, 2000; Parfitt and Wilson, 2008). The  coherent  and  autoclastic  facies  are  interpreted  to  have  formed  proximally  to  the  volcanic 
+source. However, because basaltic lavas have low viscosities, they are able to flow laterally between 
+tens and hundreds of metres before solidification.",Bouroum,GPE,spacy
+2013_Peters.txt,75,"the GB basalts could have extended into an intermediate facies, further away from the volcanic  vent 
+from which they were erupted. 7.1.2. Sedimentary rocks of the south Goren belt 
+Conformable  sedimentary  sequences  are  intercalated  with  basalt  flows  in  the  stratigraphic 
+sequence  of  the  southern  GB. These  include  Mn-Fe-rich  carbonaceous  sediments,  siltstone, 
+volcaniclastite, volcanogenic greywacke and a discrete pyroclastic breccia deposit. Mn-Fe-rich  carbonaceous  sedimentary  rocks  are  common  in  the  southern  GB  (Section  4.3.5; 
+Hein  et  al.,  2004)  and,  in  fact,  throughout  the  WAC  (Section  1.1;  Blanchot  et  al.,  1972;  Béssoles, 
+1977; Wright, 1985; Neumann, 1988; Leube et al., 1990; Melcher, 1995; Kříbek et al., 2008; Beauvais 
+et al., 2008). They are also reported from a number of Palaeoproterozoic terranes in India (Roy, 1968; 
+1973,  1981;  Roy  and  Purkait,  1968),  Guyana  (Choubert,  1973)  and  South  Africa  (Gutzmer  and 
+Buekes, 1996; Eriksson et al., 1993; Beyeme Zogo, 2010).",India,GPE,spacy
+2013_Peters.txt,75,"the GB basalts could have extended into an intermediate facies, further away from the volcanic  vent 
+from which they were erupted. 7.1.2. Sedimentary rocks of the south Goren belt 
+Conformable  sedimentary  sequences  are  intercalated  with  basalt  flows  in  the  stratigraphic 
+sequence  of  the  southern  GB. These  include  Mn-Fe-rich  carbonaceous  sediments,  siltstone, 
+volcaniclastite, volcanogenic greywacke and a discrete pyroclastic breccia deposit. Mn-Fe-rich  carbonaceous  sedimentary  rocks  are  common  in  the  southern  GB  (Section  4.3.5; 
+Hein  et  al.,  2004)  and,  in  fact,  throughout  the  WAC  (Section  1.1;  Blanchot  et  al.,  1972;  Béssoles, 
+1977; Wright, 1985; Neumann, 1988; Leube et al., 1990; Melcher, 1995; Kříbek et al., 2008; Beauvais 
+et al., 2008). They are also reported from a number of Palaeoproterozoic terranes in India (Roy, 1968; 
+1973,  1981;  Roy  and  Purkait,  1968),  Guyana  (Choubert,  1973)  and  South  Africa  (Gutzmer  and 
+Buekes, 1996; Eriksson et al., 1993; Beyeme Zogo, 2010).",Roy,GPE,spacy
+2013_Peters.txt,75,"the GB basalts could have extended into an intermediate facies, further away from the volcanic  vent 
+from which they were erupted. 7.1.2. Sedimentary rocks of the south Goren belt 
+Conformable  sedimentary  sequences  are  intercalated  with  basalt  flows  in  the  stratigraphic 
+sequence  of  the  southern  GB. These  include  Mn-Fe-rich  carbonaceous  sediments,  siltstone, 
+volcaniclastite, volcanogenic greywacke and a discrete pyroclastic breccia deposit. Mn-Fe-rich  carbonaceous  sedimentary  rocks  are  common  in  the  southern  GB  (Section  4.3.5; 
+Hein  et  al.,  2004)  and,  in  fact,  throughout  the  WAC  (Section  1.1;  Blanchot  et  al.,  1972;  Béssoles, 
+1977; Wright, 1985; Neumann, 1988; Leube et al., 1990; Melcher, 1995; Kříbek et al., 2008; Beauvais 
+et al., 2008). They are also reported from a number of Palaeoproterozoic terranes in India (Roy, 1968; 
+1973,  1981;  Roy  and  Purkait,  1968),  Guyana  (Choubert,  1973)  and  South  Africa  (Gutzmer  and 
+Buekes, 1996; Eriksson et al., 1993; Beyeme Zogo, 2010).",Guyana,GPE,spacy
+2013_Peters.txt,75,"Additionally, the southern 
+GB  is  dominated  by  secondary  manganese  oxides  as  veins,  breccias,  tablets  and  colloform 
+overgrowths  (Sections  4.3.5  and  5.2.3). These  overprinting  textures  resemble  typical  supergene 
+alteration  found  in  the  Kuruman  manganese  deposits  in  the  Transvaal  Supergroup  of  South  Africa 
+(Beyeme  Zogo,  2010),  suggesting  that  the  volcanogenic  system  underwent  supergene  alteration  at 
+some stage. The  volcanogenic  manganese  deposits  of  the  GB  resemble  the  Cyprus-type  volcanogenic 
+manganese deposits defined by Mosier and Page (1988). Cyprus-type deposits occur as lenticular units 
+bounded  between  volcanic  and  volcaniclastic  rocks,  and  can  be  proximal  to  distal  to  the  volcanic 
+source. It is probably the case for the GB that the Mn-Fe-rich, carbonaceous sedimentary rocks formed 
+as  volcanogenic  manganese  deposits  in  a  proximal  to  distal  volcanic  setting. A  distal  setting  is 
+indicated  by  low  Ba  concentrations,  fine-laminations  with  thin  ferruginous  chert,  and  dolomite 
+interbeds, while a proximal setting is indicated because some Mn-Fe-rich units present an increase in 
+oxides and Ba concentrations and increased base metal values.",Transvaal,LOC,spacy
+2013_Peters.txt,76,"A  correlation  between  increased  Ba  and  base  metals  also  suggests  seafloor  hydrothermal 
+activity in a proximal setting to a volcanic source (c.f., Burnham, 1962; Lydon, 1988; Ҫaǧatay 1993; 
+Herrington  et  al.,  2005). For  the  most  part,  higher  Ba  values  in  the  GB  correlate  with  higher 
+concentrations  of  Mn,  implying  that  the  manganese  deposits  formed  in  oxidising  conditions 
+proximally. The manganese mineralization of the GB is similar to primary manganese mineralization seen 
+throughout  the  WAC  that  is  interpreted  as  volcanogenic  in  character. For  example,  the  VHMS 
+mineralization in the Tiebélé belt is intercalated with chert and manganese units (Sections 1.1 and 2.4) 
+in  carbonaceous  manganese  rocks  (Ilboudo,  2010)  and  is  characterized  by  sphalerite-galena-
+chalcopyrite-pyrite-bornite  assemblages 
+that  are  volcanogenic. Additionally, 
+the  manganese-
+carbonates  of  the  Nsuta  deposit  in  the  Ashanti  Belt  in  Ghana  are  hosted  by  a  volcano-sedimentary 
+sequence  in  basalt-andesite  units  (Nyame,  2008),  and  indicate  a  volcanic  setting. Furthermore  the 
+Tambão  (supergene)  deposit  in  Burkina  Faso  (Figure  1.1)  is  sited  above  primary  manganese-rich 
+carbonate  that  is  hosted  in  volcanic  units  (Colin  et  al.,  2005).",Burnham,GPE,spacy
+2013_Peters.txt,76,"A  correlation  between  increased  Ba  and  base  metals  also  suggests  seafloor  hydrothermal 
+activity in a proximal setting to a volcanic source (c.f., Burnham, 1962; Lydon, 1988; Ҫaǧatay 1993; 
+Herrington  et  al.,  2005). For  the  most  part,  higher  Ba  values  in  the  GB  correlate  with  higher 
+concentrations  of  Mn,  implying  that  the  manganese  deposits  formed  in  oxidising  conditions 
+proximally. The manganese mineralization of the GB is similar to primary manganese mineralization seen 
+throughout  the  WAC  that  is  interpreted  as  volcanogenic  in  character. For  example,  the  VHMS 
+mineralization in the Tiebélé belt is intercalated with chert and manganese units (Sections 1.1 and 2.4) 
+in  carbonaceous  manganese  rocks  (Ilboudo,  2010)  and  is  characterized  by  sphalerite-galena-
+chalcopyrite-pyrite-bornite  assemblages 
+that  are  volcanogenic. Additionally, 
+the  manganese-
+carbonates  of  the  Nsuta  deposit  in  the  Ashanti  Belt  in  Ghana  are  hosted  by  a  volcano-sedimentary 
+sequence  in  basalt-andesite  units  (Nyame,  2008),  and  indicate  a  volcanic  setting. Furthermore  the 
+Tambão  (supergene)  deposit  in  Burkina  Faso  (Figure  1.1)  is  sited  above  primary  manganese-rich 
+carbonate  that  is  hosted  in  volcanic  units  (Colin  et  al.,  2005).",Lydon,GPE,spacy
+2013_Peters.txt,76,"A  correlation  between  increased  Ba  and  base  metals  also  suggests  seafloor  hydrothermal 
+activity in a proximal setting to a volcanic source (c.f., Burnham, 1962; Lydon, 1988; Ҫaǧatay 1993; 
+Herrington  et  al.,  2005). For  the  most  part,  higher  Ba  values  in  the  GB  correlate  with  higher 
+concentrations  of  Mn,  implying  that  the  manganese  deposits  formed  in  oxidising  conditions 
+proximally. The manganese mineralization of the GB is similar to primary manganese mineralization seen 
+throughout  the  WAC  that  is  interpreted  as  volcanogenic  in  character. For  example,  the  VHMS 
+mineralization in the Tiebélé belt is intercalated with chert and manganese units (Sections 1.1 and 2.4) 
+in  carbonaceous  manganese  rocks  (Ilboudo,  2010)  and  is  characterized  by  sphalerite-galena-
+chalcopyrite-pyrite-bornite  assemblages 
+that  are  volcanogenic. Additionally, 
+the  manganese-
+carbonates  of  the  Nsuta  deposit  in  the  Ashanti  Belt  in  Ghana  are  hosted  by  a  volcano-sedimentary 
+sequence  in  basalt-andesite  units  (Nyame,  2008),  and  indicate  a  volcanic  setting. Furthermore  the 
+Tambão  (supergene)  deposit  in  Burkina  Faso  (Figure  1.1)  is  sited  above  primary  manganese-rich 
+carbonate  that  is  hosted  in  volcanic  units  (Colin  et  al.,  2005).",Ҫaǧatay,GPE,spacy
+2013_Peters.txt,76,"A  correlation  between  increased  Ba  and  base  metals  also  suggests  seafloor  hydrothermal 
+activity in a proximal setting to a volcanic source (c.f., Burnham, 1962; Lydon, 1988; Ҫaǧatay 1993; 
+Herrington  et  al.,  2005). For  the  most  part,  higher  Ba  values  in  the  GB  correlate  with  higher 
+concentrations  of  Mn,  implying  that  the  manganese  deposits  formed  in  oxidising  conditions 
+proximally. The manganese mineralization of the GB is similar to primary manganese mineralization seen 
+throughout  the  WAC  that  is  interpreted  as  volcanogenic  in  character. For  example,  the  VHMS 
+mineralization in the Tiebélé belt is intercalated with chert and manganese units (Sections 1.1 and 2.4) 
+in  carbonaceous  manganese  rocks  (Ilboudo,  2010)  and  is  characterized  by  sphalerite-galena-
+chalcopyrite-pyrite-bornite  assemblages 
+that  are  volcanogenic. Additionally, 
+the  manganese-
+carbonates  of  the  Nsuta  deposit  in  the  Ashanti  Belt  in  Ghana  are  hosted  by  a  volcano-sedimentary 
+sequence  in  basalt-andesite  units  (Nyame,  2008),  and  indicate  a  volcanic  setting. Furthermore  the 
+Tambão  (supergene)  deposit  in  Burkina  Faso  (Figure  1.1)  is  sited  above  primary  manganese-rich 
+carbonate  that  is  hosted  in  volcanic  units  (Colin  et  al.,  2005).",Nsuta,FAC,spacy
+2013_Peters.txt,76,"There  is  thus  a  strong  correlation 
+between  primary  manganese  mineralization  in  the  WAC  and  a  volcanic  setting,  with  a  potential  for 
+exploitable resources of base metals and primary manganese. The Tambão deposit has an exploitable 
+reserve  of  15  Mt  of  manganese  ore  divided  between  primary  and  supergene  manganese  resources 
+(Colin et al., 2005). The  greywacke  units  of  the  GB  are  characterized  by  trough  cross  bedding,  upward-fining 
+sequences,  scour  and  fill,  thin  conglomerate  interbeds,  flame  structures,  chert  interbeds,  mud  clasts 
+and  mud  drapes  (Section  4.3.3)  which  indicates  that  deposition  took  place  in  a  marginal  marine  to 
+offshore  environment  (Fischer  and  Schmincke,  1994;  Boggs,  2006). The  greywacke  units  best 
+represent  a  prograding  delta  front  adjacent  to  a  shelf  margin. This  is  supported  by  fining  upwards 
+sequences interpreted to represent various incomplete, small-scale Bouma sequences (Bouma, 1962). Turbidite flows can account for large  volumes of sediment deposition in a short period of time, thus 
+explaining the thick succession in the GB, relative to thicknesses of other lithologies.",Bouma,GPE,spacy
+2013_Peters.txt,78,"Partion coefficient values of phosphorus for 
+clinopyroxene  and  garnet  are  approximately  0.025  and  0.04  respectively  (Rollinson,  1993). It  was 
+calculated  that  garnet  and  clinopyroxene  could  retain  approximately  272  ppm  of  phosphorus. This 
+quantity is supported  by  Brunet and Chazot (2001) on phosphorus retention in mantle nodules  from 
+the upper mantle. Their calculations indicated that garnet, clinopyroxene and olivine can retain up to 
+600 ppm of phosphorus. These calculated phosphorus values confirm that phosphorus retention in the 
+magma source is plausible. However, further studies on phosphorus anomalies needs to be undertaken 
+from  individual  terranes  across  the  WAC  in  order  to  create  a  petrogenetic  model  with  reference  to 
+modern  and  ancient  tholeiites.",Chazot,GPE,spacy
+2013_Peters.txt,79,"LFSE  to  HFSE  ratio  in  arc-related  magmas  are 
+increased because fluid rom the subducted slab causes mantle wedge metasomatism. This was shown 
+by Pearce (1983) and Pearce and Peate (1995). LREE are more incompatible than HREE, however, it 
+does  not  indicate  that  LILE  are  more  incompatible  than  all  HFSE  as  it  depends  on  the  LILE  and 
+HFSE. This  idea suggests that  although  the  samples from  the  Boromo-Houndé belts  are  most  likely 
+calc-alkaline arc-ddervied lavas, enriched LILE to HFSE may not be conclusive evidence on its own 
+to  support  the  conclusions  drawn  by  Baratoux  et  al. (2011);  fractionation  of  various  trace  elements 
+relative to each should be studied further. Volcanic arcs, inclusive of tholeiitic and calc-alkaline compositions, result from melting caused 
+by  a  cold  and  dense  subducting  slab  which  undergoes  dehydration-induced  melting.",Hfse,GPE,spacy
+2013_Peters.txt,79,"By comparing the data from the GB 
+tholeiitic basalts with data from the calc-alkaline volcanic rocks of the Boromo-Houndé belts, it is also 
+possible  that  the  GB  basalts  were  emplaced  in  a  back-arc/intra-arc  relative  to  the  arc  (Figure  7.2). Alternatively,  hydrated  MORB  can  stabilise  Ti  in  Ti-bearing  minerals  as  is  seen  at  the  modern 
+Galapagos  and  EPR  which  gives  arc-type  geochemical  signatures. This  has  significance  in  bimodal 
+volcan environments (Haase et al., 2005) 
+The flat REE patterns and various multi-element diagrams observed for the GB display trends 
+similar to tholeiitic basalts that are typical of mid-ocean ridge type settings (Rollinson, 1993; Väisänen 
+and Westerlund, 2007; White, 2013). The basalts of the southern GB possess many characterisitics of 
+tholeiitic  mid-ocean  ridge  basalts (MORB),  specifically  normal  MORB  (N-MORB)  as  defined  from 
+trace elements compositions (Figures 6.7); rare earth, multi element and trace element analyses of the 
+GB  samples  (Section  6.1.2). They  also  share  some  characterisitcs  that  are  derived  from  convergent 
+79",Galapagos,LOC,spacy
+2013_Peters.txt,79,"By comparing the data from the GB 
+tholeiitic basalts with data from the calc-alkaline volcanic rocks of the Boromo-Houndé belts, it is also 
+possible  that  the  GB  basalts  were  emplaced  in  a  back-arc/intra-arc  relative  to  the  arc  (Figure  7.2). Alternatively,  hydrated  MORB  can  stabilise  Ti  in  Ti-bearing  minerals  as  is  seen  at  the  modern 
+Galapagos  and  EPR  which  gives  arc-type  geochemical  signatures. This  has  significance  in  bimodal 
+volcan environments (Haase et al., 2005) 
+The flat REE patterns and various multi-element diagrams observed for the GB display trends 
+similar to tholeiitic basalts that are typical of mid-ocean ridge type settings (Rollinson, 1993; Väisänen 
+and Westerlund, 2007; White, 2013). The basalts of the southern GB possess many characterisitics of 
+tholeiitic  mid-ocean  ridge  basalts (MORB),  specifically  normal  MORB  (N-MORB)  as  defined  from 
+trace elements compositions (Figures 6.7); rare earth, multi element and trace element analyses of the 
+GB  samples  (Section  6.1.2). They  also  share  some  characterisitcs  that  are  derived  from  convergent 
+79",Westerlund,GPE,spacy
+2013_Peters.txt,79,"By comparing the data from the GB 
+tholeiitic basalts with data from the calc-alkaline volcanic rocks of the Boromo-Houndé belts, it is also 
+possible  that  the  GB  basalts  were  emplaced  in  a  back-arc/intra-arc  relative  to  the  arc  (Figure  7.2). Alternatively,  hydrated  MORB  can  stabilise  Ti  in  Ti-bearing  minerals  as  is  seen  at  the  modern 
+Galapagos  and  EPR  which  gives  arc-type  geochemical  signatures. This  has  significance  in  bimodal 
+volcan environments (Haase et al., 2005) 
+The flat REE patterns and various multi-element diagrams observed for the GB display trends 
+similar to tholeiitic basalts that are typical of mid-ocean ridge type settings (Rollinson, 1993; Väisänen 
+and Westerlund, 2007; White, 2013). The basalts of the southern GB possess many characterisitics of 
+tholeiitic  mid-ocean  ridge  basalts (MORB),  specifically  normal  MORB  (N-MORB)  as  defined  from 
+trace elements compositions (Figures 6.7); rare earth, multi element and trace element analyses of the 
+GB  samples  (Section  6.1.2). They  also  share  some  characterisitcs  that  are  derived  from  convergent 
+79",White,GPE,spacy
+2013_Peters.txt,81,"However, studies by Abouchami et al. (1990), including work from the Bouroum belt in 
+Burkina  Faso, suggested that the  best  tectonic  analogue  for the  formation  of  tholeiitic  basalts  of  the 
+Birimian  Supergroup  is  oceanic  flood  basalts  (OFB). This  conclusion  was  established  from  Ti  and 
+LREE  depletions,  where  the  LREE  depletion  is  less  than  N-type  MORBs. It  was  suggested  that  an 
+intermediate  geochemistry  between  back-arc  basins  and  island-arc  tholeiites  made  such  an 
+environment an attractive setting, especially due to regionally low Nb concentrations (Zonou, 1987), 
+but  the  lack  of  ultramafic  rocks  (Burke,  1988)  and  unfitting  isotopic  and  trace  element  signatures 
+indicated an oceanic plateau origin (Abouchami et al., 1990). The distinction between the GB basalt samples forming in an arc-related basin compared to an 
+oceanic plateau setting is in their strato-tectonic context. The tholeiitic basalts from the GB have many 
+similarities to the general tholeiitic compositions from around the craton.",Zonou,GPE,spacy
+2013_Peters.txt,82,"deposited in a back-arc or intra-arc basin, proximal-distal to a pre-existing island-arc terrane (Figure 
+7.3). Thus the GB basalts are unlikely to be OFB. The  Birimian  Supergroup  has  been  compared  to  Archaean  granite-greenstone  terranes  due  to 
+their  similar  lithologies  and  temporal  relationship  between  supracrustal  and  granitoids  emplacement 
+(Bassot, 1986; N’Gom, 1989). The tholeiitic basalts are typically overlain by calc-alkaline lavas and 
+associated sedimentary rocks and pyroclastites (Hottin and Ouedraogo, 1975; Zonou, 1987) in some 
+belts (WAXI, 2013). The calc-alkaline volcanic rocks, are commonly intruded by TTG suite plutons 
+throughout  the  WAC  and  post-date  the  eruption  of  tholeiitic  lavas  (Melcher  and  Stumpfl,  1992; 
+WAXI,  2013). Various  conclusions  of  the  Birimian  Supergroup  stratigraphy  have  been  reached  by 
+Junner (1935, 1940), Leube et al.",Bassot,GPE,spacy
+2013_Peters.txt,82,"deposited in a back-arc or intra-arc basin, proximal-distal to a pre-existing island-arc terrane (Figure 
+7.3). Thus the GB basalts are unlikely to be OFB. The  Birimian  Supergroup  has  been  compared  to  Archaean  granite-greenstone  terranes  due  to 
+their  similar  lithologies  and  temporal  relationship  between  supracrustal  and  granitoids  emplacement 
+(Bassot, 1986; N’Gom, 1989). The tholeiitic basalts are typically overlain by calc-alkaline lavas and 
+associated sedimentary rocks and pyroclastites (Hottin and Ouedraogo, 1975; Zonou, 1987) in some 
+belts (WAXI, 2013). The calc-alkaline volcanic rocks, are commonly intruded by TTG suite plutons 
+throughout  the  WAC  and  post-date  the  eruption  of  tholeiitic  lavas  (Melcher  and  Stumpfl,  1992; 
+WAXI,  2013). Various  conclusions  of  the  Birimian  Supergroup  stratigraphy  have  been  reached  by 
+Junner (1935, 1940), Leube et al.",N’Gom,GPE,spacy
+2013_Peters.txt,83,"including  Finland,  Australia,  Mid-West  United  States  and  Canada  (Stern  et  al.,  1995;  Hill  and 
+Bickford, 2001; Väisänen and Westerlund, 2007; Li et al., 2013). The volcanic facies are similar due 
+to  analogous  depositional  environments,  many  of  which  are  mineralised  in  volcanogenic  massive 
+sulphides. 83",Australia,GPE,spacy
+2013_Peters.txt,83,"including  Finland,  Australia,  Mid-West  United  States  and  Canada  (Stern  et  al.,  1995;  Hill  and 
+Bickford, 2001; Väisänen and Westerlund, 2007; Li et al., 2013). The volcanic facies are similar due 
+to  analogous  depositional  environments,  many  of  which  are  mineralised  in  volcanogenic  massive 
+sulphides. 83",Bickford,GPE,spacy
+2013_Peters.txt,5,"Most importantly, I wish to thank WAXI (West African Exploration Initiative), the AMIRA and 
+its sponsors, without whom this research would not have been possible. I  wish  to  gratefully  acknowledge  AMIRA  International  and  the  industry  sponsors,  including 
+AusAid and the ARC Linkage Project LP110100667, for their support of the WAXI Project (P934A). I am also appreciative of the contribution of the various Geological Surveys/Department of Mines in 
+West Africa as sponsors in-kind of WAXI. Finally, I wish to recognize our WAXI research colleagues 
+from the various Institutions from around the world. I would like to thank the National Research Foundation for providing funding for this research 
+in 2012. 5",Most,GEO,geotext
+2013_Peters.txt,8,"The Essakane, Falagountou, Taparko and Inata goldfields are 
+represented in north-northeast of Burkina Faso. The Billiata and Tambão Mn deposits and the 
+Tin Edia Mn-Fe-V deposit are located on the western margin of the Oudalan-Gorouol belt. The 
+Barsalogo diamond fields are located north of the Goren belt. Figure 2.1. The Goren volcano-sedimentary belt is presented showing the locations of Kaya, Mané, 
+Guilla, Korsimoro, Sirgui artisanal mine and Tangapella hill. Northwest and northeast trending 
+shears  and  thrusts  are  represented  as  well  as  WNW  trending  shears  of  the  Wabo-Tampelse 
+Event.",Kaya,GEO,geotext
+2013_Peters.txt,11,"Figure 6.1. (a) Streckeisen classification diagram for volcanic rocks plots the rocks from the GB as 
+basalts, basalt-andesite to dacite in composition. The samples that indicate dacitic composition 
+contain  increased  secondary  silica, interpreted  to  be  a  result  of  silicification. (b)  Nb/Y  versus 
+Zr/TiO2 x 0.0001 diagram (after Winchester and Floyd, 1976). The GB volcanic rocks generally 
+plot  in  the  basalt  field. (c)  Le  Maitre’s  classification  for  volcanic  rocks.",Winchester,GEO,geotext
+2013_Peters.txt,16,"1. INTRODUCTION 
+1.1. Preamble 
+Volcano-sedimentary  belts  make  up  a  large  part  of  the  stratigraphy  of  the  Palaeoproterozoic 
+Baoulé-Mossi domain (West Africa) in northeast Burkina Faso (Figure 1.1). The belts are composed 
+of  dominantly  lower  to  middle  greenschist  metamorphosed  volcanic,  pyroclastic  and  sedimentary 
+rocks  with  extensive  units  of  basalt-andesite,  dacite  and  less  substantial  amounts  of  pyroclastite 
+(Milési et al., 1989, 1991; Leube et al., 1990; Ledru et al., 1991). Carbonaceous and Mn-Fe bearing 
+chemical sedimentary units are intercalated with the volcanic rocks (Blanchot et al., 1972; Béssoles, 
+1977; Wright, 1985; Leube et al., 1990; Melcher, 1995; Kříbek et al., 2008). The volcanic sequences of the Baoulé-Mossi domain were first described in the Birim Valley in 
+Ghana  (Kitson,  1918)  and  were  classified  as  tholeiitic  basalts  and  calc-alkaline  lavas.",Wright,GEO,geotext
+2013_Peters.txt,17,"Figure  1.1. Volcano-sedimentary  belts  of  southeast  and  northeast  Burkina  Faso  and  northwestern  Ghana. Volcano-
+sedimentary  belts  from  the  northeast  Burkina  Faso  are  modified after  Hein  et  al. (2004);  the  study  area  is  located  in  the 
+Goren belt and expanded in Inset A. Location of Tiebélé dome of southern Burkina Faso with Zn anomalies as defined by 
+Ilboudo  (2010)  is  presented  in  Inset  B. The  Perkoa  and  Gaoua  deposits  are  located  in  the  Boromo  belt  in  Burkina  Faso, 
+southwest of Ouagadougou.",Gaoua,GEO,geotext
+2013_Peters.txt,19,"1.2. Location and physiography 
+Burkina  Faso  is  situated in  West  Africa  and is  bordered  by  Ghana,  Benin, Togo,  Mali,  Niger 
+and Côte d’Ivoire. It is a landlocked country that covers an area of 274 300 km2. It lies mostly in the 
+Sahel climatic zone. The  Sahelian  zone  is  characterized  by  hot  and  arid  conditions. Burkina  Faso  has  an  average 
+daily temperature of 32° C and less than 25 cm of rainfall annually, particularly in the northern and 
+northeastern regions (McFarland et al., 1998).",Niger,GEO,geotext
+2013_Peters.txt,19,"1.2. Location and physiography 
+Burkina  Faso  is  situated in  West  Africa  and is  bordered  by  Ghana,  Benin, Togo,  Mali,  Niger 
+and Côte d’Ivoire. It is a landlocked country that covers an area of 274 300 km2. It lies mostly in the 
+Sahel climatic zone. The  Sahelian  zone  is  characterized  by  hot  and  arid  conditions. Burkina  Faso  has  an  average 
+daily temperature of 32° C and less than 25 cm of rainfall annually, particularly in the northern and 
+northeastern regions (McFarland et al., 1998).",Togo,GEO,geotext
+2013_Peters.txt,19,"Kongossi 
+is 60 km from Kaya and lies at the northeastern end of the belt. The belt is composed of two 100 km 
+parallel  branches  that  are  characterized  by  topographic  highs;  the  branches  are  separated  by  a 
+relatively flat lying region up to 20 km wide. An extensive ferricrete profile covers the GB as is typical for the West African craton in general 
+(Brown  et  al.,  1994;  Beauvais  et  al.,  2008). The  ferricrete  formed  during  the  Cretaceous  Period  but 
+was remobilised during the Palaeogene-Neogene in discrete erosion events, with 40Ar/39Ar dates of 59-
+45 Ma, 29-18 Ma, 18-11 Ma, 6 Ma and 3 Ma (Brown et al., 1994; Beauvais et al., 2008). The last three 
+erosional  periods  were  responsible  for  the  formation  of  distinct  three-level  pediment  surfaces  seen 
+throughout the GB (WAXI, 2013). 1.3.",Beauvais,GEO,geotext
+2013_Peters.txt,20,"1.4. Conventions and Acronyms 
+The  referencing  style  adopted  in  this  thesis  is  the  Harvard  style,  used  by  the  South  African 
+Journal of Geology (SAJG). The conventions and acronyms used in this thesis include: 
+CIPW - Cross, Iddings, Pirsson, Washington 
+GB - Goren volcano-sedimentary belt 
+GPS - Global Positioning System 
+HFSE - High Field Strength Elements 
+HREE - Heavy Rare Earth Element 
+IAT – Intra-Arc Tholeiites 
+ICPMS - Inductively Coupled Plasma Mass Spectrometry 
+LILE - Large Ion Lithophile Elements 
+LREE - Light Rare Earth Element 
+MORB - Mid-Ocean Ridge Basalts 
+N-MORB - Normal MORB 
+OFB - Oceanic Flood Basalts 
+OGB - Oudalan-Gorouol belt 
+REE - Rare Earth Element 
+TTG -Trondjemite, Tonalite, Granodiorite 
+VHMS – Volcanic Hosted Massive Sulphide 
+WAC - West African Craton 
+XRF - X-Ray Fluorescence 
+1.5. Thesis Organisation 
+This thesis is organisation into eight chapters including the Introduction as follows:- 
+(1) Chapter Two provides a review of the geology  of West Africa, volcanology and volcanic-related 
+ore deposits. Specific focus is given to the volcanic rocks of Burkina Faso. (2) Chapter Three provides a detailed description of the methodologies used in this thesis.",Normal,GEO,geotext
+2013_Peters.txt,21,"(3) Chapter Four presents field results including volcanic and sedimentary textures, rock types, field 
+relationships and characteristic features of the rocks and images. (4)  Chapter  Five  presents  the  results  of  petrographic  studies  of  selected  samples  of  volcanic  rocks, 
+including  their  mineralogy  and  modal  abundances,  metamorphic  mineralogies,  alteration 
+mineralogies, and primary and secondary textures. (5) Chapter Six presents geochemical data, from major to trace element graphs, results, interpretations 
+and  a  brief  comparative  study  with  geochemical  work  from  the  Boromo  and  Houndé  belts  of 
+western  Burkina  Faso  (Baratoux  et  al.,  2011),  the  Tiebélé  dome  in  southern  Burkina  Faso 
+(Ilboudo,  2010)  and  the  Oudalan-Gorouol  belt  in  northeast  Burkina  Faso  (Tshibubudze  et  al., 
+2013). (6) Chapter Seven presents the Discussion. The GB, and several belts from northeastern and western 
+Burkina Faso, is contextualized within a regional and global framework. (7) Chapter Eight presents a summation in a Conclusion.",Houndé,GEO,geotext
+2013_Peters.txt,22,"2. REVIEW OF WEST AFRICAN GEOLOGY 
+2.1. Stratigraphy 
+The West African Craton (WAC) is made up of Archaean and Palaeoproterozoic rocks and is 
+divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south  (Thiéblemont  et  al., 
+2004)  (Figure  1.1). The  Leo-Man  consists  of  two  domains,  namely  the  Archaean  Kénema-Man 
+domain  (3.54  Ga)  in  the  southwest  and the  Palaeoproterozoic  Baoulé-Mossi  domain  (2.3-1.8  Ga)  in 
+the  east  (Feybesse  et  al.,  2006),  with  the  exception  of  the  Kénieba-  Kédougou  and  Kayes  Inliers, 
+located  between  Mali  and  Senegal  (Figure  1.1). The  Birimian  Supergroup  makes  up  part  of  the 
+Baoulé-Mossi  domain  and  was  deposited  ca. 2.3  Ga  (Feybesse  et  al.,  2006;  Pawlig  et  al.,  2006).",Senegal,GEO,geotext
+2013_Peters.txt,22,"2. REVIEW OF WEST AFRICAN GEOLOGY 
+2.1. Stratigraphy 
+The West African Craton (WAC) is made up of Archaean and Palaeoproterozoic rocks and is 
+divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south  (Thiéblemont  et  al., 
+2004)  (Figure  1.1). The  Leo-Man  consists  of  two  domains,  namely  the  Archaean  Kénema-Man 
+domain  (3.54  Ga)  in  the  southwest  and the  Palaeoproterozoic  Baoulé-Mossi  domain  (2.3-1.8  Ga)  in 
+the  east  (Feybesse  et  al.,  2006),  with  the  exception  of  the  Kénieba-  Kédougou  and  Kayes  Inliers, 
+located  between  Mali  and  Senegal  (Figure  1.1). The  Birimian  Supergroup  makes  up  part  of  the 
+Baoulé-Mossi  domain  and  was  deposited  ca. 2.3  Ga  (Feybesse  et  al.,  2006;  Pawlig  et  al.,  2006).",Kayes,GEO,geotext
+2013_Peters.txt,22,"2. REVIEW OF WEST AFRICAN GEOLOGY 
+2.1. Stratigraphy 
+The West African Craton (WAC) is made up of Archaean and Palaeoproterozoic rocks and is 
+divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south  (Thiéblemont  et  al., 
+2004)  (Figure  1.1). The  Leo-Man  consists  of  two  domains,  namely  the  Archaean  Kénema-Man 
+domain  (3.54  Ga)  in  the  southwest  and the  Palaeoproterozoic  Baoulé-Mossi  domain  (2.3-1.8  Ga)  in 
+the  east  (Feybesse  et  al.,  2006),  with  the  exception  of  the  Kénieba-  Kédougou  and  Kayes  Inliers, 
+located  between  Mali  and  Senegal  (Figure  1.1). The  Birimian  Supergroup  makes  up  part  of  the 
+Baoulé-Mossi  domain  and  was  deposited  ca. 2.3  Ga  (Feybesse  et  al.,  2006;  Pawlig  et  al.,  2006).",Kédougou,GEO,geotext
+2013_Peters.txt,22,"Deposition  was  followed  by  local  micro-plate  accretion  during  the Tangaean  Event  at  2.17-2.15  Ga 
+(Tshibubudze  et  al.,  2009;  Hein,  2010;  Baratoux  et  al.,  2011; Tshibubudze  and  Hein,  2013;  WAXI, 
+2013) and the polycyclic Eburnean Orogeny at approximately 2.14-2.05 Ga (Milési et al., 1991, 1992; 
+Boher et al., 1992; Taylor et al., 1992; WAXI, 2013). The Tarkwa Group unconformably overlies the 
+Birimian Supergroup and is characterized by conglomerate, quartzite and shale units, but does not crop 
+out  in  the  study  area. The  Tarkwa  Group  is  interpreted  to  be  the  erosional  product  of  the  Birimian 
+Supergroup and was intruded by various TTG suite plutons and deformed by the Eburnean Orogeny 
+(Hastings, 1982; Leube et al., 1990; Milési et al., 1992; Castaing et al., 2003). The  stratigraphy  of  the  WAC  was  originally  established  by  Junner  (1935),  who  identified 
+dacitic/rhyodacitic  volcaniclastic,  greywacke,  shale  and  chemical  sedimentary  units  in  what  was 
+termed  the  lower  Birimian. Leube  et  al. (1990)  identified  tholeiitic  basalts  (intercalated  with 
+volcaniclastic  sequences)  as  the  upper  Birimian.",Hastings,GEO,geotext
+2013_Peters.txt,22,"Deposition  was  followed  by  local  micro-plate  accretion  during  the Tangaean  Event  at  2.17-2.15  Ga 
+(Tshibubudze  et  al.,  2009;  Hein,  2010;  Baratoux  et  al.,  2011; Tshibubudze  and  Hein,  2013;  WAXI, 
+2013) and the polycyclic Eburnean Orogeny at approximately 2.14-2.05 Ga (Milési et al., 1991, 1992; 
+Boher et al., 1992; Taylor et al., 1992; WAXI, 2013). The Tarkwa Group unconformably overlies the 
+Birimian Supergroup and is characterized by conglomerate, quartzite and shale units, but does not crop 
+out  in  the  study  area. The  Tarkwa  Group  is  interpreted  to  be  the  erosional  product  of  the  Birimian 
+Supergroup and was intruded by various TTG suite plutons and deformed by the Eburnean Orogeny 
+(Hastings, 1982; Leube et al., 1990; Milési et al., 1992; Castaing et al., 2003). The  stratigraphy  of  the  WAC  was  originally  established  by  Junner  (1935),  who  identified 
+dacitic/rhyodacitic  volcaniclastic,  greywacke,  shale  and  chemical  sedimentary  units  in  what  was 
+termed  the  lower  Birimian. Leube  et  al. (1990)  identified  tholeiitic  basalts  (intercalated  with 
+volcaniclastic  sequences)  as  the  upper  Birimian.",Tarkwa,GEO,geotext
+2013_Peters.txt,22,"Deposition  was  followed  by  local  micro-plate  accretion  during  the Tangaean  Event  at  2.17-2.15  Ga 
+(Tshibubudze  et  al.,  2009;  Hein,  2010;  Baratoux  et  al.,  2011; Tshibubudze  and  Hein,  2013;  WAXI, 
+2013) and the polycyclic Eburnean Orogeny at approximately 2.14-2.05 Ga (Milési et al., 1991, 1992; 
+Boher et al., 1992; Taylor et al., 1992; WAXI, 2013). The Tarkwa Group unconformably overlies the 
+Birimian Supergroup and is characterized by conglomerate, quartzite and shale units, but does not crop 
+out  in  the  study  area. The  Tarkwa  Group  is  interpreted  to  be  the  erosional  product  of  the  Birimian 
+Supergroup and was intruded by various TTG suite plutons and deformed by the Eburnean Orogeny 
+(Hastings, 1982; Leube et al., 1990; Milési et al., 1992; Castaing et al., 2003). The  stratigraphy  of  the  WAC  was  originally  established  by  Junner  (1935),  who  identified 
+dacitic/rhyodacitic  volcaniclastic,  greywacke,  shale  and  chemical  sedimentary  units  in  what  was 
+termed  the  lower  Birimian. Leube  et  al. (1990)  identified  tholeiitic  basalts  (intercalated  with 
+volcaniclastic  sequences)  as  the  upper  Birimian.",Taylor,GEO,geotext
+2013_Peters.txt,22,"Baratoux  et  al. (2011)  argued  that  the 
+sedimentary  basins  in  western  Burkina  Faso  exhibited  complicated  strato-structural  relationships, 
+making it difficult to establish local stratigraphy. However, recent studies by WAXI (2013) concluded 
+that the stratigraphy of the WAC is dependent on the spatial and temporal distribution of belts relative 
+to accretionary terranes. Importantly, a detailed stratigraphic study was conducted by Baratoux et al. (2011) across three 
+greenstone  belts  in  western  Burkina  Faso  (namely  the  Boromo,  Houndé  and  Banfora  belts)  (Figure 
+1.1). Their  study  confirmed  that  the  belts  are  composed  of  calc-alkaline  andesite  and  dacite, 
+intercalated  tuff  layers,  pyroclastic  flows,  Mn-Fe    rich  chert  layers  and  volcaniclastic  sedimentary 
+rocks  that  overlie  basal  units  of  tholeiitic basalt.",Banfora,GEO,geotext
+2013_Peters.txt,23,"The  Palaeoproterozoic  Birimian  Supergroup  was  systematically  intruded  by  a  suite  of  TTG 
+granitoids, diorite and leucogranite plutons (Pons et al., 1995; Naba et al., 2004; Pawlig et al., 2006; 
+Vidal  et  al.,  2009). TTG  and  diorite  emplacement  at  2200  Ma  and  2160-2130  Ma  preceded  the 
+Eburnean Orogeny, while granite-leucogranite emplacement at 2100-2070 Ma was concurrent with the 
+Eburnean  Orogeny  (Leube  et  al.,  1990;  Cheilletz  et  al.,  1994;  Pons  et  al.,  1995;  Hirdes  and  Davis, 
+2002;  Pawlig  et al.,  2006; Gueye  et  al., 2008;  WAXI,  2013). The  presence  of TTG  suite  plutons  in 
+West  Africa  is  interpreted  as  (indirect)  evidence  for  subduction  in  the  Precambrian  (Martin,  1994; 
+Martin et al., 2005) because TTG have some similarities to modern slab melts and arc magmatic rocks. (Drummond and Defant, 1990). In Burkina Faso, two granitoid emplacement events are recognized (Castaing et al., 2003; Naba 
+et al., 2004): (1) a suite of granodiorite, tonalite and diorite plutons intruded the Birimian Supergroup 
+(2210-2160 Ma), and (2) a granite suite intruded the Birimian  Supergroup and TTG suite granitoids 
+(2150-2130 Ma) (Castaing et al., 2003). A suite of granodiorite and granite plutons (2255-2253 Ma) in 
+the Oudalan-Gorouol belt (OGB) of northeast Burkina Faso may represent basement to the Birimian 
+Supergroup in the WAC (Tshibubudze et al., 2013).",Martin,GEO,geotext
+2013_Peters.txt,24,"greenschist facies at most (WAXI, 2013). Regional metamorphism in the Eburnean Orogeny attained 
+greenschist  facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996)  with  the 
+development of chlorite, muscovite, epidote and actinolite mineral assemblages, and low to medium 
+grade amphibolite facies with the introduction of hornblende (Bossière et al., 1996; Béziat et al., 2000; 
+Debat et al., 2003; Naba et al., 2004). Granulite facies metamorphic rocks  crop out in the Oudalan-
+Gorouol belt on the margin of the Dori batholith in the Gorom Gorom region (Tshibubudze and Hein, 
+2013), and in the Pissila batholith in the Saaba region (Simoko, 2012). Three deformation events are recognised in northeast Burkina Faso: 
+(1)  D1  (Tangaean  Event)  resulted  in  NW-trending  dextral  reverse  shear  zones,  folds  and  an  S1 
+foliation. The  shortening  direction  was  SW-directed  (Tshibubudze  et  al.,  2009;  Hein,  2010; 
+Tshibubudze  and  Hein,  2013). D1  is  recognised  in  northern  Ghana  by  de  Kock  et  al.",Dori,GEO,geotext
+2013_Peters.txt,25,"volcanic  VHMS  deposit  of  the  Tiebélé  Dome  in  the  south  of  Burkina  Faso  is  a  sphalerite  bearing, 
+zinc-rich exhalative deposit (Ilboudo, 2010). 2.5. The Goren volcano-sedimentary belt 
+The  Goren  volcano-sedimentary  belt  was  deposited  approximately  2400-2300  Ma  and  is 
+characterized  by  a  conformable  sequence  of  sedimentary  rocks,  interbedded  with  volcaniclastic  and 
+pyroclastic deposits. Intercalated with this succession are mafic to intermediate volcanic rocks (Hein et 
+al., 2004; Hein, 2010). The belt has subsequently been subjected to three deformation events as well as 
+intruded  by  various  intrusive  bodies  and is  metamorphosed to  sub-greenschist to  middle  greenschist 
+facies (Hein et al., 2004; Kříbek et al., 2008). Hein  et  al.",Dome,GEO,geotext
+2013_Peters.txt,30,"Hyaloclastites 
+and flow breccias indicate autoclastic facies, which often occur  near coherent lavas (Lajoie and Stix, 
+1992). Lavas can develop numerous textures, most because of cooling, such as those observed in the 
+GB (e.g., hyaloclastites, jointing and volcanic glass). For  example,  the  greenschist  facies  Mt  Reid  volcanics  of  western  Tasmania  yield  fairly  well 
+preserved volcanic textures where the rocks are not strongly altered by hydrothermal processes and/or 
+deformed  (McPhie  and  Allen,  2003). An  example  of  this  is  the  devitrification  of  volcanic  glass,  as 
+described  by  McPhie  and  Allen  (op  cit.,  2003);  crystal  boundaries  remain  intact  and  the  glass 
+recrystallises as zeolites with a minor proportion of clay minerals. As a further example, metamorphosed Triassic basalt lavas in NW Croatia were interpreted as 
+proximal  to intermediate  facies  by  Palinkaš  et  al. (2008)  based  on  volcanic textures  such  as  closely 
+packed  pillows,  hyaloclastite,  pepperite  and  tortoise-shell  jointing.",Croatia,GEO,geotext
+2013_Peters.txt,30,"Hyaloclastites 
+and flow breccias indicate autoclastic facies, which often occur  near coherent lavas (Lajoie and Stix, 
+1992). Lavas can develop numerous textures, most because of cooling, such as those observed in the 
+GB (e.g., hyaloclastites, jointing and volcanic glass). For  example,  the  greenschist  facies  Mt  Reid  volcanics  of  western  Tasmania  yield  fairly  well 
+preserved volcanic textures where the rocks are not strongly altered by hydrothermal processes and/or 
+deformed  (McPhie  and  Allen,  2003). An  example  of  this  is  the  devitrification  of  volcanic  glass,  as 
+described  by  McPhie  and  Allen  (op  cit.,  2003);  crystal  boundaries  remain  intact  and  the  glass 
+recrystallises as zeolites with a minor proportion of clay minerals. As a further example, metamorphosed Triassic basalt lavas in NW Croatia were interpreted as 
+proximal  to intermediate  facies  by  Palinkaš  et  al. (2008)  based  on  volcanic textures  such  as  closely 
+packed  pillows,  hyaloclastite,  pepperite  and  tortoise-shell  jointing.",Allen,GEO,geotext
+2013_Peters.txt,45,"The  textures 
+include amygdales, basaltic hyaloclastic breccia, varioles, as well as porphyritic and aphyric texture. Petrographically,  circular  to  irregular  shaped  amygdales  are  commonly  filled  with  quartz,  calcite, 
+epidote and zeolite group minerals (Figure 5.1d). Crystal growth within amygdales commonly radiates 
+inward from the margins. The amygdales vary in diameter from 0.5 mm to greater than 5 mm. In some 
+instances, amygdales are composed of a micron-scale fill of chlorite (Figure 5.2). Petrographically, the hyaloclastic breccia samples are composed of finely crystalline, aphanitic 
+basalt fragments.",Crystal,GEO,geotext
+2013_Peters.txt,52,"5.6b). Carlsbad twinning is present in the orthoclase crystals, 
+but is not present in all grains. Cu-bearing sulphides occur on the margins and within biotite crystals, 
+indicating a preferential relationship between the sulphides and biotite. They make up approximately 
+0.5-1.0 % of the modal abundance of the rocks. Textures  included  (1)  exsolution  between  orthoclase  and  plagioclase,  evident  as  globular 
+lamellae, (2) myrmekitic texture which is represented as intergrowths between quartz and plagioclase, 
+and  (3)  poikilitic  texture,  is  observed  as  fine-grained  muscovite  and  biotite  enclosed  within  larger 
+quartz and orthoclase crystals. 52",Carlsbad,GEO,geotext
+2013_Peters.txt,58,"These elements are also prone to alteration, 
+therefore alteration is a cause for distortion. However,  the  AFM  diagram  presented  in  Figure  6.1e  plots  all  samples  from  the  GB  in  the 
+tholeiitic  series. The  data  plots  above  the  calculated  boundary  between  tholeiitic  and  calc-alkaline 
+series  (Irvine  and  Baragar,  1971). Besides  a  few  outliers,  a  trend  from  MgO  toward  FeOtotal  was 
+resolved for the GB samples. The comparative data from Boromo-Houndé and Tiebélé belts primarily 
+plot  within  the  tholeiitic  series,  but  samples  from  both  regions  do  show  calc-alkaline  compositions. This  was  observed  by  data  plotting  below  the  calc-alkaline-tholeiitie  boundary.",Irvine,GEO,geotext
+2013_Peters.txt,68,"The  GB  sample  data  was  also  plotted  on  a  Zr-Nb-Y  ternary  discrimination  diagram  (Figure 
+6.7c)  (after  Meschede,  1986)  in  order  to  characterize  the  various  types  of  MORB  and  identify 
+volcanic-arc basalts (Rollinson, 1993). The GB samples plot well within the field that represents the 
+tectonic  setting  of  N-type  MORB  or  volcanic  arc  basalts. There  was  a  weak  correlation  resolved 
+amongst the data points trending from higher to lower Y concentrations. As Y decreased, Zr and Nb 
+increased slightly. 68",Meschede,GEO,geotext
+2013_Peters.txt,74,"in  low  viscosity  lavas  and  are  a  product  of  non-explosive,  in-situ,  quench  fragmentation. Quench 
+fragmentation is a result of the immediate contact between cold water and hot lava (Lajoie and Stix,  
+1992; Parfitt and Wilson, 2008). Basaltic liquid is known to erupt at temperatures in excess of 950 °C 
+(Green  and  Ringwood,  1967)  making  the  thermal  difference  between  seawater  and  lava  possibly  in 
+excess  of  900  °C. It  is  interpreted  that  the  basalts  of  the  southern  GB  extruded  directly  onto  the 
+seafloor. The  hyaloclastite  units  represent  an  autoclastic  facies,  which  is  commonly  observed  as 
+intercalated,  transitional  units  within  the  coherent  units  in  the  southern  GB. Summarily,  autoclastic 
+units share a close spatial relationship with the coherent units (McPhie et al., 1993).",Wilson,GEO,geotext
+2013_Peters.txt,74,"in  low  viscosity  lavas  and  are  a  product  of  non-explosive,  in-situ,  quench  fragmentation. Quench 
+fragmentation is a result of the immediate contact between cold water and hot lava (Lajoie and Stix,  
+1992; Parfitt and Wilson, 2008). Basaltic liquid is known to erupt at temperatures in excess of 950 °C 
+(Green  and  Ringwood,  1967)  making  the  thermal  difference  between  seawater  and  lava  possibly  in 
+excess  of  900  °C. It  is  interpreted  that  the  basalts  of  the  southern  GB  extruded  directly  onto  the 
+seafloor. The  hyaloclastite  units  represent  an  autoclastic  facies,  which  is  commonly  observed  as 
+intercalated,  transitional  units  within  the  coherent  units  in  the  southern  GB. Summarily,  autoclastic 
+units share a close spatial relationship with the coherent units (McPhie et al., 1993).",Green,GEO,geotext
+2013_Peters.txt,76,"The presence of 
+conglomerate beds and mud clasts, possibly due to rip-up action within the greywacke units suggests 
+energetic and erosive deposition (Walker, 1992). The greywacke units of the GB are composed of coarse-grained, angular to sub-rounded quartz, 
+plagioclase  and  intact  clinopyroxene  grains  (Sections  4.3.3,  5.2.1). Clinopyroxene  and  plagioclase 
+grains are readily altered during transportation processes (Albarede, 2003), suggesting that deposition 
+of the greywackes in the southern GB took place proximal to the source. Consequently, the greywacke 
+was likely derived from a volcano-(plutonic) source nearby. The pyroclastic breccia unit of the GB is a polylithic, poorly bedded, poorly sorted deposit that 
+is interbedded within the greywacke succession (Section 4.3.4). The breccia is composed of euhedral 
+quartz,  plagioclase,  volcanic  hornblende  and  anhedral  clinopyroxene  crystals  cemented  with  a  fine-
+grained epidote-sericite rich matrix (Section 5.2.2).",Walker,GEO,geotext
+2013_Peters.txt,78,"Therefore,  it  is 
+suggested that Ca-perovskite and garnet were retained in the magma source as suggested by McCuaig 
+et  al. (1994)  for  Archaean  basalts  from  the  Yilgarn  and  Superior  Cratons. They  calculated  partition 
+coefficients  for  phosphorus  and  reported  that  phosphorus  is  more  likely  to  substitute  for  silica  in 
+garnet,  clinopyroxene  and  Ca-perovskite,  and  determined  that  phosphorus  partitioned  into  Ca-
+perovskite  >  majorite  garnet  >  pyrope  garnet  >  clinopyroxene  with  negligible  amounts  partitioning 
+into olivine, orthopyroxene and spinel. In attempt to quantify the likelihood of phosphorus retention in the magma source in general for 
+GB samples, a simple calculation was done (Appendix C) to determine how much  phosphorus could 
+be retained in garnet and clinopyroxene in ancient magmas. The assumption was made that 0.05 wt% 
+P2O5 was present in these magmas and 15 % partial melting occurred. The primitive mantle value for 
+phosphorus was taken from Anders and Grevesse (1989).",Superior,GEO,geotext
+2013_Peters.txt,81,"However, studies by Abouchami et al. (1990), including work from the Bouroum belt in 
+Burkina  Faso, suggested that the  best  tectonic  analogue  for the  formation  of  tholeiitic  basalts  of  the 
+Birimian  Supergroup  is  oceanic  flood  basalts  (OFB). This  conclusion  was  established  from  Ti  and 
+LREE  depletions,  where  the  LREE  depletion  is  less  than  N-type  MORBs. It  was  suggested  that  an 
+intermediate  geochemistry  between  back-arc  basins  and  island-arc  tholeiites  made  such  an 
+environment an attractive setting, especially due to regionally low Nb concentrations (Zonou, 1987), 
+but  the  lack  of  ultramafic  rocks  (Burke,  1988)  and  unfitting  isotopic  and  trace  element  signatures 
+indicated an oceanic plateau origin (Abouchami et al., 1990). The distinction between the GB basalt samples forming in an arc-related basin compared to an 
+oceanic plateau setting is in their strato-tectonic context. The tholeiitic basalts from the GB have many 
+similarities to the general tholeiitic compositions from around the craton.",Burke,GEO,geotext
+2013_Peters.txt,11,"The  GB  rocks  plot 
+within the basalt, basaltic-andesite and andesite fields. Samples from the Boromo-Houndé belts 
+are distributed throughout the basalt, basaltic-andesite and andesite fields. The Tiebélé samples 
+have a smaller SiO2 range but some samples contain increased alkali concentrations and plot as 
+trachyandesite and tephrite. The Oudalan-Gorouol belt samples plot between basalt and basaltic-
+andesite. (d)  SiO2  versus K2O  (wt%) demonstrates  that the  GB  volcanic rocks  plot  within the 
+Low-K series for the most part. One sample plots in the Medium-K series with a K2O value of 
+~1 wt%.",Oudalan-Gorouol belt,regex-GEO,regex
+2013_Peters.txt,19,"Kongossi 
+is 60 km from Kaya and lies at the northeastern end of the belt. The belt is composed of two 100 km 
+parallel  branches  that  are  characterized  by  topographic  highs;  the  branches  are  separated  by  a 
+relatively flat lying region up to 20 km wide. An extensive ferricrete profile covers the GB as is typical for the West African craton in general 
+(Brown  et  al.,  1994;  Beauvais  et  al.,  2008). The  ferricrete  formed  during  the  Cretaceous  Period  but 
+was remobilised during the Palaeogene-Neogene in discrete erosion events, with 40Ar/39Ar dates of 59-
+45 Ma, 29-18 Ma, 18-11 Ma, 6 Ma and 3 Ma (Brown et al., 1994; Beauvais et al., 2008). The last three 
+erosional  periods  were  responsible  for  the  formation  of  distinct  three-level  pediment  surfaces  seen 
+throughout the GB (WAXI, 2013). 1.3.",West African craton,regex-GEO,regex
+2013_Peters.txt,22,"2. REVIEW OF WEST AFRICAN GEOLOGY 
+2.1. Stratigraphy 
+The West African Craton (WAC) is made up of Archaean and Palaeoproterozoic rocks and is 
+divided  into  the  Reguibat  Rise  in  the  north  and  the  Leo-Man  Rise  in  the  south  (Thiéblemont  et  al., 
+2004)  (Figure  1.1). The  Leo-Man  consists  of  two  domains,  namely  the  Archaean  Kénema-Man 
+domain  (3.54  Ga)  in  the  southwest  and the  Palaeoproterozoic  Baoulé-Mossi  domain  (2.3-1.8  Ga)  in 
+the  east  (Feybesse  et  al.,  2006),  with  the  exception  of  the  Kénieba-  Kédougou  and  Kayes  Inliers, 
+located  between  Mali  and  Senegal  (Figure  1.1). The  Birimian  Supergroup  makes  up  part  of  the 
+Baoulé-Mossi  domain  and  was  deposited  ca. 2.3  Ga  (Feybesse  et  al.,  2006;  Pawlig  et  al.,  2006).",Stratigraphy The West African Craton,regex-GEO,regex
+2013_Peters.txt,24,"greenschist facies at most (WAXI, 2013). Regional metamorphism in the Eburnean Orogeny attained 
+greenschist  facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996)  with  the 
+development of chlorite, muscovite, epidote and actinolite mineral assemblages, and low to medium 
+grade amphibolite facies with the introduction of hornblende (Bossière et al., 1996; Béziat et al., 2000; 
+Debat et al., 2003; Naba et al., 2004). Granulite facies metamorphic rocks  crop out in the Oudalan-
+Gorouol belt on the margin of the Dori batholith in the Gorom Gorom region (Tshibubudze and Hein, 
+2013), and in the Pissila batholith in the Saaba region (Simoko, 2012). Three deformation events are recognised in northeast Burkina Faso: 
+(1)  D1  (Tangaean  Event)  resulted  in  NW-trending  dextral  reverse  shear  zones,  folds  and  an  S1 
+foliation. The  shortening  direction  was  SW-directed  (Tshibubudze  et  al.,  2009;  Hein,  2010; 
+Tshibubudze  and  Hein,  2013). D1  is  recognised  in  northern  Ghana  by  de  Kock  et  al.",Oudalan- Gorouol belt,regex-GEO,regex
+2013_Peters.txt,24,"greenschist facies at most (WAXI, 2013). Regional metamorphism in the Eburnean Orogeny attained 
+greenschist  facies  (Milési  et  al.,  1989,  1991;  Bossière  et  al.,  1996;  Hirdes  et  al.,  1996)  with  the 
+development of chlorite, muscovite, epidote and actinolite mineral assemblages, and low to medium 
+grade amphibolite facies with the introduction of hornblende (Bossière et al., 1996; Béziat et al., 2000; 
+Debat et al., 2003; Naba et al., 2004). Granulite facies metamorphic rocks  crop out in the Oudalan-
+Gorouol belt on the margin of the Dori batholith in the Gorom Gorom region (Tshibubudze and Hein, 
+2013), and in the Pissila batholith in the Saaba region (Simoko, 2012). Three deformation events are recognised in northeast Burkina Faso: 
+(1)  D1  (Tangaean  Event)  resulted  in  NW-trending  dextral  reverse  shear  zones,  folds  and  an  S1 
+foliation. The  shortening  direction  was  SW-directed  (Tshibubudze  et  al.,  2009;  Hein,  2010; 
+Tshibubudze  and  Hein,  2013). D1  is  recognised  in  northern  Ghana  by  de  Kock  et  al.",Gorom Gorom region,regex-GEO,regex
+2013_Peters.txt,35,"4. ROCK TYPES OF THE GOREN BELT 
+4.1. Introduction 
+The  rock  types  of  the  southern  Goren  Belt  (GB)  consist  primarily  of  basalt  units  that  are 
+intercalated with a succession of sedimentary rocks and pyroclastic breccia. These rocks were intruded 
+by  TTG  suite  plutons  including  the  Pissila  Batholith  and  the  Loudo  granodiorite  (Figure  2.1),  and 
+pyroxenite,  dolerite  and  aplite  dykes. The  basalt,  sedimentary  rocks  and  pyroclastic  breccias  are 
+metamorphosed  to  sub-greenschist  (Kříbek  et  al.,  2008),  or  middle  greenschist  facies  (Hein  et  al., 
+2004), with amphibolite facies adjacent to plutons and dykes. This research was focused in areas of the 
+southern GB, where primary volcanic and sedimentary textures were only affected by sub-greenschist 
+and lower-middle greenschist facies metamorphism.",Rock Types Of The Goren Belt,regex-GEO,regex
+2013_Peters.txt,35,"4. ROCK TYPES OF THE GOREN BELT 
+4.1. Introduction 
+The  rock  types  of  the  southern  Goren  Belt  (GB)  consist  primarily  of  basalt  units  that  are 
+intercalated with a succession of sedimentary rocks and pyroclastic breccia. These rocks were intruded 
+by  TTG  suite  plutons  including  the  Pissila  Batholith  and  the  Loudo  granodiorite  (Figure  2.1),  and 
+pyroxenite,  dolerite  and  aplite  dykes. The  basalt,  sedimentary  rocks  and  pyroclastic  breccias  are 
+metamorphosed  to  sub-greenschist  (Kříbek  et  al.,  2008),  or  middle  greenschist  facies  (Hein  et  al., 
+2004), with amphibolite facies adjacent to plutons and dykes. This research was focused in areas of the 
+southern GB, where primary volcanic and sedimentary textures were only affected by sub-greenschist 
+and lower-middle greenschist facies metamorphism.",Goren Belt,regex-GEO,regex
+2013_Peters.txt,45,"5. PETROGRAPHIC  OBSERVATIONS  OF  SELECTED  SAMPLES  FROM  THE 
+GOREN BELT 
+5.1. Basaltic rocks 
+A  petrographic  study  of  28  basalt  samples  was  completed  at  the  University  of  the 
+Witwatersrand Johannesburg. The  petrography  shows  that  the  basaltic  rocks  are  dominantly  aphyric 
+and  compositionally  similar. The  primary  mineralogy  of  the  samples  is  composed  of  clinopyroxene 
+and  plagioclase. Plagioclase  and  clinopyroxene  made  up  between  5  and  15  %  of  the  samples  as 
+variably altered microlites (Figure 5.1a).",Of Selected Samples From The Goren Belt,regex-GEO,regex
+2013_Peters.txt,54,"6. GEOCHEMICAL ANALYSIS OF THE GOREN BELT 
+6.1. Geochemistry of the volcanic rocks 
+Whole-rock analyses were completed on 20 volcanic and 6 sedimentary samples using XRF and 
+ICP-MS. Both major elements and trace elements were measured using XRF spectrometry. The data 
+were calculated in wt% for the major elements and parts per million (ppm) for the trace elements. The 
+ICP-MS  analyses  are  reported  in  ppm.",Geochemical Analysis Of The Goren Belt,regex-GEO,regex
+2013_Peters.txt,74,"Although  considered  rare  in  mafic,  non-viscous  lavas,  flow 
+banding has been recorded in the Archaean Barberton greenstone belt of South Africa (Robbins et al., 
+2010) and occurs in the southern Bouroum belt in Burkina Faso (WAXI, 2013) (Figure 1.1). The  coherent  and  autoclastic  units  of  the  study  area  formed  as  a  result  of  effusive  eruptions. Effusive eruptions are typical of basaltic liquids, particularly when submerged beneath the confining 
+water column. Effusive eruptions are characterized by the ability of lava to flow (low viscosity) rather 
+than explode (Parfitt and Wilson, 2008) because volatiles escape passively through vesicle formation 
+(McPhie et al., 1993; Bardintzeff and McBirney, 2000; Parfitt and Wilson, 2008). The  coherent  and  autoclastic  facies  are  interpreted  to  have  formed  proximally  to  the  volcanic 
+source. However, because basaltic lavas have low viscosities, they are able to flow laterally between 
+tens and hundreds of metres before solidification.",Archaean Barberton greenstone belt,regex-GEO,regex
+2013_Peters.txt,76,"A  correlation  between  increased  Ba  and  base  metals  also  suggests  seafloor  hydrothermal 
+activity in a proximal setting to a volcanic source (c.f., Burnham, 1962; Lydon, 1988; Ҫaǧatay 1993; 
+Herrington  et  al.,  2005). For  the  most  part,  higher  Ba  values  in  the  GB  correlate  with  higher 
+concentrations  of  Mn,  implying  that  the  manganese  deposits  formed  in  oxidising  conditions 
+proximally. The manganese mineralization of the GB is similar to primary manganese mineralization seen 
+throughout  the  WAC  that  is  interpreted  as  volcanogenic  in  character. For  example,  the  VHMS 
+mineralization in the Tiebélé belt is intercalated with chert and manganese units (Sections 1.1 and 2.4) 
+in  carbonaceous  manganese  rocks  (Ilboudo,  2010)  and  is  characterized  by  sphalerite-galena-
+chalcopyrite-pyrite-bornite  assemblages 
+that  are  volcanogenic. Additionally, 
+the  manganese-
+carbonates  of  the  Nsuta  deposit  in  the  Ashanti  Belt  in  Ghana  are  hosted  by  a  volcano-sedimentary 
+sequence  in  basalt-andesite  units  (Nyame,  2008),  and  indicate  a  volcanic  setting. Furthermore  the 
+Tambão  (supergene)  deposit  in  Burkina  Faso  (Figure  1.1)  is  sited  above  primary  manganese-rich 
+carbonate  that  is  hosted  in  volcanic  units  (Colin  et  al.,  2005).",Ashanti Belt,regex-GEO,regex

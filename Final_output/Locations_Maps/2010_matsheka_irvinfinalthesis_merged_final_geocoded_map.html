@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2048079f2a5095b27bf63b2662ac8332 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_2048079f2a5095b27bf63b2662ac8332" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2048079f2a5095b27bf63b2662ac8332 = L.map(
+                "map_2048079f2a5095b27bf63b2662ac8332",
+                {
+                    center: [20.064187634693877, -12.248803934693878],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fa841b5dc2184035b5636cee3131274d = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u00a9 OpenStreetMap contributors, \u00a9 CARTO",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fa841b5dc2184035b5636cee3131274d.addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+            var circle_marker_e400e8f2095263d42d6f04348f60ef53 = L.circleMarker(
+                [13.8001844, -10.2245548],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_daa1130aac430c01272d5b4c05084d8d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2f2520ba5455798d1c06385f199b21e4 = $(`<div id="html_2f2520ba5455798d1c06385f199b21e4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Mineralisation  at  Sadiola  has  been  shown  to  have  a  temporal  and  a  spatial  relationship to the tonalite-granodiorite plutons and tonalite dykes. Sadiola is located in close proximity to  the  Alamoutala-Sekokoto-Kakadian  plutonic  system. Mineralisation  has  shown  to  be  as  a  result  of  the  fluids and metamorphism associated with the intrusions (Hein and Tshibubudze, 2007b). Determining the  paragenesis,  investigation  of  the  mineralogical,  microstructural  and  alteration  events  will  assist  in  determining  gold  mineralisation,  and  is  considered  important  for  the  Sadiola  exploration  and  in-mine  development. 1.2  Location and Physiography  The  Sadiola  opencast  mine  is  located  within  the  Sadiola  village. The  village  is  situated  in  the  south- western part of Mali at about 77km south of the regional capital, Kayes (Fig.<br><b>Geocode:</b> Kayes, Mali<br><b>Pages:</b> 8<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_daa1130aac430c01272d5b4c05084d8d.setContent(html_2f2520ba5455798d1c06385f199b21e4);
+            
+        
+
+        circle_marker_e400e8f2095263d42d6f04348f60ef53.bindPopup(popup_daa1130aac430c01272d5b4c05084d8d)
+        ;
+
+        
+    
+    
+            circle_marker_e400e8f2095263d42d6f04348f60ef53.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_76fc65b57a109e5d5e66ffe567f6188b = L.circleMarker(
+                [6.8003319, -1.5188142],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_d67efb402809fc69a38e5dfdbe3466de = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_de7c841d63eec6e15932f7cd61ca9308 = $(`<div id="html_de7c841d63eec6e15932f7cd61ca9308" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32<br><b>Geocode:</b> Ashanti Region, Ghana<br><b>Pages:</b> 33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d67efb402809fc69a38e5dfdbe3466de.setContent(html_de7c841d63eec6e15932f7cd61ca9308);
+            
+        
+
+        circle_marker_76fc65b57a109e5d5e66ffe567f6188b.bindPopup(popup_d67efb402809fc69a38e5dfdbe3466de)
+        ;
+
+        
+    
+    
+            circle_marker_76fc65b57a109e5d5e66ffe567f6188b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b0c9da387661d33560e87ef1f6a7ffe = L.circleMarker(
+                [13.0799078, -11.4893942],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_60b5a076dbece5a9836505aadbd2d089 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7f878b40d0ba4c01ac4a861e683e70d6 = $(`<div id="html_7f878b40d0ba4c01ac4a861e683e70d6" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Mako  Supergroup  is  intruded  by  the  Sandikounda  Layered  Complex  and  the  Laminia  Kaourou  Plutonic  Complex  (2160-2130  Ma). The  NW-SE  trending  Mako  volcanic  belt  is  located  west  of  the  Main  Transcurrent Zone. *The central domain is dominated by the Diale-Dalemé Supergroup which is a sedimentary to volcano- sedimentary  unit. It  is  composed  of  detrital  sedimentary  rocks  interbedded  with  calc-alkaline  volcanic  rocks. The sedimentary rocks are isoclinally folded with the folds being upright and overturned to the SE- direction. It  is  intruded  by  the  Saraya  plutonic  complex  and  the  Balangouma  and  Boboti  plutons.<br><b>Geocode:</b> Balangouma, Communauté rurale de Missirah Sirimana, Arrondissement de Sabodala, Département de Saraya, Kédougou Region, Senegal<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_60b5a076dbece5a9836505aadbd2d089.setContent(html_7f878b40d0ba4c01ac4a861e683e70d6);
+            
+        
+
+        circle_marker_1b0c9da387661d33560e87ef1f6a7ffe.bindPopup(popup_60b5a076dbece5a9836505aadbd2d089)
+        ;
+
+        
+    
+    
+            circle_marker_1b0c9da387661d33560e87ef1f6a7ffe.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c125982a8fc8abceba608906e9ad2f43 = L.circleMarker(
+                [42.4062207, 42.3525953],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_f6fb164cdc965fe566b607fa99e81e1b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_61e3aeca8de755eb9f1437fae1f80c66 = $(`<div id="html_61e3aeca8de755eb9f1437fae1f80c66" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Mako  Supergroup  is  intruded  by  the  Sandikounda  Layered  Complex  and  the  Laminia  Kaourou  Plutonic  Complex  (2160-2130  Ma). The  NW-SE  trending  Mako  volcanic  belt  is  located  west  of  the  Main  Transcurrent Zone. *The central domain is dominated by the Diale-Dalemé Supergroup which is a sedimentary to volcano- sedimentary  unit. It  is  composed  of  detrital  sedimentary  rocks  interbedded  with  calc-alkaline  volcanic  rocks. The sedimentary rocks are isoclinally folded with the folds being upright and overturned to the SE- direction. It  is  intruded  by  the  Saraya  plutonic  complex  and  the  Balangouma  and  Boboti  plutons.<br><b>Geocode:</b> Boboti, Martvili Municipality, Samegrelo-Upper Svaneti, Georgia<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f6fb164cdc965fe566b607fa99e81e1b.setContent(html_61e3aeca8de755eb9f1437fae1f80c66);
+            
+        
+
+        circle_marker_c125982a8fc8abceba608906e9ad2f43.bindPopup(popup_f6fb164cdc965fe566b607fa99e81e1b)
+        ;
+
+        
+    
+    
+            circle_marker_c125982a8fc8abceba608906e9ad2f43.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_54e583c29715cf27ec1585b5a02282fb = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_89147ab375a03f8950a700104fd646e6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2805c675e00185e7e04825157a4d73b3 = $(`<div id="html_2805c675e00185e7e04825157a4d73b3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.2 Structural Interpretation  The two deformation phases that are identified in the study areas of the Sadiola goldfield correlate with  the  deformation  phases  interpreted  by  Hein  (2009)  in  the  Goren  greenstone  belt  in  Burkina  Faso,  Tshibubudze  et  al.,  (2009)  in  the  Markoye  Shear  Zone  in  Burkina  Faso. The  first  deformation  is  characterized  by  the  development  of  NNW-trending  folds  (F1). NNW  bedding  and  cleavage  (S1)  orientation associated with D1 are recorded in the study area. This deformation is termed the Tangaean  Event and formed during the NE-SW shortening period. Quartz veins formed during this event and their  dominant trend is towards NNE-NE. The second deformation event is characterized by the development of ENE-ESE trending folds (F2) and  NE-trending  cleavage  (S2). || 5.4 Comparison to Sadiola goldfield with the rest of the West African Gold deposits  The Sadiola deposits share some similarities with the other gold deposits in the West African Craton. In  the nearby FE3 open cast, two styles of gold mineralisation were recorded by Matabane (2008). These are  gold mineralisation in the breccia lodes and in the upper slump facies which co-exists with arsenopyrite- pyrite  assemblage  and  the  secondary  placer  gold  mineralisation. Similar  occurrence  of  orogenic  gold  systems are recorded in Ghana, Senegal, Burkina Faso, Guinea and Cote d’Ivoire (Goldfarb et al., 2001). Primary gold deposits in Burkina Faso are classified as orogenic-type gold deposits (Béziat et al., 2008)  with  the  differences  from  the  Sadiola  documented  in  the  style  of  gold  mineralisation. Two  styles  of  mineralisation  observed  in  Burkina  Faso  are  quartz-vein  and  disseminated  (Béziat  et  al.,  2008).<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 31,33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_89147ab375a03f8950a700104fd646e6.setContent(html_2805c675e00185e7e04825157a4d73b3);
+            
+        
+
+        circle_marker_54e583c29715cf27ec1585b5a02282fb.bindPopup(popup_89147ab375a03f8950a700104fd646e6)
+        ;
+
+        
+    
+    
+            circle_marker_54e583c29715cf27ec1585b5a02282fb.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e934bd513b1b59a24b27c11fc872b959 = L.circleMarker(
+                [6.2709905, -2.3175999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_182fe277dbdd1ad99adc62ae7e61b0fb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c31f82623ac3e5f1998ca02f6246baa4 = $(`<div id="html_c31f82623ac3e5f1998ca02f6246baa4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32<br><b>Geocode:</b> Chirano, Bibiani Anhwiaso Bekwai Municipal District, Western North Region, Ghana<br><b>Pages:</b> 33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_182fe277dbdd1ad99adc62ae7e61b0fb.setContent(html_c31f82623ac3e5f1998ca02f6246baa4);
+            
+        
+
+        circle_marker_e934bd513b1b59a24b27c11fc872b959.bindPopup(popup_182fe277dbdd1ad99adc62ae7e61b0fb)
+        ;
+
+        
+    
+    
+            circle_marker_e934bd513b1b59a24b27c11fc872b959.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ab72ce51e659a90958274fd200f219df = L.circleMarker(
+                [7.9897371, -5.5679458],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_318b14c89552e73fc35581bd5cbd8b5e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_512b00514aa168273e79cf4222d6634f = $(`<div id="html_512b00514aa168273e79cf4222d6634f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.4 Comparison to Sadiola goldfield with the rest of the West African Gold deposits  The Sadiola deposits share some similarities with the other gold deposits in the West African Craton. In  the nearby FE3 open cast, two styles of gold mineralisation were recorded by Matabane (2008). These are  gold mineralisation in the breccia lodes and in the upper slump facies which co-exists with arsenopyrite- pyrite  assemblage  and  the  secondary  placer  gold  mineralisation. Similar  occurrence  of  orogenic  gold  systems are recorded in Ghana, Senegal, Burkina Faso, Guinea and Cote d’Ivoire (Goldfarb et al., 2001). Primary gold deposits in Burkina Faso are classified as orogenic-type gold deposits (Béziat et al., 2008)  with  the  differences  from  the  Sadiola  documented  in  the  style  of  gold  mineralisation. Two  styles  of  mineralisation  observed  in  Burkina  Faso  are  quartz-vein  and  disseminated  (Béziat  et  al.,  2008). || Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32<br><b>Geocode:</b> Côte d'Ivoire<br><b>Pages:</b> 33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_318b14c89552e73fc35581bd5cbd8b5e.setContent(html_512b00514aa168273e79cf4222d6634f);
+            
+        
+
+        circle_marker_ab72ce51e659a90958274fd200f219df.bindPopup(popup_318b14c89552e73fc35581bd5cbd8b5e)
+        ;
+
+        
+    
+    
+            circle_marker_ab72ce51e659a90958274fd200f219df.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_699cafa4b83532b674ba8e17fc88012c = L.circleMarker(
+                [13.3127665, -11.5901805],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_7bb10627d2c394db20d3fdaccc1fea7e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_14ed068a6c075ef5b4a5d2305a6ad439 = $(`<div id="html_14ed068a6c075ef5b4a5d2305a6ad439" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Diale-Dalemé occurs with the Faleme volcanic belt which consists of andesite and felsic lava, with   10<br><b>Geocode:</b> Falémé, Kayes, Mali<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7bb10627d2c394db20d3fdaccc1fea7e.setContent(html_14ed068a6c075ef5b4a5d2305a6ad439);
+            
+        
+
+        circle_marker_699cafa4b83532b674ba8e17fc88012c.bindPopup(popup_7bb10627d2c394db20d3fdaccc1fea7e)
+        ;
+
+        
+    
+    
+            circle_marker_699cafa4b83532b674ba8e17fc88012c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bf97085c7da9ba059e4a733985f27d3c = L.circleMarker(
+                [8.0300284, -1.0800271],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_cbc3fd571c937f63f2712df0d85fbebe = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2c080a1cae1b8d29e8fa9449bb9807f5 = $(`<div id="html_2c080a1cae1b8d29e8fa9449bb9807f5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.4 Comparison to Sadiola goldfield with the rest of the West African Gold deposits  The Sadiola deposits share some similarities with the other gold deposits in the West African Craton. In  the nearby FE3 open cast, two styles of gold mineralisation were recorded by Matabane (2008). These are  gold mineralisation in the breccia lodes and in the upper slump facies which co-exists with arsenopyrite- pyrite  assemblage  and  the  secondary  placer  gold  mineralisation. Similar  occurrence  of  orogenic  gold  systems are recorded in Ghana, Senegal, Burkina Faso, Guinea and Cote d’Ivoire (Goldfarb et al., 2001). Primary gold deposits in Burkina Faso are classified as orogenic-type gold deposits (Béziat et al., 2008)  with  the  differences  from  the  Sadiola  documented  in  the  style  of  gold  mineralisation. Two  styles  of  mineralisation  observed  in  Burkina  Faso  are  quartz-vein  and  disseminated  (Béziat  et  al.,  2008). || Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32 || The main religion is Muslim, with  Christian and other religions estimated at 10% of the population. In 2006, the country’s GDP was estimated at $5.847 billion with an annual growth rate estimated at 5.1%. The  country’s  GDP  puts  Mali  as  one  of  the  poorest  countries  in  the  world. The  main  sectors  that  contribute largely to this GDP are mining, agriculture and livestock farming and Mali is currently the 3rd  largest  producer  of  gold  in  the  continent  after  the  Republic  of  South  Africa  and  Ghana. Mining  is  a  growing industry in the country and gold mining accounts for approximately 80% of the mining activity. Gold became the number one mining export in Mali with AngloGold Ashanti and Randgold being two of  the biggest mining houses in the country (US Department of States).<br><b>Geocode:</b> Ghana<br><b>Pages:</b> 33,8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_cbc3fd571c937f63f2712df0d85fbebe.setContent(html_2c080a1cae1b8d29e8fa9449bb9807f5);
+            
+        
+
+        circle_marker_bf97085c7da9ba059e4a733985f27d3c.bindPopup(popup_cbc3fd571c937f63f2712df0d85fbebe)
+        ;
+
+        
+    
+    
+            circle_marker_bf97085c7da9ba059e4a733985f27d3c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_90d9acc6475a98aab933b373970b5e3f = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_4dd49c2de3f5a099acb7643109bd892b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_888d327e7fbb5157cbda7749a18208f3 = $(`<div id="html_888d327e7fbb5157cbda7749a18208f3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.2 Structural Interpretation  The two deformation phases that are identified in the study areas of the Sadiola goldfield correlate with  the  deformation  phases  interpreted  by  Hein  (2009)  in  the  Goren  greenstone  belt  in  Burkina  Faso,  Tshibubudze  et  al.,  (2009)  in  the  Markoye  Shear  Zone  in  Burkina  Faso. The  first  deformation  is  characterized  by  the  development  of  NNW-trending  folds  (F1). NNW  bedding  and  cleavage  (S1)  orientation associated with D1 are recorded in the study area. This deformation is termed the Tangaean  Event and formed during the NE-SW shortening period. Quartz veins formed during this event and their  dominant trend is towards NNE-NE. The second deformation event is characterized by the development of ENE-ESE trending folds (F2) and  NE-trending  cleavage  (S2).<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 31<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4dd49c2de3f5a099acb7643109bd892b.setContent(html_888d327e7fbb5157cbda7749a18208f3);
+            
+        
+
+        circle_marker_90d9acc6475a98aab933b373970b5e3f.bindPopup(popup_4dd49c2de3f5a099acb7643109bd892b)
+        ;
+
+        
+    
+    
+            circle_marker_90d9acc6475a98aab933b373970b5e3f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3a00b976509c245305e927fe34a4e003 = L.circleMarker(
+                [10.7226226, -10.7083587],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_aae45bd32724e55a1a274f0f5fea1282 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8161d2df135e2c48f9e417d51bd372ab = $(`<div id="html_8161d2df135e2c48f9e417d51bd372ab" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.4 Comparison to Sadiola goldfield with the rest of the West African Gold deposits  The Sadiola deposits share some similarities with the other gold deposits in the West African Craton. In  the nearby FE3 open cast, two styles of gold mineralisation were recorded by Matabane (2008). These are  gold mineralisation in the breccia lodes and in the upper slump facies which co-exists with arsenopyrite- pyrite  assemblage  and  the  secondary  placer  gold  mineralisation. Similar  occurrence  of  orogenic  gold  systems are recorded in Ghana, Senegal, Burkina Faso, Guinea and Cote d’Ivoire (Goldfarb et al., 2001). Primary gold deposits in Burkina Faso are classified as orogenic-type gold deposits (Béziat et al., 2008)  with  the  differences  from  the  Sadiola  documented  in  the  style  of  gold  mineralisation. Two  styles  of  mineralisation  observed  in  Burkina  Faso  are  quartz-vein  and  disseminated  (Béziat  et  al.,  2008).<br><b>Geocode:</b> Guinea<br><b>Pages:</b> 33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_aae45bd32724e55a1a274f0f5fea1282.setContent(html_8161d2df135e2c48f9e417d51bd372ab);
+            
+        
+
+        circle_marker_3a00b976509c245305e927fe34a4e003.bindPopup(popup_aae45bd32724e55a1a274f0f5fea1282)
+        ;
+
+        
+    
+    
+            circle_marker_3a00b976509c245305e927fe34a4e003.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ab344dd19646e024b35c4b7d6438764 = L.circleMarker(
+                [41.4644295, -74.0988305],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_98e8d93b9ff45d625a2dfcb612e072a1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a01c6613b84692346995844f8f571619 = $(`<div id="html_a01c6613b84692346995844f8f571619" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.2 Lithologies  Mapping was undertaken in two areas in the Sadiola open  cast: West high-wall in the  main pit and the  Helicopter pit located at the southern end of the main pit (Map 1 & 2). The main lithologies observed in  the main pit are metagreywacke and carbonates. The greywacke sequence is massive in texture and the  visible  mineralogy  includes  quartz,  calcite,  minor  sulphide  and  epidote  in  some  cases. The  carbonate  sequence  becomes  friable  and  less  competent  at  the  contact  with  the  carbonaceous-siltstone  greywacke  unit. This unit is interpreted as the Sadiola Fracture Zone (SFZ) as defined by Hein (2009) and Boshoff et  al (1998). Pyrolusite, epidote and kaolinite occur in this zone and the zone is cross-cut by quartz veins. || CHAPTER 2: Methodology  Data Collection  This research comprised two important tasks: petrographical work and field work which were preceded  by  literature  review. Field  work  was  completed  in  June  2009  and  involved  examining  drill-core  and  mapping  of  the  host  rocks. Six  drill  cores  from  the  Sadiola  Deep  Sulphide  project  were  examined  and  these  include  SD022,  SD042,  SD048,  SD119,  SD129  and  SD782. Samples  were  collected  in  2008  and  polished thin sections were prepared by SGS Laboratories in Booysens, Johannesburg. Field  mapping  involved  mapping  of  the  West  High-Wall  of  the  main  pit  and  the  Helicopter  pit  at  the  southern  end  of  the  main  Sadiola  pit. At  each  station  point  the  following  (if  present)  were  recorded:  lithology, bedding and cleavage orientation, faulting, folding, alteration and the distance from the station  point to the face wall.<br><b>Geocode:</b> Helicopter, Denniston, Town of New Windsor, Orange County, New York, 12577, United States<br><b>Pages:</b> 10,20<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_98e8d93b9ff45d625a2dfcb612e072a1.setContent(html_a01c6613b84692346995844f8f571619);
+            
+        
+
+        circle_marker_2ab344dd19646e024b35c4b7d6438764.bindPopup(popup_98e8d93b9ff45d625a2dfcb612e072a1)
+        ;
+
+        
+    
+    
+            circle_marker_2ab344dd19646e024b35c4b7d6438764.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2da8c1b0b3bf52e21055cc52967d61b2 = L.circleMarker(
+                [13.8001844, -10.2245548],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_51b8cd2c933da6e4d74d04d12b749039 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d689f8e6f10f305fd7fb6a4156918500 = $(`<div id="html_d689f8e6f10f305fd7fb6a4156918500" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 3: Regional Geology   3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier  The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately  1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The  Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et  al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat  et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.<br><b>Geocode:</b> Kayes, Mali<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_51b8cd2c933da6e4d74d04d12b749039.setContent(html_d689f8e6f10f305fd7fb6a4156918500);
+            
+        
+
+        circle_marker_2da8c1b0b3bf52e21055cc52967d61b2.bindPopup(popup_51b8cd2c933da6e4d74d04d12b749039)
+        ;
+
+        
+    
+    
+            circle_marker_2da8c1b0b3bf52e21055cc52967d61b2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d7bdf9d275e550e01c8b0f236a97669f = L.circleMarker(
+                [12.8564377, 11.2415847],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_6bcfd4a54b08f1d11c1bbea52369ba69 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_89718dd219001aa7832747838e156a4d = $(`<div id="html_89718dd219001aa7832747838e156a4d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 3: Regional Geology   3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier  The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately  1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The  Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et  al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat  et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.<br><b>Geocode:</b> Kenieba, Masaba, Borsari, Yobe, Nigeria<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6bcfd4a54b08f1d11c1bbea52369ba69.setContent(html_89718dd219001aa7832747838e156a4d);
+            
+        
+
+        circle_marker_d7bdf9d275e550e01c8b0f236a97669f.bindPopup(popup_6bcfd4a54b08f1d11c1bbea52369ba69)
+        ;
+
+        
+    
+    
+            circle_marker_d7bdf9d275e550e01c8b0f236a97669f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca334c44029b063871e9af8c04fd66e4 = L.circleMarker(
+                [0.2416723, 29.3144644],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_b818fa7b768b8ec99c4243d55a29d810 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1ab32ef66a8da8397d455b6c3585dbba = $(`<div id="html_1ab32ef66a8da8397d455b6c3585dbba" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32<br><b>Geocode:</b> Loulo, Kithahuha, Masongo, Bashu, Beni, North Kivu, Democratic Republic of the Congo<br><b>Pages:</b> 33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b818fa7b768b8ec99c4243d55a29d810.setContent(html_1ab32ef66a8da8397d455b6c3585dbba);
+            
+        
+
+        circle_marker_ca334c44029b063871e9af8c04fd66e4.bindPopup(popup_b818fa7b768b8ec99c4243d55a29d810)
+        ;
+
+        
+    
+    
+            circle_marker_ca334c44029b063871e9af8c04fd66e4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1a4df5751bf3403a12aa150be8d07e59 = L.circleMarker(
+                [0.2416723, 29.3144644],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_4ff1d700e80969bf1dba1c43fab0f9e9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_00fe2d70a52cda9c6c95a03a63a59f84 = $(`<div id="html_00fe2d70a52cda9c6c95a03a63a59f84" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32 || Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32 || The Dalema-Kofi Supergroup is crosscut by tourmaline-rich quartz veins which are the primary host to  gold  mineralisation  (Wilson,  2002)  in  the  Loulo  goldfield,  SSE  of  Sadiola,  near  the  town  of  Kêniêba. Ranson (1998) indicated that gold mineralisation occurs in pelitic shales. The Dalema-Kofi sequence is  currently  not  dated  (Dioh  et  al.,  2006;  Matabane,  2008). It  is  transacted  by  the  Senegalo-Malian  Shear  Zone with several gold deposits located in close proximity to the structure (Boshoff et al., 1998). 11<br><b>Geocode:</b> Loulo, Kithahuha, Masongo, Bashu, Beni, North Kivu, Democratic Republic of the Congo<br><b>Pages:</b> 12,33,33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4ff1d700e80969bf1dba1c43fab0f9e9.setContent(html_00fe2d70a52cda9c6c95a03a63a59f84);
+            
+        
+
+        circle_marker_1a4df5751bf3403a12aa150be8d07e59.bindPopup(popup_4ff1d700e80969bf1dba1c43fab0f9e9)
+        ;
+
+        
+    
+    
+            circle_marker_1a4df5751bf3403a12aa150be8d07e59.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3b392ef67e7e2ecb0c338034840dbad7 = L.circleMarker(
+                [16.3700359, -2.2900239],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_26b5eef7d0a873193d2548ae62f391e8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3eb0fd13f11ee2129534b7616b826449 = $(`<div id="html_3eb0fd13f11ee2129534b7616b826449" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Metamorphism at Sadiola reached hornblende-hornfels facies as a result of  the emplacement of tonalite-granodiorite plutons and the tonalite dykes  (Hein and Tshibubudze,  2007a,  b). 3.4 Gold Mineralisation  Three  types  of  gold  mineralisation  have  been  recognised  in  the  West  African  Craton. These  are  pre- orogenic,  syn-orogenic  and  late-orogenic  mineralisation. Mineralisation  is  related  to  regional  tectonic  event (Milesi et al, 1992; Beziat et al., 2008). Pre-orogenic deposits are associated with early extensional  zones and are recorded in stratiform Au tourmalinite in the Loulo goldfield in Mali (Milési et al., 1991;  Fouillac et al., 1993; Béziat et al., 2008). Syn-orogenic mineralisation is associated with mineralisation in  disseminated  sulphides  in  volcanic  and  plutonic  rock  (Milési  et  al.,  1992).<br><b>Geocode:</b> Mali<br><b>Pages:</b> 16<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_26b5eef7d0a873193d2548ae62f391e8.setContent(html_3eb0fd13f11ee2129534b7616b826449);
+            
+        
+
+        circle_marker_3b392ef67e7e2ecb0c338034840dbad7.bindPopup(popup_26b5eef7d0a873193d2548ae62f391e8)
+        ;
+
+        
+    
+    
+            circle_marker_3b392ef67e7e2ecb0c338034840dbad7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2dc7495734a6714c86582a086760b3a5 = L.circleMarker(
+                [46.2150438, 20.4751022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_c99bca6cc6b64b5cd25ef9fabff6c5bd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1a1f6ffa994c6308f77fb7b5ec0699a8 = $(`<div id="html_1a1f6ffa994c6308f77fb7b5ec0699a8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Mako  Supergroup  is  intruded  by  the  Sandikounda  Layered  Complex  and  the  Laminia  Kaourou  Plutonic  Complex  (2160-2130  Ma). The  NW-SE  trending  Mako  volcanic  belt  is  located  west  of  the  Main  Transcurrent Zone. *The central domain is dominated by the Diale-Dalemé Supergroup which is a sedimentary to volcano- sedimentary  unit. It  is  composed  of  detrital  sedimentary  rocks  interbedded  with  calc-alkaline  volcanic  rocks. The sedimentary rocks are isoclinally folded with the folds being upright and overturned to the SE- direction. It  is  intruded  by  the  Saraya  plutonic  complex  and  the  Balangouma  and  Boboti  plutons.<br><b>Geocode:</b> Makó, Makói járás, Csongrád-Csanád, South Great Plain, Great Plain and North, Hungary<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c99bca6cc6b64b5cd25ef9fabff6c5bd.setContent(html_1a1f6ffa994c6308f77fb7b5ec0699a8);
+            
+        
+
+        circle_marker_2dc7495734a6714c86582a086760b3a5.bindPopup(popup_c99bca6cc6b64b5cd25ef9fabff6c5bd)
+        ;
+
+        
+    
+    
+            circle_marker_2dc7495734a6714c86582a086760b3a5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ba9b6c3100b3b38862ef5765c8342884 = L.circleMarker(
+                [16.3700359, -2.2900239],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_10b7d9a437e74ec5ca9bc1c022917af8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9ef1038b90961d45bb44c0121531e5b0 = $(`<div id="html_9ef1038b90961d45bb44c0121531e5b0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1) near the border of Mali  and  Senegal. Mali  is  a  semitropical  to  arid  landlocked  country  which  is  part  of  the  West  African  Savannah-Sahel  region  (Fig. 1). It  extends  over  1,  240,  278  square  kilometres  in  size. Its  estimated  population was recorded at 12.5 million as at 2006 with an annual growth rate of 2.4%. French serves as  an official language with 80% of the population  speaking Bambara. || CHAPTER 1: Introduction  1.1  Preamble  The giant  Sadiola opencast gold mine is located  within  the Sadiola  goldfield in Mali  in the Kedougou- Kéniéba Inlier (KKI), which is part of the West African Craton (WAC). The goldfield also hosts the FE3  and  the  FE4  open  casts. These  together  with  the  Sadiola  opencast  mine  are  mined  by  Société  d’Exploitation  des  Mines  d’Or  de  Sadiola  S.A  (SEMOS),  which  is  a  joint  venture  between  the  government  of  Mali,  IAMGOLD,  IFC  and  AngloGold  Ashanti. Mining  in  the  Sadiola  opencast  commenced in 1996 and the opencast is currently reviewing its resources and reserves. This research project concentrates primarily on the ore genesis of the Sadiola gold mine. Various deposit  styles  have  been  suggested  for  the  Sadiola  deposit  in  the  sub-classes  of  an  orogenic  type  deposit  (Goldfarb  et  al.,  2001). || The main religion is Muslim, with  Christian and other religions estimated at 10% of the population. In 2006, the country’s GDP was estimated at $5.847 billion with an annual growth rate estimated at 5.1%. The  country’s  GDP  puts  Mali  as  one  of  the  poorest  countries  in  the  world. The  main  sectors  that  contribute largely to this GDP are mining, agriculture and livestock farming and Mali is currently the 3rd  largest  producer  of  gold  in  the  continent  after  the  Republic  of  South  Africa  and  Ghana. Mining  is  a  growing industry in the country and gold mining accounts for approximately 80% of the mining activity. Gold became the number one mining export in Mali with AngloGold Ashanti and Randgold being two of  the biggest mining houses in the country (US Department of States).<br><b>Geocode:</b> Mali<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_10b7d9a437e74ec5ca9bc1c022917af8.setContent(html_9ef1038b90961d45bb44c0121531e5b0);
+            
+        
+
+        circle_marker_ba9b6c3100b3b38862ef5765c8342884.bindPopup(popup_10b7d9a437e74ec5ca9bc1c022917af8)
+        ;
+
+        
+    
+    
+            circle_marker_ba9b6c3100b3b38862ef5765c8342884.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65c62e8893c219b821a1bc0792da390c = L.circleMarker(
+                [21.9695175, 96.0951482],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_06d7fef26b2b094c8df3872489767ad0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5d40c7aa321a2811d508029d68dbea46 = $(`<div id="html_5d40c7aa321a2811d508029d68dbea46" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 3: Regional Geology   3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier  The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately  1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The  Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et  al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat  et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.<br><b>Geocode:</b> Shield, 73rd Street @ Mingala Street, Yan Myo Lon Ward, Chanayethazan Township, Mahaaungmyay District, Mandalay, Mandalay City, Mandalay, 05024, Myanmar<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_06d7fef26b2b094c8df3872489767ad0.setContent(html_5d40c7aa321a2811d508029d68dbea46);
+            
+        
+
+        circle_marker_65c62e8893c219b821a1bc0792da390c.bindPopup(popup_06d7fef26b2b094c8df3872489767ad0)
+        ;
+
+        
+    
+    
+            circle_marker_65c62e8893c219b821a1bc0792da390c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6925f46cd1de2f1932e9584235fea6c3 = L.circleMarker(
+                [49.2661545, -0.2257613],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_4c2746232ee817c4de6c81f8bcf1252b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_73e1db9d5a0d9bdded4b34fa6030a012 = $(`<div id="html_73e1db9d5a0d9bdded4b34fa6030a012" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 3: Regional Geology   3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier  The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately  1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The  Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et  al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat  et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.<br><b>Geocode:</b> Les Terrains François, La Perruque, Sallenelles, Lisieux, Calvados, Normandy, Metropolitan France, 14121, France<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4c2746232ee817c4de6c81f8bcf1252b.setContent(html_73e1db9d5a0d9bdded4b34fa6030a012);
+            
+        
+
+        circle_marker_6925f46cd1de2f1932e9584235fea6c3.bindPopup(popup_4c2746232ee817c4de6c81f8bcf1252b)
+        ;
+
+        
+    
+    
+            circle_marker_6925f46cd1de2f1932e9584235fea6c3.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bd601e9e763518e622113b4bfa858e5 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_240bd42455893967f8ecb7d44d6f9250 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f8f566dfebf91bf83f674e1851fea446 = $(`<div id="html_f8f566dfebf91bf83f674e1851fea446" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5.2 Structural Interpretation  The two deformation phases that are identified in the study areas of the Sadiola goldfield correlate with  the  deformation  phases  interpreted  by  Hein  (2009)  in  the  Goren  greenstone  belt  in  Burkina  Faso,  Tshibubudze  et  al.,  (2009)  in  the  Markoye  Shear  Zone  in  Burkina  Faso. The  first  deformation  is  characterized  by  the  development  of  NNW-trending  folds  (F1). NNW  bedding  and  cleavage  (S1)  orientation associated with D1 are recorded in the study area. This deformation is termed the Tangaean  Event and formed during the NE-SW shortening period. Quartz veins formed during this event and their  dominant trend is towards NNE-NE. The second deformation event is characterized by the development of ENE-ESE trending folds (F2) and  NE-trending  cleavage  (S2).<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 31<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_240bd42455893967f8ecb7d44d6f9250.setContent(html_f8f566dfebf91bf83f674e1851fea446);
+            
+        
+
+        circle_marker_1bd601e9e763518e622113b4bfa858e5.bindPopup(popup_240bd42455893967f8ecb7d44d6f9250)
+        ;
+
+        
+    
+    
+            circle_marker_1bd601e9e763518e622113b4bfa858e5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a470d03ba1018795b795c502a4204c50 = L.circleMarker(
+                [19.416247, -16.4656949],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_271fec10d19b7e29e2c790815250941e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e25f7d9f9a637d212adcfbfb3c5f7e3f = $(`<div id="html_e25f7d9f9a637d212adcfbfb3c5f7e3f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 3: Regional Geology   3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier  The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately  1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The  Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et  al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat  et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.<br><b>Geocode:</b> Rgueiba, Dakhlet Nouadhibou, Mauritania<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_271fec10d19b7e29e2c790815250941e.setContent(html_e25f7d9f9a637d212adcfbfb3c5f7e3f);
+            
+        
+
+        circle_marker_a470d03ba1018795b795c502a4204c50.bindPopup(popup_271fec10d19b7e29e2c790815250941e)
+        ;
+
+        
+    
+    
+            circle_marker_a470d03ba1018795b795c502a4204c50.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_284285bc7bc3ed80e3d8e47212177533 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_96934f1abc9d4f3e2919344d55bdb70d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0ded2cb382d656180a245115cbfb93d5 = $(`<div id="html_0ded2cb382d656180a245115cbfb93d5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32 || The Dalema-Kofi Supergroup is crosscut by tourmaline-rich quartz veins which are the primary host to  gold  mineralisation  (Wilson,  2002)  in  the  Loulo  goldfield,  SSE  of  Sadiola,  near  the  town  of  Kêniêba. Ranson (1998) indicated that gold mineralisation occurs in pelitic shales. The Dalema-Kofi sequence is  currently  not  dated  (Dioh  et  al.,  2006;  Matabane,  2008). It  is  transacted  by  the  Senegalo-Malian  Shear  Zone with several gold deposits located in close proximity to the structure (Boshoff et al., 1998). 11<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 12,33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_96934f1abc9d4f3e2919344d55bdb70d.setContent(html_0ded2cb382d656180a245115cbfb93d5);
+            
+        
+
+        circle_marker_284285bc7bc3ed80e3d8e47212177533.bindPopup(popup_96934f1abc9d4f3e2919344d55bdb70d)
+        ;
+
+        
+    
+    
+            circle_marker_284285bc7bc3ed80e3d8e47212177533.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6f42971a83551cc08f9141bb5a289692 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_01571ec4df0011f5e973c96638e241f0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8374a29f76b256124a14294629dc8fe5 = $(`<div id="html_8374a29f76b256124a14294629dc8fe5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Abstract  Recent studies on the Sadiola open cast have indicated different metallogenic styles for the Sadiola gold  deposit. The  Sadiola  open  cast  occurs  with  the  FE3  and  FE4  open  cast  within  the  Palaeoproterozoic  Kedougou-Kêniêba  Inlier  of  the  West  African  Craton. The  Inlier  consists  of  Birimian  metasediments  which  were  metamorphosed  and  deformed  during  the  2.1  –  1.9 Ga  Eburnean  orogeny. Metamorphism  reached  lower  greenschist  facies  as  indicated  by  the  chlorite-biotite-cordierite-calcite-dolomite  mineral  assemblages. The Sadiola deposit is hosted by the Kofi Formation which is currently undated. The Kofi  Formation is made up of Birimian-type sediments and they include greywacke, shale and graphitic shale  with conglomeratic interbeds, banded iron formations and carbonates. || CHAPTER 6: Conclusion  •  The mineral assemblages of the Sadiola open cast are representative of greenschist metamorphic  facies. •  Sadiola lithologies underwent at least two deformation events: one associated with the Tangaean  event (D1) and the latter associated with the Eburnean orogeny (D2). •  The  quartz  veins  are  interpreted  to  have  formed  in  the  D1  event  during  a  NE-directed  compression. •  Sadiola  lithologies  underwent  two  metamorphic  events:  regional  metamorphism  to  lower  greenschist facies and contact metamorphism to hornblende-hornfels facies. •  Gold  mineralisation  is  associated  with  a  variety  of  alteration  system  with  pyrite-arsenopyrite  mineral assemblage. •  Mineralisation  tends  to  occur  along  the  carbonate-greywacke  contact  which  is  from  the  inner  contact aureole to the middle aureole. || Metamorphism at Sadiola reached hornblende-hornfels facies as a result of  the emplacement of tonalite-granodiorite plutons and the tonalite dykes  (Hein and Tshibubudze,  2007a,  b). 3.4 Gold Mineralisation  Three  types  of  gold  mineralisation  have  been  recognised  in  the  West  African  Craton. These  are  pre- orogenic,  syn-orogenic  and  late-orogenic  mineralisation. Mineralisation  is  related  to  regional  tectonic  event (Milesi et al, 1992; Beziat et al., 2008). Pre-orogenic deposits are associated with early extensional  zones and are recorded in stratiform Au tourmalinite in the Loulo goldfield in Mali (Milési et al., 1991;  Fouillac et al., 1993; Béziat et al., 2008). Syn-orogenic mineralisation is associated with mineralisation in  disseminated  sulphides  in  volcanic  and  plutonic  rock  (Milési  et  al.,  1992). || Mineralisation  at  Sadiola  has  been  shown  to  have  a  temporal  and  a  spatial  relationship to the tonalite-granodiorite plutons and tonalite dykes. Sadiola is located in close proximity to  the  Alamoutala-Sekokoto-Kakadian  plutonic  system. Mineralisation  has  shown  to  be  as  a  result  of  the  fluids and metamorphism associated with the intrusions (Hein and Tshibubudze, 2007b). Determining the  paragenesis,  investigation  of  the  mineralogical,  microstructural  and  alteration  events  will  assist  in  determining  gold  mineralisation,  and  is  considered  important  for  the  Sadiola  exploration  and  in-mine  development. 1.2  Location and Physiography  The  Sadiola  opencast  mine  is  located  within  the  Sadiola  village. The  village  is  situated  in  the  south- western part of Mali at about 77km south of the regional capital, Kayes (Fig. || The alteration types recorded in the host rocks are potassic, silicification, dolomitisation, chlorite-biotite  alteration,  calc-silicate  and  sulphidation. The  common  sulphide  minerals  are  pyrite,  arsenopyrite  and  pyrrhotite  with minor  magnetite and sphalerite. The following paragenetic sequence is observed for the  ore  mineralogy:  pyrite  –  chalcopyrite  -  (+  sphalerite)  –  arsenopyrite. Gold is  paragenetically  associated  with pyrite and arsenopyrite. The rocks also show evidence of deformation through kinked biotite and the  development  of stylolites. Two metamorphic events are recorded at Sadiola: regional metamorphism to  greenschist facies and contact metamorphism to hornblende-hornfels facies. || intrusions. The mineralisation at Sadiola  is therefore interpreted to be as a result of metamorphism and  deformation  brought  about  the  Sekokoto  pluton  emplacement  during  the  Eburnean  orogeny. Structural  data  indicate  that  quartz  veins  formed  prior  to  the  development  of  the  S2  cleavage  systems. These  are  therefore  interpreted  to  be  post-Tangaean  and  pre-Eburnean  and  are  associated  with  minor  pyrite- arsenopyrite  mineralisation. Mineralisation  was  therefore  upgraded  by  pluton  emplacement  and  the  re- activation  of  the  Sadiola  Fracture  Zone  and  the  remobilisation  of  fluids  to  cause  brecciation  and  skarnification of the carbonate unit. The fluids have moderate to high salinity as determined by Pan and  Fleet (1992) from calcite-dolomite geothermometry.<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 16,33,34,7,8,7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_01571ec4df0011f5e973c96638e241f0.setContent(html_8374a29f76b256124a14294629dc8fe5);
+            
+        
+
+        circle_marker_6f42971a83551cc08f9141bb5a289692.bindPopup(popup_01571ec4df0011f5e973c96638e241f0)
+        ;
+
+        
+    
+    
+            circle_marker_6f42971a83551cc08f9141bb5a289692.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ae39773a358d6daafafd99e84696a3a2 = L.circleMarker(
+                [41.9219864, -71.4927732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_8836dd047231dab358b79fbe4e68b8d7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dfb618c389326c6d683d33e86a0accfe = $(`<div id="html_dfb618c389326c6d683d33e86a0accfe" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.2 Lithologies  Mapping was undertaken in two areas in the Sadiola open  cast: West high-wall in the  main pit and the  Helicopter pit located at the southern end of the main pit (Map 1 & 2). The main lithologies observed in  the main pit are metagreywacke and carbonates. The greywacke sequence is massive in texture and the  visible  mineralogy  includes  quartz,  calcite,  minor  sulphide  and  epidote  in  some  cases. The  carbonate  sequence  becomes  friable  and  less  competent  at  the  contact  with  the  carbonaceous-siltstone  greywacke  unit. This unit is interpreted as the Sadiola Fracture Zone (SFZ) as defined by Hein (2009) and Boshoff et  al (1998). Pyrolusite, epidote and kaolinite occur in this zone and the zone is cross-cut by quartz veins.<br><b>Geocode:</b> North Central State Airport, Limerock Road, Smithfield, Providence County, Rhode Island, 02917, United States<br><b>Pages:</b> 20<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_8836dd047231dab358b79fbe4e68b8d7.setContent(html_dfb618c389326c6d683d33e86a0accfe);
+            
+        
+
+        circle_marker_ae39773a358d6daafafd99e84696a3a2.bindPopup(popup_8836dd047231dab358b79fbe4e68b8d7)
+        ;
+
+        
+    
+    
+            circle_marker_ae39773a358d6daafafd99e84696a3a2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff3ed852dcfaee9d78ecd4c2961601a5 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_349260197290d72a88f59f4bdc256391 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0532013c11d72ab9a8968dcb5acd85c8 = $(`<div id="html_0532013c11d72ab9a8968dcb5acd85c8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 3.2 The Geology of the Sadiola opencast mine and the Sadiola deposit   The  Kofi  Formation  of  the  Kedougou-Kêniêba  Inlier  is  dominated  by  fine-grained  carbonaceous  greywacke,  alternating  greywacke-shale  units,  impure  carbonates  which  were  folded  and  contain  limestone beds, siltstone, minor tuff and volcanoclastics units (Boshoff et al, 1998; Hanssen et al., 1998;  Hein and Tshibubudze, 2007a, b). Jordaan et al. (1994) indicated that calcitic marbles occur in the Kofi  Formation. The Sadiola goldfield consists of greywacke, siltstone, marble, carbonaceous to volcanoclastic  greywacke  and  BIF  shale  (Hein  and  Tshibubudze,  2007a,  b). The  goldfield  occurs  along  a  marble- greywacke contact located east of the Senegalo-Malian Shear Zone (Hanssen et al., 1998). The greywacke units of the Sadiola goldfield are best developed to the west of the Sadiola Fracture Zone,  while impure carbonates are best developed to the east. || 4.3 Structure  Two  deformation  events  are  recorded  for  the  study  areas  in  the  Sadiola  deposit. These  are  interpreted  from  equal  area  stereographic  projections  of  bedding  and  the  discontinuous,  parallel  cleavage  in  the  metasedimentary  rocks. The  equal  area  stereographic  projections  of  bedding  from  the  Helicopter  Pit  records  a  calculated  mean  bedding  of  336o/64oE  with  a  calculated  mean  for  the  west  high-wall  of  350o/51oW. The  spread  of  the  data  around  the  primitive  circles  is  related  to  folding  about  a  NNW- trending  fold  axes  (F1)  and  refolding  of  F1  about  the  ENE-ESE  trending  fold  axes  (F2). Bedding  is  rotated against minor faults (Fig. 6). || Abstract  Recent studies on the Sadiola open cast have indicated different metallogenic styles for the Sadiola gold  deposit. The  Sadiola  open  cast  occurs  with  the  FE3  and  FE4  open  cast  within  the  Palaeoproterozoic  Kedougou-Kêniêba  Inlier  of  the  West  African  Craton. The  Inlier  consists  of  Birimian  metasediments  which  were  metamorphosed  and  deformed  during  the  2.1  –  1.9 Ga  Eburnean  orogeny. Metamorphism  reached  lower  greenschist  facies  as  indicated  by  the  chlorite-biotite-cordierite-calcite-dolomite  mineral  assemblages. The Sadiola deposit is hosted by the Kofi Formation which is currently undated. The Kofi  Formation is made up of Birimian-type sediments and they include greywacke, shale and graphitic shale  with conglomeratic interbeds, banded iron formations and carbonates. || Sadiola deposit is therefore classified as either an intrusion-related gold deposit or a thermal aureole gold  deposit,  which  are  all  subclasses  of  orogenic  gold  deposits. Mineralisation  at  the  Sadiola  deposit  is  spatially and temporally associated with the tonalite-granodiorite plutons and tonalite dykes. The Sadiola  Fracture  Zone  served  as  the  fluid  conduit  and  mineralisation  occurs  along  the  inner  to  middle  contact  aureole. The ubiquitous occurrence of biotite marker in polished thin sections is interpreted as indicating  biotite isograd and marks the division between rocks that have been completely recrystallised at Sadiola  to rocks in which the primary bedding is still preserved. vi || The Sadiola Fracture Zone is interpreted to be a  splay  of  the  Senegalo-Malian  Shear  Zone. Carbonate  units  are  the  main  host  to  the  Sadiola  deposit  (Boshoff  et  al.,  1998). The  lithologies  of  the  Sadiola  goldfield  show  evidence  of  macroscopic  to  mesoscopic  slump  structures  (Hein  and  Tshibubudze,  2007a,  b).The  slump  structures  in  the  Sadiola  goldfield  were  defined  by  Matabane  (2008)  in  the  FE3  open  casts,  but  occur  throughout  the  Sadiola  goldfield. There is  however  a  lack  of  detailed  stratigraphy  for  the Kofi  Formation  in  the  literature. Jordaan  et al. (1994)  outlined the  stratigraphy  of  the  Kofi  Formation:  the  formation  is  over  500m  in  thickness and  is  dominated at the base by arenitic tourmalinite, overlain by green argillite, interbedded pink arenite, calc- silicate, followed by the calcitic marble and pelite, which is locally dolomitised.<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 15,22,7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_349260197290d72a88f59f4bdc256391.setContent(html_0532013c11d72ab9a8968dcb5acd85c8);
+            
+        
+
+        circle_marker_ff3ed852dcfaee9d78ecd4c2961601a5.bindPopup(popup_349260197290d72a88f59f4bdc256391)
+        ;
+
+        
+    
+    
+            circle_marker_ff3ed852dcfaee9d78ecd4c2961601a5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b79f819a5cba091e46e6b18432d00847 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_859b95d8c383e9511e3c99767402cd51 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fc79df5a1ad4dd92534f3c1073341a9c = $(`<div id="html_fc79df5a1ad4dd92534f3c1073341a9c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Carbonate  alteration is interpreted to have formed in association with the gold forming stages. The resulting fluid circulation, textures observed and the occurrence of the contact aureoles indicate that  the  Sadiola  gold  mine  and  the  resulting  mineralisation  have  a  spatial  and  temporal  relationship  to  31<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 32<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_859b95d8c383e9511e3c99767402cd51.setContent(html_fc79df5a1ad4dd92534f3c1073341a9c);
+            
+        
+
+        circle_marker_b79f819a5cba091e46e6b18432d00847.bindPopup(popup_859b95d8c383e9511e3c99767402cd51)
+        ;
+
+        
+    
+    
+            circle_marker_b79f819a5cba091e46e6b18432d00847.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_137e00d3b86759bee16fa0b676bddc2c = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_40518896b5e2c1d164b06c796ccf079f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9a76a95a25e169bc8cec7d82227284fa = $(`<div id="html_9a76a95a25e169bc8cec7d82227284fa" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 3.2 The Geology of the Sadiola opencast mine and the Sadiola deposit   The  Kofi  Formation  of  the  Kedougou-Kêniêba  Inlier  is  dominated  by  fine-grained  carbonaceous  greywacke,  alternating  greywacke-shale  units,  impure  carbonates  which  were  folded  and  contain  limestone beds, siltstone, minor tuff and volcanoclastics units (Boshoff et al, 1998; Hanssen et al., 1998;  Hein and Tshibubudze, 2007a, b). Jordaan et al. (1994) indicated that calcitic marbles occur in the Kofi  Formation. The Sadiola goldfield consists of greywacke, siltstone, marble, carbonaceous to volcanoclastic  greywacke  and  BIF  shale  (Hein  and  Tshibubudze,  2007a,  b). The  goldfield  occurs  along  a  marble- greywacke contact located east of the Senegalo-Malian Shear Zone (Hanssen et al., 1998). The greywacke units of the Sadiola goldfield are best developed to the west of the Sadiola Fracture Zone,  while impure carbonates are best developed to the east. || 3.2 The Geology of the Sadiola opencast mine and the Sadiola deposit   The  Kofi  Formation  of  the  Kedougou-Kêniêba  Inlier  is  dominated  by  fine-grained  carbonaceous  greywacke,  alternating  greywacke-shale  units,  impure  carbonates  which  were  folded  and  contain  limestone beds, siltstone, minor tuff and volcanoclastics units (Boshoff et al, 1998; Hanssen et al., 1998;  Hein and Tshibubudze, 2007a, b). Jordaan et al. (1994) indicated that calcitic marbles occur in the Kofi  Formation. The Sadiola goldfield consists of greywacke, siltstone, marble, carbonaceous to volcanoclastic  greywacke  and  BIF  shale  (Hein  and  Tshibubudze,  2007a,  b). The  goldfield  occurs  along  a  marble- greywacke contact located east of the Senegalo-Malian Shear Zone (Hanssen et al., 1998). The greywacke units of the Sadiola goldfield are best developed to the west of the Sadiola Fracture Zone,  while impure carbonates are best developed to the east. || 5.2 Structural Interpretation  The two deformation phases that are identified in the study areas of the Sadiola goldfield correlate with  the  deformation  phases  interpreted  by  Hein  (2009)  in  the  Goren  greenstone  belt  in  Burkina  Faso,  Tshibubudze  et  al.,  (2009)  in  the  Markoye  Shear  Zone  in  Burkina  Faso. The  first  deformation  is  characterized  by  the  development  of  NNW-trending  folds  (F1). NNW  bedding  and  cleavage  (S1)  orientation associated with D1 are recorded in the study area. This deformation is termed the Tangaean  Event and formed during the NE-SW shortening period. Quartz veins formed during this event and their  dominant trend is towards NNE-NE. The second deformation event is characterized by the development of ENE-ESE trending folds (F2) and  NE-trending  cleavage  (S2). || 5.4 Comparison to Sadiola goldfield with the rest of the West African Gold deposits  The Sadiola deposits share some similarities with the other gold deposits in the West African Craton. In  the nearby FE3 open cast, two styles of gold mineralisation were recorded by Matabane (2008). These are  gold mineralisation in the breccia lodes and in the upper slump facies which co-exists with arsenopyrite- pyrite  assemblage  and  the  secondary  placer  gold  mineralisation. Similar  occurrence  of  orogenic  gold  systems are recorded in Ghana, Senegal, Burkina Faso, Guinea and Cote d’Ivoire (Goldfarb et al., 2001). Primary gold deposits in Burkina Faso are classified as orogenic-type gold deposits (Béziat et al., 2008)  with  the  differences  from  the  Sadiola  documented  in  the  style  of  gold  mineralisation. Two  styles  of  mineralisation  observed  in  Burkina  Faso  are  quartz-vein  and  disseminated  (Béziat  et  al.,  2008). || CHAPTER 1: Introduction  1.1  Preamble  The giant  Sadiola opencast gold mine is located  within  the Sadiola  goldfield in Mali  in the Kedougou- Kéniéba Inlier (KKI), which is part of the West African Craton (WAC). The goldfield also hosts the FE3  and  the  FE4  open  casts. These  together  with  the  Sadiola  opencast  mine  are  mined  by  Société  d’Exploitation  des  Mines  d’Or  de  Sadiola  S.A  (SEMOS),  which  is  a  joint  venture  between  the  government  of  Mali,  IAMGOLD,  IFC  and  AngloGold  Ashanti. Mining  in  the  Sadiola  opencast  commenced in 1996 and the opencast is currently reviewing its resources and reserves. This research project concentrates primarily on the ore genesis of the Sadiola gold mine. Various deposit  styles  have  been  suggested  for  the  Sadiola  deposit  in  the  sub-classes  of  an  orogenic  type  deposit  (Goldfarb  et  al.,  2001). || Late-orogenic  deposits  are  characterised by disseminated gold-bearing arsenopyrite and Au-quartz lode and quartz-vein type. These  are interpreted as the major type and host of gold in West Africa (Milési et al., 1991).Two metallogenic  styles  have  been  observed  in  the  Sadiola  goldfield  by  Hein  and  Tshibubudze  (2007a,  b)  and  these  are  placer gold in the palaeochannels and screes and gold occurring in stockwork veins and breccias. 15 || Liégeois  et  al. (1991) concluded  that  metamorphism was  syn-tectonic  based  on the orientation  of  sheet  silicates  and  amphiboles. The  KKI  sediments  were  then  intruded  by  various  granitiod  plutons  which  caused further metamorphism (Dioh et al., 2006). The four types of granitoids that intruded the sediments  of  the  KKI  are  sodic  calc-alkaline  granitoids,  amphibole  bearing  granitoids,  pyroxene  and  K-bearing  granitoids  and  the  peraluminous  biotite  bearing  units  (Dioh  et  al.,  2006). In  the  Sadiola  goldfield,  two  metamorphic  events  are  recorded:  regional  metamorphism  to  greenschist  facies  and  contact  metamorphism  (Hein  and  Tshibubudze,  2007a,  b). Contact  metamorphism  is  defined  as  the  metamorphism that  occurs  in  close proximity  to  intrusions  and has  formed  as a  result  of  heat  from  the  intrusion (Blatt et al., 2006). || The Sadiola Fracture Zone is interpreted to be a  splay  of  the  Senegalo-Malian  Shear  Zone. Carbonate  units  are  the  main  host  to  the  Sadiola  deposit  (Boshoff  et  al.,  1998). The  lithologies  of  the  Sadiola  goldfield  show  evidence  of  macroscopic  to  mesoscopic  slump  structures  (Hein  and  Tshibubudze,  2007a,  b).The  slump  structures  in  the  Sadiola  goldfield  were  defined  by  Matabane  (2008)  in  the  FE3  open  casts,  but  occur  throughout  the  Sadiola  goldfield. There is  however  a  lack  of  detailed  stratigraphy  for  the Kofi  Formation  in  the  literature. Jordaan  et al. (1994)  outlined the  stratigraphy  of  the  Kofi  Formation:  the  formation  is  over  500m  in  thickness and  is  dominated at the base by arenitic tourmalinite, overlain by green argillite, interbedded pink arenite, calc- silicate, followed by the calcitic marble and pelite, which is locally dolomitised. || chemical  sediments  being  observed  throughout  the  belt. The  Main  Transcurrent  Zone  follows  the  lithological contact between the Mako and the Diale-Dalema Supergroups. *The  eastern  domain  hosts  the  Sadiola  goldfield  in  the  Kofi  Formaton  (Bishoff  et  al.,  1989;  Ranson,  1998; Wilson, 2002). This formation is also referred to as the Dalema-Kofi Supergroup and lies east of  the Senegalo-Malian Shear Zone. The Kofi Formation is dominated by metasedimentary rocks (Ranson,  1998; Wilson, 2002). These rocks are classified as Biriman-type sediments and include greywacke, shale  and graphitic shale with conglomeratic interbeds, banded iron formations and carbonates (Hanssen et al.,  1978).<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 12,15,16,31,33,8,15<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_40518896b5e2c1d164b06c796ccf079f.setContent(html_9a76a95a25e169bc8cec7d82227284fa);
+            
+        
+
+        circle_marker_137e00d3b86759bee16fa0b676bddc2c.bindPopup(popup_40518896b5e2c1d164b06c796ccf079f)
+        ;
+
+        
+    
+    
+            circle_marker_137e00d3b86759bee16fa0b676bddc2c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aaaddbb56dcdb141b260811eaa5bacae = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_9b9623752158fc964227de587112a03d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d8ac6e91bfca16431412fdc2b1416abf = $(`<div id="html_d8ac6e91bfca16431412fdc2b1416abf" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.2 Lithologies  Mapping was undertaken in two areas in the Sadiola open  cast: West high-wall in the  main pit and the  Helicopter pit located at the southern end of the main pit (Map 1 & 2). The main lithologies observed in  the main pit are metagreywacke and carbonates. The greywacke sequence is massive in texture and the  visible  mineralogy  includes  quartz,  calcite,  minor  sulphide  and  epidote  in  some  cases. The  carbonate  sequence  becomes  friable  and  less  competent  at  the  contact  with  the  carbonaceous-siltstone  greywacke  unit. This unit is interpreted as the Sadiola Fracture Zone (SFZ) as defined by Hein (2009) and Boshoff et  al (1998). Pyrolusite, epidote and kaolinite occur in this zone and the zone is cross-cut by quartz veins. || Abstract  Recent studies on the Sadiola open cast have indicated different metallogenic styles for the Sadiola gold  deposit. The  Sadiola  open  cast  occurs  with  the  FE3  and  FE4  open  cast  within  the  Palaeoproterozoic  Kedougou-Kêniêba  Inlier  of  the  West  African  Craton. The  Inlier  consists  of  Birimian  metasediments  which  were  metamorphosed  and  deformed  during  the  2.1  –  1.9 Ga  Eburnean  orogeny. Metamorphism  reached  lower  greenschist  facies  as  indicated  by  the  chlorite-biotite-cordierite-calcite-dolomite  mineral  assemblages. The Sadiola deposit is hosted by the Kofi Formation which is currently undated. The Kofi  Formation is made up of Birimian-type sediments and they include greywacke, shale and graphitic shale  with conglomeratic interbeds, banded iron formations and carbonates. || Brecciation  occurred  in  the  marble  and  is  attributed  to  have  resulted  from  the  fluids  passing  through  the  rock. This  is  consistent  with  the  interpretation of Theron’s (1997a) that gold skarns develop where carbonates are present. These fluids are  also  responsible  for  the  deposition  of  calcite  and  sulphide  (mainly  pyrite)  in  the  open  spaces. The  occurrence  of  albite  is  interpreted  as  a  result  of  the  hydrothermal  introduction  of  Na  into  the  system  (Theron, 1997a). The fluids at the Sadiola open cast are therefore interpreted to be hydrothermal in origin. The texture displayed by the biotite (Fig.<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 20,31,7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9b9623752158fc964227de587112a03d.setContent(html_d8ac6e91bfca16431412fdc2b1416abf);
+            
+        
+
+        circle_marker_aaaddbb56dcdb141b260811eaa5bacae.bindPopup(popup_9b9623752158fc964227de587112a03d)
+        ;
+
+        
+    
+    
+            circle_marker_aaaddbb56dcdb141b260811eaa5bacae.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_277dde2b9aad08c4afd393d239b2e643 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_9bb7831599b81e3d406b75bcd06a4177 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_72d2d3bba603f8f077222f738ab6cf41 = $(`<div id="html_72d2d3bba603f8f077222f738ab6cf41" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  ENE  trending  fold  axes  concur  with  Voet’s  (1997). The  second  deformation correlates with the 2.13 - 1.98 Ga Eburnean orogeny as defined by Feybesse et al (2006). A  conclusion can thus be made that the rocks of the Sadiola open cast mine underwent at least two phases of  deformation. 5.3 Petrographic Interpretation  Majority  of  the  recorded  mineral  assemblage  are  interpreted  to  have  formed  in  conditions  of  contact  metamorphism, hornfels facies and at low temperature settings. They are of metamorphic origin. These  assemblages  are  of  lower  greenschist  metamorphic  facies. || •  The  transition  from  the  inner  to  middle  contact  aureole  is  indicated  by  the  breakdown  of  hornblende into chlorite, epidote and quartz and from rocks that were completely recrystallised to  rocks in which the primary bedding is preserved. •  This  is  the  Sadiola  Fracture  Zone  which  was  re-activated  during  pluton  emplacement  and  was  used as the pathway for moderate-high salinity fluids. •  The Sadiola open cast mine is interpreted as an Intrusion related gold deposit or a thermal aureole  gold deposits associated with the Sekokoto plutons. 33<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 31,34<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9bb7831599b81e3d406b75bcd06a4177.setContent(html_72d2d3bba603f8f077222f738ab6cf41);
+            
+        
+
+        circle_marker_277dde2b9aad08c4afd393d239b2e643.bindPopup(popup_9bb7831599b81e3d406b75bcd06a4177)
+        ;
+
+        
+    
+    
+            circle_marker_277dde2b9aad08c4afd393d239b2e643.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_270610a3383a85edbf015bb620d89a79 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_971910a35350a57db7a45aa49e4f8520 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6ab5d274244f0f5747958da624300b72 = $(`<div id="html_6ab5d274244f0f5747958da624300b72" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 1: Introduction  1.1  Preamble  The giant  Sadiola opencast gold mine is located  within  the Sadiola  goldfield in Mali  in the Kedougou- Kéniéba Inlier (KKI), which is part of the West African Craton (WAC). The goldfield also hosts the FE3  and  the  FE4  open  casts. These  together  with  the  Sadiola  opencast  mine  are  mined  by  Société  d’Exploitation  des  Mines  d’Or  de  Sadiola  S.A  (SEMOS),  which  is  a  joint  venture  between  the  government  of  Mali,  IAMGOLD,  IFC  and  AngloGold  Ashanti. Mining  in  the  Sadiola  opencast  commenced in 1996 and the opencast is currently reviewing its resources and reserves. This research project concentrates primarily on the ore genesis of the Sadiola gold mine. Various deposit  styles  have  been  suggested  for  the  Sadiola  deposit  in  the  sub-classes  of  an  orogenic  type  deposit  (Goldfarb  et  al.,  2001).<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 8<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_971910a35350a57db7a45aa49e4f8520.setContent(html_6ab5d274244f0f5747958da624300b72);
+            
+        
+
+        circle_marker_270610a3383a85edbf015bb620d89a79.bindPopup(popup_971910a35350a57db7a45aa49e4f8520)
+        ;
+
+        
+    
+    
+            circle_marker_270610a3383a85edbf015bb620d89a79.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4571bff9f66749e7fd2c220b7c106ab = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_076d7696f3f5bcc37073a5f6eb22918e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_153ca1201411e43f49d68a28d8d0ca7b = $(`<div id="html_153ca1201411e43f49d68a28d8d0ca7b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 3.2 The Geology of the Sadiola opencast mine and the Sadiola deposit   The  Kofi  Formation  of  the  Kedougou-Kêniêba  Inlier  is  dominated  by  fine-grained  carbonaceous  greywacke,  alternating  greywacke-shale  units,  impure  carbonates  which  were  folded  and  contain  limestone beds, siltstone, minor tuff and volcanoclastics units (Boshoff et al, 1998; Hanssen et al., 1998;  Hein and Tshibubudze, 2007a, b). Jordaan et al. (1994) indicated that calcitic marbles occur in the Kofi  Formation. The Sadiola goldfield consists of greywacke, siltstone, marble, carbonaceous to volcanoclastic  greywacke  and  BIF  shale  (Hein  and  Tshibubudze,  2007a,  b). The  goldfield  occurs  along  a  marble- greywacke contact located east of the Senegalo-Malian Shear Zone (Hanssen et al., 1998). The greywacke units of the Sadiola goldfield are best developed to the west of the Sadiola Fracture Zone,  while impure carbonates are best developed to the east.<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 15<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_076d7696f3f5bcc37073a5f6eb22918e.setContent(html_153ca1201411e43f49d68a28d8d0ca7b);
+            
+        
+
+        circle_marker_a4571bff9f66749e7fd2c220b7c106ab.bindPopup(popup_076d7696f3f5bcc37073a5f6eb22918e)
+        ;
+
+        
+    
+    
+            circle_marker_a4571bff9f66749e7fd2c220b7c106ab.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f68f51d80a467685c4bdb432525e59e = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_dc6721e6b86d03fb04e328b936fe3bca = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0e7572cc0f4cacbfaf04ce106d53853a = $(`<div id="html_0e7572cc0f4cacbfaf04ce106d53853a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> A  B  Figure. 6: Equal area stereographic projection of bedding from A: Helicopter Pit & B: West High-wall in  the main pit. The  equal  area  stereographic  projections  of  cleavage  of  the  Helicopter  Pit  records  a  calculated  mean  cleavage of 343o/54E, however the data can be resolved into two data sets: a NNW trending set and a NE- trending set (Fig. 7). Two sets of cleavages were also observed by Hein (2009) in which the ENE trending  sets  (S2)  cross-cuts  the  NNW-trending  sets  (S1). Unfortunately  this  cross-cutting  relationship  has  not  been observed in the study area, but is accepted by the mine as a tectonic sequence for the Sadiola pit.<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_dc6721e6b86d03fb04e328b936fe3bca.setContent(html_0e7572cc0f4cacbfaf04ce106d53853a);
+            
+        
+
+        circle_marker_4f68f51d80a467685c4bdb432525e59e.bindPopup(popup_dc6721e6b86d03fb04e328b936fe3bca)
+        ;
+
+        
+    
+    
+            circle_marker_4f68f51d80a467685c4bdb432525e59e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8a06a73f6e2d0a95da471f0dd2d6cbcf = L.circleMarker(
+                [13.9336056, -11.6656743],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_2aedf0afca23759f219944ea77cd440f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_07623badc3d6cd828533519d192837c8 = $(`<div id="html_07623badc3d6cd828533519d192837c8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Mineralisation  at  Sadiola  has  been  shown  to  have  a  temporal  and  a  spatial  relationship to the tonalite-granodiorite plutons and tonalite dykes. Sadiola is located in close proximity to  the  Alamoutala-Sekokoto-Kakadian  plutonic  system. Mineralisation  has  shown  to  be  as  a  result  of  the  fluids and metamorphism associated with the intrusions (Hein and Tshibubudze, 2007b). Determining the  paragenesis,  investigation  of  the  mineralogical,  microstructural  and  alteration  events  will  assist  in  determining  gold  mineralisation,  and  is  considered  important  for  the  Sadiola  exploration  and  in-mine  development. 1.2  Location and Physiography  The  Sadiola  opencast  mine  is  located  within  the  Sadiola  village. The  village  is  situated  in  the  south- western part of Mali at about 77km south of the regional capital, Kayes (Fig.<br><b>Geocode:</b> Sadiola Village, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2aedf0afca23759f219944ea77cd440f.setContent(html_07623badc3d6cd828533519d192837c8);
+            
+        
+
+        circle_marker_8a06a73f6e2d0a95da471f0dd2d6cbcf.bindPopup(popup_2aedf0afca23759f219944ea77cd440f)
+        ;
+
+        
+    
+    
+            circle_marker_8a06a73f6e2d0a95da471f0dd2d6cbcf.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ab62b99dbbe17ecd815fd0f0c1373b05 = L.circleMarker(
+                [34.6401861, 39.0494106],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_fdd4ac4cf11a2127e86c0a7cb1b750b0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d3352ece9a652d311c2436d4b0991b8b = $(`<div id="html_d3352ece9a652d311c2436d4b0991b8b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Mako  Supergroup  is  intruded  by  the  Sandikounda  Layered  Complex  and  the  Laminia  Kaourou  Plutonic  Complex  (2160-2130  Ma). The  NW-SE  trending  Mako  volcanic  belt  is  located  west  of  the  Main  Transcurrent Zone. *The central domain is dominated by the Diale-Dalemé Supergroup which is a sedimentary to volcano- sedimentary  unit. It  is  composed  of  detrital  sedimentary  rocks  interbedded  with  calc-alkaline  volcanic  rocks. The sedimentary rocks are isoclinally folded with the folds being upright and overturned to the SE- direction. It  is  intruded  by  the  Saraya  plutonic  complex  and  the  Balangouma  and  Boboti  plutons.<br><b>Geocode:</b> Syria<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fdd4ac4cf11a2127e86c0a7cb1b750b0.setContent(html_d3352ece9a652d311c2436d4b0991b8b);
+            
+        
+
+        circle_marker_ab62b99dbbe17ecd815fd0f0c1373b05.bindPopup(popup_fdd4ac4cf11a2127e86c0a7cb1b750b0)
+        ;
+
+        
+    
+    
+            circle_marker_ab62b99dbbe17ecd815fd0f0c1373b05.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_57381f5715c1a68fb662a28aaaf8cdb4 = L.circleMarker(
+                [13.2339278, -10.687269],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_6772908245d47a08baa3918152f9fa81 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fea1d09c047f44cacc637c5823c43ca9 = $(`<div id="html_fea1d09c047f44cacc637c5823c43ca9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> •  The  transition  from  the  inner  to  middle  contact  aureole  is  indicated  by  the  breakdown  of  hornblende into chlorite, epidote and quartz and from rocks that were completely recrystallised to  rocks in which the primary bedding is preserved. •  This  is  the  Sadiola  Fracture  Zone  which  was  re-activated  during  pluton  emplacement  and  was  used as the pathway for moderate-high salinity fluids. •  The Sadiola open cast mine is interpreted as an Intrusion related gold deposit or a thermal aureole  gold deposits associated with the Sekokoto plutons. 33<br><b>Geocode:</b> Sekokoto, Bafoulabé Cercle, Kayes, Mali<br><b>Pages:</b> 34<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6772908245d47a08baa3918152f9fa81.setContent(html_fea1d09c047f44cacc637c5823c43ca9);
+            
+        
+
+        circle_marker_57381f5715c1a68fb662a28aaaf8cdb4.bindPopup(popup_6772908245d47a08baa3918152f9fa81)
+        ;
+
+        
+    
+    
+            circle_marker_57381f5715c1a68fb662a28aaaf8cdb4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4ef94e9cd6583dc6c46ed3d2b6b5846 = L.circleMarker(
+                [13.2339278, -10.687269],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_d925dd8899a4c28486c5f90bb8ea8f82 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ca6bfa62175ea683cf62853b991564c4 = $(`<div id="html_ca6bfa62175ea683cf62853b991564c4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> intrusions. The mineralisation at Sadiola  is therefore interpreted to be as a result of metamorphism and  deformation  brought  about  the  Sekokoto  pluton  emplacement  during  the  Eburnean  orogeny. Structural  data  indicate  that  quartz  veins  formed  prior  to  the  development  of  the  S2  cleavage  systems. These  are  therefore  interpreted  to  be  post-Tangaean  and  pre-Eburnean  and  are  associated  with  minor  pyrite- arsenopyrite  mineralisation. Mineralisation  was  therefore  upgraded  by  pluton  emplacement  and  the  re- activation  of  the  Sadiola  Fracture  Zone  and  the  remobilisation  of  fluids  to  cause  brecciation  and  skarnification of the carbonate unit. The fluids have moderate to high salinity as determined by Pan and  Fleet (1992) from calcite-dolomite geothermometry.<br><b>Geocode:</b> Sekokoto, Bafoulabé Cercle, Kayes, Mali<br><b>Pages:</b> 33<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d925dd8899a4c28486c5f90bb8ea8f82.setContent(html_ca6bfa62175ea683cf62853b991564c4);
+            
+        
+
+        circle_marker_c4ef94e9cd6583dc6c46ed3d2b6b5846.bindPopup(popup_d925dd8899a4c28486c5f90bb8ea8f82)
+        ;
+
+        
+    
+    
+            circle_marker_c4ef94e9cd6583dc6c46ed3d2b6b5846.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83ecade5bd25260fbc041ed95c6ea8ab = L.circleMarker(
+                [14.4750607, -14.4529612],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_aebe323cceca94634a24e43945c1e531 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_857bbb812449e8bc70c6d13a025a9164 = $(`<div id="html_857bbb812449e8bc70c6d13a025a9164" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1) near the border of Mali  and  Senegal. Mali  is  a  semitropical  to  arid  landlocked  country  which  is  part  of  the  West  African  Savannah-Sahel  region  (Fig. 1). It  extends  over  1,  240,  278  square  kilometres  in  size. Its  estimated  population was recorded at 12.5 million as at 2006 with an annual growth rate of 2.4%. French serves as  an official language with 80% of the population  speaking Bambara. || 5.4 Comparison to Sadiola goldfield with the rest of the West African Gold deposits  The Sadiola deposits share some similarities with the other gold deposits in the West African Craton. In  the nearby FE3 open cast, two styles of gold mineralisation were recorded by Matabane (2008). These are  gold mineralisation in the breccia lodes and in the upper slump facies which co-exists with arsenopyrite- pyrite  assemblage  and  the  secondary  placer  gold  mineralisation. Similar  occurrence  of  orogenic  gold  systems are recorded in Ghana, Senegal, Burkina Faso, Guinea and Cote d’Ivoire (Goldfarb et al., 2001). Primary gold deposits in Burkina Faso are classified as orogenic-type gold deposits (Béziat et al., 2008)  with  the  differences  from  the  Sadiola  documented  in  the  style  of  gold  mineralisation. Two  styles  of  mineralisation  observed  in  Burkina  Faso  are  quartz-vein  and  disseminated  (Béziat  et  al.,  2008).<br><b>Geocode:</b> Senegal<br><b>Pages:</b> 33,8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_aebe323cceca94634a24e43945c1e531.setContent(html_857bbb812449e8bc70c6d13a025a9164);
+            
+        
+
+        circle_marker_83ecade5bd25260fbc041ed95c6ea8ab.bindPopup(popup_aebe323cceca94634a24e43945c1e531)
+        ;
+
+        
+    
+    
+            circle_marker_83ecade5bd25260fbc041ed95c6ea8ab.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_77155198956029c6892a5f5536c9c9a5 = L.circleMarker(
+                [21.9170588, -6.3578906],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_fe252cfc4a3efd01637c495c3525b71c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_105bed9a5ef507d09748fe6c0939778d = $(`<div id="html_105bed9a5ef507d09748fe6c0939778d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 3: Regional Geology   3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier  The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately  1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The  Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et  al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat  et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.<br><b>Geocode:</b> Taoudeni Basin, Hodh Ech Chargui, Mauritania<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fe252cfc4a3efd01637c495c3525b71c.setContent(html_105bed9a5ef507d09748fe6c0939778d);
+            
+        
+
+        circle_marker_77155198956029c6892a5f5536c9c9a5.bindPopup(popup_fe252cfc4a3efd01637c495c3525b71c)
+        ;
+
+        
+    
+    
+            circle_marker_77155198956029c6892a5f5536c9c9a5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8eae72c11b8c98dc02fb77b56dd34f10 = L.circleMarker(
+                [5.310935, -1.992426],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_19356e482f3fc189590e78796ccbcc10 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5847fcaf8fad3dff1263ae015cab8290 = $(`<div id="html_5847fcaf8fad3dff1263ae015cab8290" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be  equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia  deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation  which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit  is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et  al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa  District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32<br><b>Geocode:</b> Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana<br><b>Pages:</b> 33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_19356e482f3fc189590e78796ccbcc10.setContent(html_5847fcaf8fad3dff1263ae015cab8290);
+            
+        
+
+        circle_marker_8eae72c11b8c98dc02fb77b56dd34f10.bindPopup(popup_19356e482f3fc189590e78796ccbcc10)
+        ;
+
+        
+    
+    
+            circle_marker_8eae72c11b8c98dc02fb77b56dd34f10.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bb299ec286929490d4e595badf22273 = L.circleMarker(
+                [47.3138746, 5.0488196],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_51c2b12eb1644b5f158846c3df316490 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4eb8c1cb9cd6c06357c33fcfb4cea8bf = $(`<div id="html_4eb8c1cb9cd6c06357c33fcfb4cea8bf" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Late-orogenic  deposits  are  characterised by disseminated gold-bearing arsenopyrite and Au-quartz lode and quartz-vein type. These  are interpreted as the major type and host of gold in West Africa (Milési et al., 1991).Two metallogenic  styles  have  been  observed  in  the  Sadiola  goldfield  by  Hein  and  Tshibubudze  (2007a,  b)  and  these  are  placer gold in the palaeochannels and screes and gold occurring in stockwork veins and breccias. 15<br><b>Geocode:</b> West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France<br><b>Pages:</b> 16<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_51c2b12eb1644b5f158846c3df316490.setContent(html_4eb8c1cb9cd6c06357c33fcfb4cea8bf);
+            
+        
+
+        circle_marker_7bb299ec286929490d4e595badf22273.bindPopup(popup_51c2b12eb1644b5f158846c3df316490)
+        ;
+
+        
+    
+    
+            circle_marker_7bb299ec286929490d4e595badf22273.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3c91c83a209b8ef731fe41839dca9fb3 = L.circleMarker(
+                [37.546209, -77.4570366],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_8c464f863f4c8ee40b7eebcdb84e39f4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_06403b1fab42b12dde6e15e9886c014d = $(`<div id="html_06403b1fab42b12dde6e15e9886c014d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 2: Methodology  Data Collection  This research comprised two important tasks: petrographical work and field work which were preceded  by  literature  review. Field  work  was  completed  in  June  2009  and  involved  examining  drill-core  and  mapping  of  the  host  rocks. Six  drill  cores  from  the  Sadiola  Deep  Sulphide  project  were  examined  and  these  include  SD022,  SD042,  SD048,  SD119,  SD129  and  SD782. Samples  were  collected  in  2008  and  polished thin sections were prepared by SGS Laboratories in Booysens, Johannesburg. Field  mapping  involved  mapping  of  the  West  High-Wall  of  the  main  pit  and  the  Helicopter  pit  at  the  southern  end  of  the  main  Sadiola  pit. At  each  station  point  the  following  (if  present)  were  recorded:  lithology, bedding and cleavage orientation, faulting, folding, alteration and the distance from the station  point to the face wall.<br><b>Geocode:</b> The Pit and the Peel Rooftop, 1210, West Main Street, The Fan, Richmond, Virginia, 23220, United States<br><b>Pages:</b> 10<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_8c464f863f4c8ee40b7eebcdb84e39f4.setContent(html_06403b1fab42b12dde6e15e9886c014d);
+            
+        
+
+        circle_marker_3c91c83a209b8ef731fe41839dca9fb3.bindPopup(popup_8c464f863f4c8ee40b7eebcdb84e39f4)
+        ;
+
+        
+    
+    
+            circle_marker_3c91c83a209b8ef731fe41839dca9fb3.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1af28a814890d402cb16bec40bf1bb08 = L.circleMarker(
+                [43.9901477, -102.2476498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_04c3cceb13b2ff98fcfdd3b5f34aaf8a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_05cb91e97a948fc36623f50b94033b70 = $(`<div id="html_05cb91e97a948fc36623f50b94033b70" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> A  B  Figure. 6: Equal area stereographic projection of bedding from A: Helicopter Pit & B: West High-wall in  the main pit. The  equal  area  stereographic  projections  of  cleavage  of  the  Helicopter  Pit  records  a  calculated  mean  cleavage of 343o/54E, however the data can be resolved into two data sets: a NNW trending set and a NE- trending set (Fig. 7). Two sets of cleavages were also observed by Hein (2009) in which the ENE trending  sets  (S2)  cross-cuts  the  NNW-trending  sets  (S1). Unfortunately  this  cross-cutting  relationship  has  not  been observed in the study area, but is accepted by the mine as a tectonic sequence for the Sadiola pit.<br><b>Geocode:</b> Wall High School, South Boulevard West, Wall, Pennington County, South Dakota, 57790, United States<br><b>Pages:</b> 22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_04c3cceb13b2ff98fcfdd3b5f34aaf8a.setContent(html_05cb91e97a948fc36623f50b94033b70);
+            
+        
+
+        circle_marker_1af28a814890d402cb16bec40bf1bb08.bindPopup(popup_04c3cceb13b2ff98fcfdd3b5f34aaf8a)
+        ;
+
+        
+    
+    
+            circle_marker_1af28a814890d402cb16bec40bf1bb08.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_51c617c10d05c11c635b51c678490834 = L.circleMarker(
+                [43.9901477, -102.2476498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_1d5bab8391004854191423f3c02c11ee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2f45564aeeecc00ceb8792e47b34569c = $(`<div id="html_2f45564aeeecc00ceb8792e47b34569c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.2 Lithologies  Mapping was undertaken in two areas in the Sadiola open  cast: West high-wall in the  main pit and the  Helicopter pit located at the southern end of the main pit (Map 1 & 2). The main lithologies observed in  the main pit are metagreywacke and carbonates. The greywacke sequence is massive in texture and the  visible  mineralogy  includes  quartz,  calcite,  minor  sulphide  and  epidote  in  some  cases. The  carbonate  sequence  becomes  friable  and  less  competent  at  the  contact  with  the  carbonaceous-siltstone  greywacke  unit. This unit is interpreted as the Sadiola Fracture Zone (SFZ) as defined by Hein (2009) and Boshoff et  al (1998). Pyrolusite, epidote and kaolinite occur in this zone and the zone is cross-cut by quartz veins.<br><b>Geocode:</b> Wall High School, South Boulevard West, Wall, Pennington County, South Dakota, 57790, United States<br><b>Pages:</b> 20<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1d5bab8391004854191423f3c02c11ee.setContent(html_2f45564aeeecc00ceb8792e47b34569c);
+            
+        
+
+        circle_marker_51c617c10d05c11c635b51c678490834.bindPopup(popup_1d5bab8391004854191423f3c02c11ee)
+        ;
+
+        
+    
+    
+            circle_marker_51c617c10d05c11c635b51c678490834.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_33e3b2b7cb0bc575fa595089ad777408 = L.circleMarker(
+                [42.65523, -88.28805],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_62000cb519364f4e5368fca03a4eb6a9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bcb8a25f47a9c0d4bdf0788265f76a83 = $(`<div id="html_bcb8a25f47a9c0d4bdf0788265f76a83" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 4.2 Lithologies  Mapping was undertaken in two areas in the Sadiola open  cast: West high-wall in the  main pit and the  Helicopter pit located at the southern end of the main pit (Map 1 & 2). The main lithologies observed in  the main pit are metagreywacke and carbonates. The greywacke sequence is massive in texture and the  visible  mineralogy  includes  quartz,  calcite,  minor  sulphide  and  epidote  in  some  cases. The  carbonate  sequence  becomes  friable  and  less  competent  at  the  contact  with  the  carbonaceous-siltstone  greywacke  unit. This unit is interpreted as the Sadiola Fracture Zone (SFZ) as defined by Hein (2009) and Boshoff et  al (1998). Pyrolusite, epidote and kaolinite occur in this zone and the zone is cross-cut by quartz veins. || Rose diagrams for quartz veins from the Helicopter Pit and the west high-wall are presented in Figure 8. The  dominant  trend  of  quartz  veins  in  the  Helicopter  Pit  is  NE  with  sub-ordinate  trend  towards  NNE,  while  the  dominant  trend of  the  quartz  veins in  the  west  high-wall  is NNE  with  the  sub-ordinate trend  towards NNW. The quartz veins elsewhere in the main pit are folded by F2 (Hein, 2009) indicating that  the  veins  formed  prior  to  S2. The  relationship  between  S1  in  the  Helicopter  Pit  and  the  dominant  orientation of quartz veins suggest that they formed at the same time during the NE directed compression. This is because bedding and cleavage verge towards NE. A  B  n=28  n=15  Figure.<br><b>Geocode:</b> Main Pit, McHenry Street, Bohners Lake, Town of Burlington, Town of Wheatland, Racine County, Wisconsin, 53105, United States<br><b>Pages:</b> 20,24<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_62000cb519364f4e5368fca03a4eb6a9.setContent(html_bcb8a25f47a9c0d4bdf0788265f76a83);
+            
+        
+
+        circle_marker_33e3b2b7cb0bc575fa595089ad777408.bindPopup(popup_62000cb519364f4e5368fca03a4eb6a9)
+        ;
+
+        
+    
+    
+            circle_marker_33e3b2b7cb0bc575fa595089ad777408.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_752578c6f0687e4c0655f70e6f232d51 = L.circleMarker(
+                [16.3700359, -2.2900239],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_8437be75ac9c522fdc7d737ab1853260 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d65f88edb1fdc8301ee5ac9eb66b685f = $(`<div id="html_d65f88edb1fdc8301ee5ac9eb66b685f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Mineralisation  at  Sadiola  has  been  shown  to  have  a  temporal  and  a  spatial  relationship to the tonalite-granodiorite plutons and tonalite dykes. Sadiola is located in close proximity to  the  Alamoutala-Sekokoto-Kakadian  plutonic  system. Mineralisation  has  shown  to  be  as  a  result  of  the  fluids and metamorphism associated with the intrusions (Hein and Tshibubudze, 2007b). Determining the  paragenesis,  investigation  of  the  mineralogical,  microstructural  and  alteration  events  will  assist  in  determining  gold  mineralisation,  and  is  considered  important  for  the  Sadiola  exploration  and  in-mine  development. 1.2  Location and Physiography  The  Sadiola  opencast  mine  is  located  within  the  Sadiola  village. The  village  is  situated  in  the  south- western part of Mali at about 77km south of the regional capital, Kayes (Fig.<br><b>Geocode:</b> Mali<br><b>Pages:</b> 8<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_8437be75ac9c522fdc7d737ab1853260.setContent(html_d65f88edb1fdc8301ee5ac9eb66b685f);
+            
+        
+
+        circle_marker_752578c6f0687e4c0655f70e6f232d51.bindPopup(popup_8437be75ac9c522fdc7d737ab1853260)
+        ;
+
+        
+    
+    
+            circle_marker_752578c6f0687e4c0655f70e6f232d51.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_50fc14092184bb6c4648c55a7d0d090f = L.circleMarker(
+                [12.8564377, 11.2415847],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_a79dad7c02f86ecc8d15fde053c64b12 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_155d89886e8c27f4cc4d1c67035e1416 = $(`<div id="html_155d89886e8c27f4cc4d1c67035e1416" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The Dalema-Kofi Supergroup is crosscut by tourmaline-rich quartz veins which are the primary host to  gold  mineralisation  (Wilson,  2002)  in  the  Loulo  goldfield,  SSE  of  Sadiola,  near  the  town  of  Kêniêba. Ranson (1998) indicated that gold mineralisation occurs in pelitic shales. The Dalema-Kofi sequence is  currently  not  dated  (Dioh  et  al.,  2006;  Matabane,  2008). It  is  transacted  by  the  Senegalo-Malian  Shear  Zone with several gold deposits located in close proximity to the structure (Boshoff et al., 1998). 11<br><b>Geocode:</b> Kenieba, Masaba, Borsari, Yobe, Nigeria<br><b>Pages:</b> 12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a79dad7c02f86ecc8d15fde053c64b12.setContent(html_155d89886e8c27f4cc4d1c67035e1416);
+            
+        
+
+        circle_marker_50fc14092184bb6c4648c55a7d0d090f.bindPopup(popup_a79dad7c02f86ecc8d15fde053c64b12)
+        ;
+
+        
+    
+    
+            circle_marker_50fc14092184bb6c4648c55a7d0d090f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9eca7f3d0184e5ff1ee74797c4ba5681 = L.circleMarker(
+                [43.9901477, -102.2476498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2048079f2a5095b27bf63b2662ac8332);
+        
+    
+        var popup_36021c187407a8b108a9f7f64f396b2c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_65230048891da450a0fd525f75d49439 = $(`<div id="html_65230048891da450a0fd525f75d49439" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Rose diagrams for quartz veins from the Helicopter Pit and the west high-wall are presented in Figure 8. The  dominant  trend  of  quartz  veins  in  the  Helicopter  Pit  is  NE  with  sub-ordinate  trend  towards  NNE,  while  the  dominant  trend of  the  quartz  veins in  the  west  high-wall  is NNE  with  the  sub-ordinate trend  towards NNW. The quartz veins elsewhere in the main pit are folded by F2 (Hein, 2009) indicating that  the  veins  formed  prior  to  S2. The  relationship  between  S1  in  the  Helicopter  Pit  and  the  dominant  orientation of quartz veins suggest that they formed at the same time during the NE directed compression. This is because bedding and cleavage verge towards NE. A  B  n=28  n=15  Figure.<br><b>Geocode:</b> Wall High School, South Boulevard West, Wall, Pennington County, South Dakota, 57790, United States<br><b>Pages:</b> 24<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_36021c187407a8b108a9f7f64f396b2c.setContent(html_65230048891da450a0fd525f75d49439);
+            
+        
+
+        circle_marker_9eca7f3d0184e5ff1ee74797c4ba5681.bindPopup(popup_36021c187407a8b108a9f7f64f396b2c)
+        ;
+
+        
+    
+    
+            circle_marker_9eca7f3d0184e5ff1ee74797c4ba5681.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

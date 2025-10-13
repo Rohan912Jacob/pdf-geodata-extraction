@@ -1,0 +1,1129 @@
+
+--- Page 2 ---
+Abstract 
+The  rocks  of  the  Oudalan-Gourouol  Greenstone  Belt  (OGGB)  are  largely  made  up  of 
+supracrustal,  island-arc  derived  sediments  including,  but  not  limited  to,  thick  greywacke 
+sequences. These were deposited in a deltaic-shelf environment on the margin of a back-arc 
+basin.  The  local  stratigraphy  has  been  constrained  by  facies  variation  determined  by 
+sedimentary  features  and  differences  in  the  depositional  environment.  Regional  low-middle 
+greenschist  metamorphism  is  shown  by  the  ubiquitous  presence  of  chlorite,  epidote  and 
+minor  muscovite  and  is  suggested  to  be  a  result  of  large  TTG  pluton  emplacement  that 
+occurred  syn-tectonically  with  the  Eburnean  Orogeny.  This  thesis  proposes  it  is  due  to 
+diastathermal  metamorphism  caused  by  back-arc  extension  and  mantle  upwelling.  Contact 
+metamorphism of the greywacke to hornblende-hornfels facies occurs within close proximity 
+of  the  calc-alkaline  dykes.  The  internal  structure  and  sedimentary  features  were  destroyed 
+due  to  the  increase  in  temperature.  Two  deformation  events  occurred,  the  Tangaean  Event 
+(2170-2130  Ma)  and  the  Eburnean  Orogeny  (2130-1980  Ma)  that  caused  the  rocks  in  the 
+OGGB to be folded twice. The Ludovic Fault System was a result of compression during the 
+Eburnean Orogeny and gave rise to N-S trending, dextral-reverse structures. Dilation of these 
+structures  occurred  due  to  compression  of  the  Eburnean  Orogeny.  Granodiorite  and 
+monzodiorite  dykes  that  intruded  the  Palaeoproterozoic  sedimentary  rocks  were  emplaced 
+pre-D1  and  underwent  deuteric  alteration.  They  contain  large,  euhedral  plagioclase  and 
+altered  clinopyroxene  crystals  surrounded  by  a  groundmass  of  quartz  and  secondary, 
+interstitial plagioclase. The high quartz content, approximately 80 %, in these dykes is due to 
+crustal contamination during emplacement. 
+1
+
+--- Page 5 ---
+2.0. Introduction 
+2.1. Preamble 
+The  study  area  is  situated  in  the  Oudalan-Gourouol  Greenstone  Belt  (OGGB)  in  north-east 
+Burkina  Faso  (Fig.  1).  Besides  the  research  completed  by  Tshibubudze  et  al.  (2009)  which 
+only encompassed a minor portion to the north of the study area, the study area has not been 
+previously  mapped  or  described.    It  therefore  lacked  any  detailed  geological  interpretation.  
+Hein et al. (2004), Tshibubudze et al. (2009) and Hein (2010) all referred to the controversy 
+of stratigraphic “way up” in the West African Craton (WAC). Hirdes et al. (1996) concluded 
+that the upper sequence of the Birimian is younger than the lower, whilst Milesi et al. (1991) 
+stated  the  converse.  However,  Milesi  et  al.  (1989)  in  Hirdes  et  al.  (1996)  originally  agreed 
+with  the  upper  sequence  being  younger.  Milesi  et  al.  (1989)  in  Bossiere  et  al.  (1996)  also 
+considered that the upper Birimian may in fact be rocks of the Tarkwa Group. This idea was 
+not supported by Leube et al. (1990), Hirdes et al. (1992) and Davis et al. (1994) who stated 
+the  upper  and  the  lower  Birimian  are  similar  in  age.  Hein  et  al.  (2004)  concluded  that  the 
+Goren  Greenstone  Belt  of  north-east  Burkina  Faso  is  made  up  of  metamorphosed  volcanic 
+and pyroclastic rock units that are intercalated with metasedimentary rocks, thus revising the 
+type section stratigraphy of that belt.   
+This research focuses on different geological aspects and provides a holistic study of the field 
+area.  Due  to  the  lack  of  field  work  in  the  region,  basic  stratigraphy  is  not  known  in  many 
+parts  of  the  WAC.  However,  Tshibubudze  and  Hein  (in  review)  have  established  a 
+stratigraphy  for  the  OGGB  in  a  large  way.  The  study  area  characterizes  the  greywacke 
+sequence,  establishes  its  internal  stratigraphy  and  looks  at  its  relationships  with  intrusive 
+rocks that crop out throughout the region. The rocks in the field area are well exposed which 
+is not the case for other parts of the belt, making correlation difficult.  
+In order to determine the stratigraphy, a detailed sedimentological study was necessary. This 
+was  to  distinguish  between  the  different  sedimentary  facies,  determine  lithologies  and  a 
+depositional environment in which they formed. The project also considers the structure and 
+metamorphism and the geochemistry of the igneous rocks which play an important role in the 
+interpretation of the tectonic, magmatic and metamorphic conditions.   
+4
+
+--- Page 6 ---
+2.2. Location and Physiography 
+The study area is situated approximately 2 km east of the town of Markoye and is located 12 
+km west of the international border of Niger and 38 km south of the border of Mali (Fig. 2).  
+The town of Markoye is located at the divide between the Sahel and the Sahara; everything 
+north of the town is considered to be the Sahara Desert. Thus, the field area is an arid and hot 
+environment with much of the surface covered with sand and loose gravels making outcrop 
+difficult to find in the low-lying areas. The areas of high relief however, are desert mountains 
+that contain a large amount of rock which, unfortunately, was dominated by  loose boulders 
+and very little in situ-outcrop.  
+Figure 1: West African Craton (from Tshibubudze et al., 2009) 
+5
+
+--- Page 7 ---
+N                      
+     0              1 km 
+Figure 2: Satellite image of the study area with UTM grid (www.googleearth.com) 
+6
+
+--- Page 8 ---
+2.3. Aims 
+  To establish a stratigraphic, magmatic and structural column for the study area. 
+  To interpret a depositional environment. 
+  To correlate localised structural features with regional tectonic events as described by 
+Tshibubudze et al. (2009). 
+  To determine whether there is a metamorphic grade change across the field area and 
+understand its relationship with the intrusive material. 
+2.4. Acronyms, Abbreviations and Standards 
+Acronyms: 
+WAC – West African Craton 
+XRF – X-Ray Fluorescence 
+ICP-MS – Inductively Coupled Plasma Mass Spectrometry 
+GPS – Global Positioning System 
+UTM – Universal Tranverse Mercator 
+PPM – Parts Per Million 
+REE – Rare Earth Elements 
+LREE – Light REE 
+HREE – Heavy REE 
+LOI – Loss of Ignition 
+Standards 
+Chondrite (see appendix) 
+7
+
+--- Page 9 ---
+3.0. Literature Review/Regional Geology 
+3.1. Stratigraphy 
+According to Harcöuet et al. (2007) in Hein (2010), the West African Craton (WAC) is made 
+up  of  Palaeoproterozoic  volcaniclastics  and  metasediments  that  overlie  an  inferred  granite 
+basement that is Archaean in age. Tshibubudze et al. (2009) and Hirdes et al. (1996) followed 
+Junner’s (1935) subdivision to classify the rock formations so that the Birimian sequence is 
+made up of two units; the Lower Birimian and the Upper Birimian. These authors stated that 
+the  Lower  Birimian  consists  of  dacite,  meta-volcaniclastics,  greywacke  sequences 
+interbedded  with  siltstone,  chert,  shale  and  chemical  sediments  which  have  undergone 
+regional  metamorphism.  The  Upper  Birimian  comprises  tholeitic  basalts,  granitoidal  lavas 
+and pyroclastic rocks. 
+Milesi et al. (1991) and Leube et al. (1990) described the Tarkwa Group as clastic sediments 
+that  have  undergone  regional  metamorphism.  These  authors  mentioned  that  the  Tarkwa 
+Group formed as a result of erosion of Birimian rocks and overlies the Birimian Supergroup 
+unconformably.  Milesi  et  al.  (1989,  1992)  stated  that  the  region  to  the  east  of  the  town  of 
+Markoye  is  made  up  Tarkwa  Group  sediments.  Tshibubudze  et  al.  (2009)  disagreed  with 
+these conclusions as the stratigraphy does not match the type section for the Tarkwa Group in 
+Ghana (Milesi et al., 1989, 1991; Bossiere et al., 1996). 
+Brown  et  al.  (1994)  in  Tshibubudze  et  al.  (2009)  calculated  through  istotopic  studies  that 
+there  is  a  major  unconformity  between  the  Tarkwa  Group  sediments  and  the  overlying 
+laterite,  which  formed  during  the  Cretaceous  but  was  eroded  to  form  glacis  in  the  Eocene-
+Miocene (Beauvais et al., 2008). 
+3.2. Sedimentology 
+The Birimian Supergroup is described by Feybesse et al. (1990), Leube et al. (1990), Hirdes 
+et  al.  (1996)  and  Milesi  et  al.  (1991,  1992)  and  is  largely  made  up  of  volcanics,  chemical 
+sediments  and  greywacke  units  with  siltstone  interbeds.  In  comparison,  the  Tarkwa  Group 
+8
+
+--- Page 10 ---
+according to Leube et al. (1990) and Milesi et al. (1991) is classified as being predominantly 
+conglomerate units with smaller sandstone and phyllite units. 
+The  formation  of  thick  greywacke  sequences  generally  relates  to  rapid  deposition  as  to 
+disallow  sorting  of  material.  In  review  of  large  greywacke  units  in  modern  day  or  recent 
+geological  environments,  the  Wanganui  Basin  in  New  Zealand  is  described  by  Carter  and 
+Naish  (1998)  and  Proust  et  al.  (2005)  as  a  shallow  marine  environment  that  is  Plio-
+Pleistocene  in  age.  The  basin  demonstrates  a  full  range  of  sedimentary  facies.  Carter  and 
+Naish  (1998)  identified  that  equal  amounts  of  sedimentation  and  subsidence  are  necessary.  
+Uplift  and  subsidence  were,  in  the  case  of  the  Wanganui  Basin,  controlled  by  eustatic 
+changes which created an environment prone to rapid deposition. The Wanganui Basin sits in 
+a  back-arc  setting  at  the  convergence  of  the  Pacific  Plate  with  the  Australian  Plate.  It  is 
+possible  that  its  formation  occurred  in  the  same  environment.  Lithospheric  loading  and 
+downwarping created by adjacent subduction is credited with basin formation. This resulted 
+in thick units of greywacke being deposited which is similar and therefore significant for the 
+East  Markoye  region.  The  tectonic  setting  of  the  Wanganui  Basin  is  described  in  detail  by 
+Proust  et  al.  (2005).  They  explained  that  the  basin  is  situated  on  the  Australian  Plate 
+approximately  200  km  behind  an  active  zone  of  subduction.  In  this  subduction  zone,  the 
+Pacific  Plate  is  thrust  beneath  the  Australian  Plate  obliquely.  The  angle  of  subduction  has 
+remained constant for about 25 million years and is responsible for the creation of large fault 
+systems that lie between the fore-arc basin and the Wanganui Basin. According to Proust et 
+al. (2005) the basin has a depth of 5 km; the sedimentary fill overlies basement rock which 
+consists of a thick unit of greywacke that is Mesozoic in age. 
+Reviewing 
+literature 
+that  describes  greywacke 
+formation 
+from 
+the  Archaean  or 
+Palaeoproterozoic is significant. Similar processes of formation could have occurred owing to 
+the  same  environment  at  that  point  in  earth’s  history.  The  Pine  Creek  Inlier  of  northern 
+Australia contains rocks  which are Palaeoproterozoic in age. It consists of metasedimentary 
+rocks  and  volcanic  units  that  overlie  Archaean  granite  basement  (Needham  et  al.,  1988). 
+Needham  et  al.  (1988)  stated  that  the  inlier  was  affected  by  compressional  and  extensional 
+tectonism,  namely  orogeny  and  rifting  respectively.  This  tectonism  was  associated  with 
+igneous  events  and  post-dated  all  sedimentation.  The  basin  that  makes  up  the  Pine  Creek 
+9
+
+--- Page 11 ---
+Inlier  was  created  through  processes  of  extension  of  the  Archaean  crust.  After  rifting  took 
+place,  sedimentation  up  to  10  km  thick  of  predominantly  clastic  and  chemical  sediments 
+occurred.  Needham  et  al.  (op  cit.)  interpreted  sedimentation  to  have  taken  place  in 
+environments  ranging  from  fluvial  to  inter-tidal.  The  Burrell  Creek  Formation  comprises  a 
+thick, interbedded sequence of greywacke, siltstone, sandstone and shale that was affected by 
+deformation  and  diastathermal  metamorphism.  It  is  the  result  of  deep  water,  high  energy 
+environment.  Needham  et  al.  (1988)  stated  that  these  interbedded  units  make  up  only  a 
+portion of the Bouma Cycle from a turbiditic origin.  
+3.3. Intrusions 
+Tshibubudze et al. (2009) studied and described the intrusive bodies in the northern region of 
+Burkina  Faso.  The  Tin  Taradat  granodiorite  tonalite  is  intruded  by  the  Yacouba  Mafic 
+Complex  (layered  pyroxenite  and  gabbro  suite).  The  tonalite  intruded  a  granite  adamellite 
+west of the Markoye Shear Zone. To the east, it intrudes Palaeoproterozoic sedimentary and 
+volcanic sequences (Tshibubudze and Hein, in review). A swarm of late dolerite dykes which 
+trend WNW and NW cross-cut the supracrustal rocks of the Birimian Supergroup. They are 
+dated at 250 Ma. Tshibubudze et al. (2009) classified dolerite dykes with the same trend in 
+the north-east of Burkina Faso, at Essakane, which also cross-cut supracrustal rocks including 
+greywacke and siltstone. Porphyritic monzonite dykes were identified in the north east part of 
+Burkina Faso and these are the subject of current geochronological studies at the University 
+of Western Australia (Tshibubudze and Hein, in review). 
+3.4. Regional Tectonics 
+The tectonism of the West African Craton has been studied in detail by Hirdes et al. (1996), 
+Feybesse et al. (2006), Tshibubudze et al. (2009), Hein (2010) and Tshibubudze and Hein (in 
+review).  Hirdes  et  al.  (1996)  and  Hein  et  al.  (2004)  agreed  that  the  Eburnean  Orogeny, 
+described  by  Feybesse  et  al.  (2006)  formed  as  a  result  of  crustal  shortening  in  a  SE-NW 
+direction.  This  was  due  to  the  closure  of  an  oceanic  basin  that  was  situated  between  two 
+Archaean  cratons.  Deformation  during  the  Eburnean  Orogeny  lead  to  the  creation  of  shear 
+zones which trend NE-SW. Tshibubudze et al. (2009) described the Markoye Shear Zone and 
+the  Takabangou  Shear  Zone,  which  trend  NNE  and  are  steeply-east  dipping.  Hein  (2010) 
+10
+
+--- Page 12 ---
+stated that there were in  fact  three phases of deformation; (1)  the Tangaean Event  which is 
+the characterised by a north-west trending fold-thrust belt (2170-2130 Ma cf., Tshibubudze et 
+al.,  2009;  Hein,  2010);  (2)  the  polycyclic  Eburnean  Orogeny  which  involved  continental 
+collision  with the orogenic front and associated shear zones in a north-northeast orientation 
+(2130-1980  Ma,  Feybesse  et  al.,  2006)  and  (3)  the  Wabo-Tampelse  Event  which  is 
+characterised  by  dextral  reverse  thrusts  and  WNW-trending  shears  and  folds  (undated  cf., 
+Hein et al., 2004; Hein, 2010). 
+3.5. Metallogenesis 
+Gold  mineralisation  in  the  WAC  is  classified  into  five  different  processes  of  formation  by 
+Milesi et al. (1989) which was reviewed by Beziat et al. (2008) and Hein and Matabane (in 
+review). These classifications are: (1) Mineralisation that occurs in tourmalinised turbidites; 
+(2)  Mineralisation  of  intrusive  rocks  that  occur  within  disseminated  sulphides;  (3) 
+Conglomerates which host gold; (4) Lode gold where the gold is formed within arsenopyrite; 
+(5) Lode gold hosted in quartz veins where the gold is in its native state. Milesi et al. (1992) 
+modified their own original classification to just three components as described in Beziat et 
+al. (2008). In this classification, gold mineralisation is described in terms of regional tectonic 
+events  where  mineralisation  is  pre-orogenic,  syn-orogenic  or  post-orogenic.  According  to 
+Beziat et al. (2008), gold in Burkina Faso, in particular is found within or near quartz veins 
+which  suggests  that  the  deposits  form  epigenetically.  Tshibubudze  et  al.  (2009)  described 
+gold mineralisation at Essakane and observed that it exists in stockwork veins that are made 
+up  of  quartz  and  carbonate  material.  Tshibubudze  et  al.  (2009)  explained  that  Essakane 
+goldfield hosts gold-bearing veins in an anticline that formed in D1 and was dilated in D2.   
+11
+
+--- Page 13 ---
+4.0. Methodology 
+4.1. Field Methodology 
+Before  going  into  the  field,  basic  analysis  of  the  study  area  was  completed  using  satellite 
+images from Google Earth® in order to determine the most efficient way of doing fieldwork.  
+Fieldwork was conducted in January 2011. Line and rosette traverses were completed as this 
+was the most effective way of mapping the lithologies, contacts and structural features. It was 
+also  the  best  way  of  correlating  them  over  the  entire  the  field  area.  Field  mapping  was 
+undertaken with a compass clinometer to measure bedding features of the sedimentary units 
+such  as  dip  and  strike.  A  GPS  recorded  the  co-ordinates  of  the  station  points  (UTM  grid 
+system, WGS 84). 
+Structural  mapping  was  completed;  faults  were  traced  out  as  far  as  possible,  and  the 
+orientations and sense of displacement was determined by measuring slickenlines on the fault 
+plane with the compass clinometer. The location of fold axes was established by measuring 
+the  dip  direction  of  beds  and  establishing  facing  direction  using  sedimentary  features.  The 
+station points and geological features recorded in the field were plotted on a satellite image of 
+the  study  area  to  allow  for  progressive  visual  understanding  of  the  geology  as  the  study 
+continued. 
+Photographs were taken at most localities. They were necessary and useful when interpreting 
+the  geology.  Each  photograph  taken,  corresponded  to  a  specific  station  point  and  field 
+description. This made the interpretation easier, by simply  referring back to a certain point.  
+Selected rock samples were collected for geochemical study, thin section petrography, correct 
+identification  of  lithologies,  and  for  the  building  of  a  comprehensive  stratigraphic  column.  
+All  data,  including  diagrams,  station  points,  GPS  co-ordinates,  bedding,  structural  features 
+and full descriptions of the geology were recorded in a notebook that was used in the write up 
+of the project. 
+12
+
+--- Page 14 ---
+Geological and geomorphologic maps (Fig. 3 and Fig. 5 respectively) were created to depict 
+what geology and physiographic features occur in the field area. A stratigraphic column was 
+also constructed (Fig. 4) from the geological map. 
+4.2. Laboratory Methodology 
+Three granodiorite-quartz monzonite samples were submitted for geochemical analysis. This 
+analysis included XRF, which tested for major and trace elements and ICP-MS which tested 
+for  trace  elements.  The  analyses  were  completed  at  the  Earth  Lab  at  the  University  of  the 
+Witwatersrand.  The  samples  were  prepared  for  XRF  geochemical  analysis  which  works  in 
+the following method: 
+Summary of XRF Analysis (in house, unpublished). 
+ Major Analysis 
+All major elements were analyzed for, on an infinitely thick fused disk. 
+Preparation of the fused disk: 
+1.  All samples were ignited at 1000oC for 40 minutes and the LOI was calculated. 
+2.  The  ignited  sample  was  mixed  with  a  commercially  available  pre-ignited  flux  (with 
+composition  Li2B4O7  = 47%,  Li2CO3 = 36.7%, La2O3 =16%) in  the ratio of 1:5  and 
+fired for 40 minutes at 1000oC. 
+3.  This was then poured and pressed by a mechanical press into a fused disk. 
+13
+
+--- Page 16 ---
+The  elemental  concentrations  were  obtained  by  comparison  to  13  known  standards.    The 
+standards  used  included:  W2,  GSP1,  BHVO2,  AGV2,  G2,  DTS1,  PCC1,  BCR2,  NIM  N, 
+NIM P, NIM S, NIM D, NIM G.  A synthetic internal standard was run after every 5 analyses 
+to monitor and compensate for instrumental drift. 
+ Trace Analysis 
+All trace elements were analyzed for on an infinitely thick pressed pellet. 
+1. Preparation of the pressed pellet: 
+Approximately  6g  of  sample  was  mixed  with  three  drops  of  4%  commercially  purchased 
+Mowiol (polyvinyl alcohol).  This mixture was then pressed under 10 ton pressure into an Al 
+cup using a 40 ton press.  The pressed pellet was allowed to dry for 24 hours prior to analysis. 
+Data Collection: 
+All data collection was performed on a PANalytical PW2404 WD XRF with a Rh tube set at 
+50kV  and  50mA.    The  instrument  parameters  for  each  element  were  as  per  the 
+recommendations outlined by the software Protrace ®. 
+PANalytical software Protrace® was used to process the raw data.  The standards used for the 
+calibration were the standards supplied by PANalytical.   Protrace® drift standards were run 
+after every five analyses to compensate for instrument drift. Internal checks were performed 
+by analyzing known standards as unknowns and comparing them to reported concentrations.  
+The known standards used were AGV2, BHVO2, GSP2, NIM D and NIM S. 
+4.3. Petrography 
+Thin section petrography  was completed on the  collected samples. Analysis of  sedimentary 
+provenance and  metamorphic  grade was completed. The igneous rocks  were  also  identified 
+and classified. Each thin section was systematically analysed, in particular, when identifying 
+minerals, to ensure consistency and accuracy. Firstly, it was necessary to decide whether the 
+15
+
+--- Page 17 ---
+rock  was  igneous,  metamorphic  or  sedimentary.  For  unknown  minerals,  a  mineral 
+identification book was used as well as the following identification tools: 
+  Relief 
+ 
+Interference colours 
+  Pleochroism 
+  Cleavage 
+  Twinning. 
+  Extinction angle 
+ 
+Interference figure. 
+Photographs of the thin sections were taken as when necessary. For sedimentary rocks, grain 
+shape, size and modal abundance of clasts and matrix were analysed in order to classify the 
+rocks successfully. 
+A modal abundance of the minerals was undertaken. For the igneous samples, the Streckeisen 
+diagram (Streckeisen, 1976) was used to identify the rock and for sedimentary samples, the 
+Dott  classification  (Dott,  1964).  Using  geochemical  data  for  the  igneous  rocks,  the 
+Streckeisen  diagram  was  created,  after  the  values  had  been  normalised  according  to  the 
+CIPW  norm.  The  two  diagrams  could  then  be  compared  to  each  other.  Le  Maitre’s 
+classification (Le Maitre, 1989) was also completed using total alkalis versus silica content in 
+weight percent. A spider diagram was created using the XRF trace data and a REE plot using 
+the ICP-MS trace elements.  
+16
+
+--- Page 18 ---
+Figure 3: Geological map of the field area showing structural and bedding data and 
+lithologies. 
+17
+
+--- Page 19 ---
+Lithologies 
+Sand/Alluvium   
+Palaeosands 
+Ferricrete 
+Monzodiorite   
+Granodiorite- quartz monzodiorite 
+Deformation 
+True Thickness 
+? 
+? 
+30 m 
+D2 
+D1 
+Greywacke 
+1432 m 
+Dembam Conglomerate Member 
+7 m 
+Greywacke 
+2363 m  
+Figure  4:  Schematic  tecto-stratigraphic  column  showing  lithologies,  deformation  events  and  true 
+thicknesses of the units. 
+. 
+18
+
+--- Page 20 ---
+Figure 5: Geographical map representing ridges and river beds (tracks are not included) 
+19
+
+--- Page 21 ---
+5.0. Lithologies 
+The geology of the study area consists of metamorphosed and folded sedimentary sequences 
+as well as igneous intrusions. The geology is best expressed on ridges to the east and south-
+east of the town of Markoye. In-situ outcrop is difficult to locate because approximately 95 % 
+of the exposed rock mass is made up of dislodged boulders and blocks (Figs. 6 a & b). This 
+made  retrieving  accurate  measurements  difficult.  In  the  low  lying  areas  there  is  very  little 
+outcrop because the rocks are largely covered by  sand and  colluvium. However, outcrop in 
+the  low  relief  areas  tends  to  be  more  reliable  because  it  is  in-situ.  Overall,  the  entire 
+sedimentary package in the study area is composed of greywacke. This is determined by the 
+abundance of quartz, plagioclase, K-feldspar and accessory minerals such as clinopyroxene. 
+However, some units could be classified as lithic greywackes because they are dominated by 
+lithic fragments and other units as a gritstone-greywacke due to their gritty, coarse texture.  
+The  meta-greywacke  is  quartz  and  feldspar-rich,  medium-to-coarse-grained,  poorly  sorted 
+and  has  exceptionally  well  preserved  sedimentary  features  in  most  outcrops.  Sedimentary 
+features include cross-bedding, truncated beds, slump folding, scour and fill structures, flame 
+structures and gradational fining upwards sequences. Bedding-facing relationships were used 
+to determine stratigraphic way-up and many of these sedimentary features proved to be good 
+indicators  for  facing  direction.  There  was  a  visible  amount  of  variation  in  terms  of 
+composition, grain size, and sorting. 
+Upward fining sequences are present on a scale, ranging from 3-15 centimetres per cycle of 
+deposition. The cycles are often truncated (a scour base), by the next one. Cross-bedding is 
+seen  at  almost  all  outcrops  and  varies  in  scale  from  centimetres  to  metre  scale.  The  cross-
+bedded greywacke exhibits differential flow direction. All depict younging direction towards 
+the east when not near a fold hinge. Truncated beds, upward-fining sequences, scour and fill 
+and less commonly, flame structures aided in understanding and determining facing direction.  
+Fine,  thinly  laminated  mud  drapes  were  intercalated  with  the  greywacke  throughout  the 
+sequence.  Thin  chert  beds  exist  but  were  often  broken  up  and  suspended  in  the  overlying 
+sedimentary  rocks  as  rip-up  clasts  (intraclasts).  The  greywackes  are  deposited  as  turbidites 
+and have consistent fining upwards sequences. This suggests that each unit is deposited under 
+20
+
+--- Page 22 ---
+the influence of gravity and makes up part of the Bouma Cycle (Bouma, 1962).  In the field 
+area,  the  bottom  layers  of  the  cycle  was  seen;  (1)  massive  and  graded;  (2)  plane  parallel 
+laminae and (3) ripples, wavy or convoluted laminae (Bouma, 1962; Shanmugam, 1997). 
+There is a variable amount of orthoclase in most samples, (modal abundance ranging from 2-
+15%)  as  shown  by  very  prominent  Carlsbad  twinning  and  the  typical  smoky  grey  to  white 
+colourations.  Granophyric  texture  in  some  clasts  provided  evidence  of  simultaneous  rapid 
+growth  of  quartz  and  alkali  feldspars  in  the  source  rock  region  (Barker,  1970).  Perthitic 
+textures  were  also  evident  in  some  clasts  indicating  that  the  clast  source  region  underwent 
+exsolution between plagioclase and K-feldspars (Nesse, 2000). Clinopyroxene was present in 
+most of the samples in a relatively high abundance of 5-10%. They are 0.2 to 1.5 millimetres 
+in length, subhedral, are twinned and occasionally exhibit alteration rims.   
+Epidote and chlorite are present in all the samples and indicate metamorphism to greenschist 
+facies.  Hornblende  exists  in  some  of  the  greywackes,  although  in  low  proportions,  and  is 
+interpreted  to  be  detrital  grains  derived  from  the  source  rock  region.  The  greywacke  units 
+have  undergone  ferruginization  in  localised  areas.  This  is  noticeable  due  to  iron  staining, 
+which is  prominent throughout  the rock. Muscovite appears as an  alteration mineral  in  low 
+proportions, less than 2 %. 
+A  matrix-supported,  polymict  conglomerate  member  (hereafter  termed  the  Dembam 
+Conglomerate Member), with a thickness of ten metres, is interbedded within the greywacke. 
+It  crops  out  in  the  north  of  the  field  area  as  a  cobble  conglomerate.  The  unit  strikes  north-
+south  and  thins  out  towards  the  south.  The  cobbles  are  sub-angular  to  sub-rounded  and 
+cemented in a cross-bedded matrix of poorly sorted and coarse-grained greywacke. There is a 
+variety of cobbles making up this conglomerate such as fuchsitic chert, black chert, granite 
+(sensu-stricto)  basalt,  andesite,  finely  laminated  sandstone  interbedded  with  mudstones  that 
+host small-scale slump folds, quartz vein, and quartz-rich meta-sediments. The conglomerate 
+is similar to that described by Tshibubudze and Hein (in review) and is the focus of current 
+geochronology studies at the University of Western Australia. 
+21
+
+--- Page 27 ---
+Samples  of  intrusive  rocks  in  the  field  area  and  other  parts  of  the  greenstone  belt  were 
+geochemically analysed by Tshibubudze and Hein (submitted). They are classified according 
+to  Streckeisen  (Streckeisen,  1976)  as  monzodiorite  to  quartz  monzodiorites.  These  dykes 
+crosscut  the  field  area  and  trend  east-west.  They  were  folded.  They  have  a  width  ranging 
+between  30-50  metres.  They  consist  of  large,  euhedral  plagioclase  crystals,  up  to  2 
+centimetres in size, within a groundmass of hornblende, quartz and clinopyroxene. The dykes 
+are dark coloured, medium-grained rocks that have a porhyritic texture. They have undergone 
+metamorphism  to  the  middle  greenschist  facies  as  shown  by  the  presence  chlorite  and 
+epidote. The chlorite is commonly seen replacing large plagioclase crystals. 
+Euhedral,  deuterically  altered  plagioclase  phenocrysts  exhibit  remnant  albite  twinning. 
+Clinopyroxene  occurs  in  variable  amounts  but  usually  between  15  and  30  %  modal 
+abundance.  The  clinopyroxene  shows  alteration  rimming,  twinning  and  less  commonly 
+exsolution  lamellae.  There  are  smaller  (0.1-0.3  mm),  subhedral  to  anhedral,  unaltered 
+plagioclase crystals with albite twinning and small, interstitial quartz that comprises the inter-
+cumulus minerals.  
+A granodiorite to quartz monzodiorite dyke also crosscuts the study area. It is approximately 
+50 m wide and consists of large plagioclase crystals, both rounded and subhedral to euhedral 
+in shape. There is a 10-20 %, visible proportion of alkali feldspar and quartz. In hand sample, 
+hornblende  and  clinopyroxene  are  visible.  An  east-west  profile  was  conducted  across  the 
+intrusion to establish if the dyke was originally a sill. No significant change in crystal size or 
+composition  was  observed.  A  partially  bleached  contact  is  seen  in  a  river  bed.  Hornfels  is 
+situated proximal to the dyke. Micro-veins or brecciation is visible which appears to be a chill 
+margin.  However,  it  occurs  only  on  the  dyke  and  not  within  the  hornfels.  At  the  contact, 
+plagioclase  phenocrysts  are  not  as  large  and  are  more  commonly  euhedral  rather  than 
+rounded. In thin section, it shows an altered, lower-middle-greenschist metamorphosed rock. 
+It has an abundance of interstitial quartz, mostly less than 20 % plagioclase and long bladed 
+crystals  of  hornblende.  Some  occurrences  have  secondary,  unaltered,  smaller,  anhedral 
+plagioclase. It has a porphyritic texture shown by a fine-grained groundmass that surrounds 
+large plagioclase phenocrysts. There are quartz inclusions within the altered plagioclase. This 
+plagioclase  exhibits  relic  albite  twinning.  Clinopyroxene  makes  up  approximately  10  %  of 
+26
+
+--- Page 28 ---
+the rock and is rimmed by hornblende. Chlorite replaces hornblende. There is a high quartz 
+concentration (~85-90 %) in a number of the granodiorite samples, which can interpreted as 
+crustal contamination or wall-rock interaction during emplacement. 
+The  dykes  crop  out  throughout  the  OGGB  and  host  gold  mineralisation  just  north  of  the 
+Essakane  goldfield  (Tshibubudze  and  Hein,  in  review).  They  are  deuterically  altered 
+indicating low temperature metasomatism related to primary mineral changes in the magma 
+before  solidification.  The  crystals  remain  the  same  in  composition  but  are  essentially 
+destroyed as the mineral begins to break down compositionally (Neuerburg, 1958). This type 
+of  alteration  is  common  and  can  affect  mafic  to  felsic  rocks  during  crystallisation.  An 
+example  where  deuteric  alteration  affects  quartz  monzonites,  similar  in  composition  to  the 
+dykes  of  the  field  area,  is  from  the  Boulder  Batholith  in  Montana,  USA.  In  this  case,  the 
+alteration is related to the formation of ore deposits hosted within the intrusion (Neuerburg, 
+1958). 
+27
+
+--- Page 29 ---
+6.0. Structure and Metamorphism: 
+The field area has been metamorphosed to lower- middle greenschist facies as shown by the 
+ubiquitous  presence  of  chlorite  and  epidote.  There  is  no  apparent  fabric  in  the  samples.  
+Metamorphic  derived  micas  and  amphiboles  are  lacking.  A  fabric  at  such  low  grade  with 
+fine-grained minerals (epidote and chlorite) would develop only a vague mineral alignment, 
+if  any  (Prof.  Cawthorn,  pers.  comms.).  In  thin  section,  a  slight  fabric  is  visible,  where 
+minerals are aligned but this occurs adjacent to quartz-filled fractures and not as a result of 
+metamorphism.  The sediments  that are  situated approximately 20 metres  or less away from 
+dykes  have  undergone  contact  metamorphism  to  hornblende-hornfels  facies,  where  no 
+internal structure or primary bedding can be seen (i.e., grains and sedimentary features) (Fig 
+8). The hornfels is fine grained (less than 0.1 mm). However, more often than not, these rocks 
+express  their  sedimentary  character  as  compositional  variation,  as  seen  on  weathered 
+surfaces. The rocks are silicified and glassy. 
+The  field  area  and  the  OGGB  do  not  exhibit  the  correct  criteria  for  large-scale  contact 
+metamorphism.  One  would  expect  to  see  a  prominent  zonation  to  an  igneous  mass.  In  the 
+case  of  the  Pine  Creek  Inlier,  a  zonation  from  hornfels  to  greenschist  is  mappable,  with  a 
+definable  biotite  isograd  (Hein,  2003).  Burial  metamorphism  is  an  active  process  which 
+would  have  involved  basin  subsidence  and  a  resulting  increase  in  the  geothermal  gradient.  
+There  would  be  an  increase  in  pressure  and  temperature  as  well  as  the  development  of 
+bedding parallel cleavage at depth (Vernon and Clarke, 2008). Cleavage is not present in the 
+rocks,  even  at  a  petrographic  scale  and  there  is  no  mineral  fabric  suggesting  burial 
+metamorphism.  Diastathermal  metamorphism  better  explains  the  process  of  metamorphism 
+for the rocks in the OGGB.  
+With respect to the greywacke, hornblende occurs in minor proportions. The hornblende does 
+not  exhibit  any  foliation,  which  suggests  it  was  derived  from  an  igneous  source  that  was 
+deposited as detrital grains. The metamorphism in the field area correlates with Tshibubudze 
+et  al.  (2009)  and  Tshibubudze  and  Hein  (in  review)  who  concluded  greenschist 
+metamorphism  is  dominant  throughout  the  OGGB.  The  metamorphic  grade  of  most  of  the 
+greenstone  belts  of  the  Birimian  Supergroup  have  been  described  as  greenschist  facies 
+28
+
+--- Page 30 ---
+(Bossiere  et  al.,  1996;  Hirdes  et  al.,  1996;  Beziat  et  al.,  2000).  On  a  cratonic  scale,  the 
+Eburnean  Orogeny  and  the  emplacement  of  numerous  large,  calc-alkaline  plutons  is 
+suggested  to  be  responsible  for  a  regional,  low-grade  metamorphic  terrane  (Bossiere  et  al., 
+1996;  Hirdes et  al.,  1996;  Beziat et  al.,  2000).  There  is  no evidence to  suggest  that  contact 
+metamorphism occurred on such a large scale that would give rise to these greenschist-facies 
+rocks  within  the  field  area.  The  rocks  of  the  OGGB  were  subjected  to  greenschist  facies 
+conditions with the exception of a few localities where amphibolite and granulite facies was 
+attained, adjacent to plutons (Tshibubudze et al., 2009). 
+With respect to structure, the gold deposits in the OGGB are structurally constrained within 
+shear zones and their associated splays (Tshibubudze et al., 2009; Tshibubudze and Hein., in 
+review). The entire sequence of greywacke was folded and re-folded during two deformation 
+events. Field data collected on bedding-facing relationships shows that around the fold hinges 
+the  beds  dip  and  face  in  opposite  directions,  compared  to  the  rest  of  the  region  where 
+everything faces and dips toward the east. There are small scale m-folds where beds dip and 
+face in alternating directions over 5 to 10 metre intervals. The axial plane of a macroscopic 
+thrust fold trends NNE. 
+There is a N-S trending fault system that traverses the field area with minor subtending splay 
+faults,  hereafter  termed  the  Ludovic  Fault  System.  Field  measurements  of  down  dip 
+slickenlines,  accretion  steps  on  the  fault  plane  and  large  scale  S-C  fabrics  indicate  that  the 
+faults  were  displaced.  Dextral-normal  displacement  occurred  with  the  western  block  up 
+relative to the downward moving eastern block. There is a large quantity of quartz, with saw-
+tooth crystal growth (open-spaced fill). The quartz is often dark in colour due to high stress, 
+and was found around the areas of faulting which allows for relatively simple mapping of the 
+fault  plane.  Bleached  greywacke  is  also  found  in  abundance  around  the  fault  plane.  This 
+suggests  that  fluid  had  moved  through  the  rock  mass.  The  main  fault,  which  trends  from 
+north-south, has an anticlockwise flexure, which was validated by measuring strike changes 
+of the greywacke along its length. East-west and north-south trending fractures and joints are 
+common in the area. The presence of open space quartz, a S-C fabric, down dip slickenlines 
+and accretion steps indicate that the Ludovic Fault System is an extensional fault.  
+29
+
+--- Page 31 ---
+An  equal  area  stereographic  projection  (Fig.  9)  of  the  poles  to  planes  of  the  bedding  data 
+represents two broad clusters which straddle a calculated girdle of 111°53°S. The spread of 
+polar data about the primitive circle is the result of folding in D1 and D2 (c.f., Tshibubudze et 
+al.,  2009;  Tshibubudze  and  Hein,  in  review).  The  outlier  poles  are  interpreted  as  being 
+affected  by  drag  folding  against  local  faults  which  changed  the  polar  orientations 
+dramatically.  
+The  stereographic  projection  of  poles  to  bedding  correlates  well  with  data  provided  by 
+Tshibubudze et al. (2009) who concluded the rocks of the OGGB  were deformed and folded 
+by two deformation events i.e. the Tangaean Event and the Eburnean Orogeny. To determine 
+the mean fold axis, the data was split into the different fold limbs.  
+Figure 9: Stereographic projection of poles of the bedding data. 
+30
+
+--- Page 32 ---
+7.0. Geochemistry of Igneous Rocks 
+Normalising  the  major  elements  to  the  CIPW  norm  and  calculating  the  percentages  of 
+quartz, plagioclase and orthoclase for the samples, gave results of granodiorite to quartz 
+monzodiorite  on  the  Streckeisen  diagram  (see  Fig.  10a).  For  the  rocks  termed 
+monzodiorite  to  quartz  monzodiorite,  geochemical  results  from  Tshibubudze  and  Hein 
+(submitted)  were  used.  All  these  results  place  these  rocks  within  a  calc-alkaline  field 
+according  to  Streckeisen  (1976).  Figure  10b  shows  the  major  elements  plotted  on  the 
+same  graph,  but  instead  of  using  the  CIPW  norm,  modal  abundances  from  thin  section 
+analysis were determined. There is a slight variation between the two sets of results which 
+can be explained by the fact that the CIPW norm is a theoretical estimate that has a higher 
+margin  of  error.  This  is  why  it  is  necessary  to  compare  those  results  with  modal 
+abundances. Overall, the samples are calc-alkaline in composition, which indicates a good 
+correlation between the data. 
+Figure  10  a  &  b:  Classification  of  samples  KH/LP/145,  KH/LP/147  and  KH/LP/148  on  a 
+Streckeisen Diagram after Streckeisen (1976) using the CIPW norm and modal abundance. 
+31
+
+--- Page 33 ---
+Plotting total alkalis against silica content (see Fig. 11) yielded slightly different results but 
+essentially  the  samples  still  fall  within  the  granodiorite  field  of  the  Le  Maitre  (1989) 
+classification system. Sample KH/LP/145 and KH/LP/147 are very similar in composition on 
+both classification diagrams; however they are more granitic in composition according to the 
+total alkalis versus silica. Whereas sample KH/LP/148 on the Streckeisen diagram is situated 
+on the field boundary between a granodiorite and a quartz- monzodiorite and on Le Maitre’s 
+classification it is well within the granodiorite field. 
+Figure 11: Total alkalis versus Silica Diagram after Le Maitre (1989). 
+The trace element data of the granodiorite to  quartz monzodiorite is represented as a spider 
+plot (see Fig. 12), with the sample composition values in ppm normalised to chondrite. The 
+elements  are  ordered  on  the  x-axis  in  increasing  incompatibility.  There  is  a  large  negative 
+anomaly  for  nickel  in  all  three  samples.  The  plots  are  almost  identical  which  shows  good 
+32
+
+--- Page 34 ---
+correlation and consistency within the dyke. There is an initial decrease from Sc but it rises 
+again after Ni and the overall trend is an increase in the order from more compatible to more 
+incompatible.  
+Figure 12: Graph showing trace element concentration in order of increasing incompatibility 
+(left to right). 
+33
+
+--- Page 35 ---
+These data are normalised against chondrite meteorites, as its average composition represents 
+the best  approximation for a complete solar abundance.  The graph (Fig.  13) is  plotted on a 
+semi-log  scale  to  show  the  exponential  variation  between  LREE  and  HREE  relative  to 
+chondrite. The REE plot overall shows a decrease of one order of magnitude from LREE to 
+HREE. From La to Eu there is a steep decline in concentration from which point the HREE 
+start  to  level  out  and  remain  fairly  constant.  Both  the  LREE  and  the  HREE  are  enriched 
+relative to chondrite, which is constant on the line y=1. However, relative to each other, the 
+LREE are more enriched. Small, negative Eu anomalies are visible for sample KH/LP/ 145 
+and KH/LP/148, but are not very significant due to their size.  It is possible that because there 
+is a slight enrichment in Gd in these rocks, that Eu appears to be anomalously lower relative 
+to Gd. 
+Figure 13: Graph depicting the REE concentrations in the quartz-monzodiorites. 
+The  geochemical  and  thin  section  analyses  provide  a  classification  of  the  intrusive  rocks.  
+Even  though  there  is  a  slight  variation  between  the  two  Streckeisen  ternary  plots  and  Le 
+34
+
+--- Page 36 ---
+Maitre’s  total  alkali  versus  silica  graph,  all  the  samples  result  in  being  calc-alkaline  in 
+composition.  This  falls  within  the  tonalite-trondjemite-granodiorite  (TTG)  suite  that 
+characterizes most of the Palaeoproterozoic plutonic bodies of the WAC.   
+These  rocks  are  intermediate  intrusives  and  therefore  have  a  higher  concentration  of 
+incompatible  elements  compared  to  a  mafic  composition,  because  these  incompatibles 
+preferentially partition into the liquid phase until they are forced to crystallise. True granites 
+will have higher concentration of incompatible elements. The anomalous nickel concentration 
+in the spider plot is a result of its compatibility with the mineral olivine. By the time enough 
+differentiation and fractionation due to partial melting occurs to produce intermediate-felsic 
+compositions,  Ni  has  already  been  used  up  in  the  production  of  mafic  rocks.  Cr  also 
+preferentially  partitions  into  orthopyroxene  crystals  when  mafic-ultramafic  magmas  are 
+crystallising and therefore has a negative anomaly in these samples.  
+The  REE  data  normalised  to  chondrite  shows  a  magma  that  had  an  overall  enrichment 
+relative  to  chondrite.  It  also  had  a  larger  enrichment  in  LREE  relative  to  HREE.  This  is 
+indicative  of  intermediate-felsic  rocks  as  all  the  incompatible  elements  are  retained  in  the 
+melt until they are forced to crystallise. A number of partial melting cycles will have occurred 
+before  this  magma  formed  as  it  does  not  represent  ultramafic-mafic  magmas  but  rather 
+magmas that make up continental crustal material. Small Eu anomalies occur in the REE plot. 
+This indicates that Eu most likely replaced Ca in the plagioclase crystal structure during the 
+last phase of crystallisation. 
+35
+
+--- Page 37 ---
+8.0. Depositional Environment 
+There  are  two  major  stratigraphic  sequences  in  this  region  of  the  OGGB;  a  thick  lithic-
+feldspathic  greywacke  and  an  interbed  of  conglomerate.  These  are  unconformably  overlain 
+by  ferricrete.  The  unconformity  marks  a  significant  hiatus.  Sedimentary  features  in  the 
+greywacke  including  cross-bedding,  gradational  bedding,  scour  and  fill  structures,  ripple 
+marks,  upward  fining  sequences,  slump  folding  and  mud  drapes  indicate  a  palaeo-
+environment  that  was  turbiditic  in  character  (Fischer  and  Schmincke,  1994;  Boggs,  2006). 
+Slump  structures  are  interpreted  to  form  as  result  of  gravity  sliding  in  a  shallow  marine 
+environment with a slurry of mud that has been deformed within the greywacke (Ravanas and 
+Furnes,  1995).  They  are  not  on  a  large  scale  like  melange  deposits  but  are  known  from 
+subduction  type  settings,  when  on  shallow  to  steep  marine  slopes  that  allow  for  gravity 
+failure  (Ravanas  and  Furnes,  1995).  Chert  layers  are  interlaminated  within  the  greywackes 
+and  have  been  altered  to  fuchsitic  chert.  They  commonly  form  rip-up  clasts  within  close 
+proximity of the chert bed indicating primary  chert. This is interpreted as possible seasonal 
+changes  or  time  periods  where  erosion  and  deposition  were  not  rapid  and  allowed  for  the 
+deposition of chert. 
+Turbidite  currents  account  for  the  rapid  deposition  of  a  large  volume  of  sediment.  The 
+sediment is poorly sorted and has angular to intermediate grain shapes.  It also contains lithic 
+fragments  and  igneous-derived  minerals  such  as  clinopyroxene.  Clinopyroxene  is  not  as 
+resistant  to  weathering  as  minerals  such  as  quartz  and  plagioclase  and  will  therefore 
+decompose rapidly with increasing distance from the source (Albarede, 2003). Its presence in 
+the metasedimentary rocks of the field area thus indicates that deposition in the sedimentary 
+basin  was proximal  to  the source.  The turbidite is interpreted  as being formed in  a shallow 
+marine  or  shelf  environment.  It  is  associated  with  deltaic  systems,  which  are  common 
+depositional  environments  in  arc  basins  (Fischer  and  Schmincke,  1994).  The  sedimentary 
+features  in  the  greywacke  also  assist  with  the  depositional  environment.  Slump  folding  is 
+indicative of deltaic and turbiditic deposition due to its instability caused by swift deposition 
+on  a  steep  slope  (Boggs,  2004).  Scour  and  fill  structures  occur  in  deltaic  environments, 
+especially delta fronts (Boggs, 2004). The fining upwards sequences, within each deposition 
+cycle represents small scale Bouma sequences (Fig. 17) that are indicative of turbidite flows 
+(Bouma, 1962). In the study area, Bouma Ta, Tb and Tc are commonly seen in the greywacke 
+36
+
+--- Page 38 ---
+sequence  with  occasional  mud  drapes  making  up  the  Bouma  Te/f  layer  of  the  sequence.  
+Layers A and B often occur together in coarser grained sediments which is the case for the 
+greywackes (Boggs, 2004) as shown by Figure 14. 
+Figure 14: Classic model of the Bouma Cycle (Shanmugam, 1997). 
+Stratigraphically, the entire field area was previously assigned to the metasedimentary rocks 
+of the Tarkwa Group (Milesi et al., 1989, 1992; Castaing et al., 2003) which represents the 
+erosional  product  of  the  Birimian  Supergroup.  The  correlation  with  the  Tarkwa  Group  was 
+based on the single conglomerate unit in the study area and several conglomerate bands near 
+the  Essakane  gold  mine  (Milesi  et  al.,  1989,  1991;  Bossiere  et  al.,  1996).  The  Tarkwaian 
+conglomerates in the type section in Ghana consist mostly of quartz vein clasts and a minor 
+proportion  of  quartzite  pebbles  in  a  dark,  fine-grained,  sandy  matrix.  However,  the 
+conglomerate found in the study area have similarities to those described by Tshibubudze et 
+al.  (2009)  and  Tshibubudze  and  Hein  (2011)  and  host  clasts  of  fuchsitic  chert,  black  chert, 
+quartz,  dacite,  granodiorite  and  meta-sediment.  These  clasts  are  set  in  an  immature 
+greywacke matrix with lithic fragments, gradational bedding and cross-bedding.  
+Further argument for the rocks in the field area not to be considered Tarkwa Group sediments 
+is that there is no visible regional unconformity that marks the base of the overlying Tarkwa 
+sediments.  A  continuous  stratigraphy  is  seen  throughout  the  entire  OGGB  with  no 
+unconformity (Tshibubudze et al., 2009). Also, greywacke was sampled from either side of 
+37
+
+--- Page 39 ---
+the conglomerate member and proved to  be petrographically  similar. This  indicates there is 
+no  distinct  change  in  the  sediment  composition  and  that  the  conglomerate  is  merely 
+interbedded within the sequence. The conglomerate is most likely a result of short bursts of 
+intense flooding of the river systems that carried a heavy sediment load. As a result, the rivers 
+washed out farther into the delta system due to the increased energy. A detailed stratigraphic 
+column  (Fig.  15)  has  been  produced  showing  facies  variation  in  the  greywacke  sequence, 
+focusing on the change in sedimentary features and composition.  
+Lithologies 
+True Thickness 
+Sand/Alluvium   
+Palaeosands 
+Ferricrete 
+Monzodiorite 
+? 
+? 
+30 m 
+Granodiorite-quartz monzodiorite 
+Greywacke with sedimentary features 
+Greywacke with sedimentary features 
+820 m 
+Greywacke with planar bedding  
+612 m 
+Dembam Conglomerate Member 
+7 m 
+Greywacke with sedimentary features 
+1720 m  
+Greywacke with   dominant lithic fragments 
+643 m 
+Figure  15:  Detailed  stratigraphic  column  showing  lithologies  (including  facies 
+variation), deformation events and true thicknesses of the units. 
+38
+
+--- Page 40 ---
+The  stratigraphic  column  is  important  as  it  helps  verify  the  depositional  environment.  The 
+column  attempts  to  characterize  the  greywacke  in  terms  of  different  lithofacies.  This  was 
+determined by slight facies changes shown by the change in prominent sedimentary features, 
+composition  changes  and  abundances  of  lithic  fragments.  The  lower-most  unit  in  the  study 
+area  is  dominated  by  lithic-wackes.  The  lithic  fragments  are  mostly  volcaniclastic  in 
+character and indicate a period where there was a high rate of erosion and rapid deposition. It 
+was  not  influenced  greatly  by  fluid  flow.  This  is  because  there  is  a  lack  of  sedimentary 
+structures.  The  next  stratigraphic  unit  contains  sedimentary  features  (cross-bedding,  mud 
+drapes, gradational fining upward sequences, truncated beds, ripple marks and scour and fill 
+structures) that indicate a shallower facies of the delta. At this point, the effects of waves and 
+currents created cross-beds and the above mentioned sedimentary features. Gradational fining 
+upwards sequences prevail and are intercalated  with  mud  drapes  not  more than 5 cm  thick. 
+This indicates slightly calmer conditions of deposition during the cycle. The planar bedding 
+in  the  unit  above  the  conglomerate  lacks  shallow  marine  induced  sedimentary  features  but 
+often contain well defined beds that indicate a facies dominated by unidirectional flow. There 
+is an overall fining upwards sequence. 
+39
+
+--- Page 41 ---
+9.0. Tectonic Setting 
+Using  the  sedimentary  features,  its  composition  and  the  type  of  sediments  deposited,  a 
+probable basin setting can be determined. The sediments were deposited in a retro-arc basin, 
+probably a back-arc basin. The basin was situated behind an ancient magmatic arc, which was 
+caused  by  subduction.  Such  an  extensional  environment  is  suitable  for  depositing  large 
+quantities of sediment in a relatively short time (Ravanas, 1991; Ravanas and Furnes, 1995; 
+Carter and Naish, 1998). This is synonymous with the greywacke succession of the study area 
+which has an approximate thickness of 4.5 kilometres. Magmatic arcs are tectonically active 
+regions with increased amounts of uplift. This results in a higher rate of erosion and therefore 
+a  higher  rate  of  sedimentation  (Boggs,  2006).  The  granitic  clasts  within  the  conglomerate 
+could  be  sourced  from  the  plutonic  material  feeding  the  magma  chambers,  which  means 
+extreme erosion must have occurred to exhume the granites.  Another possibility is that the 
+granites  made  up  the  continental  crust  and  erosion  subsequently  took  place  during 
+tectonically  and  volcanically  active  periods.  This  scenario  also  provides  a  source  for  the 
+andesite, dacite and granodiorite clasts. These volcanic rocks are suggested to be the source 
+for  the  greywacke  in  the  field  area  and  for  the  underlying  greywackes,  conglomerates  and 
+sandstone as described by Tshibubudze et al. (2009). 
+40
+
+--- Page 42 ---
+10.0. Discussion 
+The  WAC,  namely  the  Birimian  Supergroup,  consists  of  many  island  arc  terranes  that 
+underwent terrane accretion (2300-2250 Ma). This occurred during the process of subduction, 
+thus  creating  a  felsic  continental  crust  due  to  its  association  with  TTG,  calc-alkaline 
+plutonism (Klein and Moura., 2009). Following this, other cratonic blocks  which formed in 
+the  same  way,  collided  with  the  accreted  arcs  to  form  orogenic  belts  and  the  closure  of  an 
+oceanic basin. The Eburnean Orogeny is an example of this process (Hirdes et al., 1996; Hein 
+et al., 2004; Feybesse et al., 2006). The OGGB is one of the island arc terranes, and the east 
+Markoye  region  is  most  likely  a  small,  but  proximal  to  the  source,  portion  of  the  back-arc 
+basin. 
+Vidal  et  al.  (2009)  suggested  that  that  the  greenstone  terranes  of  the  WAC  were  deposited 
+first in the stratigraphic succession between 2250-2170 Ma and occurred together with TTG 
+plutonism.  The  supracrustal  rocks  of  the  OGGB  that  make  up  part  of  the  Birimian 
+Supergroup and overlie basement granite-adamellite (Tshibubudze and Hein, in review), were 
+deposited  in  a  back-arc  basin  environment.  This  is  identified  by  the  thick  turbiditic 
+greywacke sequences which are typical of arc-basin terranes. These arc terranes precede both 
+orogenic  events,  i.e.,  The  Tangaean  Event  and  the  Eburnean  Orogeny.  The  source  of  the 
+sediments was an island arc, of an unknown, but proximal distance from the basin. The island 
+arc  would  have  been  an  area  of  topographical  highlands.  This  was  caused  by  an  isostatic 
+response to the upper plate being pushed up during subduction as the subducting plate moves 
+down. Mountains also formed well due to the calc-alkaline plutons that develop causing uplift 
+of the upper crust (Davis and Reynolds, 1996; Goudie, 2001). The outpour of andesite lavas 
+and  various  calc-alkaline  compositions,  during  periods  of  volcanism  would  have  been 
+responsible  for  extending  the  mountain  belt  upwards  by  constantly  adding  more  lava.  It  is 
+unknown where the  magmatic arc for the basin  in  question was situated  (Prof Ncube-Hein, 
+pers.  comms.)  but  based  on  the  sedimentology  and  volcaniclastics  of  the  OGGB 
+(Tshibubudze et al., 2009; Tshibubudze and Hein, in review) an arc terrane can be interpreted 
+as the source.   
+41
+
+--- Page 43 ---
+A similar, modern environment exists in the Wanganui Basin in New Zealand. The Wanganui 
+Basin is a shallow marine environment from the Plio-Pleistocene and exhibits a full range of 
+sedimentary facies. It is still being in-filled today with sediment from an active volcanic arc 
+(Carter and Naish.,  1998). Thick sequences of  greywacke and thin conglomerate beds from 
+the Mezozoic are deposited in the 5 km deep basin and overlie basement rocks (Proust et al., 
+2005). The basin is interpreted to occupy a back-arc setting today at the convergent margin of 
+the  Pacific  and  Australian  plates,  where  rapid  deposition  has  taken  place  due  to  eustatic 
+changes  (Carter  and  Naish.,  1998).  The  Wanganui  Basin  is  infilled  with  shales,  sandstones 
+and  thick  greywacke  sequences  with  intercalated  conglomerate  beds.  This  is  a  good 
+correlation  to  the  sediments  of  the  Birimian  Supergroup  and  particularly  the  4  km  thick 
+sequence of greywacke in the study area. It is typical for thick sedimentary sequences to be 
+deposited  during  the  spreading  of  a  back-arc  environment  like  in  back-arc  environments  in 
+Norway  (between  Solund  and  Bremanger)  and  New  Zealand  (Ravanas,  1991;  Ravanas  and 
+Furnes, 1995; Carter and Naish., 1998). 
+Sediment sourced from the arc settings  was transported in river systems that travelled from 
+the uplifted regions, towards the basin. The sediment was then deposited in a deltaic system. 
+The  greywackes  were  deposited  in  this  deltaic  system  on  a  steep  submarine  slope  which 
+allowed for rapid deposition, gravity sliding and slumping, synonymous with turbiditic flows. 
+The erosion rate of the arc is interpreted as getting progressively slower throughout the filling 
+of  the  basin.  This  is  shown  by  the  lower  greywacke  unit  in  the  stratigraphic  succession, 
+having  a much higher abundance of lithic fragments  and igneous minerals  compared to  the 
+overlying units. The Dembam Conglomerate Member and those described by Tshibubudze et 
+al.,  (2009)  lower  down  in  the  stratigraphy  may  have  been  deposited  very  rapidly,  possibly 
+within 1 day. Perhaps this occurred during times of flood. This negates the idea of the field 
+area’s original classification of Tarkwa Group rocks (Milesi et al., 1989, 1992). The Tarkwa 
+Group, in the type section in Ghana overlies the Birimian supracrustal rocks unconformably. 
+The  Dembam  Conglomerate  Member  is  interbedded  within  greywacke  from  the  Birimian 
+Supergroup and does not fit the description for the Tarkwaian Group, post-orogenic molasse 
+deposits, as described in Ghana (Milesi et al., 1991; Leube et al., 1990). 
+42
+
+--- Page 44 ---
+The supracrustal rocks of the Birimian Supergroup in OGGB were subsequently intruded by 
+quartz-monzonitic,  monzodioritic  and  granodioritic  dykes  and  sills.  They  were  cross-cut  by 
+northeast-trending cleavage and folds. Contact metamorphism to hornblende-hornfels facies 
+of  the  country  rock  is  also  associated  with  these  intrusions  and  is  thus  an  early  stage 
+metamorphism  because  they  are  folded.  Tshibubudze  and  Hein  (in  review)  indicated  that 
+calc-alkaline dykes and sills are pre-D1 in age. Both the greywacke and intrusives in the field 
+area were  affected by the discreet  folding of F1  and then refolded much  more intensely by 
+F2.   
+Associated  with  the  Eburnean  Orogeny  (D2)  was  the  emplacement  of  large  granitoidal 
+plutons throughout the WAC (cf., Hirdes and Davis, 2002; Pawlig et al., 2006; Vidal et al., 
+2009;  Lompo,  2009,  2010).  This  resulted  in  regional  metamorphism  to  middle  greenschist 
+facies. This metamorphism is ubiquitous across the field area and the OGGB except in places 
+where large granitic batholiths such as the Dori Batholith (pre-D1) intruded and metamorphic 
+grade  attain  granulite  facies  (Tshibubudze  et  al.,  2009;  Tshibubudze  and  Hein,  2010).  Syn-
+D2, N-S extensional faulting occurs throughout the belt. Dilation of the fault is a result of the 
+maximum compressive stress in a SE-NW orientation. 
+Back-arc  extension  and  crustal  thinning  occurred  in  the  OGGB.  This  allowed  for  mantle 
+upwelling  and  the  formation  of  a  spreading  centre.  The  lavas  of  which,  correspond  to  the 
+hyaloclastite basaltic pillow lavas described by Tshibubudze et al. (2009) at the base of the 
+OGGB.  With  lithospheric  stretching  and  crustal  thinning,  the  mantle  would  be  in  close 
+proximity  to  the  lower  crust,  causing  an  increase  in  the  geothermal  gradient.  The  static, 
+regional  thermal  gradient  increase  may  have  resulted  in  diastathermal  metamorphism. 
+Metamorphism  in  the  OGGB  most-likely  continued  as  long  as  the  back-arc  was  under 
+extension and the mantle was closer to the crust. Because the arc-terranes were active before 
+the  Eburnean  Orogeny,  it  suggests  that  metamorphism  to  greenschist  facies  in  the  OGGB 
+may pre-date the orogenic event. 
+Ferricrete exists in the OGGB (Fig. 18) and throughout most of the WAC. It unconformably 
+overlies the above geology. It is important stratigraphically as it is easily correlated. There is 
+43
+
+--- Page 45 ---
+more than a 1.9 Ga hiatus in the sedimentary sequence of the belt. This ferricrete is overlain 
+by recent, unconsolidated aeolian sediments and alluvium which make up most of the recent 
+stratigraphy of the OGGB. 39Ar-Ar40 age dating of laterite at Tambão, north of the field area, 
+suggested  that  the  last  period  of  weathering  and  oxidation  was  between  18  Ma  and  3  Ma 
+which was the time the iron-rich laterites formed (Beauvais et al., 2008). This weathering is a 
+reworking  of  previously  formed  bauxite  deposits  from  a  tropical  palaeo-climate  that 
+dominated  the  region  approximately  60  Ma.  Mechanical  weathering  dominated  the  last  18 
+Ma and ultimately produced the glacis that are seen today (Beauvais et al., 2008). The laterite 
+and ferricrete form part of the stratigraphy in the field area. It can be correlated across large 
+areas as it represents a large gap in the stratigraphy. Palaeoproterozoic rocks are weathered to 
+produce  the  iron-rich  laterite  which  suggests  that  any  cover  rocks  overlying  the  Birimian 
+were subsequently eroded.  
+44
+
+--- Page 46 ---
+a 
+b 
+1 mm 
+c 
+1 mm 
+d 
+1 mm 
+e 
+0.5 mm 
+f 
+1 mm 
+1 mm 
+45
+
+--- Page 47 ---
+g 
+h 
+1 mm 
+1 mm 
+Figure 16: a. KH/LP/022: Deuterically altered, euhedral plagioclase crystal surrounded by a groundmass of quartz, plagioclase and cpx phenocrysts.  b. 
+KH/LP/022: Altered, twinned cpx crystal in a groundmass of quartz, plagioclase and cpx c. KH/LP/113: Fine-grained hornfels greywacke-no sedimentary features 
+visible d.  KH/LP/147: Randomly oriented hornblende needles e. KH/LP/065a: Granophyric texture within a greywacke f. KH/LP/065 b: Larger, angular-
+intermediate quartz and chert grains in a matrix of smaller quartz, plagioclase and chert grains g. KH/LP/65b: chert, quartz, plagioclase and cpx are the most 
+abundant minerals in the greywacke samples h. KH/LP/114:  Large quartz and chert grains affected by ferroginisation.  
+Figure 8: A bleached hornfels with no internal structure and finely grained. 
+a 
+b 
+Figure 6 a & b: Images showing the lack of in-situ rock and the abundance of loose boulders. 
+46
+
+--- Page 48 ---
+Layer A-Planar and cross-bedding    
+Layer B-Massive and graded 
+Figure 17: Layer A and B of a Bouma sequence in the greywackes 
+0      1 km 
+                                     N                      
+   N                                           0     100 m 
+Figure  18:    Laterite  capped  ridges  covering  a 
+relatively large area of the study region. 
+47
+
+--- Page 49 ---
+a 
+c 
+b 
+d 
+48
+
+--- Page 50 ---
+e 
+f 
+Figure 19: a. Polymict cobble conglomerate bed  (Dembam member) with sub-angular-angular clasts of dacite, granite, metasandstone, green chert, black chert 
+and vein quartz  in a  opposite  directions      d.   Flame  structures  indicating  flow  direction  from  left  to  right    e.   Gravity  induced  slumping  within greywacke    f.   
+Ripple marks and planar bedding 
+a 
+b 
+c 
+Figure 20 a,b & c: Photograph of monzodiorite - quartz monzodiorite showing elongated plagioclase crystals and a groundmass of clinopyroxene.   
+49
+
+--- Page 51 ---
+11.0. Conclusions 
+Field  data  and  interpretation  lead  to  the  establishment  of  a  detailed  lithofacies  stratigraphic 
+section for the field  area. The stratigraphy can be divided into five supracrustal lithological 
+units; greywacke with an interbed of conglomerate, ferricrete, palaeosands and alluvium. The 
+last  two  units  however,  make  up  more  recent  sedimentary  deposits  and  were  not  given  too 
+much focus. The greywacke unit can be further sub-divided into three different facies which 
+are defined by the sedimentary features, abundance of lithic fragments and composition. It is 
+concluded  that  the  rocks  of  that  make  up  this  stratigraphic  section  belong  to  the  Birimian 
+Supergroup. This allows for a more regional correlation of the stratigraphy. The depositional 
+environment  is  recognised as a deltaic environment,  with  turbiditic  flows within a  back-arc 
+basin of an island arc. This is due to the enormous amount of greywacke deposited, which is 
+typical of arc basin environments.  
+The  overall  metamorphism  is  low-middle  greenschist  facies  which  correlates  with  the 
+regional  metamorphic  grade  in  the  WAC.  It  is  a  result  of  large,  syntectonic  TTG,  calc-
+alkaline pluton emplacement. However, in the OGGB, it is proposed to be a result of earlier 
+diastathermal  metamorphism  caused  by  crustal  thinning  during  back-arc  spreading.  Contact 
+metamorphism of the greywacke exists within a close proximity to a series of monzodiorite 
+and  granodiorite  dykes  that  intruded  the  supracrustal  rocks  and  the  grade  is  at  hornblende-
+hornfels facies. 
+The  intrusive  rocks  are  intermediate  and  calc-alkaline  in  composition  and  geochemically 
+show  enrichment  in  LREE  relative  to  HREE  and  to  chondrite.  The  monzodiorite  and 
+granodiorite dykes intruded before D1, shown by a regional cross-cutting fabric. Structurally, 
+gentle folding occurred during D1 with compression in a NW direction occurred, followed by 
+a much more intense, NE oriented, deformation event which refolded the rocks. This resulted 
+in  a  doubly-folded  sequence  of  asymmetrical,  east-dipping,  east  facing  anticlines  and 
+synclines. Late extensional stresses caused the Ludovic Fault System to develop. It is a series 
+of  dextral-reverse  normal  faults  which  cross-cut  the  entire  field  area.  Regionally,  these 
+structural  events  correlate  with  the  Tangaean  Event  (D1)  and  the  Eburnean  Orogeny  (D2) 
+with the latter deforming most of the WAC. 
+50
+
+--- Page 52 ---
+12.0. References  
+Albarede,  F.,  (2003).  Geochemistry:  An  Introduction.  Cambridge  University  Press, 
+Cambridge, 248 pp. 
+Anders,  E.,  and  Grevesse,  N.,  (1989).  Abundances  of  the  elements:  Meteoric  and  solar. 
+Geochemica et Cosmochimica Acta, 53, 197-214. 
+Barker,  D.  S.,  (1970).  Compositions  of  Granophyre,  Myrmekite,  and  Graphic  Granite. 
+The Geological Society of America, 81, 3339-3350. 
+Beauvais, A., Ruffet, G., Henocque, O., Colin F., (2008). Chemical and physical erosion 
+rhythms  of  the  West  African  Cenozoic  morphogenesis:  The  39Ar-40Ar  dating  of 
+supergene K-Mn oxides. Journal of Geophysical Research, 113, 1-15. 
+Beziat, D., Dubois, M., Debat, P., Nikiema, S., Salvi, S., Tollon, F., (2008). Gold 
+metallogeny  in  the  Birimian  craton  of  Burkina  Faso  (West  Africa).  Journal  of  African 
+Earth Sciences, 50, 215–233. 
+Boggs, S., (2006). Principles of Sedimentology and stratigraphy: Fourth Edition, Pearson 
+Prentice Hall, New Jersey, 662 pp. 
+Bossiere,  G.,  Bonkoungou,  I.,  Peucat,  J.  J.,  Pupin,  J.  P.,  (1996).    Origin  and  age  of 
+Palaeoproterozoic  conglomerates  and  sandstones  of  the  Tarkwaian  Group  in  Burkina 
+Faso, West Africa. Precambrian Research, 80, 153-172. 
+Bouma,  A.  H.,  (1962).  Sedimentology  of  some  flysch  deposits:  A  graphic  approach  to 
+facies interpretation, Elsevier, Amsterdam, 168pp. 
+51
+
+--- Page 53 ---
+Brown, E. T., Bourles, D. L., Colin, F., Safno, Z., Raisbeck, G. M., Yiou, F., (1994). The 
+development of iron crust lateritic systems in Burkina Faso, West Africa examined with 
+in-situ-produced cosmogenic nuclides. Earth and Planetary Science Letters, 124, 19–33. 
+Burke, K., Gunnell, Y., (2008). The African erosion surface: a continental-scale synthesis 
+of  geomorphology, tectonics, and environmental change over the past 180 million years. 
+Published by Geological Society of America, 34-40. 
+Carter,  R.  M.  and  Naish,  T.  R.,  (1998).  A  review  of  Wanganui  Basin,  New  Zealand: 
+global 
+reference 
+section 
+for 
+shallow  marine,  Plio–Pleistocene 
+(2.5–0  Ma) 
+cyclostratigraphy. Sedimentary Geology, 122, 37-52. 
+Davis,  D.  W.,  Hirdes,  W.,  Schaltegger,  Nunoo,  A.,  (1994).  U–Pb  age  constraints  on 
+deposition and provenance of Birimian and gold-bearing Tarkwaian sediments in Ghana, 
+West Africa. Precambrian Research, 67, 89–107. 
+Davis,  G.  H.,  Reynolds,  S.  J.,  (1996).  Structural  Geology  of  rocks  and  regions:  Second 
+edition. John Wiley and Sons, Inc., USA, 776. 
+Dott, R. H., (1964). Wacke, Graywacke and matrix-what approach to immature sandstone 
+classification? Journal of Sedimentary Petrology, 34, 625-632. 
+Feybesse,  J.-L.,  Milesi,  J.-P.,  Ouedraogo,  M.F.,  Prost,  A.,  (1990).  La  ‘‘ceinture’’ 
+Proterozoıque  inferieur  de  Boromo–Goren  (Burkina  Faso):  un  exemple  d’interference 
+entre  deux  phases  transcurrentes  eburneenes.  Comptes  Rendus  de  l’Academie  des 
+Sciences de Paris, Serie II, Sciences de la Terre et des Planetes, 310, 1353–1360. 
+Feybesse, J. L., Billa, M., Guerrot, C., Duguey, E., Lescuyer, J. L., Milesi, J. P., Bouchot, 
+V., 2006. The paleoproterozoic Ghanian province: geodynamic model and ore 
+controls, including regional stress modelling. Precambrian Research, 149–196.  
+52
+
+--- Page 54 ---
+Fischer,  R.  V.,  Schmincke,  H.  U.,  (1994).  Volcaniclastic  sediment  transport  and 
+deposition.  In:  Pye,  K.  (Ed.),  Sediment  transport  and  depositional  processes.  Blackwell 
+Scientific Publishing, London, 351-388. 
+Furnes,  H.,  Ravanas,  R.,  (1995).  The  use  of  geochemical  data  in  determining  the 
+provenance and tectonic setting of ancient sedimentary successions:the Kalvag Melange, 
+western  Norwegion  Caledonides.  In:  Plint  A.  G.  (Ed.),  Sedimentary  Facies  Analysis:  A 
+tribute to the research and teaching of Harold G. Reading. Blackwell Publishing, Oxford, 
+237-264. 
+Goudie, A., (2001). The nature of the environment: 4th Edition. Blackwell Publishers Ltd, 
+Oxford, 544 pp. 
+Harcöuet,  V.,  Guillou-Frottier,  L.,  Bonneville,  A.,  Bouchot,  V.,  Milesi,  J.  P.,  (2007). 
+Geological and thermal conditions before the major Palaeoproterozoic goldmineralization 
+event  at  Ashanti,  Ghana,  as  inferred  from  improved  thermal  modelling.  Precambrian 
+Research, 154, 71–87. 
+Hein, K. A. A., (2003). Relative timing of deformational, metamorphic and 
+mineralisation events at the Mt. Todd (Yimuyn Manjerr) Mine, Pine Creek Inlier, 
+Northern Territory, Australia. Ore Geology Reviews, 22, 143-175. 
+Hein,  K.  A.  A.,  Morel,  V.,  Kagone,  O.,  Kiemde,  F.,  Mayes,  K.,  (2004).  Birimian 
+lithological  succession  and  structural  evolution  in  the  Goren  Segment  of  the  Boromo-
+Goren Greenstone Belt, Burkina Faso. Journal of African Earth Sciences, 39, 1–23. 
+Hein,  K.  A.  A.,  (2010).  Succession  of  structural  events  in  the  Goren  greenstone  belt 
+(Burkina  Faso):  Implications  for  West  African  tectonics.  Journal  of  African  Earth 
+Sciences, 56, 83-94. 
+Hein, K.A.A., Matabane, M.R., in review . The gold-bearing intrusion-related deposits of 
+the FE3 opencast gold mines, Sadiola goldfield, Kedougou-Kéniéba Inlier, western Mali. 
+Ore Geology Reviews. 
+53
+
+--- Page 55 ---
+Hirdes, W., Davis, D. W., Eisenlohr, B. N., (1992). Reassessment of Proterozoic granitoid 
+ages in  Ghana on the basis of U/Pb zircon and  monazite dating. Precambrian Research, 
+56, 89-96. 
+Hirdes, W., Davis,  D.  W.,  Ludtke, G., Konan,  G., (1996). Two  generations  of Birimian 
+(Paleoproterozoic)  volcanic  belts 
+in  north-eastern  Cote  d’Ivoire  (West  Africa): 
+consequences for the Birimian controversy’. Precambrian Research, 80, 173–191. 
+Junner, N.R., (1935). Gold in the gold coast, Ghana Geological Survey Memoir, No. 4, 
+67pp. 
+Hirdes, W., Davis, D. W., (2002). U-Pd geochronology of Palaeoproterozoic rocks in the 
+southern  part  of  the  Kedougou-Kenieba  Inlier,  Senegal,  West  Africa:  Evidence  for 
+diachronous accretionary development of the Eburnean province. Precambrian Research, 
+118, 83-99. 
+Klein, E.L., Moura, C.A.V., (2009). São Luis craton and Gurupi belt (Brazil): possible 
+links with the West African craton and surroundings Pan-African belts. In: Pankhurst, 
+R.J., Trouw, R.A.J., Britto Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre-
+Cenozoic correlations across the South-Atlantic region, Geological Society, London, 
+137–151 (Special Publications). 
+Le Maitre, R.W., Bateman, P., Dudek, A., Keller, J., Lameyre, J., Le Bas, M. J., Sabine, 
+P. A., Schmid, R., Sorensen, H., Streckeisen, A., Woolley, A. R.,  Zanettin, B., (1989). A 
+Classification of Igneous Rocks and Glossary of terms: Recommendations of the 
+International Union of Geological Sciences Subcommission on the Systematics of 
+Igneous Rocks. Blackwell Scientific Publications, Oxford, U.K. 236 pp. 
+Leube, A., Hirdes, W., Mauer, R., Kesse, G. O., (1990). The early Proterozoic Birimian 
+Supergroup of Ghana and some aspects of its associated gold mineralization. Precambrian 
+Research, 46, 139–165. 
+54
+
+--- Page 56 ---
+Lompo, M., (2009). Geodynamic evolution of the 2.5-2.0 Ga Palaeoproterozoic magmatic 
+rocks in  the  Leo-Man Shield of the West  African Craton.  A model of subsidence of an 
+oceanic plateau. In: Reddy, S. M., Mazumder, R., Evans, D. A. D., Collins, A. S. (Eds.), 
+Palaeoproterozoic and global evolution. Geological Society, London, Special Publication 
+323, 231-254. 
+Lompo, M., (2010). Palaeoproterozoic structural evolution of the Man-Leo Shield (West 
+Africa). Key structures for vertical to transcurrent tectonics. Journal of African Earth 
+Sciences, 58, 19–36. 
+Milesi, J. P., Feybesse, J. L., Ledru, P., Dommanget, A., Ouedraogo, M. F., Marcoux, E., 
+Prost, A., Vinchon, Ch., Sylvain, J. P., Johan, V., Tegyey, M., Calvez, J. Y., Lagny, P., 
+(1989).  West  African  gold  deposits,  in  their  lower  Proterozoic  lithostructural  setting. 
+Chronique de la Recherche Miniere, 497, 3–98. 
+Milesi,  J.P.,  Ledru,  P.,  Ankrah,  P.,  Johan,  V.,  Marcoux,  E.,  Vinchon,  C.,  (1991).  The 
+metallogenic  relationship  between  Birimian  and  Tarkwaian  gold  deposits  in  Ghana. 
+Mineralium Deposita, 26, 228–238. 
+Milesi,  J.P.,  Ledru,  P.,  Feybesse,  J.L.,  Dommanget,  A.,  Marcoux,  E.,  (1992).  Early 
+Proterozoic  ore  deposits  and  tectonics  of  the  Birimian  orogenic  belt,  West  Africa. 
+Precambrian Research, 58, 305–344. 
+Needham, R. S., Stuart-Smith, P. G., Page, R. W., (1988). Tectonic evolution of the Pine 
+Creek Inlier, Nothern Territory. Precambrian Research, 40/41, 543-564. 
+Nesse,  W.  D.,  (2000).  Introduction  to  mineralogy.  Oxford  University  Press,  Oxford,  pg 
+92, 442 pp. 
+Neuerburg,  G.  J.,  (1958).  Deuteric  alteration  of  some  aplite-pegmatities  of  the  Boulder 
+Batholith,  Montana,  and  its  possible  significance  to  ore  deposition.  Economic  Geology, 
+53, 287-299. 
+55
+
+--- Page 57 ---
+Pawlig, S., Gueye, M., Klischies, R., Schwarz, S., Wemmer, K., Siegesmund, S., (2006). 
+Geochemical and Sr–Nd isotopic data on the Birimian of the Kedougou-Kenieba Inlier 
+(Eastern Senegal): implications on the Palaeoproterozoic evolution of the West African 
+Craton. South African Journal of Geology, 109, 411–427. 
+Proust, J. N., Lamarche, G., Nodder, S., Kamp, P. J. J., (2005). Sedimentary architecture 
+of a Plio-Pleistocene proto-back-arc basin: Wanganui Basin, New Zealand. Sedimentary 
+Geology, 181, 107-145. 
+Ravanas,  R.,  (1991).  A  sedimentological,  geochemical  and  provenance  study  of  the 
+Kalvag  Melange,  western  Norwegian  Caledonides,  Thesis  (unpublished).  University  of 
+Bergen, 212 pp. 
+Shanmugam,  G., (1997). The  Bouma sequence and the turbidite mindset.  Earth Science 
+Reviews, 42, 201-229. 
+Streckeisen,  A.  L.,  (1976).  To  each  plutonic  rock  its  proper  name.  Earth-Science 
+Reviews, 12, 1-33. 
+Tshibubudze, A., Hein,  K. A. A., Marquis, P.,  (2009). The Markoye Shear  Zone in  NE 
+Burkina Faso. Journal of African Earth Sciences, 55, 245–256. 
+Tshibubudze,  A.,  Hein,  K.A.A.,  in  review.  Structural  setting  of  gold  deposits  in  the 
+Oudalan-Gourouol greenstone belt east of the Markoye Shear Zone, West African craton. 
+Precambrian Research. 
+Vidal, M., Gumaix, C., Cagnard, F., Pouclet, A., Ouattara, G., Pichon, M., (2009). 
+56
+
+--- Page 58 ---
+Evolution of a Paleoproterozoic ‘‘weak type” orogeny in the West African Craton (Ivory 
+Coast). Tectonophysics, 477, 145–159. 
+Vernon, R. H., Clarke, G. L., (2008). Principles of metamorphic geology. Cambridge 
+University Press, Cambridge, 446. 
+57

@@ -1,0 +1,312 @@
+filename,page,mention,location,label,source
+2010_Matsheka_Irvin Final Thesis.txt,7,"Abstract 
+Recent studies on the Sadiola open cast have indicated different metallogenic styles for the Sadiola gold 
+deposit. The  Sadiola  open  cast  occurs  with  the  FE3  and  FE4  open  cast  within  the  Palaeoproterozoic 
+Kedougou-Kêniêba  Inlier  of  the  West  African  Craton. The  Inlier  consists  of  Birimian  metasediments 
+which  were  metamorphosed  and  deformed  during  the  2.1  –  1.9 Ga  Eburnean  orogeny. Metamorphism 
+reached  lower  greenschist  facies  as  indicated  by  the  chlorite-biotite-cordierite-calcite-dolomite  mineral 
+assemblages. The Sadiola deposit is hosted by the Kofi Formation which is currently undated. The Kofi 
+Formation is made up of Birimian-type sediments and they include greywacke, shale and graphitic shale 
+with conglomeratic interbeds, banded iron formations and carbonates.",Sadiola,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,8,"CHAPTER 1: Introduction 
+1.1  Preamble 
+The giant  Sadiola opencast gold mine is located  within  the Sadiola  goldfield in Mali  in the Kedougou-
+Kéniéba Inlier (KKI), which is part of the West African Craton (WAC). The goldfield also hosts the FE3 
+and  the  FE4  open  casts. These  together  with  the  Sadiola  opencast  mine  are  mined  by  Société 
+d’Exploitation  des  Mines  d’Or  de  Sadiola  S.A  (SEMOS),  which  is  a  joint  venture  between  the 
+government  of  Mali,  IAMGOLD,  IFC  and  AngloGold  Ashanti. Mining  in  the  Sadiola  opencast 
+commenced in 1996 and the opencast is currently reviewing its resources and reserves. This research project concentrates primarily on the ore genesis of the Sadiola gold mine. Various deposit 
+styles  have  been  suggested  for  the  Sadiola  deposit  in  the  sub-classes  of  an  orogenic  type  deposit 
+(Goldfarb  et  al.,  2001).",S.A,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,8,"Mineralisation  at  Sadiola  has  been  shown  to  have  a  temporal  and  a  spatial 
+relationship to the tonalite-granodiorite plutons and tonalite dykes. Sadiola is located in close proximity to 
+the  Alamoutala-Sekokoto-Kakadian  plutonic  system. Mineralisation  has  shown  to  be  as  a  result  of  the 
+fluids and metamorphism associated with the intrusions (Hein and Tshibubudze, 2007b). Determining the 
+paragenesis,  investigation  of  the  mineralogical,  microstructural  and  alteration  events  will  assist  in 
+determining  gold  mineralisation,  and  is  considered  important  for  the  Sadiola  exploration  and  in-mine 
+development. 1.2  Location and Physiography 
+The  Sadiola  opencast  mine  is  located  within  the  Sadiola  village. The  village  is  situated  in  the  south-
+western part of Mali at about 77km south of the regional capital, Kayes (Fig.",Physiography,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,8,"1) near the border of Mali 
+and  Senegal. Mali  is  a  semitropical  to  arid  landlocked  country  which  is  part  of  the  West  African 
+Savannah-Sahel  region  (Fig. 1). It  extends  over  1,  240,  278  square  kilometres  in  size. Its  estimated 
+population was recorded at 12.5 million as at 2006 with an annual growth rate of 2.4%. French serves as 
+an official language with 80% of the population  speaking Bambara.",Senegal,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,8,"1) near the border of Mali 
+and  Senegal. Mali  is  a  semitropical  to  arid  landlocked  country  which  is  part  of  the  West  African 
+Savannah-Sahel  region  (Fig. 1). It  extends  over  1,  240,  278  square  kilometres  in  size. Its  estimated 
+population was recorded at 12.5 million as at 2006 with an annual growth rate of 2.4%. French serves as 
+an official language with 80% of the population  speaking Bambara.",Bambara,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,8,"The main religion is Muslim, with 
+Christian and other religions estimated at 10% of the population. In 2006, the country’s GDP was estimated at $5.847 billion with an annual growth rate estimated at 5.1%. The  country’s  GDP  puts  Mali  as  one  of  the  poorest  countries  in  the  world. The  main  sectors  that 
+contribute largely to this GDP are mining, agriculture and livestock farming and Mali is currently the 3rd 
+largest  producer  of  gold  in  the  continent  after  the  Republic  of  South  Africa  and  Ghana. Mining  is  a 
+growing industry in the country and gold mining accounts for approximately 80% of the mining activity. Gold became the number one mining export in Mali with AngloGold Ashanti and Randgold being two of 
+the biggest mining houses in the country (US Department of States).",Republic of South Africa,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,8,"The main religion is Muslim, with 
+Christian and other religions estimated at 10% of the population. In 2006, the country’s GDP was estimated at $5.847 billion with an annual growth rate estimated at 5.1%. The  country’s  GDP  puts  Mali  as  one  of  the  poorest  countries  in  the  world. The  main  sectors  that 
+contribute largely to this GDP are mining, agriculture and livestock farming and Mali is currently the 3rd 
+largest  producer  of  gold  in  the  continent  after  the  Republic  of  South  Africa  and  Ghana. Mining  is  a 
+growing industry in the country and gold mining accounts for approximately 80% of the mining activity. Gold became the number one mining export in Mali with AngloGold Ashanti and Randgold being two of 
+the biggest mining houses in the country (US Department of States).",Ghana,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,8,"The main religion is Muslim, with 
+Christian and other religions estimated at 10% of the population. In 2006, the country’s GDP was estimated at $5.847 billion with an annual growth rate estimated at 5.1%. The  country’s  GDP  puts  Mali  as  one  of  the  poorest  countries  in  the  world. The  main  sectors  that 
+contribute largely to this GDP are mining, agriculture and livestock farming and Mali is currently the 3rd 
+largest  producer  of  gold  in  the  continent  after  the  Republic  of  South  Africa  and  Ghana. Mining  is  a 
+growing industry in the country and gold mining accounts for approximately 80% of the mining activity. Gold became the number one mining export in Mali with AngloGold Ashanti and Randgold being two of 
+the biggest mining houses in the country (US Department of States).",Mali,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,10,"CHAPTER 2: Methodology 
+Data Collection 
+This research comprised two important tasks: petrographical work and field work which were preceded 
+by  literature  review. Field  work  was  completed  in  June  2009  and  involved  examining  drill-core  and 
+mapping  of  the  host  rocks. Six  drill  cores  from  the  Sadiola  Deep  Sulphide  project  were  examined  and 
+these  include  SD022,  SD042,  SD048,  SD119,  SD129  and  SD782. Samples  were  collected  in  2008  and 
+polished thin sections were prepared by SGS Laboratories in Booysens, Johannesburg. Field  mapping  involved  mapping  of  the  West  High-Wall  of  the  main  pit  and  the  Helicopter  pit  at  the 
+southern  end  of  the  main  Sadiola  pit. At  each  station  point  the  following  (if  present)  were  recorded: 
+lithology, bedding and cleavage orientation, faulting, folding, alteration and the distance from the station 
+point to the face wall.",Booysens,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,10,"CHAPTER 2: Methodology 
+Data Collection 
+This research comprised two important tasks: petrographical work and field work which were preceded 
+by  literature  review. Field  work  was  completed  in  June  2009  and  involved  examining  drill-core  and 
+mapping  of  the  host  rocks. Six  drill  cores  from  the  Sadiola  Deep  Sulphide  project  were  examined  and 
+these  include  SD022,  SD042,  SD048,  SD119,  SD129  and  SD782. Samples  were  collected  in  2008  and 
+polished thin sections were prepared by SGS Laboratories in Booysens, Johannesburg. Field  mapping  involved  mapping  of  the  West  High-Wall  of  the  main  pit  and  the  Helicopter  pit  at  the 
+southern  end  of  the  main  Sadiola  pit. At  each  station  point  the  following  (if  present)  were  recorded: 
+lithology, bedding and cleavage orientation, faulting, folding, alteration and the distance from the station 
+point to the face wall.",Johannesburg,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,11,"CHAPTER 3: Regional Geology  
+3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier 
+The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately 
+1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The 
+Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et 
+al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat 
+et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.",Archaean,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,11,"The  Mako 
+Supergroup  is  intruded  by  the  Sandikounda  Layered  Complex  and  the  Laminia  Kaourou  Plutonic 
+Complex  (2160-2130  Ma). The  NW-SE  trending  Mako  volcanic  belt  is  located  west  of  the  Main 
+Transcurrent Zone. *The central domain is dominated by the Diale-Dalemé Supergroup which is a sedimentary to volcano-
+sedimentary  unit. It  is  composed  of  detrital  sedimentary  rocks  interbedded  with  calc-alkaline  volcanic 
+rocks. The sedimentary rocks are isoclinally folded with the folds being upright and overturned to the SE-
+direction. It  is  intruded  by  the  Saraya  plutonic  complex  and  the  Balangouma  and  Boboti  plutons.",Laminia,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,12,"chemical  sediments  being  observed  throughout  the  belt. The  Main  Transcurrent  Zone  follows  the 
+lithological contact between the Mako and the Diale-Dalema Supergroups. *The  eastern  domain  hosts  the  Sadiola  goldfield  in  the  Kofi  Formaton  (Bishoff  et  al.,  1989;  Ranson, 
+1998; Wilson, 2002). This formation is also referred to as the Dalema-Kofi Supergroup and lies east of 
+the Senegalo-Malian Shear Zone. The Kofi Formation is dominated by metasedimentary rocks (Ranson, 
+1998; Wilson, 2002). These rocks are classified as Biriman-type sediments and include greywacke, shale 
+and graphitic shale with conglomeratic interbeds, banded iron formations and carbonates (Hanssen et al., 
+1978).",Senegalo-Malian Shear Zone,FAC,spacy
+2010_Matsheka_Irvin Final Thesis.txt,15,"3.2 The Geology of the Sadiola opencast mine and the Sadiola deposit  
+The  Kofi  Formation  of  the  Kedougou-Kêniêba  Inlier  is  dominated  by  fine-grained  carbonaceous 
+greywacke,  alternating  greywacke-shale  units,  impure  carbonates  which  were  folded  and  contain 
+limestone beds, siltstone, minor tuff and volcanoclastics units (Boshoff et al, 1998; Hanssen et al., 1998; 
+Hein and Tshibubudze, 2007a, b). Jordaan et al. (1994) indicated that calcitic marbles occur in the Kofi 
+Formation. The Sadiola goldfield consists of greywacke, siltstone, marble, carbonaceous to volcanoclastic 
+greywacke  and  BIF  shale  (Hein  and  Tshibubudze,  2007a,  b). The  goldfield  occurs  along  a  marble-
+greywacke contact located east of the Senegalo-Malian Shear Zone (Hanssen et al., 1998). The greywacke units of the Sadiola goldfield are best developed to the west of the Sadiola Fracture Zone, 
+while impure carbonates are best developed to the east.",Kofi Formation,FAC,spacy
+2010_Matsheka_Irvin Final Thesis.txt,16,"Metamorphism at Sadiola reached hornblende-hornfels facies as a result of 
+the emplacement of tonalite-granodiorite plutons and the tonalite dykes  (Hein and Tshibubudze,  2007a, 
+b). 3.4 Gold Mineralisation 
+Three  types  of  gold  mineralisation  have  been  recognised  in  the  West  African  Craton. These  are  pre-
+orogenic,  syn-orogenic  and  late-orogenic  mineralisation. Mineralisation  is  related  to  regional  tectonic 
+event (Milesi et al, 1992; Beziat et al., 2008). Pre-orogenic deposits are associated with early extensional 
+zones and are recorded in stratiform Au tourmalinite in the Loulo goldfield in Mali (Milési et al., 1991; 
+Fouillac et al., 1993; Béziat et al., 2008). Syn-orogenic mineralisation is associated with mineralisation in 
+disseminated  sulphides  in  volcanic  and  plutonic  rock  (Milési  et  al.,  1992).",Beziat,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,16,"Late-orogenic  deposits  are 
+characterised by disseminated gold-bearing arsenopyrite and Au-quartz lode and quartz-vein type. These 
+are interpreted as the major type and host of gold in West Africa (Milési et al., 1991).Two metallogenic 
+styles  have  been  observed  in  the  Sadiola  goldfield  by  Hein  and  Tshibubudze  (2007a,  b)  and  these  are 
+placer gold in the palaeochannels and screes and gold occurring in stockwork veins and breccias. 15",West Africa,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,31,"5.2 Structural Interpretation 
+The two deformation phases that are identified in the study areas of the Sadiola goldfield correlate with 
+the  deformation  phases  interpreted  by  Hein  (2009)  in  the  Goren  greenstone  belt  in  Burkina  Faso, 
+Tshibubudze  et  al.,  (2009)  in  the  Markoye  Shear  Zone  in  Burkina  Faso. The  first  deformation  is 
+characterized  by  the  development  of  NNW-trending  folds  (F1). NNW  bedding  and  cleavage  (S1) 
+orientation associated with D1 are recorded in the study area. This deformation is termed the Tangaean 
+Event and formed during the NE-SW shortening period. Quartz veins formed during this event and their 
+dominant trend is towards NNE-NE. The second deformation event is characterized by the development of ENE-ESE trending folds (F2) and 
+NE-trending  cleavage  (S2).",Burkina Faso,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,31,"Dolomite  is  recystallising  at  the  expense  of  calcite. Sulphide 
+precipitation  occurs  with  biotite. An  increased  biotite  concentration  occurs  with  higher  sulphide 
+precipitation. The  occurrence  of  epidote  and  chlorite is  interpreted  as the  alteration  of  hornblende. The 
+occurrence of tourmaline is interpreted to have resulted from the infiltration of boron-rich fluids (London, 
+1986) while the cordierite can be as a result of high-grade hornfels metamorphism. 30",London,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,32,"The skeletal intergrowths of pyrite are the replacements products of pyrrhotite and they are 
+associated  with  retrograde  replacement  of  amphiboles  (Edwards,  1947). The  ore  mineral-suite  for  the 
+Sadiola gold mine includes Au-As-Fe-S and minor Zn-Sb-Cu. This ore mineral suite has been recorded in 
+the  study  area  by  Wilson  (2002a). The  temperature  range  at  which  the  pyrite-arsenopyrite-gold 
+mineralisation forms was recorded by Mikus and Chovan (2003) to be in a range of 385 – 465 0C, and this 
+was in the Au-Sb mineralisation. The biotite texture observed in figure 9 can therefore be interpreted as the biotite isograd defined by Blatt 
+and Tracy (2006) which is represented by the equation: muscovite + quartz + ankerite = biotite + calcite + 
+carbon dioxide. The presence of chlorite in the biotite rocks indicates that the chlorite is also as a result of 
+the above equation.",Zn-Sb-Cu,FAC,spacy
+2010_Matsheka_Irvin Final Thesis.txt,32,"Gold  mineralisation  is  interpreted  to  occur  with  chlorite-biotite  alteration. This  is  also  associated  with 
+potassic  alteration. It  is  relatively  associated  with  the  pyrite-arsenopyrite  mineral  assemblage. It  is  also 
+interpreted to occur along the biotite isograd which occurs between the inner to middle contact aureoles 
+(Hein and Tshibubudze, 2007a, b). Gold mineralisation forms along the Sadiola Fracture Zone interpreted 
+as  the  carbonaceous-siltstone  greywacke  unit. The  chlorite-biotite  alteration  and  the  breakdown  of 
+hornblende into epidote, chlorite and quartz occur along the inner-middle transition boundary.",Sadiola Fracture Zone,FAC,spacy
+2010_Matsheka_Irvin Final Thesis.txt,33,"5.4 Comparison to Sadiola goldfield with the rest of the West African Gold deposits 
+The Sadiola deposits share some similarities with the other gold deposits in the West African Craton. In 
+the nearby FE3 open cast, two styles of gold mineralisation were recorded by Matabane (2008). These are 
+gold mineralisation in the breccia lodes and in the upper slump facies which co-exists with arsenopyrite-
+pyrite  assemblage  and  the  secondary  placer  gold  mineralisation. Similar  occurrence  of  orogenic  gold 
+systems are recorded in Ghana, Senegal, Burkina Faso, Guinea and Cote d’Ivoire (Goldfarb et al., 2001). Primary gold deposits in Burkina Faso are classified as orogenic-type gold deposits (Béziat et al., 2008) 
+with  the  differences  from  the  Sadiola  documented  in  the  style  of  gold  mineralisation. Two  styles  of 
+mineralisation  observed  in  Burkina  Faso  are  quartz-vein  and  disseminated  (Béziat  et  al.,  2008).",Guinea,GPE,spacy
+2010_Matsheka_Irvin Final Thesis.txt,33,"Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be 
+equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia 
+deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation 
+which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit 
+is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et 
+al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa 
+District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32",Lower Birimian,LOC,spacy
+2010_Matsheka_Irvin Final Thesis.txt,8,"Mineralisation  at  Sadiola  has  been  shown  to  have  a  temporal  and  a  spatial 
+relationship to the tonalite-granodiorite plutons and tonalite dykes. Sadiola is located in close proximity to 
+the  Alamoutala-Sekokoto-Kakadian  plutonic  system. Mineralisation  has  shown  to  be  as  a  result  of  the 
+fluids and metamorphism associated with the intrusions (Hein and Tshibubudze, 2007b). Determining the 
+paragenesis,  investigation  of  the  mineralogical,  microstructural  and  alteration  events  will  assist  in 
+determining  gold  mineralisation,  and  is  considered  important  for  the  Sadiola  exploration  and  in-mine 
+development. 1.2  Location and Physiography 
+The  Sadiola  opencast  mine  is  located  within  the  Sadiola  village. The  village  is  situated  in  the  south-
+western part of Mali at about 77km south of the regional capital, Kayes (Fig.",Kayes,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,11,"CHAPTER 3: Regional Geology  
+3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier 
+The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately 
+1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The 
+Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et 
+al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat 
+et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.",Man,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,11,"(1991), Wilson, 
+(2002), Dioh et al. (2006) and Gueye et al. (2008): 
+* The western domain is composed of the Mako Supergroup, which is a volcanic sequence that consists of 
+tholeiitic  basalt  and  andesite. It  also  consists  of  tholeiitic  pillowed  basalt. The  pillowed  basalt  have  an 
+NMORB affinity, while the massive basalt has an enriched MORB composition. It is also characterised 
+by  folded  low-grade  metamorphic  rocks  which  are  intruded  by  granitic  and  mafic  bodies.",Wilson,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,15,"The sequence is capped 
+by fine-medium grained arenite, siltstone, tourmalinite and intermediate lava. The Sadiola hanging-wall is 
+composed of greywacke (Sheets and Moore, 2000a; Hanssen, 1998; Van der Merwe, 2002; Hein, 2008) to 
+metagreywacke  (Sheets  and  Moore,  2000b). The  hanging-wall  consists  of  greywacke  unit,  carbonate 
+bearing  units,  fine-grained  distal  turbidite  units,  tuffaceous  and  acid  volcanic  units  (Sheets  and  Moore, 
+2000a, b). Sheets and Moore (2000a) used the Sadiola Fracture Zone as the division between the hanging 
+wall and the footwall. The  footwall  consists  of  marble  which  is  interbedded  with  pelitic  beds. Three  types  of  marble  are 
+recognised  by  Hanssen  (1998)  and  include  contorted,  disrupted  and  transposed  marbles.",Moore,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,16,"3.3 Metamorphism  
+Metamorphism  associated  with  the  Eburnean  orogeny  has  affected  the  Birimian  sequence  (Hastings, 
+1982). Metamorphic  grade  is  recorded  as  low-pressure  greenschist  facies  as  indicated  by  the  mineral 
+assemblage muscovite, chlorite, + biotite mineral assemblage (Ledru et al., 1991). Liégeois et al., (1991) 
+recognised  a  mineral  assemblage  indicative  of  the  biotite-chlorite  transition  in  the  greenschist  facies. These  greenschist  minerals  are  fine-grained  and  show  a  granoblastic  texture  with  no  indication  of 
+porphyroblastic  texture. Green  to  brown  biotite  and  cordierite  mineralogy  is  observed  in  contact-
+metamorphic  aureoles  of  the  plutons. The  carbonates  are  recrystallised  to  marbles  and  the  sequence 
+reached hornblende hornfels facies occurs near the contact aureole of the granitoids (Ledru et al., 1991; 
+Hein et al., 2004; Hein, 2009).",Hastings,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,16,"3.3 Metamorphism  
+Metamorphism  associated  with  the  Eburnean  orogeny  has  affected  the  Birimian  sequence  (Hastings, 
+1982). Metamorphic  grade  is  recorded  as  low-pressure  greenschist  facies  as  indicated  by  the  mineral 
+assemblage muscovite, chlorite, + biotite mineral assemblage (Ledru et al., 1991). Liégeois et al., (1991) 
+recognised  a  mineral  assemblage  indicative  of  the  biotite-chlorite  transition  in  the  greenschist  facies. These  greenschist  minerals  are  fine-grained  and  show  a  granoblastic  texture  with  no  indication  of 
+porphyroblastic  texture. Green  to  brown  biotite  and  cordierite  mineralogy  is  observed  in  contact-
+metamorphic  aureoles  of  the  plutons. The  carbonates  are  recrystallised  to  marbles  and  the  sequence 
+reached hornblende hornfels facies occurs near the contact aureole of the granitoids (Ledru et al., 1991; 
+Hein et al., 2004; Hein, 2009).",Green,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,30,"The slumps structures are therefore interpreted to have formed in continental slope or a seismically 
+active area before the sediments were lithified. The sandy-metasediments and metagreywacke are deposits of fluvial to marine systems. Fluvial deposits 
+are cross bedded, similar to the cross-bedded sandy-metasediments of the Helicopter Pit. They are also 
+influenced  by  the  velocity  of  water  moving  the  particles. The  metagreywacke  are  deposits  of  shallow 
+marine  waters. The  cross-bedded  sandy-metasediments  corresponds  to  the  sandstones  of  Martin  and 
+Turner  (1998)  and  Tucker  (2001),  which  are  deposited  on  high  kinetic  environments  including  braided 
+rivers,  deltas,  shallow  marine  and  continental  margins.",Tucker,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,30,"The slumps structures are therefore interpreted to have formed in continental slope or a seismically 
+active area before the sediments were lithified. The sandy-metasediments and metagreywacke are deposits of fluvial to marine systems. Fluvial deposits 
+are cross bedded, similar to the cross-bedded sandy-metasediments of the Helicopter Pit. They are also 
+influenced  by  the  velocity  of  water  moving  the  particles. The  metagreywacke  are  deposits  of  shallow 
+marine  waters. The  cross-bedded  sandy-metasediments  corresponds  to  the  sandstones  of  Martin  and 
+Turner  (1998)  and  Tucker  (2001),  which  are  deposited  on  high  kinetic  environments  including  braided 
+rivers,  deltas,  shallow  marine  and  continental  margins.",Martin,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,32,"The skeletal intergrowths of pyrite are the replacements products of pyrrhotite and they are 
+associated  with  retrograde  replacement  of  amphiboles  (Edwards,  1947). The  ore  mineral-suite  for  the 
+Sadiola gold mine includes Au-As-Fe-S and minor Zn-Sb-Cu. This ore mineral suite has been recorded in 
+the  study  area  by  Wilson  (2002a). The  temperature  range  at  which  the  pyrite-arsenopyrite-gold 
+mineralisation forms was recorded by Mikus and Chovan (2003) to be in a range of 385 – 465 0C, and this 
+was in the Au-Sb mineralisation. The biotite texture observed in figure 9 can therefore be interpreted as the biotite isograd defined by Blatt 
+and Tracy (2006) which is represented by the equation: muscovite + quartz + ankerite = biotite + calcite + 
+carbon dioxide. The presence of chlorite in the biotite rocks indicates that the chlorite is also as a result of 
+the above equation.",Tracy,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,33,"intrusions. The mineralisation at Sadiola  is therefore interpreted to be as a result of metamorphism and 
+deformation  brought  about  the  Sekokoto  pluton  emplacement  during  the  Eburnean  orogeny. Structural 
+data  indicate  that  quartz  veins  formed  prior  to  the  development  of  the  S2  cleavage  systems. These  are 
+therefore  interpreted  to  be  post-Tangaean  and  pre-Eburnean  and  are  associated  with  minor  pyrite-
+arsenopyrite  mineralisation. Mineralisation  was  therefore  upgraded  by  pluton  emplacement  and  the  re-
+activation  of  the  Sadiola  Fracture  Zone  and  the  remobilisation  of  fluids  to  cause  brecciation  and 
+skarnification of the carbonate unit. The fluids have moderate to high salinity as determined by Pan and 
+Fleet (1992) from calcite-dolomite geothermometry.",Fleet,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,33,"Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be 
+equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia 
+deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation 
+which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit 
+is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et 
+al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa 
+District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32",Tarkwa,GEO,geotext
+2010_Matsheka_Irvin Final Thesis.txt,7,"Abstract 
+Recent studies on the Sadiola open cast have indicated different metallogenic styles for the Sadiola gold 
+deposit. The  Sadiola  open  cast  occurs  with  the  FE3  and  FE4  open  cast  within  the  Palaeoproterozoic 
+Kedougou-Kêniêba  Inlier  of  the  West  African  Craton. The  Inlier  consists  of  Birimian  metasediments 
+which  were  metamorphosed  and  deformed  during  the  2.1  –  1.9 Ga  Eburnean  orogeny. Metamorphism 
+reached  lower  greenschist  facies  as  indicated  by  the  chlorite-biotite-cordierite-calcite-dolomite  mineral 
+assemblages. The Sadiola deposit is hosted by the Kofi Formation which is currently undated. The Kofi 
+Formation is made up of Birimian-type sediments and they include greywacke, shale and graphitic shale 
+with conglomeratic interbeds, banded iron formations and carbonates.",West African Craton,regex-GEO,regex
+2010_Matsheka_Irvin Final Thesis.txt,7,"Abstract 
+Recent studies on the Sadiola open cast have indicated different metallogenic styles for the Sadiola gold 
+deposit. The  Sadiola  open  cast  occurs  with  the  FE3  and  FE4  open  cast  within  the  Palaeoproterozoic 
+Kedougou-Kêniêba  Inlier  of  the  West  African  Craton. The  Inlier  consists  of  Birimian  metasediments 
+which  were  metamorphosed  and  deformed  during  the  2.1  –  1.9 Ga  Eburnean  orogeny. Metamorphism 
+reached  lower  greenschist  facies  as  indicated  by  the  chlorite-biotite-cordierite-calcite-dolomite  mineral 
+assemblages. The Sadiola deposit is hosted by the Kofi Formation which is currently undated. The Kofi 
+Formation is made up of Birimian-type sediments and they include greywacke, shale and graphitic shale 
+with conglomeratic interbeds, banded iron formations and carbonates.",Ga Eburnean orogeny,regex-GEO,regex
+2010_Matsheka_Irvin Final Thesis.txt,8,"1) near the border of Mali 
+and  Senegal. Mali  is  a  semitropical  to  arid  landlocked  country  which  is  part  of  the  West  African 
+Savannah-Sahel  region  (Fig. 1). It  extends  over  1,  240,  278  square  kilometres  in  size. Its  estimated 
+population was recorded at 12.5 million as at 2006 with an annual growth rate of 2.4%. French serves as 
+an official language with 80% of the population  speaking Bambara.",West African Savannah-Sahel region,regex-GEO,regex
+2010_Matsheka_Irvin Final Thesis.txt,11,"CHAPTER 3: Regional Geology  
+3.1 The geology of the West African Craton and the Kedougou-Kéniéba Inlier 
+The West African Craton (Fig. 2) is a piece of continental crust that has been stable since approximately 
+1.7Ga (Dia et al., 1997). It is divided into the Man shield in the south and the Reguibat shield in the north. The  two  shields  are  separated  by  the  upper  Proterozoic  to  Paleozoic  sedimentary  Taoudeni  basin. The 
+Reguibat Rise and the Man terrains are composed of Archaean to Proterozoic rock formations (Potrel et 
+al., 1998) with the Palaeoproterozoic rocks of the Man shield referred to as the Birimian sequence (Beziat 
+et al., 2000). The Kêniêba and Kayes inliers are situated towards the western border of Senegal and Mali (Fig.",Kedougou-Kéniéba Inlier The West African Craton,regex-GEO,regex
+2010_Matsheka_Irvin Final Thesis.txt,11,"2).The 
+WAC crops out in western Mali in what is known as the Kedougou-Kêniêba Inlier (Dia et al., 1997). The 
+Birimian sequence represents a large sedimentary basin and a volcanic belt which correlates well with the 
+2.1  Ga  accretion  period  during  the  Eburnean  orogeny  (Milesi,  1992)The  Palaeoproterozoic  Biriman 
+Kedougou-Kéniéba Inlier (KKI) in the West African Craton can be divided into three distinct domains: 
+the  eastern,  central  and  the  western  domain  (Matabane  and  Hein,  submitted). The  central  and  eastern 
+domains are separated by the Senegalo-Malian Shear Zone (SMF) while the central and western domains 
+are separated by the Main Transcurrent Shear Zone (MTZ) (Fig. 3). The  geology  of  these  domains  is  defined  largely  by  Boshoff  et  al. (1989),  Ledru  et al.",Main Transcurrent Shear Zone,regex-GEO,regex
+2010_Matsheka_Irvin Final Thesis.txt,15,"3.2 The Geology of the Sadiola opencast mine and the Sadiola deposit  
+The  Kofi  Formation  of  the  Kedougou-Kêniêba  Inlier  is  dominated  by  fine-grained  carbonaceous 
+greywacke,  alternating  greywacke-shale  units,  impure  carbonates  which  were  folded  and  contain 
+limestone beds, siltstone, minor tuff and volcanoclastics units (Boshoff et al, 1998; Hanssen et al., 1998; 
+Hein and Tshibubudze, 2007a, b). Jordaan et al. (1994) indicated that calcitic marbles occur in the Kofi 
+Formation. The Sadiola goldfield consists of greywacke, siltstone, marble, carbonaceous to volcanoclastic 
+greywacke  and  BIF  shale  (Hein  and  Tshibubudze,  2007a,  b). The  goldfield  occurs  along  a  marble-
+greywacke contact located east of the Senegalo-Malian Shear Zone (Hanssen et al., 1998). The greywacke units of the Sadiola goldfield are best developed to the west of the Sadiola Fracture Zone, 
+while impure carbonates are best developed to the east.",Sadiola goldfield,regex-GEO,regex
+2010_Matsheka_Irvin Final Thesis.txt,33,"Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be 
+equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia 
+deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation 
+which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit 
+is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et 
+al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa 
+District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32",Loulo goldfield,regex-GEO,regex
+2010_Matsheka_Irvin Final Thesis.txt,33,"Disseminated  sulphides  gold  mineralisation  described  by  Béziat  et  al  (2008)  are  interpreted  to  be 
+equivalent  to  the  sulphide-ore  type  of  Ashanti  and  Chirano  deposits  in  Ghana  and  Yaouré-Angovia 
+deposits in Cote d’Ivoire. The Loulo goldfield, SSE of Sadiola, is characterised by gold mineralisation 
+which is hosted in the Kofi Formation in tourmaline-rich quartz veins (Wilson, 2002). The Loulo deposit 
+is associated with earlier extensional veins and occurs mainly in the Lower Birimian sequence (Fouillac et 
+al., 1993; Béziat et al., 2008). In Ghana, gold mineralisation occurs in conglomerate beds in the Tarkwa 
+District (Milési et al., 1992). Gold occurs also in five parallel NE-trending greenstone belts in Ghana. 32",Tarkwa District,regex-GEO,regex

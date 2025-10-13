@@ -1,0 +1,586 @@
+
+--- Page 4 ---
+Abstract  
+The  Pissila  batholith  is  a  foliated  coarse-grained  granodiorite,  which  is  located  in  north 
+eastern Burkina Faso. The batholith was emplaced at 2143 ±12 Ma and 2117 ±17Ma, coeval 
+with  the  Eburnean  orogeny.  The  Eburnean  orogeny  represents  a  period  of  major  crustal 
+growth in an island arc setting. The batholith is geochemically similar to other calc-alkaline 
+granitoids in the domain. The Saaba zone gneiss, which is locally migmatitic is located within 
+the  Pissila  batholith.  Geochemically,  the  gneiss  and  migmatites  have  some  Archean  TTG 
+affiliations.  Granitoids  that  are  associated  with  gneisses  and  migmatites  were  previously 
+described in north eastern Burkina Faso, Côte d’lvoire and Senegal. These studies concluded 
+that the granitoids intruded into the pre-existing gneissic terrane. This study suggests that the 
+Saaba  zone  and  Pissila  batholith  are  geochemically  and  petrological  different  from  each 
+other. The Saaba zone gneiss does not  represent  a deformed region  of the Pissila batholith. 
+Based on similarities of the study area to other granitoid-gneissic terrane, the Saaba zone may 
+predate the Pissila batholith. It is also proposed that the gneiss preserve an older deformation 
+event  D1,  which  lead  to  amphibolite  facies  metamorphism.  The  second  deformation  D2 
+affected  both  granodiorite  and  gneiss.  D2  lead  to  greenschist  facies  metamorphism  of  the 
+rocks.  
+4
+
+--- Page 5 ---
+1. 
+Introduction 
+The Bauolé-Mossi domain consists of predominately Palaeoproterozoic calc-alkaline and 
+alkaline granitoid intrusions. Theses rocks were emplaced between ca 2.1 to 1.8 Ga (Vega et 
+al.,  2008).  The  presence  of  terranes  that  predates  and  may  act  as  basement  rocks  to  the 
+Birimian granitoids has been the subject of debate. Basement rocks are typically gneissic to 
+migmatitic,  thus  the  granitoid-gneissic  terranes  in  the  West  African  Craton  became  the 
+subject of a number of studies (Eisenhohr and Hirdes, 1992, Pons et al., 1995, Hirdes et al., 
+1996,  Gasquet  et  al.,  2003).  Lemoine,  1988  in  Gasquet  et  al.,  2003  introduced  the  term 
+Burkinian,  which  corresponds  to  reworking  of  Archean  rocks  and  formed  the  gneissic 
+terrance  in  Côte  d’lvoire.  Hirdes  et  al.,  1996  proposed  the  gneissic  terrane  in  the  Dabakala 
+predate 2.1 Ga batholith intrusions. This was rejected by Gasquet et al., 2003 who concluded 
+the gneiss were syntectonic despite zircons recovered at 2.3 Ga. 
+5
+
+--- Page 6 ---
+2. 
+Regional Geology 
+The West African Craton consists of several shields. The Archean-Palaeoproterozoic Leo-
+Man  rise  in  the  south  and  the  Reguibat  rise  in  the  north,  which  are  separated  by  the 
+Phanerozoic Toudeni basin. The Leo-Man rise consists of the Archean Kénéma-Man domain 
+and the Palaeoproterozoic Baoulé-Mossi domain (Fig 2.1) (Cahen et al., 1984). 
+Fig 2.1. The West African Craton consists of the Archean and Palaeoproterozoic Reguibat in the north 
+and the Leo-Man in the south (Béziat et al., 2008). 
+2.1. Archean domain 
+The Archean domain is divided into three units - 
+I.  The basement rocks are grey-banded migmatitic orthogneiss, which formed ca. 3.5 to 
+3.4  Ga  (Potrel  et  al.,  1998).  The  gneisses  are  trondhjemitic  in  composition 
+(Kouamelan et al., 1997). They were subsequently metamorphosed to granulite facies 
+(Potrel et al., 1998; Thieblemont et al., 2004).  
+II.  The gneisses were then intruded by granitic batholiths ca. 2.7 Ga (Thieblemont et al., 
+2004).  The  intrusions  occur  as  granites  (sensu  stricto),  crosscutting  the  basement 
+gneiss (Kouamelan et al., 1997). 
+III.  The basement rocks are overlain by metavolcanic and metasedimentary rocks  of the 
+Loko Formation (Feybesse and Milési, 1994).  
+6
+
+--- Page 7 ---
+The Kénéma-Man domain  was deformed and  metamorphosed during two major tectonic 
+events. The Leonean cycle, ca 3.0 Ga is associated with north-south trending structures and 
+metamorphism of basement rocks to granulite- facies (Cahen et al., 1984; Thieblemont et al., 
+2004).  The  Liberian  event,  ca  2.7  Ga  resulted  in  N-S  to  NNE-SSW  trending  structures 
+(Thieblemont  et  al.,  2004).  The  Liberian  event  culminated  with  TTG  batholith  intrusions 
+(Skinner et al., 2004).  
+2.2. Palaeoproterozoic Baoulé-Mossi domain 
+The  Birimian  was  first  described  by  Kitsh  from  outcrops  in  the  Birim  River  Valley  in 
+southern  Ghana  (Pohl,  1998).  The  lithostratigraphic  sequence  became  the  subject  of 
+controversy,  where  two  schools  of  thought  emerged;  the  Anglophone  and  Francophone. 
+Junner (from the Anglophone school) sub-divided the Birimian into the Lower and the Upper 
+Birimian (Hirdes et al., 1996). 
+I.  The Lower Birimian is predominately composed of metasedimentary rocks, including 
+argillites, shale and conglomerates (Roddaz et al., 2007). The metasedimentary rocks 
+are  intercalated  with  dacite  and  rhyolite  metavolcanic  rocks  (Tshibubudze  et  al., 
+2009).  
+II.  The  Upper  Birimian  consists  of  tholeiitic  lavas,  which  are  locally  pillowed, 
+intercalated with  turbidites and  meta-volcanoclastic sedimentary  rocks  (Debat  et  al., 
+2003).  
+The Tarkwaian  unconformably overlies the Upper Birimian  and  consist  of coarse  clastic 
+sedimentary  unit  (Tshibubudze  et  al.,  2009).  The  description  of  the  unit  is  based  on  work 
+done in Ghana (Eisenlohr and Hirdes, 1992).  
+I.  The Tarkwaian includes basal conglomerates from the Kewese Group (Pohl, 1998). 
+II. 
+Shales, quartzite and meta-conglomerates of the Banket Group. 
+III.  Overlying the Banket Group are shales and phyllites of the Tarkwa formation (Cahen 
+et al., 1984; Tshibubudze et al., 2009). 
+The above Anglophone Birimian sequence was inverted by the Francophone school. The 
+predominately  volcanic  units  were  interpreted  as  being  younger  than  the  metasedimentary 
+units (Milési et al., 1992).However, during a study of the Goren-greenstone belt in Burkina 
+7
+
+--- Page 8 ---
+Faso, Hein et al., (2004) concluded that sub-dividing the Birimian into two units did not fit 
+the conformable nature of the sequence. Instead, they found three intercalated meta-volcanic 
+and  meta-volcanic  sequences  (Tshibubudze  et  al.,  2009).  According  to  Tagini,  (1971)  in 
+Hastings,  (1982),  the  Birimian  was  deposited  in  an  intra-continental  rift  basin,  followed  by 
+sedimentation  and  localized  volcanism.  The  Birimian  and  the  Tarkwaian  are  considered  to 
+represent  transition  from  a  deep  marine  to  sub-aerial  depositional  environment  caused  by 
+uplift during craton accretion (Pohl, 1998).   
+2.3. Magmatic Intrusions  
+Granitoids  cover  approximately  70%  of  the  Baoulé-Mossi  domain  (Debat  et  al.,  2003). 
+The granitoids intruded into meta-volcanic and meta-sedimentary rocks during the Eburnean 
+orogeny  (Egal  et  al.,  2002).  The  Eburnean  orogeny  marks  a  major  period  of  crustal 
+thickening 2.1 to 2.0 Ga (Pons et al., 1995). 
+The  granitoids  are  calc-alkaline  and  locally  alkaline  in  composition  with  minor  crustal 
+component  (Gasquet  et  al.,  2003).  The  granitoids  are  divided  into  three  groups,  unfoliated 
+hornblende-bearing,  foliated  biotite-bearing  and  alkaline  granitoids  (Dioh  et  al.,  2006). 
+Gasquet et al., (2003), Naba et al., (2004) and Agbossoumonde et al., (2007) observed that 
+the granitoids grade into gneissic and migmatitic structures.  
+2.4. Regional tectonics 
+The Eburnean orogeny represents accretion of the Archean Kénéma-Man domain with the 
+Palaeoproterozoic  Baoulé-Mossi  domain  (Feybesse  et  al.,  2006).  The  orogeny 
+is 
+characterised  by  three  deformation  events,  D1  and  D2-D3  (Baratoux  et  al.,  2011).  The 
+deformation  of  the  meta-volcano-sedimentary  sequence  was  coeval  to  TTG  granitoid  and 
+granite intrusions (Hein et al., 2004).  
+According  to  Hirdes  et  al.,  (1996)  D1  deformation  occurred  between  2112  Ma  to  2100 
+Ma.  D1  magmatic  event  lead  to  metamorphism  of  the  volcano-sedimentary  sequence  to 
+greenschist and locally amphibolite facies (Baratoux et al., 2011). D1 is also associated with 
+the development of NW-trending folds (Hein et al., 2004). 
+D2-3  represents  a  period  of  crustal  thickening,  which  lead  to  NE-trending  veins  and 
+brecciation (Tshibubudze et al., 2009). Uplift and further shortening of the crust is associated 
+with  the  development  of  brittle  shears  and  NE-trending  folds  (Feybesse  et  al.,  2006). 
+8
+
+--- Page 9 ---
+Emplacement of the granitoids was parallel to NE-trending fold axial planes (Baratoux et al., 
+2011).  
+9
+
+--- Page 10 ---
+3. 
+Aim 
+Fig  3.1.  Map  illustrates  the  location  of  the  study  area.  The  white  numbers  corresponds  to  sample 
+numbers and the locations were each sample was collected.  
+The Pissila batholith and the Saaba zone gneiss are located near the town of Pissila in NE 
+Burkina  Faso.  The  aim  of  the  project  is  to  determine  the  relationship  between  the  Pissila 
+batholith and the Saaba zone gneiss. The gneiss could represent a highly metamorphosed and 
+deformed  part  of  the  batholith.  On  the  other  hand,  the  gneiss  maybe  a  partially  exposed 
+gneissic terrane that has little to no affiliations to the batholith. The contact between the two 
+could not be established during fieldwork due to lack of outcrops.  
+The relationship between the Pissila batholith and the Saaba zone gneiss is determined by; 
+I. 
+Providing a petrographic and geochemical description of the batholith and the gneiss. 
+II.  Comparison of the petrographic and geochemical data obtained for the two areas. 
+III.  Comparison batholith and the gneiss with other granitoids in Burkina Faso and similar 
+granitoids in the West African Craton. 
+10
+
+--- Page 11 ---
+4. 
+Methodology 
+Field work 
+Samples from the Pissila batholith and the Saaba Zone gneiss were collected during field 
+work  in  January  2012.  Mapping  of  the  study  area  and  sample  collection  was  conducted  by 
+Profs.  Kerstin  Saalmann  and  Kim  Ncube-Hein.  The  locations  of  each  station  point  were 
+recorded  using  GPS  co-ordinates.  The  World  Geodetic  System  (WGS  84)  and  Universal 
+Transverse Mercator (UTM) in meters were used as the datum and format, respectively. The 
+location map of the study area was created using Expert GPS 4.57. The data from Expert GPS 
+was exported to Google Earth.  
+Petrography  
+Seven  polished  thin  sections  were  used  for  petrography.  Reflected  light  was  used  to 
+examine  the  oxide  mineralization.  Five  of  the  seven  thin  sections  were  used  for  point 
+counting.  An  average  of  500  minerals  in  each  samples  were  counted  using  Petrog  JVC 
+V2.42.15.  The  data  obtained  from  point  counting  was  used  for  sample  classification  and 
+comparison. 
+Thin sections were photographed under transmitted light. The coarse nature of some of the 
+samples did not allow for the foliation to be photographed. Thin sections were subsequently 
+scanned to illustrate the foliation. 
+Geochemistry 
+Five samples were submitted for geochemical analysis. The bulk composition of the rocks 
+was obtained using Wavelength Dispersive X-ray Fluorescence Spectrometry (WDXRF) and 
+Inductively  coupled  plasma  emission  mass  spectrometry  (ICP-MS).  Samples  were  crushed 
+and finely milled for both methods. 
+Major elements were analyzed using WDXRF from fused disks. The milled samples were 
+mixed with  a pre-ignition  flux and heated to  1,020°C for 50 minutes. H2O- and  H2O+ were 
+then calculated. The mixture was mechanically pressed into a fussed disked and analyzed.  
+Samples  for  ICP-MS  were  prepared  by  mixing  the  milled  powder  with  HNO3/HF  and 
+heated to 235°C. The liquid  was evaporated on a hot plate that was heated to 70°C. 2ml of 
+11
+
+--- Page 12 ---
+HNO3  was  added  to  the  liquid  and  heated  to  60°C  and  evaporated.  The  evaporated  sample 
+was then ready for ICP-MS. 
+12
+
+--- Page 13 ---
+5. 
+Petrography  
+5.1. Granodiorite 
+Granitoid  sample,  KS-2012-14  and  KS-2012-15  are  coarse-grained  granodioritic  rocks. 
+Both samples were used for hand-sample description, but only KS-2012-15 was used for thin-
+section description. In hand specimen, the rocks  have a dark greenish  colour. The colour is 
+due to the abundant hornblende and biotite. Sample KS-2012-15 contains hornblende (16%), 
+biotite (9%), plagioclase (24%), quartz (35%) and microcline (15%). Accessory minerals are 
+Fe-Ti oxide, chlorite and epidote (>1%) (Table 1). The granitoid, based on modal abundance, 
+is classified as granodiorite (Appendix E).  
+Hornblende in sample KS-2012-15 is anhedral and zoned. The minerals exhibit a graphic 
+texture between hornblende, quartz and Fe-Ti oxide (Fig 5.1.1 A). Hornblende has twinning 
+lamellae that is oblique to cleavage (Fig 5.1.1B).  
+Primary  and  secondary  biotite  was  found  in  the  sample.  Secondary  biotite  occurs  in 
+replacement  of  hornblende.  The  minerals  are  fine-grained  and  exhibits  serrated  grain-
+boundaries.  Primary  biotite  exhibit  lobate  grain-boundaries.  It  also  exhibit  folded  cleavage, 
+undulose extinction and fractures (Fig 5.1.1C). 
+Plagioclase, microcline and quartz are weakly foliated. Plagioclase crystals are subhedral, 
+anhedral  and  very  coarse.  Microcline  is  associated  with  lobate  myrmekite.  Myrmekite  was 
+found on the shortening axis of microcline. Quartz exhibits strain induced deformation bands 
+(Fig 5.1.1 D). 
+ The foliation in the granodiorite is defined by a weak alignment of hornblende, biotite and 
+quartz-feldspathic minerals. Quartz and microcline exhibit an alignment that is sub-parallel to 
+the mafic minerals. Myrmekite between quartz and microcline was found on the shortening 
+axis  of  microcline.  Plagioclase  exhibits  preferred  orientation  in  two  directions,  parallel  and 
+oblique to the mafic minerals. 
+13
+
+--- Page 14 ---
+Figure 5.1.1. (A) Primary intergrowth between hornblende, quartz, plagioclase and Fe-Ti oxide. (B) 
+Hornblende with twinning lamellae  that is oblique to cleavage. Cleavage direction is indicated with 
+yellow  lines.  (C)  Illustrates  biotite  with folded  cleavage  and  undulose  extinction.  (D)  Quartz  in  the 
+centre exhibit deformation bands. 
+5.2. Biotite gneiss 
+The Saaba Zone is characterised by medium-grain biotite gneiss. Hand samples KS-2012- 
+17B and 17C are foliated. Biotite, hornblende and discontinuous feldspathic layers (0.5-3mm 
+thick)  define  the  fabric.  Sample  KS-2012-17B  is  predominately  composed  of  quartz  (66%) 
+with  plagioclase  (18%),  microcline  (8%),  hornblende  (3%),  biotite  (5%)  and  Fe-Ti  oxide 
+(>1%) (Table 1).  
+Hornblende and biotite are elongated and strongly aligned. The minerals form parallel and 
+anastomosing  foliations.  The  minerals  are  associated  with  Fe-Ti  oxide.  Oxides  are  cubic, 
+which indicates primary mineralization. Oxides are also found over-printing biotite. 
+Quartz, plagioclase and microcline are elongated. The minerals are aligned sub-parallel to 
+biotite.  Low  temperature  structures  that  include  pressure  solution  and  sweeping  undulose 
+extinction are prevalent in quartz. However, minor amount of chessboard quartz was found in 
+the samples (Fig 5.2.1A). Plagioclase and microcline are dominated by grain-size reduction 
+and sub-grain rotation (Fig 5.2.1B).   
+14
+
+--- Page 15 ---
+Figure 5.2.1 (A) The image illustrates the formation of sub-grains and subsequent rotation of the sub-
+grains. The  image  also  shows  pressure  solution. (B) Chessboard sub-grains  in the  samples  occur  in 
+minor amounts. 
+5.3. Migmatites  
+Migmatites  are  a  mixture  of  two  or  more  petrographically  distinct  parts  (Sawyer,  2008). 
+They  form  by  partial  melting  of  a  source  rock.  The  melt  forms  light-coloured  veins 
+(leucosome)  and  mafic-rich  melanosomes.  The  Saaba  Zone  gneiss  is  locally  migmatitic. 
+Foliation and small-scale folds are visible in hand samples. In hand sample, the leucosomes 
+are  composed  of  discontinuous  quartz  and  feldspar-rich  melts.  The  melanosomes  are 
+predominantly composed of biotite and hornblende. 
+The folds in Sample KS-2012-23 consist of predominantly biotite with minor hornblende 
+and  Fe-Ti  oxide.  Biotite  is  cross-cut  by  acicular  rutile.  Rutile  suggests  late  Ti-rich 
+hydrothermal fluid circulation. Fe-Ti oxide is also associated with biotite.  
+Plagioclase and microcline were found with pervasive sericitic alteration (Fig 5.3.1 A, B). 
+Microcline and plagioclase twining lamellae were not visible due to pervasive alteration. In 
+plane polarized light quartz exhibit “cloudy” texture as a result of numerous fluid inclusions.  
+The migmatites are cross-cut by K-feldspar rich veins. In hand sample, the veins exhibit a 
+grainy-texture.  The  vein  is  predominantly  composed  of  quartz,  minor  microcline  and  less 
+than  1%  plagioclase.  Biotite  was  found  interstitial  to  quartz  and  microcline  or  found  as 
+clusters. 
+15
+
+--- Page 17 ---
+Fig.  5.4.1.  Foliated  coarse-grained  granodiorite.  The  rock  consists  of  hornblende,  biotite, 
+plagioclase, microcline, quartz, epidote, chlorite and Fe-Ti oxide.  
+Fig 5.4.2. Gneiss exhibits folded leucocratic veins in hand sample. The leucocratic veins consists 
+of coarse-grained quartz, plagioclase and microcline.  
+17
+
+--- Page 18 ---
+Fig 5.4.3. The image illustrates migmatite with leucosome. The leucosome consists of biotte and 
+hornblende cluster that give the vein a spotted texture. 
+18
+
+--- Page 19 ---
+6.  Geochemistry 
+Geochemistry is one of the fundamental steps in understanding magmatic rocks. It allows 
+for understanding of the source material, processes that form and influence the evolution of 
+the rocks. The chemical signature of metamorphic rocks is predominately influenced by the 
+composition of the parent rock. It is possible that the composition of the metamorphic rock is 
+derived from a mixture of two sources.  
+In this section the aim is to compare and contrast the geochemical data of the granodiorite, 
+K-rich vein and gneiss/migmatites. The geochemical data is divided into two groups, major 
+and trace elements. A comparison on the samples collect with those in the Birimian follows 
+in the discussion. 
+6.1 Major elements 
+The  granodiorite  exhibit  a  slightly  acidic  composition  (SiO2  =  64.83  wt  %).  The  gneiss 
+and migmatites exhibit higher silicate oxide content, which ranges from 74.01 to 75.61wt %. 
+The  granodiorite  was  classified  as  a  quartz-monzodiorite/  monozogabbro.  Gneiss  and 
+migmatites were classified as granodiorite and trondhjemite, respectively. This classification 
+is based on CIPW norm mineral calculations (Fig 6.1.1). On the other hand, the samples have 
+a different classification when using the sample’s alkali and silicate content (Fig 6.1.2). 
+Granodiorite  is  more  mafic  rich  compared  to  the  other  samples.  The  iron  content  in 
+granodiorite is almost twice that of gneiss and the K-rich vein. In general the granodiorite has 
+the highest oxide content (Table 2). 
+The K-rich vein, in contrast to the granodiorite exhibit low oxide percentage in all major 
+elements. However, the SiO2 and K2O content are highest in the vein. Gneiss and migmatites 
+generally exhibit composition that plots in between the granodiorite and K-rich vein. 
+The samples are medium to high K calc-alkaline, except one migmatite sample that has a 
+low  K  tholeiitic  composition.  Na2O/K2O  ratio  in  gneiss  and  migmatites  range  from  2.09  to 
+4.52.  Granodiorite  and  K-rich  Na2O/K2O  ratios  are  1.32  and  0.87,  respectively.  K2O/Na2O 
+ratios in all samples are less than 0.5, with exception to granodiorite and K-rich vein. 
+19
+
+--- Page 22 ---
+Fig. 6.1.1. Plutonic rock classification diagram based on CIPW norm minerals 
+22
+
+--- Page 23 ---
+Fig 6.1.2. The alkali verse silicate oxide diagram illustrates that sample KS-2012-15 is granodioritic 
+in  composition.  The  gneiss  and  migmatites  have  a  granitic  composition  and  the  K-rich  vein  is  an 
+alkali granite. (Maroon= granodiorite, yellow and orange= biotite-  gneiss, green=K-rich vein, blue= 
+migmatite). 
+Fig. 6.1.3. The diagram illustrates that samples are medium- to high K calc-alkaline series, except one 
+migmatite sample that is low K tholeiite. (Maroon= granodiorite, yellow and orange= biotite- gneiss, 
+green=K-rich vein, blue= migmatite). 
+23
+
+--- Page 24 ---
+Fig.6.1.4.  K-rich  vein  exhibit  high  K2O  and  high  Si2O  content.  Gneiss  and  migmatites  K2O  ranges 
+from  1.11  to  4.85wt  %.  (Maroon=  granodiorite,  yellow  and  orange=  biotite-  gneiss,  green=K-rich 
+vein, blue= migmatite). 
+Fig. 6.1.5. Gneiss and migmatites exhibit composition that lies between granodiorite and K-rich vein. 
+(Maroon= granodiorite, yellow and orange= biotite- gneiss, green=K-rich vein, blue= migmatite). 
+24
+
+--- Page 25 ---
+Fig. 6.1.6. Granodiorite exhibit relatively high CaO content relative to the other samples that exhibit 
+low  CaO.  (Maroon=  granodiorite,  yellow  and  orange=  biotite-  gneiss,  green=K-rich  vein,  blue= 
+migmatite). 
+Fig. 6.1.7. Gneiss and migmatites exhibit composition that lies between granodiorite and K-rich vein. 
+(Maroon= granodiorite, yellow and orange= biotite- gneiss, green=K-rich vein, blue= migmatite). 
+25
+
+--- Page 26 ---
+6.2. Trace Elements 
+The  granodiorite  exhibit  a  depleted  rare  earth  element  pattern  (REE)  relative  to  the 
+gneisses and K-rich vein. The granodiorite is depleted in heavy rare earth elements (HREE) 
+and  enriched  in  light  rare  earth  elements  (LREE)  (Fig  6.2.1.).  The  samples  exhibit  no  Eu 
+anomaly and exhibit a negative Ce anomaly. The granodiorite also exhibit a slight negative 
+Tm anomaly. Large ion lithophile elements (LILE) are enriched relative to high field strength 
+elements (HFSE) (Fig 6.2.3.). Granodiorite spider plot differs from gneisses, migmatite and 
+K-rich vein (Fig 6.2.2). The granodiorite does not exhibit negative Sr and P anomaly, which 
+are found in the other samples. 
+The gneisses, similar to the granodiorite are enriched in LREE and depleted in HREE (Fig 
+6.2.1).  The  gneisses  REE  pattern  is  enriched  relative  to  the  granodiorite,  migmatite  and  K-
+rich vein.  The samples  exhibit  a negative Eu anomaly. The samples have concave up ends, 
+which  are  similar  to  granitoid  in  the  region.  The  samples  are  enriched  in  LILE  relative  to 
+HFSE  (Fig  6.2.3).  The  spider  plot  exhibit  similarities  with  the  samples  from  the  Dabakala 
+region in Côte d’lvoire that were described by Gasquet et al., 2003 (Fig 6.2.2 and appendix 
+1). The gneisses in the spider plot exhibit a prominent negative Ti and P anomaly.  
+The migmatite exhibit a REE pattern that is relatively flat (Fig 6.2.1). The sample’s REE 
+pattern is depleted relative to the granodiorite, gneisses and K-rich vein. The flat REE pattern 
+suggests that the migmatite’s source rock lacked garnet. The presence of garnet in the source 
+would  have  produced  a  depleted  HREE  pattern  relative  to  LREE.  Similar  to  gneisses  the 
+sample exhibits a negative Eu anomaly.  The migmatite exhibits a positive Ce anomaly and a 
+negative  Eu  anomaly.  Similar  to  the  above  samples,  the  migmatite  is  enriched  in  LILE 
+relative to HFSE. 
+The K-rich vein is depleted in LREE relative to HREE (Fig 6.2.1). The sample exhibits a 
+negative Eu anomaly and a slight negative Ce anomaly. The HREE end is concave up.  The 
+sample exhibits an enrichment in LILE relative to HFSE (Fig 6.2.3). The K-rich vein’s spider 
+plot  matches  that  of  gneiss,  except  the  K-rich  vein’s  negative  anomalies  are  more 
+pronounced. 
+26
+
+--- Page 27 ---
+Fig. 6.2.1. REE plot of the gneiss and K-rich vein are comparable. The granodiorite and migmatites 
+exhibit REE pattern that differ from the gneiss. This may indicate the samples are not related to each 
+other.Normalising  values from Evensen et al., 1978 
+27
+
+--- Page 28 ---
+Fig 6.2.2. The spider diagram illustrates similar patterns between gneisses, migmatites and K-rich 
+vein. The gneiss and granodiorite exhibit different anomalies, which may indicate that the samples 
+were not derived from the same source. Normalising values from Thompson (1982) and from Sun 
+(1980) for Rb, K, P, U, Cs. 
+Fig. 6.2.3. Samples exhibit an enrichment in LILE relative to HFSE. This is generally associated with 
+metasomatisation of the source rock (Rollinson, 1993). Normalising values from Pearce et al., (1984) 
+in Rollinson, 1993. 
+28
+
+--- Page 29 ---
+7. 
+Discussion 
+7.1.  Comparison between the gneiss and granodiorite 
+The  Pissila  batholith  and  the  Saaba  zone  gneiss  are  petrologically  and  geochemically 
+different from each other. The granodiorite exhibit a composition that is more mafic relative 
+to the gneiss and migmatite. This is apparent in the thin section where hornblende and biotite 
+are  dominant  in  the  granodiorite  relative  to  the  gneiss  and  migmatite.  In  general,  the 
+granodiorite  exhibit  higher  oxide  content  relative  to  the  gneiss  and  migmatite,  with  an 
+exception to SiO2 and K2O.  
+The K-rich vein exhibit a similar REE slope and pattern to the gneiss. This may indicate 
+that the K-rich vein was derived from a source comparable to the gneiss. Granodiorite exhibit 
+a steep REE slope, whereas gneiss, migmatite and K-rich vein exhibit a flat slope. The gneiss 
+and  K-rich  vein  are  enriched  in  REE  relative  to  the  granodiorite.  On  the  other  hand, 
+migmatite is depleted in REE relative to the other samples. 
+The  spider  diagram  exhibit  variations  between  the  gneiss  and  granodiorite.  Granodiorite 
+exhibit a positive Sr anomaly, while other samples exhibit a prominent negative Sr anomaly. 
+The  gneiss,  migmatite  and  K-rich  vein  also  exhibit  negative  Ti,  P  and  Ba  anomalies.  The 
+granodiorite exhibits either a weak negative or no Ti, P, Ba anomalies. 
+The samples exhibit some geochemical similarities. All samples exhibit an enrichment of 
+LILE  relative  to  HFSE.  This  may  indicate  metasomitization  of  the  source  rock  (Rollinson, 
+1993).  The  samples  are  depleted  in  HREE  relative  to  LREE,  which  indicates  a  garnet  and 
+amphibolite-bearing  source  rock  or  residuum  (Holland  &  Turekian,  2003).  Migmatites 
+exhibits a flat REE slope, which may suggests that garnet and amphiboles had a minor role 
+melt production. 
+7.2.  Gneiss and migmatite 
+The migmatites exhibit some similarities to Archean TTG. The samples exhibit SiO2> 70 
+wt%,  Na2O/K2O>0.5,  K2O/Na2O<0.5,  which  is  characteristic  of  Archean  TTG  (Clarke, 
+1992). Thus the gneiss and migmatite may have formed from processes similar to those that 
+form  Archean  TTG.  In  contrast  to  the  TTG  described  by  Smithes,  (2000),  the  Saaba  zone 
+gneiss and migmatites do not exhibit low Al2O3, Sr and Ba less than 500ppm. 
+29
+
+--- Page 30 ---
+Archean TTG are thought to have formed by partial melting of a hydrated oceanic crust or 
+partial  melting of a thickened crust, leaving  a  garnet-bearing  amphibolite residuum (Martin 
+and Moyen, 2002). The latter is not favoured to produce Archean TTG (Martin et al., 2005). 
+The TTG are thought to represent felsic melt that interacted with  the mantle during diapiric 
+ascent (Clarke, 1992). Partial melting of the lower thickened crust could not have allowed the 
+melt to interact with the mantle prior to emplacement (Smithes, 2000).  
+According to Doumbia et al., 1998, the concave up HREE end is typical of Archean TTG 
+and  of  calc-alkaline  granitoids  in  the  region.  Depletion  of  HREE  relative  to  LREE  is 
+controlled by garnet and amphiboles retained in the residuum (Rollinson, 1993). The negative 
+Eu and Sr anomalies suggest that plagioclase was retained in the residuum or plagioclase was 
+removed from the melt during magma differentiation (Holland & Turekian, 2003).  
+The  spider  diagram 
+is  enriched 
+in  LILE  relative 
+to  HFSE,  which  suggests 
+metasomitisation  of  the  source  rock  (White,2012).  The  negative  Ti,  Ta,  Nb  anomalies  are 
+associated  with  Ti-bearing  mineral  phases  in  the  residuum  (Rollinson,  1993).  The  Ta-Nb 
+anomalies  in  gneiss,  migmatites  and  the  K-rich  vein  are  considered  to  be  an  indicator  of 
+crustal contamination (Holland & Turekian, 2003).  
+7.3.  Granodiorite 
+The  granodiorite  was  probably  derived  from  partial  melting  of  a  metasomitized  garnet-
+bearing  amphibole  with  a  crustal  component.  Emplacement  of  the  granitoid  was  between 
+2143±12  and  21117±17  Ma  in  an  island  are  setting.  The  granitoid  was  later  deformed  and 
+metamorphosed to greenschist facies during the Eburnean orogeny (Tshibubuze et al., 2009).  
+The composition of igneous melts is controlled by the chemical composition of the source, 
+differentiation during magma ascent and trace element compatibility with the mineral phase. 
+The depletion of HREE relative to the LREE is controlled by HREE partitioning into garnet, 
+hornblende  and  pyroxenes  (White,2012).  According  to  Doumbia  et  al.,  1998,  this  indicates 
+that the granodiorite melt was derived from partial melting of oceanic lithosphere at pressures 
+where garnet and amphiboles are stable.  The negative Nb-Ta anomaly is widely regarded as 
+an  indicator  of  subduction  and  crustal  contamination  (Fig  6.2.3.)  (Rollinson,  1993). 
+Metasomitization of oceanic lithosphere is  considered to  be  the  cause the  LILE  enrichment 
+relative to HFSE in the granodiorite (Holland & Turekian, 2003).  
+30
+
+--- Page 31 ---
+The spider diagram of the studied granodiorite is comparable with spider diagrams for the 
+Dabakala region in Côte d’lvoire  (appendix 1) (Gasquet et al., 2003). The diagrams exhibit 
+negative  Ta,  Ti  and  Nb,  which  are  usually  associated  with  titaniferous  minerals  retained  in 
+the  residuum  (White,  2012).  A  negative  Ce  and  Nb  anomaly  is  generally  regarded  as  an 
+indicator  of  crustal  contamination  (fig  6.2.2.)  (Rollinson,  1993).  The  positive  Sr  anomaly 
+attests to  declining role of plagioclase in  melt  production (Holland &  Turekian, 2003). The 
+positive  Sr  coupled  with  Eu  anomaly,  indicates  that  plagioclase  was  not  retained  in  the 
+residuum  during  partial  melting  or  fractionated  during  magma  differentiation  (Rollinson, 
+1993; Holland & Turekian, 2003). 
+7.4.  Deformation and metamorphism 
+Metamorphism and deformation leads to mineralogical and structural changes in the rock. 
+The two occur in response to temperature, pressure and fluid variations. The processes lead to 
+changes in mineral phase, shape, orientation and grain-size. 
+Gneiss and migmatite 
+The  mineral  assemblage  in  the  gneisses  and  migmatites  (hornblende,  biotite,  quartz, 
+plagioclase,  microcline,  epidote,  chlorite  and  muscovite)  suggests  metamorphism  to 
+amphibolite and greenschist facies. The low microstructures in the gneiss and migmatites are 
+similar to those in granodiorite. However, high temperature microstructures were observed in 
+the  gneiss  and  migmatites.  The  occurrence  of  both  high  and  low  temperature  metamorphic 
+minerals  and  microstructures  indicates  at  least  two  deformation  events  (D1-D2).  The  first 
+deformation event (D1) lead to amphibolites facies metamorphism and was followed by D2. 
+D2 lead to the development of low temperature overprint. 
+The  samples  exhibit  cataclasis  of  feldspar,  plagioclase  and  quartz.  This  occurs  at 
+temperature  below  300°C.  (Pryer,  1993).  Other  low  temperature  microstructures  (including 
+bulging,  sub-grain  rotation  and  sub-grain  formation)  observed  in  the  gneiss  and  migmatites 
+are similar to microstructures in granodiorite. Theses microstructures are discussed in detail 
+in the following section.  
+The  gneiss  and  migmatites  were  found  to  preserve  microstructures  that  indicate  high 
+metamorphic  temperatures.  The  samples  exhibit  an  increase  in  sub-grain  formation  and 
+rotation relative to the granodiorite. According to Stipp et al., 2002 an increase in sub-grain 
+formation  and  rotation  is  attributed  to  an  increase  in  temperature,  where  grain  boundary 
+31
+
+--- Page 32 ---
+migration  becomes  the  dominate  feature.  The  development  of  quartz  with  chessboard 
+extinction  occurs  during  inversion  of  α-quartz  to  β-quartz  which  occurs  at  630°  ±  30°C 
+(Kruhl, 1996).Based on quartz with chessboard extinction  metamorphic temperatures that the 
+gneiss and migmatites experienced where at least 630°C. 
+Granodiorite 
+Subsequent 
+to  magma  emplacement  and  crystallisation, 
+the  granodiorite  was 
+metamorphosed  and  deformed.  Epidote  and  chlorite  found  in  the  sample  suggests 
+metamorphism  to  greenschist  facies.  Microstructures  in  the  samples  seem  to  support  low 
+temperature metamorphism. 
+Fracturing  of  plagioclase,  microcline  and  quartz  as  the  predominate  method  of 
+deformation typically occurs at  greenschist facies metamorphism (Gapais, 1989). Cataclasis 
+is usually accompanied by the development of undulose extinction and deformation banding 
+in  quartz  at  280  ±30°C  (Pryer,  1993).  Undulose  extinction  in  quartz  occurs  at  a  higher 
+temperature range, between 400 and 500°C (Passchier and Trouw, 2005). 
+With increasing temperature, grain boundary migration becomes the dominate method of 
+deformation (Stipp et al., 2002). Grain boundary migration (GBM) includes low temperature 
+pressure solution/bulging, sub-grain formation and rotation. Pressure solution develops along 
+high  strain  regions  along  grain  boundaries  (Pryer,  1993).  Fluid  along  the  grain  boundaries 
+facilitates dissolution and grain boundary migration (Passchier and Trouw, 2005).  
+Sub-grain formation and rotation lead to the development of core-and-mantle structures in 
+quartz-  feldspathic  minerals  (Stipp  et  al.,  2002).  According  to  Passchier  and  Trouw,  2005, 
+core-and-mantle  structures  in  feldspar  develop  at  temperatures  above  450°C.  Core-and-
+mantle  structures  were  not  found  in  the  granodiorite.  This  may  indicate  that  maximum 
+metamorphic temperatures did not exceed 450°C. 
+32
+
+--- Page 33 ---
+Fig  7.4.1.  The  adjacent  grains  have  different  dislocation  concentration.  The  grain  with  the  lowest 
+dislocation  concentration  will  migrate  towards  the  grain  with  higher  dislocation  density.  The  bulge 
+will eventually pinch off and form a strain-free grain (Passchier and Trouw, 2005). 
+Fig  7.4.2.  The  centre  of  the  mineral  is  referred  to  as  the  core,  surrounded  by  mantle.  The  mantle 
+develops  from  either  sub-grain  formation  that  is  concentrated  on  the  grain  boundaries  of  ductile 
+deformation of the mineral (Passchier and Trouw, 2005). 
+33
+
+--- Page 34 ---
+7.5.  Comparison other regions in the craton similar to the study area 
+Granitoid  intrusion  associated  with  orthogneiss  and  migmatites  where  previously 
+described by Hirdes et al., 1996, Doumbia et al., 1998, Gasquet et al., 2003, Naba et al., 2004 
+and Vegas et al., 2008. The Pissila batholith and the Saaba zone gneiss are petrologically and 
+geochemically  similar  to  gneissic  terranes  in  the  sodic  calc-alkaline  granitoids  in  the 
+Dabakala region, Côte d’lvoire and the batholiths in north eastern Burkina Faso (appendix 1). 
+Therefore,  the  Pissila  batholith  and  the  Saaba  zone  were  possibly  derived  from  similar 
+processes  that  formed  the  above  regions.  In  both  regions  the  granitoids  are  associated  with 
+first  group  of  granitoid  intrusion  ca  2.1  Ga,  which  is  similar  to  the  age  (2143  ±12  Ma  and 
+2117 ±17Ma) of the Pissila batholith (Gasquet et al., 2003, Vegas et al., 2008). 
+In  a  study  of  granitoid-gneissic  terrane  in  the  Dabakala  region,  Hirdes  et  al.,  1996 
+proposed  that  the  gneisses  where  intruded  by  younger  batholiths.  The  intrusion  leads  to 
+partial  melting  and  subsequent  migmatitisation  of  the  gneisses  (Naba  et  al.,  2003). 
+Geochronology of the gneiss produced age ca 2.3 Ga (Gasquet et al., 2003).  The gneiss and 
+batholiths  are  cross-cut  by  alkaline  granites  (Vegas  et  al.,  2008).  The  alkaline  granites  are 
+associated  with  second  generation  pluton  that  intruded  into  the  batholiths  (Doumbia  et  al., 
+1998). 
+Despite the petrological and geochemical similarities with other granitoid-gneissic terranes 
+in  the  craton,  rocks  from  the  study  area  exhibit  some  variation.  The  alkaline  granites  are 
+pegmatoidal  and biotite  bearing  (Vegas et  al., 2008). The  alkaline  granites (K-rich vein) in 
+the  study  Saaba  zone  gneiss  are  fine-grained  and  contain  little  to  no  biotite.  The  alkaline 
+granite/K-rich vein exhibit a REE pattern similar to the gneiss. The REE pattern may suggest 
+the alkaline granite/K-rich vein were derived from a source similar to the gneiss and not from 
+an intrusion unrelated to the gneiss.  
+34
+
+--- Page 35 ---
+8. Conclusion 
+Petrology  and  geochemistry  suggests  the  Pissila batholith  and  the Saaba  zone  gneiss  are 
+differ  from  each  other.  The  gneisses  exhibit  some  affiliations  to  Archean  TTG.  The  Pissila 
+batholith  does  not  vary  too  much  from  other  calc-alkaline  intrusions  in  the  craton. 
+Geochronology  of  the  batholith  produces  age  of  2143  ±12  Ma  and  2117  ±17  Ma. 
+Emplacement was coeval with the Eburnean orogeny ca 2.1 Ga.  
+The  Pissila  batholith  and  the  Saaba  zone  exhibit  some  similarities  to  granitoid-gneissic 
+terranes  in  Côte  d’lvoire,  NE  Burkina  Faso  and  Senegal.  The  study  area  may  have  formed 
+under  processes  similar  to  those  that  formed  granitoid-gneisses  in  the  above  countries. 
+Therefore, the Saaba zone was possibly intruded by the Pissila batholith. The intrusion leads 
+to partial melting and migmatization of the gneisses. 
+Analysis of microstructures in the Pissila batholith and the Saaba zone gneiss suggests the 
+rocks were subjected to two deformation events. The Saaba zone gneiss and migmatites was 
+deformed to amphibolites facies during D1 deformation event. D2 lead to greenschist facies 
+metamorphism of both the Pissila batholith and the Saaba zone.  
+Despite petrography and geochemistry indicating that the  Pissila batholith and the Saaba 
+zone gneiss are unrelated, more conclusive data is required. Therefore, geochronology of the 
+Saaba  zone  is  necessary  to  validate  the  study  results.  Geochronology  would  also  allow  for 
+better comparison of the study area to other granitoid-gneissic terranes in the craton. 
+35
+
+--- Page 36 ---
+9. 
+Acknowledgment  
+The  author  would  like  to  thank  Profs.  Ncube-Hein  and  Saalmann  for  their  supervision,  the 
+West  African  Exploration  Initative  (WAXI)  group  for  sponsoring  the  project  and  the  Earth 
+Lab staff in the University of the Witwatersrand.   
+36
+
+--- Page 37 ---
+Appendix 1 
+REE diagrams of the Dabakala region in Côte d’lvoire (Gasquet et al., 2003) 
+Spider diagram of the Dabakala region in Côte d’lvoire (Gasquet et al., 2003) 
+37
+
+--- Page 38 ---
+Spider diagram of the sodic calc alkaline grainoids (Doumbia et al., 1998) 
+38

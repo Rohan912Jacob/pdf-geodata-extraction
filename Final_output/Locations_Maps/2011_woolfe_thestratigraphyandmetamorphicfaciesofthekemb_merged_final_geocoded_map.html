@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_adc2b31289e89c42069f423bfe80f1a2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>GPS</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:purple;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_adc2b31289e89c42069f423bfe80f1a2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_adc2b31289e89c42069f423bfe80f1a2 = L.map(
+                "map_adc2b31289e89c42069f423bfe80f1a2",
+                {
+                    center: [22.31095111567197, 7.439590746652631],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_03fb555f41c0ffdfa0eac12f8850def5 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u00a9 OpenStreetMap contributors, \u00a9 CARTO",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_03fb555f41c0ffdfa0eac12f8850def5.addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+            var circle_marker_d30ea1766ddac90794928ad488fa427b = L.circleMarker(
+                [14.401460707616708, -0.1717179077950231],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_e00aca32e26d4d5bfca1362cb06e7fcb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d3f1a6dd07e6a14d994f7dc51282a5a0 = $(`<div id="html_d3f1a6dd07e6a14d994f7dc51282a5a0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that  expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field  area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N;  0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in  the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and  dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although  daily  temperatures  exceeded  30  ⁰C.<br><b>Geocode:</b> GPS: 14.401461, -0.171718<br><b>Pages:</b> 6<br><b>Type:</b> GPS<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e00aca32e26d4d5bfca1362cb06e7fcb.setContent(html_d3f1a6dd07e6a14d994f7dc51282a5a0);
+            
+        
+
+        circle_marker_d30ea1766ddac90794928ad488fa427b.bindPopup(popup_e00aca32e26d4d5bfca1362cb06e7fcb)
+        ;
+
+        
+    
+    
+            circle_marker_d30ea1766ddac90794928ad488fa427b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c23405019e7ba34183035a7731430e65 = L.circleMarker(
+                [14.400901363581308, -0.1253938342363663],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_dbb9c45b1459d529425ce64f1c6f5076 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3b65bfcc5b7b94eb4622851c5e741f15 = $(`<div id="html_3b65bfcc5b7b94eb4622851c5e741f15" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that  expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field  area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N;  0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in  the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and  dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although  daily  temperatures  exceeded  30  ⁰C.<br><b>Geocode:</b> GPS: 14.400901, -0.125394<br><b>Pages:</b> 6<br><b>Type:</b> GPS<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_dbb9c45b1459d529425ce64f1c6f5076.setContent(html_3b65bfcc5b7b94eb4622851c5e741f15);
+            
+        
+
+        circle_marker_c23405019e7ba34183035a7731430e65.bindPopup(popup_dbb9c45b1459d529425ce64f1c6f5076)
+        ;
+
+        
+    
+    
+            circle_marker_c23405019e7ba34183035a7731430e65.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eb2ca9b414a06baffa655537980c0a84 = L.circleMarker(
+                [14.455082723189724, -0.1246981789024032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_38178b7a0f5cd96b8829c4c899878465 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c2e45763c7fbc88bd620b81916572d38 = $(`<div id="html_c2e45763c7fbc88bd620b81916572d38" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that  expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field  area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N;  0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in  the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and  dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although  daily  temperatures  exceeded  30  ⁰C.<br><b>Geocode:</b> GPS: 14.455083, -0.124698<br><b>Pages:</b> 6<br><b>Type:</b> GPS<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_38178b7a0f5cd96b8829c4c899878465.setContent(html_c2e45763c7fbc88bd620b81916572d38);
+            
+        
+
+        circle_marker_eb2ca9b414a06baffa655537980c0a84.bindPopup(popup_38178b7a0f5cd96b8829c4c899878465)
+        ;
+
+        
+    
+    
+            circle_marker_eb2ca9b414a06baffa655537980c0a84.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_120470cb31fa50ef06b284922f0c6226 = L.circleMarker(
+                [55.9638487, -3.270035],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_ce2fa8daa58e06338d2a89ec33258430 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_61b206eb524e720e782d3f95e0f4bf5f = $(`<div id="html_61b206eb524e720e782d3f95e0f4bf5f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> The Field, Davidson's Mains, City of Edinburgh, Scotland, United Kingdom<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ce2fa8daa58e06338d2a89ec33258430.setContent(html_61b206eb524e720e782d3f95e0f4bf5f);
+            
+        
+
+        circle_marker_120470cb31fa50ef06b284922f0c6226.bindPopup(popup_ce2fa8daa58e06338d2a89ec33258430)
+        ;
+
+        
+    
+    
+            circle_marker_120470cb31fa50ef06b284922f0c6226.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_703cf8a3e4498ee02baf7d333d8828bd = L.circleMarker(
+                [12.3681873, -1.5270944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_f49868d1ae056b600f4a0115e48a92cc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_35a52a34ecc8ba15003c721d2008bd92 = $(`<div id="html_35a52a34ecc8ba15003c721d2008bd92" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f49868d1ae056b600f4a0115e48a92cc.setContent(html_35a52a34ecc8ba15003c721d2008bd92);
+            
+        
+
+        circle_marker_703cf8a3e4498ee02baf7d333d8828bd.bindPopup(popup_f49868d1ae056b600f4a0115e48a92cc)
+        ;
+
+        
+    
+    
+            circle_marker_703cf8a3e4498ee02baf7d333d8828bd.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a16e51ab5bc6c95a1ee8288cd9f83d99 = L.circleMarker(
+                [14.45564426009941, -0.1710334261399171],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_e19bc9993a2a86baf203a01e7fd7329e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b0dfc2a38cd6f9c6d37314d003d7ac54 = $(`<div id="html_b0dfc2a38cd6f9c6d37314d003d7ac54" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that  expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field  area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N;  0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in  the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and  dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although  daily  temperatures  exceeded  30  ⁰C.<br><b>Geocode:</b> GPS: 14.455644, -0.171033<br><b>Pages:</b> 6<br><b>Type:</b> GPS<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e19bc9993a2a86baf203a01e7fd7329e.setContent(html_b0dfc2a38cd6f9c6d37314d003d7ac54);
+            
+        
+
+        circle_marker_a16e51ab5bc6c95a1ee8288cd9f83d99.bindPopup(popup_e19bc9993a2a86baf203a01e7fd7329e)
+        ;
+
+        
+    
+    
+            circle_marker_a16e51ab5bc6c95a1ee8288cd9f83d99.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1e5cf8283fe2583096f4f4c0a78ce26b = L.circleMarker(
+                [55.9638487, -3.270035],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_d8b92bd8d31d91dad67d38ec095a8bc1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5be458258fc0ac10f41cbe76bdf2eb3a = $(`<div id="html_5be458258fc0ac10f41cbe76bdf2eb3a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> The Field, Davidson's Mains, City of Edinburgh, Scotland, United Kingdom<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d8b92bd8d31d91dad67d38ec095a8bc1.setContent(html_5be458258fc0ac10f41cbe76bdf2eb3a);
+            
+        
+
+        circle_marker_1e5cf8283fe2583096f4f4c0a78ce26b.bindPopup(popup_d8b92bd8d31d91dad67d38ec095a8bc1)
+        ;
+
+        
+    
+    
+            circle_marker_1e5cf8283fe2583096f4f4c0a78ce26b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_044300ceec034e9b86777f596c34ccbe = L.circleMarker(
+                [11.7447567, -2.9300274],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_829dc57a291b7a9a9325ed39e2075b81 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_47b94b2a085283670986e5bca335b328 = $(`<div id="html_47b94b2a085283670986e5bca335b328" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2. Geology setting  2.1 Regional geology and tectonics  The West African Craton is composed of Palaeoproterozoic rocks of the Birimian Supergroup  (Feybesse et  al.,  2006; Hein,  2010) and Tarkwa Group (Davis  et  al.,  1994)  as  well as  calc- alkaline plutons which include tonalite-trondjhemite-granodiorite and diorite intrusions which  intrude the Palaeoproterozoic stratigraphy (Pons et al., 1995; Naba et al., 2004 Hein, 2010). The Birimian Supergroup is dominated by metamorphosed sedimentary, volcano-sedimentary  and  volcanic  sequences. The  meta-volcanic  sequences  in  the  Goren  greenstone  belt  and  Boromo greenstone belt are at dated at 2238 ± 5 Ma and 2171 ± 7 Ma respectively (Castaing  et  al.,  2003)  based  on  Pb-Pb  zircon  dating  from  rhyolites  within  the  belts. The  metasedimentary  rocks  of  the  Birimian  Supergroup  comprise  mainly  metamorphosed  volcaniclastics,  greywacke,  siltstone,  shale,  chemical  sediments  and  chert. The  younger  Tarkwa  Group,  dated  at  2194–2132  Ma  from  U-Pb  detrital  zircons  (Davis  et  al.,  1994),  comprises  clastic  sedimentary  rocks  derived  from  erosion  of  the  Birimian  Supergroup  of  which it overlies unconformably (Hirdes et al., 1992 and Davis et al., 1994).<br><b>Geocode:</b> Boromo, Balé, Boucle du Mouhoun, Burkina Faso<br><b>Pages:</b> 8<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_829dc57a291b7a9a9325ed39e2075b81.setContent(html_47b94b2a085283670986e5bca335b328);
+            
+        
+
+        circle_marker_044300ceec034e9b86777f596c34ccbe.bindPopup(popup_829dc57a291b7a9a9325ed39e2075b81)
+        ;
+
+        
+    
+    
+            circle_marker_044300ceec034e9b86777f596c34ccbe.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_96d78f8b0617922af02d2e339e9abf61 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_816fa02f72953b76072ba4b97cebfd27 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c5bd91ac85fb420a44266387ffcb6653 = $(`<div id="html_c5bd91ac85fb420a44266387ffcb6653" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4 || The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that  expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field  area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N;  0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in  the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and  dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although  daily  temperatures  exceeded  30  ⁰C. || The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 4,5,6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_816fa02f72953b76072ba4b97cebfd27.setContent(html_c5bd91ac85fb420a44266387ffcb6653);
+            
+        
+
+        circle_marker_96d78f8b0617922af02d2e339e9abf61.bindPopup(popup_816fa02f72953b76072ba4b97cebfd27)
+        ;
+
+        
+    
+    
+            circle_marker_96d78f8b0617922af02d2e339e9abf61.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e5012995fe4876aa294772571c9bf8fd = L.circleMarker(
+                [14.0327651, -0.0348286],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_f9bae536c2b2029f728a3f9eb7d6880a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_12882e319c8441690dea5b18dd57f90a = $(`<div id="html_12882e319c8441690dea5b18dd57f90a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Considering the KEMB and related  pressure-temperature  conditions,  would  it  have  been  possible  to  produce  a  migmatite? The  migmatite  is  situated  between  the  greenschist  and  amphibolite  facies. Here  temperatures  would have been in excess of 450 ⁰C (c.f., Vernon and Clarke, 2008). The influx of fluids at  these  temperatures  would  not  have  been  sufficient  to  induce  melting. However  there  is  the  presence  of  several  large  plutons  in  the  surrounding  area  which  include  the  Tin  Taradat  granodiorite-tonalite,  Dori  batholith  and  the  Granite  Adamelite  (Tshibubudze  and  Hein,  submitted). These  could  have  been  the  source  of  high  temperature  igneous  related  fluids  which would have infiltrated the surrounding rocks.<br><b>Geocode:</b> Dori, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 47<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f9bae536c2b2029f728a3f9eb7d6880a.setContent(html_12882e319c8441690dea5b18dd57f90a);
+            
+        
+
+        circle_marker_e5012995fe4876aa294772571c9bf8fd.bindPopup(popup_f9bae536c2b2029f728a3f9eb7d6880a)
+        ;
+
+        
+    
+    
+            circle_marker_e5012995fe4876aa294772571c9bf8fd.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e3be7bac07fa6ee77cd08b2a6150092c = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_5fcdac5249d153d589c7cd2be0cf2f34 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eb8429d75e2dd4dd6cb81e5862759d0e = $(`<div id="html_eb8429d75e2dd4dd6cb81e5862759d0e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 4<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5fcdac5249d153d589c7cd2be0cf2f34.setContent(html_eb8429d75e2dd4dd6cb81e5862759d0e);
+            
+        
+
+        circle_marker_e3be7bac07fa6ee77cd08b2a6150092c.bindPopup(popup_5fcdac5249d153d589c7cd2be0cf2f34)
+        ;
+
+        
+    
+    
+            circle_marker_e3be7bac07fa6ee77cd08b2a6150092c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3be8cc462ac44df6d546ddf7165c3c9c = L.circleMarker(
+                [33.0563927, 35.2369919],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_247bb107c19c1db01c8872cf8783ba0b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_87b71d64a579304325cc5db48c9a2c85 = $(`<div id="html_87b71d64a579304325cc5db48c9a2c85" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2. Geology setting  2.1 Regional geology and tectonics  The West African Craton is composed of Palaeoproterozoic rocks of the Birimian Supergroup  (Feybesse et  al.,  2006; Hein,  2010) and Tarkwa Group (Davis  et  al.,  1994)  as  well as  calc- alkaline plutons which include tonalite-trondjhemite-granodiorite and diorite intrusions which  intrude the Palaeoproterozoic stratigraphy (Pons et al., 1995; Naba et al., 2004 Hein, 2010). The Birimian Supergroup is dominated by metamorphosed sedimentary, volcano-sedimentary  and  volcanic  sequences. The  meta-volcanic  sequences  in  the  Goren  greenstone  belt  and  Boromo greenstone belt are at dated at 2238 ± 5 Ma and 2171 ± 7 Ma respectively (Castaing  et  al.,  2003)  based  on  Pb-Pb  zircon  dating  from  rhyolites  within  the  belts. The  metasedimentary  rocks  of  the  Birimian  Supergroup  comprise  mainly  metamorphosed  volcaniclastics,  greywacke,  siltstone,  shale,  chemical  sediments  and  chert. The  younger  Tarkwa  Group,  dated  at  2194–2132  Ma  from  U-Pb  detrital  zircons  (Davis  et  al.,  1994),  comprises  clastic  sedimentary  rocks  derived  from  erosion  of  the  Birimian  Supergroup  of  which it overlies unconformably (Hirdes et al., 1992 and Davis et al., 1994).<br><b>Geocode:</b> Goren, Maale Yosef Regional Council, Acre Subdistrict, North District, Israel<br><b>Pages:</b> 8<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_247bb107c19c1db01c8872cf8783ba0b.setContent(html_87b71d64a579304325cc5db48c9a2c85);
+            
+        
+
+        circle_marker_3be8cc462ac44df6d546ddf7165c3c9c.bindPopup(popup_247bb107c19c1db01c8872cf8783ba0b)
+        ;
+
+        
+    
+    
+            circle_marker_3be8cc462ac44df6d546ddf7165c3c9c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d54ea5e9a36c7ac3ed0b0546a3a320e9 = L.circleMarker(
+                [14.4445805, -0.2345411],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_ac23a68c43dcd4d650aadd043588101c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9c0a455d96bed1928a081af91d275fa0 = $(`<div id="html_9c0a455d96bed1928a081af91d275fa0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> River  channels  trend  east  towards  a  major  river that is located on the eastern limits of the field area. The majority of the land between  the ridges is covered by millet fields where the underlying rock is covered by a layer of sand. Huts  are  scatted  across  the  farm  land  with  the  village  of  Kel  Enguef  situated  to  the  east  between  the  two  ridges  of  the  field  area  (Fig. 1.1b). Dirt  roads  are  present  connecting  the  village of Kel Enguef to the main road off to the west of the field area. Access into the field  was either from this main road or from the north off a main road that connects Gorom Gorom  to the village of Markoye (Fig. || STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Gorom-Gorom, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 5,6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ac23a68c43dcd4d650aadd043588101c.setContent(html_9c0a455d96bed1928a081af91d275fa0);
+            
+        
+
+        circle_marker_d54ea5e9a36c7ac3ed0b0546a3a320e9.bindPopup(popup_ac23a68c43dcd4d650aadd043588101c)
+        ;
+
+        
+    
+    
+            circle_marker_d54ea5e9a36c7ac3ed0b0546a3a320e9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_11f2cf03fd9d72adb9eb87cb242bceb9 = L.circleMarker(
+                [49.742803, 9.6275081],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_4980bb16115db08d804aa84801c00d6d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a7f0af4b492ea5842e962f4f3d2f62fe = $(`<div id="html_a7f0af4b492ea5842e962f4f3d2f62fe" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2003), Tshibubudze et al. (2009)  and  Tshibubudze  and  Hein  (submitted)  give  an  understanding  of  the  stratigraphic  sequences and metamorphism in the area. This has given some indication of what might be  present in the Kel Enguef metamorphic belt. The project has involved the geological mapping of the field area with follow up petrographic  and mineralogical work to elucidate the stratigraphy and metamorphic facies of the  KEMB. An  attempt  has  been  made  to  reconstruct  the  environment  of  deposition  and  the  tectonic  setting. The study will also investigate if there is any economic mineralization and if so what  type. || 7.4 Tectonic History  The  KEMB  is  host  to  metamorphosed  sedimentary  sequences  and  igneous  intrusions. The  terrain has been subjected to a series of regional tectonic events. The studies of Tshibubudze  et al. (2009) and Tshibubudze and Hein (submitted) have indicated that the KEMB lies west  of    the  Markoye  Shear  Zone  which  developed  by  at  least  two  regional  deformation  events. Understanding the tectonic history of the KEMB is beyond the scope of this project however  based on the metamorphic and structural data collected, a simplified tectonic history can be  suggested. Saying this, further studies will be crucial in acquiring a greater understanding of  how the KEMB fits in with the regional geology. || The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3 || The craton has been subjected to several tectonic events corresponding to the deformation of  Birimian  Supergroup. This  includes  the  SW  directed  shortening  of  the  Tangaean  Event  (2170-2130  Ma),  SE-NW  shortening  of  the  Eburnean  Orogeny  (2130-1980  Ma)  and  the  young Wabo-Tampelse Event. The Tangaean Event and Eburnean Orogeny were associated  with emplacement of TTG-suite plutons and dykes (Feybesse et al., 2006; Tshibubudze et al.,  2009; Hein 2010). The tectonic events resulted in the formation of greenstone belts separated  by  the  granitoids  (Hirdes  and  Davis,  2002). The  Eburnean  Orogeny  resulted  in  regional  metamorphism of the Birimian Supergroup to greenschist facies and contact metamorphism  from pluton emplacement to low - medium amphibolite facies (Pons et al., 1995; Debat et al.,  2003). 2.2 Local geology  The  Markoye  Shear  Zone  lies  to  the  east  of  the  KEMB. || The intrusion of the diorite pluton. There are several granodiorite plutons that occur in  the  surrounding  area  (Tshibubudze  and  Hein,  submitted). The  most  likely  source  of  the pluton in KEMB could be a  younger batholith related diorite intrusions south of  the town of Gorom Gorom. 7. The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands. Ferricrete  horizons  in  the  WAC  formed  during  the  Cretaceous  and  associated  with  the  development of in situ laterite (Brown et al., 1994; Burke and Gunnell, 2008). || Therefore  the  sequences  described  may  represent a portion of the Oudalan-Gorouol greenstone belt and this would also be enforced  by the KEMB close proximity to the belt, to east of the Markoye shear zone,  41 || These zones of infiltration would have  had  to  be  concentrated  and  localised. The  rapid  increase  of  temperature  in  pre-existing  hot  conditions could have induced partial melting and dehydration of the rock. Migmatites from  Saint-Malo, France, with a very similar mineral assemblage of muscovite-plagioclase-quartz  leucosome and biotite-rich melanosome, are interpreted to have formed by the breakdown of  muscovite (Sawyer, 2008). Although the Saint-Malo migmatites have been proposed to have  formed  in  upper  amphibolite  facies,  the  presence  of  muscovite  in  the  metamorphosed  rock  which formed the migmatite in KEMB would have been a source for more hydrous fluid. 46<br><b>Geocode:</b> Kembach, Wertheim, Main-Tauber-Kreis, Baden-Württemberg, 97277, Germany<br><b>Pages:</b> 4,42,47,48,49,8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4980bb16115db08d804aa84801c00d6d.setContent(html_a7f0af4b492ea5842e962f4f3d2f62fe);
+            
+        
+
+        circle_marker_11f2cf03fd9d72adb9eb87cb242bceb9.bindPopup(popup_4980bb16115db08d804aa84801c00d6d)
+        ;
+
+        
+    
+    
+            circle_marker_11f2cf03fd9d72adb9eb87cb242bceb9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0e8bf94b10b4ac38620cf388cb69efd7 = L.circleMarker(
+                [14.6610476, 0.8014577],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_6497a3dcdc5c0a609ebcbb9ae6c37ce4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_edb2232d8bd09f14e8f43fea3f561afa = $(`<div id="html_edb2232d8bd09f14e8f43fea3f561afa" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Kel Enguef  Figure 2.2: Geography and surface cover map of the KEMB. 12 || STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Kel Enguef, Téra, Tillabéri Region, Niger<br><b>Pages:</b> 13,5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6497a3dcdc5c0a609ebcbb9ae6c37ce4.setContent(html_edb2232d8bd09f14e8f43fea3f561afa);
+            
+        
+
+        circle_marker_0e8bf94b10b4ac38620cf388cb69efd7.bindPopup(popup_6497a3dcdc5c0a609ebcbb9ae6c37ce4)
+        ;
+
+        
+    
+    
+            circle_marker_0e8bf94b10b4ac38620cf388cb69efd7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0e7dfd86746131b8ba8f1a8e1fb60df9 = L.circleMarker(
+                [14.6610476, 0.8014577],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_5c9295fdd64fadc583a57a53f4e5b97c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d5aa6d0a9e99b0185984c909cf07170a = $(`<div id="html_d5aa6d0a9e99b0185984c909cf07170a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2003), Tshibubudze et al. (2009)  and  Tshibubudze  and  Hein  (submitted)  give  an  understanding  of  the  stratigraphic  sequences and metamorphism in the area. This has given some indication of what might be  present in the Kel Enguef metamorphic belt. The project has involved the geological mapping of the field area with follow up petrographic  and mineralogical work to elucidate the stratigraphy and metamorphic facies of the  KEMB. An  attempt  has  been  made  to  reconstruct  the  environment  of  deposition  and  the  tectonic  setting. The study will also investigate if there is any economic mineralization and if so what  type. || 3. Methodology  In order to  gain  an understanding of the field  area, a mosaic was constructed using Google  Earth® images of the Kel Enguef metamorphic belt before entering the field. This was used  to  locate  the  field  area  with  respect  to  the  surrounding  topography  which  included  the  location and orientation of rivers and ridges, as well as roads and villages. These were used  for orientation in the field. Reconnaissance of the terrain and geology was carried out  in the field area before mapping  commenced. This assisted in planning field mapping and the location of suitable drop-off and  pick-up points and access within the field area. || 5. Petrography  The petrographic study included 16 thin section samples of the Kel Enguef metamorphic belt. These  were  chosen  as  representative  samples  of  the  stratigraphy. The  focus  of  the  petrographic study was on the textural features and mineral assemblages in order to establish  the original rock types and the conditions which lead to metamorphism of the metamorphic  samples. The study splits the samples into the various facies. Intrusive samples focus on the  mineralogy. || Abstract  The  Kel  Enguef  metamorphic  belt  is  host  to  metamorphosed  clastic  and  chemical  sedimentary  rocks  that  are  intruded  by  gabbro  dykes  and  a  diorite  pluton. The  metamorphosed  clastic  and  sedimentary  rocks  were  deposited  in  a  deltaic  setting  into  a  shallow  marine  environment. The  sequences  comprise  fine-  to  coarse-grained  sedimentary  rocks  that  exhibit  an  overall  upward  coarsening  stratigraphy. The  metamorphism  and  deformation of the sequences is interpreted to have occurred mainly as a result of burial. Both  greenschist and amphibolite grade metamorphism have been recognised. Gradation between  these two facies is not observed. || STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Kel Enguef, Téra, Tillabéri Region, Niger<br><b>Pages:</b> 10,2,30,4,5<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5c9295fdd64fadc583a57a53f4e5b97c.setContent(html_d5aa6d0a9e99b0185984c909cf07170a);
+            
+        
+
+        circle_marker_0e7dfd86746131b8ba8f1a8e1fb60df9.bindPopup(popup_5c9295fdd64fadc583a57a53f4e5b97c)
+        ;
+
+        
+    
+    
+            circle_marker_0e7dfd86746131b8ba8f1a8e1fb60df9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b01bd076c9c488f89f3d78a0d22ee203 = L.circleMarker(
+                [35.7305256, 139.7176167],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_4843d788cb8821a5bbce40142caa2440 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_68d2ab094ec73f9889e959aa97a88304 = $(`<div id="html_68d2ab094ec73f9889e959aa97a88304" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Sunshine 60 Street, Higashi Ikebukuro 3, Higashi Ikebukuro, Toshima, Tokyo, 170-8418, Japan<br><b>Pages:</b> 5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4843d788cb8821a5bbce40142caa2440.setContent(html_68d2ab094ec73f9889e959aa97a88304);
+            
+        
+
+        circle_marker_b01bd076c9c488f89f3d78a0d22ee203.bindPopup(popup_4843d788cb8821a5bbce40142caa2440)
+        ;
+
+        
+    
+    
+            circle_marker_b01bd076c9c488f89f3d78a0d22ee203.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d6d7e0947cd7ef246eea98f19f9ab8cf = L.circleMarker(
+                [14.7095001, 0.0948661],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_880f12ae237436cc9705cd58f0791f27 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_31c0b3c7969aad65b13e6e31473702ee = $(`<div id="html_31c0b3c7969aad65b13e6e31473702ee" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_880f12ae237436cc9705cd58f0791f27.setContent(html_31c0b3c7969aad65b13e6e31473702ee);
+            
+        
+
+        circle_marker_d6d7e0947cd7ef246eea98f19f9ab8cf.bindPopup(popup_880f12ae237436cc9705cd58f0791f27)
+        ;
+
+        
+    
+    
+            circle_marker_d6d7e0947cd7ef246eea98f19f9ab8cf.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_737e1a4842f5ce4c7b87d69fea12284a = L.circleMarker(
+                [22.25, 9.8],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_83af56fad1f69cf24539a22ded5f89b2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_95f8075334cc2e4fad399759a82ecf2f = $(`<div id="html_95f8075334cc2e4fad399759a82ecf2f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that  expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field  area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N;  0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in  the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and  dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although  daily  temperatures  exceeded  30  ⁰C.<br><b>Geocode:</b> Sahara, Tazrouk, Tazrouk District, Tamanrasset, Algeria<br><b>Pages:</b> 6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_83af56fad1f69cf24539a22ded5f89b2.setContent(html_95f8075334cc2e4fad399759a82ecf2f);
+            
+        
+
+        circle_marker_737e1a4842f5ce4c7b87d69fea12284a.bindPopup(popup_83af56fad1f69cf24539a22ded5f89b2)
+        ;
+
+        
+    
+    
+            circle_marker_737e1a4842f5ce4c7b87d69fea12284a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7034b304cac7fa946dcc1c83691e8991 = L.circleMarker(
+                [14.0279165, -0.7717776],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_f213ac95d5145c79f4ba2335cb3320b6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_552081a707c3e37d6c851166d1b40633 = $(`<div id="html_552081a707c3e37d6c851166d1b40633" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that  expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field  area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N;  0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in  the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and  dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although  daily  temperatures  exceeded  30  ⁰C.<br><b>Geocode:</b> Sahel, Burkina Faso<br><b>Pages:</b> 6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f213ac95d5145c79f4ba2335cb3320b6.setContent(html_552081a707c3e37d6c851166d1b40633);
+            
+        
+
+        circle_marker_7034b304cac7fa946dcc1c83691e8991.bindPopup(popup_f213ac95d5145c79f4ba2335cb3320b6)
+        ;
+
+        
+    
+    
+            circle_marker_7034b304cac7fa946dcc1c83691e8991.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5a8376bcacc85a1cbaea2273ed11fd4 = L.circleMarker(
+                [48.649518, -2.0260409],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_dd56ddd9a70eecb4f95061c1d66c14da = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c3a73c7e1c940e290d81bbbbe4235740 = $(`<div id="html_c3a73c7e1c940e290d81bbbbe4235740" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> These zones of infiltration would have  had  to  be  concentrated  and  localised. The  rapid  increase  of  temperature  in  pre-existing  hot  conditions could have induced partial melting and dehydration of the rock. Migmatites from  Saint-Malo, France, with a very similar mineral assemblage of muscovite-plagioclase-quartz  leucosome and biotite-rich melanosome, are interpreted to have formed by the breakdown of  muscovite (Sawyer, 2008). Although the Saint-Malo migmatites have been proposed to have  formed  in  upper  amphibolite  facies,  the  presence  of  muscovite  in  the  metamorphosed  rock  which formed the migmatite in KEMB would have been a source for more hydrous fluid. 46<br><b>Geocode:</b> Saint-Malo, Ille-et-Vilaine, Brittany, Metropolitan France, 35400, France<br><b>Pages:</b> 47<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_dd56ddd9a70eecb4f95061c1d66c14da.setContent(html_c3a73c7e1c940e290d81bbbbe4235740);
+            
+        
+
+        circle_marker_f5a8376bcacc85a1cbaea2273ed11fd4.bindPopup(popup_dd56ddd9a70eecb4f95061c1d66c14da)
+        ;
+
+        
+    
+    
+            circle_marker_f5a8376bcacc85a1cbaea2273ed11fd4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b30c85c5bd2d743aaa347edf757cf6d9 = L.circleMarker(
+                [14.7788614, 0.0384507],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_e3865d1851404fc59bbd9b59e20f2f12 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a4a60f5235f8219f2398a9c8f178c722 = $(`<div id="html_a4a60f5235f8219f2398a9c8f178c722" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Gold mineralisation, found at  many locations, is hosted in shear zones as structural hosted lode-gold associated with NW- SE structures (Nikiéma, 1992; Tshibubudze et al., 2009; Tshibubudze and Hein, submitted). Manganese  mineralisation  is  situated  NE  and  SW  of  the  KEMB  at  Tambăo  and  Billiata  (Tshibubudze and Hein, submitted) and pegamatite veins are situated NE at Tambăo. 8<br><b>Geocode:</b> Tambao, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 9<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e3865d1851404fc59bbd9b59e20f2f12.setContent(html_a4a60f5235f8219f2398a9c8f178c722);
+            
+        
+
+        circle_marker_b30c85c5bd2d743aaa347edf757cf6d9.bindPopup(popup_e3865d1851404fc59bbd9b59e20f2f12)
+        ;
+
+        
+    
+    
+            circle_marker_b30c85c5bd2d743aaa347edf757cf6d9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f74fa4b6d631638c2c657d7a66105f25 = L.circleMarker(
+                [14.7788614, 0.0384507],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_bcd7ca3cb82a3544fb0930de19a84c41 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_016eb23951afc3354ba63a5295c0a36d = $(`<div id="html_016eb23951afc3354ba63a5295c0a36d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Tambao, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_bcd7ca3cb82a3544fb0930de19a84c41.setContent(html_016eb23951afc3354ba63a5295c0a36d);
+            
+        
+
+        circle_marker_f74fa4b6d631638c2c657d7a66105f25.bindPopup(popup_bcd7ca3cb82a3544fb0930de19a84c41)
+        ;
+
+        
+    
+    
+            circle_marker_f74fa4b6d631638c2c657d7a66105f25.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9403bf800808a46d17379a01deb6c1d7 = L.circleMarker(
+                [22.2775843, 114.1728604],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_9120e505d3981ec786c835c785f68e49 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f47c0dd7638dc6847df012603f86c5f8 = $(`<div id="html_f47c0dd7638dc6847df012603f86c5f8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The intrusion of the diorite pluton. There are several granodiorite plutons that occur in  the  surrounding  area  (Tshibubudze  and  Hein,  submitted). The  most  likely  source  of  the pluton in KEMB could be a  younger batholith related diorite intrusions south of  the town of Gorom Gorom. 7. The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands. Ferricrete  horizons  in  the  WAC  formed  during  the  Cretaceous  and  associated  with  the  development of in situ laterite (Brown et al., 1994; Burke and Gunnell, 2008).<br><b>Geocode:</b> Wan Chai, Hennessy Road, Wan Chai South, Wan Chai, Wan Chai District, Hong Kong Island, Hong Kong, China<br><b>Pages:</b> 49<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9120e505d3981ec786c835c785f68e49.setContent(html_f47c0dd7638dc6847df012603f86c5f8);
+            
+        
+
+        circle_marker_9403bf800808a46d17379a01deb6c1d7.bindPopup(popup_9120e505d3981ec786c835c785f68e49)
+        ;
+
+        
+    
+    
+            circle_marker_9403bf800808a46d17379a01deb6c1d7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_684eaea148a397fa23e9b6a6ced1cff1 = L.circleMarker(
+                [40.7156923, -73.5753478],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_eb44542382ba8361676ba9852edd8ff0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f6804d2532758dd71fbae37e8070c7f9 = $(`<div id="html_f6804d2532758dd71fbae37e8070c7f9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1. Introduction  1.1 Preamble  The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom  Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is  situated  in  the  east  of  the  field  area. During  field  reconnaissance  in  2010,  the  KEMB  was  found by the Wits research team where it presented an anomaly on the regional topographical  and geological maps. The KEMB has not been researched in detail, thus how it fits in with  the  surrounding  area  is  unknown. The  general  region  of  the  KEMB  has  been  mapped  by  Castaing et al.<br><b>Geocode:</b> The Meadows At Mitchell Field, East Meadow, Town of Hempstead, Nassau County, New York, United States<br><b>Pages:</b> 4<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_eb44542382ba8361676ba9852edd8ff0.setContent(html_f6804d2532758dd71fbae37e8070c7f9);
+            
+        
+
+        circle_marker_684eaea148a397fa23e9b6a6ced1cff1.bindPopup(popup_eb44542382ba8361676ba9852edd8ff0)
+        ;
+
+        
+    
+    
+            circle_marker_684eaea148a397fa23e9b6a6ced1cff1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bde4ccb37528759fc4c00573b62d84de = L.circleMarker(
+                [14.4445805, -0.2345411],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_d5eda49f61483dc43ea33e4e6304b30c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fa7481182df16afafe2e001d9bd71962 = $(`<div id="html_fa7481182df16afafe2e001d9bd71962" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1. Introduction  1.1 Preamble  The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom  Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is  situated  in  the  east  of  the  field  area. During  field  reconnaissance  in  2010,  the  KEMB  was  found by the Wits research team where it presented an anomaly on the regional topographical  and geological maps. The KEMB has not been researched in detail, thus how it fits in with  the  surrounding  area  is  unknown. The  general  region  of  the  KEMB  has  been  mapped  by  Castaing et al.<br><b>Geocode:</b> Gorom-Gorom, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d5eda49f61483dc43ea33e4e6304b30c.setContent(html_fa7481182df16afafe2e001d9bd71962);
+            
+        
+
+        circle_marker_bde4ccb37528759fc4c00573b62d84de.bindPopup(popup_d5eda49f61483dc43ea33e4e6304b30c)
+        ;
+
+        
+    
+    
+            circle_marker_bde4ccb37528759fc4c00573b62d84de.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e20468e22c96e36a4ab41eca88c6ba6b = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_73fd79c012bf1d28a2d79b944f039cfa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a824a91b5dcda37900ebd46a46cb85f7 = $(`<div id="html_a824a91b5dcda37900ebd46a46cb85f7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1. Introduction  1.1 Preamble  The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom  Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is  situated  in  the  east  of  the  field  area. During  field  reconnaissance  in  2010,  the  KEMB  was  found by the Wits research team where it presented an anomaly on the regional topographical  and geological maps. The KEMB has not been researched in detail, thus how it fits in with  the  surrounding  area  is  unknown. The  general  region  of  the  KEMB  has  been  mapped  by  Castaing et al. || The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_73fd79c012bf1d28a2d79b944f039cfa.setContent(html_a824a91b5dcda37900ebd46a46cb85f7);
+            
+        
+
+        circle_marker_e20468e22c96e36a4ab41eca88c6ba6b.bindPopup(popup_73fd79c012bf1d28a2d79b944f039cfa)
+        ;
+
+        
+    
+    
+            circle_marker_e20468e22c96e36a4ab41eca88c6ba6b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5b5aae8393e9eb3ac79938b05fbb6b04 = L.circleMarker(
+                [14.6610476, 0.8014577],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_79320deb149d5a8b740ac51de1b04d95 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_44f1b7eb10699c9155cba822b683322c = $(`<div id="html_44f1b7eb10699c9155cba822b683322c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1. Introduction  1.1 Preamble  The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom  Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is  situated  in  the  east  of  the  field  area. During  field  reconnaissance  in  2010,  the  KEMB  was  found by the Wits research team where it presented an anomaly on the regional topographical  and geological maps. The KEMB has not been researched in detail, thus how it fits in with  the  surrounding  area  is  unknown. The  general  region  of  the  KEMB  has  been  mapped  by  Castaing et al. || River  channels  trend  east  towards  a  major  river that is located on the eastern limits of the field area. The majority of the land between  the ridges is covered by millet fields where the underlying rock is covered by a layer of sand. Huts  are  scatted  across  the  farm  land  with  the  village  of  Kel  Enguef  situated  to  the  east  between  the  two  ridges  of  the  field  area  (Fig. 1.1b). Dirt  roads  are  present  connecting  the  village of Kel Enguef to the main road off to the west of the field area. Access into the field  was either from this main road or from the north off a main road that connects Gorom Gorom  to the village of Markoye (Fig.<br><b>Geocode:</b> Kel Enguef, Téra, Tillabéri Region, Niger<br><b>Pages:</b> 4,6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_79320deb149d5a8b740ac51de1b04d95.setContent(html_44f1b7eb10699c9155cba822b683322c);
+            
+        
+
+        circle_marker_5b5aae8393e9eb3ac79938b05fbb6b04.bindPopup(popup_79320deb149d5a8b740ac51de1b04d95)
+        ;
+
+        
+    
+    
+            circle_marker_5b5aae8393e9eb3ac79938b05fbb6b04.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f3ad524fc196b9c95ae2f8a6db91a4a = L.circleMarker(
+                [14.7095001, 0.0948661],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_adc2b31289e89c42069f423bfe80f1a2);
+        
+    
+        var popup_1e2c47f12852fd2a1c6b47191db2900e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_42e83ef470324122a4954c501e2cb692 = $(`<div id="html_42e83ef470324122a4954c501e2cb692" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> River  channels  trend  east  towards  a  major  river that is located on the eastern limits of the field area. The majority of the land between  the ridges is covered by millet fields where the underlying rock is covered by a layer of sand. Huts  are  scatted  across  the  farm  land  with  the  village  of  Kel  Enguef  situated  to  the  east  between  the  two  ridges  of  the  field  area  (Fig. 1.1b). Dirt  roads  are  present  connecting  the  village of Kel Enguef to the main road off to the west of the field area. Access into the field  was either from this main road or from the north off a main road that connects Gorom Gorom  to the village of Markoye (Fig.<br><b>Geocode:</b> Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1e2c47f12852fd2a1c6b47191db2900e.setContent(html_42e83ef470324122a4954c501e2cb692);
+            
+        
+
+        circle_marker_4f3ad524fc196b9c95ae2f8a6db91a4a.bindPopup(popup_1e2c47f12852fd2a1c6b47191db2900e)
+        ;
+
+        
+    
+    
+            circle_marker_4f3ad524fc196b9c95ae2f8a6db91a4a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
