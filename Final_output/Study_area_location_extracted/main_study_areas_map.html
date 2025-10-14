@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35effb6692514f1b8874da48cbb245df {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_35effb6692514f1b8874da48cbb245df" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35effb6692514f1b8874da48cbb245df = L.map(
+                "map_35effb6692514f1b8874da48cbb245df",
+                {
+                    center: [13.568144444444444, -4.977866666666667],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_76015bdb27e135fe4b88de664d2e7a0d = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u00a9 OpenStreetMap contributors, \u00a9 CARTO",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_76015bdb27e135fe4b88de664d2e7a0d.addTo(map_35effb6692514f1b8874da48cbb245df);
+        
+    
+            var marker_cluster_e331c36558844119f4c240a2013c259f = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_b12b46f9eecc8e3b40ac67d14fdca9bb = L.marker(
+                [13.5, -1.1],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_8571cc6d98fb85378aa1b12b68ad2151 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_65d2ac8af1e7c4cf2fa824821096f245 = $(`<div id="html_65d2ac8af1e7c4cf2fa824821096f245" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2013_Peters.txt<br><b>Title:</b> THE VOLCANOLOGY, GEOCHEMISTRY AND METALLOGENIC POTENTIAL OF THE GOREN VOLCANO-SEDIMENTARY BELT, NORTHEAST BURKINA FASO, WEST AFRICA<br><b>Author:</b> Luke Fred Horst Peters<br><b>Year:</b> 2013<br><b>Page:</b> 3<br><b>Location:</b> Goren volcano-sedimentary belt, Burkina Faso<br><b>Mention:</b> The Palaeoproterozoic southern Goren volcano-sedimentary belt of northeast Burkina Faso represents a sequence/package of rocks formed in a back-arc basin environment.<br><b>Lat/Lon:</b> 13.5, -1.1</div>`)[0];
+                popup_8571cc6d98fb85378aa1b12b68ad2151.setContent(html_65d2ac8af1e7c4cf2fa824821096f245);
+            
+        
+
+        marker_b12b46f9eecc8e3b40ac67d14fdca9bb.bindPopup(popup_8571cc6d98fb85378aa1b12b68ad2151)
+        ;
+
+        
+    
+    
+            marker_b12b46f9eecc8e3b40ac67d14fdca9bb.bindTooltip(
+                `<div>
+                     Goren volcano-sedimentary belt, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_29a7dff7851c6cbfb9b0e2b7ff6974a1 = L.marker(
+                [14.5, -11.5],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_62627a2ab760c20feca52b2a2ecb7b44 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_b9691c792f846896a7530a7ae7ff3b08 = $(`<div id="html_b9691c792f846896a7530a7ae7ff3b08" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2015_Masurel_phd.txt<br><b>Title:</b> 4D evolution of the Sadiola-Yatela gold district, Kédougou-Kénieba inlier, West Africa<br><b>Author:</b> QUENTIN MASUREL<br><b>Year:</b> 2015<br><b>Page:</b> 22<br><b>Location:</b> Sadiola-Yatela gold district, Mali<br><b>Mention:</b> The Sadiola-Yatela gold district is located in the Malian northeastern part of the inlier<br><b>Lat/Lon:</b> 14.5, -11.5</div>`)[0];
+                popup_62627a2ab760c20feca52b2a2ecb7b44.setContent(html_b9691c792f846896a7530a7ae7ff3b08);
+            
+        
+
+        marker_29a7dff7851c6cbfb9b0e2b7ff6974a1.bindPopup(popup_62627a2ab760c20feca52b2a2ecb7b44)
+        ;
+
+        
+    
+    
+            marker_29a7dff7851c6cbfb9b0e2b7ff6974a1.bindTooltip(
+                `<div>
+                     Sadiola-Yatela gold district, Mali
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1b11bfae6302640101fae7d1f9f8fa3f = L.marker(
+                [13.5, -12.0],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_16184ac270b21ce99c783bef97dedf32 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_09db69736235694dfc153f2c80ad2229 = $(`<div id="html_09db69736235694dfc153f2c80ad2229" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2015_Masurel_phd.txt<br><b>Title:</b> 4D evolution of the Sadiola-Yatela gold district, Kédougou-Kénieba inlier, West Africa<br><b>Author:</b> QUENTIN MASUREL<br><b>Year:</b> 2015<br><b>Page:</b> 5<br><b>Location:</b> Kédougou-Kénieba inlier, West Africa<br><b>Mention:</b> The Kédougou-Kénieba inlier (KKI) represents the westernmost exposure of Paleoproterozoic crust in the West African Craton, with outcrops in western Mali and eastern Senegal.<br><b>Lat/Lon:</b> 13.5, -12.0</div>`)[0];
+                popup_16184ac270b21ce99c783bef97dedf32.setContent(html_09db69736235694dfc153f2c80ad2229);
+            
+        
+
+        marker_1b11bfae6302640101fae7d1f9f8fa3f.bindPopup(popup_16184ac270b21ce99c783bef97dedf32)
+        ;
+
+        
+    
+    
+            marker_1b11bfae6302640101fae7d1f9f8fa3f.bindTooltip(
+                `<div>
+                     Kédougou-Kénieba inlier, West Africa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_01d4dcb3ccd53c6f29645874e9bfe512 = L.marker(
+                [13.1833, -1.0833],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_2bc3a70727db15d1649a778991419639 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_bf0b6c033216e4c22353c0c85b662234 = $(`<div id="html_bf0b6c033216e4c22353c0c85b662234" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2013_FUNYUFUNYU.txt<br><b>Title:</b> Artisanal mining in the Dem region, Burkina Faso: the mining, processing and production of iron ore<br><b>Author:</b> Todani Advice Funyufunyu<br><b>Year:</b> 2013<br><b>Page:</b> 15<br><b>Location:</b> Dem region, Burkina Faso<br><b>Mention:</b> The Dem region is situated 17 km north-northwest of the town of Kaya in Burkina Faso.<br><b>Lat/Lon:</b> 13.1833, -1.0833</div>`)[0];
+                popup_2bc3a70727db15d1649a778991419639.setContent(html_bf0b6c033216e4c22353c0c85b662234);
+            
+        
+
+        marker_01d4dcb3ccd53c6f29645874e9bfe512.bindPopup(popup_2bc3a70727db15d1649a778991419639)
+        ;
+
+        
+    
+    
+            marker_01d4dcb3ccd53c6f29645874e9bfe512.bindTooltip(
+                `<div>
+                     Dem region, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8cfed2ac3f6bf36a97de173b4478de33 = L.marker(
+                [11.5, -8.5],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_3cf43472d19cf577ed76a10b5da32253 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_6ba1c11e3770102fd0c32923c7666d46 = $(`<div id="html_6ba1c11e3770102fd0c32923c7666d46" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2014_MSc_YOSSI.txt<br><b>Title:</b> 3D geophysical modelling used for structural interpretation in the southern Mali and northeast of Guinea, West Africa<br><b>Author:</b> Mamadou YOSSI<br><b>Year:</b> 2014<br><b>Page:</b> 9<br><b>Location:</b> Southern Mali and Northeast Guinea, West Africa<br><b>Mention:</b> The study area covers the south of Mali and the northeast of Guinea in West Africa.<br><b>Lat/Lon:</b> 11.5, -8.5</div>`)[0];
+                popup_3cf43472d19cf577ed76a10b5da32253.setContent(html_6ba1c11e3770102fd0c32923c7666d46);
+            
+        
+
+        marker_8cfed2ac3f6bf36a97de173b4478de33.bindPopup(popup_3cf43472d19cf577ed76a10b5da32253)
+        ;
+
+        
+    
+    
+            marker_8cfed2ac3f6bf36a97de173b4478de33.bindTooltip(
+                `<div>
+                     Southern Mali and Northeast Guinea, West Africa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a301249f2d8eeee1087b8e3b10061c11 = L.marker(
+                [11.42, -9.17],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_1c168c8fbfa364e15c35121930d71b17 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_96c7480a0b58ccb4ee60c9067fa5111e = $(`<div id="html_96c7480a0b58ccb4ee60c9067fa5111e" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2015_LeBrun_Siguiri.txt<br><b>Title:</b> 4D EVOLUTION OF THE OROGENIC GOLD DISTRICT OF SIGUIRI, GUINEA (WEST AFRICA)<br><b>Author:</b> ERWANN O. LEBRUN<br><b>Year:</b> 2015<br><b>Page:</b> 5<br><b>Location:</b> Siguiri district, Guinea<br><b>Mention:</b> The Siguiri district is one of West Africa's largest Paleoproterozoic sedimentary basins and sits in the northern part of the Siguiri Basin.<br><b>Lat/Lon:</b> 11.42, -9.17</div>`)[0];
+                popup_1c168c8fbfa364e15c35121930d71b17.setContent(html_96c7480a0b58ccb4ee60c9067fa5111e);
+            
+        
+
+        marker_a301249f2d8eeee1087b8e3b10061c11.bindPopup(popup_1c168c8fbfa364e15c35121930d71b17)
+        ;
+
+        
+    
+    
+            marker_a301249f2d8eeee1087b8e3b10061c11.bindTooltip(
+                `<div>
+                     Siguiri district, Guinea
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a814d5160ddffbfb23f7a4a727b0df1f = L.marker(
+                [11.42, -9.17],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_5a8003ebf627a3bc05a121d6e61135b2 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_8925ec97b3394a7d3da4b4c56688d78c = $(`<div id="html_8925ec97b3394a7d3da4b4c56688d78c" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2015_LeBrun_Siguiri.txt<br><b>Title:</b> 4D EVOLUTION OF THE OROGENIC GOLD DISTRICT OF SIGUIRI, GUINEA (WEST AFRICA)<br><b>Author:</b> ERWANN O. LEBRUN<br><b>Year:</b> 2015<br><b>Page:</b> 5<br><b>Location:</b> Siguiri district, Guinea<br><b>Mention:</b> Fieldwork was undertaken in eleven deposits of the Siguiri district.<br><b>Lat/Lon:</b> 11.42, -9.17</div>`)[0];
+                popup_5a8003ebf627a3bc05a121d6e61135b2.setContent(html_8925ec97b3394a7d3da4b4c56688d78c);
+            
+        
+
+        marker_a814d5160ddffbfb23f7a4a727b0df1f.bindPopup(popup_5a8003ebf627a3bc05a121d6e61135b2)
+        ;
+
+        
+    
+    
+            marker_a814d5160ddffbfb23f7a4a727b0df1f.bindTooltip(
+                `<div>
+                     Siguiri district, Guinea
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f4656e58c0f25e50caacd2683b763668 = L.marker(
+                [13.735, -11.416],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_2ebff11d7a5a9487b58e0ec76e17107c = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_c028c62795faf16cba4243447ce9102e = $(`<div id="html_c028c62795faf16cba4243447ce9102e" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2008_MATABANE_FE3.txt<br><b>Title:</b> THE GEOLOGY OF THE FE3 OPEN-CAST, SADIOLA, MALI: STRATIGRAPHY, STRUCTURE AND INTRUSIVE ROCKS<br><b>Author:</b> Moshala Matabane<br><b>Year:</b> 2008<br><b>Page:</b> 7<br><b>Location:</b> Sadiola goldfield, Mali<br><b>Mention:</b> The FE3 open cast is situated in the Sadiola goldfield in Mali.<br><b>Lat/Lon:</b> 13.735, -11.416</div>`)[0];
+                popup_2ebff11d7a5a9487b58e0ec76e17107c.setContent(html_c028c62795faf16cba4243447ce9102e);
+            
+        
+
+        marker_f4656e58c0f25e50caacd2683b763668.bindPopup(popup_2ebff11d7a5a9487b58e0ec76e17107c)
+        ;
+
+        
+    
+    
+            marker_f4656e58c0f25e50caacd2683b763668.bindTooltip(
+                `<div>
+                     Sadiola goldfield, Mali
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_00937f43e5c5c7e762a4f160d9dfe51c = L.marker(
+                [14.5, -0.1],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_9848b69237b0858eb4fbfe8c3cf61483 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_155d590a7c615685bf8e9286ed6ee096 = $(`<div id="html_155d590a7c615685bf8e9286ed6ee096" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2011_Peters_East Markoye_2011.txt<br><b>Title:</b> THE GEOLOGY OF THE EAST MARKOYE REGION IN THE OUDALAN-GOUROUOL GREENSTONE BELT, NORTH-EAST BURKINA FASO.<br><b>Author:</b> Luke Peters<br><b>Year:</b> 2011<br><b>Page:</b> 5<br><b>Location:</b> Oudalan-Gourouol Greenstone Belt, Burkina Faso<br><b>Mention:</b> The study area is situated in the Oudalan-Gourouol Greenstone Belt (OGGB) in north-east Burkina Faso (Fig. 1).<br><b>Lat/Lon:</b> 14.5, -0.1</div>`)[0];
+                popup_9848b69237b0858eb4fbfe8c3cf61483.setContent(html_155d590a7c615685bf8e9286ed6ee096);
+            
+        
+
+        marker_00937f43e5c5c7e762a4f160d9dfe51c.bindPopup(popup_9848b69237b0858eb4fbfe8c3cf61483)
+        ;
+
+        
+    
+    
+            marker_00937f43e5c5c7e762a4f160d9dfe51c.bindTooltip(
+                `<div>
+                     Oudalan-Gourouol Greenstone Belt, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_68d3bc1a65a6f61c7cb7f90fecbbc7b0 = L.marker(
+                [14.6, -0.2],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_494b541c6eec41cd0643da59965cb835 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_14f2b5304b4db1096161692785b3a22a = $(`<div id="html_14f2b5304b4db1096161692785b3a22a" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2011_Peters_East Markoye_2011.txt<br><b>Title:</b> THE GEOLOGY OF THE EAST MARKOYE REGION IN THE OUDALAN-GOUROUOL GREENSTONE BELT, NORTH-EAST BURKINA FASO.<br><b>Author:</b> Luke Peters<br><b>Year:</b> 2011<br><b>Page:</b> 6<br><b>Location:</b> East of Markoye, Burkina Faso<br><b>Mention:</b> The study area is situated approximately 2 km east of the town of Markoye and is located 12 km west of the international border of Niger and 38 km south of the border of Mali (Fig. 2).<br><b>Lat/Lon:</b> 14.6, -0.2</div>`)[0];
+                popup_494b541c6eec41cd0643da59965cb835.setContent(html_14f2b5304b4db1096161692785b3a22a);
+            
+        
+
+        marker_68d3bc1a65a6f61c7cb7f90fecbbc7b0.bindPopup(popup_494b541c6eec41cd0643da59965cb835)
+        ;
+
+        
+    
+    
+            marker_68d3bc1a65a6f61c7cb7f90fecbbc7b0.bindTooltip(
+                `<div>
+                     East of Markoye, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ad6895f76b959d821b27fd32218ce3aa = L.marker(
+                [13.083, -11.333],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_8b969caddc98dea27c7d85f123917c58 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_6639195247143faeba018c9469f831cf = $(`<div id="html_6639195247143faeba018c9469f831cf" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2010_Matsheka_Irvin Final Thesis.txt<br><b>Title:</b> Ore petrology of the Sadiola Gold Mine, Kéniéba Inlier, Mali<br><b>Author:</b> Mr. Irvin Matsheka<br><b>Year:</b> 2009<br><b>Page:</b> 8<br><b>Location:</b> Sadiola Gold Mine, Mali<br><b>Mention:</b> The giant Sadiola opencast gold mine is located within the Sadiola goldfield in Mali in the Kedougou-Kéniéba Inlier (KKI), which is part of the West African Craton (WAC).<br><b>Lat/Lon:</b> 13.083, -11.333</div>`)[0];
+                popup_8b969caddc98dea27c7d85f123917c58.setContent(html_6639195247143faeba018c9469f831cf);
+            
+        
+
+        marker_ad6895f76b959d821b27fd32218ce3aa.bindPopup(popup_8b969caddc98dea27c7d85f123917c58)
+        ;
+
+        
+    
+    
+            marker_ad6895f76b959d821b27fd32218ce3aa.bindTooltip(
+                `<div>
+                     Sadiola Gold Mine, Mali
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4c9a3f7457920771e356d3e51c7ea27b = L.marker(
+                [14.072, -11.716],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_40d4d4fcbd9501e8a240c62a7291d11b = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_92c861bf89d44c6fda5b8e4b653cad7b = $(`<div id="html_92c861bf89d44c6fda5b8e4b653cad7b" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2013_Ramabulana_Sadiola Hill petrology.txt<br><b>Title:</b> ORE GENESIS AND MODELLING OF THE SADIOLA HILL GOLD MINE, MALI<br><b>Author:</b> Ramabulana Tshifularo<br><b>Year:</b> 2007<br><b>Page:</b> 6<br><b>Location:</b> Sadiola Hill gold mine, Mali<br><b>Mention:</b> The Sadiola Hill gold mine is located within the Sadiola goldfield in the Kedougou-Kenieba inlier (KKI), which is part of the West African Craton (WAC) and is situated in western Mali.<br><b>Lat/Lon:</b> 14.072, -11.716</div>`)[0];
+                popup_40d4d4fcbd9501e8a240c62a7291d11b.setContent(html_92c861bf89d44c6fda5b8e4b653cad7b);
+            
+        
+
+        marker_4c9a3f7457920771e356d3e51c7ea27b.bindPopup(popup_40d4d4fcbd9501e8a240c62a7291d11b)
+        ;
+
+        
+    
+    
+            marker_4c9a3f7457920771e356d3e51c7ea27b.bindTooltip(
+                `<div>
+                     Sadiola Hill gold mine, Mali
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ee8a2185b5cf3fd3b4db658ef859d4be = L.marker(
+                [14.77, -0.05],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_13d1b81e28a7dc9c0924075754baef7d = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_06b6c63228d0d406c78b07805a9223db = $(`<div id="html_06b6c63228d0d406c78b07805a9223db" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt<br><b>Title:</b> RELATIVE TIMING OF STRUCTURAL EVENTS: THE MARKOYE FAULT AND ITS ASSOCIATION TO GOLD MINERALISATION<br><b>Author:</b> ASINNE TSHIBUBUDZE<br><b>Year:</b> 2007<br><b>Page:</b> 7<br><b>Location:</b> Markoye Fault Zone, Burkina Faso<br><b>Mention:</b> The NE-trending Markoye fault in Burkina Faso is a first-order crustal scale structure located in the north-eastern part of Burkina Faso, between the towns of Dori and Tambão by the border with Mali and Niger.<br><b>Lat/Lon:</b> 14.77, -0.05</div>`)[0];
+                popup_13d1b81e28a7dc9c0924075754baef7d.setContent(html_06b6c63228d0d406c78b07805a9223db);
+            
+        
+
+        marker_ee8a2185b5cf3fd3b4db658ef859d4be.bindPopup(popup_13d1b81e28a7dc9c0924075754baef7d)
+        ;
+
+        
+    
+    
+            marker_ee8a2185b5cf3fd3b4db658ef859d4be.bindTooltip(
+                `<div>
+                     Markoye Fault Zone, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_afcafb1e0580b22398126b6712efe82f = L.marker(
+                [14.56, -0.15],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_75a01648f5c71148877d6d996e2c46da = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_d41de90962e8a6aa8f38849c6c88d370 = $(`<div id="html_d41de90962e8a6aa8f38849c6c88d370" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2007_Tshibubudze_THE MARKOYE FAULT_2007.txt<br><b>Title:</b> RELATIVE TIMING OF STRUCTURAL EVENTS: THE MARKOYE FAULT AND ITS ASSOCIATION TO GOLD MINERALISATION<br><b>Author:</b> ASINNE TSHIBUBUDZE<br><b>Year:</b> 2007<br><b>Page:</b> 6<br><b>Location:</b> Essakane, Burkina Faso<br><b>Mention:</b> The regional lithological and structural mapping completed in the north-eastern part of Burkina Faso indicates that the Essakane goldfield of the West African Craton is hosted by meta-volcanoclastic and meta-sedimentary rocks of the Birimian sequences.<br><b>Lat/Lon:</b> 14.56, -0.15</div>`)[0];
+                popup_75a01648f5c71148877d6d996e2c46da.setContent(html_d41de90962e8a6aa8f38849c6c88d370);
+            
+        
+
+        marker_afcafb1e0580b22398126b6712efe82f.bindPopup(popup_75a01648f5c71148877d6d996e2c46da)
+        ;
+
+        
+    
+    
+            marker_afcafb1e0580b22398126b6712efe82f.bindTooltip(
+                `<div>
+                     Essakane, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70e8d261f37dc9e2e6b266655747faea = L.marker(
+                [14.5, -0.5],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_d0fc0317f3cb596cfbe5297ec907aa39 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_2775cbe048b644df292b48479d7b1753 = $(`<div id="html_2775cbe048b644df292b48479d7b1753" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2009_Bontle Nkuna_0605886P_Honours Report.txt<br><b>Title:</b> Ore genesis of the Essakane, Falagountou and Sokadie Gold deposits: Oudalan-Gorouol Greenstone Belt, Burkina Faso, West African Craton<br><b>Author:</b> Bontle Nkuna<br><b>Year:</b> 2007<br><b>Page:</b> 7<br><b>Location:</b> Oudalan-Gorouol Greenstone Belt, Burkina Faso<br><b>Mention:</b> The Oudalan-Gorouol greenstone belt is located in north-eastern Burkina Faso (Fig. 1.1) in the West African craton, and extends into the neighbouring Niger.<br><b>Lat/Lon:</b> 14.5, -0.5</div>`)[0];
+                popup_d0fc0317f3cb596cfbe5297ec907aa39.setContent(html_2775cbe048b644df292b48479d7b1753);
+            
+        
+
+        marker_70e8d261f37dc9e2e6b266655747faea.bindPopup(popup_d0fc0317f3cb596cfbe5297ec907aa39)
+        ;
+
+        
+    
+    
+            marker_70e8d261f37dc9e2e6b266655747faea.bindTooltip(
+                `<div>
+                     Oudalan-Gorouol Greenstone Belt, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cde09363d17fe8c2e7d125a31a8d6f6a = L.marker(
+                [13.5, -0.5],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_97c57dec4ec1e701e5b62b63e0bb07a4 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_6277560521b7020a54569dc06913b9da = $(`<div id="html_6277560521b7020a54569dc06913b9da" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2010_Mohale_GIS interpretation of NE Burkina Faso.txt<br><b>Title:</b> GIS interpretation of NE Burkina Faso using Landsat imagery combined with radiometric and magnetic data<br><b>Author:</b> Makobo Mohale<br><b>Year:</b> 2007<br><b>Page:</b> 11<br><b>Location:</b> Northeast Burkina Faso<br><b>Mention:</b> The study area for the project is north east Burkina Faso.<br><b>Lat/Lon:</b> 13.5, -0.5</div>`)[0];
+                popup_97c57dec4ec1e701e5b62b63e0bb07a4.setContent(html_6277560521b7020a54569dc06913b9da);
+            
+        
+
+        marker_cde09363d17fe8c2e7d125a31a8d6f6a.bindPopup(popup_97c57dec4ec1e701e5b62b63e0bb07a4)
+        ;
+
+        
+    
+    
+            marker_cde09363d17fe8c2e7d125a31a8d6f6a.bindTooltip(
+                `<div>
+                     Northeast Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f132fb1f5b97f343554843b7cccc99ae = L.marker(
+                [14.85, -0.23],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_7dc8d6869640b4de580acab72a9103e9 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_c95109ec0e6349b5b346b78bb189aed8 = $(`<div id="html_c95109ec0e6349b5b346b78bb189aed8" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2011_Woolfe_The stratigraphy and metamorphic facies of the KEMB.txt<br><b>Title:</b> The stratigraphy and metamorphic facies of the Kel Enguef metamorphic belt near Gorom Gorom, NE Burkina Faso.<br><b>Author:</b> Alex Woolfe<br><b>Year:</b> 2010<br><b>Page:</b> 4<br><b>Location:</b> Kel Enguef metamorphic belt, Burkina Faso<br><b>Mention:</b> The Kel Enguef metamorphic belt (KEMB) is located in the low hills southeast of Gorom Gorom, in the northeast of Burkina Faso.<br><b>Lat/Lon:</b> 14.85, -0.23</div>`)[0];
+                popup_7dc8d6869640b4de580acab72a9103e9.setContent(html_c95109ec0e6349b5b346b78bb189aed8);
+            
+        
+
+        marker_f132fb1f5b97f343554843b7cccc99ae.bindPopup(popup_7dc8d6869640b4de580acab72a9103e9)
+        ;
+
+        
+    
+    
+            marker_f132fb1f5b97f343554843b7cccc99ae.bindTooltip(
+                `<div>
+                     Kel Enguef metamorphic belt, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ddc7bbdc3576dc99b2573969d9af7633 = L.marker(
+                [13.0333, -0.8833],
+                {
+}
+            ).addTo(marker_cluster_e331c36558844119f4c240a2013c259f);
+        
+    
+        var popup_5e54e4a578763c235831e671a03a2771 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_3e25d16399e159c56e8ba0849010d664 = $(`<div id="html_3e25d16399e159c56e8ba0849010d664" style="width: 100.0%; height: 100.0%;"><b>Filename:</b> 2012_Simoko_Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss.txt<br><b>Title:</b> Petrology, geochemistry and structure of the Pissila batholith and the Saaba Zone gneiss<br><b>Author:</b> Nosizwe Simoko<br><b>Year:</b> 2012<br><b>Page:</b> 10<br><b>Location:</b> Pissila, Burkina Faso<br><b>Mention:</b> The Pissila batholith and the Saaba zone gneiss are located near the town of Pissila in NE Burkina Faso.<br><b>Lat/Lon:</b> 13.0333, -0.8833</div>`)[0];
+                popup_5e54e4a578763c235831e671a03a2771.setContent(html_3e25d16399e159c56e8ba0849010d664);
+            
+        
+
+        marker_ddc7bbdc3576dc99b2573969d9af7633.bindPopup(popup_5e54e4a578763c235831e671a03a2771)
+        ;
+
+        
+    
+    
+            marker_ddc7bbdc3576dc99b2573969d9af7633.bindTooltip(
+                `<div>
+                     Pissila, Burkina Faso
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_e331c36558844119f4c240a2013c259f.addTo(map_35effb6692514f1b8874da48cbb245df);
+        
+</script>
+</html>
