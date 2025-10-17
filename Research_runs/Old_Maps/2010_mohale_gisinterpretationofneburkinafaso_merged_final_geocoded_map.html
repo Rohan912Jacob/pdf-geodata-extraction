@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9752278380c1663d2413c816e2d4b9de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_9752278380c1663d2413c816e2d4b9de" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9752278380c1663d2413c816e2d4b9de = L.map(
+                "map_9752278380c1663d2413c816e2d4b9de",
+                {
+                    center: [23.28922194, 11.029352122499999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_20f557ef3f3156fe6cc93810b4dd955a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_20f557ef3f3156fe6cc93810b4dd955a.addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+            var circle_marker_619707e2494ffd33be795cae3863a66c = L.circleMarker(
+                [12.3681873, -1.5270944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_abf2eeaf69db6eadbd3cee9d02517174 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b922a1651d2f464b66652112d22caee9 = $(`<div id="html_b922a1651d2f464b66652112d22caee9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Birimian  Bouroum-Yalogo  greenstone  belt  is  a  Y-shaped  terrane  located  between  large  Eburnean  granitoid  batholiths  200  km  northeast  of  Ouagadougou  (Ducellier  1963). It  consists  of:  (1)  metagranites,  metagabbro-diorites  and  metaquartzite  of  the  Bamga  series  (Hottin  and  Ouedraogo  1976;  Sawadogo 1983; Zonou, 1987) interpreted as early Birimian and dated at 2. 18 Ga (Boher et al. 1992); (2)  overlying  mafic  lava  flows  and  pillow  lavas  (Zonou  et  al.,1985)  with  associated  pyroclastites,  volcaniclastic rocks and immature sediments  mainly at lower levels and calc-alkaline andesite, dacite and  lamprophyre  at  upper  levels,  all  affected  by  a  greenschist-facies  metamorphism;  and  (3)  basic  to  intermediate plutons later emplaced. Markoye Shear zone  In  the  NE  Burkina  Faso  the  Palaeoproterozoic  Birimian  Domain  of  the  West  African  Craton  is  crosscut by the NE-trending Markoye Shear Zone (MSZ) which is a first crustal scale structure. The MSZ  marks  the  western  boundary  of  the  Oudalan-Gorouol  Greenstone  Belt  which  extends  into  the  Niger  17<br><b>Geocode:</b> Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_abf2eeaf69db6eadbd3cee9d02517174.setContent(html_b922a1651d2f464b66652112d22caee9);
+            
+        
+
+        circle_marker_619707e2494ffd33be795cae3863a66c.bindPopup(popup_abf2eeaf69db6eadbd3cee9d02517174)
+        ;
+
+        
+    
+    
+            circle_marker_619707e2494ffd33be795cae3863a66c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_19ca900483f4f696d85ba63ed973ae89 = L.circleMarker(
+                [35.5893432, -5.356382],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_9722a288e3f38941567d6f11ecacff9c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5f11f06e33107614ce8e5a1f868560c0 = $(`<div id="html_5f11f06e33107614ce8e5a1f868560c0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  band  combination  321  (RGB)  were  displayed for true colour visual analysis of geological features (Figure 5). The false colour composite 742  in  an  RGB  was  displayed  in  order  to  enhance  the  interpretation  and  visual  analysis  of  geological  structures  shown  by  the  band  combination  321. The  false  colour  composite  742  (Figure  6)  has  the  advantage  of  preserving  morphological  features  as  well  as  displaying  different  lithological  units  in  different colours because of the use of near and mid infrared portion of the electromagnetic spectra (Peña  and  Abdelsalam,  2006). A  false  colour  composite  with  band  combination  (RGB)  7  3  1  was  used  to  28<br><b>Geocode:</b> Avenue Abdelsalam Benouna, Hay Boujarah, Tétouan, Pachalik de Tétouan باشوية تطوان, Tetouan Province, Tangier-Tetouan-Al Hoceima, 93014, Morocco<br><b>Pages:</b> 28<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9722a288e3f38941567d6f11ecacff9c.setContent(html_5f11f06e33107614ce8e5a1f868560c0);
+            
+        
+
+        circle_marker_19ca900483f4f696d85ba63ed973ae89.bindPopup(popup_9722a288e3f38941567d6f11ecacff9c)
+        ;
+
+        
+    
+    
+            circle_marker_19ca900483f4f696d85ba63ed973ae89.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_add6170971c1e83ef56862d5f98dc39a = L.circleMarker(
+                [11.5024338, 17.7578122],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_e9e82d4fc6ee727e8f03fa3013c02827 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_47892e497434093d61ffb2e7431aebd2 = $(`<div id="html_47892e497434093d61ffb2e7431aebd2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11<br><b>Geocode:</b> Africa<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e9e82d4fc6ee727e8f03fa3013c02827.setContent(html_47892e497434093d61ffb2e7431aebd2);
+            
+        
+
+        circle_marker_add6170971c1e83ef56862d5f98dc39a.bindPopup(popup_e9e82d4fc6ee727e8f03fa3013c02827)
+        ;
+
+        
+    
+    
+            circle_marker_add6170971c1e83ef56862d5f98dc39a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_913e1d94b787daa62172c6ee62280b4b = L.circleMarker(
+                [34.75, 67.25],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_20cc2e5e595f290a408978381ff5a0dd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_274ce7adbfda16b6d23e704f6576db29 = $(`<div id="html_274ce7adbfda16b6d23e704f6576db29" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Dori Shear Zone, north trending Kargouna Shear Zone, Takabougou Shear Zone and Bom Kodjelé Shear  Zone (Tshibubudze et al., 2010). The  Goren  Greenstone  Belt  (GGB)  forms  part  of  the  largest  Boromo-Goren  Greenstone  Belt  (BGGB) .The GGB segment of the BGGB trends SE across the Yatenga, Bam, and Sanmatenga districts  (Hein et al., 2004). In the GGB there are two Birimian formations: the Lower and Upper Birimian which  are described based on studies done by Attoh (1982) and Feybesse et al. (1990) and craton-scale studies  by Milési et al. (1989), Abouchami et al. (1990), Hottin and Ouedraogo (1992)  and Boher et al (1992).<br><b>Geocode:</b> Bamyan Province, Afghanistan<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_20cc2e5e595f290a408978381ff5a0dd.setContent(html_274ce7adbfda16b6d23e704f6576db29);
+            
+        
+
+        circle_marker_913e1d94b787daa62172c6ee62280b4b.bindPopup(popup_20cc2e5e595f290a408978381ff5a0dd)
+        ;
+
+        
+    
+    
+            circle_marker_913e1d94b787daa62172c6ee62280b4b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b4526af84f859118eb0e97b7c2211c5 = L.circleMarker(
+                [19.2967523, 84.7974004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_9f9ad661ec1c4f0962846e71cf558b63 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9bd731f8014a14d1650477e1e82e34a8 = $(`<div id="html_9bd731f8014a14d1650477e1e82e34a8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Dori Shear Zone, north trending Kargouna Shear Zone, Takabougou Shear Zone and Bom Kodjelé Shear  Zone (Tshibubudze et al., 2010). The  Goren  Greenstone  Belt  (GGB)  forms  part  of  the  largest  Boromo-Goren  Greenstone  Belt  (BGGB) .The GGB segment of the BGGB trends SE across the Yatenga, Bam, and Sanmatenga districts  (Hein et al., 2004). In the GGB there are two Birimian formations: the Lower and Upper Birimian which  are described based on studies done by Attoh (1982) and Feybesse et al. (1990) and craton-scale studies  by Milési et al. (1989), Abouchami et al. (1990), Hottin and Ouedraogo (1992)  and Boher et al (1992).<br><b>Geocode:</b> Brahmapur, Giri Road, Gandhi Nagar, Dharma Nagar, Brahmapur, Rangeilunda, Ganjam, Odisha, 760005, India<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9f9ad661ec1c4f0962846e71cf558b63.setContent(html_9bd731f8014a14d1650477e1e82e34a8);
+            
+        
+
+        circle_marker_1b4526af84f859118eb0e97b7c2211c5.bindPopup(popup_9f9ad661ec1c4f0962846e71cf558b63)
+        ;
+
+        
+    
+    
+            circle_marker_1b4526af84f859118eb0e97b7c2211c5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_46769174dcaf60962dd8bdece738c158 = L.circleMarker(
+                [9.5293472, 2.2584408],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_d9857d3719f7040accc91ba6ff6e8146 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_feb19c80de1aea457e7fb6a7fafeaa98 = $(`<div id="html_feb19c80de1aea457e7fb6a7fafeaa98" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11<br><b>Geocode:</b> Benin<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d9857d3719f7040accc91ba6ff6e8146.setContent(html_feb19c80de1aea457e7fb6a7fafeaa98);
+            
+        
+
+        circle_marker_46769174dcaf60962dd8bdece738c158.bindPopup(popup_d9857d3719f7040accc91ba6ff6e8146)
+        ;
+
+        
+    
+    
+            circle_marker_46769174dcaf60962dd8bdece738c158.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bbbc4aac98db659cead1aee0c9b55fa6 = L.circleMarker(
+                [13.5350701, 9.044618],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_58e86cc117ea46592c50eb12baaf1d48 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5926cdceda48e86b2225806270aa9036 = $(`<div id="html_5926cdceda48e86b2225806270aa9036" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Figure  4.3: The  Boromo–Goren  Greenstone  Belt  (BGGB)  of  Burkina  Faso,  together  with the  Bouroum  and Yalogo greenstone belts Hein et al. (2004). 36 || Green show area of vegetation. Figure 4.1: Lineaments with E–W (ENE), N–S (NNW) and NE–SW trends. Figure 4.2: Distribution of greenstone belts, laterites and shear zones (Greenstone belts-green, laterites- purple and shear zones in red). Figure  4.3. The  Boromo–Goren  Greenstone  Belt  (BGGB)  of  Burkina  Faso,  together  with  the  Bouroum  and Yalogo greenstone belts Hein et al. (2004). || zone cuts the Goren greenstone belt and the BSZ cuts the OGGB and this is in accordance with what has  been documented in literature. Greenstone belts and laterite profiles  Since no GIS work has been done on the greenstone belts, there is no confirmation of association of  greenstone  belts  with  laterite  profiles  found  throughout  the  study  area. From  the  interpretation  it  was  found  that  the  laterite  profiles  have  the  same  orientation  as  the  greenstone  belts  and  cover  most  of  the  study  area  where  greenstone  belts  are  located. Studies  by  Hein,  (2008)  show  that  dykes  in  northern  Burkina Faso have laterite skirts and from the interpretation done in this study most of the dolerite dykes  interpreted  had  the  laterite  skirts. The  four  greenstone  belts  Goren,  Bouroum,  Oudalan-Gorouol,  and  Yalogo  greenstone  belts  locations  were  defined. A  Goren  Greenstone  Belt  is  cut  by  a  series  of  NE  trending joint sets and the SSZ.<br><b>Geocode:</b> Bouroum, Mirriah, Zinder Region, Niger<br><b>Pages:</b> 36,4,44<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_58e86cc117ea46592c50eb12baaf1d48.setContent(html_5926cdceda48e86b2225806270aa9036);
+            
+        
+
+        circle_marker_bbbc4aac98db659cead1aee0c9b55fa6.bindPopup(popup_58e86cc117ea46592c50eb12baaf1d48)
+        ;
+
+        
+    
+    
+            circle_marker_bbbc4aac98db659cead1aee0c9b55fa6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cae06365af36643ea61502f3443a1daa = L.circleMarker(
+                [12.3681873, -1.5270944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_5fdcd2553a28fe483511e270f0674f79 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_534878850ee6fa885253a4b75ad02f49 = $(`<div id="html_534878850ee6fa885253a4b75ad02f49" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> A  B  Figure 4.7: A-RGB 432 false colour composite with areas of healthy and dense vegetation shown in red  and  areas  of  less  vegetation  shown  in  light  red. Rivers  are  marked  in  blue  and  cities  (City  of  Ouagadougou) in cyan blue (B) and drainage systems are shown in red indicating that there is vegetation  along the river (B). Using the image above, a map showing locations of roads and cities as well as small villages was made  using CorelDraw X3 ® Software (Fig. 4.8). 39 || Figure 4.4: RGB 742 showing sand dunes in light green on the image. Figure 4.5: Outcrop locations in grey. Figure 4.6: Sharp lithological contacts (orange). Figure 4.7: A-RGB 432 false colour composite with areas of healthy and dense vegetation shown in red  and  areas  of  less  vegetation  shown  in  light  right. Rivers  are  marked  in  blue  and  cities  (City  of  Ouagadougou) in cyan blue (B) and drainage systems are shown in red indicating that there is vegetation  along the river (B). Figure 4.8: Locality map of Burkina Faso showing cities, towns, villages and roads.<br><b>Geocode:</b> Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 39,4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5fdcd2553a28fe483511e270f0674f79.setContent(html_534878850ee6fa885253a4b75ad02f49);
+            
+        
+
+        circle_marker_cae06365af36643ea61502f3443a1daa.bindPopup(popup_5fdcd2553a28fe483511e270f0674f79)
+        ;
+
+        
+    
+    
+            circle_marker_cae06365af36643ea61502f3443a1daa.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1653f54d00c9d74fa7da0e91aac27597 = L.circleMarker(
+                [11.2867417, 75.8033747],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_d53c15663646d170e3e50da21b1e6e66 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dc6d548d4db938dd2255fdbb6d70ebdf = $(`<div id="html_dc6d548d4db938dd2255fdbb6d70ebdf" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Figure  2.3.2:  Updated  national  road  network  map  overlaid  on  mosaiced  SPOT  satellite  images  of  the  Kingdom of Swaziland. 2.3.3 Photo geology presented by Drury, 1987. Methodology  The methodology deals with extraction of geological structures to produce geological maps from  aerial photos and satellite images. The following criteria are used to extract data: Colour and colour tones,  topography  and  geometry,  stream  drainage  patterns,  vegetation  anomalies. IDRISI  software  package,  remote sensing and GIS are used considering the following four criteria:  21<br><b>Geocode:</b> COLOUR, KWA Private Road, Kozhikode, Kerala, 673009, India<br><b>Pages:</b> 21<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d53c15663646d170e3e50da21b1e6e66.setContent(html_dc6d548d4db938dd2255fdbb6d70ebdf);
+            
+        
+
+        circle_marker_1653f54d00c9d74fa7da0e91aac27597.bindPopup(popup_d53c15663646d170e3e50da21b1e6e66)
+        ;
+
+        
+    
+    
+            circle_marker_1653f54d00c9d74fa7da0e91aac27597.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e3cd12365f4852bfab638c7b2909e9b = L.circleMarker(
+                [12.255555, 1.0095764],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_25984fb61c19205150e0aa9b93683297 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8c3e16b46d243ff21dde4b8aeece6f69 = $(`<div id="html_8c3e16b46d243ff21dde4b8aeece6f69" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The last FCC  image was used for the location of outcrops. The prepared 731 FCC imagery (Fig. 3.1) obtained from the  Landsat 7 data, was used in constructing the detailed strato-tectonic-magmatic map of NE Burkina Faso  (Fig. 5.2) which illustrates the following:   1-  The greenstone belts with a brownish to orange colour covered by purple laterite caps, plutonic  rocks  which  had  a  pinkish  colour  surrounding  the  greenstone  belts  which  were  clearly  discriminated. 2-  The shear zones which had NNE- NW trends and dykes with laterite skirts trending NW. 3-  The lineaments with East to ENE), North to NNW and NEasterly trends and major joints created  by the drainage system in the area.<br><b>Geocode:</b> East, Burkina Faso<br><b>Pages:</b> 48<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_25984fb61c19205150e0aa9b93683297.setContent(html_8c3e16b46d243ff21dde4b8aeece6f69);
+            
+        
+
+        circle_marker_2e3cd12365f4852bfab638c7b2909e9b.bindPopup(popup_25984fb61c19205150e0aa9b93683297)
+        ;
+
+        
+    
+    
+            circle_marker_2e3cd12365f4852bfab638c7b2909e9b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e0b6ea37add2cd1bf6ce0edfdf7906f = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_23f84f1571226601b9915c58e048c840 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6fc8eb93b84a5285fdab6bdfc4296b92 = $(`<div id="html_6fc8eb93b84a5285fdab6bdfc4296b92" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2008)  The Oudalan–Gorouol greenstone belt (OGGB) hosts gold deposits at Essakane, Gossey, Korizena  and  Falagountou  (Tshibubudze  et  al.,  2010). In  the  OGGB,  the  Birimian  supracrustal  sequences  are  dominated  by  meta-volcaniclastic  greywacke  that  is  intercalated  with  meta-conglomerate,  siltone  and  shale, carbonate (dolomite) and volcanic units (pillow lavas). The OGGB is surrounded by plutonic rocks  including granite, TTG suite granitoids and granite gneiss (Tshibubudze et al., 2010). It is crosscut by the  NNE trending Markoye Shear Zone, NE trending Tin Takanet-Bellekcire Shear Zone, westerly trending  16<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 16<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_23f84f1571226601b9915c58e048c840.setContent(html_6fc8eb93b84a5285fdab6bdfc4296b92);
+            
+        
+
+        circle_marker_5e0b6ea37add2cd1bf6ce0edfdf7906f.bindPopup(popup_23f84f1571226601b9915c58e048c840)
+        ;
+
+        
+    
+    
+            circle_marker_5e0b6ea37add2cd1bf6ce0edfdf7906f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_388c14aac7d9928e9209243201c4bfb2 = L.circleMarker(
+                [14.3738506, 0.1457981],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_860a708fab00bf777114b621e1764b6d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_77023575b44577c4e313b2c7805bbc2f = $(`<div id="html_77023575b44577c4e313b2c7805bbc2f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2008)  The Oudalan–Gorouol greenstone belt (OGGB) hosts gold deposits at Essakane, Gossey, Korizena  and  Falagountou  (Tshibubudze  et  al.,  2010). In  the  OGGB,  the  Birimian  supracrustal  sequences  are  dominated  by  meta-volcaniclastic  greywacke  that  is  intercalated  with  meta-conglomerate,  siltone  and  shale, carbonate (dolomite) and volcanic units (pillow lavas). The OGGB is surrounded by plutonic rocks  including granite, TTG suite granitoids and granite gneiss (Tshibubudze et al., 2010). It is crosscut by the  NNE trending Markoye Shear Zone, NE trending Tin Takanet-Bellekcire Shear Zone, westerly trending  16<br><b>Geocode:</b> Falagountou, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 16<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_860a708fab00bf777114b621e1764b6d.setContent(html_77023575b44577c4e313b2c7805bbc2f);
+            
+        
+
+        circle_marker_388c14aac7d9928e9209243201c4bfb2.bindPopup(popup_860a708fab00bf777114b621e1764b6d)
+        ;
+
+        
+    
+    
+            circle_marker_388c14aac7d9928e9209243201c4bfb2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3fdff57a311a442c47082576cc7f7d9c = L.circleMarker(
+                [8.0300284, -1.0800271],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_c93acc398631e1f8538e1087f5d63c0c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_070a33a88e65d757739886cfc690d819 = $(`<div id="html_070a33a88e65d757739886cfc690d819" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11<br><b>Geocode:</b> Ghana<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c93acc398631e1f8538e1087f5d63c0c.setContent(html_070a33a88e65d757739886cfc690d819);
+            
+        
+
+        circle_marker_3fdff57a311a442c47082576cc7f7d9c.bindPopup(popup_c93acc398631e1f8538e1087f5d63c0c)
+        ;
+
+        
+    
+    
+            circle_marker_3fdff57a311a442c47082576cc7f7d9c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4a3b278c89f2b184b42bd77398756d2 = L.circleMarker(
+                [65.9466508, 78.1842062],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_8a592313101f03a4bce6f3d59f642c35 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_854ab0841ec2f97fb707145d5463bf74 = $(`<div id="html_854ab0841ec2f97fb707145d5463bf74" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The studies indicate that the   1) Lower Birimian which includes a volcano-sedimentary package with intercalated fluvial deltaic meta- sediments is unconformably overlain by the:  2) Upper Birimian which is a volcanic-volcanoclastic package. Further investigations on lithologies and structures completed by  Hein et al. 2004 at Sanmatenga  district  indicate  that  the  deposition  of  the  volcanic,  metasedimentary  and  turbidic  rocks  in  the  Gorem  segment  of  the  BGGB  is  in  three  conformable  successions:  a  lower  volcano-  sedimentary  succession,  mafic-intermediate  volcanic  succession,  and an  upper  volcano-sedimentary  succession. The  successions  indicate  interplay  of  marine-deltaic  sedimentary  processes  and  volcanic  activity. The  deposition  was  interpreted to have occurred within a marginal marine setting adjacent to an emergent volcanic centre or  island arc setting (Hein et al., 2004). The conformable nature (angular unconformity) of the successions:  the 1) Lower Birimian and 2) Upper Birimian does not provide any case of separation into two formations  in the Sanmatenga district described from previous studies by Attoh (1982) and Feybesse et al., (1990).<br><b>Geocode:</b> посёлок Горем, Korotchaevo, Novy Urengoy, городской округ Новый Уренгой, Yamalo-Nenets Autonomous Okrug, Ural Federal District, Russia<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_8a592313101f03a4bce6f3d59f642c35.setContent(html_854ab0841ec2f97fb707145d5463bf74);
+            
+        
+
+        circle_marker_c4a3b278c89f2b184b42bd77398756d2.bindPopup(popup_8a592313101f03a4bce6f3d59f642c35)
+        ;
+
+        
+    
+    
+            circle_marker_c4a3b278c89f2b184b42bd77398756d2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_172c03eddac1c566a3e6edbbdfe74cb9 = L.circleMarker(
+                [65.9466508, 78.1842062],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_7d45dd07612e2fee02f9f14257b0eb39 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4bb80f59682acb54a0e0218a53efa35a = $(`<div id="html_4bb80f59682acb54a0e0218a53efa35a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The studies indicate that the   1) Lower Birimian which includes a volcano-sedimentary package with intercalated fluvial deltaic meta- sediments is unconformably overlain by the:  2) Upper Birimian which is a volcanic-volcanoclastic package. Further investigations on lithologies and structures completed by  Hein et al. 2004 at Sanmatenga  district  indicate  that  the  deposition  of  the  volcanic,  metasedimentary  and  turbidic  rocks  in  the  Gorem  segment  of  the  BGGB  is  in  three  conformable  successions:  a  lower  volcano-  sedimentary  succession,  mafic-intermediate  volcanic  succession,  and an  upper  volcano-sedimentary  succession. The  successions  indicate  interplay  of  marine-deltaic  sedimentary  processes  and  volcanic  activity. The  deposition  was  interpreted to have occurred within a marginal marine setting adjacent to an emergent volcanic centre or  island arc setting (Hein et al., 2004). The conformable nature (angular unconformity) of the successions:  the 1) Lower Birimian and 2) Upper Birimian does not provide any case of separation into two formations  in the Sanmatenga district described from previous studies by Attoh (1982) and Feybesse et al., (1990).<br><b>Geocode:</b> посёлок Горем, Korotchaevo, Novy Urengoy, городской округ Новый Уренгой, Yamalo-Nenets Autonomous Okrug, Ural Federal District, Russia<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7d45dd07612e2fee02f9f14257b0eb39.setContent(html_4bb80f59682acb54a0e0218a53efa35a);
+            
+        
+
+        circle_marker_172c03eddac1c566a3e6edbbdfe74cb9.bindPopup(popup_7d45dd07612e2fee02f9f14257b0eb39)
+        ;
+
+        
+    
+    
+            circle_marker_172c03eddac1c566a3e6edbbdfe74cb9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a68ddcaf95b44ad6345da8bc8d69886d = L.circleMarker(
+                [33.0563927, 35.2369919],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_334415ce67d25f4fb0abeea004c1acd5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f4aa2cf626c1a3b7c3b148b35561677b = $(`<div id="html_f4aa2cf626c1a3b7c3b148b35561677b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> zone cuts the Goren greenstone belt and the BSZ cuts the OGGB and this is in accordance with what has  been documented in literature. Greenstone belts and laterite profiles  Since no GIS work has been done on the greenstone belts, there is no confirmation of association of  greenstone  belts  with  laterite  profiles  found  throughout  the  study  area. From  the  interpretation  it  was  found  that  the  laterite  profiles  have  the  same  orientation  as  the  greenstone  belts  and  cover  most  of  the  study  area  where  greenstone  belts  are  located. Studies  by  Hein,  (2008)  show  that  dykes  in  northern  Burkina Faso have laterite skirts and from the interpretation done in this study most of the dolerite dykes  interpreted  had  the  laterite  skirts. The  four  greenstone  belts  Goren,  Bouroum,  Oudalan-Gorouol,  and  Yalogo  greenstone  belts  locations  were  defined. A  Goren  Greenstone  Belt  is  cut  by  a  series  of  NE  trending joint sets and the SSZ.<br><b>Geocode:</b> Goren, Maale Yosef Regional Council, Acre Subdistrict, North District, Israel<br><b>Pages:</b> 44<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_334415ce67d25f4fb0abeea004c1acd5.setContent(html_f4aa2cf626c1a3b7c3b148b35561677b);
+            
+        
+
+        circle_marker_a68ddcaf95b44ad6345da8bc8d69886d.bindPopup(popup_334415ce67d25f4fb0abeea004c1acd5)
+        ;
+
+        
+    
+    
+            circle_marker_a68ddcaf95b44ad6345da8bc8d69886d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_861dc6ef4ea69e0908fa1d33349ebe5c = L.circleMarker(
+                [33.0563927, 35.2369919],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_1f7b438a8eac7e5178072b91fb5a012f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_576a21e550ab17530c133f3ee41cb6a7 = $(`<div id="html_576a21e550ab17530c133f3ee41cb6a7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2.2 Structures  In NE Burkina Faso there are four greenstone belts, of which three have been studied, namely, the  Goren  and  Oudalan-Gorouol  greenstone belts (Fig. 2.1)  which have  been  studied  by  Hein  et  al. (2004)  Hein  et  al. (2010)  and  Tshibubudze  et  al. (2009)  and  the  Yalogo  greenstone  belt  which  has  not  been  studied to date. Figure 2.1: Greenstone belts of Burkina Faso after Béziat et al. || zone cuts the Goren greenstone belt and the BSZ cuts the OGGB and this is in accordance with what has  been documented in literature. Greenstone belts and laterite profiles  Since no GIS work has been done on the greenstone belts, there is no confirmation of association of  greenstone  belts  with  laterite  profiles  found  throughout  the  study  area. From  the  interpretation  it  was  found  that  the  laterite  profiles  have  the  same  orientation  as  the  greenstone  belts  and  cover  most  of  the  study  area  where  greenstone  belts  are  located. Studies  by  Hein,  (2008)  show  that  dykes  in  northern  Burkina Faso have laterite skirts and from the interpretation done in this study most of the dolerite dykes  interpreted  had  the  laterite  skirts. The  four  greenstone  belts  Goren,  Bouroum,  Oudalan-Gorouol,  and  Yalogo  greenstone  belts  locations  were  defined. A  Goren  Greenstone  Belt  is  cut  by  a  series  of  NE  trending joint sets and the SSZ.<br><b>Geocode:</b> Goren, Maale Yosef Regional Council, Acre Subdistrict, North District, Israel<br><b>Pages:</b> 16,44<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1f7b438a8eac7e5178072b91fb5a012f.setContent(html_576a21e550ab17530c133f3ee41cb6a7);
+            
+        
+
+        circle_marker_861dc6ef4ea69e0908fa1d33349ebe5c.bindPopup(popup_1f7b438a8eac7e5178072b91fb5a012f)
+        ;
+
+        
+    
+    
+            circle_marker_861dc6ef4ea69e0908fa1d33349ebe5c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d718fdd467792845a46a27a3539b265 = L.circleMarker(
+                [14.515532, 0.102903],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_0cb12b22d9242a851a2435228beaaf24 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c5a8d651fb8def7cf64f13f496cbdbb1 = $(`<div id="html_c5a8d651fb8def7cf64f13f496cbdbb1" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2008)  The Oudalan–Gorouol greenstone belt (OGGB) hosts gold deposits at Essakane, Gossey, Korizena  and  Falagountou  (Tshibubudze  et  al.,  2010). In  the  OGGB,  the  Birimian  supracrustal  sequences  are  dominated  by  meta-volcaniclastic  greywacke  that  is  intercalated  with  meta-conglomerate,  siltone  and  shale, carbonate (dolomite) and volcanic units (pillow lavas). The OGGB is surrounded by plutonic rocks  including granite, TTG suite granitoids and granite gneiss (Tshibubudze et al., 2010). It is crosscut by the  NNE trending Markoye Shear Zone, NE trending Tin Takanet-Bellekcire Shear Zone, westerly trending  16<br><b>Geocode:</b> Gossey, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 16<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_0cb12b22d9242a851a2435228beaaf24.setContent(html_c5a8d651fb8def7cf64f13f496cbdbb1);
+            
+        
+
+        circle_marker_2d718fdd467792845a46a27a3539b265.bindPopup(popup_0cb12b22d9242a851a2435228beaaf24)
+        ;
+
+        
+    
+    
+            circle_marker_2d718fdd467792845a46a27a3539b265.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9832b835392bb65692a504aa63af70f8 = L.circleMarker(
+                [37.2433976, -85.5346302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_b477fb796873ff2775aa09ddb38f9e69 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c7985b5477f0e4a6e76f02e5c2cafb23 = $(`<div id="html_c7985b5477f0e4a6e76f02e5c2cafb23" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Green show area of vegetation. Figure 4.1: Lineaments with E–W (ENE), N–S (NNW) and NE–SW trends. Figure 4.2: Distribution of greenstone belts, laterites and shear zones (Greenstone belts-green, laterites- purple and shear zones in red). Figure  4.3. The  Boromo–Goren  Greenstone  Belt  (BGGB)  of  Burkina  Faso,  together  with  the  Bouroum  and Yalogo greenstone belts Hein et al. (2004).<br><b>Geocode:</b> Green County, Kentucky, United States<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b477fb796873ff2775aa09ddb38f9e69.setContent(html_c7985b5477f0e4a6e76f02e5c2cafb23);
+            
+        
+
+        circle_marker_9832b835392bb65692a504aa63af70f8.bindPopup(popup_b477fb796873ff2775aa09ddb38f9e69)
+        ;
+
+        
+    
+    
+            circle_marker_9832b835392bb65692a504aa63af70f8.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c1b76f48d61b58d9df7ebc13d60de74 = L.circleMarker(
+                [7.9897371, -5.5679458],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_84917756a013939ca36d9ca09f9e719a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4b92be67c7f5cd1dba9d2bac68a3dfae = $(`<div id="html_4b92be67c7f5cd1dba9d2bac68a3dfae" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11<br><b>Geocode:</b> Côte d'Ivoire<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_84917756a013939ca36d9ca09f9e719a.setContent(html_4b92be67c7f5cd1dba9d2bac68a3dfae);
+            
+        
+
+        circle_marker_8c1b76f48d61b58d9df7ebc13d60de74.bindPopup(popup_84917756a013939ca36d9ca09f9e719a)
+        ;
+
+        
+    
+    
+            circle_marker_8c1b76f48d61b58d9df7ebc13d60de74.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_741af79d2472989800ae7445de994684 = L.circleMarker(
+                [14.3629984, -0.0296908],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_753ccc1142fc28d3bd71457de1b43c04 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d15e34f905cc1d20ff99f24a8f443b67 = $(`<div id="html_d15e34f905cc1d20ff99f24a8f443b67" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2008)  The Oudalan–Gorouol greenstone belt (OGGB) hosts gold deposits at Essakane, Gossey, Korizena  and  Falagountou  (Tshibubudze  et  al.,  2010). In  the  OGGB,  the  Birimian  supracrustal  sequences  are  dominated  by  meta-volcaniclastic  greywacke  that  is  intercalated  with  meta-conglomerate,  siltone  and  shale, carbonate (dolomite) and volcanic units (pillow lavas). The OGGB is surrounded by plutonic rocks  including granite, TTG suite granitoids and granite gneiss (Tshibubudze et al., 2010). It is crosscut by the  NNE trending Markoye Shear Zone, NE trending Tin Takanet-Bellekcire Shear Zone, westerly trending  16<br><b>Geocode:</b> Korizéna, Gorom-Gorom, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 16<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_753ccc1142fc28d3bd71457de1b43c04.setContent(html_d15e34f905cc1d20ff99f24a8f443b67);
+            
+        
+
+        circle_marker_741af79d2472989800ae7445de994684.bindPopup(popup_753ccc1142fc28d3bd71457de1b43c04)
+        ;
+
+        
+    
+    
+            circle_marker_741af79d2472989800ae7445de994684.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1769f958c64880a7250615114254146 = L.circleMarker(
+                [49.3597062, 17.3094202],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_9ee2b9168045e998d16aed1fc63f64bb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d862c13b42d869c366699bc2907728bb = $(`<div id="html_d862c13b42d869c366699bc2907728bb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Baban and Kamaruzaman Wan Yusuf, 2001  Study area: Langkawi Islands  Data collection and methodology  The study area has a Landsat TM satellite image for Langkawi Island, acquired on March 1995 was  analysed using IDRISI, a raster-based GIS software program. Image was atmospherically corrected using  the  darkest  pixel  approach  and  geocorrected  with  a mean  square  (RMS)  error of  less  than  half a  pixel. Using IDRISI, with composite images of the bands TM3, TM4 and TM5 an unsupervised classification of  land use/cover was performed on the basis of spectral signatures for nine clustering areas. Secondary data  was used to support this work. This consisted of a 1990 topographic map of scale 1:500 000, 1990 land  use map of scale 1:150 000 and 1986 map at scale 1:100 000 and ground truth data from 255 sampled  points. This  was  followed  by  a  supervised  classification  for  land  use/cover  where  training  sites  were  selected on the basis of the unsupervised classified image.<br><b>Geocode:</b> March, Czechia<br><b>Pages:</b> 22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9ee2b9168045e998d16aed1fc63f64bb.setContent(html_d862c13b42d869c366699bc2907728bb);
+            
+        
+
+        circle_marker_e1769f958c64880a7250615114254146.bindPopup(popup_9ee2b9168045e998d16aed1fc63f64bb)
+        ;
+
+        
+    
+    
+            circle_marker_e1769f958c64880a7250615114254146.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1a5ba5bb0cb8219a082dae3dd41f732c = L.circleMarker(
+                [50.5032737, 13.636112],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_f90db1c2dd0b571a2b73b05098f5126a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3527f94f63bca1b2895d632510682705 = $(`<div id="html_3527f94f63bca1b2895d632510682705" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 1: INTRODUCTION  1.1 Preamble  Most geological maps of Burkina Faso are outdated and due to high cost of aerial photography the maps  have not been updated. There is massive investment in exploration in NE Burkina Faso and there are few  geological maps that assist in targeting, with the latest being completed by Castaing in 2003. Therefore a  GIS  interpretation  was  undertaken  to  create  a  strato-tectonic-magmatic  map  for  the  area. GIS  interpretation has become the most important modern tool for geological interpretation and a fundamental  approach in grassroots exploration for the delineation of resource potential. It involves the breaking up of  complex  data  planes  into  simpler  and  more  interpretable  forms  related  to  geological  features. Remote  sensing analysis from GIS is used to extract drainage and topographic patterns, curvilinear features and  stands of lithologically related vegetation (Drury, 1987).<br><b>Geocode:</b> Most, okres Most, Ústí nad Labem Region, Northwest, Czechia<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f90db1c2dd0b571a2b73b05098f5126a.setContent(html_3527f94f63bca1b2895d632510682705);
+            
+        
+
+        circle_marker_1a5ba5bb0cb8219a082dae3dd41f732c.bindPopup(popup_f90db1c2dd0b571a2b73b05098f5126a)
+        ;
+
+        
+    
+    
+            circle_marker_1a5ba5bb0cb8219a082dae3dd41f732c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b271f19a43ae033eb7e035976db2d3e = L.circleMarker(
+                [10.3777812, -4.6882653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_64bcd923df173c4557fc3a3f72aa3ecc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7ccd27c6f1929c8592764d989c74055d = $(`<div id="html_7ccd27c6f1929c8592764d989c74055d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2-  The FCC images gave additional information helping in improving the previous geological maps  of the study area. 3- This new strato-tectonic-magmatic map in this study (Fig. 5.2) needs more field investigations and  verifications  to  construct  the  detailed  geological  map  of  NE  Burkina  Faso. This  study  showed  the  important use of colour composite images constructed from the LANDSAT 7 bands combined with  the magnetic and radiometric data and for geological mapping improves mapping. 48 || 2.2 Structures  In NE Burkina Faso there are four greenstone belts, of which three have been studied, namely, the  Goren  and  Oudalan-Gorouol  greenstone belts (Fig. 2.1)  which have  been  studied  by  Hein  et  al. (2004)  Hein  et  al. (2010)  and  Tshibubudze  et  al. (2009)  and  the  Yalogo  greenstone  belt  which  has  not  been  studied to date. Figure 2.1: Greenstone belts of Burkina Faso after Béziat et al. || ABSTRACT  Satellite  images  are  among  continuous  sources  of  digital  data  for  mapping  geological  structures,  lithologies  and  for  human  geography  studies. In  this  study,  a  strato-tectonic-magmatic  map  of  NE  Burkina Faso was created using Landsat 7 imagery combined with radiometric and magnetic data. Four  different  false  color  composite  images  of  Landsat  data  (FCC  731,742,753  and  432)  RGB  images  were  generated and evaluated for lithological mapping and human geography studies. A false color composite  image of Landsat data 731 (RGB) was generated and used for production of the strato-tectonic-magmatic  map for the study area. Analysis of geological structures such as lineaments, shear zone, dykes, plutons  and lithological discrimination as well as geographic features was carried out using IDRISI Kilimanjaro  software and CorelDraw X3 ® software packages. Throughout  this  study  Landsat  data  731(RGB)  was  used  for  extraction  process. || Figure  3.2:  Aeromagnetic  data  A,  B,  C  with  total  magnetic  intensity  reduced  to  the  pole  1st  vertical  derivative. D-represents overlay of the three magnetic data (A, B and C). 3.1.4 Radiometric data  Total K-Th-U RGB data for NE Burkina Faso was used. Due to the image being cut off only few parts of  the image making the study area will be used. There are two images making the radiometric data (figure  4) and using CorelDraw X3 ® Software the two image in figure 4 A and C were inverted. 27 || The  Birimian  Bouroum-Yalogo  greenstone  belt  is  a  Y-shaped  terrane  located  between  large  Eburnean  granitoid  batholiths  200  km  northeast  of  Ouagadougou  (Ducellier  1963). It  consists  of:  (1)  metagranites,  metagabbro-diorites  and  metaquartzite  of  the  Bamga  series  (Hottin  and  Ouedraogo  1976;  Sawadogo 1983; Zonou, 1987) interpreted as early Birimian and dated at 2. 18 Ga (Boher et al. 1992); (2)  overlying  mafic  lava  flows  and  pillow  lavas  (Zonou  et  al.,1985)  with  associated  pyroclastites,  volcaniclastic rocks and immature sediments  mainly at lower levels and calc-alkaline andesite, dacite and  lamprophyre  at  upper  levels,  all  affected  by  a  greenschist-facies  metamorphism;  and  (3)  basic  to  intermediate plutons later emplaced. Markoye Shear zone  In  the  NE  Burkina  Faso  the  Palaeoproterozoic  Birimian  Domain  of  the  West  African  Craton  is  crosscut by the NE-trending Markoye Shear Zone (MSZ) which is a first crustal scale structure. The MSZ  marks  the  western  boundary  of  the  Oudalan-Gorouol  Greenstone  Belt  which  extends  into  the  Niger  17 || The  map  by  Hottin  &  Ouedraogo  (1992)  doesn’t show  sand  dunes that cover most of the NE Burkina Faso. The new map (Fig. 5.2) has more details but more ground  truth  in the form  of  mapping  needs  to  be  done to  confirm  some  of  the  features  that are  not  covered  in  literature or haven’t been mapped. 45 || The last FCC  image was used for the location of outcrops. The prepared 731 FCC imagery (Fig. 3.1) obtained from the  Landsat 7 data, was used in constructing the detailed strato-tectonic-magmatic map of NE Burkina Faso  (Fig. 5.2) which illustrates the following:   1-  The greenstone belts with a brownish to orange colour covered by purple laterite caps, plutonic  rocks  which  had  a  pinkish  colour  surrounding  the  greenstone  belts  which  were  clearly  discriminated. 2-  The shear zones which had NNE- NW trends and dykes with laterite skirts trending NW. 3-  The lineaments with East to ENE), North to NNW and NEasterly trends and major joints created  by the drainage system in the area.<br><b>Geocode:</b> Ne, Niangoloko, Comoé, Waterfalls, Burkina Faso<br><b>Pages:</b> 10,16,17,27,45,48<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_64bcd923df173c4557fc3a3f72aa3ecc.setContent(html_7ccd27c6f1929c8592764d989c74055d);
+            
+        
+
+        circle_marker_8b271f19a43ae033eb7e035976db2d3e.bindPopup(popup_64bcd923df173c4557fc3a3f72aa3ecc)
+        ;
+
+        
+    
+    
+            circle_marker_8b271f19a43ae033eb7e035976db2d3e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f1119b236cb5fc880a3957927c09516a = L.circleMarker(
+                [40.8266496, -73.1061525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_b30b964beeef6990295e19899090d8ee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_69aea36e3499cc6f6f45229d906ed9e2 = $(`<div id="html_69aea36e3499cc6f6f45229d906ed9e2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  branch  consists  of  an  array  of  interconnected  sub-shears  trending NE. The sub-shears crosscut and offset all the lithologies, F1 folds and D1 boudins at Tangapella  area (Hein, 2010). Belahouro Shear Zone  The Belahouro Shear Zone (BSZ) is a mineralised NNW trending shear zone. It is modelled as a  back structure to the major NNE trending Markoye Shear Zone (Middleton et al., 1997)). The Belahouro  Shear  Zone  is  mineralised and  is  considered  a  prospective  exploration  target. Basalt and  volcanoclastic  within the NE portion of the region have a sheared contact and provide a lithological contrast (Middleton  et al., 1997).<br><b>Geocode:</b> Portion Road, Lake Ronkonkoma, Town of Brookhaven, Suffolk County, New York, 11779, United States<br><b>Pages:</b> 18<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b30b964beeef6990295e19899090d8ee.setContent(html_69aea36e3499cc6f6f45229d906ed9e2);
+            
+        
+
+        circle_marker_f1119b236cb5fc880a3957927c09516a.bindPopup(popup_b30b964beeef6990295e19899090d8ee)
+        ;
+
+        
+    
+    
+            circle_marker_f1119b236cb5fc880a3957927c09516a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d08151f22ff84d84396380243d9d23bb = L.circleMarker(
+                [12.3681873, -1.5270944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_794312b92f74cb20d745c0671bdaa9bb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_21bb03309280d8037af304006e294be4 = $(`<div id="html_21bb03309280d8037af304006e294be4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11 || Figure 4.4: RGB 742 showing sand dunes in light green on the image. Figure 4.5: Outcrop locations in grey. Figure 4.6: Sharp lithological contacts (orange). Figure 4.7: A-RGB 432 false colour composite with areas of healthy and dense vegetation shown in red  and  areas  of  less  vegetation  shown  in  light  right. Rivers  are  marked  in  blue  and  cities  (City  of  Ouagadougou) in cyan blue (B) and drainage systems are shown in red indicating that there is vegetation  along the river (B). Figure 4.8: Locality map of Burkina Faso showing cities, towns, villages and roads.<br><b>Geocode:</b> Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 11,4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_794312b92f74cb20d745c0671bdaa9bb.setContent(html_21bb03309280d8037af304006e294be4);
+            
+        
+
+        circle_marker_d08151f22ff84d84396380243d9d23bb.bindPopup(popup_794312b92f74cb20d745c0671bdaa9bb)
+        ;
+
+        
+    
+    
+            circle_marker_d08151f22ff84d84396380243d9d23bb.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eab1bdacf5c1e0c94d4bdf83532c58d7 = L.circleMarker(
+                [45.3267931, 4.7424889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_e442d0cdd244d98c0f6e42b5286c2991 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ea72012879098b7b177449588104a4de = $(`<div id="html_ea72012879098b7b177449588104a4de" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> -Shape is the geometric outline of an object and it gives information about the nature and geometry  of the object. -size is the magnitude of an object or a single dimension of an object. The geological interpretation of imagery  Colour and tones give brightness levels in digital images and reflection of colour tones of different  materials  on  the  earth  helps  to  distinguish  different  materials  and  their  boundaries  e.g. water  can  be  distinguished  from  soil  since  water  has  a  different  tone  than  soil  (Lillesand  &  Kiefer,  1994;  Konecny  2002; Prost, 2001). 2.3.4 Mapping land use/ cover distributions on a mountainous tropical island using remote sensing and  GIS by Serwan M. J.<br><b>Geocode:</b> Prost, Félines, Tournon-sur-Rhône, Ardèche, Auvergne-Rhône-Alpes, Metropolitan France, 07340, France<br><b>Pages:</b> 22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e442d0cdd244d98c0f6e42b5286c2991.setContent(html_ea72012879098b7b177449588104a4de);
+            
+        
+
+        circle_marker_eab1bdacf5c1e0c94d4bdf83532c58d7.bindPopup(popup_e442d0cdd244d98c0f6e42b5286c2991)
+        ;
+
+        
+    
+    
+            circle_marker_eab1bdacf5c1e0c94d4bdf83532c58d7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bfebc4919876dbb45d150141e53815c3 = L.circleMarker(
+                [22.25, 9.8],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_e0b4bc513519ee354fcf19f74a69dfe6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cc36eb1a4cc670a1a1fbf031cba73205 = $(`<div id="html_cc36eb1a4cc670a1a1fbf031cba73205" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Dykes  The dykes are predominantly NW-trending and are inferred to be dolerite in composition. The dykes are  not continuous and hard to trace. Sand dunes  Two images (p194r050 and p195r050) from the false colour composite 742 were used to delineate sand  dunes  (Fig. 4.4). On  the  image  they  are  light  green  since  they  occur  in  areas with  less  vegetation. The  sand dunes only cover the northern part of Burkina Faso, they form part of the Sahara desert.<br><b>Geocode:</b> Sahara, Tazrouk, Tazrouk District, Tamanrasset, Algeria<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e0b4bc513519ee354fcf19f74a69dfe6.setContent(html_cc36eb1a4cc670a1a1fbf031cba73205);
+            
+        
+
+        circle_marker_bfebc4919876dbb45d150141e53815c3.bindPopup(popup_e0b4bc513519ee354fcf19f74a69dfe6)
+        ;
+
+        
+    
+    
+            circle_marker_bfebc4919876dbb45d150141e53815c3.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f5bbd02e328834af68434517329a9ff = L.circleMarker(
+                [22.25, 9.8],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_e00ab33e01082d6c49ec4a7da646cacd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8028fed5c05aa845d10fd8ca4bf30b9a = $(`<div id="html_8028fed5c05aa845d10fd8ca4bf30b9a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Dykes  The dykes are predominantly NW-trending and are inferred to be dolerite in composition. The dykes are  not continuous and hard to trace. Sand dunes  Two images (p194r050 and p195r050) from the false colour composite 742 were used to delineate sand  dunes  (Fig. 4.4). On  the  image  they  are  light  green  since  they  occur  in  areas with  less  vegetation. The  sand dunes only cover the northern part of Burkina Faso, they form part of the Sahara desert.<br><b>Geocode:</b> Sahara, Tazrouk, Tazrouk District, Tamanrasset, Algeria<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e00ab33e01082d6c49ec4a7da646cacd.setContent(html_8028fed5c05aa845d10fd8ca4bf30b9a);
+            
+        
+
+        circle_marker_4f5bbd02e328834af68434517329a9ff.bindPopup(popup_e00ab33e01082d6c49ec4a7da646cacd)
+        ;
+
+        
+    
+    
+            circle_marker_4f5bbd02e328834af68434517329a9ff.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4380d72074b985a24deb53edae1c51f9 = L.circleMarker(
+                [13.2405448, -0.9747023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_399539e92e4d781ed29ff86ce68d1153 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_22b1a955c21d52b498482fa4f2985c10 = $(`<div id="html_22b1a955c21d52b498482fa4f2985c10" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Dori Shear Zone, north trending Kargouna Shear Zone, Takabougou Shear Zone and Bom Kodjelé Shear  Zone (Tshibubudze et al., 2010). The  Goren  Greenstone  Belt  (GGB)  forms  part  of  the  largest  Boromo-Goren  Greenstone  Belt  (BGGB) .The GGB segment of the BGGB trends SE across the Yatenga, Bam, and Sanmatenga districts  (Hein et al., 2004). In the GGB there are two Birimian formations: the Lower and Upper Birimian which  are described based on studies done by Attoh (1982) and Feybesse et al. (1990) and craton-scale studies  by Milési et al. (1989), Abouchami et al. (1990), Hottin and Ouedraogo (1992)  and Boher et al (1992).<br><b>Geocode:</b> Sanmatenga, Central-North, Burkina Faso<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_399539e92e4d781ed29ff86ce68d1153.setContent(html_22b1a955c21d52b498482fa4f2985c10);
+            
+        
+
+        circle_marker_4380d72074b985a24deb53edae1c51f9.bindPopup(popup_399539e92e4d781ed29ff86ce68d1153)
+        ;
+
+        
+    
+    
+            circle_marker_4380d72074b985a24deb53edae1c51f9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6173ae524fcd2e64119ae919fbdf6a51 = L.circleMarker(
+                [45.1609039, 17.4445188],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_27934693567136eaf271ba74d40ba5ab = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c1dc96e090edf67a9f12b011b051ebba = $(`<div id="html_c1dc96e090edf67a9f12b011b051ebba" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> LIST OF FIGURES  Figure 1.1: Map of Burkina Faso showing study area. Figure 1.2: Geological map of Burkina Faso showing study area (Hottin & Ouedraogo, 1992). Figure 2.1: Greenstone belts of Burkina Faso after Béziat et al. (2008). Figure 2.3.1: Flow diagram showing assessment of severity of degradation in the Save catchment. Figure  2.3.2:  Updated  national  road  network  map  overlaid  on  mosaiced  SPOT  satellite  images  of  the  Kingdom of Swaziland.<br><b>Geocode:</b> Sava, Croatia<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_27934693567136eaf271ba74d40ba5ab.setContent(html_c1dc96e090edf67a9f12b011b051ebba);
+            
+        
+
+        circle_marker_6173ae524fcd2e64119ae919fbdf6a51.bindPopup(popup_27934693567136eaf271ba74d40ba5ab)
+        ;
+
+        
+    
+    
+            circle_marker_6173ae524fcd2e64119ae919fbdf6a51.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a2159d867633aa3e58ef614b8be77e28 = L.circleMarker(
+                [8.7800265, 1.0199765],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_136d7616f3f97848883386dd9835bf8e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_37db082897c6366cf1b68534dd5653f1 = $(`<div id="html_37db082897c6366cf1b68534dd5653f1" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11<br><b>Geocode:</b> Togo<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_136d7616f3f97848883386dd9835bf8e.setContent(html_37db082897c6366cf1b68534dd5653f1);
+            
+        
+
+        circle_marker_a2159d867633aa3e58ef614b8be77e28.bindPopup(popup_136d7616f3f97848883386dd9835bf8e)
+        ;
+
+        
+    
+    
+            circle_marker_a2159d867633aa3e58ef614b8be77e28.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d6b0ebde8abe527a2d49b24ad7576d36 = L.circleMarker(
+                [13.5942938, -2.5249513],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_efee7014c862e4bee75292fd0aaaa1a2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d97d0d3cfed7ce84c1c4d356c75a6a57 = $(`<div id="html_d97d0d3cfed7ce84c1c4d356c75a6a57" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Dori Shear Zone, north trending Kargouna Shear Zone, Takabougou Shear Zone and Bom Kodjelé Shear  Zone (Tshibubudze et al., 2010). The  Goren  Greenstone  Belt  (GGB)  forms  part  of  the  largest  Boromo-Goren  Greenstone  Belt  (BGGB) .The GGB segment of the BGGB trends SE across the Yatenga, Bam, and Sanmatenga districts  (Hein et al., 2004). In the GGB there are two Birimian formations: the Lower and Upper Birimian which  are described based on studies done by Attoh (1982) and Feybesse et al. (1990) and craton-scale studies  by Milési et al. (1989), Abouchami et al. (1990), Hottin and Ouedraogo (1992)  and Boher et al (1992).<br><b>Geocode:</b> Yatenga, North, Burkina Faso<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_efee7014c862e4bee75292fd0aaaa1a2.setContent(html_d97d0d3cfed7ce84c1c4d356c75a6a57);
+            
+        
+
+        circle_marker_d6b0ebde8abe527a2d49b24ad7576d36.bindPopup(popup_efee7014c862e4bee75292fd0aaaa1a2)
+        ;
+
+        
+    
+    
+            circle_marker_d6b0ebde8abe527a2d49b24ad7576d36.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_90a99f06a268823be3f238705f1e786e = L.circleMarker(
+                [13.5942938, -2.5249513],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_7de506e478fe79c22631c8d8e3358e02 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d0e10dbb1d6c52cc1801fa4424785878 = $(`<div id="html_d0e10dbb1d6c52cc1801fa4424785878" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Dori Shear Zone, north trending Kargouna Shear Zone, Takabougou Shear Zone and Bom Kodjelé Shear  Zone (Tshibubudze et al., 2010). The  Goren  Greenstone  Belt  (GGB)  forms  part  of  the  largest  Boromo-Goren  Greenstone  Belt  (BGGB) .The GGB segment of the BGGB trends SE across the Yatenga, Bam, and Sanmatenga districts  (Hein et al., 2004). In the GGB there are two Birimian formations: the Lower and Upper Birimian which  are described based on studies done by Attoh (1982) and Feybesse et al. (1990) and craton-scale studies  by Milési et al. (1989), Abouchami et al. (1990), Hottin and Ouedraogo (1992)  and Boher et al (1992).<br><b>Geocode:</b> Yatenga, North, Burkina Faso<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7de506e478fe79c22631c8d8e3358e02.setContent(html_d0e10dbb1d6c52cc1801fa4424785878);
+            
+        
+
+        circle_marker_90a99f06a268823be3f238705f1e786e.bindPopup(popup_7de506e478fe79c22631c8d8e3358e02)
+        ;
+
+        
+    
+    
+            circle_marker_90a99f06a268823be3f238705f1e786e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_15a2458cf7e132ccea90379ae63c98a2 = L.circleMarker(
+                [51.3659142, -2.6093558],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_8c2dfe0df27aae33fdcc91cd6b5d2401 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9761dcc0de9768e94b1acda83229bbb3 = $(`<div id="html_9761dcc0de9768e94b1acda83229bbb3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Land  use  can  be  divided  into  three  sections:  arable  land  (17.66%),  which  is  mainly  land  cultivated  for  crops  that  are  replanted  after  each  harvest  (e.g. rice,  maize,  wheat),  permanent  land  (0.22%),  which  is  cultivated land that cannot be replanted after harvest(e.g. coffee, rubber ) and other land (82.12%) which  includes  pastures,  woodland,  forest,  built-on  areas,  barren  lands  and  roads. The  land  surface  is  mainly  defined  by  alluvial  plains,  low  hills,  and  sand  dunes  of  the  Sahara  Desert. Landforms  in  Burkina  Faso  include lakes, rivers, mountains and wetlands. In the north and east of the country vegetation consists of  acacia  woodland  and  scrub,  expanding  into  semi-desert  in  the  dry  season  in  the  north.<br><b>Geocode:</b> Chew Valley Country Market, The Chalks, Bristol, Bath and North East Somerset, West of England, England, BS40 8SH, United Kingdom<br><b>Pages:</b> 12<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_8c2dfe0df27aae33fdcc91cd6b5d2401.setContent(html_9761dcc0de9768e94b1acda83229bbb3);
+            
+        
+
+        circle_marker_15a2458cf7e132ccea90379ae63c98a2.bindPopup(popup_8c2dfe0df27aae33fdcc91cd6b5d2401)
+        ;
+
+        
+    
+    
+            circle_marker_15a2458cf7e132ccea90379ae63c98a2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_db754c028eeb5d13d89b912c57ed6993 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_9e11cbc96e6c9997dcca2e0a8a8f2143 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_367017c593acb30684d5a64142fe49de = $(`<div id="html_367017c593acb30684d5a64142fe49de" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 11<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9e11cbc96e6c9997dcca2e0a8a8f2143.setContent(html_367017c593acb30684d5a64142fe49de);
+            
+        
+
+        circle_marker_db754c028eeb5d13d89b912c57ed6993.bindPopup(popup_9e11cbc96e6c9997dcca2e0a8a8f2143)
+        ;
+
+        
+    
+    
+            circle_marker_db754c028eeb5d13d89b912c57ed6993.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e6f38be6840e487a9718db97a9142e9a = L.circleMarker(
+                [5.6465979, -0.188004],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_c1170ecd7281b4c6d6771192c61866ee = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6ca034b43756d00c3c23b0d4766ec74c = $(`<div id="html_6ca034b43756d00c3c23b0d4766ec74c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11<br><b>Geocode:</b> University of Ghana, J.J. Rawlings Avenue, North Legon, Legon, Accra, La-Nkwantanang-Madina Municipal District, Greater Accra Region, Ghana<br><b>Pages:</b> 11<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c1170ecd7281b4c6d6771192c61866ee.setContent(html_6ca034b43756d00c3c23b0d4766ec74c);
+            
+        
+
+        circle_marker_e6f38be6840e487a9718db97a9142e9a.bindPopup(popup_c1170ecd7281b4c6d6771192c61866ee)
+        ;
+
+        
+    
+    
+            circle_marker_e6f38be6840e487a9718db97a9142e9a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd89e47ec8315781824160e2780393ec = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_91a709632bba5ff1f24761e44e9c9968 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_418c9178987bda1482c866f403f9f99e = $(`<div id="html_418c9178987bda1482c866f403f9f99e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> CHAPTER 2: REGIONAL GEOLOGY  2.1 Stratigraphy  The  lithostratigraphy  in  north-eastern  Burkina  Faso  is  defined  by  NE-trending  Birimian  meta- volcaniclastic  greywacke  and  intercalated  meta-conglomerate,  siltstone  and  shale  (Figure  1. 2). The  Birimian stratigraphy was divided into two parts by Junner (1935; 1940) in (Leube et al., 1990), the lower  Birimian series and the upper Birimian series. The lower Birimian series is predominantly sedimentary in  origin  and  includes  dacitic/rhyodacitic  meta-volcaniclastic  sediments,  meta-greywacke  with intercalated  black meta-siltstone and manganiferous chert, argillite, shale and chemical meta-sedimentary (Feybesse et  al., 1990; Leube et al., 1990; Hirdes et al., 1990; Milési et al., 1991). The upper Birimian series consists  of metamorphosed basic and intermediate lavas and pyroclastic rocks (Feybesse et al., 1990; Leube et al.,  1990; Hirdes et al., 1996; Milési et al., 1991, 1992; Naba, 2004; Tshibubudze et al., 2009). The Birimian  sequences  were  metamorphosed  during  the  Eburnean  Orogeny  and  were  intruded  by  numerous  calc- alkaline  plutons  including  tonalite  (TTG),  granodiorite,  diorite  and  meta-diorite  bodies  that  are  collectively  termed  the  Eburnean  granitoids  (Pons  et  al.,  1995;  Naba  et  al.,  2004;  Pawlig  et  al.,  2006).<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 15<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_91a709632bba5ff1f24761e44e9c9968.setContent(html_418c9178987bda1482c866f403f9f99e);
+            
+        
+
+        circle_marker_dd89e47ec8315781824160e2780393ec.bindPopup(popup_91a709632bba5ff1f24761e44e9c9968)
+        ;
+
+        
+    
+    
+            circle_marker_dd89e47ec8315781824160e2780393ec.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_46453a7f91bd7ad72bc6233069bc76ea = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_ba73877b12d3e9df047dced0b64dcbdc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_487f2aee23ba4f456d342093fb8a13df = $(`<div id="html_487f2aee23ba4f456d342093fb8a13df" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Dykes  The dykes are predominantly NW-trending and are inferred to be dolerite in composition. The dykes are  not continuous and hard to trace. Sand dunes  Two images (p194r050 and p195r050) from the false colour composite 742 were used to delineate sand  dunes  (Fig. 4.4). On  the  image  they  are  light  green  since  they  occur  in  areas with  less  vegetation. The  sand dunes only cover the northern part of Burkina Faso, they form part of the Sahara desert.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 37<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ba73877b12d3e9df047dced0b64dcbdc.setContent(html_487f2aee23ba4f456d342093fb8a13df);
+            
+        
+
+        circle_marker_46453a7f91bd7ad72bc6233069bc76ea.bindPopup(popup_ba73877b12d3e9df047dced0b64dcbdc)
+        ;
+
+        
+    
+    
+            circle_marker_46453a7f91bd7ad72bc6233069bc76ea.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_69a7108a4bf4b7c2d6a4c16380b9fe9f = L.circleMarker(
+                [6.9137267, 79.8743616],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9752278380c1663d2413c816e2d4b9de);
+        
+    
+        var popup_e449db742641c7178afc8ead3711d0e3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_26edb7e1962df1f8937f070867fbf0d5 = $(`<div id="html_26edb7e1962df1f8937f070867fbf0d5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1.2 Location and physiography  The study area for the project is north east Burkina Faso. Burkina Faso is a landlocked country located in  western  Africa,  north  of  Ghana  (Fig  1.1). It  shares  borders  with  six  countries  namely  Benin  in  the  southeast, Ivory Coast in the south west, Togo and Ghana in the south, Mali in the north and Niger in the  east. It  has  an  area  of  274.200  km2  and  an  annual  population  growth  of  2.7%.The  capital  city  is  Ouagadougou. The official language is French and regional languages include Dioula and Mooré. 11<br><b>Geocode:</b> High commission of South Africa, 114, Rosmead Place, Town Hall, Cinnamon Gardens, Colombo, Colombo District, Western Province, 00800, Sri Lanka<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e449db742641c7178afc8ead3711d0e3.setContent(html_26edb7e1962df1f8937f070867fbf0d5);
+            
+        
+
+        circle_marker_69a7108a4bf4b7c2d6a4c16380b9fe9f.bindPopup(popup_e449db742641c7178afc8ead3711d0e3)
+        ;
+
+        
+    
+    
+            circle_marker_69a7108a4bf4b7c2d6a4c16380b9fe9f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

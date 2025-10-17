@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2de85a84a0f420cd73480d59ecd9cbf2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_2de85a84a0f420cd73480d59ecd9cbf2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2de85a84a0f420cd73480d59ecd9cbf2 = L.map(
+                "map_2de85a84a0f420cd73480d59ecd9cbf2",
+                {
+                    center: [30.599248093333326, -1.2857183000000003],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e3c478d3293b02aaed3e6d7287ada465 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e3c478d3293b02aaed3e6d7287ada465.addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+            var circle_marker_4aa75403e84e07058016a4652cf995f5 = L.circleMarker(
+                [12.3681873, -1.5270944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_f6a5c8f4e7e900c73fae16f736503665 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_13f571da5dc1b85694161cc80bd763ec = $(`<div id="html_13f571da5dc1b85694161cc80bd763ec" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f6a5c8f4e7e900c73fae16f736503665.setContent(html_13f571da5dc1b85694161cc80bd763ec);
+            
+        
+
+        circle_marker_4aa75403e84e07058016a4652cf995f5.bindPopup(popup_f6a5c8f4e7e900c73fae16f736503665)
+        ;
+
+        
+    
+    
+            circle_marker_4aa75403e84e07058016a4652cf995f5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3d9e77b492402830b1a516581142e8e8 = L.circleMarker(
+                [49.4300997, 2.0823355],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_7a30bf0f5f85cfb9d19e44c49f53056c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e67dc7b4c63c58dc6bf821b09c3a190a = $(`<div id="html_e67dc7b4c63c58dc6bf821b09c3a190a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Specifically  the  Oudalan-Gorouol  Greenstone  Belt  has  undergone  greenschist- facies  metamorphism  (Tshibubudze  et  al.,  2009). Regional  metamorphism  to  greenschist  facies is associated to north-south crustal shortening during the Eburnean Orogeny (Vidal et  al., 1996, Beziat et al., 2000, Hein et al., 2004 and Naba et al., 2004). Contact metamorphism  of  these  rocks  occurred  due  to  the  emplacement  of  granitoids  which  include  granite- adamellite,  granite  and  granodiorite  compositions  (Pons  et  al.,  1995;  Debat  et  al.,  2003;  Tshibubudze et al., 2009). Metamorphism of the surrounding units to the granitoids occurred  to  amphibolite-facies  (Pons  et  al.,  1995;  Tshibubudze  et  al.,  2009;  Tshibubudze  and  Hein,  submitted)  and  granulite  facies  (Tshibubudze  and  Hein,  submitted).. Through  hornblende  barometric estimates, shallow crust (3-4 kbar) emplacement of plutons has been established  (Pons et al., 1992). Gold and manganese mineralisation as well as pegamatite veins are present in the Oudalan- Gorouol  greenstone  belt  (Milési  et  al.,  1992;  Nikiéma,  1992;  Beauvais  et  al.,  2008  Tshibubudze, et al., 2009; Tshibubudze and Hein, submitted).<br><b>Geocode:</b> Beauvais, Oise, Hauts-de-France, Metropolitan France, 60000, France<br><b>Pages:</b> 9<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7a30bf0f5f85cfb9d19e44c49f53056c.setContent(html_e67dc7b4c63c58dc6bf821b09c3a190a);
+            
+        
+
+        circle_marker_3d9e77b492402830b1a516581142e8e8.bindPopup(popup_7a30bf0f5f85cfb9d19e44c49f53056c)
+        ;
+
+        
+    
+    
+            circle_marker_3d9e77b492402830b1a516581142e8e8.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aff2a796717482b7d4708e343fc7cde2 = L.circleMarker(
+                [11.7447567, -2.9300274],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_1230f563bacf737940d6786b9d26b8b8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d1afa6d0a032edf1474a29857e2186b8 = $(`<div id="html_d1afa6d0a032edf1474a29857e2186b8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2. Geology setting  2.1 Regional geology and tectonics  The West African Craton is composed of Palaeoproterozoic rocks of the Birimian Supergroup  (Feybesse et  al.,  2006; Hein,  2010) and Tarkwa Group (Davis  et  al.,  1994)  as  well as  calc- alkaline plutons which include tonalite-trondjhemite-granodiorite and diorite intrusions which  intrude the Palaeoproterozoic stratigraphy (Pons et al., 1995; Naba et al., 2004 Hein, 2010). The Birimian Supergroup is dominated by metamorphosed sedimentary, volcano-sedimentary  and  volcanic  sequences. The  meta-volcanic  sequences  in  the  Goren  greenstone  belt  and  Boromo greenstone belt are at dated at 2238 ± 5 Ma and 2171 ± 7 Ma respectively (Castaing  et  al.,  2003)  based  on  Pb-Pb  zircon  dating  from  rhyolites  within  the  belts. The  metasedimentary  rocks  of  the  Birimian  Supergroup  comprise  mainly  metamorphosed  volcaniclastics,  greywacke,  siltstone,  shale,  chemical  sediments  and  chert. The  younger  Tarkwa  Group,  dated  at  2194–2132  Ma  from  U-Pb  detrital  zircons  (Davis  et  al.,  1994),  comprises  clastic  sedimentary  rocks  derived  from  erosion  of  the  Birimian  Supergroup  of  which it overlies unconformably (Hirdes et al., 1992 and Davis et al., 1994).<br><b>Geocode:</b> Boromo, Balé, Boucle du Mouhoun, Burkina Faso<br><b>Pages:</b> 8<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1230f563bacf737940d6786b9d26b8b8.setContent(html_d1afa6d0a032edf1474a29857e2186b8);
+            
+        
+
+        circle_marker_aff2a796717482b7d4708e343fc7cde2.bindPopup(popup_1230f563bacf737940d6786b9d26b8b8)
+        ;
+
+        
+    
+    
+            circle_marker_aff2a796717482b7d4708e343fc7cde2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_329974cc62313ae4a6bfb4bc6cda61b0 = L.circleMarker(
+                [35.7270403, -81.6632108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_412cdcdbbc4563a38720c912b3d6d37b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_357f19276cc333fe1f6558f309ccba13 = $(`<div id="html_357f19276cc333fe1f6558f309ccba13" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The intrusion of the diorite pluton. There are several granodiorite plutons that occur in  the  surrounding  area  (Tshibubudze  and  Hein,  submitted). The  most  likely  source  of  the pluton in KEMB could be a  younger batholith related diorite intrusions south of  the town of Gorom Gorom. 7. The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands. Ferricrete  horizons  in  the  WAC  formed  during  the  Cretaceous  and  associated  with  the  development of in situ laterite (Brown et al., 1994; Burke and Gunnell, 2008).<br><b>Geocode:</b> Burke County, North Carolina, United States<br><b>Pages:</b> 49<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_412cdcdbbc4563a38720c912b3d6d37b.setContent(html_357f19276cc333fe1f6558f309ccba13);
+            
+        
+
+        circle_marker_329974cc62313ae4a6bfb4bc6cda61b0.bindPopup(popup_412cdcdbbc4563a38720c912b3d6d37b)
+        ;
+
+        
+    
+    
+            circle_marker_329974cc62313ae4a6bfb4bc6cda61b0.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b9279a76c64b5ebc5d96397a931338f = L.circleMarker(
+                [33.9458693, -83.3557816],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_6677b747165437e2e588e96d0a296f84 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e57ab68b68c96d16dce98d61fc77321d = $(`<div id="html_e57ab68b68c96d16dce98d61fc77321d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 7.3). Thus subsidence and burial to suitable depth, by some or other process,  would have resulted in the formation in the facies observed by regional metamorphism. Figure 7.3: Metamorphic facies and geothermal gradients (Nelson, 2003)  Features  within  the  metamorphic  rock  assist  in  determining  how  metamorphism  occurred. The  greenschist  contains  bedding  parallel  foliation  which  is  defined  by  the  elongation  and  alignment of quartz crystals and microcrystalline anastomosing zones, possibly representative  of  where  pressure  solution  may  have  also  occurred. Deformation  to  crystals  appears  to  be  axial  which  is  indicated  by  the  absence  of  shearing  and  rotation  of  crystals. Undulose  extinction, grain elongation defining a foliation and recrystallisation, all exhibited by quartz  crystals, are produced at low to moderate temperatures and pressures (Vernon, 1976; Vernon  &  Clarke,  2008).<br><b>Geocode:</b> Clarke County, Georgia, United States<br><b>Pages:</b> 43<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6677b747165437e2e588e96d0a296f84.setContent(html_e57ab68b68c96d16dce98d61fc77321d);
+            
+        
+
+        circle_marker_4b9279a76c64b5ebc5d96397a931338f.bindPopup(popup_6677b747165437e2e588e96d0a296f84)
+        ;
+
+        
+    
+    
+            circle_marker_4b9279a76c64b5ebc5d96397a931338f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5135f784e26ce28b308509b0ea58ee9d = L.circleMarker(
+                [14.0327651, -0.0348286],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_fcaa12880ee64404778ef5e41b16e5e0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a290b461b658c38e7c92a3e70ca93dbe = $(`<div id="html_a290b461b658c38e7c92a3e70ca93dbe" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Considering the KEMB and related  pressure-temperature  conditions,  would  it  have  been  possible  to  produce  a  migmatite? The  migmatite  is  situated  between  the  greenschist  and  amphibolite  facies. Here  temperatures  would have been in excess of 450 ⁰C (c.f., Vernon and Clarke, 2008). The influx of fluids at  these  temperatures  would  not  have  been  sufficient  to  induce  melting. However  there  is  the  presence  of  several  large  plutons  in  the  surrounding  area  which  include  the  Tin  Taradat  granodiorite-tonalite,  Dori  batholith  and  the  Granite  Adamelite  (Tshibubudze  and  Hein,  submitted). These  could  have  been  the  source  of  high  temperature  igneous  related  fluids  which would have infiltrated the surrounding rocks. || STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Dori, Séno, Sahel, Burkina Faso<br><b>Pages:</b> 47,5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fcaa12880ee64404778ef5e41b16e5e0.setContent(html_a290b461b658c38e7c92a3e70ca93dbe);
+            
+        
+
+        circle_marker_5135f784e26ce28b308509b0ea58ee9d.bindPopup(popup_fcaa12880ee64404778ef5e41b16e5e0)
+        ;
+
+        
+    
+    
+            circle_marker_5135f784e26ce28b308509b0ea58ee9d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b923b21c6b264bcd0b0217013ad02caf = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_82fe6de50e3db0acaae3d509700b2335 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_01df5fdad4474f381afb0f497ba07b8e = $(`<div id="html_01df5fdad4474f381afb0f497ba07b8e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 4<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_82fe6de50e3db0acaae3d509700b2335.setContent(html_01df5fdad4474f381afb0f497ba07b8e);
+            
+        
+
+        circle_marker_b923b21c6b264bcd0b0217013ad02caf.bindPopup(popup_82fe6de50e3db0acaae3d509700b2335)
+        ;
+
+        
+    
+    
+            circle_marker_b923b21c6b264bcd0b0217013ad02caf.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6033d81663fa0525107dd01796bce418 = L.circleMarker(
+                [46.603354, 1.8883335],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_721915a11b3a3dc0ccc08211d1fe8f90 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_449d2e98d15a4e98760c6033dcd94787 = $(`<div id="html_449d2e98d15a4e98760c6033dcd94787" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> These zones of infiltration would have  had  to  be  concentrated  and  localised. The  rapid  increase  of  temperature  in  pre-existing  hot  conditions could have induced partial melting and dehydration of the rock. Migmatites from  Saint-Malo, France, with a very similar mineral assemblage of muscovite-plagioclase-quartz  leucosome and biotite-rich melanosome, are interpreted to have formed by the breakdown of  muscovite (Sawyer, 2008). Although the Saint-Malo migmatites have been proposed to have  formed  in  upper  amphibolite  facies,  the  presence  of  muscovite  in  the  metamorphosed  rock  which formed the migmatite in KEMB would have been a source for more hydrous fluid. 46<br><b>Geocode:</b> France<br><b>Pages:</b> 47<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_721915a11b3a3dc0ccc08211d1fe8f90.setContent(html_449d2e98d15a4e98760c6033dcd94787);
+            
+        
+
+        circle_marker_6033d81663fa0525107dd01796bce418.bindPopup(popup_721915a11b3a3dc0ccc08211d1fe8f90)
+        ;
+
+        
+    
+    
+            circle_marker_6033d81663fa0525107dd01796bce418.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a36f1e6d4ab79b311d19fbeabfe73c85 = L.circleMarker(
+                [33.0563927, 35.2369919],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_fb67b1d699097db448f08143b273974c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_71fc989323c28a40ef81a16c181c282c = $(`<div id="html_71fc989323c28a40ef81a16c181c282c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2. Geology setting  2.1 Regional geology and tectonics  The West African Craton is composed of Palaeoproterozoic rocks of the Birimian Supergroup  (Feybesse et  al.,  2006; Hein,  2010) and Tarkwa Group (Davis  et  al.,  1994)  as  well as  calc- alkaline plutons which include tonalite-trondjhemite-granodiorite and diorite intrusions which  intrude the Palaeoproterozoic stratigraphy (Pons et al., 1995; Naba et al., 2004 Hein, 2010). The Birimian Supergroup is dominated by metamorphosed sedimentary, volcano-sedimentary  and  volcanic  sequences. The  meta-volcanic  sequences  in  the  Goren  greenstone  belt  and  Boromo greenstone belt are at dated at 2238 ± 5 Ma and 2171 ± 7 Ma respectively (Castaing  et  al.,  2003)  based  on  Pb-Pb  zircon  dating  from  rhyolites  within  the  belts. The  metasedimentary  rocks  of  the  Birimian  Supergroup  comprise  mainly  metamorphosed  volcaniclastics,  greywacke,  siltstone,  shale,  chemical  sediments  and  chert. The  younger  Tarkwa  Group,  dated  at  2194–2132  Ma  from  U-Pb  detrital  zircons  (Davis  et  al.,  1994),  comprises  clastic  sedimentary  rocks  derived  from  erosion  of  the  Birimian  Supergroup  of  which it overlies unconformably (Hirdes et al., 1992 and Davis et al., 1994).<br><b>Geocode:</b> Goren, Maale Yosef Regional Council, Acre Subdistrict, North District, Israel<br><b>Pages:</b> 8<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fb67b1d699097db448f08143b273974c.setContent(html_71fc989323c28a40ef81a16c181c282c);
+            
+        
+
+        circle_marker_a36f1e6d4ab79b311d19fbeabfe73c85.bindPopup(popup_fb67b1d699097db448f08143b273974c)
+        ;
+
+        
+    
+    
+            circle_marker_a36f1e6d4ab79b311d19fbeabfe73c85.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_272be7c570bc5aa1b9843edc5bd9188a = L.circleMarker(
+                [46.3944149, -113.4687025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_56649fb614dbd381a3e3f5dc63856091 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6c40304e80abc94c8a3efd5b3f9f2086 = $(`<div id="html_6c40304e80abc94c8a3efd5b3f9f2086" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Considering the KEMB and related  pressure-temperature  conditions,  would  it  have  been  possible  to  produce  a  migmatite? The  migmatite  is  situated  between  the  greenschist  and  amphibolite  facies. Here  temperatures  would have been in excess of 450 ⁰C (c.f., Vernon and Clarke, 2008). The influx of fluids at  these  temperatures  would  not  have  been  sufficient  to  induce  melting. However  there  is  the  presence  of  several  large  plutons  in  the  surrounding  area  which  include  the  Tin  Taradat  granodiorite-tonalite,  Dori  batholith  and  the  Granite  Adamelite  (Tshibubudze  and  Hein,  submitted). These  could  have  been  the  source  of  high  temperature  igneous  related  fluids  which would have infiltrated the surrounding rocks.<br><b>Geocode:</b> Granite County, Montana, United States<br><b>Pages:</b> 47<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_56649fb614dbd381a3e3f5dc63856091.setContent(html_6c40304e80abc94c8a3efd5b3f9f2086);
+            
+        
+
+        circle_marker_272be7c570bc5aa1b9843edc5bd9188a.bindPopup(popup_56649fb614dbd381a3e3f5dc63856091)
+        ;
+
+        
+    
+    
+            circle_marker_272be7c570bc5aa1b9843edc5bd9188a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f6b00e444ef60c53d44445f50093b5f9 = L.circleMarker(
+                [49.742803, 9.6275081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_b38fe4783a713431d28d34f00cf62c59 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6687a870d8e741ae96f9812f0f86d046 = $(`<div id="html_6687a870d8e741ae96f9812f0f86d046" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 7.3 Migmatite formation  A  migmatite  results  from  the  partial  melting  of  a  pre-existing  rock. The  formation  of  migmatites is generally associated with an increase in pressure and temperature as either an  increase in  depth,  known as “static melting”, or  an increase in  differential  stress,  known as  “dynamic melting” (Ashworth, 1985 and Sawyer, 2008). In the absence of free fluid, melting  reactions occur at  granulite facies conditions,  typically at  temperature between 800 to  1000  ⁰C (Vernon and Clarke, 2008). However  the  occurrence  of  the  migmatite  in  the  KEMB  is  not  associated  with  a  typical  increase in temperature and pressure along a geothermal as described above. This is due to its  anomalous  position  between  greenschist  and  amphibolite  facies. Outcrop  suggest  the  migmatite has  little lateral  extent and is isolated to  an area of only several  hundred metres. || 7.4 Tectonic History  The  KEMB  is  host  to  metamorphosed  sedimentary  sequences  and  igneous  intrusions. The  terrain has been subjected to a series of regional tectonic events. The studies of Tshibubudze  et al. (2009) and Tshibubudze and Hein (submitted) have indicated that the KEMB lies west  of    the  Markoye  Shear  Zone  which  developed  by  at  least  two  regional  deformation  events. Understanding the tectonic history of the KEMB is beyond the scope of this project however  based on the metamorphic and structural data collected, a simplified tectonic history can be  suggested. Saying this, further studies will be crucial in acquiring a greater understanding of  how the KEMB fits in with the regional geology. || The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3 || The craton has been subjected to several tectonic events corresponding to the deformation of  Birimian  Supergroup. This  includes  the  SW  directed  shortening  of  the  Tangaean  Event  (2170-2130  Ma),  SE-NW  shortening  of  the  Eburnean  Orogeny  (2130-1980  Ma)  and  the  young Wabo-Tampelse Event. The Tangaean Event and Eburnean Orogeny were associated  with emplacement of TTG-suite plutons and dykes (Feybesse et al., 2006; Tshibubudze et al.,  2009; Hein 2010). The tectonic events resulted in the formation of greenstone belts separated  by  the  granitoids  (Hirdes  and  Davis,  2002). The  Eburnean  Orogeny  resulted  in  regional  metamorphism of the Birimian Supergroup to greenschist facies and contact metamorphism  from pluton emplacement to low - medium amphibolite facies (Pons et al., 1995; Debat et al.,  2003). 2.2 Local geology  The  Markoye  Shear  Zone  lies  to  the  east  of  the  KEMB. || The intrusion of the diorite pluton. There are several granodiorite plutons that occur in  the  surrounding  area  (Tshibubudze  and  Hein,  submitted). The  most  likely  source  of  the pluton in KEMB could be a  younger batholith related diorite intrusions south of  the town of Gorom Gorom. 7. The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands. Ferricrete  horizons  in  the  WAC  formed  during  the  Cretaceous  and  associated  with  the  development of in situ laterite (Brown et al., 1994; Burke and Gunnell, 2008). || Therefore  the  sequences  described  may  represent a portion of the Oudalan-Gorouol greenstone belt and this would also be enforced  by the KEMB close proximity to the belt, to east of the Markoye shear zone,  41 || These zones of infiltration would have  had  to  be  concentrated  and  localised. The  rapid  increase  of  temperature  in  pre-existing  hot  conditions could have induced partial melting and dehydration of the rock. Migmatites from  Saint-Malo, France, with a very similar mineral assemblage of muscovite-plagioclase-quartz  leucosome and biotite-rich melanosome, are interpreted to have formed by the breakdown of  muscovite (Sawyer, 2008). Although the Saint-Malo migmatites have been proposed to have  formed  in  upper  amphibolite  facies,  the  presence  of  muscovite  in  the  metamorphosed  rock  which formed the migmatite in KEMB would have been a source for more hydrous fluid. 46<br><b>Geocode:</b> Kembach, Wertheim, Main-Tauber-Kreis, Baden-Württemberg, 97277, Germany<br><b>Pages:</b> 4,42,46,47,48,49,8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b38fe4783a713431d28d34f00cf62c59.setContent(html_6687a870d8e741ae96f9812f0f86d046);
+            
+        
+
+        circle_marker_f6b00e444ef60c53d44445f50093b5f9.bindPopup(popup_b38fe4783a713431d28d34f00cf62c59)
+        ;
+
+        
+    
+    
+            circle_marker_f6b00e444ef60c53d44445f50093b5f9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0ef58e104f354fa1257380af11a1efc = L.circleMarker(
+                [14.6610476, 0.8014577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_f2073d127b799e533bbc919665631020 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9792ec6e32b0ee05842d9b458c31af9a = $(`<div id="html_9792ec6e32b0ee05842d9b458c31af9a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Kel Enguef  Figure 2.2: Geography and surface cover map of the KEMB. 12 || STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Kel Enguef, Téra, Tillabéri Region, Niger<br><b>Pages:</b> 13,5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f2073d127b799e533bbc919665631020.setContent(html_9792ec6e32b0ee05842d9b458c31af9a);
+            
+        
+
+        circle_marker_a0ef58e104f354fa1257380af11a1efc.bindPopup(popup_f2073d127b799e533bbc919665631020)
+        ;
+
+        
+    
+    
+            circle_marker_a0ef58e104f354fa1257380af11a1efc.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_15db0b7d27b0060434da8fbb8b178cdc = L.circleMarker(
+                [14.6610476, 0.8014577],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_1cde4a3b248303df17dd9e079fb2ab1f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5b1cf046084152ca6791d44701d47452 = $(`<div id="html_5b1cf046084152ca6791d44701d47452" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 5. Petrography  The petrographic study included 16 thin section samples of the Kel Enguef metamorphic belt. These  were  chosen  as  representative  samples  of  the  stratigraphy. The  focus  of  the  petrographic study was on the textural features and mineral assemblages in order to establish  the original rock types and the conditions which lead to metamorphism of the metamorphic  samples. The study splits the samples into the various facies. Intrusive samples focus on the  mineralogy. || Abstract  The  Kel  Enguef  metamorphic  belt  is  host  to  metamorphosed  clastic  and  chemical  sedimentary  rocks  that  are  intruded  by  gabbro  dykes  and  a  diorite  pluton. The  metamorphosed  clastic  and  sedimentary  rocks  were  deposited  in  a  deltaic  setting  into  a  shallow  marine  environment. The  sequences  comprise  fine-  to  coarse-grained  sedimentary  rocks  that  exhibit  an  overall  upward  coarsening  stratigraphy. The  metamorphism  and  deformation of the sequences is interpreted to have occurred mainly as a result of burial. Both  greenschist and amphibolite grade metamorphism have been recognised. Gradation between  these two facies is not observed. || STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Kel Enguef, Téra, Tillabéri Region, Niger<br><b>Pages:</b> 2,30,5<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1cde4a3b248303df17dd9e079fb2ab1f.setContent(html_5b1cf046084152ca6791d44701d47452);
+            
+        
+
+        circle_marker_15db0b7d27b0060434da8fbb8b178cdc.bindPopup(popup_1cde4a3b248303df17dd9e079fb2ab1f)
+        ;
+
+        
+    
+    
+            circle_marker_15db0b7d27b0060434da8fbb8b178cdc.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b1a78fda317d63c7387390c41240793c = L.circleMarker(
+                [49.3597062, 17.3094202],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_9de72233b89d571def6972145a447bdd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a65c0573c3b8d96d316b409466cf9112 = $(`<div id="html_a65c0573c3b8d96d316b409466cf9112" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Samples  were  strategically  selected  for  thin  sections  and  polished  ore  blocks. An  initial  15  samples were submitted to the Wits Geosciences Laboratory to be processed (14 thin sections  and 1 polished ore block) in early March 2011. A further 25 samples were submitted to SGS  for  thin  sections  and  XRD  (samples  with  economic  interest). Another  3  samples  were  9<br><b>Geocode:</b> March, Czechia<br><b>Pages:</b> 10<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9de72233b89d571def6972145a447bdd.setContent(html_a65c0573c3b8d96d316b409466cf9112);
+            
+        
+
+        circle_marker_b1a78fda317d63c7387390c41240793c.bindPopup(popup_9de72233b89d571def6972145a447bdd)
+        ;
+
+        
+    
+    
+            circle_marker_b1a78fda317d63c7387390c41240793c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f326b7c2aa5cb624de59d0c281cc5a80 = L.circleMarker(
+                [14.7095001, 0.0948661],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_4ff902f12e59874b8095bba219542212 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_07b8aa63bdfd5b9c8337e6a5320cd6b3 = $(`<div id="html_07b8aa63bdfd5b9c8337e6a5320cd6b3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4ff902f12e59874b8095bba219542212.setContent(html_07b8aa63bdfd5b9c8337e6a5320cd6b3);
+            
+        
+
+        circle_marker_f326b7c2aa5cb624de59d0c281cc5a80.bindPopup(popup_4ff902f12e59874b8095bba219542212)
+        ;
+
+        
+    
+    
+            circle_marker_f326b7c2aa5cb624de59d0c281cc5a80.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1fa9f818f9d82d14a78c39d44fb00055 = L.circleMarker(
+                [48.2596273, 11.6713289],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_4d61b07e2eed7fadceacb299a3b0372f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b32cecf4141dfd5135d52a1e19782939 = $(`<div id="html_b32cecf4141dfd5135d52a1e19782939" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area,  which  is  approximately  30km2,  hosts  two  east-west  trending  ridges  that  expose a portion of the KEMB  (Fig. 1.1b). The  UTM coordinates of the extent of the field  area  are:    30  P  (Northern  Hemisphere)  0805000  E,  1600000  N;  0805000  E,  1594000  N;  0810000 E, 1594000 N; 0810000 E, 1600000 N. This region of Burkina Faso is situated in  the Sahel, just south of the Sahara Desert. Climatic conditions are arid, that is very hot and  dry. Field  work  was  carried  out  in  January  which  is  the  coolest  time  of  the  year  although  daily  temperatures  exceeded  30  ⁰C.<br><b>Geocode:</b> European Southern Observatory, 2, Karl-Schwarzschild-Straße, Hochschul- und Forschungszentrum, Garching bei München, Landkreis München, Bavaria, 85748, Germany<br><b>Pages:</b> 6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4d61b07e2eed7fadceacb299a3b0372f.setContent(html_b32cecf4141dfd5135d52a1e19782939);
+            
+        
+
+        circle_marker_1fa9f818f9d82d14a78c39d44fb00055.bindPopup(popup_4d61b07e2eed7fadceacb299a3b0372f)
+        ;
+
+        
+    
+    
+            circle_marker_1fa9f818f9d82d14a78c39d44fb00055.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_faac33a7fc2b5cb29b293f62e5c841b4 = L.circleMarker(
+                [12.3681873, -1.5270944],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_7d3a0abee3afc698d6a1305c3db37001 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1de94a7f4c0c13f3db4676d89d481c2d = $(`<div id="html_1de94a7f4c0c13f3db4676d89d481c2d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7d3a0abee3afc698d6a1305c3db37001.setContent(html_1de94a7f4c0c13f3db4676d89d481c2d);
+            
+        
+
+        circle_marker_faac33a7fc2b5cb29b293f62e5c841b4.bindPopup(popup_7d3a0abee3afc698d6a1305c3db37001)
+        ;
+
+        
+    
+    
+            circle_marker_faac33a7fc2b5cb29b293f62e5c841b4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9cfb4b33b815c72041c7dd6bfa4f404d = L.circleMarker(
+                [51.4514953, -0.9836342],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_a8306287e9e30bc8b4bb68da24a5e5cc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0beb339da02cd0d49ce8bb46d0c754c9 = $(`<div id="html_0beb339da02cd0d49ce8bb46d0c754c9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Overall,  there  is  an  increase  in  grain  size  over  a  thickness  of  approximately  150  m. The  northern  ridge  units  comprise  a  fine-  to  medium- grained quartzite (Units X & Z) with a coarse, pebble like interbed (Unit Y). The eastern side  of  the  northern  ridge  is  host  to  facies  changes,  of  high  and  low  energy. Here  coarser  sequences are located a largely predominant fine-grained sequence. Due  to  the  greenschist  facies  rocks  having  more  sedimentary  features  preserved  relative  to  the  amphibolite  rocks,  they  are  more  useful  in  determining  the  depositional  environment. Considering the protolith of quartzwacke, which is extensive and occurs in beds up to a metre  or more thick as well as the coarsening upward sequence in the southern ridge and pebble like  nature  of  Unit  Y  between  Units  X  &  Z  of  the  northern  ridge,  a  deltaic  depositional  environment  is  interpreted  (Reading,  1978).<br><b>Geocode:</b> Reading, England, United Kingdom<br><b>Pages:</b> 41<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a8306287e9e30bc8b4bb68da24a5e5cc.setContent(html_0beb339da02cd0d49ce8bb46d0c754c9);
+            
+        
+
+        circle_marker_9cfb4b33b815c72041c7dd6bfa4f404d.bindPopup(popup_a8306287e9e30bc8b4bb68da24a5e5cc)
+        ;
+
+        
+    
+    
+            circle_marker_9cfb4b33b815c72041c7dd6bfa4f404d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a30fd4cdb54f4c941ea992accc7b3a6 = L.circleMarker(
+                [35.7305256, 139.7176167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_0e48c843167cc763b28c9cb295ad6a17 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2427e4a7f4a22fb7ff3f8442e8d6a566 = $(`<div id="html_2427e4a7f4a22fb7ff3f8442e8d6a566" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> STUDY AREA  a. Road to Markoye  N  Kel Enguef  Kel Enguef metamorphic belt  1 km  b. Road to Dori  Figure 1.1: a) Location of field area within Burkina Faso with surrounding greenstone belts and major shears  indicated (after Tshibubudze et al., 2009). b) Satellite image of the field area in relation to Gorom Gorom. Indicated  on the image is the location of Kel Enguef and the main roads in the area. (Google Earth)  4<br><b>Geocode:</b> Sunshine 60 Street, Higashi Ikebukuro 3, Higashi Ikebukuro, Toshima, Tokyo, 170-8418, Japan<br><b>Pages:</b> 5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_0e48c843167cc763b28c9cb295ad6a17.setContent(html_2427e4a7f4a22fb7ff3f8442e8d6a566);
+            
+        
+
+        circle_marker_2a30fd4cdb54f4c941ea992accc7b3a6.bindPopup(popup_0e48c843167cc763b28c9cb295ad6a17)
+        ;
+
+        
+    
+    
+            circle_marker_2a30fd4cdb54f4c941ea992accc7b3a6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e0c52d18bd7bdddbc8bed7f5b7db43e = L.circleMarker(
+                [48.649518, -2.0260409],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_7ebe5e25bbbf1e089be2191acff1236d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_18924a196b32838402fa1f83b0e361ce = $(`<div id="html_18924a196b32838402fa1f83b0e361ce" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> These zones of infiltration would have  had  to  be  concentrated  and  localised. The  rapid  increase  of  temperature  in  pre-existing  hot  conditions could have induced partial melting and dehydration of the rock. Migmatites from  Saint-Malo, France, with a very similar mineral assemblage of muscovite-plagioclase-quartz  leucosome and biotite-rich melanosome, are interpreted to have formed by the breakdown of  muscovite (Sawyer, 2008). Although the Saint-Malo migmatites have been proposed to have  formed  in  upper  amphibolite  facies,  the  presence  of  muscovite  in  the  metamorphosed  rock  which formed the migmatite in KEMB would have been a source for more hydrous fluid. 46<br><b>Geocode:</b> Saint-Malo, Ille-et-Vilaine, Brittany, Metropolitan France, 35400, France<br><b>Pages:</b> 47<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7ebe5e25bbbf1e089be2191acff1236d.setContent(html_18924a196b32838402fa1f83b0e361ce);
+            
+        
+
+        circle_marker_2e0c52d18bd7bdddbc8bed7f5b7db43e.bindPopup(popup_7ebe5e25bbbf1e089be2191acff1236d)
+        ;
+
+        
+    
+    
+            circle_marker_2e0c52d18bd7bdddbc8bed7f5b7db43e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_139fcf5ca2e96f09457b47042378ad56 = L.circleMarker(
+                [48.649518, -2.0260409],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_a2257342953c699fccbe1bf1520a3545 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e3ac753f2b2ed8b7fdfac2bad9a5507e = $(`<div id="html_e3ac753f2b2ed8b7fdfac2bad9a5507e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> These zones of infiltration would have  had  to  be  concentrated  and  localised. The  rapid  increase  of  temperature  in  pre-existing  hot  conditions could have induced partial melting and dehydration of the rock. Migmatites from  Saint-Malo, France, with a very similar mineral assemblage of muscovite-plagioclase-quartz  leucosome and biotite-rich melanosome, are interpreted to have formed by the breakdown of  muscovite (Sawyer, 2008). Although the Saint-Malo migmatites have been proposed to have  formed  in  upper  amphibolite  facies,  the  presence  of  muscovite  in  the  metamorphosed  rock  which formed the migmatite in KEMB would have been a source for more hydrous fluid. 46<br><b>Geocode:</b> Saint-Malo, Ille-et-Vilaine, Brittany, Metropolitan France, 35400, France<br><b>Pages:</b> 47<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a2257342953c699fccbe1bf1520a3545.setContent(html_e3ac753f2b2ed8b7fdfac2bad9a5507e);
+            
+        
+
+        circle_marker_139fcf5ca2e96f09457b47042378ad56.bindPopup(popup_a2257342953c699fccbe1bf1520a3545)
+        ;
+
+        
+    
+    
+            circle_marker_139fcf5ca2e96f09457b47042378ad56.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_40cd90443f4079d33227925cb5b65287 = L.circleMarker(
+                [14.7788614, 0.0384507],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_4657f4e368c86c8be3a108cc1eba39e4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8f6951bce9f90b0b8ababf4197950704 = $(`<div id="html_8f6951bce9f90b0b8ababf4197950704" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Gold mineralisation, found at  many locations, is hosted in shear zones as structural hosted lode-gold associated with NW- SE structures (Nikiéma, 1992; Tshibubudze et al., 2009; Tshibubudze and Hein, submitted). Manganese  mineralisation  is  situated  NE  and  SW  of  the  KEMB  at  Tambăo  and  Billiata  (Tshibubudze and Hein, submitted) and pegamatite veins are situated NE at Tambăo. 8<br><b>Geocode:</b> Tambao, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 9<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4657f4e368c86c8be3a108cc1eba39e4.setContent(html_8f6951bce9f90b0b8ababf4197950704);
+            
+        
+
+        circle_marker_40cd90443f4079d33227925cb5b65287.bindPopup(popup_4657f4e368c86c8be3a108cc1eba39e4)
+        ;
+
+        
+    
+    
+            circle_marker_40cd90443f4079d33227925cb5b65287.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cef96ac9f550330451a5666a4cb61a5c = L.circleMarker(
+                [14.7788614, 0.0384507],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_1298d7083ebe331dcf75fad9f2b3f173 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c979e47eecf91f81eafd3a80fbe541c7 = $(`<div id="html_c979e47eecf91f81eafd3a80fbe541c7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Tambao, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1298d7083ebe331dcf75fad9f2b3f173.setContent(html_c979e47eecf91f81eafd3a80fbe541c7);
+            
+        
+
+        circle_marker_cef96ac9f550330451a5666a4cb61a5c.bindPopup(popup_1298d7083ebe331dcf75fad9f2b3f173)
+        ;
+
+        
+    
+    
+            circle_marker_cef96ac9f550330451a5666a4cb61a5c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_38276450a2f38b5c275236df54a3d3f6 = L.circleMarker(
+                [5.310935, -1.992426],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_be047d366a8b17944004637818d6240c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b4a84eec78b161278a9a692f5512b90b = $(`<div id="html_b4a84eec78b161278a9a692f5512b90b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2. Geology setting  2.1 Regional geology and tectonics  The West African Craton is composed of Palaeoproterozoic rocks of the Birimian Supergroup  (Feybesse et  al.,  2006; Hein,  2010) and Tarkwa Group (Davis  et  al.,  1994)  as  well as  calc- alkaline plutons which include tonalite-trondjhemite-granodiorite and diorite intrusions which  intrude the Palaeoproterozoic stratigraphy (Pons et al., 1995; Naba et al., 2004 Hein, 2010). The Birimian Supergroup is dominated by metamorphosed sedimentary, volcano-sedimentary  and  volcanic  sequences. The  meta-volcanic  sequences  in  the  Goren  greenstone  belt  and  Boromo greenstone belt are at dated at 2238 ± 5 Ma and 2171 ± 7 Ma respectively (Castaing  et  al.,  2003)  based  on  Pb-Pb  zircon  dating  from  rhyolites  within  the  belts. The  metasedimentary  rocks  of  the  Birimian  Supergroup  comprise  mainly  metamorphosed  volcaniclastics,  greywacke,  siltstone,  shale,  chemical  sediments  and  chert. The  younger  Tarkwa  Group,  dated  at  2194–2132  Ma  from  U-Pb  detrital  zircons  (Davis  et  al.,  1994),  comprises  clastic  sedimentary  rocks  derived  from  erosion  of  the  Birimian  Supergroup  of  which it overlies unconformably (Hirdes et al., 1992 and Davis et al., 1994).<br><b>Geocode:</b> Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana<br><b>Pages:</b> 8<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_be047d366a8b17944004637818d6240c.setContent(html_b4a84eec78b161278a9a692f5512b90b);
+            
+        
+
+        circle_marker_38276450a2f38b5c275236df54a3d3f6.bindPopup(popup_be047d366a8b17944004637818d6240c)
+        ;
+
+        
+    
+    
+            circle_marker_38276450a2f38b5c275236df54a3d3f6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f95284b45c8a296dff43f847f11b4a19 = L.circleMarker(
+                [14.6562836, 0.1646254],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_188cec09068dac7bedc2248d59b580be = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_19a7eb863640cdc001bdb58b909235c2 = $(`<div id="html_19a7eb863640cdc001bdb58b909235c2" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Considering the KEMB and related  pressure-temperature  conditions,  would  it  have  been  possible  to  produce  a  migmatite? The  migmatite  is  situated  between  the  greenschist  and  amphibolite  facies. Here  temperatures  would have been in excess of 450 ⁰C (c.f., Vernon and Clarke, 2008). The influx of fluids at  these  temperatures  would  not  have  been  sufficient  to  induce  melting. However  there  is  the  presence  of  several  large  plutons  in  the  surrounding  area  which  include  the  Tin  Taradat  granodiorite-tonalite,  Dori  batholith  and  the  Granite  Adamelite  (Tshibubudze  and  Hein,  submitted). These  could  have  been  the  source  of  high  temperature  igneous  related  fluids  which would have infiltrated the surrounding rocks.<br><b>Geocode:</b> Ti-n-Taradat, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 47<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_188cec09068dac7bedc2248d59b580be.setContent(html_19a7eb863640cdc001bdb58b909235c2);
+            
+        
+
+        circle_marker_f95284b45c8a296dff43f847f11b4a19.bindPopup(popup_188cec09068dac7bedc2248d59b580be)
+        ;
+
+        
+    
+    
+            circle_marker_f95284b45c8a296dff43f847f11b4a19.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c2ee26aafb3d463d6cfa24c6b454e803 = L.circleMarker(
+                [49.0932008, 1.4857205],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_9406b92faacac5054aac22a5700dd564 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_238c6623bad84f32c48951ffc55256b5 = $(`<div id="html_238c6623bad84f32c48951ffc55256b5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Another process by which a migmatite can form is during metasomatism (Sawyer, 2008). The  presence of fluids is known to act as a flux and thus can reduce the melting temperature (Fig. 7.4) by changing the solidus (Ashworth, 1985;Sawyer, 2008; Vernon and Clarke, 2008). Fluid interaction, to induce melting, can take place in two ways:  1. Metasomatism  before  melting  (Sawyer,  2008). The  infiltration  of  metasomatic  fluids  from  an  outside  source  involves  the  enrichment  of  the  rock  by  improving  the  rock  fertility  (Vernon  and  Clarke,  2008)  thus  making  it  more  susceptible  to  melting.<br><b>Geocode:</b> Vernon, Les Andelys, Eure, Normandy, Metropolitan France, 27200, France<br><b>Pages:</b> 47<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9406b92faacac5054aac22a5700dd564.setContent(html_238c6623bad84f32c48951ffc55256b5);
+            
+        
+
+        circle_marker_c2ee26aafb3d463d6cfa24c6b454e803.bindPopup(popup_9406b92faacac5054aac22a5700dd564)
+        ;
+
+        
+    
+    
+            circle_marker_c2ee26aafb3d463d6cfa24c6b454e803.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c73ee6e79ff35887cb91d9c8b1f973a = L.circleMarker(
+                [22.2775843, 114.1728604],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_406d337ade142c4a30481bee7e6854cb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b2af65f8d9d07f373974561890b5b27c = $(`<div id="html_b2af65f8d9d07f373974561890b5b27c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The intrusion of the diorite pluton. There are several granodiorite plutons that occur in  the  surrounding  area  (Tshibubudze  and  Hein,  submitted). The  most  likely  source  of  the pluton in KEMB could be a  younger batholith related diorite intrusions south of  the town of Gorom Gorom. 7. The  formation  of  the  ferricrete  horizons  followed  by  the  tertiary  sands. Ferricrete  horizons  in  the  WAC  formed  during  the  Cretaceous  and  associated  with  the  development of in situ laterite (Brown et al., 1994; Burke and Gunnell, 2008).<br><b>Geocode:</b> Wan Chai, Hennessy Road, Wan Chai South, Wan Chai, Wan Chai District, Hong Kong Island, Hong Kong, China<br><b>Pages:</b> 49<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_406d337ade142c4a30481bee7e6854cb.setContent(html_b2af65f8d9d07f373974561890b5b27c);
+            
+        
+
+        circle_marker_2c73ee6e79ff35887cb91d9c8b1f973a.bindPopup(popup_406d337ade142c4a30481bee7e6854cb)
+        ;
+
+        
+    
+    
+            circle_marker_2c73ee6e79ff35887cb91d9c8b1f973a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eb867606e5e38babca91fb7558b1aa45 = L.circleMarker(
+                [40.7156923, -73.5753478],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_7c63fdbf80a6d254a450ae5a624ec30c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_474949b3362e324db6794bb31fc5874d = $(`<div id="html_474949b3362e324db6794bb31fc5874d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1. Introduction  1.1 Preamble  The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom  Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is  situated  in  the  east  of  the  field  area. During  field  reconnaissance  in  2010,  the  KEMB  was  found by the Wits research team where it presented an anomaly on the regional topographical  and geological maps. The KEMB has not been researched in detail, thus how it fits in with  the  surrounding  area  is  unknown. The  general  region  of  the  KEMB  has  been  mapped  by  Castaing et al.<br><b>Geocode:</b> The Meadows At Mitchell Field, East Meadow, Town of Hempstead, Nassau County, New York, United States<br><b>Pages:</b> 4<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7c63fdbf80a6d254a450ae5a624ec30c.setContent(html_474949b3362e324db6794bb31fc5874d);
+            
+        
+
+        circle_marker_eb867606e5e38babca91fb7558b1aa45.bindPopup(popup_7c63fdbf80a6d254a450ae5a624ec30c)
+        ;
+
+        
+    
+    
+            circle_marker_eb867606e5e38babca91fb7558b1aa45.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4c00e9f869143dce27d8062570dfc138 = L.circleMarker(
+                [55.9638487, -3.270035],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_62c515c3882a42638d36b5c24aa14dcd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ce4679f914f82a861a21983e8e9cd329 = $(`<div id="html_ce4679f914f82a861a21983e8e9cd329" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> River  channels  trend  east  towards  a  major  river that is located on the eastern limits of the field area. The majority of the land between  the ridges is covered by millet fields where the underlying rock is covered by a layer of sand. Huts  are  scatted  across  the  farm  land  with  the  village  of  Kel  Enguef  situated  to  the  east  between  the  two  ridges  of  the  field  area  (Fig. 1.1b). Dirt  roads  are  present  connecting  the  village of Kel Enguef to the main road off to the west of the field area. Access into the field  was either from this main road or from the north off a main road that connects Gorom Gorom  to the village of Markoye (Fig.<br><b>Geocode:</b> The Field, Davidson's Mains, City of Edinburgh, Scotland, United Kingdom<br><b>Pages:</b> 6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_62c515c3882a42638d36b5c24aa14dcd.setContent(html_ce4679f914f82a861a21983e8e9cd329);
+            
+        
+
+        circle_marker_4c00e9f869143dce27d8062570dfc138.bindPopup(popup_62c515c3882a42638d36b5c24aa14dcd)
+        ;
+
+        
+    
+    
+            circle_marker_4c00e9f869143dce27d8062570dfc138.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2bbe8ee70709606238d19d6da5b7077b = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2de85a84a0f420cd73480d59ecd9cbf2);
+        
+    
+        var popup_f01d1b10b7b1dc6023845a9714d9afc7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3958435363902620689c5c1fc0e221fb = $(`<div id="html_3958435363902620689c5c1fc0e221fb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 1. Introduction  1.1 Preamble  The  Kel  Enguef  metamorphic  belt  (KEMB)  is  located  in  the  low  hills  southeast  of  Gorom  Gorom, in the northeast of Burkina Faso. It is named after the village of Kel Enguef which is  situated  in  the  east  of  the  field  area. During  field  reconnaissance  in  2010,  the  KEMB  was  found by the Wits research team where it presented an anomaly on the regional topographical  and geological maps. The KEMB has not been researched in detail, thus how it fits in with  the  surrounding  area  is  unknown. The  general  region  of  the  KEMB  has  been  mapped  by  Castaing et al. || The  Essakane  gold  mine  and  Tambão  manganese  deposit  are  situated  approximately  20km ESE and 40km NNE of the field area, respectively, and similar styles of mineralisation  may occur in the field area. 1.2 Location and physiography  The KEMB is located in the northeast of Burkina Faso, approximately 275km to the northeast  of Ouagadougou and east of the town of Gorom Gorom (Fig. 1.1a & 1.1b). 3<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 4<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f01d1b10b7b1dc6023845a9714d9afc7.setContent(html_3958435363902620689c5c1fc0e221fb);
+            
+        
+
+        circle_marker_2bbe8ee70709606238d19d6da5b7077b.bindPopup(popup_f01d1b10b7b1dc6023845a9714d9afc7)
+        ;
+
+        
+    
+    
+            circle_marker_2bbe8ee70709606238d19d6da5b7077b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

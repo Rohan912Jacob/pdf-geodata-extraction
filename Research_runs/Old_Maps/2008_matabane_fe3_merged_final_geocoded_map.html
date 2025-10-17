@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c232272be495293a8398f25ee63dbb81 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:purple;
+                             margin-right:6px;border-radius:50%;"></span>GPS</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_c232272be495293a8398f25ee63dbb81" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c232272be495293a8398f25ee63dbb81 = L.map(
+                "map_c232272be495293a8398f25ee63dbb81",
+                {
+                    center: [24.998575489999993, -10.302593619999998],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c69c09dfe0395260119459040c43aaa2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c69c09dfe0395260119459040c43aaa2.addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+            var circle_marker_7ef1ccf5c2d659d1fb1710c2f685dd0a = L.circleMarker(
+                [12.649319, -8.000337],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_98243a27deb2490a47ad15fd13a058be = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_68266e94ff669df82e847e3f96e8fef5 = $(`<div id="html_68266e94ff669df82e847e3f96e8fef5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Also the tectonic setting and the relative timing of  gold mineralization will be determined. Determining the relative timing of gold mineralization  will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola  area. 1.2 Location and physiography  The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield  is located 80 km west of the capital city of Bamako on the western border of Senegal and  Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.<br><b>Geocode:</b> Bamako, Mali<br><b>Pages:</b> 7<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_98243a27deb2490a47ad15fd13a058be.setContent(html_68266e94ff669df82e847e3f96e8fef5);
+            
+        
+
+        circle_marker_7ef1ccf5c2d659d1fb1710c2f685dd0a.bindPopup(popup_98243a27deb2490a47ad15fd13a058be)
+        ;
+
+        
+    
+    
+            circle_marker_7ef1ccf5c2d659d1fb1710c2f685dd0a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_388b8d8ceed9b423577fd3ce7eb2d51d = L.circleMarker(
+                [11.5024338, 17.7578122],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_82680db3bd16821219dd3582b1f4f5c9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e41b1cc9efc5dac4d5e5ee909552c16b = $(`<div id="html_e41b1cc9efc5dac4d5e5ee909552c16b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In the 16th century, the Gold Coast of West  Africa accounted for 35% of the entire world’s gold production although gold production had  decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in  Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and  is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently  the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic  stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold  mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in  the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.<br><b>Geocode:</b> Africa<br><b>Pages:</b> 13<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_82680db3bd16821219dd3582b1f4f5c9.setContent(html_e41b1cc9efc5dac4d5e5ee909552c16b);
+            
+        
+
+        circle_marker_388b8d8ceed9b423577fd3ce7eb2d51d.bindPopup(popup_82680db3bd16821219dd3582b1f4f5c9)
+        ;
+
+        
+    
+    
+            circle_marker_388b8d8ceed9b423577fd3ce7eb2d51d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9d08af469c30fadae1445e062c10b967 = L.circleMarker(
+                [13.0799078, -11.4893942],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_ccd62c17393f669eb5fa286e3bcff486 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_af11694c056eaa16e0bae41c92cb786f = $(`<div id="html_af11694c056eaa16e0bae41c92cb786f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The Saraya batholith intrudes the Dialé-Dalemé Supergroup and includes the Balangouma  and Boboti plutons (Hirdes et al., 2002). The Saraya batholith is composed of biotite-bearing  tonalite to granite, while the Boboti and Balangoma plutons comprise gabbro to amphibole- biotite bearing monzogranite (Dioh et al., 2006) that are dated at 1973±33 Ma (Ledru et al.,  1991; Rb-Sr). The Falemé volcanic belt is intruded by Na-rich, belt-type granitoids (Dioh et  al., 2006). 2.8 Metamorphism  During the Eburnean Orogeny, the Birimian meta-volcanic and meta-sedimentary sequences  of  the  Kéniéba  Inlier  were  subjected  to  regional  metamorphism  to  greenschist  facies  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Debat  et  al.,  2003). The  contact  aureole  of  granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  assemblages  indicating  that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al.,  2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated  at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et  al., 2002; Pawlig et al., 2006, U-Pb age on sphene).<br><b>Geocode:</b> Balangouma, Communauté rurale de Missirah Sirimana, Arrondissement de Sabodala, Département de Saraya, Kédougou Region, Senegal<br><b>Pages:</b> 12<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ccd62c17393f669eb5fa286e3bcff486.setContent(html_af11694c056eaa16e0bae41c92cb786f);
+            
+        
+
+        circle_marker_9d08af469c30fadae1445e062c10b967.bindPopup(popup_ccd62c17393f669eb5fa286e3bcff486)
+        ;
+
+        
+    
+    
+            circle_marker_9d08af469c30fadae1445e062c10b967.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c10f2eef10fc7350d571566c13b31e22 = L.circleMarker(
+                [12.649319, -8.000337],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_c3d2fd8c83696b102d5e120c3c299274 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f204d645256e51aeede3924e897d5452 = $(`<div id="html_f204d645256e51aeede3924e897d5452" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Also the tectonic setting and the relative timing of  gold mineralization will be determined. Determining the relative timing of gold mineralization  will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola  area. 1.2 Location and physiography  The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield  is located 80 km west of the capital city of Bamako on the western border of Senegal and  Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.<br><b>Geocode:</b> Bamako, Mali<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c3d2fd8c83696b102d5e120c3c299274.setContent(html_f204d645256e51aeede3924e897d5452);
+            
+        
+
+        circle_marker_c10f2eef10fc7350d571566c13b31e22.bindPopup(popup_c3d2fd8c83696b102d5e120c3c299274)
+        ;
+
+        
+    
+    
+            circle_marker_c10f2eef10fc7350d571566c13b31e22.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_36bdc342f335f95967693b92120e541d = L.circleMarker(
+                [8.0204494, -11.612127],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_15767326f034997698788339cea0ae7b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_19ecacf64adc97cbee6fc45b3bbd7b6b = $(`<div id="html_19ecacf64adc97cbee6fc45b3bbd7b6b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  climate ranges from sub-tropical in the south to arid in the north. The country is mostly dry,  but  in  the  south  of  the  country,  and  at  the  Sadiola  goldfield,  4-5  months  of  rainy  season  significantly  affects  mining  operations. December  and  January  are  the  driest  and  coldest  months of the year with zero rainfall, and temperature ranging from 16°C to 33°C. The field component of this study took place in January 2008 before the rainy season started  and  temperatures  peaked. During  the  dry  season  a  dry,  dust-laden  harmattan  haze  is  common and this reduces visibility. Mali’s official language is French but African languages are widely used; 80% of population  speaks  Bambara.<br><b>Geocode:</b> Bambara, Bo District, Sierra Leone<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_15767326f034997698788339cea0ae7b.setContent(html_19ecacf64adc97cbee6fc45b3bbd7b6b);
+            
+        
+
+        circle_marker_36bdc342f335f95967693b92120e541d.bindPopup(popup_15767326f034997698788339cea0ae7b)
+        ;
+
+        
+    
+    
+            circle_marker_36bdc342f335f95967693b92120e541d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_153caeae7d69c549b3ce585db6a2db50 = L.circleMarker(
+                [35.0891932, -92.4398402],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_b238c346ab15aeeb1d0c20fd62aa433f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_487387eb92b0f4f455c282445d2f8b7f = $(`<div id="html_487387eb92b0f4f455c282445d2f8b7f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island,  Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental  margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that  were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra  Island represent mass transported sediments along dislodged from the continental slope into  a deep marine environments. Modern slumps are common along continental margins and in  modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in  New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the  gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et  al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of  the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980;  Martinsen 1994; Betrand et al., 2008).<br><b>Geocode:</b> Conway, Faulkner County, Arkansas, United States<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b238c346ab15aeeb1d0c20fd62aa433f.setContent(html_487387eb92b0f4f455c282445d2f8b7f);
+            
+        
+
+        circle_marker_153caeae7d69c549b3ce585db6a2db50.bindPopup(popup_b238c346ab15aeeb1d0c20fd62aa433f)
+        ;
+
+        
+    
+    
+            circle_marker_153caeae7d69c549b3ce585db6a2db50.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8ef98ec20aa8f95e3054dfb38c462896 = L.circleMarker(
+                [32.2960798, -95.9697135],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_856ad830a3079d68a85f04959aa9762f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_74d0feb92c44cb86c6cd83facba4199c = $(`<div id="html_74d0feb92c44cb86c6cd83facba4199c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island,  Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental  margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that  were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra  Island represent mass transported sediments along dislodged from the continental slope into  a deep marine environments. Modern slumps are common along continental margins and in  modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in  New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the  gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et  al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of  the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980;  Martinsen 1994; Betrand et al., 2008).<br><b>Geocode:</b> Damuth Flying D Ranch, 10600, Eustace, Henderson County, Texas, 75124, United States<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_856ad830a3079d68a85f04959aa9762f.setContent(html_74d0feb92c44cb86c6cd83facba4199c);
+            
+        
+
+        circle_marker_8ef98ec20aa8f95e3054dfb38c462896.bindPopup(popup_856ad830a3079d68a85f04959aa9762f)
+        ;
+
+        
+    
+    
+            circle_marker_8ef98ec20aa8f95e3054dfb38c462896.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_99ced798719d08ab0101090088d5d16d = L.circleMarker(
+                [12.255555, 1.0095764],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_ff3244d3a28012fe445b785145045287 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fb223890bded23db3f291ee9fea2e790 = $(`<div id="html_fb223890bded23db3f291ee9fea2e790" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  unit  is  cross- bedded. The unit is carbonate-bearing and has been metamorphosed to greenschist facies. Bedding  trends  to  the  north-west  with  a  dip  of  34°  E. The  greywacke  consists  of  angular  grains  of  quartz  embedded  in  a  finer  grained  quartz-chlorite-sericite  matrix. Stratigraphic  facing is to the East. 4.1.6 Laterite profile  A laterite profile covers the study area to a thickness of more than 2 metres.<br><b>Geocode:</b> East, Burkina Faso<br><b>Pages:</b> 21<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ff3244d3a28012fe445b785145045287.setContent(html_fb223890bded23db3f291ee9fea2e790);
+            
+        
+
+        circle_marker_99ced798719d08ab0101090088d5d16d.bindPopup(popup_ff3244d3a28012fe445b785145045287)
+        ;
+
+        
+    
+    
+            circle_marker_99ced798719d08ab0101090088d5d16d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a41ed5a063eb217aa9eadaa0162ab17 = L.circleMarker(
+                [54.6231003, -6.3000002],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_be306fc9b59fecef2c3fc8162a26c202 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_22d3346e9e2150a95234f0d15936d008 = $(`<div id="html_22d3346e9e2150a95234f0d15936d008" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Regional geology  2.1 Preamble  The West African craton has been divided into four major domains; the Reguibat Rise, the  Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et  al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin  which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains  consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal  et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic  terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé  Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.<br><b>Geocode:</b> Langford Lodge, Largy Road, Antrim and Newtownabbey District, County Antrim, Northern Ireland, BT29 4RS, United Kingdom<br><b>Pages:</b> 10<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_be306fc9b59fecef2c3fc8162a26c202.setContent(html_22d3346e9e2150a95234f0d15936d008);
+            
+        
+
+        circle_marker_6a41ed5a063eb217aa9eadaa0162ab17.bindPopup(popup_be306fc9b59fecef2c3fc8162a26c202)
+        ;
+
+        
+    
+    
+            circle_marker_6a41ed5a063eb217aa9eadaa0162ab17.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4bfdd97cee024675f7f19c4cb2a62acd = L.circleMarker(
+                [44.5433184, -69.8203591],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_35c19dcfe0d34f096cdc90f909be9a2f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fdcad22353403c0a3ac8290ee97abc1f = $(`<div id="html_fdcad22353403c0a3ac8290ee97abc1f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Octahedral pyrite  Fig. 8: Octahedral pyrite in marble (magnification 4X). Sample SDFE3-007-017. 0.1mm  Mudstone dykes  Siltstone  Fig. 9: Fluid escape structures in the upper slump facies Location: FE3-pit 1; GPS= 1535924;  0215840. 27 || Sericite replacing the feldspars   Fig. 14: Sericite alteration in the granodiorite (magnification 4X). Sample 195. 0.1mm Fig. 15: Breccia consisting of irregular clasts in an iron-oxide matrix. Location: FE3-pit 1;  GPS= 1535909; 0215872.<br><b>Geocode:</b> Pit 1, Belgrade, Kennebec County, Maine, United States<br><b>Pages:</b> 27,30<br><b>Type:</b> GPS<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_35c19dcfe0d34f096cdc90f909be9a2f.setContent(html_fdcad22353403c0a3ac8290ee97abc1f);
+            
+        
+
+        circle_marker_4bfdd97cee024675f7f19c4cb2a62acd.bindPopup(popup_35c19dcfe0d34f096cdc90f909be9a2f)
+        ;
+
+        
+    
+    
+            circle_marker_4bfdd97cee024675f7f19c4cb2a62acd.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_305ae8e06a7c05340d7e39204fb031d5 = L.circleMarker(
+                [20.6094928, -103.4025385],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_329a71ad0313aa0b58bcc5beb6ab5fef = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_45c2ad5133fed33d0866bb47b921e40a = $(`<div id="html_45c2ad5133fed33d0866bb47b921e40a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Fig. 10: Slumps (with a glide surface, glide zone containing olistoliths and slump folds in the  upper slump facies. Location: FE3-pit 2; GPS= 1535190; 0216237. Fig. 11: Turbidite beds (with erosion surfaces and fining beds) in the siltstone-greywacke unit. Photo taken from FE4 open cast where the turbidites are overturned and best exposed. || Fig. 6: Slump folds and soft sediment deformation in the lower slump facies. Location: FE3-pit  2; GPS= 1534765; 0216396. Carbonate host rock  Sulphide  vein  crosscutting  the  host rock and the quartz vein  Quartz vein cross-cutting the  carbonate host rock  Fig. 7: Quartz vein and sulphide veins cross-cutting calcite host rock (magnification 4X). Sample DFE3-046-005. || Sericite alteration  0.1mm  Fig. 12: Deuteric alteration; (magnification 4X). Sample 195. Host rock  granodiorite  Fig. 13: Granodiorite dyke; Location: FE3-pit 2; GPS= 1534836; 0216256. 29 || Table 2: Stratigraphic succession of the FE3 open cast. (Youngest)   Lithologies    Description   Laterite    weathering profile  Greywacke    metamorphosed; bedded  Siltstone- greywacke unit  Upper Slump  facies  Lower Slump  facies  (Oldest)  foliated; bedded  siltstone-greywacke beds; massive slump folds; fluid-escape   structures    siltstone beds; mineralised; slump folds  Fining upwards  Erosion surfaces  Fig. 5:  Turbidite  sequences  of  the  lower  slump  facies. Location:  FE3-pit  2;  GPS=  1536162;  0216258   25<br><b>Geocode:</b> Parque Industrial Tecnológico II, Tlaquepaque, San Pedro Tlaquepaque, Región Centro, Jalisco, Mexico<br><b>Pages:</b> 25,26,28,29<br><b>Type:</b> GPS<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_329a71ad0313aa0b58bcc5beb6ab5fef.setContent(html_45c2ad5133fed33d0866bb47b921e40a);
+            
+        
+
+        circle_marker_305ae8e06a7c05340d7e39204fb031d5.bindPopup(popup_329a71ad0313aa0b58bcc5beb6ab5fef)
+        ;
+
+        
+    
+    
+            circle_marker_305ae8e06a7c05340d7e39204fb031d5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a5490571271b73cacf2b2fb88e95015 = L.circleMarker(
+                [40.393475, -79.855678],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_3ff77b17d46975929eab44fdb7985dfa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_01c6e4800af88d30921ed3319c5235c9 = $(`<div id="html_01c6e4800af88d30921ed3319c5235c9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> palaeochannel  Unconformity  Fig. 18: Palaeochannel - unconformity at the bottom of the palaeochannel. Location: FE3-pit 3;  photo taken facing north. 32<br><b>Geocode:</b> #3 Slag Pit, Bessemer, North Braddock, Allegheny County, Pennsylvania, United States<br><b>Pages:</b> 32<br><b>Type:</b> GPS<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_3ff77b17d46975929eab44fdb7985dfa.setContent(html_01c6e4800af88d30921ed3319c5235c9);
+            
+        
+
+        circle_marker_9a5490571271b73cacf2b2fb88e95015.bindPopup(popup_3ff77b17d46975929eab44fdb7985dfa)
+        ;
+
+        
+    
+    
+            circle_marker_9a5490571271b73cacf2b2fb88e95015.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_625af78986644a47867c13ff12f1b0f4 = L.circleMarker(
+                [13.3127665, -11.5901805],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_63bdc0a90b1afee1652f966a8f634f8a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_59a99505b31ef8a1354e2ba803ecf315 = $(`<div id="html_59a99505b31ef8a1354e2ba803ecf315" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Regional geology  2.1 Preamble  The West African craton has been divided into four major domains; the Reguibat Rise, the  Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et  al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin  which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains  consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal  et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic  terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé  Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig. || Finally,  the  sediments  of  the  FE3  opencasts  (Kofi  Series)  have  not  been  dated  but  are  interpreted as Birimian in age by Hirdes et al. (2002). The Birimian sequences of the West  African  craton  are  dated  at  2238-2171  Ma  (Milési  et  al.,  1991,  1992;  Ledru  et  al.,  1991;  Boher  et  al.,  1992). The  Birimian  sequences  are  composed  of  tholeiitic  basalts,  andesitic  volcanic,  calc-alkaline  volcanics,  volcaniclastic  sediments,  detrital  sediments  and  chemical  sediments which are characteristic of an oceanic island arc environment (Hirdes et al., 2002;  Gueye  et  al.,  2008). In  contrast,  the  Birimian  sequences  of  the  Keniéba  Inlier  (i.e.,  Mako  Supergroup;  Diale-Daleme  Supergroup;  Falemé  volcanic  belt)  are  dated  at  2063±41  Ma,  2096±8  Ma  +  2099±4  Ma  (respectively). They  are  interpreted  as  remnants  of  an  oceanic  island  arcs  terrane  that  was  accreted  onto  an  Archaean  continent  (Diallo,  2001;  Dia  et  al.,  1997). || Hirdes et al. (2002) concluded that andesite and felsic lava dominant the belt,  but volcaniclastic units, chemical sediments (e.g., chert and manganiferous shale) and meta- greywacke  also  occur  throughout  the  volcanic  belt. Hirdes  et  al. (2002)  interpreted  these  sequences  as  proximal  volcanic  rocks. The  Falemé  volcanic  belt  is  associated  with  major  skarn-type iron deposits (Schwartz et al., 2004). 2.6 Kofi Series  The Kofi Series crops out east of the Senegalo-Mali Shear Zone and is sinistrally displaced  (Hirdes  et  al.,  2002). || Table I: Stratigraphic succession of the Kéniéba Inlier. Supergroup  Kofi Series  Dominant rock types  (undated)  Orogenic-type metasediments and volcaniclastic  sequences  Falémé volcanic belt  2099±4 Ma (Pb-Pb age; Hirdes et al. (2002)  Volcanoclastics and chemical sediments  Diale-Dalema  Supergroup  2096±8 Ma (Pb-zircon; Ledru et al., 1991)  Consists of detrital sediments and calc-alkaline  volcanics. Intruded by the Saraya pluton    2063±41 Ma (Abouchami, 1990; Sm-Nd)  2195±11 Ma (Dia et al., 1997; Pb-Pb)  Tholeiitic pillowed basalts and alkaline andesites with  immature basalts  Sandikounda Amphibolite Gneiss Complex  2194±6 Ma (Pawlig et al., 2006, Sm-Nd; Dia et al.,  1997, Pb-Pb)   Mako Supergroup  Basement  15 || The Birimian rocks of  the  Kéniéba  Inlier  unconformably  overlie  the  Sandikounda  Amphibolite-Gneiss  (SAG)  basement (Dia et al., 1997). The basement consists of dioritic to tonalitic rocks aged at 2194  ± 6 (Dia et al., 1997, Pb-Pb age; Pawlig et al., 2006, T DM Sm-Nd). The oldest Birimian rocks  of  the  inlier  are  tholeiitic  basalts  and  andesites  of  the  Mako  Supergroup,  which  unconformably overlie the SAG basement. These volcanic sequences are dated at 2195±11  Ma (Dia et al, 1997; detrital zircons, Pb-Pb age) and at 2063±41 Ma (Abouchami, 1990; Sm- Nd). The  Mako  Supergroup  is  overlain  by  the  Dialé-Dalemé  Supergroup  which  consists  of  Birimian sequences dated at 2096±8 Ma (Ledru et al, 1991; Pb-zircon evaporation; Hirdes et  al.,  2002). The  Dialé-Dalemé  Supergroup  is  overlain  by  the  Falemé  volcanic  belt  which  is  dated at 2099±4 Ma (Hirdes et al., 2002; Pb-Pb age). || The Kofi Series, which outcrops only in  Mali, overlies the volcanic belt and has not been dated (Dioh et al., 2006). The sequences are intruded by Eburnean granitoids aged at 2045±27 to 1973±33 Ma (Ledru  et  al,  1991;  Taylor  et  al.,  1992;  Pb-Pb;  Pawlig  et  al.,  2006). The  post-Eburnean  age  Senegalo-Mali  graben  is  located  between  the  Falemé  volcanic  belt  and  Kofi  Series  and  is  10 || The Saraya batholith intrudes the Dialé-Dalemé Supergroup and includes the Balangouma  and Boboti plutons (Hirdes et al., 2002). The Saraya batholith is composed of biotite-bearing  tonalite to granite, while the Boboti and Balangoma plutons comprise gabbro to amphibole- biotite bearing monzogranite (Dioh et al., 2006) that are dated at 1973±33 Ma (Ledru et al.,  1991; Rb-Sr). The Falemé volcanic belt is intruded by Na-rich, belt-type granitoids (Dioh et  al., 2006). 2.8 Metamorphism  During the Eburnean Orogeny, the Birimian meta-volcanic and meta-sedimentary sequences  of  the  Kéniéba  Inlier  were  subjected  to  regional  metamorphism  to  greenschist  facies  (Liégeois  et  al.,  1991;  Taylor  et  al.,  1992;  Debat  et  al.,  2003). The  contact  aureole  of  granitoids  are  characterised  by  staurolite-sillimanite-garnet  mineral  assemblages  indicating  that  metamorphism  reached  amphibolite  facies  in  grade  (Debat  et  al.,  2003;  Pawlig  et  al.,  2006). Peak metamorphic conditions reached 500-600 ˚C and 4-6 kbar and has been dated  at approximately 2.1 Ga, which falls in the time interval of the Eburnean Orogeny (Hirdes et  al., 2002; Pawlig et al., 2006, U-Pb age on sphene).<br><b>Geocode:</b> Falémé, Kayes, Mali<br><b>Pages:</b> 10,11,12,15,40<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_63bdc0a90b1afee1652f966a8f634f8a.setContent(html_59a99505b31ef8a1354e2ba803ecf315);
+            
+        
+
+        circle_marker_625af78986644a47867c13ff12f1b0f4.bindPopup(popup_63bdc0a90b1afee1652f966a8f634f8a)
+        ;
+
+        
+    
+    
+            circle_marker_625af78986644a47867c13ff12f1b0f4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_46652774e080312605264295d6cc2949 = L.circleMarker(
+                [8.0300284, -1.0800271],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_f4021e6af641fee78bdd6b317aacb689 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ad5b64afa06442f5ebc4514641133bf7 = $(`<div id="html_ad5b64afa06442f5ebc4514641133bf7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In the 16th century, the Gold Coast of West  Africa accounted for 35% of the entire world’s gold production although gold production had  decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in  Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and  is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently  the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic  stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold  mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in  the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.<br><b>Geocode:</b> Ghana<br><b>Pages:</b> 13<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f4021e6af641fee78bdd6b317aacb689.setContent(html_ad5b64afa06442f5ebc4514641133bf7);
+            
+        
+
+        circle_marker_46652774e080312605264295d6cc2949.bindPopup(popup_f4021e6af641fee78bdd6b317aacb689)
+        ;
+
+        
+    
+    
+            circle_marker_46652774e080312605264295d6cc2949.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e11b3a23a5bc9731d1400a05e1895c50 = L.circleMarker(
+                [5.3072505, -1.9913225],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_8da48a683c0a0ded1d30d6754a84ff33 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_76c5919856cad4c7c91908eb70abf263 = $(`<div id="html_76c5919856cad4c7c91908eb70abf263" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> mineralization  in  disseminated  sulphides  in  volcanic  and  plutonic  rocks  and  gold  mineralization in conglomerate beds (Milési et al., 1992). These types of deposits have been  reported  in  Burkina  Faso  (Diénémera),  Ghana  (Tarkwa  district),  Mali  (Syama),  and  Ivory  Coast (Yaouré-Angovia) (Milési et al., 1992; Feybesse et al., 2006). Syn-orogenic deposits  are related to brecciated hydrothermal zones. Late  orogenic  discordant  mesothermal  gold  mineralisation  includes  gold-arsenopyrite  lode  mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly-metallic  sulphides  (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and  Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu,  Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres  long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).<br><b>Geocode:</b> District Office and Clinic, Prisons Avenue, Tarkwa Zongo, Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_8da48a683c0a0ded1d30d6754a84ff33.setContent(html_76c5919856cad4c7c91908eb70abf263);
+            
+        
+
+        circle_marker_e11b3a23a5bc9731d1400a05e1895c50.bindPopup(popup_8da48a683c0a0ded1d30d6754a84ff33)
+        ;
+
+        
+    
+    
+            circle_marker_e11b3a23a5bc9731d1400a05e1895c50.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6811a0815b63e79710ccaaf84fda3964 = L.circleMarker(
+                [51.5502718, 0.0249117],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_cf3cfab3f93e6e6969ee8e96ac9f8299 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e01816822f274dcdfbac6b88841e8f61 = $(`<div id="html_e01816822f274dcdfbac6b88841e8f61" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In the 16th century, the Gold Coast of West  Africa accounted for 35% of the entire world’s gold production although gold production had  decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in  Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and  is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently  the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic  stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold  mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in  the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.<br><b>Geocode:</b> Connies Special Authentic Ghanaian, 85-87, Woodgrange Road, Forest Gate, London Borough of Newham, London, Greater London, England, E7 0EP, United Kingdom<br><b>Pages:</b> 13<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_cf3cfab3f93e6e6969ee8e96ac9f8299.setContent(html_e01816822f274dcdfbac6b88841e8f61);
+            
+        
+
+        circle_marker_6811a0815b63e79710ccaaf84fda3964.bindPopup(popup_cf3cfab3f93e6e6969ee8e96ac9f8299)
+        ;
+
+        
+    
+    
+            circle_marker_6811a0815b63e79710ccaaf84fda3964.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1fd0cb57a7690bd2fefa905a9640a79f = L.circleMarker(
+                [47.3138746, 5.0488196],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_995e0af3feaadf270c4dc06ae72e48c6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5a71bab8709b6ba5a6bd3fd5ad1a5692 = $(`<div id="html_5a71bab8709b6ba5a6bd3fd5ad1a5692" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In the 16th century, the Gold Coast of West  Africa accounted for 35% of the entire world’s gold production although gold production had  decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in  Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and  is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently  the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic  stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold  mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in  the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.<br><b>Geocode:</b> West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France<br><b>Pages:</b> 13<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_995e0af3feaadf270c4dc06ae72e48c6.setContent(html_5a71bab8709b6ba5a6bd3fd5ad1a5692);
+            
+        
+
+        circle_marker_1fd0cb57a7690bd2fefa905a9640a79f.bindPopup(popup_995e0af3feaadf270c4dc06ae72e48c6)
+        ;
+
+        
+    
+    
+            circle_marker_1fd0cb57a7690bd2fefa905a9640a79f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aed032b458a2aa92dfa4ee341a45d682 = L.circleMarker(
+                [10.7226226, -10.7083587],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_6051ed51b94d7dee349af6965022f061 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1a3b2e1b0974228368c6053e21f16360 = $(`<div id="html_1a3b2e1b0974228368c6053e21f16360" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during  the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This  type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso  (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing  arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally  superimposed. 14<br><b>Geocode:</b> Guinea<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6051ed51b94d7dee349af6965022f061.setContent(html_1a3b2e1b0974228368c6053e21f16360);
+            
+        
+
+        circle_marker_aed032b458a2aa92dfa4ee341a45d682.bindPopup(popup_6051ed51b94d7dee349af6965022f061)
+        ;
+
+        
+    
+    
+            circle_marker_aed032b458a2aa92dfa4ee341a45d682.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a92f859b67f3e8eba4476c572a983c4 = L.circleMarker(
+                [11.6080136, -10.2970052],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_610f557466299190e4d3ce9d3e10430e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f6d9b3bccb1ce10362c84ec1aedfd6fb = $(`<div id="html_f6d9b3bccb1ce10362c84ec1aedfd6fb" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during  the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This  type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso  (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing  arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally  superimposed. 14<br><b>Geocode:</b> Banora, Dinguiraye, Faranah Region, Guinea<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_610f557466299190e4d3ce9d3e10430e.setContent(html_f6d9b3bccb1ce10362c84ec1aedfd6fb);
+            
+        
+
+        circle_marker_4a92f859b67f3e8eba4476c572a983c4.bindPopup(popup_610f557466299190e4d3ce9d3e10430e)
+        ;
+
+        
+    
+    
+            circle_marker_4a92f859b67f3e8eba4476c572a983c4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_601a139aaef95469f09dafaf551811d4 = L.circleMarker(
+                [52.865196, -7.9794599],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_2ebf46f3bb765bb8461cb172132ab30e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0bf94160636cfc301e69ff5b00fe0c52 = $(`<div id="html_0bf94160636cfc301e69ff5b00fe0c52" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island,  Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental  margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that  were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra  Island represent mass transported sediments along dislodged from the continental slope into  a deep marine environments. Modern slumps are common along continental margins and in  modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in  New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the  gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et  al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of  the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980;  Martinsen 1994; Betrand et al., 2008).<br><b>Geocode:</b> Ireland<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2ebf46f3bb765bb8461cb172132ab30e.setContent(html_0bf94160636cfc301e69ff5b00fe0c52);
+            
+        
+
+        circle_marker_601a139aaef95469f09dafaf551811d4.bindPopup(popup_2ebf46f3bb765bb8461cb172132ab30e)
+        ;
+
+        
+    
+    
+            circle_marker_601a139aaef95469f09dafaf551811d4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_38372d16809fd2e3d1efbc864ca4af24 = L.circleMarker(
+                [42.6384261, 12.674297],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_5b13af93dcba0dcaf3afc83d7a373db6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_62dc66cf83b260545a515fee669c12d0 = $(`<div id="html_62dc66cf83b260545a515fee669c12d0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> An  olistostrome  (composed  of  olistoliths)  is  defined  as  a  sedimentary  body  of  lithological  heterogeneous  material  in  which  the  fine-grained  matrix  supports  the  clasts  (olistoliths). They can result from sliding and debris flow on the edge of the continental margin (Maltman,  1994; Naylor, 1981). Olistotromes are recorded in Italy and the Niger Delta where slumping  and  debris  flow  occur  along  the  passive  continental  margin  (Naylor,  1982;  Damuth,  1993). This  suggests  that  the  olistostrome  were  formed  along  a  continental  margin  where  debris  flow and mass transportation displaced blocks and rock material downslope. The  mudstone  dykes  in  the  upper  slump  facies  are  similar  to  the  fluid  escape  structures  described  by  Lowe  (1975),  Stromberg,  (1998)  and  Montenat  et  al. (2007)  who  interpreted  mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.<br><b>Geocode:</b> Italy<br><b>Pages:</b> 38<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5b13af93dcba0dcaf3afc83d7a373db6.setContent(html_62dc66cf83b260545a515fee669c12d0);
+            
+        
+
+        circle_marker_38372d16809fd2e3d1efbc864ca4af24.bindPopup(popup_5b13af93dcba0dcaf3afc83d7a373db6)
+        ;
+
+        
+    
+    
+            circle_marker_38372d16809fd2e3d1efbc864ca4af24.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_04a5af2a983300d728555a29a0f9940e = L.circleMarker(
+                [6.1863684, -5.2960098],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_21cd6f60a16dc51198190ebbfc8da8ab = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4f0253d5bedbbdaaf4bc902c26e695d1 = $(`<div id="html_4f0253d5bedbbdaaf4bc902c26e695d1" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during  the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This  type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso  (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing  arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally  superimposed. 14<br><b>Geocode:</b> Hiré, Lôh-Djiboua, Gôh-Djiboua, Côte d'Ivoire<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_21cd6f60a16dc51198190ebbfc8da8ab.setContent(html_4f0253d5bedbbdaaf4bc902c26e695d1);
+            
+        
+
+        circle_marker_04a5af2a983300d728555a29a0f9940e.bindPopup(popup_21cd6f60a16dc51198190ebbfc8da8ab)
+        ;
+
+        
+    
+    
+            circle_marker_04a5af2a983300d728555a29a0f9940e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_da222c5a1541a52461772eed461d548e = L.circleMarker(
+                [30.337682, 78.0877482],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_2ac8df9156e6af7eecf9fde4c90f5553 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_39fdbb564e0917740f97dcedc63a4e84 = $(`<div id="html_39fdbb564e0917740f97dcedc63a4e84" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Quartz lode mineralization with poly-metallic sulphides is interpreted to have formed during  the  last  brittle  to  brittle-ductile  stages  of  the  Eburnean  Orogeny  (Béziat  et  al.,  2008). This  type  of  deposits  has  been  reported  in  Mali  (Kalanga),  Guinea  (Banora),  Burkina  Faso  (Poura),  Senegal  (Sabodala)  and  Ivory  Coast  (Hiré)  (Milési  et  al.,  1992). Gold-bearing  arsenopyrite  lode  mineralization  predates  quartz  lode  mineralization,  but  they  are  locally  superimposed. 14<br><b>Geocode:</b> Kalanga, Dehradun, Uttarakhand, 248013, India<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2ac8df9156e6af7eecf9fde4c90f5553.setContent(html_39fdbb564e0917740f97dcedc63a4e84);
+            
+        
+
+        circle_marker_da222c5a1541a52461772eed461d548e.bindPopup(popup_2ac8df9156e6af7eecf9fde4c90f5553)
+        ;
+
+        
+    
+    
+            circle_marker_da222c5a1541a52461772eed461d548e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8eebec09e35d3b5a0215231fd186d84 = L.circleMarker(
+                [42.5968863, -5.5719594],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_6f044b15e312a793dfd6411e25970d73 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1e1d7fa5e281547b4acad6c865316570 = $(`<div id="html_1e1d7fa5e281547b4acad6c865316570" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Regional geology  2.1 Preamble  The West African craton has been divided into four major domains; the Reguibat Rise, the  Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et  al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin  which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains  consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal  et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic  terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé  Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.<br><b>Geocode:</b> Leo man, Calle Burgo Nuevo, Centro, León, Castile and León, 24004, Spain<br><b>Pages:</b> 10<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6f044b15e312a793dfd6411e25970d73.setContent(html_1e1d7fa5e281547b4acad6c865316570);
+            
+        
+
+        circle_marker_a8eebec09e35d3b5a0215231fd186d84.bindPopup(popup_6f044b15e312a793dfd6411e25970d73)
+        ;
+
+        
+    
+    
+            circle_marker_a8eebec09e35d3b5a0215231fd186d84.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5088bde065ad68f07d519d219d55f6a4 = L.circleMarker(
+                [16.3700359, -2.2900239],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_a2eb4545a150f060d884cdadf3c228fe = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0b5184d839ef95d11fa2cf95b2150257 = $(`<div id="html_0b5184d839ef95d11fa2cf95b2150257" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In the 16th century, the Gold Coast of West  Africa accounted for 35% of the entire world’s gold production although gold production had  decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in  Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and  is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently  the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic  stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold  mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in  the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.<br><b>Geocode:</b> Mali<br><b>Pages:</b> 13<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a2eb4545a150f060d884cdadf3c228fe.setContent(html_0b5184d839ef95d11fa2cf95b2150257);
+            
+        
+
+        circle_marker_5088bde065ad68f07d519d219d55f6a4.bindPopup(popup_a2eb4545a150f060d884cdadf3c228fe)
+        ;
+
+        
+    
+    
+            circle_marker_5088bde065ad68f07d519d219d55f6a4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b34f35f85489794f2ca56f8f5a44d074 = L.circleMarker(
+                [0.2416723, 29.3144644],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_0b404aea0b8291846f94a55f1eb599e7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f93a0ca3ef595fc0ab05fe84e5054232 = $(`<div id="html_f93a0ca3ef595fc0ab05fe84e5054232" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  series  consists  of  Birimian-type  basin  sediments,  and  includes  orogenic-type  metasediments  and  volcaniclastic  sequences. The  series  is  crosscut  by  numerous tourmaline-rich quartz veins which host gold mineralisation in the Loulo goldfield  (Fig. 1) southeast of the study area (Fouillac et al., 1993). 11<br><b>Geocode:</b> Loulo, Kithahuha, Masongo, Bashu, Beni, North Kivu, Democratic Republic of the Congo<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_0b404aea0b8291846f94a55f1eb599e7.setContent(html_f93a0ca3ef595fc0ab05fe84e5054232);
+            
+        
+
+        circle_marker_b34f35f85489794f2ca56f8f5a44d074.bindPopup(popup_0b404aea0b8291846f94a55f1eb599e7)
+        ;
+
+        
+    
+    
+            circle_marker_b34f35f85489794f2ca56f8f5a44d074.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1f739405e49abb8bdf220534a169977e = L.circleMarker(
+                [55.5107798, 8.481902],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_bb2087f9a3ef999448432b28f5406443 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_059f6f92dcd521987084024540208a63 = $(`<div id="html_059f6f92dcd521987084024540208a63" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 5 Discussion  5.1 Depositional Environment  Slumps  characterise  the  lower  and  upper  slump  facies. A  slump  is  a  mass-transported  debris  flow  (Martinsen,  1994;  Shanmugam,  2000)  along  the  edge  of  a  continental  margin. They are a downslope movement of sediment and rock material above a basal shear surface  where  there  is  significant  internal  distortion  of  the  bedding  (Stow,  1986). Slump  structures  form  when  the  sedimentary  pile  abruptly  detaches  from  a  slope  and  is  transported  downslope (Collinson et al., 1991). A sediment pile will transport downslope when the shear  stress acting within a body of sediment exceeds the shear strength along the slope surface  (Dingle, 1980). The sedimentary pile deforms internally (intensely), and produces a variety of  deformation  structures  such  as  folds,  boudins,  and  micro-faults  (Martinsen,  1994),  all  of  which are observed in the study area (Fig.<br><b>Geocode:</b> Martinsen, Edison Park, Kjersing, Esbjerg, Esbjerg Municipality, Region of Southern Denmark, 6715, Denmark<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_bb2087f9a3ef999448432b28f5406443.setContent(html_059f6f92dcd521987084024540208a63);
+            
+        
+
+        circle_marker_1f739405e49abb8bdf220534a169977e.bindPopup(popup_bb2087f9a3ef999448432b28f5406443)
+        ;
+
+        
+    
+    
+            circle_marker_1f739405e49abb8bdf220534a169977e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c3e61db19d2a8dcc562ed2dd91ff8459 = L.circleMarker(
+                [32.9715285, -89.7348497],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_2126c5bba189b877ce1a772965100e09 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4fbe11b1ab6cd2c3f13f8085deff40ca = $(`<div id="html_4fbe11b1ab6cd2c3f13f8085deff40ca" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island,  Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental  margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that  were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra  Island represent mass transported sediments along dislodged from the continental slope into  a deep marine environments. Modern slumps are common along continental margins and in  modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in  New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the  gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et  al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of  the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980;  Martinsen 1994; Betrand et al., 2008).<br><b>Geocode:</b> Mississippi, United States<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2126c5bba189b877ce1a772965100e09.setContent(html_4fbe11b1ab6cd2c3f13f8085deff40ca);
+            
+        
+
+        circle_marker_c3e61db19d2a8dcc562ed2dd91ff8459.bindPopup(popup_2126c5bba189b877ce1a772965100e09)
+        ;
+
+        
+    
+    
+            circle_marker_c3e61db19d2a8dcc562ed2dd91ff8459.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_36ffb0cd991cb137456c9053bf283149 = L.circleMarker(
+                [32.9715285, -89.7348497],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_938fd96dfcadaf0137edbe60a4a14d10 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fa0f1d9d1494d1518450233c27f29d41 = $(`<div id="html_fa0f1d9d1494d1518450233c27f29d41" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island,  Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental  margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that  were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra  Island represent mass transported sediments along dislodged from the continental slope into  a deep marine environments. Modern slumps are common along continental margins and in  modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in  New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the  gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et  al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of  the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980;  Martinsen 1994; Betrand et al., 2008).<br><b>Geocode:</b> Mississippi, United States<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_938fd96dfcadaf0137edbe60a4a14d10.setContent(html_fa0f1d9d1494d1518450233c27f29d41);
+            
+        
+
+        circle_marker_36ffb0cd991cb137456c9053bf283149.bindPopup(popup_938fd96dfcadaf0137edbe60a4a14d10)
+        ;
+
+        
+    
+    
+            circle_marker_36ffb0cd991cb137456c9053bf283149.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ec448c752504784a7af9149a7009b1c = L.circleMarker(
+                [50.5032737, 13.636112],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_29b79dc3e040991a15f262a470124352 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_094acc98fcb19c0c1700cee634be5cb6 = $(`<div id="html_094acc98fcb19c0c1700cee634be5cb6" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Most  of  the  rock  samples  including  quartzites  and  marble  have  been  recrystallised  and  metamorphosed. Quartz  grains  in  the  greywacke  unit  host  stylolitic  micro-textures  and  granoblastic quartz grains (fig. 16). These textures are interpreted to indicate deformation in  the rocks. The quartzite has a pinkish potassium feldspar staining. The potassium staining is  interpreted as an indication of a contact aureole around the rocks.<br><b>Geocode:</b> Most, okres Most, Ústí nad Labem Region, Northwest, Czechia<br><b>Pages:</b> 23<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_29b79dc3e040991a15f262a470124352.setContent(html_094acc98fcb19c0c1700cee634be5cb6);
+            
+        
+
+        circle_marker_3ec448c752504784a7af9149a7009b1c.bindPopup(popup_29b79dc3e040991a15f262a470124352)
+        ;
+
+        
+    
+    
+            circle_marker_3ec448c752504784a7af9149a7009b1c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0326ab0ca812422379e8d13a10b4d329 = L.circleMarker(
+                [6.1196119, 6.7557494],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_32f74551f622e9b6bc39ee3a69505094 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d8451f32786ab5413cfb315d2ec9330d = $(`<div id="html_d8451f32786ab5413cfb315d2ec9330d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> An  olistostrome  (composed  of  olistoliths)  is  defined  as  a  sedimentary  body  of  lithological  heterogeneous  material  in  which  the  fine-grained  matrix  supports  the  clasts  (olistoliths). They can result from sliding and debris flow on the edge of the continental margin (Maltman,  1994; Naylor, 1981). Olistotromes are recorded in Italy and the Niger Delta where slumping  and  debris  flow  occur  along  the  passive  continental  margin  (Naylor,  1982;  Damuth,  1993). This  suggests  that  the  olistostrome  were  formed  along  a  continental  margin  where  debris  flow and mass transportation displaced blocks and rock material downslope. The  mudstone  dykes  in  the  upper  slump  facies  are  similar  to  the  fluid  escape  structures  described  by  Lowe  (1975),  Stromberg,  (1998)  and  Montenat  et  al. (2007)  who  interpreted  mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.<br><b>Geocode:</b> Second Niger Bridge, Ogbaru, Anambra State, 430231, Nigeria<br><b>Pages:</b> 38<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_32f74551f622e9b6bc39ee3a69505094.setContent(html_d8451f32786ab5413cfb315d2ec9330d);
+            
+        
+
+        circle_marker_0326ab0ca812422379e8d13a10b4d329.bindPopup(popup_32f74551f622e9b6bc39ee3a69505094)
+        ;
+
+        
+    
+    
+            circle_marker_0326ab0ca812422379e8d13a10b4d329.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fbd058009f3241417c92813200e248c0 = L.circleMarker(
+                [17.7356214, 9.3238432],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_9dd4f094307a21d2e83aafde71919ce7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2f1ce46cace9fc95c9ce9a01ab761dcc = $(`<div id="html_2f1ce46cace9fc95c9ce9a01ab761dcc" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 10). Ancient  slumps  have  been  reported  in  Country  Clare,  Ireland  and  in  Alexander  Island,  Antarctica  (Farell,  1984;  Shanmugam,  2000),  and  typically  along  the  edge  of  continental  margins. The  slumps  of  Country  Clare  in  Ireland  represent  collapsed  slope  deposits  that  were laid down on an unstable basin slope (Collinson et al., 1991). The slumps of Alexandra  Island represent mass transported sediments along dislodged from the continental slope into  a deep marine environments. Modern slumps are common along continental margins and in  modern  deltas  (  The  Storegga  slumps  in  Norwegian  continental  margin;  Conway  coast  in  New  Zealand;  Niger  delta  continental  margin;  Mississippi  delta-front  slumps;  slumps  in  the  gulf of Mexico) (Shanmugam et al.,1988; Jansen et al., 1987; Damuth, 1993; McConnico et  al., 2007). Slumping can be triggered by gravity, downslope undercutting, and thickening of  the  sediment  pile  by  deposition,  slumping  up-slope  or  seismic  activity  (Dingle,  1980;  Martinsen 1994; Betrand et al., 2008).<br><b>Geocode:</b> Niger<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9dd4f094307a21d2e83aafde71919ce7.setContent(html_2f1ce46cace9fc95c9ce9a01ab761dcc);
+            
+        
+
+        circle_marker_fbd058009f3241417c92813200e248c0.bindPopup(popup_9dd4f094307a21d2e83aafde71919ce7)
+        ;
+
+        
+    
+    
+            circle_marker_fbd058009f3241417c92813200e248c0.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_41563e82006f939dfe3f7aac4d9b5450 = L.circleMarker(
+                [8.9472833, 125.5420601],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_930eb58910bfb8b76fffb24d4a1f9eda = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ca11714b7efe959c1986ffd0d59efd12 = $(`<div id="html_ca11714b7efe959c1986ffd0d59efd12" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> mineralization  in  disseminated  sulphides  in  volcanic  and  plutonic  rocks  and  gold  mineralization in conglomerate beds (Milési et al., 1992). These types of deposits have been  reported  in  Burkina  Faso  (Diénémera),  Ghana  (Tarkwa  district),  Mali  (Syama),  and  Ivory  Coast (Yaouré-Angovia) (Milési et al., 1992; Feybesse et al., 2006). Syn-orogenic deposits  are related to brecciated hydrothermal zones. Late  orogenic  discordant  mesothermal  gold  mineralisation  includes  gold-arsenopyrite  lode  mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly-metallic  sulphides  (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and  Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu,  Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres  long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).<br><b>Geocode:</b> PreTea, San Francisco Street, Diego Silang, Poblacion, Datu Silongan, Butuan, Caraga, 8600, Philippines<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_930eb58910bfb8b76fffb24d4a1f9eda.setContent(html_ca11714b7efe959c1986ffd0d59efd12);
+            
+        
+
+        circle_marker_41563e82006f939dfe3f7aac4d9b5450.bindPopup(popup_930eb58910bfb8b76fffb24d4a1f9eda)
+        ;
+
+        
+    
+    
+            circle_marker_41563e82006f939dfe3f7aac4d9b5450.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_075ddc27b56e47eb7e87faa7bbd008aa = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_674ea7450f1898c3e3d2f89f30ef26b3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6526cd0379b6474b25bf2e7d10d0cb64 = $(`<div id="html_6526cd0379b6474b25bf2e7d10d0cb64" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 1: Introduction  1.1 Preamble  The FE3 open cast is situated in the Sadiola goldfield in Mali. The goldfield also includes the  giant Sadiola and FE4 open casts which are mined by the Société d’Exploitation des Mines  d’Or  de  Sadiola  S.A.,  and  is  a  Joint  Venture  partnership  between  AngloGold  Ashanti,  IAMGOLD, the Malian Government and the IFC. Gold production at Sadiola goldfield began  in mid-1997: the FE3 open cast is currently in the feasibility stages. The  geology  and  metallogenic  setting  of  the  FE3  open  cast  has  not  been  investigated,  mapped  or  researched  to  date. Therefore  the  relationship  between  the  stratigraphy,  structures  and  intrusive  rocks  is  not  known,  but  it  is  considered  by  Sadiola  mine  geology  team to be important in determining the tectonic setting and the timing of gold mineralization  in the goldfield. Therefore  the  main  objective  of  this  study  is  to  describe  the  stratigraphy,  structure  and  intrusive rocks that occur in the goldfield.<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_674ea7450f1898c3e3d2f89f30ef26b3.setContent(html_6526cd0379b6474b25bf2e7d10d0cb64);
+            
+        
+
+        circle_marker_075ddc27b56e47eb7e87faa7bbd008aa.bindPopup(popup_674ea7450f1898c3e3d2f89f30ef26b3)
+        ;
+
+        
+    
+    
+            circle_marker_075ddc27b56e47eb7e87faa7bbd008aa.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_105736ab0563c2d3049effeb0c740c47 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_25517784bdcd299e5d6c5520e96bd1f6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b0d8e649ce34e4f8889263f2bbabf44c = $(`<div id="html_b0d8e649ce34e4f8889263f2bbabf44c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Also the tectonic setting and the relative timing of  gold mineralization will be determined. Determining the relative timing of gold mineralization  will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola  area. 1.2 Location and physiography  The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield  is located 80 km west of the capital city of Bamako on the western border of Senegal and  Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_25517784bdcd299e5d6c5520e96bd1f6.setContent(html_b0d8e649ce34e4f8889263f2bbabf44c);
+            
+        
+
+        circle_marker_105736ab0563c2d3049effeb0c740c47.bindPopup(popup_25517784bdcd299e5d6c5520e96bd1f6)
+        ;
+
+        
+    
+    
+            circle_marker_105736ab0563c2d3049effeb0c740c47.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d544c7d90c3db1bb8adc88ba1161083d = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_c51dd49071a58b8015429b3b287f7d10 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_080e4c5444ec770e27ade2f617599927 = $(`<div id="html_080e4c5444ec770e27ade2f617599927" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> There  is  a  considerable  difference  between  the  ages  given  for  the  Birimian  sequences of the West African craton and those of the Kenieba Inlier as indicated in Fig 22  and accord better, but are still younger, than those of the Tarkwa Group (2149-2132 Ma; U- Pb  zircon,  Davis  et  al.,  1994)  which  unconformably  overlies  the  Birimian. It  is  therefore  suggested  that  the  slump,  olistostrome,  turbidite,  siltstone-greywacke  and  greywacke  sediments of the FE3 opencasts were derived from the erosion of the Birimian terrane. 5.2 Gold bearing breccias and veins  The  structures  that  host  mineralisation  in  the  region  are  breccia  and  quartz-arsenopyrite  veins that crosscut the stratigraphy, which implies that gold mineralisation is younger than  the  sedimentary  units. The  mineralised  breccias  (and  associated  alteration,  Fig. 21)  occur  around contact aureole of the granodiorite. This may imply that the mineralisation is related  to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by  Hein and Tshibubudze (2007b).<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 40<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c51dd49071a58b8015429b3b287f7d10.setContent(html_080e4c5444ec770e27ade2f617599927);
+            
+        
+
+        circle_marker_d544c7d90c3db1bb8adc88ba1161083d.bindPopup(popup_c51dd49071a58b8015429b3b287f7d10)
+        ;
+
+        
+    
+    
+            circle_marker_d544c7d90c3db1bb8adc88ba1161083d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_48af9766eeb9a9cf908fed9468f762a2 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_281bf508e7be67e138339b61df4ae469 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1f78dc80930650017c72814cdf6639d9 = $(`<div id="html_1f78dc80930650017c72814cdf6639d9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Also the tectonic setting and the relative timing of  gold mineralization will be determined. Determining the relative timing of gold mineralization  will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola  area. 1.2 Location and physiography  The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield  is located 80 km west of the capital city of Bamako on the western border of Senegal and  Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert. || Also the tectonic setting and the relative timing of  gold mineralization will be determined. Determining the relative timing of gold mineralization  will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola  area. 1.2 Location and physiography  The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield  is located 80 km west of the capital city of Bamako on the western border of Senegal and  Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert. || Chapter 1: Introduction  1.1 Preamble  The FE3 open cast is situated in the Sadiola goldfield in Mali. The goldfield also includes the  giant Sadiola and FE4 open casts which are mined by the Société d’Exploitation des Mines  d’Or  de  Sadiola  S.A.,  and  is  a  Joint  Venture  partnership  between  AngloGold  Ashanti,  IAMGOLD, the Malian Government and the IFC. Gold production at Sadiola goldfield began  in mid-1997: the FE3 open cast is currently in the feasibility stages. The  geology  and  metallogenic  setting  of  the  FE3  open  cast  has  not  been  investigated,  mapped  or  researched  to  date. Therefore  the  relationship  between  the  stratigraphy,  structures  and  intrusive  rocks  is  not  known,  but  it  is  considered  by  Sadiola  mine  geology  team to be important in determining the tectonic setting and the timing of gold mineralization  in the goldfield. Therefore  the  main  objective  of  this  study  is  to  describe  the  stratigraphy,  structure  and  intrusive rocks that occur in the goldfield. || Figure1: Locality map of Sadiola goldfield (modified from Robins, 2006). Legend                   : Escarpment         mines          mines  0 km 100 200 9 || The  climate ranges from sub-tropical in the south to arid in the north. The country is mostly dry,  but  in  the  south  of  the  country,  and  at  the  Sadiola  goldfield,  4-5  months  of  rainy  season  significantly  affects  mining  operations. December  and  January  are  the  driest  and  coldest  months of the year with zero rainfall, and temperature ranging from 16°C to 33°C. The field component of this study took place in January 2008 before the rainy season started  and  temperatures  peaked. During  the  dry  season  a  dry,  dust-laden  harmattan  haze  is  common and this reduces visibility. Mali’s official language is French but African languages are widely used; 80% of population  speaks  Bambara. || The quartz and plagioclase  crystals  are  subhedral  while  biotite  grains  are  anhedral. The  granodiorite  is  medium- crystalline  and  extensively  altered  (Fig. 12). In  places  the  dykes  have  been  heavily  weathered leaving a potassium-feldspar-rich residue. The dykes are interpreted to connect  with  the  Sekokoto  pluton  (Fig. 13),  at  depth  because  the  pluton  underlies  the  Sadiola  goldfield  (Hein  and  Tshibubudze,  2007a)  as  determined  from  aeromagnetic  data  of  the  Kenieba Inlier (north sun angle).<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 22,7,9,7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_281bf508e7be67e138339b61df4ae469.setContent(html_1f78dc80930650017c72814cdf6639d9);
+            
+        
+
+        circle_marker_48af9766eeb9a9cf908fed9468f762a2.bindPopup(popup_281bf508e7be67e138339b61df4ae469)
+        ;
+
+        
+    
+    
+            circle_marker_48af9766eeb9a9cf908fed9468f762a2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_05340f8caa3ca78f1303e07925608882 = L.circleMarker(
+                [13.889906, -11.6983648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_3ece9b8412f4ea6cc116d606da34a247 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1860665ced114e0792dced8f882fb5a3 = $(`<div id="html_1860665ced114e0792dced8f882fb5a3" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Figure 3: Simplified geology of the Kéniéba Inlier (Dioh et al., 2006)  Sadiola mine 17 || Figure 4: Structural map of the Kéniéba Inlier (modified after Ledru et al., 1991). 1 = transcurrent fault; 2 = reverse fault; 3 = trace of stratificationin B2 (a=normal position, b=  reverse position); 4=trace of schistosity 1 in Bl; 5=trace of schistosity 2; 6=planarfabric in the  granites; 7=stretching lineation; 8=linear fabric in the granites; MTZ=Main Transcurrent Zone;  SMF= Senegalese-Malian Fault. Sadiola mine 18<br><b>Geocode:</b> SADIOLA MINE [1er C]ycle, RN21, Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 17,18<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_3ece9b8412f4ea6cc116d606da34a247.setContent(html_1860665ced114e0792dced8f882fb5a3);
+            
+        
+
+        circle_marker_05340f8caa3ca78f1303e07925608882.bindPopup(popup_3ece9b8412f4ea6cc116d606da34a247)
+        ;
+
+        
+    
+    
+            circle_marker_05340f8caa3ca78f1303e07925608882.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df16df6717b2e56f7e36c8a2b5b91e21 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_9fd4500112918df59c16c307b732a522 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b6847472865dab3a2fd8d25e8daa4e3c = $(`<div id="html_b6847472865dab3a2fd8d25e8daa4e3c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> and  as  a  result  the  fluid  trapped  in  the  sediments  is  squeezed  through  the  pore  space  network (Lowe, 1975). Fluid escapes by percolating upwards through the sediments and the  vein  network  represents  the  pathways  along  which  the  fluid  movement  occurred  (Lowe,  1975). Therefore, it may also be possible that the fluid escape structures formed in a gravity- induced slump environment. The contact between the upper slump facies and the greywacke unit represents a change in  depositional environment. Because of limited outcrop exposure and deep weathering it is not  well  exposed  but  must  represent  an  unconformity  (sensu  stricto). In  the  nearby  Sadiola  opencast (6 kms west) the greywacke unit is massive, laminated and crossbedded (Hein et  al..,  2008),  with  no  evidence  of  slump  or  debris  flows.<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 39<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9fd4500112918df59c16c307b732a522.setContent(html_b6847472865dab3a2fd8d25e8daa4e3c);
+            
+        
+
+        circle_marker_df16df6717b2e56f7e36c8a2b5b91e21.bindPopup(popup_9fd4500112918df59c16c307b732a522)
+        ;
+
+        
+    
+    
+            circle_marker_df16df6717b2e56f7e36c8a2b5b91e21.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e4c3f7399a233788ecf16ae94026a3fe = L.circleMarker(
+                [13.2339278, -10.687269],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_23696b5ae2310d03c70189098001d5bf = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ff93c47a5dea3bbc9560cb9f7dfcf42d = $(`<div id="html_ff93c47a5dea3bbc9560cb9f7dfcf42d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The quartz and plagioclase  crystals  are  subhedral  while  biotite  grains  are  anhedral. The  granodiorite  is  medium- crystalline  and  extensively  altered  (Fig. 12). In  places  the  dykes  have  been  heavily  weathered leaving a potassium-feldspar-rich residue. The dykes are interpreted to connect  with  the  Sekokoto  pluton  (Fig. 13),  at  depth  because  the  pluton  underlies  the  Sadiola  goldfield  (Hein  and  Tshibubudze,  2007a)  as  determined  from  aeromagnetic  data  of  the  Kenieba Inlier (north sun angle).<br><b>Geocode:</b> Sekokoto, Bafoulabé Cercle, Kayes, Mali<br><b>Pages:</b> 22<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_23696b5ae2310d03c70189098001d5bf.setContent(html_ff93c47a5dea3bbc9560cb9f7dfcf42d);
+            
+        
+
+        circle_marker_e4c3f7399a233788ecf16ae94026a3fe.bindPopup(popup_23696b5ae2310d03c70189098001d5bf)
+        ;
+
+        
+    
+    
+            circle_marker_e4c3f7399a233788ecf16ae94026a3fe.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a93938a8ed5a1cfc4c2fe8c8b36f2a6d = L.circleMarker(
+                [14.4750607, -14.4529612],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_4999ef1c12169ae57823e9655d13a96d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_989c5787a797f1875ba1ff7bf87b8baf = $(`<div id="html_989c5787a797f1875ba1ff7bf87b8baf" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Also the tectonic setting and the relative timing of  gold mineralization will be determined. Determining the relative timing of gold mineralization  will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola  area. 1.2 Location and physiography  The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield  is located 80 km west of the capital city of Bamako on the western border of Senegal and  Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert.<br><b>Geocode:</b> Senegal<br><b>Pages:</b> 7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4999ef1c12169ae57823e9655d13a96d.setContent(html_989c5787a797f1875ba1ff7bf87b8baf);
+            
+        
+
+        circle_marker_a93938a8ed5a1cfc4c2fe8c8b36f2a6d.bindPopup(popup_4999ef1c12169ae57823e9655d13a96d)
+        ;
+
+        
+    
+    
+            circle_marker_a93938a8ed5a1cfc4c2fe8c8b36f2a6d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd23786640ed317d94976a5357298d66 = L.circleMarker(
+                [42.4365949, -71.5050009],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_c68155282a44b1eb8379acc533861aff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5083dc7ad610ff3f016cf3bded1921ef = $(`<div id="html_5083dc7ad610ff3f016cf3bded1921ef" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 5 Discussion  5.1 Depositional Environment  Slumps  characterise  the  lower  and  upper  slump  facies. A  slump  is  a  mass-transported  debris  flow  (Martinsen,  1994;  Shanmugam,  2000)  along  the  edge  of  a  continental  margin. They are a downslope movement of sediment and rock material above a basal shear surface  where  there  is  significant  internal  distortion  of  the  bedding  (Stow,  1986). Slump  structures  form  when  the  sedimentary  pile  abruptly  detaches  from  a  slope  and  is  transported  downslope (Collinson et al., 1991). A sediment pile will transport downslope when the shear  stress acting within a body of sediment exceeds the shear strength along the slope surface  (Dingle, 1980). The sedimentary pile deforms internally (intensely), and produces a variety of  deformation  structures  such  as  folds,  boudins,  and  micro-faults  (Martinsen,  1994),  all  of  which are observed in the study area (Fig.<br><b>Geocode:</b> Stow, Middlesex County, Massachusetts, 01775, United States<br><b>Pages:</b> 37<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c68155282a44b1eb8379acc533861aff.setContent(html_5083dc7ad610ff3f016cf3bded1921ef);
+            
+        
+
+        circle_marker_dd23786640ed317d94976a5357298d66.bindPopup(popup_c68155282a44b1eb8379acc533861aff)
+        ;
+
+        
+    
+    
+            circle_marker_dd23786640ed317d94976a5357298d66.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0b45834baf2c740de9fc8725ea9b8f6 = L.circleMarker(
+                [49.9447973, 7.7763627],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_44dc7249da2dfc88e2deff0d6fffc826 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4cedc8e8c6901d70e9767f453d4b88e8 = $(`<div id="html_4cedc8e8c6901d70e9767f453d4b88e8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> An  olistostrome  (composed  of  olistoliths)  is  defined  as  a  sedimentary  body  of  lithological  heterogeneous  material  in  which  the  fine-grained  matrix  supports  the  clasts  (olistoliths). They can result from sliding and debris flow on the edge of the continental margin (Maltman,  1994; Naylor, 1981). Olistotromes are recorded in Italy and the Niger Delta where slumping  and  debris  flow  occur  along  the  passive  continental  margin  (Naylor,  1982;  Damuth,  1993). This  suggests  that  the  olistostrome  were  formed  along  a  continental  margin  where  debris  flow and mass transportation displaced blocks and rock material downslope. The  mudstone  dykes  in  the  upper  slump  facies  are  similar  to  the  fluid  escape  structures  described  by  Lowe  (1975),  Stromberg,  (1998)  and  Montenat  et  al. (2007)  who  interpreted  mudstone  and  carbonate  dykes  as  injection  dykes  (Fig.<br><b>Geocode:</b> Stromberg, Langenlonsheim-Stromberg, Landkreis Bad Kreuznach, Rhineland-Palatinate, 55442, Germany<br><b>Pages:</b> 38<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_44dc7249da2dfc88e2deff0d6fffc826.setContent(html_4cedc8e8c6901d70e9767f453d4b88e8);
+            
+        
+
+        circle_marker_c0b45834baf2c740de9fc8725ea9b8f6.bindPopup(popup_44dc7249da2dfc88e2deff0d6fffc826)
+        ;
+
+        
+    
+    
+            circle_marker_c0b45834baf2c740de9fc8725ea9b8f6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0488905f6fb75041debfc8cb96f766f5 = L.circleMarker(
+                [21.9170588, -6.3578906],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_3b1773a7c8d8042886f54322b48c6694 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_68238dade8893b60bf9c7a843aa12d15 = $(`<div id="html_68238dade8893b60bf9c7a843aa12d15" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Regional geology  2.1 Preamble  The West African craton has been divided into four major domains; the Reguibat Rise, the  Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et  al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin  which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains  consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal  et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic  terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé  Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.<br><b>Geocode:</b> Taoudeni Basin, Hodh Ech Chargui, Mauritania<br><b>Pages:</b> 10<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_3b1773a7c8d8042886f54322b48c6694.setContent(html_68238dade8893b60bf9c7a843aa12d15);
+            
+        
+
+        circle_marker_0488905f6fb75041debfc8cb96f766f5.bindPopup(popup_3b1773a7c8d8042886f54322b48c6694)
+        ;
+
+        
+    
+    
+            circle_marker_0488905f6fb75041debfc8cb96f766f5.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_18d7fa62ef8b530f31955985a10ddeaa = L.circleMarker(
+                [5.310935, -1.992426],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_7fba94e8b8e1be512ec842d17313e601 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2a8f504da174210883ab248820e18604 = $(`<div id="html_2a8f504da174210883ab248820e18604" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> mineralization  in  disseminated  sulphides  in  volcanic  and  plutonic  rocks  and  gold  mineralization in conglomerate beds (Milési et al., 1992). These types of deposits have been  reported  in  Burkina  Faso  (Diénémera),  Ghana  (Tarkwa  district),  Mali  (Syama),  and  Ivory  Coast (Yaouré-Angovia) (Milési et al., 1992; Feybesse et al., 2006). Syn-orogenic deposits  are related to brecciated hydrothermal zones. Late  orogenic  discordant  mesothermal  gold  mineralisation  includes  gold-arsenopyrite  lode  mineralization  and  quartz  lode  mineralization  with  native  gold  and  poly-metallic  sulphides  (Béziat  et  al.,  2008). Discordant  mesothermal  mineralization  (auriferous  arsenopyrite  and  Au-bearing  quartz  vein  lodes)  are  reported  in  Ghana  (Ashanti,  Pretea,  Marlu,  Bogosu,  Konongo), Ivory Coast (Asupiri and Anuiri) and Mali (Sanoukou district) (Milési et al., 1992). Gold mineralization occurs within NE-trending tectonic corridors that are several kilometres  long (Ledru et al., 1988 in Milési et al., 1992; Feybesse et al., 2006).<br><b>Geocode:</b> Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7fba94e8b8e1be512ec842d17313e601.setContent(html_2a8f504da174210883ab248820e18604);
+            
+        
+
+        circle_marker_18d7fa62ef8b530f31955985a10ddeaa.bindPopup(popup_7fba94e8b8e1be512ec842d17313e601)
+        ;
+
+        
+    
+    
+            circle_marker_18d7fa62ef8b530f31955985a10ddeaa.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c10e13c769ce589410e7167d0bc99dbb = L.circleMarker(
+                [5.2260678, -2.0158312],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_d55a1656d39f8b0956b1a925641c58cf = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_120889e910608ba3684431184be61d76 = $(`<div id="html_120889e910608ba3684431184be61d76" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> There  is  a  considerable  difference  between  the  ages  given  for  the  Birimian  sequences of the West African craton and those of the Kenieba Inlier as indicated in Fig 22  and accord better, but are still younger, than those of the Tarkwa Group (2149-2132 Ma; U- Pb  zircon,  Davis  et  al.,  1994)  which  unconformably  overlies  the  Birimian. It  is  therefore  suggested  that  the  slump,  olistostrome,  turbidite,  siltstone-greywacke  and  greywacke  sediments of the FE3 opencasts were derived from the erosion of the Birimian terrane. 5.2 Gold bearing breccias and veins  The  structures  that  host  mineralisation  in  the  region  are  breccia  and  quartz-arsenopyrite  veins that crosscut the stratigraphy, which implies that gold mineralisation is younger than  the  sedimentary  units. The  mineralised  breccias  (and  associated  alteration,  Fig. 21)  occur  around contact aureole of the granodiorite. This may imply that the mineralisation is related  to the intrusion of the granodiorite as has been established in the nearby Sadiola deposit by  Hein and Tshibubudze (2007b).<br><b>Geocode:</b> NEZO Group, WT 0819-2439, IR6, Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, 00233, Ghana<br><b>Pages:</b> 40<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d55a1656d39f8b0956b1a925641c58cf.setContent(html_120889e910608ba3684431184be61d76);
+            
+        
+
+        circle_marker_c10e13c769ce589410e7167d0bc99dbb.bindPopup(popup_d55a1656d39f8b0956b1a925641c58cf)
+        ;
+
+        
+    
+    
+            circle_marker_c10e13c769ce589410e7167d0bc99dbb.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd8560d105ba95fcb4c13c85a648a353 = L.circleMarker(
+                [48.6898242, 4.7330751],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_d033ce6e0862b762c1174ba637b00898 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_97780f471bdb3d0edd606192df59a176 = $(`<div id="html_97780f471bdb3d0edd606192df59a176" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chapter 2: Regional geology  2.1 Preamble  The West African craton has been divided into four major domains; the Reguibat Rise, the  Leo-Man Rise, the Kayes Inlier and the Kéniéba Inlier (Liégeois et al., 1991; Thiéblemont et  al.,  2004;  Dioh  et  al.,  2006)  (Fig. 2). The  domains  are  separated  by  the  Taoudeni  basin  which  is  Phanerozoic  in  age  (Dioh  et  al.,  2006). The  Reguibat  and  the  Leo-Man  domains  consist of an Archaean terrain in the west and a Palaeoproterozoic terrain in the east (Egal  et al., 2002; Gueye et al., 2008). The Kéniéba and the Kayes Inliers are Palaeoproterozoic  terrains (Liégeois et al., 1991) and the study area is situated in the Kéniéba Inlier in Mali. The  Kéniéba  Inlier  has  been  divided  into  the  Mako  Supergroup,  the  Dialé-Dalemé  Supergroup,  Falemé  volcanic  belt  and  the  Kofi  Series  (Hirdes  et  al.,  2002)  (Fig.<br><b>Geocode:</b> Thiéblemont-Farémont, Vitry-le-François, Marne, Grand Est, Metropolitan France, 51300, France<br><b>Pages:</b> 10<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d033ce6e0862b762c1174ba637b00898.setContent(html_97780f471bdb3d0edd606192df59a176);
+            
+        
+
+        circle_marker_dd8560d105ba95fcb4c13c85a648a353.bindPopup(popup_d033ce6e0862b762c1174ba637b00898)
+        ;
+
+        
+    
+    
+            circle_marker_dd8560d105ba95fcb4c13c85a648a353.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bb20b078414e710a3620928f4b702ab6 = L.circleMarker(
+                [47.3138746, 5.0488196],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_387b81333019014081c602e04473ed4e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7569006376e696c31eadac90d7ea90bd = $(`<div id="html_7569006376e696c31eadac90d7ea90bd" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Also the tectonic setting and the relative timing of  gold mineralization will be determined. Determining the relative timing of gold mineralization  will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola  area. 1.2 Location and physiography  The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield  is located 80 km west of the capital city of Bamako on the western border of Senegal and  Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert. || Also the tectonic setting and the relative timing of  gold mineralization will be determined. Determining the relative timing of gold mineralization  will  assist  in  predicting  the  occurrence  of  gold  in  new  exploration  projects  in  the  Sadiola  area. 1.2 Location and physiography  The FE3 open cast is located in the Sadiola area in Mali, West Africa. The Sadiola goldfield  is located 80 km west of the capital city of Bamako on the western border of Senegal and  Mali  (Fig. 1). Mali  is  a  landlocked,  Sahel  country  and  is  mostly  semi-desert  or  desert. || In the 16th century, the Gold Coast of West  Africa accounted for 35% of the entire world’s gold production although gold production had  decreased  significantly  since  that  time  (Béziat  et  al.,  2008). Major  gold  deposits  occur  in  Ghana, Burkina Faso and Mali. The Ghanaian gold province is the largest in West Africa and  is considered a world-class gold deposit region (Komla, 1993). Ghana and Mali are currently  the second and third largest gold producers in Africa, respectively (Middleton, 2007). Three  types  of  primary  deposit  have  been  distinguished  in  West  Africa;  pre-orogenic  stratiform  deposits;  syn-orogenic  deposits;  late-orogenic  discordant  mesothermal  gold  mineralization  (Milési  et  al.,  1992). Pre-orogenic  stratiform  deposits  have  been  reported  in  the  Loulo  district  of  Mali,  which  hosts  tourmalinised  turbidite.<br><b>Geocode:</b> West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France<br><b>Pages:</b> 13,7,7<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_387b81333019014081c602e04473ed4e.setContent(html_7569006376e696c31eadac90d7ea90bd);
+            
+        
+
+        circle_marker_bb20b078414e710a3620928f4b702ab6.bindPopup(popup_387b81333019014081c602e04473ed4e)
+        ;
+
+        
+    
+    
+            circle_marker_bb20b078414e710a3620928f4b702ab6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f20e00686fb478b638572934ff1f7b65 = L.circleMarker(
+                [34.1667992, 131.2062283],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_fbf7149917f0ba6b388a3c57ae010ae3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2788d7a8cd66ca9ad5a82ef6fb1eb537 = $(`<div id="html_2788d7a8cd66ca9ad5a82ef6fb1eb537" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Core- logs were completed at the mine site. Appropriate  locations  in the  field  and  selected drill-core,  were  sampled. The  samples  were  labelled, bagged and then sent by air freight to the university. At the university the samples  were  catalogued  and  sent  to  the  SGS  laboratories  in  Booysen,  Johannesburg  for  lapidary. These thin sections were studied under refracted light and reflected light microscopy. 19<br><b>Geocode:</b> Mine, Yamaguchi Prefecture, Japan<br><b>Pages:</b> 19<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fbf7149917f0ba6b388a3c57ae010ae3.setContent(html_2788d7a8cd66ca9ad5a82ef6fb1eb537);
+            
+        
+
+        circle_marker_f20e00686fb478b638572934ff1f7b65.bindPopup(popup_fbf7149917f0ba6b388a3c57ae010ae3)
+        ;
+
+        
+    
+    
+            circle_marker_f20e00686fb478b638572934ff1f7b65.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_81e3241d4315cd6ec36a63b0fd425592 = L.circleMarker(
+                [42.3134976, -71.1501556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_c232272be495293a8398f25ee63dbb81);
+        
+    
+        var popup_c5fc8646e1dd0acedd5c5c941b430590 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_addc11096ccd14c02e6d42e9bf04cd03 = $(`<div id="html_addc11096ccd14c02e6d42e9bf04cd03" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  climate ranges from sub-tropical in the south to arid in the north. The country is mostly dry,  but  in  the  south  of  the  country,  and  at  the  Sadiola  goldfield,  4-5  months  of  rainy  season  significantly  affects  mining  operations. December  and  January  are  the  driest  and  coldest  months of the year with zero rainfall, and temperature ranging from 16°C to 33°C. The field component of this study took place in January 2008 before the rainy season started  and  temperatures  peaked. During  the  dry  season  a  dry,  dust-laden  harmattan  haze  is  common and this reduces visibility. Mali’s official language is French but African languages are widely used; 80% of population  speaks  Bambara.<br><b>Geocode:</b> The Country Club, 191, Clyde Street, Buttonwood Village, South Brookline, Brookline, Norfolk County, Massachusetts, 02467, United States<br><b>Pages:</b> 7<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c5fc8646e1dd0acedd5c5c941b430590.setContent(html_addc11096ccd14c02e6d42e9bf04cd03);
+            
+        
+
+        circle_marker_81e3241d4315cd6ec36a63b0fd425592.bindPopup(popup_c5fc8646e1dd0acedd5c5c941b430590)
+        ;
+
+        
+    
+    
+            circle_marker_81e3241d4315cd6ec36a63b0fd425592.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

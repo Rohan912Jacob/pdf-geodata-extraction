@@ -1,0 +1,2725 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_238f3c9cfd3c31263ff48814811329e4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+                background: white; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+      <div style="font-weight: 600; margin-bottom: 6px;">Legend (location_type)</div>
+    
+          <div><span style="display:inline-block;width:12px;height:12px;background:blue;
+                             margin-right:6px;border-radius:50%;"></span>PLACE</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:green;
+                             margin-right:6px;border-radius:50%;"></span>GEOLOGICAL_UNIT</div>
+        
+          <div><span style="display:inline-block;width:12px;height:12px;background:red;
+                             margin-right:6px;border-radius:50%;"></span>APPROXIMATE</div>
+        
+      <div style="margin-top:6px;"><i>Transparency: solid = exact, faint = approximate</i></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_238f3c9cfd3c31263ff48814811329e4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_238f3c9cfd3c31263ff48814811329e4 = L.map(
+                "map_238f3c9cfd3c31263ff48814811329e4",
+                {
+                    center: [35.39167334936709, -9.19739244177215],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_379ff0de5e42f43385eba92efd07814b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_379ff0de5e42f43385eba92efd07814b.addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+            var circle_marker_7af3c014c5eba9d1a93082ac5ede6b91 = L.circleMarker(
+                [52.3730796, 4.8924534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_eadbce5ac76d0fbbb32d1c9f84b49d6a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_62fc1b21911cfb00f755afb4f9b89ef5 = $(`<div id="html_62fc1b21911cfb00f755afb4f9b89ef5" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Bouma,  A. H.,  (1962). Sedimentology  of  some  flysch  deposits:  A  graphic  approach  to  facies interpretation, Elsevier, Amsterdam, 168pp. 51<br><b>Geocode:</b> Amsterdam, North Holland, Netherlands<br><b>Pages:</b> 52<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_eadbce5ac76d0fbbb32d1c9f84b49d6a.setContent(html_62fc1b21911cfb00f755afb4f9b89ef5);
+            
+        
+
+        circle_marker_7af3c014c5eba9d1a93082ac5ede6b91.bindPopup(popup_eadbce5ac76d0fbbb32d1c9f84b49d6a)
+        ;
+
+        
+    
+    
+            circle_marker_7af3c014c5eba9d1a93082ac5ede6b91.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ad7876b8f3056e6493f029836403c317 = L.circleMarker(
+                [6.8003319, -1.5188142],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_ba47851f31031f5c319dad6cc65fb280 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fb90d6146daecdb4196805651ee77f5d = $(`<div id="html_fb90d6146daecdb4196805651ee77f5d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> P.,  (2007). Geological and thermal conditions before the major Palaeoproterozoic goldmineralization  event  at  Ashanti,  Ghana,  as  inferred  from  improved  thermal  modelling. Precambrian  Research, 154, 71–87. Hein, K. A. A., (2003).<br><b>Geocode:</b> Ashanti Region, Ghana<br><b>Pages:</b> 54<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ba47851f31031f5c319dad6cc65fb280.setContent(html_fb90d6146daecdb4196805651ee77f5d);
+            
+        
+
+        circle_marker_ad7876b8f3056e6493f029836403c317.bindPopup(popup_ba47851f31031f5c319dad6cc65fb280)
+        ;
+
+        
+    
+    
+            circle_marker_ad7876b8f3056e6493f029836403c317.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b52541c44552fca21f77e8e056bc6f60 = L.circleMarker(
+                [60.3943055, 5.3259192],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_3a9306194b0fdde1bff789a52d51a41d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9ed5134371946dd3413264000f01a1b9 = $(`<div id="html_9ed5134371946dd3413264000f01a1b9" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> J., (2005). Sedimentary architecture  of a Plio-Pleistocene proto-back-arc basin: Wanganui Basin, New Zealand. Sedimentary  Geology, 181, 107-145. Ravanas,  R.,  (1991). A  sedimentological,  geochemical  and  provenance  study  of  the  Kalvag  Melange,  western  Norwegian  Caledonides,  Thesis  (unpublished). University  of  Bergen, 212 pp.<br><b>Geocode:</b> Bergen, Vestland, Norway<br><b>Pages:</b> 57<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_3a9306194b0fdde1bff789a52d51a41d.setContent(html_9ed5134371946dd3413264000f01a1b9);
+            
+        
+
+        circle_marker_b52541c44552fca21f77e8e056bc6f60.bindPopup(popup_3a9306194b0fdde1bff789a52d51a41d)
+        ;
+
+        
+    
+    
+            circle_marker_b52541c44552fca21f77e8e056bc6f60.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_407e806c91c9196105b152ec713a994a = L.circleMarker(
+                [12.3577874, -1.546602],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_63df5731f933be83f01fa5fde326022a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2110cd7982fd88cc0ce8a82d0964c2b8 = $(`<div id="html_2110cd7982fd88cc0ce8a82d0964c2b8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Principles of Sedimentology and stratigraphy: Fourth Edition, Pearson  Prentice Hall, New Jersey, 662 pp. Bossiere,  G.,  Bonkoungou,  I.,  Peucat,  J. J.,  Pupin,  J. P.,  (1996). Origin  and  age  of  Palaeoproterozoic  conglomerates  and  sandstones  of  the  Tarkwaian  Group  in  Burkina  Faso, West Africa. Precambrian Research, 80, 153-172.<br><b>Geocode:</b> Société Bonkoungou, Rue 9.95, Gounghin Sud, Ouagadougou, Kadiogo, Centre, Burkina Faso<br><b>Pages:</b> 52<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_63df5731f933be83f01fa5fde326022a.setContent(html_2110cd7982fd88cc0ce8a82d0964c2b8);
+            
+        
+
+        circle_marker_407e806c91c9196105b152ec713a994a.bindPopup(popup_63df5731f933be83f01fa5fde326022a)
+        ;
+
+        
+    
+    
+            circle_marker_407e806c91c9196105b152ec713a994a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_32d9456b64ea99a32b75d078d901fa56 = L.circleMarker(
+                [40.0149856, -105.270545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_4c0653b29bed1af30afe315fa3580095 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_03b4041f163ddc48c887fa0ebe6544f0 = $(`<div id="html_03b4041f163ddc48c887fa0ebe6544f0" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> This type  of  alteration  is  common  and  can  affect  mafic  to  felsic  rocks  during  crystallisation. An  example  where  deuteric  alteration  affects  quartz  monzonites,  similar  in  composition  to  the  dykes  of  the  field  area,  is  from  the  Boulder  Batholith  in  Montana,  USA. In  this  case,  the  alteration is related to the formation of ore deposits hosted within the intrusion (Neuerburg,  1958). 27<br><b>Geocode:</b> Boulder, Boulder County, Colorado, United States<br><b>Pages:</b> 28<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4c0653b29bed1af30afe315fa3580095.setContent(html_03b4041f163ddc48c887fa0ebe6544f0);
+            
+        
+
+        circle_marker_32d9456b64ea99a32b75d078d901fa56.bindPopup(popup_4c0653b29bed1af30afe315fa3580095)
+        ;
+
+        
+    
+    
+            circle_marker_32d9456b64ea99a32b75d078d901fa56.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6bb1c3b8c38943bd103677905f6b7125 = L.circleMarker(
+                [35.7270403, -81.6632108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_36663b7ebb8ed5387611068b4b796119 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ed78b2c43ff770e6f19a71165ed27fcf = $(`<div id="html_ed78b2c43ff770e6f19a71165ed27fcf" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Burke, K., Gunnell, Y., (2008). The African erosion surface: a continental-scale synthesis  of  geomorphology, tectonics, and environmental change over the past 180 million years. Published by Geological Society of America, 34-40. Carter,  R. M. and  Naish,  T.<br><b>Geocode:</b> Burke County, North Carolina, United States<br><b>Pages:</b> 53<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_36663b7ebb8ed5387611068b4b796119.setContent(html_ed78b2c43ff770e6f19a71165ed27fcf);
+            
+        
+
+        circle_marker_6bb1c3b8c38943bd103677905f6b7125.bindPopup(popup_36663b7ebb8ed5387611068b4b796119)
+        ;
+
+        
+    
+    
+            circle_marker_6bb1c3b8c38943bd103677905f6b7125.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d0c39823b29adc623b8c4d932da8508f = L.circleMarker(
+                [37.28504, -120.3235097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_66ec5efe8fc41d0ab8fab7170fc2990c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_30f846170e95c916886994dc722860d4 = $(`<div id="html_30f846170e95c916886994dc722860d4" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> P., Johan, V., Tegyey, M., Calvez, J. Y., Lagny, P.,  (1989). West  African  gold  deposits,  in  their  lower  Proterozoic  lithostructural  setting. Chronique de la Recherche Miniere, 497, 3–98. Milesi,  J.P.,  Ledru,  P.,  Ankrah,  P.,  Johan,  V.,  Marcoux,  E.,  Vinchon,  C.,  (1991). The  metallogenic  relationship  between  Birimian  and  Tarkwaian  gold  deposits  in  Ghana.<br><b>Geocode:</b> Calvez, Planada, Merced County, California, 95365, United States<br><b>Pages:</b> 56<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_66ec5efe8fc41d0ab8fab7170fc2990c.setContent(html_30f846170e95c916886994dc722860d4);
+            
+        
+
+        circle_marker_d0c39823b29adc623b8c4d932da8508f.bindPopup(popup_66ec5efe8fc41d0ab8fab7170fc2990c)
+        ;
+
+        
+    
+    
+            circle_marker_d0c39823b29adc623b8c4d932da8508f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_919223f22b8d9efc8bc1baaf358e0d6c = L.circleMarker(
+                [52.2055314, 0.1186637],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_e043cf88b7d9238397e497d03e56f538 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_94bc5f04ba56447f4a6f12dddb4537a8 = $(`<div id="html_94bc5f04ba56447f4a6f12dddb4537a8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 12.0. References   Albarede,  F.,  (2003). Geochemistry:  An  Introduction. Cambridge  University  Press,  Cambridge, 248 pp. Anders,  E.,  and  Grevesse,  N.,  (1989). Abundances  of  the  elements:  Meteoric  and  solar.<br><b>Geocode:</b> Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, United Kingdom<br><b>Pages:</b> 52<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e043cf88b7d9238397e497d03e56f538.setContent(html_94bc5f04ba56447f4a6f12dddb4537a8);
+            
+        
+
+        circle_marker_919223f22b8d9efc8bc1baaf358e0d6c.bindPopup(popup_e043cf88b7d9238397e497d03e56f538)
+        ;
+
+        
+    
+    
+            circle_marker_919223f22b8d9efc8bc1baaf358e0d6c.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_90d90fce86947cd23c40b24c5f1a3eef = L.circleMarker(
+                [50.2306216, 12.8701437],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_9da38ee8bb0ab39fa2d2d10cb8407909 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_382c8a1ef3f57e315e7eda802552e2f8 = $(`<div id="html_382c8a1ef3f57e315e7eda802552e2f8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> the influence of gravity and makes up part of the Bouma Cycle (Bouma, 1962). In the field  area,  the  bottom  layers  of  the  cycle  was  seen;  (1)  massive  and  graded;  (2)  plane  parallel  laminae and (3) ripples, wavy or convoluted laminae (Bouma, 1962; Shanmugam, 1997). There is a variable amount of orthoclase in most samples, (modal abundance ranging from 2- 15%)  as  shown  by  very  prominent  Carlsbad  twinning  and  the  typical  smoky  grey  to  white  colourations. Granophyric  texture  in  some  clasts  provided  evidence  of  simultaneous  rapid  growth  of  quartz  and  alkali  feldspars  in  the  source  rock  region  (Barker,  1970). Perthitic  textures  were  also  evident  in  some  clasts  indicating  that  the  clast  source  region  underwent  exsolution between plagioclase and K-feldspars (Nesse, 2000). Clinopyroxene was present in  most of the samples in a relatively high abundance of 5-10%.<br><b>Geocode:</b> Karlovy Vary, okres Karlovy Vary, Karlovy Vary Region, Northwest, Czechia<br><b>Pages:</b> 22<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9da38ee8bb0ab39fa2d2d10cb8407909.setContent(html_382c8a1ef3f57e315e7eda802552e2f8);
+            
+        
+
+        circle_marker_90d90fce86947cd23c40b24c5f1a3eef.bindPopup(popup_9da38ee8bb0ab39fa2d2d10cb8407909)
+        ;
+
+        
+    
+    
+            circle_marker_90d90fce86947cd23c40b24c5f1a3eef.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b50f51d04172a3e333521e00dea654b4 = L.circleMarker(
+                [32.4409611, -111.0723111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_cf913ccddce4a9060e781f00f06391d3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ffcc3089cf04985778fe7d8d180286c8 = $(`<div id="html_ffcc3089cf04985778fe7d8d180286c8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In: Pankhurst,  R.J., Trouw, R.A.J., Britto Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre- Cenozoic correlations across the South-Atlantic region, Geological Society, London,  137–151 (Special Publications). Le Maitre, R.W., Bateman, P., Dudek, A., Keller, J., Lameyre, J., Le Bas, M. J., Sabine,  P. A., Schmid, R., Sorensen, H., Streckeisen, A., Woolley, A. R.,  Zanettin, B., (1989).<br><b>Geocode:</b> North Cenozoic Drive, Marana, Pima County, Arizona, United States<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_cf913ccddce4a9060e781f00f06391d3.setContent(html_ffcc3089cf04985778fe7d8d180286c8);
+            
+        
+
+        circle_marker_b50f51d04172a3e333521e00dea654b4.bindPopup(popup_cf913ccddce4a9060e781f00f06391d3)
+        ;
+
+        
+    
+    
+            circle_marker_b50f51d04172a3e333521e00dea654b4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bf6b7f2b08eea8b303c06c2e6327926 = L.circleMarker(
+                [33.9458693, -83.3557816],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_997107ace9d7585bf89e06a499a12a9d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e83475384d9dee56f771f8ff93749999 = $(`<div id="html_e83475384d9dee56f771f8ff93749999" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area  and  the  OGGB  do  not  exhibit  the  correct  criteria  for  large-scale  contact  metamorphism. One  would  expect  to  see  a  prominent  zonation  to  an  igneous  mass. In  the  case  of  the  Pine  Creek  Inlier,  a  zonation  from  hornfels  to  greenschist  is  mappable,  with  a  definable  biotite  isograd  (Hein,  2003). Burial  metamorphism  is  an  active  process  which  would  have  involved  basin  subsidence  and  a  resulting  increase  in  the  geothermal  gradient. There  would  be  an  increase  in  pressure  and  temperature  as  well  as  the  development  of  bedding parallel cleavage at depth (Vernon and Clarke, 2008). Cleavage is not present in the  rocks,  even  at  a  petrographic  scale  and  there  is  no  mineral  fabric  suggesting  burial  metamorphism.<br><b>Geocode:</b> Clarke County, Georgia, United States<br><b>Pages:</b> 29<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_997107ace9d7585bf89e06a499a12a9d.setContent(html_e83475384d9dee56f771f8ff93749999);
+            
+        
+
+        circle_marker_7bf6b7f2b08eea8b303c06c2e6327926.bindPopup(popup_997107ace9d7585bf89e06a499a12a9d)
+        ;
+
+        
+    
+    
+            circle_marker_7bf6b7f2b08eea8b303c06c2e6327926.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8168c28195899b3f06fa7e89fc8d20a2 = L.circleMarker(
+                [37.468727, -81.2459332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_11bf0f79550a2b4507e698180bc877cd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_39ecf5ba3b12b9aa65135ea955dd3b09 = $(`<div id="html_39ecf5ba3b12b9aa65135ea955dd3b09" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> For the igneous samples, the Streckeisen  diagram (Streckeisen, 1976) was used to identify the rock and for sedimentary samples, the  Dott  classification  (Dott,  1964). Using  geochemical  data  for  the  igneous  rocks,  the  Streckeisen  diagram  was  created,  after  the  values  had  been  normalised  according  to  the  CIPW  norm. The  two  diagrams  could  then  be  compared  to  each  other. Le  Maitre’s  classification (Le Maitre, 1989) was also completed using total alkalis versus silica content in  weight percent. A spider diagram was created using the XRF trace data and a REE plot using  the ICP-MS trace elements. 16<br><b>Geocode:</b> Dott, Mercer County, West Virginia, 24729, United States<br><b>Pages:</b> 17<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_11bf0f79550a2b4507e698180bc877cd.setContent(html_39ecf5ba3b12b9aa65135ea955dd3b09);
+            
+        
+
+        circle_marker_8168c28195899b3f06fa7e89fc8d20a2.bindPopup(popup_11bf0f79550a2b4507e698180bc877cd)
+        ;
+
+        
+    
+    
+            circle_marker_8168c28195899b3f06fa7e89fc8d20a2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6e0ad3699b8e5592f32f0b4d1fe307f = L.circleMarker(
+                [38.3644324, -86.8870278],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_d5660cf3a8a1863bfba51640e8139cca = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b586231539c11f922712a49ae725b175 = $(`<div id="html_b586231539c11f922712a49ae725b175" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Chemical and physical erosion  rhythms  of  the  West  African  Cenozoic  morphogenesis:  The  39Ar-40Ar  dating  of  supergene K-Mn oxides. Journal of Geophysical Research, 113, 1-15. Beziat, D., Dubois, M., Debat, P., Nikiema, S., Salvi, S., Tollon, F., (2008). Gold  metallogeny  in  the  Birimian  craton  of  Burkina  Faso  (West  Africa). Journal  of  African  Earth Sciences, 50, 215–233. Boggs, S., (2006).<br><b>Geocode:</b> Dubois County, Indiana, United States<br><b>Pages:</b> 52<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d5660cf3a8a1863bfba51640e8139cca.setContent(html_b586231539c11f922712a49ae725b175);
+            
+        
+
+        circle_marker_c6e0ad3699b8e5592f32f0b4d1fe307f.bindPopup(popup_d5660cf3a8a1863bfba51640e8139cca)
+        ;
+
+        
+    
+    
+            circle_marker_c6e0ad3699b8e5592f32f0b4d1fe307f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_42e5d7394fecc8609691613d8878eda6 = L.circleMarker(
+                [14.7095001, 0.0948661],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_2ae88a0ad6645c8f0d8752430dafd1d9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ff53d8d7c29f28034f354edcbee52f7a = $(`<div id="html_ff53d8d7c29f28034f354edcbee52f7a" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> This resulted  in thick units of greywacke being deposited which is similar and therefore significant for the  East  Markoye  region. The  tectonic  setting  of  the  Wanganui  Basin  is  described  in  detail  by  Proust  et  al. (2005). They  explained  that  the  basin  is  situated  on  the  Australian  Plate  approximately  200  km  behind  an  active  zone  of  subduction. In  this  subduction  zone,  the  Pacific  Plate  is  thrust  beneath  the  Australian  Plate  obliquely. The  angle  of  subduction  has  remained constant for about 25 million years and is responsible for the creation of large fault  systems that lie between the fore-arc basin and the Wanganui Basin.<br><b>Geocode:</b> Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 10<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2ae88a0ad6645c8f0d8752430dafd1d9.setContent(html_ff53d8d7c29f28034f354edcbee52f7a);
+            
+        
+
+        circle_marker_42e5d7394fecc8609691613d8878eda6.bindPopup(popup_2ae88a0ad6645c8f0d8752430dafd1d9)
+        ;
+
+        
+    
+    
+            circle_marker_42e5d7394fecc8609691613d8878eda6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_649912ad6e6f5825f0b8ab593f472622 = L.circleMarker(
+                [14.6661109, 121.1096537],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_37709484fe83e8f0af6010c68e777a58 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cf89d5c54db3b35b7e2f9665288119c7 = $(`<div id="html_cf89d5c54db3b35b7e2f9665288119c7" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Pawlig, S., Gueye, M., Klischies, R., Schwarz, S., Wemmer, K., Siegesmund, S., (2006). Geochemical and Sr–Nd isotopic data on the Birimian of the Kedougou-Kenieba Inlier  (Eastern Senegal): implications on the Palaeoproterozoic evolution of the West African  Craton. South African Journal of Geology, 109, 411–427. Proust, J. N., Lamarche, G., Nodder, S., Kamp, P. J.<br><b>Geocode:</b> Senegal Street, Marikina Greenheigts, Nangka, District II, Marikina, Eastern Manila District, Metro Manila, 1800, Philippines<br><b>Pages:</b> 57<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_37709484fe83e8f0af6010c68e777a58.setContent(html_cf89d5c54db3b35b7e2f9665288119c7);
+            
+        
+
+        circle_marker_649912ad6e6f5825f0b8ab593f472622.bindPopup(popup_37709484fe83e8f0af6010c68e777a58)
+        ;
+
+        
+    
+    
+            circle_marker_649912ad6e6f5825f0b8ab593f472622.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a12e3612176203bcee990f3144e4b3c4 = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_247097f6e7e0abd48cd158a14f9e0097 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_10e920915ac12b9945a5d3cb5ea9aedc = $(`<div id="html_10e920915ac12b9945a5d3cb5ea9aedc" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  tonalite  intruded  a  granite  adamellite  west of the Markoye Shear Zone. To the east, it intrudes Palaeoproterozoic sedimentary and  volcanic sequences (Tshibubudze and Hein, in review). A swarm of late dolerite dykes which  trend WNW and NW cross-cut the supracrustal rocks of the Birimian Supergroup. They are  dated at 250 Ma. Tshibubudze et al. (2009) classified dolerite dykes with the same trend in  the north-east of Burkina Faso, at Essakane, which also cross-cut supracrustal rocks including  greywacke and siltstone. || Tshibubudze  et  al. (2009)  described  gold mineralisation at Essakane and observed that it exists in stockwork veins that are made  up  of  quartz  and  carbonate  material. Tshibubudze  et  al. (2009)  explained  that  Essakane  goldfield hosts gold-bearing veins in an anticline that formed in D1 and was dilated in D2. 11<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 11,12<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_247097f6e7e0abd48cd158a14f9e0097.setContent(html_10e920915ac12b9945a5d3cb5ea9aedc);
+            
+        
+
+        circle_marker_a12e3612176203bcee990f3144e4b3c4.bindPopup(popup_247097f6e7e0abd48cd158a14f9e0097)
+        ;
+
+        
+    
+    
+            circle_marker_a12e3612176203bcee990f3144e4b3c4.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b3f330d20d57b847302b1c018961313d = L.circleMarker(
+                [16.781011, -3.6346771],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_f300111e0f3fb108fea7546cd1a25d90 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0af4901fdae12bfb2d7cecfa4a4dd05c = $(`<div id="html_0af4901fdae12bfb2d7cecfa4a4dd05c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> sequence  with  occasional  mud  drapes  making  up  the  Bouma  Te/f  layer  of  the  sequence. Layers A and B often occur together in coarser grained sediments which is the case for the  greywackes (Boggs, 2004) as shown by Figure 14. Figure 14: Classic model of the Bouma Cycle (Shanmugam, 1997). Stratigraphically, the entire field area was previously assigned to the metasedimentary rocks  of the Tarkwa Group (Milesi et al., 1989, 1992; Castaing et al., 2003) which represents the  erosional  product  of  the  Birimian  Supergroup. The  correlation  with  the  Tarkwa  Group  was  based on the single conglomerate unit in the study area and several conglomerate bands near  the  Essakane  gold  mine  (Milesi  et  al.,  1989,  1991;  Bossiere  et  al.,  1996). The  Tarkwaian  conglomerates in the type section in Ghana consist mostly of quartz vein clasts and a minor  proportion  of  quartzite  pebbles  in  a  dark,  fine-grained,  sandy  matrix.<br><b>Geocode:</b> Essakane, Goundam Cercle, Timbuktu, Mali<br><b>Pages:</b> 38<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f300111e0f3fb108fea7546cd1a25d90.setContent(html_0af4901fdae12bfb2d7cecfa4a4dd05c);
+            
+        
+
+        circle_marker_b3f330d20d57b847302b1c018961313d.bindPopup(popup_f300111e0f3fb108fea7546cd1a25d90)
+        ;
+
+        
+    
+    
+            circle_marker_b3f330d20d57b847302b1c018961313d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8e71085ea6a393d9b58cc4db7a6ecb8d = L.circleMarker(
+                [32.1613648, -81.8980725],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_21833ab37b9a23748138f4d116666b84 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9d46a74783bc794cf514739f91642ed8 = $(`<div id="html_9d46a74783bc794cf514739f91642ed8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Lompo, M., (2009). Geodynamic evolution of the 2.5-2.0 Ga Palaeoproterozoic magmatic  rocks in  the  Leo-Man Shield of the West  African Craton. A model of subsidence of an  oceanic plateau. In: Reddy, S. M., Mazumder, R., Evans, D. A.<br><b>Geocode:</b> Evans County, Georgia, United States<br><b>Pages:</b> 56<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_21833ab37b9a23748138f4d116666b84.setContent(html_9d46a74783bc794cf514739f91642ed8);
+            
+        
+
+        circle_marker_8e71085ea6a393d9b58cc4db7a6ecb8d.bindPopup(popup_21833ab37b9a23748138f4d116666b84)
+        ;
+
+        
+    
+    
+            circle_marker_8e71085ea6a393d9b58cc4db7a6ecb8d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3a9fee43ebadd8d8af16e5f5ea1c7eaf = L.circleMarker(
+                [44.6253428, 3.3232555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_a3e7f32db3bf911b5fdffa0b2832351a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0a45014340838cc610986f92e188fa0e = $(`<div id="html_0a45014340838cc610986f92e188fa0e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Key structures for vertical to transcurrent tectonics. Journal of African Earth  Sciences, 58, 19–36. Milesi, J. P., Feybesse, J. L., Ledru, P., Dommanget, A., Ouedraogo, M. F., Marcoux, E.,  Prost, A., Vinchon, Ch., Sylvain, J.<br><b>Geocode:</b> Feybesse, Recoules-de-Fumas, Mende, Lozère, Occitania, Metropolitan France, 48100, France<br><b>Pages:</b> 56<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a3e7f32db3bf911b5fdffa0b2832351a.setContent(html_0a45014340838cc610986f92e188fa0e);
+            
+        
+
+        circle_marker_3a9fee43ebadd8d8af16e5f5ea1c7eaf.bindPopup(popup_a3e7f32db3bf911b5fdffa0b2832351a)
+        ;
+
+        
+    
+    
+            circle_marker_3a9fee43ebadd8d8af16e5f5ea1c7eaf.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0dd7d97dbd984270359f808b6c25def = L.circleMarker(
+                [33.0563927, 35.2369919],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_d08cbf5eab104720c2f60346639cc010 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7b31d1da2f58fc31c27056b186b0ad58 = $(`<div id="html_7b31d1da2f58fc31c27056b186b0ad58" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Birimian  lithological  succession  and  structural  evolution  in  the  Goren  Segment  of  the  Boromo- Goren Greenstone Belt, Burkina Faso. Journal of African Earth Sciences, 39, 1–23. Hein,  K. A. A.,  (2010). Succession  of  structural  events  in  the  Goren  greenstone  belt  (Burkina  Faso):  Implications  for  West  African  tectonics.<br><b>Geocode:</b> Goren, Maale Yosef Regional Council, Acre Subdistrict, North District, Israel<br><b>Pages:</b> 54<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_d08cbf5eab104720c2f60346639cc010.setContent(html_7b31d1da2f58fc31c27056b186b0ad58);
+            
+        
+
+        circle_marker_e0dd7d97dbd984270359f808b6c25def.bindPopup(popup_d08cbf5eab104720c2f60346639cc010)
+        ;
+
+        
+    
+    
+            circle_marker_e0dd7d97dbd984270359f808b6c25def.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7443765cbc3c19c3cf6158a3502c84bc = L.circleMarker(
+                [46.3944149, -113.4687025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_37634ee8e2ffb359993b0754742dc853 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0554b562e39bc062d4ce0dad5239b770 = $(`<div id="html_0554b562e39bc062d4ce0dad5239b770" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Geochemica et Cosmochimica Acta, 53, 197-214. Barker,  D. S.,  (1970). Compositions  of  Granophyre,  Myrmekite,  and  Graphic  Granite. The Geological Society of America, 81, 3339-3350. Beauvais, A., Ruffet, G., Henocque, O., Colin F., (2008).<br><b>Geocode:</b> Granite County, Montana, United States<br><b>Pages:</b> 52<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_37634ee8e2ffb359993b0754742dc853.setContent(html_0554b562e39bc062d4ce0dad5239b770);
+            
+        
+
+        circle_marker_7443765cbc3c19c3cf6158a3502c84bc.bindPopup(popup_37634ee8e2ffb359993b0754742dc853)
+        ;
+
+        
+    
+    
+            circle_marker_7443765cbc3c19c3cf6158a3502c84bc.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7c728eb4268c7c3727de63f423f4b75a = L.circleMarker(
+                [53.3031276, 8.6620832],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_1327126fc3e8da9b0ffa6ed5ba604c75 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_79f15cea845a4ac57fe7e2f254474c8f = $(`<div id="html_79f15cea845a4ac57fe7e2f254474c8f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 3.0. Literature Review/Regional Geology  3.1. Stratigraphy  According to Harcöuet et al. (2007) in Hein (2010), the West African Craton (WAC) is made  up  of  Palaeoproterozoic  volcaniclastics  and  metasediments  that  overlie  an  inferred  granite  basement that is Archaean in age. Tshibubudze et al. (2009) and Hirdes et al.<br><b>Geocode:</b> Heine, Wulsbüttel, Hagen im Bremischen, Landkreis Cuxhaven, Lower Saxony, Germany<br><b>Pages:</b> 9<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1327126fc3e8da9b0ffa6ed5ba604c75.setContent(html_79f15cea845a4ac57fe7e2f254474c8f);
+            
+        
+
+        circle_marker_7c728eb4268c7c3727de63f423f4b75a.bindPopup(popup_1327126fc3e8da9b0ffa6ed5ba604c75)
+        ;
+
+        
+    
+    
+            circle_marker_7c728eb4268c7c3727de63f423f4b75a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_175efe5112ad1a3e44a331d389715265 = L.circleMarker(
+                [42.9567085, -85.341364],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_881c4aaa8318510df90e89c2a078abff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_693dd21571f643c809f4062b85e4154b = $(`<div id="html_693dd21571f643c809f4062b85e4154b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> A  Classification of Igneous Rocks and Glossary of terms: Recommendations of the  International Union of Geological Sciences Subcommission on the Systematics of  Igneous Rocks. Blackwell Scientific Publications, Oxford, U.K. 236 pp. Leube, A., Hirdes, W., Mauer, R., Kesse, G. O., (1990). The early Proterozoic Birimian  Supergroup of Ghana and some aspects of its associated gold mineralization.<br><b>Geocode:</b> Hirdes Street, Vergennes Township, Kent County, Michigan, 49331, United States<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_881c4aaa8318510df90e89c2a078abff.setContent(html_693dd21571f643c809f4062b85e4154b);
+            
+        
+
+        circle_marker_175efe5112ad1a3e44a331d389715265.bindPopup(popup_881c4aaa8318510df90e89c2a078abff)
+        ;
+
+        
+    
+    
+            circle_marker_175efe5112ad1a3e44a331d389715265.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6563a227491afde37d0a7ffc0b782258 = L.circleMarker(
+                [7.9897371, -5.5679458],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_9cf9dc5e94e640a2591e1a75519246ca = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_38c1accfb16c4ea9948b1bed77d5f3a1 = $(`<div id="html_38c1accfb16c4ea9948b1bed77d5f3a1" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Evolution of a Paleoproterozoic ‘‘weak type” orogeny in the West African Craton (Ivory  Coast). Tectonophysics, 477, 145–159. Vernon, R. H., Clarke, G. L., (2008). Principles of metamorphic geology.<br><b>Geocode:</b> Côte d'Ivoire<br><b>Pages:</b> 58<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9cf9dc5e94e640a2591e1a75519246ca.setContent(html_38c1accfb16c4ea9948b1bed77d5f3a1);
+            
+        
+
+        circle_marker_6563a227491afde37d0a7ffc0b782258.bindPopup(popup_9cf9dc5e94e640a2591e1a75519246ca)
+        ;
+
+        
+    
+    
+            circle_marker_6563a227491afde37d0a7ffc0b782258.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9415eb0ccb9b14bbeb54e1dddbd290a0 = L.circleMarker(
+                [52.5341897, 6.4798998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_b493cd696c85dcc30d5ac247f3be7d1a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a8365f14569967ed2f128d6d86cadb1c = $(`<div id="html_a8365f14569967ed2f128d6d86cadb1c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> W.,  Ludtke, G., Konan,  G., (1996). Two  generations  of Birimian  (Paleoproterozoic)  volcanic  belts  in  north-eastern  Cote  d’Ivoire  (West  Africa):  consequences for the Birimian controversy’. Precambrian Research, 80, 173–191. Junner, N.R., (1935). Gold in the gold coast, Ghana Geological Survey Memoir, No. 4,  67pp.<br><b>Geocode:</b> Junner Koeland, Hoogengraven, Stegeren, Arriën, Ommen, Overijssel, Netherlands, 7735 KJ, Netherlands<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_b493cd696c85dcc30d5ac247f3be7d1a.setContent(html_a8365f14569967ed2f128d6d86cadb1c);
+            
+        
+
+        circle_marker_9415eb0ccb9b14bbeb54e1dddbd290a0.bindPopup(popup_b493cd696c85dcc30d5ac247f3be7d1a)
+        ;
+
+        
+    
+    
+            circle_marker_9415eb0ccb9b14bbeb54e1dddbd290a0.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fdfc72c18e0e66c3b5f2b67c1e753c3a = L.circleMarker(
+                [48.5896464, 15.4612911],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_97fbbf4e0a6464bafe0ae680d389af4f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_da978b0d3fd44c30d2a529e475dfb63e = $(`<div id="html_da978b0d3fd44c30d2a529e475dfb63e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Pawlig, S., Gueye, M., Klischies, R., Schwarz, S., Wemmer, K., Siegesmund, S., (2006). Geochemical and Sr–Nd isotopic data on the Birimian of the Kedougou-Kenieba Inlier  (Eastern Senegal): implications on the Palaeoproterozoic evolution of the West African  Craton. South African Journal of Geology, 109, 411–427. Proust, J. N., Lamarche, G., Nodder, S., Kamp, P. J.<br><b>Geocode:</b> Kamp, Lower Austria, Austria<br><b>Pages:</b> 57<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_97fbbf4e0a6464bafe0ae680d389af4f.setContent(html_da978b0d3fd44c30d2a529e475dfb63e);
+            
+        
+
+        circle_marker_fdfc72c18e0e66c3b5f2b67c1e753c3a.bindPopup(popup_97fbbf4e0a6464bafe0ae680d389af4f)
+        ;
+
+        
+    
+    
+            circle_marker_fdfc72c18e0e66c3b5f2b67c1e753c3a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2b0ed99a41bd6eb922cf9cd7eca04f69 = L.circleMarker(
+                [14.6661109, 121.1096537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_de967581b8bdd5c55c10fab643ec0c11 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1f923e32e1b3f544e5adab9f6f0c398b = $(`<div id="html_1f923e32e1b3f544e5adab9f6f0c398b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Pawlig, S., Gueye, M., Klischies, R., Schwarz, S., Wemmer, K., Siegesmund, S., (2006). Geochemical and Sr–Nd isotopic data on the Birimian of the Kedougou-Kenieba Inlier  (Eastern Senegal): implications on the Palaeoproterozoic evolution of the West African  Craton. South African Journal of Geology, 109, 411–427. Proust, J. N., Lamarche, G., Nodder, S., Kamp, P. J.<br><b>Geocode:</b> Senegal Street, Marikina Greenheigts, Nangka, District II, Marikina, Eastern Manila District, Metro Manila, 1800, Philippines<br><b>Pages:</b> 57<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_de967581b8bdd5c55c10fab643ec0c11.setContent(html_1f923e32e1b3f544e5adab9f6f0c398b);
+            
+        
+
+        circle_marker_2b0ed99a41bd6eb922cf9cd7eca04f69.bindPopup(popup_de967581b8bdd5c55c10fab643ec0c11)
+        ;
+
+        
+    
+    
+            circle_marker_2b0ed99a41bd6eb922cf9cd7eca04f69.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c862efdd578f56fc24730985986ba0d = L.circleMarker(
+                [58.6326152, 23.4282945],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_ef62a9199b6641881afe90b7d71e85d2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_03a55f5a16a3f748c66cfddd67fea11c = $(`<div id="html_03a55f5a16a3f748c66cfddd67fea11c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> A  Classification of Igneous Rocks and Glossary of terms: Recommendations of the  International Union of Geological Sciences Subcommission on the Systematics of  Igneous Rocks. Blackwell Scientific Publications, Oxford, U.K. 236 pp. Leube, A., Hirdes, W., Mauer, R., Kesse, G. O., (1990). The early Proterozoic Birimian  Supergroup of Ghana and some aspects of its associated gold mineralization.<br><b>Geocode:</b> Kesse küla, Muhu vald, Saare County, 94720, Estonia<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ef62a9199b6641881afe90b7d71e85d2.setContent(html_03a55f5a16a3f748c66cfddd67fea11c);
+            
+        
+
+        circle_marker_2c862efdd578f56fc24730985986ba0d.bindPopup(popup_ef62a9199b6641881afe90b7d71e85d2)
+        ;
+
+        
+    
+    
+            circle_marker_2c862efdd578f56fc24730985986ba0d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e70ae7519b79f9179d58543325e1c1ef = L.circleMarker(
+                [30.0477196, -95.5324412],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_afde5a18dca44a5fb9d2f7fc516ca17a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0768a02601f006b6604f5c0e19ece93e = $(`<div id="html_0768a02601f006b6604f5c0e19ece93e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 10.0. Discussion  The  WAC,  namely  the  Birimian  Supergroup,  consists  of  many  island  arc  terranes  that  underwent terrane accretion (2300-2250 Ma). This occurred during the process of subduction,  thus  creating  a  felsic  continental  crust  due  to  its  association  with  TTG,  calc-alkaline  plutonism (Klein and Moura., 2009). Following this, other cratonic blocks  which formed in  the  same  way,  collided  with  the  accreted  arcs  to  form  orogenic  belts  and  the  closure  of  an  oceanic basin. The Eburnean Orogeny is an example of this process (Hirdes et al., 1996; Hein  et al., 2004; Feybesse et al., 2006). The OGGB is one of the island arc terranes, and the east  Markoye  region  is  most  likely  a  small,  but  proximal  to  the  source,  portion  of  the  back-arc  basin.<br><b>Geocode:</b> Klein, Harris County, Texas, 77379, United States<br><b>Pages:</b> 42<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_afde5a18dca44a5fb9d2f7fc516ca17a.setContent(html_0768a02601f006b6604f5c0e19ece93e);
+            
+        
+
+        circle_marker_e70ae7519b79f9179d58543325e1c1ef.bindPopup(popup_afde5a18dca44a5fb9d2f7fc516ca17a)
+        ;
+
+        
+    
+    
+            circle_marker_e70ae7519b79f9179d58543325e1c1ef.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_391c5d87290a45877c61ef1368f873d9 = L.circleMarker(
+                [53.8984161, 9.4658726],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_6a8dd8c76a3af6cbbda302247ff89fc1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_353fcdb71cf54f22e3216a91de28067e = $(`<div id="html_353fcdb71cf54f22e3216a91de28067e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Pawlig, S., Gueye, M., Klischies, R., Schwarz, S., Wemmer, K., Siegesmund, S., (2006). Geochemical and Sr–Nd isotopic data on the Birimian of the Kedougou-Kenieba Inlier  (Eastern Senegal): implications on the Palaeoproterozoic evolution of the West African  Craton. South African Journal of Geology, 109, 411–427. Proust, J. N., Lamarche, G., Nodder, S., Kamp, P. J.<br><b>Geocode:</b> M. Klischies, 38, Hauptstraße, Heiligenstedtenerkamp, Amt Itzehoe-Land, Kreis Steinburg, Schleswig-Holstein, 25524, Germany<br><b>Pages:</b> 57<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6a8dd8c76a3af6cbbda302247ff89fc1.setContent(html_353fcdb71cf54f22e3216a91de28067e);
+            
+        
+
+        circle_marker_391c5d87290a45877c61ef1368f873d9.bindPopup(popup_6a8dd8c76a3af6cbbda302247ff89fc1)
+        ;
+
+        
+    
+    
+            circle_marker_391c5d87290a45877c61ef1368f873d9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12db5629d8af5b650df82acdb0b93f85 = L.circleMarker(
+                [35.344508, 136.866742],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_ecebee47b0a6ffb34507bfbbf476ab8b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b499c8d87c46c7d36dff46b61d6b159f = $(`<div id="html_b499c8d87c46c7d36dff46b61d6b159f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> W.,  Ludtke, G., Konan,  G., (1996). Two  generations  of Birimian  (Paleoproterozoic)  volcanic  belts  in  north-eastern  Cote  d’Ivoire  (West  Africa):  consequences for the Birimian controversy’. Precambrian Research, 80, 173–191. Junner, N.R., (1935). Gold in the gold coast, Ghana Geological Survey Memoir, No. 4,  67pp.<br><b>Geocode:</b> Konan, Aichi Prefecture, Japan<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ecebee47b0a6ffb34507bfbbf476ab8b.setContent(html_b499c8d87c46c7d36dff46b61d6b159f);
+            
+        
+
+        circle_marker_12db5629d8af5b650df82acdb0b93f85.bindPopup(popup_ecebee47b0a6ffb34507bfbbf476ab8b)
+        ;
+
+        
+    
+    
+            circle_marker_12db5629d8af5b650df82acdb0b93f85.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_90a00b1e0c307e5adbaa7f7e821a0431 = L.circleMarker(
+                [41.4485439, 2.2165857],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_3c036c4f8789da1e0f57104785857536 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_08802139fff406c4869bcff6c20f9712 = $(`<div id="html_08802139fff406c4869bcff6c20f9712" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In: Pankhurst,  R.J., Trouw, R.A.J., Britto Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre- Cenozoic correlations across the South-Atlantic region, Geological Society, London,  137–151 (Special Publications). Le Maitre, R.W., Bateman, P., Dudek, A., Keller, J., Lameyre, J., Le Bas, M. J., Sabine,  P. A., Schmid, R., Sorensen, H., Streckeisen, A., Woolley, A. R.,  Zanettin, B., (1989).<br><b>Geocode:</b> Farmàcia Chavarría Lameyre, Francesc, 107, Carrer de Mossen Cinto Verdaguer, Fondo, Santa Coloma de Gramenet, Barcelonès, Barcelona, Catalonia, 08923, Spain<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_3c036c4f8789da1e0f57104785857536.setContent(html_08802139fff406c4869bcff6c20f9712);
+            
+        
+
+        circle_marker_90a00b1e0c307e5adbaa7f7e821a0431.bindPopup(popup_3c036c4f8789da1e0f57104785857536)
+        ;
+
+        
+    
+    
+            circle_marker_90a00b1e0c307e5adbaa7f7e821a0431.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9d5027b0fa1d6a0d95260bcaddd6a9ab = L.circleMarker(
+                [45.1071189, 4.6314327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_082ccc087f512d51132f36931c16321e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_60f975fa392d6b85916abca80706141b = $(`<div id="html_60f975fa392d6b85916abca80706141b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Plotting total alkalis against silica content (see Fig. 11) yielded slightly different results but  essentially  the  samples  still  fall  within  the  granodiorite  field  of  the  Le  Maitre  (1989)  classification system. Sample KH/LP/145 and KH/LP/147 are very similar in composition on  both classification diagrams; however they are more granitic in composition according to the  total alkalis versus silica. Whereas sample KH/LP/148 on the Streckeisen diagram is situated  on the field boundary between a granodiorite and a quartz- monzodiorite and on Le Maitre’s  classification it is well within the granodiorite field. Figure 11: Total alkalis versus Silica Diagram after Le Maitre (1989). The trace element data of the granodiorite to  quartz monzodiorite is represented as a spider  plot (see Fig.<br><b>Geocode:</b> Le Maitre, Vaudevant, Tournon-sur-Rhône, Ardèche, Auvergne-Rhône-Alpes, Metropolitan France, 07410, France<br><b>Pages:</b> 33<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_082ccc087f512d51132f36931c16321e.setContent(html_60f975fa392d6b85916abca80706141b);
+            
+        
+
+        circle_marker_9d5027b0fa1d6a0d95260bcaddd6a9ab.bindPopup(popup_082ccc087f512d51132f36931c16321e)
+        ;
+
+        
+    
+    
+            circle_marker_9d5027b0fa1d6a0d95260bcaddd6a9ab.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a49cc89e00bb561a5e84c3b79eb2e13d = L.circleMarker(
+                [39.9067681, 8.5936582],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_35a8006f162f01a6f41a2e4b5484a7c7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_438c71b3a7efa3c565ac2fd0238136ce = $(`<div id="html_438c71b3a7efa3c565ac2fd0238136ce" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Plotting total alkalis against silica content (see Fig. 11) yielded slightly different results but  essentially  the  samples  still  fall  within  the  granodiorite  field  of  the  Le  Maitre  (1989)  classification system. Sample KH/LP/145 and KH/LP/147 are very similar in composition on  both classification diagrams; however they are more granitic in composition according to the  total alkalis versus silica. Whereas sample KH/LP/148 on the Streckeisen diagram is situated  on the field boundary between a granodiorite and a quartz- monzodiorite and on Le Maitre’s  classification it is well within the granodiorite field. Figure 11: Total alkalis versus Silica Diagram after Le Maitre (1989). The trace element data of the granodiorite to  quartz monzodiorite is represented as a spider  plot (see Fig.<br><b>Geocode:</b> Le Maitre, 54, Via Figoli, Centro storico, Aristanis/Oristano, Sardinia, 09170, Italy<br><b>Pages:</b> 33<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_35a8006f162f01a6f41a2e4b5484a7c7.setContent(html_438c71b3a7efa3c565ac2fd0238136ce);
+            
+        
+
+        circle_marker_a49cc89e00bb561a5e84c3b79eb2e13d.bindPopup(popup_35a8006f162f01a6f41a2e4b5484a7c7)
+        ;
+
+        
+    
+    
+            circle_marker_a49cc89e00bb561a5e84c3b79eb2e13d.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6e6010013aa53298851be49816190054 = L.circleMarker(
+                [32.9247304, 76.1455911],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_49fb3ddfa1079ab0c4fcecf5b6d78c4f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_52ca3c2048407976ac35d7dcd8236339 = $(`<div id="html_52ca3c2048407976ac35d7dcd8236339" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Key structures for vertical to transcurrent tectonics. Journal of African Earth  Sciences, 58, 19–36. Milesi, J. P., Feybesse, J. L., Ledru, P., Dommanget, A., Ouedraogo, M. F., Marcoux, E.,  Prost, A., Vinchon, Ch., Sylvain, J.<br><b>Geocode:</b> Ledru, Chaurah, Chamba, Himachal Pradesh, India<br><b>Pages:</b> 56<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_49fb3ddfa1079ab0c4fcecf5b6d78c4f.setContent(html_52ca3c2048407976ac35d7dcd8236339);
+            
+        
+
+        circle_marker_6e6010013aa53298851be49816190054.bindPopup(popup_49fb3ddfa1079ab0c4fcecf5b6d78c4f)
+        ;
+
+        
+    
+    
+            circle_marker_6e6010013aa53298851be49816190054.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f5fccf4c92b75cebcba3b9d36a3c86c1 = L.circleMarker(
+                [51.4893335, -0.1440551],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_4484d4badf159920e42a1e3ad1e1675f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_79f1c53a4b91828afbd464c3d97d01e8 = $(`<div id="html_79f1c53a4b91828afbd464c3d97d01e8" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Blackwell  Scientific Publishing, London, 351-388. Furnes,  H.,  Ravanas,  R.,  (1995). The  use  of  geochemical  data  in  determining  the  provenance and tectonic setting of ancient sedimentary successions:the Kalvag Melange,  western  Norwegion  Caledonides. In:  Plint  A. G. (Ed.),  Sedimentary  Facies  Analysis:  A  tribute to the research and teaching of Harold G.<br><b>Geocode:</b> London, Greater London, England, United Kingdom<br><b>Pages:</b> 54<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4484d4badf159920e42a1e3ad1e1675f.setContent(html_79f1c53a4b91828afbd464c3d97d01e8);
+            
+        
+
+        circle_marker_f5fccf4c92b75cebcba3b9d36a3c86c1.bindPopup(popup_4484d4badf159920e42a1e3ad1e1675f)
+        ;
+
+        
+    
+    
+            circle_marker_f5fccf4c92b75cebcba3b9d36a3c86c1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a825294e4209112e2b518f6cbd3b110 = L.circleMarker(
+                [45.711462, 4.0131614],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_9e0220d9cc8013c4abcfbc19b3d9c363 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_29c9630269a36890071cd7824c7b25f6 = $(`<div id="html_29c9630269a36890071cd7824c7b25f6" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Key structures for vertical to transcurrent tectonics. Journal of African Earth  Sciences, 58, 19–36. Milesi, J. P., Feybesse, J. L., Ledru, P., Dommanget, A., Ouedraogo, M. F., Marcoux, E.,  Prost, A., Vinchon, Ch., Sylvain, J.<br><b>Geocode:</b> Marcoux, Montbrison, Loire, Auvergne-Rhône-Alpes, Metropolitan France, 42130, France<br><b>Pages:</b> 56<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9e0220d9cc8013c4abcfbc19b3d9c363.setContent(html_29c9630269a36890071cd7824c7b25f6);
+            
+        
+
+        circle_marker_9a825294e4209112e2b518f6cbd3b110.bindPopup(popup_9e0220d9cc8013c4abcfbc19b3d9c363)
+        ;
+
+        
+    
+    
+            circle_marker_9a825294e4209112e2b518f6cbd3b110.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd7881d25562211c706c4857303e8101 = L.circleMarker(
+                [47.3752671, -109.638757],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_00fda5c715106b111fa4e35030971b98 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_957dfe5fd784e7f6d51f000bd06d827d = $(`<div id="html_957dfe5fd784e7f6d51f000bd06d827d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> This type  of  alteration  is  common  and  can  affect  mafic  to  felsic  rocks  during  crystallisation. An  example  where  deuteric  alteration  affects  quartz  monzonites,  similar  in  composition  to  the  dykes  of  the  field  area,  is  from  the  Boulder  Batholith  in  Montana,  USA. In  this  case,  the  alteration is related to the formation of ore deposits hosted within the intrusion (Neuerburg,  1958). 27<br><b>Geocode:</b> Montana, United States<br><b>Pages:</b> 28<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_00fda5c715106b111fa4e35030971b98.setContent(html_957dfe5fd784e7f6d51f000bd06d827d);
+            
+        
+
+        circle_marker_dd7881d25562211c706c4857303e8101.bindPopup(popup_00fda5c715106b111fa4e35030971b98)
+        ;
+
+        
+    
+    
+            circle_marker_dd7881d25562211c706c4857303e8101.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d7f3db885c323ba48f039496679f0af = L.circleMarker(
+                [34.1667992, 131.2062283],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_10a1565ec722cf6980855a9e1c83e99b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f90035b7ab7a6ae4e639d9dc05806282 = $(`<div id="html_f90035b7ab7a6ae4e639d9dc05806282" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Relative timing of deformational, metamorphic and  mineralisation events at the Mt. Todd (Yimuyn Manjerr) Mine, Pine Creek Inlier,  Northern Territory, Australia. Ore Geology Reviews, 22, 143-175. Hein,  K. A. A.,  Morel,  V.,  Kagone,  O.,  Kiemde,  F.,  Mayes,  K.,  (2004).<br><b>Geocode:</b> Mine, Yamaguchi Prefecture, Japan<br><b>Pages:</b> 54<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_10a1565ec722cf6980855a9e1c83e99b.setContent(html_f90035b7ab7a6ae4e639d9dc05806282);
+            
+        
+
+        circle_marker_6d7f3db885c323ba48f039496679f0af.bindPopup(popup_10a1565ec722cf6980855a9e1c83e99b)
+        ;
+
+        
+    
+    
+            circle_marker_6d7f3db885c323ba48f039496679f0af.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f8ab6a59c24597102bf2a8424166ef2 = L.circleMarker(
+                [34.1667992, 131.2062283],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_9a617260f7d5cef83f2f36275c1d5881 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b354ba58477b1795c186419522870a60 = $(`<div id="html_b354ba58477b1795c186419522870a60" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Relative timing of deformational, metamorphic and  mineralisation events at the Mt. Todd (Yimuyn Manjerr) Mine, Pine Creek Inlier,  Northern Territory, Australia. Ore Geology Reviews, 22, 143-175. Hein,  K. A. A.,  Morel,  V.,  Kagone,  O.,  Kiemde,  F.,  Mayes,  K.,  (2004).<br><b>Geocode:</b> Mine, Yamaguchi Prefecture, Japan<br><b>Pages:</b> 54<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9a617260f7d5cef83f2f36275c1d5881.setContent(html_b354ba58477b1795c186419522870a60);
+            
+        
+
+        circle_marker_5f8ab6a59c24597102bf2a8424166ef2.bindPopup(popup_9a617260f7d5cef83f2f36275c1d5881)
+        ;
+
+        
+    
+    
+            circle_marker_5f8ab6a59c24597102bf2a8424166ef2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7403d7161342ca8e124b9af3830a5381 = L.circleMarker(
+                [10.3777812, -4.6882653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_4839a590247f500cebea25932e00e2a1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_84251779c4d28000e34ddf9ec5222c1e = $(`<div id="html_84251779c4d28000e34ddf9ec5222c1e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Earth-Science  Reviews, 12, 1-33. Tshibubudze, A., Hein,  K. A. A., Marquis, P.,  (2009). The Markoye Shear  Zone in  NE  Burkina Faso. Journal of African Earth Sciences, 55, 245–256.<br><b>Geocode:</b> Ne, Niangoloko, Comoé, Waterfalls, Burkina Faso<br><b>Pages:</b> 57<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4839a590247f500cebea25932e00e2a1.setContent(html_84251779c4d28000e34ddf9ec5222c1e);
+            
+        
+
+        circle_marker_7403d7161342ca8e124b9af3830a5381.bindPopup(popup_4839a590247f500cebea25932e00e2a1)
+        ;
+
+        
+    
+    
+            circle_marker_7403d7161342ca8e124b9af3830a5381.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e5c5736ae3fb87f643c42e80587b8995 = L.circleMarker(
+                [40.0757384, -74.4041622],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_61ef63eb242ab6ef92ce755cac1e7d38 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6de5842f2b9762f3c207477019c461fd = $(`<div id="html_6de5842f2b9762f3c207477019c461fd" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Principles of Sedimentology and stratigraphy: Fourth Edition, Pearson  Prentice Hall, New Jersey, 662 pp. Bossiere,  G.,  Bonkoungou,  I.,  Peucat,  J. J.,  Pupin,  J. P.,  (1996). Origin  and  age  of  Palaeoproterozoic  conglomerates  and  sandstones  of  the  Tarkwaian  Group  in  Burkina  Faso, West Africa. Precambrian Research, 80, 153-172.<br><b>Geocode:</b> New Jersey, United States<br><b>Pages:</b> 52<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_61ef63eb242ab6ef92ce755cac1e7d38.setContent(html_6de5842f2b9762f3c207477019c461fd);
+            
+        
+
+        circle_marker_e5c5736ae3fb87f643c42e80587b8995.bindPopup(popup_61ef63eb242ab6ef92ce755cac1e7d38)
+        ;
+
+        
+    
+    
+            circle_marker_e5c5736ae3fb87f643c42e80587b8995.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f2421a5cc69849bb7fcf30f310939cac = L.circleMarker(
+                [53.3649151, -1.4135358],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_38cd34ebaa584d0540b6ac4459e149ae = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_80c967de395630afab94c23bff21cc3b = $(`<div id="html_80c967de395630afab94c23bff21cc3b" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Pawlig, S., Gueye, M., Klischies, R., Schwarz, S., Wemmer, K., Siegesmund, S., (2006). Geochemical and Sr–Nd isotopic data on the Birimian of the Kedougou-Kenieba Inlier  (Eastern Senegal): implications on the Palaeoproterozoic evolution of the West African  Craton. South African Journal of Geology, 109, 411–427. Proust, J. N., Lamarche, G., Nodder, S., Kamp, P. J.<br><b>Geocode:</b> Nodder Road, Woodthorpe, Castlebeck, Woodthorpe, Sheffield, South Yorkshire, England, S13 8DS, United Kingdom<br><b>Pages:</b> 57<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_38cd34ebaa584d0540b6ac4459e149ae.setContent(html_80c967de395630afab94c23bff21cc3b);
+            
+        
+
+        circle_marker_f2421a5cc69849bb7fcf30f310939cac.bindPopup(popup_38cd34ebaa584d0540b6ac4459e149ae)
+        ;
+
+        
+    
+    
+            circle_marker_f2421a5cc69849bb7fcf30f310939cac.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8dad2067016d08027d9caf553355b6e7 = L.circleMarker(
+                [61.1529386, 8.7876653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_09f998cbf7c6fea7e9f88cade936729b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_60affa872b734dd6d4495253085fef6d = $(`<div id="html_60affa872b734dd6d4495253085fef6d" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> This  is  a  good  correlation  to  the  sediments  of  the  Birimian  Supergroup  and  particularly  the  4  km  thick  sequence of greywacke in the study area. It is typical for thick sedimentary sequences to be  deposited  during  the  spreading  of  a  back-arc  environment  like  in  back-arc  environments  in  Norway  (between  Solund  and  Bremanger)  and  New  Zealand  (Ravanas,  1991;  Ravanas  and  Furnes, 1995; Carter and Naish., 1998). Sediment sourced from the arc settings  was transported in river systems that travelled from  the uplifted regions, towards the basin. The sediment was then deposited in a deltaic system. The  greywackes  were  deposited  in  this  deltaic  system  on  a  steep  submarine  slope  which  allowed for rapid deposition, gravity sliding and slumping, synonymous with turbiditic flows. The erosion rate of the arc is interpreted as getting progressively slower throughout the filling  of  the  basin.<br><b>Geocode:</b> Norway<br><b>Pages:</b> 43<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_09f998cbf7c6fea7e9f88cade936729b.setContent(html_60affa872b734dd6d4495253085fef6d);
+            
+        
+
+        circle_marker_8dad2067016d08027d9caf553355b6e7.bindPopup(popup_09f998cbf7c6fea7e9f88cade936729b)
+        ;
+
+        
+    
+    
+            circle_marker_8dad2067016d08027d9caf553355b6e7.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_18f9a56b55225f41888dffd7c0219718 = L.circleMarker(
+                [61.8481029, 5.0571352],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_19cd8cea0b474c84343a3d1fcf03f75e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8506c0d6e2ee33209ac41557f32f2356 = $(`<div id="html_8506c0d6e2ee33209ac41557f32f2356" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> This  is  a  good  correlation  to  the  sediments  of  the  Birimian  Supergroup  and  particularly  the  4  km  thick  sequence of greywacke in the study area. It is typical for thick sedimentary sequences to be  deposited  during  the  spreading  of  a  back-arc  environment  like  in  back-arc  environments  in  Norway  (between  Solund  and  Bremanger)  and  New  Zealand  (Ravanas,  1991;  Ravanas  and  Furnes, 1995; Carter and Naish., 1998). Sediment sourced from the arc settings  was transported in river systems that travelled from  the uplifted regions, towards the basin. The sediment was then deposited in a deltaic system. The  greywackes  were  deposited  in  this  deltaic  system  on  a  steep  submarine  slope  which  allowed for rapid deposition, gravity sliding and slumping, synonymous with turbiditic flows. The erosion rate of the arc is interpreted as getting progressively slower throughout the filling  of  the  basin.<br><b>Geocode:</b> Bremanger, Vestland, Norway<br><b>Pages:</b> 43<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_19cd8cea0b474c84343a3d1fcf03f75e.setContent(html_8506c0d6e2ee33209ac41557f32f2356);
+            
+        
+
+        circle_marker_18f9a56b55225f41888dffd7c0219718.bindPopup(popup_19cd8cea0b474c84343a3d1fcf03f75e)
+        ;
+
+        
+    
+    
+            circle_marker_18f9a56b55225f41888dffd7c0219718.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_704ef33c48a76ce5c2fe35c169b0d650 = L.circleMarker(
+                [15.8768396, 108.3214115],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_60dac445fad3b4a46e8eb46583ff75c9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_77ebac73d9ecef9e264373f4bba74968 = $(`<div id="html_77ebac73d9ecef9e264373f4bba74968" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> R.,  (1998). A  review  of  Wanganui  Basin,  New  Zealand:  global  reference  section  for  shallow  marine,  Plio–Pleistocene  (2.5–0  Ma)  cyclostratigraphy. Sedimentary Geology, 122, 37-52. Davis,  D. W.,  Hirdes,  W.,  Schaltegger,  Nunoo,  A.,  (1994). U–Pb  age  constraints  on  deposition and provenance of Birimian and gold-bearing Tarkwaian sediments in Ghana,  West Africa.<br><b>Geocode:</b> Nunoo, 48, Đào Duy Từ, An Hội, Cẩm Phô, Hội An Ward, Đà Nẵng, 51309, Vietnam<br><b>Pages:</b> 53<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_60dac445fad3b4a46e8eb46583ff75c9.setContent(html_77ebac73d9ecef9e264373f4bba74968);
+            
+        
+
+        circle_marker_704ef33c48a76ce5c2fe35c169b0d650.bindPopup(popup_60dac445fad3b4a46e8eb46583ff75c9)
+        ;
+
+        
+    
+    
+            circle_marker_704ef33c48a76ce5c2fe35c169b0d650.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_40c0429d7ed45c40de7ace1156e124a6 = L.circleMarker(
+                [12.3684638, -5.4855609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_2897a86253af10ec6bb36cffc8339855 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2b1520984f7778d0084c89b9a6a63b32 = $(`<div id="html_2b1520984f7778d0084c89b9a6a63b32" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Tshibubudze,  A.,  Hein,  K.A.A.,  in  review. Structural  setting  of  gold  deposits  in  the  Oudalan-Gourouol greenstone belt east of the Markoye Shear Zone, West African craton. Precambrian Research. Vidal, M., Gumaix, C., Cagnard, F., Pouclet, A., Ouattara, G., Pichon, M., (2009). 56<br><b>Geocode:</b> Ouattara, 13, Rue 236 Hamdallaye, Hamdallaye, Koutiala, Koutiala Cercle, Sikasso Region, Mali<br><b>Pages:</b> 57<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2897a86253af10ec6bb36cffc8339855.setContent(html_2b1520984f7778d0084c89b9a6a63b32);
+            
+        
+
+        circle_marker_40c0429d7ed45c40de7ace1156e124a6.bindPopup(popup_2897a86253af10ec6bb36cffc8339855)
+        ;
+
+        
+    
+    
+            circle_marker_40c0429d7ed45c40de7ace1156e124a6.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_837203eef020861e77f71cb5c3d78397 = L.circleMarker(
+                [51.7520131, -1.2578499],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_e93815b37c0b4c945064f6480b919b2e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b31afa21dc9227924db952065f6ce545 = $(`<div id="html_b31afa21dc9227924db952065f6ce545" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Reading. Blackwell Publishing, Oxford,  237-264. Goudie, A., (2001). The nature of the environment: 4th Edition. Blackwell Publishers Ltd,  Oxford, 544 pp. Harcöuet,  V.,  Guillou-Frottier,  L.,  Bonneville,  A.,  Bouchot,  V.,  Milesi,  J.<br><b>Geocode:</b> Oxford, Oxfordshire, England, United Kingdom<br><b>Pages:</b> 54<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_e93815b37c0b4c945064f6480b919b2e.setContent(html_b31afa21dc9227924db952065f6ce545);
+            
+        
+
+        circle_marker_837203eef020861e77f71cb5c3d78397.bindPopup(popup_e93815b37c0b4c945064f6480b919b2e)
+        ;
+
+        
+    
+    
+            circle_marker_837203eef020861e77f71cb5c3d78397.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_78491253aca2c86ed92b0178757b9b11 = L.circleMarker(
+                [51.7520131, -1.2578499],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_ce1c2c14d29b11b1001d6434be4316b7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_033bd6a380e9f6c91439bc72e46ccdde = $(`<div id="html_033bd6a380e9f6c91439bc72e46ccdde" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> A  Classification of Igneous Rocks and Glossary of terms: Recommendations of the  International Union of Geological Sciences Subcommission on the Systematics of  Igneous Rocks. Blackwell Scientific Publications, Oxford, U.K. 236 pp. Leube, A., Hirdes, W., Mauer, R., Kesse, G. O., (1990). The early Proterozoic Birimian  Supergroup of Ghana and some aspects of its associated gold mineralization.<br><b>Geocode:</b> Oxford, Oxfordshire, England, United Kingdom<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ce1c2c14d29b11b1001d6434be4316b7.setContent(html_033bd6a380e9f6c91439bc72e46ccdde);
+            
+        
+
+        circle_marker_78491253aca2c86ed92b0178757b9b11.bindPopup(popup_ce1c2c14d29b11b1001d6434be4316b7)
+        ;
+
+        
+    
+    
+            circle_marker_78491253aca2c86ed92b0178757b9b11.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0c1c7081d5b090e25b25851b45519d1e = L.circleMarker(
+                [51.4514953, -0.9836342],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_709cb127e8bc660818fb3ee1d51fb28a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dbf364b8dce20124dea1b2891defecaf = $(`<div id="html_dbf364b8dce20124dea1b2891defecaf" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Reading. Blackwell Publishing, Oxford,  237-264. Goudie, A., (2001). The nature of the environment: 4th Edition. Blackwell Publishers Ltd,  Oxford, 544 pp. Harcöuet,  V.,  Guillou-Frottier,  L.,  Bonneville,  A.,  Bouchot,  V.,  Milesi,  J.<br><b>Geocode:</b> Reading, England, United Kingdom<br><b>Pages:</b> 54<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_709cb127e8bc660818fb3ee1d51fb28a.setContent(html_dbf364b8dce20124dea1b2891defecaf);
+            
+        
+
+        circle_marker_0c1c7081d5b090e25b25851b45519d1e.bindPopup(popup_709cb127e8bc660818fb3ee1d51fb28a)
+        ;
+
+        
+    
+    
+            circle_marker_0c1c7081d5b090e25b25851b45519d1e.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_70cf94859f4af812f889830a83bc05c2 = L.circleMarker(
+                [51.3297011, -0.1616273],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_a68cec7e0f7d815b1a5d31fd7a785405 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ec6f85a6545f44af86087e352cc28740 = $(`<div id="html_ec6f85a6545f44af86087e352cc28740" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Geochemica et Cosmochimica Acta, 53, 197-214. Barker,  D. S.,  (1970). Compositions  of  Granophyre,  Myrmekite,  and  Graphic  Granite. The Geological Society of America, 81, 3339-3350. Beauvais, A., Ruffet, G., Henocque, O., Colin F., (2008).<br><b>Geocode:</b> Ruffet, Clockhouse, Little Woodcote, London Borough of Sutton, London, Surrey, Greater London, England, United Kingdom<br><b>Pages:</b> 52<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_a68cec7e0f7d815b1a5d31fd7a785405.setContent(html_ec6f85a6545f44af86087e352cc28740);
+            
+        
+
+        circle_marker_70cf94859f4af812f889830a83bc05c2.bindPopup(popup_a68cec7e0f7d815b1a5d31fd7a785405)
+        ;
+
+        
+    
+    
+            circle_marker_70cf94859f4af812f889830a83bc05c2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5864da456021b7a321cacb3838973e55 = L.circleMarker(
+                [31.3325489, -93.8722218],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_9692a996ea95b32548b4f1c67048e54e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_079511ab614f8b4d5cc56b1fef045b84 = $(`<div id="html_079511ab614f8b4d5cc56b1fef045b84" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In: Pankhurst,  R.J., Trouw, R.A.J., Britto Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre- Cenozoic correlations across the South-Atlantic region, Geological Society, London,  137–151 (Special Publications). Le Maitre, R.W., Bateman, P., Dudek, A., Keller, J., Lameyre, J., Le Bas, M. J., Sabine,  P. A., Schmid, R., Sorensen, H., Streckeisen, A., Woolley, A. R.,  Zanettin, B., (1989).<br><b>Geocode:</b> Sabine County, Texas, United States<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9692a996ea95b32548b4f1c67048e54e.setContent(html_079511ab614f8b4d5cc56b1fef045b84);
+            
+        
+
+        circle_marker_5864da456021b7a321cacb3838973e55.bindPopup(popup_9692a996ea95b32548b4f1c67048e54e)
+        ;
+
+        
+    
+    
+            circle_marker_5864da456021b7a321cacb3838973e55.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_404ec5f54a49860cc1c5c73e61edcb10 = L.circleMarker(
+                [13.891613, -11.7054385],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_2ab9e7985bc14216e8b23e51f86563cc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b337502410945442f65f1823575973fd = $(`<div id="html_b337502410945442f65f1823575973fd" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Journal  of  African  Earth  Sciences, 56, 83-94. Hein, K.A.A., Matabane, M.R., in review . The gold-bearing intrusion-related deposits of  the FE3 opencast gold mines, Sadiola goldfield, Kedougou-Kéniéba Inlier, western Mali. Ore Geology Reviews. 53<br><b>Geocode:</b> Sadiola, Kayes Cercle, Kayes, Mali<br><b>Pages:</b> 54<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2ab9e7985bc14216e8b23e51f86563cc.setContent(html_b337502410945442f65f1823575973fd);
+            
+        
+
+        circle_marker_404ec5f54a49860cc1c5c73e61edcb10.bindPopup(popup_2ab9e7985bc14216e8b23e51f86563cc)
+        ;
+
+        
+    
+    
+            circle_marker_404ec5f54a49860cc1c5c73e61edcb10.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ac6b69858c2351ea1dbfb258b4d1709 = L.circleMarker(
+                [22.25, 9.8],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_ced36ce8f0377fe2ff30c0153a27eb4d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_191710ea9cb633656c3a7ac3429c6b1c = $(`<div id="html_191710ea9cb633656c3a7ac3429c6b1c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> 2.2. Location and Physiography  The study area is situated approximately 2 km east of the town of Markoye and is located 12  km west of the international border of Niger and 38 km south of the border of Mali (Fig. 2). The town of Markoye is located at the divide between the Sahel and the Sahara; everything  north of the town is considered to be the Sahara Desert. Thus, the field area is an arid and hot  environment with much of the surface covered with sand and loose gravels making outcrop  difficult to find in the low-lying areas. The areas of high relief however, are desert mountains  that contain a large amount of rock which, unfortunately, was dominated by  loose boulders  and very little in situ-outcrop.<br><b>Geocode:</b> Sahara, Tazrouk, Tazrouk District, Tamanrasset, Algeria<br><b>Pages:</b> 6<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ced36ce8f0377fe2ff30c0153a27eb4d.setContent(html_191710ea9cb633656c3a7ac3429c6b1c);
+            
+        
+
+        circle_marker_0ac6b69858c2351ea1dbfb258b4d1709.bindPopup(popup_ced36ce8f0377fe2ff30c0153a27eb4d)
+        ;
+
+        
+    
+    
+            circle_marker_0ac6b69858c2351ea1dbfb258b4d1709.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8ba4019296a4a2fccd203fb833c34496 = L.circleMarker(
+                [50.5481431, 9.6876616],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_80e7e50dae41c745b0f5e54f17935e41 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2b6ed79b614b78836a4b55bde3eab57f = $(`<div id="html_2b6ed79b614b78836a4b55bde3eab57f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In: Pankhurst,  R.J., Trouw, R.A.J., Britto Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre- Cenozoic correlations across the South-Atlantic region, Geological Society, London,  137–151 (Special Publications). Le Maitre, R.W., Bateman, P., Dudek, A., Keller, J., Lameyre, J., Le Bas, M. J., Sabine,  P. A., Schmid, R., Sorensen, H., Streckeisen, A., Woolley, A. R.,  Zanettin, B., (1989).<br><b>Geocode:</b> Schmid, 85, Heinrichstraße, Innenstadt, Fulda, Landkreis Fulda, Hesse, 36043, Germany<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_80e7e50dae41c745b0f5e54f17935e41.setContent(html_2b6ed79b614b78836a4b55bde3eab57f);
+            
+        
+
+        circle_marker_8ba4019296a4a2fccd203fb833c34496.bindPopup(popup_80e7e50dae41c745b0f5e54f17935e41)
+        ;
+
+        
+    
+    
+            circle_marker_8ba4019296a4a2fccd203fb833c34496.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2f52066305c1f591877551f64887f32 = L.circleMarker(
+                [46.3619223, -122.5525349],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_27d66813015b49040acd77e8950a5c19 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_32643a9866303cb095fedaf672847132 = $(`<div id="html_32643a9866303cb095fedaf672847132" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Fischer,  R. V.,  Schmincke,  H. U.,  (1994). Volcaniclastic  sediment  transport  and  deposition. In:  Pye,  K. (Ed.),  Sediment  transport  and  depositional  processes.<br><b>Geocode:</b> Toutle River Sediment Retention Structure, Cowlitz County, Washington, United States<br><b>Pages:</b> 54<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_27d66813015b49040acd77e8950a5c19.setContent(html_32643a9866303cb095fedaf672847132);
+            
+        
+
+        circle_marker_b2f52066305c1f591877551f64887f32.bindPopup(popup_27d66813015b49040acd77e8950a5c19)
+        ;
+
+        
+    
+    
+            circle_marker_b2f52066305c1f591877551f64887f32.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dfd8a8582bcba710a414984846be0216 = L.circleMarker(
+                [14.4750607, -14.4529612],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_edbca1c19a0c9390930bffe3bff04aaa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b647e2e36d99680042377e25c0dafc4c = $(`<div id="html_b647e2e36d99680042377e25c0dafc4c" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Hirdes, W., Davis, D. W., (2002). U-Pd geochronology of Palaeoproterozoic rocks in the  southern  part  of  the  Kedougou-Kenieba  Inlier,  Senegal,  West  Africa:  Evidence  for  diachronous accretionary development of the Eburnean province. Precambrian Research,  118, 83-99. Klein, E.L., Moura, C.A.V., (2009). São Luis craton and Gurupi belt (Brazil): possible  links with the West African craton and surroundings Pan-African belts.<br><b>Geocode:</b> Senegal<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_edbca1c19a0c9390930bffe3bff04aaa.setContent(html_b647e2e36d99680042377e25c0dafc4c);
+            
+        
+
+        circle_marker_dfd8a8582bcba710a414984846be0216.bindPopup(popup_edbca1c19a0c9390930bffe3bff04aaa)
+        ;
+
+        
+    
+    
+            circle_marker_dfd8a8582bcba710a414984846be0216.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_89f84d5ef1ea16531acd120acad4cbca = L.circleMarker(
+                [44.9434658, -93.3549833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_4c180863a205bd363980e061683335e1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b1a6c6d71b4f31ce6741c878c67a9064 = $(`<div id="html_b1a6c6d71b4f31ce6741c878c67a9064" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In: Pankhurst,  R.J., Trouw, R.A.J., Britto Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre- Cenozoic correlations across the South-Atlantic region, Geological Society, London,  137–151 (Special Publications). Le Maitre, R.W., Bateman, P., Dudek, A., Keller, J., Lameyre, J., Le Bas, M. J., Sabine,  P. A., Schmid, R., Sorensen, H., Streckeisen, A., Woolley, A. R.,  Zanettin, B., (1989).<br><b>Geocode:</b> Sorensen, Saint Louis Park, Hennepin County, Minnesota, United States<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_4c180863a205bd363980e061683335e1.setContent(html_b1a6c6d71b4f31ce6741c878c67a9064);
+            
+        
+
+        circle_marker_89f84d5ef1ea16531acd120acad4cbca.bindPopup(popup_4c180863a205bd363980e061683335e1)
+        ;
+
+        
+    
+    
+            circle_marker_89f84d5ef1ea16531acd120acad4cbca.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a9a35cd91a7d35fe6ced7c455a17e10a = L.circleMarker(
+                [12.1793275, -83.7774051],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_3e903af9070e4616e3912a2a203bb0ea = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ce64dd98cb948405be5393116fe2168f = $(`<div id="html_ce64dd98cb948405be5393116fe2168f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In: Pankhurst,  R.J., Trouw, R.A.J., Britto Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre- Cenozoic correlations across the South-Atlantic region, Geological Society, London,  137–151 (Special Publications). Le Maitre, R.W., Bateman, P., Dudek, A., Keller, J., Lameyre, J., Le Bas, M. J., Sabine,  P. A., Schmid, R., Sorensen, H., Streckeisen, A., Woolley, A. R.,  Zanettin, B., (1989).<br><b>Geocode:</b> South Caribbean Coast, Nicaragua<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_3e903af9070e4616e3912a2a203bb0ea.setContent(html_ce64dd98cb948405be5393116fe2168f);
+            
+        
+
+        circle_marker_a9a35cd91a7d35fe6ced7c455a17e10a.bindPopup(popup_3e903af9070e4616e3912a2a203bb0ea)
+        ;
+
+        
+    
+    
+            circle_marker_a9a35cd91a7d35fe6ced7c455a17e10a.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3cf7f315080903314ce5889ec3204fd0 = L.circleMarker(
+                [14.7788614, 0.0384507],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_6fd5a8dacddf33c618c8c0dc7823d5b8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_464d1de43c755c34438b19303394e8fa = $(`<div id="html_464d1de43c755c34438b19303394e8fa" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> more than a 1.9 Ga hiatus in the sedimentary sequence of the belt. This ferricrete is overlain  by recent, unconsolidated aeolian sediments and alluvium which make up most of the recent  stratigraphy of the OGGB. 39Ar-Ar40 age dating of laterite at Tambão, north of the field area,  suggested  that  the  last  period  of  weathering  and  oxidation  was  between  18  Ma  and  3  Ma  which was the time the iron-rich laterites formed (Beauvais et al., 2008). This weathering is a  reworking  of  previously  formed  bauxite  deposits  from  a  tropical  palaeo-climate  that  dominated  the  region  approximately  60  Ma. Mechanical  weathering  dominated  the  last  18  Ma and ultimately produced the glacis that are seen today (Beauvais et al., 2008). The laterite  and ferricrete form part of the stratigraphy in the field area.<br><b>Geocode:</b> Tambao, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 45<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6fd5a8dacddf33c618c8c0dc7823d5b8.setContent(html_464d1de43c755c34438b19303394e8fa);
+            
+        
+
+        circle_marker_3cf7f315080903314ce5889ec3204fd0.bindPopup(popup_6fd5a8dacddf33c618c8c0dc7823d5b8)
+        ;
+
+        
+    
+    
+            circle_marker_3cf7f315080903314ce5889ec3204fd0.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1a380a4d40cbdf9c566972f5bd80cbab = L.circleMarker(
+                [14.7788614, 0.0384507],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_c618aab387676813e67fbca774c02344 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8f6faff04d3fdbe221f4f6b044e16e26 = $(`<div id="html_8f6faff04d3fdbe221f4f6b044e16e26" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> more than a 1.9 Ga hiatus in the sedimentary sequence of the belt. This ferricrete is overlain  by recent, unconsolidated aeolian sediments and alluvium which make up most of the recent  stratigraphy of the OGGB. 39Ar-Ar40 age dating of laterite at Tambão, north of the field area,  suggested  that  the  last  period  of  weathering  and  oxidation  was  between  18  Ma  and  3  Ma  which was the time the iron-rich laterites formed (Beauvais et al., 2008). This weathering is a  reworking  of  previously  formed  bauxite  deposits  from  a  tropical  palaeo-climate  that  dominated  the  region  approximately  60  Ma. Mechanical  weathering  dominated  the  last  18  Ma and ultimately produced the glacis that are seen today (Beauvais et al., 2008). The laterite  and ferricrete form part of the stratigraphy in the field area.<br><b>Geocode:</b> Tambao, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 45<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c618aab387676813e67fbca774c02344.setContent(html_8f6faff04d3fdbe221f4f6b044e16e26);
+            
+        
+
+        circle_marker_1a380a4d40cbdf9c566972f5bd80cbab.bindPopup(popup_c618aab387676813e67fbca774c02344)
+        ;
+
+        
+    
+    
+            circle_marker_1a380a4d40cbdf9c566972f5bd80cbab.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e3179e6d16fc26ffdb236c0fc78b90fc = L.circleMarker(
+                [5.310935, -1.992426],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_c63df0b2091bfd5522ed02542c6e6d3b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c4c9131d2473e96f43f6f214bc225569 = $(`<div id="html_c4c9131d2473e96f43f6f214bc225569" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> However,  the  conglomerate found in the study area have similarities to those described by Tshibubudze et  al. (2009)  and  Tshibubudze  and  Hein  (2011)  and  host  clasts  of  fuchsitic  chert,  black  chert,  quartz,  dacite,  granodiorite  and  meta-sediment. These  clasts  are  set  in  an  immature  greywacke matrix with lithic fragments, gradational bedding and cross-bedding. Further argument for the rocks in the field area not to be considered Tarkwa Group sediments  is that there is no visible regional unconformity that marks the base of the overlying Tarkwa  sediments. A  continuous  stratigraphy  is  seen  throughout  the  entire  OGGB  with  no  unconformity (Tshibubudze et al., 2009). Also, greywacke was sampled from either side of  37<br><b>Geocode:</b> Tarkwa, Tarkwa-Nsuaem Municipal District, Western Region, Ghana<br><b>Pages:</b> 38<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_c63df0b2091bfd5522ed02542c6e6d3b.setContent(html_c4c9131d2473e96f43f6f214bc225569);
+            
+        
+
+        circle_marker_e3179e6d16fc26ffdb236c0fc78b90fc.bindPopup(popup_c63df0b2091bfd5522ed02542c6e6d3b)
+        ;
+
+        
+    
+    
+            circle_marker_e3179e6d16fc26ffdb236c0fc78b90fc.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_214e5848bf0b63daa653a5d919a1fa10 = L.circleMarker(
+                [14.6562836, 0.1646254],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_fa6b9aff9c49a3d265d708b96242994a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_50ac5b36b670752d92870682209b0580 = $(`<div id="html_50ac5b36b670752d92870682209b0580" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Needham  et  al. (1988)  stated  that  these  interbedded  units  make  up  only  a  portion of the Bouma Cycle from a turbiditic origin. 3.3. Intrusions  Tshibubudze et al. (2009) studied and described the intrusive bodies in the northern region of  Burkina  Faso. The  Tin  Taradat  granodiorite  tonalite  is  intruded  by  the  Yacouba  Mafic  Complex  (layered  pyroxenite  and  gabbro  suite).<br><b>Geocode:</b> Ti-n-Taradat, Markoye, Oudalan, Sahel, Burkina Faso<br><b>Pages:</b> 11<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_fa6b9aff9c49a3d265d708b96242994a.setContent(html_50ac5b36b670752d92870682209b0580);
+            
+        
+
+        circle_marker_214e5848bf0b63daa653a5d919a1fa10.bindPopup(popup_fa6b9aff9c49a3d265d708b96242994a)
+        ;
+
+        
+    
+    
+            circle_marker_214e5848bf0b63daa653a5d919a1fa10.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f9414ed02be1f8d65f210f0ba53680c1 = L.circleMarker(
+                [39.7837304, -100.445882],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_2e02613b4990ac861cc994c978e8286b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_25c2ba9b13212252e6037b3872c31866 = $(`<div id="html_25c2ba9b13212252e6037b3872c31866" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> This type  of  alteration  is  common  and  can  affect  mafic  to  felsic  rocks  during  crystallisation. An  example  where  deuteric  alteration  affects  quartz  monzonites,  similar  in  composition  to  the  dykes  of  the  field  area,  is  from  the  Boulder  Batholith  in  Montana,  USA. In  this  case,  the  alteration is related to the formation of ore deposits hosted within the intrusion (Neuerburg,  1958). 27<br><b>Geocode:</b> United States<br><b>Pages:</b> 28<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2e02613b4990ac861cc994c978e8286b.setContent(html_25c2ba9b13212252e6037b3872c31866);
+            
+        
+
+        circle_marker_f9414ed02be1f8d65f210f0ba53680c1.bindPopup(popup_2e02613b4990ac861cc994c978e8286b)
+        ;
+
+        
+    
+    
+            circle_marker_f9414ed02be1f8d65f210f0ba53680c1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fc96060b7171c68e2b6c9e1593e72a78 = L.circleMarker(
+                [60.3809342, 5.3313021],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_94cbd586439c6ce64c16bd06cd5d4a50 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_efca2b2fa5690a97565f41a32ddced0f = $(`<div id="html_efca2b2fa5690a97565f41a32ddced0f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> J., (2005). Sedimentary architecture  of a Plio-Pleistocene proto-back-arc basin: Wanganui Basin, New Zealand. Sedimentary  Geology, 181, 107-145. Ravanas,  R.,  (1991). A  sedimentological,  geochemical  and  provenance  study  of  the  Kalvag  Melange,  western  Norwegian  Caledonides,  Thesis  (unpublished). University  of  Bergen, 212 pp.<br><b>Geocode:</b> University of Bergen, O.J. Brochs gate, Sydnes, Bergenhus, Bergen, Vestland, 5006, Norway<br><b>Pages:</b> 57<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_94cbd586439c6ce64c16bd06cd5d4a50.setContent(html_efca2b2fa5690a97565f41a32ddced0f);
+            
+        
+
+        circle_marker_fc96060b7171c68e2b6c9e1593e72a78.bindPopup(popup_94cbd586439c6ce64c16bd06cd5d4a50)
+        ;
+
+        
+    
+    
+            circle_marker_fc96060b7171c68e2b6c9e1593e72a78.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_28be0976bd6afb2423c336068ecfc37f = L.circleMarker(
+                [49.0932008, 1.4857205],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_78f2faa45219878b9466c551cf2d0925 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f4284a519dee97fd08a8fd3f79b2aedd = $(`<div id="html_f4284a519dee97fd08a8fd3f79b2aedd" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  field  area  and  the  OGGB  do  not  exhibit  the  correct  criteria  for  large-scale  contact  metamorphism. One  would  expect  to  see  a  prominent  zonation  to  an  igneous  mass. In  the  case  of  the  Pine  Creek  Inlier,  a  zonation  from  hornfels  to  greenschist  is  mappable,  with  a  definable  biotite  isograd  (Hein,  2003). Burial  metamorphism  is  an  active  process  which  would  have  involved  basin  subsidence  and  a  resulting  increase  in  the  geothermal  gradient. There  would  be  an  increase  in  pressure  and  temperature  as  well  as  the  development  of  bedding parallel cleavage at depth (Vernon and Clarke, 2008). Cleavage is not present in the  rocks,  even  at  a  petrographic  scale  and  there  is  no  mineral  fabric  suggesting  burial  metamorphism.<br><b>Geocode:</b> Vernon, Les Andelys, Eure, Normandy, Metropolitan France, 27200, France<br><b>Pages:</b> 29<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_78f2faa45219878b9466c551cf2d0925.setContent(html_f4284a519dee97fd08a8fd3f79b2aedd);
+            
+        
+
+        circle_marker_28be0976bd6afb2423c336068ecfc37f.bindPopup(popup_78f2faa45219878b9466c551cf2d0925)
+        ;
+
+        
+    
+    
+            circle_marker_28be0976bd6afb2423c336068ecfc37f.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a012c7282c6d1d345c46ffc70f72b78 = L.circleMarker(
+                [49.5626502, 3.6267739],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_ced8309ed4e79f9cc4c4804b08ca79d0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_db15130e7d3d08039b39de4a43025c1e = $(`<div id="html_db15130e7d3d08039b39de4a43025c1e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Key structures for vertical to transcurrent tectonics. Journal of African Earth  Sciences, 58, 19–36. Milesi, J. P., Feybesse, J. L., Ledru, P., Dommanget, A., Ouedraogo, M. F., Marcoux, E.,  Prost, A., Vinchon, Ch., Sylvain, J.<br><b>Geocode:</b> Rue Vinchon, Gare, Laon, Aisne, Hauts-de-France, Metropolitan France, 02000, France<br><b>Pages:</b> 56<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_ced8309ed4e79f9cc4c4804b08ca79d0.setContent(html_db15130e7d3d08039b39de4a43025c1e);
+            
+        
+
+        circle_marker_7a012c7282c6d1d345c46ffc70f72b78.bindPopup(popup_ced8309ed4e79f9cc4c4804b08ca79d0)
+        ;
+
+        
+    
+    
+            circle_marker_7a012c7282c6d1d345c46ffc70f72b78.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c36d65fd7240446f816d12f15c2aca1 = L.circleMarker(
+                [22.2775843, 114.1728604],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_2ba59f9f5509071e52a533f7bc361807 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7f32728f87536ea5208e3f8aa7f2f24e = $(`<div id="html_7f32728f87536ea5208e3f8aa7f2f24e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2004)  concluded  that  the  Goren  Greenstone  Belt  of  north-east  Burkina  Faso  is  made  up  of  metamorphosed  volcanic  and pyroclastic rock units that are intercalated with metasedimentary rocks, thus revising the  type section stratigraphy of that belt. This research focuses on different geological aspects and provides a holistic study of the field  area. Due  to  the  lack  of  field  work  in  the  region,  basic  stratigraphy  is  not  known  in  many  parts  of  the  WAC. However,  Tshibubudze  and  Hein  (in  review)  have  established  a  stratigraphy  for  the  OGGB  in  a  large  way. The  study  area  characterizes  the  greywacke  sequence,  establishes  its  internal  stratigraphy  and  looks  at  its  relationships  with  intrusive  rocks that crop out throughout the region. The rocks in the field area are well exposed which  is not the case for other parts of the belt, making correlation difficult.<br><b>Geocode:</b> Wan Chai, Hennessy Road, Wan Chai South, Wan Chai, Wan Chai District, Hong Kong Island, Hong Kong, China<br><b>Pages:</b> 5<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_2ba59f9f5509071e52a533f7bc361807.setContent(html_7f32728f87536ea5208e3f8aa7f2f24e);
+            
+        
+
+        circle_marker_8c36d65fd7240446f816d12f15c2aca1.bindPopup(popup_2ba59f9f5509071e52a533f7bc361807)
+        ;
+
+        
+    
+    
+            circle_marker_8c36d65fd7240446f816d12f15c2aca1.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fa83e4af5b44426450b3c2b203bf8803 = L.circleMarker(
+                [47.3138746, 5.0488196],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_95da1d6017340f85064938fad59b660d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4f389956ff5427d3520aaa5887a62844 = $(`<div id="html_4f389956ff5427d3520aaa5887a62844" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Brown, E. T., Bourles, D. L., Colin, F., Safno, Z., Raisbeck, G. M., Yiou, F., (1994). The  development of iron crust lateritic systems in Burkina Faso, West Africa examined with  in-situ-produced cosmogenic nuclides. Earth and Planetary Science Letters, 124, 19–33. || Principles of Sedimentology and stratigraphy: Fourth Edition, Pearson  Prentice Hall, New Jersey, 662 pp. Bossiere,  G.,  Bonkoungou,  I.,  Peucat,  J. J.,  Pupin,  J. P.,  (1996). Origin  and  age  of  Palaeoproterozoic  conglomerates  and  sandstones  of  the  Tarkwaian  Group  in  Burkina  Faso, West Africa. Precambrian Research, 80, 153-172. || R.,  (1998). A  review  of  Wanganui  Basin,  New  Zealand:  global  reference  section  for  shallow  marine,  Plio–Pleistocene  (2.5–0  Ma)  cyclostratigraphy. Sedimentary Geology, 122, 37-52. Davis,  D. W.,  Hirdes,  W.,  Schaltegger,  Nunoo,  A.,  (1994). U–Pb  age  constraints  on  deposition and provenance of Birimian and gold-bearing Tarkwaian sediments in Ghana,  West Africa. || W.,  Ludtke, G., Konan,  G., (1996). Two  generations  of Birimian  (Paleoproterozoic)  volcanic  belts  in  north-eastern  Cote  d’Ivoire  (West  Africa):  consequences for the Birimian controversy’. Precambrian Research, 80, 173–191. Junner, N.R., (1935). Gold in the gold coast, Ghana Geological Survey Memoir, No. 4,  67pp. || Chemical and physical erosion  rhythms  of  the  West  African  Cenozoic  morphogenesis:  The  39Ar-40Ar  dating  of  supergene K-Mn oxides. Journal of Geophysical Research, 113, 1-15. Beziat, D., Dubois, M., Debat, P., Nikiema, S., Salvi, S., Tollon, F., (2008). Gold  metallogeny  in  the  Birimian  craton  of  Burkina  Faso  (West  Africa). Journal  of  African  Earth Sciences, 50, 215–233. Boggs, S., (2006).<br><b>Geocode:</b> West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France<br><b>Pages:</b> 52,52,53,55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_95da1d6017340f85064938fad59b660d.setContent(html_4f389956ff5427d3520aaa5887a62844);
+            
+        
+
+        circle_marker_fa83e4af5b44426450b3c2b203bf8803.bindPopup(popup_95da1d6017340f85064938fad59b660d)
+        ;
+
+        
+    
+    
+            circle_marker_fa83e4af5b44426450b3c2b203bf8803.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5ad4ac47bc90ab289704cd3a542d41a9 = L.circleMarker(
+                [52.2900224, 5.6148779],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_dfb4f7cc5db76058a001923189747a09 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fcfaedc1f8d791768b325c81e1357df6 = $(`<div id="html_fcfaedc1f8d791768b325c81e1357df6" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Laboratory Methodology  Three granodiorite-quartz monzonite samples were submitted for geochemical analysis. This  analysis included XRF, which tested for major and trace elements and ICP-MS which tested  for  trace  elements. The  analyses  were  completed  at  the  Earth  Lab  at  the  University  of  the  Witwatersrand. The  samples  were  prepared  for  XRF  geochemical  analysis  which  works  in  the following method:  Summary of XRF Analysis (in house, unpublished). Major Analysis  All major elements were analyzed for, on an infinitely thick fused disk. Preparation of the fused disk:  1.<br><b>Geocode:</b> Witwatersrand, Ermelo, Gelderland, Netherlands, 3851 AA, Netherlands<br><b>Pages:</b> 14<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_dfb4f7cc5db76058a001923189747a09.setContent(html_fcfaedc1f8d791768b325c81e1357df6);
+            
+        
+
+        circle_marker_5ad4ac47bc90ab289704cd3a542d41a9.bindPopup(popup_dfb4f7cc5db76058a001923189747a09)
+        ;
+
+        
+    
+    
+            circle_marker_5ad4ac47bc90ab289704cd3a542d41a9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_769e56a9d329d3a64b91a6232bfa4ade = L.circleMarker(
+                [53.6101088, -1.5249249],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_9c289ec64a3a1020fb656c8975defe0f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0253a4f6dc81796cd453029027395a25 = $(`<div id="html_0253a4f6dc81796cd453029027395a25" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> In: Pankhurst,  R.J., Trouw, R.A.J., Britto Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre- Cenozoic correlations across the South-Atlantic region, Geological Society, London,  137–151 (Special Publications). Le Maitre, R.W., Bateman, P., Dudek, A., Keller, J., Lameyre, J., Le Bas, M. J., Sabine,  P. A., Schmid, R., Sorensen, H., Streckeisen, A., Woolley, A. R.,  Zanettin, B., (1989).<br><b>Geocode:</b> Woolley, Wakefield, West Yorkshire, England, United Kingdom<br><b>Pages:</b> 55<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_9c289ec64a3a1020fb656c8975defe0f.setContent(html_0253a4f6dc81796cd453029027395a25);
+            
+        
+
+        circle_marker_769e56a9d329d3a64b91a6232bfa4ade.bindPopup(popup_9c289ec64a3a1020fb656c8975defe0f)
+        ;
+
+        
+    
+    
+            circle_marker_769e56a9d329d3a64b91a6232bfa4ade.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acb50c5ceb7e8961c8687eff18cd0d27 = L.circleMarker(
+                [51.4090641, -0.306137],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_f7d0cbfdc7b40f41a85cc695c14c3a1b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a1cbbb0fdede063decf40495484d042e = $(`<div id="html_a1cbbb0fdede063decf40495484d042e" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Brown, E. T., Bourles, D. L., Colin, F., Safno, Z., Raisbeck, G. M., Yiou, F., (1994). The  development of iron crust lateritic systems in Burkina Faso, West Africa examined with  in-situ-produced cosmogenic nuclides. Earth and Planetary Science Letters, 124, 19–33.<br><b>Geocode:</b> YIOU, Market Place, Norbiton, Royal Borough of Kingston upon Thames, London, Greater London, England, KT1 1JS, United Kingdom<br><b>Pages:</b> 53<br><b>Type:</b> PLACE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_f7d0cbfdc7b40f41a85cc695c14c3a1b.setContent(html_a1cbbb0fdede063decf40495484d042e);
+            
+        
+
+        circle_marker_acb50c5ceb7e8961c8687eff18cd0d27.bindPopup(popup_f7d0cbfdc7b40f41a85cc695c14c3a1b)
+        ;
+
+        
+    
+    
+            circle_marker_acb50c5ceb7e8961c8687eff18cd0d27.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5ef170776fea9e573b939ac36fe9ac19 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_539f633c897c95b02285f1a82d4af432 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1f58fb202ad701788c6f5c41df5eee1f = $(`<div id="html_1f58fb202ad701788c6f5c41df5eee1f" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Porphyritic monzonite dykes were identified in the north east part of  Burkina Faso and these are the subject of current geochronological studies at the University  of Western Australia (Tshibubudze and Hein, in review). 3.4. Regional Tectonics  The tectonism of the West African Craton has been studied in detail by Hirdes et al. (1996),  Feybesse et al. (2006), Tshibubudze et al. (2009), Hein (2010) and Tshibubudze and Hein (in  review).<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 11<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_539f633c897c95b02285f1a82d4af432.setContent(html_1f58fb202ad701788c6f5c41df5eee1f);
+            
+        
+
+        circle_marker_5ef170776fea9e573b939ac36fe9ac19.bindPopup(popup_539f633c897c95b02285f1a82d4af432)
+        ;
+
+        
+    
+    
+            circle_marker_5ef170776fea9e573b939ac36fe9ac19.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c3e204dcb9e3fbfd50ec660d3426a5b = L.circleMarker(
+                [40.7156923, -73.5753478],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_5bd9f56a8fbb360a0a6e2c9671840bf6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_aa9b424fddb378048f875644ad25b570 = $(`<div id="html_aa9b424fddb378048f875644ad25b570" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> more than a 1.9 Ga hiatus in the sedimentary sequence of the belt. This ferricrete is overlain  by recent, unconsolidated aeolian sediments and alluvium which make up most of the recent  stratigraphy of the OGGB. 39Ar-Ar40 age dating of laterite at Tambão, north of the field area,  suggested  that  the  last  period  of  weathering  and  oxidation  was  between  18  Ma  and  3  Ma  which was the time the iron-rich laterites formed (Beauvais et al., 2008). This weathering is a  reworking  of  previously  formed  bauxite  deposits  from  a  tropical  palaeo-climate  that  dominated  the  region  approximately  60  Ma. Mechanical  weathering  dominated  the  last  18  Ma and ultimately produced the glacis that are seen today (Beauvais et al., 2008). The laterite  and ferricrete form part of the stratigraphy in the field area.<br><b>Geocode:</b> The Meadows At Mitchell Field, East Meadow, Town of Hempstead, Nassau County, New York, United States<br><b>Pages:</b> 45<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_5bd9f56a8fbb360a0a6e2c9671840bf6.setContent(html_aa9b424fddb378048f875644ad25b570);
+            
+        
+
+        circle_marker_5c3e204dcb9e3fbfd50ec660d3426a5b.bindPopup(popup_5bd9f56a8fbb360a0a6e2c9671840bf6)
+        ;
+
+        
+    
+    
+            circle_marker_5c3e204dcb9e3fbfd50ec660d3426a5b.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e88b7587d41fd0a4d6068ef88507c255 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_7f7fcdf89a41e275cf56592b9fc2ddd8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_edeb2af9732f14c5b56c3d6654fc7645 = $(`<div id="html_edeb2af9732f14c5b56c3d6654fc7645" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> (2004)  concluded  that  the  Goren  Greenstone  Belt  of  north-east  Burkina  Faso  is  made  up  of  metamorphosed  volcanic  and pyroclastic rock units that are intercalated with metasedimentary rocks, thus revising the  type section stratigraphy of that belt. This research focuses on different geological aspects and provides a holistic study of the field  area. Due  to  the  lack  of  field  work  in  the  region,  basic  stratigraphy  is  not  known  in  many  parts  of  the  WAC. However,  Tshibubudze  and  Hein  (in  review)  have  established  a  stratigraphy  for  the  OGGB  in  a  large  way. The  study  area  characterizes  the  greywacke  sequence,  establishes  its  internal  stratigraphy  and  looks  at  its  relationships  with  intrusive  rocks that crop out throughout the region. The rocks in the field area are well exposed which  is not the case for other parts of the belt, making correlation difficult. || 2.0. Introduction  2.1. Preamble  The  study  area  is  situated  in  the  Oudalan-Gourouol  Greenstone  Belt  (OGGB)  in  north-east  Burkina  Faso  (Fig. 1). Besides  the  research  completed  by  Tshibubudze  et  al. (2009)  which  only encompassed a minor portion to the north of the study area, the study area has not been  previously  mapped  or  described.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 5<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7f7fcdf89a41e275cf56592b9fc2ddd8.setContent(html_edeb2af9732f14c5b56c3d6654fc7645);
+            
+        
+
+        circle_marker_e88b7587d41fd0a4d6068ef88507c255.bindPopup(popup_7f7fcdf89a41e275cf56592b9fc2ddd8)
+        ;
+
+        
+    
+    
+            circle_marker_e88b7587d41fd0a4d6068ef88507c255.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d28198b694a956444f505c1ff3f77be = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_7881329e650064b93f5fad4bb9cb7c18 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_524581b4d75982d5ce43ecffedc49c83 = $(`<div id="html_524581b4d75982d5ce43ecffedc49c83" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> The  tonalite  intruded  a  granite  adamellite  west of the Markoye Shear Zone. To the east, it intrudes Palaeoproterozoic sedimentary and  volcanic sequences (Tshibubudze and Hein, in review). A swarm of late dolerite dykes which  trend WNW and NW cross-cut the supracrustal rocks of the Birimian Supergroup. They are  dated at 250 Ma. Tshibubudze et al. (2009) classified dolerite dykes with the same trend in  the north-east of Burkina Faso, at Essakane, which also cross-cut supracrustal rocks including  greywacke and siltstone.<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 11<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_7881329e650064b93f5fad4bb9cb7c18.setContent(html_524581b4d75982d5ce43ecffedc49c83);
+            
+        
+
+        circle_marker_2d28198b694a956444f505c1ff3f77be.bindPopup(popup_7881329e650064b93f5fad4bb9cb7c18)
+        ;
+
+        
+    
+    
+            circle_marker_2d28198b694a956444f505c1ff3f77be.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd6697a9378060515543bced363453d9 = L.circleMarker(
+                [7.9897371, -5.5679458],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_1df1e6d7fcaccd41589f09af221cb5bc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_63ec05d0d3968a7d6e5b0d58b3568327 = $(`<div id="html_63ec05d0d3968a7d6e5b0d58b3568327" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> W.,  Ludtke, G., Konan,  G., (1996). Two  generations  of Birimian  (Paleoproterozoic)  volcanic  belts  in  north-eastern  Cote  d’Ivoire  (West  Africa):  consequences for the Birimian controversy’. Precambrian Research, 80, 173–191. Junner, N.R., (1935). Gold in the gold coast, Ghana Geological Survey Memoir, No. 4,  67pp.<br><b>Geocode:</b> Côte d'Ivoire<br><b>Pages:</b> 55<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_1df1e6d7fcaccd41589f09af221cb5bc.setContent(html_63ec05d0d3968a7d6e5b0d58b3568327);
+            
+        
+
+        circle_marker_dd6697a9378060515543bced363453d9.bindPopup(popup_1df1e6d7fcaccd41589f09af221cb5bc)
+        ;
+
+        
+    
+    
+            circle_marker_dd6697a9378060515543bced363453d9.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_32f996df64e7f24c893abd346af2ead2 = L.circleMarker(
+                [12.0753083, -1.6880314],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_6a7214b3a8a020a137fd541d08ff4488 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3f9e72d3c5ecd6b33c966abd0f6cd3c6 = $(`<div id="html_3f9e72d3c5ecd6b33c966abd0f6cd3c6" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Needham  et  al. (1988)  stated  that  these  interbedded  units  make  up  only  a  portion of the Bouma Cycle from a turbiditic origin. 3.3. Intrusions  Tshibubudze et al. (2009) studied and described the intrusive bodies in the northern region of  Burkina  Faso. The  Tin  Taradat  granodiorite  tonalite  is  intruded  by  the  Yacouba  Mafic  Complex  (layered  pyroxenite  and  gabbro  suite).<br><b>Geocode:</b> Burkina Faso<br><b>Pages:</b> 11<br><b>Type:</b> GEOLOGICAL_UNIT<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_6a7214b3a8a020a137fd541d08ff4488.setContent(html_3f9e72d3c5ecd6b33c966abd0f6cd3c6);
+            
+        
+
+        circle_marker_32f996df64e7f24c893abd346af2ead2.bindPopup(popup_6a7214b3a8a020a137fd541d08ff4488)
+        ;
+
+        
+    
+    
+            circle_marker_32f996df64e7f24c893abd346af2ead2.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1da4407255e92c1f84c0fa2c31d6a794 = L.circleMarker(
+                [47.3138746, 5.0488196],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_238f3c9cfd3c31263ff48814811329e4);
+        
+    
+        var popup_98796b8b8c0ab9d78acda3829b0f5bb4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_264eacafacd9a1fa988f7e80d15b6377 = $(`<div id="html_264eacafacd9a1fa988f7e80d15b6377" style="width: 100.0%; height: 100.0%;"><b>Location:</b> <br><b>Context:</b> Hirdes, W., Davis, D. W., (2002). U-Pd geochronology of Palaeoproterozoic rocks in the  southern  part  of  the  Kedougou-Kenieba  Inlier,  Senegal,  West  Africa:  Evidence  for  diachronous accretionary development of the Eburnean province. Precambrian Research,  118, 83-99. Klein, E.L., Moura, C.A.V., (2009). São Luis craton and Gurupi belt (Brazil): possible  links with the West African craton and surroundings Pan-African belts.<br><b>Geocode:</b> West Africa, Rue d'Auxonne, Faubourg Saint-Pierre, Université, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21000, France<br><b>Pages:</b> 55<br><b>Type:</b> APPROXIMATE<br><b>Accuracy:</b> exact</div>`)[0];
+                popup_98796b8b8c0ab9d78acda3829b0f5bb4.setContent(html_264eacafacd9a1fa988f7e80d15b6377);
+            
+        
+
+        circle_marker_1da4407255e92c1f84c0fa2c31d6a794.bindPopup(popup_98796b8b8c0ab9d78acda3829b0f5bb4)
+        ;
+
+        
+    
+    
+            circle_marker_1da4407255e92c1f84c0fa2c31d6a794.bindTooltip(
+                `<div>
+                     
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
