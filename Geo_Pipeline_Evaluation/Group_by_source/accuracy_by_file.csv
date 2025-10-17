@@ -1,0 +1,6 @@
+﻿file,correct,incorrect,skip,labeled,all_rows,accuracy,accuracy_including_skip
+2007_tshibubudze_themarkoyefault_2007_merged_final_review.csv,62,14,0,76,76,0.8157894736842105,0.8157894736842105
+2010_matsheka_irvinfinalthesis_merged_final_review.csv,55,18,0,73,73,0.7534246575342466,0.7534246575342466
+2011_woolfe_thestratigraphyandmetamorphicfaciesofthekemb_merged_final_review.csv,30,14,0,44,44,0.6818181818181818,0.6818181818181818
+"2012_simoko_petrology,geochemistryandstructureofthepissilabatholithandthesaabazonegneiss_merged_final_review.csv",26,8,0,34,34,0.7647058823529411,0.7647058823529411
+2013_ramabulana_sadiolahillpetrology_merged_final_review.csv,50,20,0,70,70,0.7142857142857143,0.7142857142857143

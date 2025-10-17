@@ -1,0 +1,4 @@
+﻿source_group,correct,incorrect,skip,labeled,all_rows,accuracy,accuracy_including_skip
+llm,142,24,0,166,166,0.8554216867469879,0.8554216867469879
+"llm,rules",39,1,0,40,40,0.975,0.975
+rules,42,49,0,91,91,0.46153846153846156,0.46153846153846156

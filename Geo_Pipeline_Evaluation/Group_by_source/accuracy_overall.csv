@@ -1,0 +1,2 @@
+﻿file,correct,incorrect,skip,labeled,all_rows,accuracy,accuracy_including_skip
+TOTAL,223,74,0,297,297,0.7508417508417509,0.7508417508417509
